@@ -1,0 +1,57 @@
+Priority: Not ready / author rework (17 matches) [for MPI-3.1 or to be closed]
+Ticket  Summary  Owner  Type  
+#15 Pre-MPI_Init behavior clarification  asupalov  Text (only) changes  
+#22 MPI Initialization time assertions in MPI 3.0  asupalov  Enhancements to standard  
+#26 Add a callback function if a request completes  htor  New routine(s)  
+#28 New binary operators (for segmented scans etc.) on (value,index) pair datatypes  traff  New routine(s)  
+#32 Partial pack/unpack functionality  traff  New routine(s)  
+#34 Extend predefined MPI_Op's to user defined datatypes composed of a single, predefined type  bosilca  Enhancements to standard  
+#35 Collective registration of datatypes and user-defined operations for one-sided communication  traff  New routine(s)  
+#47 MPI_Request_free issues  rlgraham  New routine(s)  
+#138 Review MPI3 handle debugging proposal  jsquyres  Enhancements to standard  
+#152 Fortran Support in MPI-3  rasmussn  Enhancements to standard  
+#165 MPI_Request_free() appears to break the MPI Errors return mode and also "errors fatal" condition  tony  Correction to standard  
+#221 Undeprecate the C++ Bindings in MPI 3.x  tony  Correction to standard  
+#263 wrong formula for the upper bound  bosilca  Text (only) changes  
+#282 Clarify definitions of error, fault and failure throughout the standard  buntinas  New routine(s)  
+#292 MPI_COMM_KILL  jjhursey  New routine(s)  
+#304 Fix the attribute disaster   Text (only) changes  
+
+
+Priority: Not ready / author rework (5 matches)  [INTERESTING, BUT NOT FULLY READY] 
+Ticket  Summary  Owner  Type  
+#277 Add MPI_Timer requests  ftillier  New routine(s)  
+
+
+Priority: Forum feedback requested (14 matches) [for MPI-3.1 or to be closed]  
+Ticket  Summary  Owner  Type  
+#155 MPI-3: Allowing some features before MPI_Init  balaji  Enhancements to standard  
+#163 MPI_IN_PLACE in Gather   Enhancements to standard  
+#188 Remove deprecated attribute functions  jsquyres  Enhancements to standard  
+#189 Datatype support functionality   New routine(s)  
+#195 Topology awareness in MPI_Dims_create  balaji  Enhancements to standard  
+#226 Add a call to merge communicators   New routine(s)  
+#257 Rename the regular and irregular variants of MPI_Reduce_scatter*   Enhancements to standard  
+#269 Support for 'w' variants of 'v' collectives  ftillier  New routine(s)  
+#293 K&R style on 6.7.6  jhammond  Text (only) changes  
+#295 Add a new routine: MPI_File_stat  chaarawi  New routine(s)  
+#297 MPI_COMM_TYPE_NEIGHBORHOOD  jdinan  Enhancements to standard  
+#301 deprecate MPI_COMM_JOIN  jhammond  Correction to standard  
+#306 Suggest a Return Code Value from mpiexec  jjhursey  Enhancements to standard  
+#307 Behavior of MPI_INIT after failure to initialize  jjhursey  Enhancements to standard  
+
+
+Priority: Forum feedback requested (1 matches) [related to 310 und 311]  
+Ticket  Summary  Owner  Type  
+#289 function for merging communicators   New routine(s)  
+
+
+Priority: Waiting for proposal reviews (2 matches) [for MPI-3.1 or to be closed]  
+Ticket  Summary  Owner  Type  
+#184 Modernize Fortran ALLOC_MEM example  bosilca  Text (only) changes  
+#203 Simplification of the Latex Source as Basis of MPI-3.0 (NO text change)  RolfRabenseifner  Trivial text changes [DONE] 
+
+
+Priority: Proposal reviewed (1 matches) [for MPI-3.1 or to be closed] 
+Ticket  Summary  Owner  Type  
+#23 Generalized v-collectives: allow unknown recvcounts / rdispls  asupalov  New routine(s)  

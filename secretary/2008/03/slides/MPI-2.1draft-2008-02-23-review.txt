@@ -1,0 +1,1225 @@
+Review of MPI-2.1draft-2008-02-23.pdf
+-------------------------------------
+
+Comments by the MPI-2.1 Editor (Rolf Rabenseifner)
+
+      OK  = Obvious, typo, correction must be done, ...
+            or good idea, correction should be done, ...
+      ?   = should be decided by the MPI Forum
+      2R  = deferred to a secound round of modifying the MPI-2.1 document
+      22  = should be deferred to MPI-2.2.
+            It is mainly a suggestion to the content of MPI and not
+            to the merging of MPI-1.1 with MPI-2.
+      Q?  = Question & answer only, no need for corrections
+      -   = Comment, can be ignored
+     *NO* = Correction must or should not be done
+
+
+Alexander Supalov, Intel, 26 Feb 2008:
+======================================
+
+     Chapter 1:
+     ----------
+
+ 1.a  OK  Page 4/35 Rename "Bindings for ..." into "Language bindings" and
+          move to the bottom of the list, just before the "Profiling interface".
+
+     Chapter 3:
+     ----------
+
+ 1.b  OK  Page 95/32 Reads MPI_TYPE_EXTENT, should read MPI_TYPE_GET_EXTENT.
+
+ 1.c *NO* Page 96/1-26 Move before page 99/1.
+
+          Reason for *NO*:
+             Pages 95/1-97/48 is the mainly new MPI-2 Section, here 3.12.7.
+             Pages 98/1-99/27 is the deprecated MPI-1 Section, here 3.12.9.
+             Line  98/2 tells that the total section is deprecated.
+             There is no need to mix up new and old sections.
+
+          An alternative solution is proposed in the review items 16.p+q.
+
+     Chapter 4:
+     ----------
+
+ 1.d  OK  Page 153/5 Remove "
+
+          OK with following modification: 153/5 send" --> "send"
+                                          153/6 receive" --> "receive"
+
+     Chapter 7:
+     ----------
+
+ 1.e  -   Page 259/28-31 Too much white space.
+
+          Reason for ignoring this: The MPI-2 macros are producing the white 
+          space in general.
+
+     Chapter 14:
+     ----------
+
+ 1.f *NO* Page 482/27-35 Remove.
+
+          Reason for *NO*: 
+             This section describes the handling of Macros (new in MPI-2)
+             and C++. Therefore in the merging, it cannot be removed.
+
+     Function Index:
+     ---------------
+
+ 1.g  -   Page 565 - 572 Remove prefixes CONST, etc.
+
+          Reason for ignoring: the Index is not finished.
+               My plan is to separate it in 4 indexes: Constants Examples, 
+               Functions, Typedefs.
+
+     General:
+     --------
+
+ 1.h *NO* Finally, I think that simply merging the MPI-1 and MPI-2 sections may
+          not looks well enough. I'd rather move all smaller topics (bindings,
+          environmental stuff, external interfaces, and profiling interface) into
+          Miscellany, and put Miscellany at the very end of the list, were it
+          properly belongs (as assorted bits that did not fit anywhere else).
+          Sorry if this is already on your plans.
+
+          Reasons for *NO*:
+          - I partially agree, but the Forum decided (I have not proposed this)
+            to move all except the Info into the other chapters.
+            I have to execute Forums decisions, therefore it is now nearly empty.
+          - I would like to keep it there, because the MPI forum decided
+            to write the standard from important to unimortant, from absolutely
+            needed to sometimes needed, ...
+            Therefore the Group/Communicator chapter is after Pt-to-pt and Coll.
+            On the other hand, it is convenient to have things defined
+            before they are used.
+            Infos are used in 3 chapters. And Infos is now located before these
+            3 chapters.
+
+
+
+Alexander Supalov, Intel, 3 Mar 2008:
+=====================================
+
+     Chapter 13:
+     ----------
+
+ 2.a  OK  Page 440/45 Reads "is", should read "are".
+
+ 2.b *NO* Page 441 Put Tables 13.2 and 13.3 right after Table 13.1 on Page 440.
+
+          Reason for *NO*:
+             Latex locates the tables automatically.
+
+ 2.c  OK  Page 445/37 Reads "is is", should read "is".
+
+
+Karl Feind, SGI, 3 Mar 2008:
+============================
+
+     Chapter 1:
+     ----------
+
+          It looks pretty good.
+
+ 3.a  OK  I did notice two sentences on page 4, section 1.4, lines 13 and 14
+          that apply to MPT 1.2 but not to MPI 2. This seems wrong in an MPI 2.1
+          standard document. Can we delete the following two sentences from the
+          merged document?
+
+          "Although no explicit support for threads is provided, the
+          interface has been designed so as not to prejudice their use. With
+          this version of MPI no support is provided for dynamic spawning
+          of tasks."
+
+ 3.b  OK  If we do that, we could combine the sentence at line 11 about MIMD and
+          SPMD with the next paragraph that starts at line 15. This is the 
+          sentence I'm referring to:
+
+          "The interface is suitable for use by fully general MIMD
+          programs, as well as those written in the more restricted style
+          of SPMD."
+
+
+Richard Graham, ORNL, 03 Mar 2008:
+==================================
+
+     Chapter 3:
+     ----------
+
+          Here is a first cut at comments on chapter 3. It looks good overall.
+          Some of these comments, I am sure, are relevant once the automated part
+          is done, as it involves text changes referring to the new document.
+
+ 4.x  OK  What about signed char - it should also be in the basic data section. 
+          In addition, this and wide char and unsigned long long should go into 
+          the data type table.
+
+ 4.a  -   Page 34, line 1-6 - ok, but marked in red. 
+          They are from the original 1.1 document.
+          Editor's comment: My printed version is correct. acroread has problems.
+
+ 4.b  OK  Page 39 is incorrect. Lines 36-38. there is a standard definition in
+          Fortran 2003 for fortran/C interoperability.
+          Editor's comment: Lines 32-38 must be deleted! (Not only 36-38)
+
+ 4.c  OK  Page 53: lines 30-34, need to get the correct reference based on the 
+          new document. (also, unmarked as moved text)
+
+ 4.d  Q?  What happened to section 4.5/4.5.1 from the MPI 2.0 standard. 4.5.2
+          made it over.
+          Editor's answer:
+             4.5 and 4.5.1 are at page/lines 34/35 - 35/33, 4.5.2 is at 64/1-27.
+
+ 4.e  OK  Page 69 line 7 incorrectly states that there are four ways to create
+          persistent communication request. The correct number is 5 - 4 send, 1
+          receive.
+          Editor's comment: Typo: "four" --> "five"
+
+ 4.f  OK  Page 72, lines 34-38 need to reference the correct pages in the
+          combined 2.1 document.
+          Editor's comment: Correct is 13.2.2 / page 449 / page 452
+                            without mentioning "of the MPI-2 Standard". 
+
+ 4.g  -   Page 76 lines 1-4 should not be colored. They are from the 1.1 doc.
+          Editor's comment: My printed version is correct. acroread has problems.
+
+ 4.h *NO* Page 76 line 39: Do we still want to keep the name New in the title ?
+          This also seems out of place.
+          Reason for *NO*: All correct.
+
+ 4.i *NO* Page 77 lines 1-12 should be merged with the text, with the MPI 1.1
+          versions explicitly marked as deprecated.
+          Reason for *NO*: This text is a general text about all these routines.
+                           It is in an extra section.
+
+ 4.j  OK  (Added by the editor:)
+          Page 77 line 13: Delete first sentence
+             "The new functions are listed below."
+
+ 4.k  OK  Page 94: lines 42-46, reference the correct pages in the new combined
+          document.
+          Editor's comment: Correct is 13.2.2 / page 449 / page 452
+                            without mentioning "of the MPI-2 Standard". 
+
+ 4.l  Q?  Page 95: lines 2-4, do we need this explanation ?
+          Editor's answer: Yes
+          Editor's comment: See also review item 16.k
+
+ 4.m  OK  Page 95: line 21-22, change to page reference in the new document.
+          Editor's comment: Yes, but the reference must be removed,
+               because 3.12.2 old MPI_TYPE_EXTENT is in the same section,
+               and also lb is defined first in MPI_TYPE_CREATE_RESIZED in this
+               section.
+          Editor's comment: See also review item 16.l
+
+
+Richard Graham, ORNL, 03 Mar 2008:
+==================================
+
+     Chapter 7:
+     ----------
+
+ 5.a  OK  Page 247 line 34: MPI_VERSION should be 2
+
+ 5.b  -   Page 250 lines 1-3: don't need to be red
+          Editor's answer: My printed version is correct. acroread has problems.
+
+ 5.c  -   Page 253 lines 1-2: don't need to be red
+          Editor's comment: My printed version is correct. acroread has problems.
+
+ 5.d  2R  Page 253 line 14: Do we want to refer to MPI-2 specifically, or just as
+          extended error handling ?
+          Editor's comment: Yes, in the 2nd round, this merge should be done.
+
+ 5.e  OK  Page 262: lines 1-11: Should MPI_ERR_KEYVAL be added to the list 
+          on page 261 ?
+          Editor's comment: To be added after 261/20.
+                            To be added also after 483/45
+
+ 5.f  Q?  Page 264: lines 6-16, should this be changed to reflect NULL arguments
+          to MPI_Init() w/o backward reference to MPI 1.1 ?
+          Editor's answer: I would keep the existing text.
+
+
+Rajeev Thakur, ANL, 03 Mar 2008:
+================================
+
+     Chapter 4:
+     ----------
+
+ 6.a  Q?  * This chapter is a merge without change of the original collective
+          comm chapter in MPI-1 and the chapter on extended collective ops in
+          MPI-2. As a result, it uses the terms MPI-1, MPI-2, MPI-1.2 all over
+          the place. Are we still retaining this distinction? If not, the text
+          would need to be edited carefully to remove those terms.
+          (Not doing it here.)
+          Editor's answer: I would keep the existing text.
+
+ 6.b *NO* * The introductory text from the original chapter in MPI-2.0 makes
+          sense when it is viewed as an extension (add-on) to the chapter in
+          MPI-1. But that text in its new location in Section 4.3 does not make
+          sense as it is, because it appears before any of the collective
+          functions have been introduced. Section 4.3 needs some careful
+          editing to make it fit in its new position. (Not doing it here.)
+          Reason for *NO*: 
+             It can be done, if such a text would be written at the
+             March 2008 meeting. Otherwise, this item is deferred to
+             MPI-2.2. Current text: 124/12 - 127/38.
+
+ 6.c  OK  * pg 128, ln 5: Say "For intracommunicators, MPI_Barrier blocks the
+          caller..." and delete the first sentence on ln 7 "For MPI-2,
+          comm may be an intercomm or intracomm"
+
+ 6.d  OK  * The already officially approved errata, which appear under "MPI 2.0
+          Errata" at http://www.mpi-forum.org/mpi2_1/index.htm need to be
+          incorporated in this chapter.
+          Editor's comment: 
+             Ballots 1-4 are included into the next version of MPI-2.1.
+
+     Chapter 5:
+     ----------
+
+ 6.e  OK  * pg 200, ln 48 on Intercommunication says: "An inter-communicator
+          cannot be used for collective communication.". That needs to be
+          deleted.
+
+
+Richard Treumann, IBM , 4 Mar 2008:
+===================================
+
+     General:
+     --------
+
+ 7.a  OK  The MPI standard has several references to ANSI C and on page 15 of the
+          combined doc we say to read ANSI C as ISO C. Does it make sense to fix
+          this and just refer to ISO C? We might want to mention that the
+          original books said ANSI C and the combined book has rectified that.
+
+          Editor's comment:
+             The MPI-2 based location in MPI-2.1: 15/39-41.
+             Other MPI-2 based "ANSI C" locations: 11/21, 18/36, 19/13, 24/17,
+                25/22, 155/19, 436/12, 464/10.
+             Other MPI-1 based "ANSI C" locations: 29/48, 94/33, 160/9, 249/5,
+                255/19-21, 263/30.
+             Other MPI-2 based "ISO C" locations: 15/40-41, 30/33, 464/6.
+
+          Answer: YES, and the whole section 436/11-17 can be removed.
+
+
+Richard Barrett, ORNL, 04 Mar 2008:
+===================================
+
+     Chapter 6:
+     ----------
+
+          In general this section needs updating. It often reads like its trying
+          to convince the reader that the functionality is worthwhile. Would also
+          benefit from an update to citations in support of capabilities and
+          features. Some text is clunky.
+
+          Suggestions, corrections, observations, based on MPI 2.1, 
+          draft 2008-02-23.
+
+ 8.1  22  1. p231/41: The citation supporting the performance potential of
+          graph defined topologies is from 1989. Are there more recent citations
+          to supplement? Similar question for other citations throughout the
+          chapter.
+
+ 8.2  22  2. p231/47: "... with tremendous benefits for program readability". 
+          I appreciate the optimistic tone, but perhaps a little less hype: "with
+          potential benefits ..."
+
+ 8.3  22  3. p232/6: "The nodes stand for ...". How about, "represent"?
+
+ 8.4 *NO* 4. p232/7: "MPI provides message-passing between any pair of processes
+          in a group." This seems to imply that topologies are only applicable to
+          point-to-point communication. If so, we should clearly say so, earlier.
+          Reason for *NO*: message passing can be pt-to-pt and also collective.
+
+ 8.5  OK  5. p232/17: Citation [9] is listed as "To appear." at 561/41
+          Editor's comment: I need the correct reference!
+
+ 8.6  22  6. p232/23-29. This seems like unnecessary rationalization. Unless it
+          can be substantiated (with a citation), it should be removed. How
+          about, "When the graph structure is regular and can be completely 
+          defined by the number of dimensions and the number of processes in
+          each coordinate direction, such as rings, two- or higher dimensional
+          grids, or tori, a simpler description can be made ..." or the like.
+          And then talk about support for Cartesian topologies, which suddenly
+          is mentioned on 6.4, line 3
+
+ 8.7  22  7. p233, line 5. How about, "... are collective, and therefore must
+          adhere to that category¹s requirements." Clunky, but the idea ...
+
+ 8.8  22  8. p233, line 19: "Similar functions are contained in EXPRESS and
+          PARMACS."
+          Can we update (or eliminate) this? Sounds like, "All the other kids are
+          doing it." :)
+
+ 8.9  22  9. p233, line 22-33. Reads clunky. In particular, "foo can be used to"
+          Implies they are designed primarily for something else. And perhaps
+          provide a high level sentence regarding the content of the paragraph:
+          "A variety of inquiry functions are provided." 
+          (Which then calls for a bit of a reorganization of the paragraph, 
+          since sub-setting functionality is discussed as well.
+
+ 8.10 22  10. p234, line 27. "choose a beneficial" rather than "good". (Could be
+          great! Or ok, or...)
+
+ 8.11 22  11. p237, line 19-20. "If a topology has been defined with one of the
+          above functions ..." How else? Instead: "Information regarding a
+          process topology can be returned using inquiry functions."
+          Or something like that.
+
+ 8.12 Q?  12. p238, line 6. Is "dimension" a verb?
+          Editor's answer: According to www.merriam-webster.com is dimension a
+             noun and a verb.
+
+ 8.13 22  13. p241, line 15. I prefer, "Suppose this topology is associated with
+          communicator comm..."
+
+ 8.14 OK  14. p241, line 34. "... an MPI_SENDRECV", since "a" and "an" are
+          selected based on the vowel or consonant sound. 
+          Or are these fightin' words? :)
+
+          Errata:
+
+ 8.a  OK  1. pg 237, line 26: (choice) s/b (status).
+
+ 8.b  OK  2. The other errata seems to have been satisfied.
+
+ 8.c  OK  3. Long example, p246. Any verification of correctness available?
+          No complaints in the errata.
+
+
+Rober Blackmore & Richard Treumann, IBM, 4 Mar 2008:
+====================================================
+
+     Chapter 5:
+     ----------
+
+ 9.a  OK  Page 175, line 37-39 should be removed because it says there is
+          no CC on intercommunicators
+
+ 9.b  OK  Page 176, lines 1-6 also indicate there is no CC on intercommunicators
+          Editor's comment: 
+             Sentence 176/4-5 must be removed: "Users ... top of MPI."
+             and 176/5, "also" at the end of the line must be removed.
+
+ 9.c  OK  page 177, line 10 indicate there is no CC on intercommunicators
+          Editor's comment: Remove "(which ... )".
+
+ 9.d  OK  page 177, line 36 - should say MPI_INIT or MPI_INIT_THREAD
+
+ 9.e  OK  page 178 line2 - Should say "Therefore, MPI_COMM_WORLD may
+          simultaneously represent disjoint groups in different processes"
+
+ 9.f  OK  page 186, line 19-22 - needs to be rephrased or removed.
+          At least change "currenty apply" to "In MPI-1, applied"
+
+ 9.g  OK  The last bullet at line 48 on page 200, "An inter-communicator
+          cannot be used for collective communication" should be removed.
+
+ 9.h *NO* The comment in parenthesis at line 24 on page 203 should be deleted
+          along with the line before it. These two sentences contradict the
+          sentence at line 23. (This conflict predates the merge and perhaps
+          fixing this belongs to an erratta process - We do think it should
+          be fixed)
+          Editor's comment: Maybe handled also through MPI-2.2.
+
+ 9.i  OK  page 203, lines 38-42 are not consistent with how MPI-2 defined spawn.
+          These lines should be removed
+          Editor's comment: The lines should be kept and modified.
+             Any proposal?
+          Dick Treumann's proposal should be used:
+             For applications that have used spawn or join, it may be necessary
+             to first create an intracommunicator to be used as peer.
+
+ 9.k  OK  Optionally, the description of MPI_Keyval_free should be moved to
+          MPI_Comm_free_keyval and the routine MPI_Keyval_free function should
+          refer to MPI_Comm_free_keyval description.
+          Editor's comment: 
+             Move 217/39-46 after 217/24.  
+             Add the following sentence after 217/38:
+               This call is identical to the MPI-2 call MPI_COMM_FREE_KEYVAL 
+               which is needed to match the communicator-specific
+               creation function.
+
+ 9.l  OK  Optionally, the description of MPI_Attr_put should be moved to
+          MPI_Comm_set_attr and the routine MPI_Attr_put function should
+          refer to MPI_Comm_set_attr description.
+          Editor's comment: 
+             Move 218/33-38 after 218/14.  
+             Add the following sentence after 218/32:
+               This function is replaced by MPI_COMM_SET_ATTR
+               which has identical binding in C. The Fortran binding
+               differs in that attribute_val is a normal-sized integer. 
+
+ 9.m  OK  Optionally, the description of MPI_Attr_get should be moved to
+          MPI_Comm_get_attr and the routine MPI_Attr_get function should
+          refer to MPI_Comm_get_attr description.
+          Editor's comment: 
+             Move 219/37 - 220/338 after 219/17.  
+             Add the following sentence after 219/36:
+               This function is replaced by MPI_COMM_GET_ATTR
+               which has identical binding in C. The Fortran binding
+               differs in that attribute_val is a normal-sized integer. 
+
+ 9.n  OK  Optionally, the description of MPI_Attr_delete should be moved
+          to MPI_Comm_delete_attr and the routine MPI_Attr_delete function
+          should refer to MPI_Comm_delete_attr description.
+          Editor's comment: 
+             Move 220/39-46 after 220/17.  
+             Add the following sentence after 217/38:
+               This call is identical to the MPI-2 call MPI_COMM_DELETE_ATTR
+               which is needed to match the communicator-specific
+               creation function.
+
+ 9.o  OK  On page 226 line 36, MPI_Keyval_create should be replaced by
+          MPI_comm_create_keval
+
+ 9.p  OK  On page 226/47 MPI_Attr_get should be replaced by MPI_Comm_get_attr.
+
+ 9.q  OK  On page 227/22 MPI_Attr_put should be replaced by MPI_Comm_set_attr.
+
+
+Jeff Squyres, CISCO, 5 Mar 2008:
+=========================
+
+     Function Index:
+     ---------------
+
+          - I love the new items in the index (constants, typedefs, etc.). Very
+          useful!
+
+10.a  OK  - I see a few EXAMPLES items in the index. But this is clearly not
+          *all* the examples. What's the intent for these items?
+          Editor's comment: 
+             I'll try to produce a Table of Examples in the Frontmatter.
+
+10.b  OK  - ditto for the typedefs at the end of the index.
+          Editor's comment: There are technical problems to catch them.
+             Maybe remved therefore.
+
+
+10.c  OK  - p568 in the index has a whole series of lower-case CONST items in
+          the second column that appear to be mistakes (e.g., column headings
+          and the like). Ditto for both columns on page 565 (first page of the
+          index). It looks like a macro is being mis-used throughout the
+          latex...?
+
+10.d  OK  - It would be really, Really, REALLY nice if the printed page numbers
+          agreed with the PDF page numbers. :-) E.g., the first page of the
+          index has "565" on the bottom of the page, but my PDF viewer tells me
+          that it's really page 583.
+          Editor's comment:
+             Should we number the whole document contiguously arabic?
+             No.
+             Bill Gropp's trick - verfied by Rainer Keller:
+                ...
+                plainpages=false
+               ]{hyperref} % For hyperlinks
+
+
+     Frontmatter:
+     ------------
+
+10.e  OK  - How about adding a list of tables and list of figures to the
+          beginning of the document (after the TOC)? How about possibly a list
+          of examples? (I don't know if that's as trivial to generate as LOF/LOT)
+
+10.f  OK  - In the credits on pages xvi and xvii, should institutions
+          participating in MPI-2.1 be listed? (I can't remember if we discussed
+          this at the last meeting) I.e., there are organizations contributing
+          to the 2.1 document who are not being given credit (e.g., Cisco :-) ).
+          Editor's comment: Who is writing this? - Richard Graham will produce 
+          the Acknowledgements. 
+
+     Chapter 1:
+     ----------
+
+10.g  OK  - page 3: "MPI-2 compliance will mean compliance with all of MPI-2."
+          The statement right above that says "MPI-1 compliance will mean
+          compliance with MPI-1.2.", but the credits (page xviii) cite MPI-1.3
+          and MPI-2.1.
+          Editor's comment: 3/25: MPI-1.2 --> MPI-1.3
+                            3/30: MPI-2   --> MPI-2.1
+
+10.h  OK  - page 5: I see "MPI-2" are in the wrong font twice (there may be
+          more?).
+          Editor's comment: 5/46
+
+     Chapter 2 and other:
+     --------------------
+
+10.i  -   - I still have a problem with the wording in section 2.3 about IN /
+          OUT / INOUT, particularly because in section 2.3 we say that IN/OUT/
+          INOUT does *not* correspond to language bindings, but section 2.6.4
+          (pages 21-22) specifically states that IN arguments were made "const"
+          in the C++ bindings. I also still have a problem with the special
+          exception for INOUT. Are these topics covered in a ballot somewhere?
+          (those are on my to-do list to examine; haven't gotten there yet...).
+          Editor's comment: Part of Ballot 4
+
+
+Alexander Supalov, INTEL, and Rajeev Thakur, ANL, 7 Mar 2008:
+=============================================================
+
+     Chapter 14:
+     -----------
+
+11.a  OK  Alexander Supalov pointed out to me that the following sentence in
+          the MPI-2 I/O chapter, under external32 data representation, 
+          pg 250 lines 24-25 is misleading (MPI-2.1 page 414/40-41):
+
+          "All data items are stored contiguously in the file."
+
+          It is intended to mean that there is no prescribed alignment in the
+          resulting file (to word boundary, etc.). But the data is stored
+          contiguously only as long as the file view is contiguous. Accordingly,
+          we propose to clarify the sentence as follows, with the additional
+          text in parenthesis:
+
+          "All data items are stored contiguously in the file (if the file
+          view is contiguous)."
+          Editor's comment: on 414/40-41
+
+
+Edgar Gabriel, University of Houston, 07 Mar 2008:
+==================================================
+
+     Chapter 4:
+     ----------
+
+12.a  OK  Page 128, line 35: "MPI_Bcast broadcasts a message from the process
+          with rank root to all processes of the group, itself included."
+            I would suggest to modify the last part of the sentence to :"...,
+          itself included for intracommunicators" (or something similar), since
+          the statement does not make sense for inter-communicators, and we do
+          not distinguish at that point in the text the two types of
+          communicators yet.
+
+12.b  OK  A similar issues arises for gather (page 130, line 1). E.g. the
+          sentence could be re-structured slightly to :"If comm is an
+          intracommunicator, each process....". The same issue for Gatherv (page
+          131, line 40).
+
+12.c  OK  I would suggest to extend the descriptions of the examples in section
+          4.6.1 to explicitly mentioning, that comm is an intracomm in those
+          examples. Similarly for the examples in section 4.7.1; section 4.8.1;
+          example 4.15 and 4.16 on page 154
+          Editor's comment:
+             Add after 132/27 and after 141/43:
+               The examples in this section are using intracommunicators.
+             Add after 146/41:
+               The example in this section is using an intracommunicator.
+             Add after 154/13:
+               The following examples are using intracommunicators.
+
+12.d  OK  In the examples 4.17, 4.18 and 4.19 on pages 157--159, the code
+          executes MPI_Comm_rank on MPI_COMM_WORLD, but the subsequent MPI_Reduce
+          ( and the if myrank==root section) on 'comm'. This should probably be
+          the same communicator, else the code doesn't make sense. I suggest to
+          replace MPI_COMM_WORLD with comm, following the procedure of the
+          previous examples in that section; alternatively, we could add a line
+          with comm=MPI_COMM_WORLD, in order to get around the problem mentioned
+          in bullet c).
+          Editor's comment:
+             Add after 157/24:
+               The following examples are using intracommunicators.
+             157/39, 158/17, and 159/12:
+               MPI_COMM_WORLD --> comm
+
+Adam Moody, LLNL, 07 Mar 2008:
+==============================
+
+     Chapter 1:
+     ----------
+
+          Here are some notes on the merged Introduction Chapter. Once merged,
+          this section could use some rewriting, but I'll save those comments for
+          later. Here are some notes on the merge process itself:
+
+13.a  -   MPI-2.1, page 2, lines 1-19:
+           Text is marked as blue (indicating from MPI-2.0), but this is from 
+           MPI-1.1
+          Editor's comment: My printed version is correct. acroread has problems.
+
+13.b *NO* MPI-2.1, page 2, lines 28-29:
+           Change "Allow convenient C and Fortran 77 bindings for the interface."
+           --> "Allow convenient Fortran, C, and C++ bindings for the interface."
+          Reason for *NO*: In review item 17.b, Rusty Lusk proposed to add
+              before 1.31 a section title "1.2 Backround of MPI-1".
+              With this modification, we need to keep "C and Fortran 77".
+
+13.c  OK  MPI-2.1, page 3, line 18:
+           Change "... are in the remaining chapters, ..." --> " ... are in the
+           remaining chapters of the MPI-2 document, ..."
+              clarification
+
+13.d  OK  MPI-2.1, page 3, line 19:
+           Remove "This document specifies Version 2.0 of MPI."
+           unnecessary and confusing
+
+13.e  OK  MPI-2.1, page 3, line 40:
+           Change "... programs in Fortran 77 and C." --> "... programs in
+           Fortran, C, and C++."
+           this was in the merge plan but missed
+
+13.f  OK  MPI-2.1, page 4, lines 12-14:
+           Drop: "Although no explicit support for threads is provided, ...
+           dynamic spawning of tasks."
+           With MPI-2, these items are provided.
+
+13.g  OK  MPI-2.1, page 5, lline 30-31:
+           Change: "... the semantics of collective operation ..." --> "... the
+           semantics of collective communication ..."
+           better wording
+
+13.h  OK  MPI-2.1, page 6, lines 1-2:
+           Reword: "Chapter 9, Process Creation and Management, discuess the
+           extensionof MPI to remove the static process model..."
+           Perhaps just say: "Chapter9, Process Creation and Management,
+           defines routines that allow for creation of processes."
+
+13.i  OK  MPI-2.1, page 6, line 23:
+           We have Annex C, but there is no mention of A & B.
+
+13.k  OK  MPI-2.1, page 6, lines 26-30:
+           It looks like the sentence about the MPI Function Index came in from
+           both the MPI-1.1 and the MPI-2.0 documents. Maybe we just want the
+           MPI-2.0 version.
+          Editor's comment:
+              Use MPI-1 list item with "C, C++ and Fortran".
+
+
+Dries Kimpe, Katholieke Universiteit Leuven, 4 Mar 2008:
+========================================================
+
+     Chapter 5:
+     ----------
+
+14.a  22  What about the usage of deprecated functions?  (for example,
+          the old attribute functions, old datatype constructors, ...)
+
+          Since the code examples were not modified, they often still use
+          versions that were deprecated in later versions of the standard.
+          (see pg. 17 in the merged document)
+
+          Examples (by no means complete list):
+          (pg. number in merged document)
+
+          MPI_Attr_get: 309, 229, 244
+          MPI_Attr_put: 409, 227
+          MPI_Keyval_create : 244, 227
+          ...
+
+          Editor's comment:
+             Nice to have, but should be done with more time, i.e. in MPI-2.2.
+
+
+David George Solt, HP, 8 Mar 2008:
+==================================
+
+     Chapter 3:
+     ----------
+
+          I have a mix of suggestions and questions below for chapter 3. 
+          Feel free to ignore the questions and picky suggestions.
+          I hope maybe an experienced forum member can assist me with
+          some of my questions next week.
+
+          I do have 2 strong suggestions that are not merge related.
+          I don't think these are on a ballot yet:
+
+15.a  OK  [[ strong suggestion ]] Page 99, line 31. "A committed datatype can still
+          be used as a argument in datatype constructors." should be 
+          "An uncommitted datatype can still be used as a argument in 
+          datatype constructors."
+          Editor's comment: Proposal to combine the previous version with the
+             aforesaid version:
+             "As a argument in datatype constructors, uncommitted and also
+              committed datatypes can be used."  (This text is okay)
+
+15.b  OK  [[ strong suggestion ]] Page 63, line 43 requests(indices(i)) should be
+          request_list(indices(i))
+          Editor's comment: Two locations: 63/35-43
+
+          And the rest....
+
+15.c *NO* [[ Picky Suggestion ]] Page 27, line 20. Example could be shorted using
+          MPI_STATUS_IGNORE.
+          Reason for *NO*: This first example should run with both, old MPI-1 and
+             new MPI-2.
+
+15.d  22  [[ question ]] Page 28, line 3. Here we claim that the last 3 arguments
+          "specify" the envelope. But in section 3.2.3, we claim that a message
+          envelope consists of 4 parts. Perhaps this line should read, "The last
+          three parameters of the send operation, together with the rank of the
+          caller, specify the envelope for the message sent.
+
+15.e  22  [[ question ]] Page 28, 3.2, line 28. I never understood why it says
+          "Initial address". Makes it sound like it could change during the course
+          of the operation. I like "starting" or "beginning"
+
+15.f *NO* [[ suggestion ]] Page 30, line 1. Remove "MPI LONG LONG INT, for 
+          C integers declared to be of type long long;" (this is discussed below
+          at line Page 30, line 28.
+          Reason for *NO*: 30/28 is unsigned long long. 30/1 is signed long long.
+             Both is needed.
+
+15.g *NO* [[ merge suggestion ]] Page 30, 3.2, line 16. 
+          I would like to see MPI_WCHAR and wchar_t simply added to the
+          C table (page 29, line 22). I don't see
+          any reason to add any additional flavor text or rational in the merged 
+          document.  Those who know what a wchar_t is, know why MPI_WCHAR is in
+          the standard and the others do not care.
+
+15.h *NO* [[ merge suggestion ]] Page 30, 3.2, line 28. The committee has included
+          BOTH long long and unsigned long long, but the standard is only adopting
+          MPI_UNSIGNED_LONG_LONG? Why not MPI_LONG_LONG.
+          Reason for *NO*: 30/1 defines MPI_LONG_LONG_INT for signed long long.
+
+15.h' OK  Also, if these are now
+          accepted by ISO C9X and by the MPI standard, then simply include them in
+          the table (page 29, line 22), there is no need to call them out as
+          special in any way in the merged document.
+          Editor's comment:
+             Add after 29/33: MPI_UNSIGNED_LONG_LONG   unsigned long long
+             Add after 29/36: MPI_WCHAR                wchar_t
+
+15.i  22  [[ suggestion ]] page 33, line 1. Reads awkwardly. 
+          Perhaps parenthesis (unless source =MPI_ANY_SOURCE in the pattern) and
+          (unless tag== MPI_ANY_TAG in the pattern) or eliminate these strings
+          entirely since we already said that these are patching patterns for
+          any source/tag.
+          Editor's comment: 
+            It is mainly a formatting problem; maybe solved in MPI-2.2.
+            "= " --> "=" (remove the spaces after "=")
+
+15.j  Q?  [[ question ]] page 35, line 3. I don't understand the motivation for the
+          text: "Note that MPI STATUS IGNORE is not a special type of MPI STATUS
+          object; rather, it is a special value for the argument. In C one would
+          expect it to be NULL, not the address of a special MPI STATUS." I assume
+          that the intent is to avoid the user from trying to reference fields of
+          MPI_STATUS_IGNORE.  However, I think this is a very minor benefit and
+          using NULL gives the compiler less opportunity to find type mismatch
+          errors.  I assume that ((MPI_Status*) 0) would be ok, but the way this
+          reads, it sounds like such a definition is contrary the standard.
+
+15.k  22  [[ suggestion merge ]] Page 35, line 12. "The functions that can be
+          passed MPI STATUS IGNORE are all the various forms of MPI RECV, MPI TEST,
+          and MPI WAIT, as well as MPI REQUEST GET STATUS." is semi-redundant with
+          Page 35, line 2: "... which when passed to a receive, wait, or test
+          function, inform the implementation that the status fields are not to
+          be filled in."
+          I would suggest that line 2 be changed to "which when passed to a
+          receive, wait, test or the MPI_REQUEST_GET_STATUS function, inform the
+          implementation that the status fields are not to be filled in." and
+          then remove the sentence from line 12 completely.
+
+15.l  22  [[ suggestion merge ]] Page 35, line 14. "When an array is" change to
+          "When an array of statuses is". If the change above is made, then I think
+          it will read easier to include "of statuses".
+
+15.m  OK  [[ picky suggestion ]] Page 40, line 9. "used" to "uses"
+          Editor's comment: For me, it is a typo that should be fixed. YES
+
+15.n *NO* [[ picky suggestion ]] Page 43, line 15. "(most?)" is this actually part
+          of the text or leftover editing?
+          Editor's comment: "(most?)" should be removed. Okay? NO
+
+15.o  22  [[ question ]] Page 47, line 3,17. I don't understand why "initial" is
+          used here. I think "starting" or "beginning" would be better than
+          "initial" for most of the function description, since "initial" implies
+          it may change during the call. However, in this case, I don't understand
+          why any descriptor is used before "buffer address".
+          Editor's comment: I agree. All buffer specifications are using "initial"
+             instead of "starting", or ... .
+
+15.p  OK  [[ suggestion ]] Page 49, line 18, 24. "The send start call will return
+          before the message was copied out of the send buffer." This seems like
+          this should be an implementation choice. The MPI_Isend should be allowed
+          to copy data out of the send buffer as long as it does not block on the
+          receiver. I think it should say, "The send start call can return..." Same
+          on line 24.
+          Editor's comment:
+             I agree. The send start is allowed to copy all as long as it does not
+             block!  49/34-35 says clearly, that it will not block. This is enough.
+
+15.q  22  [[ suggestion ]] Page 50, line 18. "The use of nonblocking sends is
+          advantageous in these cases [buffered & ready] only if data copying
+          can be concurrent with computation." I believe this statement is false.
+          An early call to MPI_Ibsend, for example, can avoid buffering entirely:
+
+          SENDER RECEIVER
+          ------ --------
+          MPI_Ibsend(..., req);
+                                                  MPI_Recv(...);
+          MPI_Wait(req); (completes quickly without buffering because the
+                          message has already been transferred)
+
+          Compared to:
+
+                                                  MPI_Recv(...);
+          MPI_Bsend(...); (must buffer the message because the sender does not
+                           yet know if a matching receive call has been made)
+
+15.r *NO* [[ merge suggestion ]] Page 53, line 29 (+ other occurrences).
+          "Section on Argument copying and register optimization"
+          (remove?, change to a heading?). Although I understand the seriousness
+          of this issue, I'm not sure polluting the document with multiple advice
+          to users sections is the best way to go. This issue needs to be very
+          clearly addressed in the document as a fundamental fortran issue, but
+          otherwise left alone. Scattering multiple warnings throughout the
+          document is a maintenance issue and only ensures we will miss some
+          locations.
+          Reason for *NO*: This was discussed and decided by the MPI-2 Forum
+                           with several straw votes and two final votes.
+                           It is a serious fortran problem that cannot detect
+                           with the help of debugger or print statements!
+          Editor's comment: Correct is 13.2.2 / page 449 / page 452
+                            without mentioning "of the MPI-2 Standard". 
+
+15.s  22  [[ picky suggestion ]] Page 55, line 39. "Thus, a blocking Wait can
+          be easily replaced by a nonblocking Test" changed to "Thus, a blocking
+          Wait can be easily implemented using a nonblocking Test". The intent is
+          clearly a loop of nonblocking Test calls, not a direct replacement.
+
+15.t  22  [[ question ]] Page 58, line 14. What is the point to the paragraph.
+      Q?  It has already been stated that even if no completion routine has been
+          called, that a matched non-blocking call must complete.
+          What is the point to calling out MPI_Test?
+
+15.u  22  [[ picky suggestion ]] Page 58, line 26. "enabled operations" is unclear.
+          Maybe "finished operations"?
+
+15.v  22  [[ picky suggestion ]] Page 59, line 4. The attempt to define the
+          functionality of MPI_Waitany uses the functionality of MPI_Waitany
+          in the definition. I would not mind, since I think the sentence is
+          still meaningful, but then on line 39, MPI_Testany is defined more
+          fully using the phrase "for i=0 ,..., count-1". The description of
+          MPI_Testany defines the call in terms of the equivalent MPI_Test calls
+          that we would expect would be used to implement the MPI_Testany call.
+          However, on line 4, the description of MPI_Waitany is given solely in
+          terms of the end net effect of the call in comparison to the equivalent
+          MPI_Wait call. One description is in terms of implementation,
+          the other in terms of net result.
+
+
+15.w  22  [[ picky suggestion ]] Page 64, line 2.
+          "source rank, or MPI ANY SOURCE (integer)" The use of MPI_ANY_SOURCE
+          (same for TAG) is not called out in receive routines, but is here.
+          There may be some confusion among users if MPI_ANY_SOURCE is allowed
+          in both cases when looking at just the prototypes.
+
+------ (starting new number 16, because end of abc is nearly reached and new
+        section is reached)
+
+16.a  OK  [[ suggestion ]] Page 74, line 27. The statement is true for sendrecv,
+          but not for sendrecv_replace. Its placement at this location would
+          indicate it is in reference to sendrecv_replace.
+          Editor's comment: I agree. 74/27-29 must be moved after 73/42.
+                            The forum should give an okay.
+
+16.b  Q?  [[ question ]] Page 74, line 1. Why did we not use MPI_IN_PLACE for the
+          receive buffer to MPI_Sendrecv and not have an MPI_Sendrecv_replace.
+          Is MPI_IN_PLACE allowed for MPI_Sendrecv? Should it be?
+          Editor's comment: Would be a change without need.
+
+16.c  2R  [[ merge suggestion ]] Page 76, line 39. I don't know what the intended
+          style is of the merged document, but I would prefer that it refrained
+          from designating functions as "new". Deprecated functions should be
+          designated as such, but otherwise my preference is to avoid distinctions
+          between "new" and "old".
+          I would title this section "Datatype Manipulation Functions".
+          Suggested text:
+
+            The following sections present type manipulation functions. 
+            These functions use address sized arguments where ever an offset may
+            be specified, allowing for the passing of offsets greater than 2^32.
+            Deprecated versions of these functions are listed in Section 2.6.1.
+
+          Editor's comment:
+            I would prefere to keep the text as it is.
+            It may be modified in MPI-2.2 or MPI-3.0.
+            Version 2.1 is a merge, but for me, it is okay that the reader can
+            detect that some functionality was added in MPI-2.
+            If we want to finish MPI-2.1 in the given timeframe, any modifications
+            must be decided at the end of the March 2008 meeting.
+
+16.d *NO* [[ merge suggestion ]] Page 79, line 43. Do we want to list out
+          deprecated functions? 
+          I wonder if we could hide them all away in an appendix.
+          Reason for *NO*:
+             Many examples are currently using some deprecated functions.
+             Such a move into an Annex can be done e.g. in MPI-3.0
+             when all examples are corrected.
+
+16.e  Q?  [[ merge suggestion ]] Page 81, line 7. Why is this function not
+          deprecated since it does not take integer sized displacements.
+          Editor's answer: See 2.6.1, it hasn't any MPI_Aint argument.
+
+16.f  OK  [[ merge suggestion ]] Page 83. line 27. Some formatting problems
+          Editor's comment: Maybe I need help from Latex specialists.
+
+16.g  Q?  [[ merge suggestion ]] Page 84, line 7. 
+          No MPI_Type_create_hindexed_block?
+
+16.h  OK  [[ merge suggestion ]] Page 84, line 31. "It further generalizes
+          the previous one in" -- "It further generalizes MPI_Type_create_indexed"
+          or "It further generalizes indexed", since MPI_Type_create_hindexed_block
+          was a step backwards in complexity.
+          Editor's comment: According to MPI-1.1 and substituting the deprecated
+             routine, the new text must be:
+             "It further generalizes MPI_TYPE_CREATE_HINDEXED in that ..."
+
+16.i  2R  [[ merge suggestion ]] Page 89, line 44. Again, I would prefer a
+          presentation in which MPI-2 is a full and complete specification
+          and therefore reword this to:
+
+            Advice to users. For both Fortran and C arrays, the ordering of
+            processes in the process grid is assumed to be row-major. This is
+            consistent with the ordering used in virtual Cartesian process
+            topologies.  To create such virtual process topologies, or to
+            find the coordinates of a process in the process grid, etc.,
+            users may use the corresponding process topology functions.
+            (End of advice to users.)
+
+          Editor's comment: I agree.  The forum should give an okay.
+
+16.j  22  [[ merge suggestion ]] Page 94, line 22. 
+          Update example to use MPI_Get_address.
+          Not sure if there are other examples that use deprecated functions.
+          Maybe a full search of the deprecated functions is in order.
+          Editor's comment: See also review item 14.a
+
+16.k  22  [[ merge suggestion ]] Page 95, line 1. I would recommend this section
+          be re-written to present MPI_Type_get_exent explicitly and not in terms
+          of the deprecated functions.
+          Editor's comment: See also review item 4.l
+
+16.l  OK  [[ merge suggestion ]] Page 95, line 21. Reference to section 3.12.2 is
+          incorrect and the parenthetical statement should reference the 2.1 
+          document.
+          At this point in the document, the lower bound of a datatype has not been
+          presented. Some reordering will need to take place as I believe this
+          originally referred to what is now 3.12.9.
+
+          Editor's comment: Yes, but the reference must be removed,
+               because 3.12.2 old MPI_TYPE_EXTENT is in the same section,
+               and also lb is defined first in MPI_TYPE_CREATE_RESIZED in this
+               section.
+          Editor's comment: See also review item 4.m
+
+16.m  22  [[ merge suggestion ]] Page 96, line 24. Again, my preference towards
+          removing text such as this.
+
+16.n  Q?  [[ question ]] To this point, there has been no description of what is
+          a legal or illegal datatype. Any combination of arguments that
+          individually meet the requirements appear are assumed legal.
+          There has been no description of datatypes such as
+          ((MPI_INT, 0), (MPI_INT, 0)) or worse yet, ((MPI_CHAR, 0), (MPI_INT, 1)),
+          which has alignment problems.
+
+16.o *NO* [[ merge suggestion ]] Page 97, line 41. Remove "(Readers should compare
+          this with the definitions in Section 3.12.3 of the MPI-1 standard,
+          which describes the function MPI TYPE EXTENT.)" since they are now
+          presented together.
+
+      OK  Editor's comment:
+             The routine is now in 3.12.7, i.e. not in the same section. Therefore,
+             the reference should be kept, but "3.12.3 of the MPI-1 standard"
+             should be substituted by "3.12.7".
+
+16.p  OK  [[ merge suggestion ]] Page 98, line 1. Move content of this section to
+          the beginning of 3.12.7
+
+16.q  OK  [[ merge suggestion ]] Page 99, line 1-27. Move these definitions to
+          bottom of page 95 (after MPI_Type_extent description) or follow my
+          earlier proposal that we don't document any deprecated functions in
+          the text.
+          Editor's comment:
+             After 96/27 would be better because MPI_TYPE_CREATE_RESIZED
+             is substituting these deprecated functions. Always the new one is
+             presented before the deprecated one.
+
+          Editor's comment:
+             16.p and 16.q should be decided by the forum.
+             I expect, that this solution is better than the existing one.
+             This means: 98/1-2 removed; 98-3-48 moved after 95/1;
+                         99/1-27 moved after 96/27.
+
+             1.c is a worse solution.
+
+16.r  OK  [[ merge question ]] Page 100, line 6. This gets to the heart of it...
+          Are we describing both standards or just 2.0? If the later, than I would
+          change this to: "MPI TYPE COMMIT will accept a committed datatype;
+          in this case, it is equivalent to a no-op."
+
+16.s  OK  [[ merge suggestion ]] Page 101, line 15. use of "new". I don't think
+          key values or copy callback functions have been presented yet,
+          at least not in this chapter.
+          Editor's comment:
+             Remove "new" on line 101/15.
+             Add ", see Section 5.7.5" after "information" on line 101/20.
+
+16.t  OK  [[ merge suggestion ]] Page 103, line 17, formatting problems.
+          Editor's comment: Maybe I need help from Latex specialists.
+
+16.u  22  [[ question ]] Page 104, line 27: "The function MPI ADDRESS returns
+          a valid address, when passed as argument a variable of the calling
+          program." Not sure what this is saying. Same for line 29-30.
+
+          Editor's comment:
+16.u' OK  104/27 substitute MPI_ADDRESS --> MPI_GET_ADDRESS
+
+16.v  Q?  [[ suggestion ]] Page 105, line 11. "Note that in Fortran,
+          Fortran INTEGERs may be too small to contain an address
+          (e.g., 32 bit INTEGERs on a machine with 64bit pointers).
+          Because of this, in Fortran, implementations may restrict the use
+          of absolute addresses to only part of the process memory,
+          and restrict the use of relative displacements to subranges
+          of the process memory where they are constrained by the size
+          of Fortran INTEGERs." Since this new document has introduced
+          MPI_ADDRESS_KIND for all arguments that would have taken an integer,
+          do we still need to say this.
+
+          Editor's comment:
+16.v' OK     Remove 105/12-16. This text is obsolete due to the new text 94/13-19.
+
+16.w  22  [[ merge suggestion ]] Page 105, line 19. Examples should not use
+          deprecated functions.
+          Editor's comment: See also review item 14.a
+
+16.x  Q?  [[ suggestion ]] Page 120, line 28. 
+          MPI_PACK_EXTERNAL_SIZE is never defined.
+
+16.y  OK  Page 361, line 8,11,13. Change "non-negative" to nonnegative, 
+          which is used everywhere else in the standard.
+          Editor's comment: These are the only three locations.
+
+
+Rusty Lusk, ANL, 8 Mar 2008:
+============================
+
+          Here are comments on the front matter, the introduction (Chapter 1),
+          and chapters 6 and 9.
+
+       Frontmatter
+       -----------
+
+17.a  -   The front matter consists almost entirely of the table of contents
+          and the acknowledgments.   They look OK to me as they stand..
+
+       Chapter 1
+       ---------
+
+17.b  OK  Chapter 1 starts with 1.1 "Overview and Goals" and then
+          has 1.2 "Background of MPI-2".    I think section 1.1 should really
+          be (and could easily be) broken into two parts, "Overview and Goals",
+          of which the first two paragraphs would need to  be rewritten to be right
+          for the merged document (they are currently essentially timestamped in 
+          1994).
+          Starting with the third paragraph, this should be a section
+          called "Background of MPI-1".    Not much is needed to do this,
+          and I would propose keeping as many of the original sentences as
+          possible.
+          I have not done this.   Probably Bill Gropp and I should try to do it.
+
+          Editor's comment:
+             - Rusty and Bill, please can you do this.
+             - Review item 13.b is thn obsolete.
+
+17.c  OK  "build" should be "built" on line 11 of page 2
+
+17.d  OK  "five types of areas" should be "five areas" in line 48 of page 2
+
+17.e  OK  The rest of it looks OK to me, except that lines 25-27 on page 6
+          duplicate lines 28-30.
+          Editor's comment: Same as review item 13.k
+
+17.f  OK  Lines 23-24 on page 6 don't really match what is actually in the
+          Table of Contents in the front matter.
+          Editor's comment: Same as review item 13.i
+
+17.g  OK  I didn't go check the contents of the appendices.
+          But something is not quite right here.
+          Editor's comment: Yes, it is not yet done.
+
+       Chapter 6+9
+       -----------
+
+17.h  -   I also read through Chapters 6 and 9 (Topologies and Dynamic), which
+          are unchanged in the merge, and they seem fine to me as they stand.
+
+
+Alexander Supalov, INTEL, and Rajeev Thakur, ANL, 14 Feb 2008:
+==============================================================
+
+
+          One of our guys looked thru the binding related chapters of the MPI-2
+          standard. His comments are enclosed. Could you please consider reviewing
+          these small change suggestions during the MPI-2.1 editing effort, or
+          forward this message as appropriate if this is somebody else's domain?
+
+          Overall, these chapters are well-written and fit together well. Here are
+          some minor comments (page and line numbers from mpi2-report.pdf are
+          used):
+
+18.a  22  15/43 (p. 10, line 43): "defined elsewhere" - should specify where to
+          make it clear to the reader
+
+18.b *NO* 16/5-6 (p. 11, lines 5-6): "mpi_" and "pmpi_" should be capitalized
+
+          Reason for *NO*: The text wants to prohibit that user-defined routines
+          may conflict with the internal Fortran names.
+
+18.c  OK  16/16 (p. 11, line 16): "a few other cases" should be "in a few other
+          cases"
+
+18.d *NO* 16/24 (p. 11. line 24): "principle" should be "principal"
+
+18.e  OK  446/4 (p. 277, line 4): should "still" be "will"?
+
+
+Rolf Rabenseifner, HLRS, 9 Mar 2008:
+====================================
+
+19.a  OK  527/3: reference to B.11 is missing.
+          Editor's comment:
+             Expected to be obsolete after the merging of all Annex to one Annex A.
+
+19.b  OK  iii/32: June --> May 
+
+Still to do:
+============
+
+In the frontmatter:
+-------------------
+
+- List of Figures
+- List of Tables
+- List of Examples
+
+In the normal chapters:
+-----------------------
+
+- Including the MPI-1 C++ bindings into the chapters text.
+
+In the backmatter:
+------------------
+
+- Merging all Annex into one "Annex A Language Binding"
+
+- Using all CONST:MPI.* entries in the Index to build a Constant Index
+
+- Using all TYPEDEF:MPI.* entries in the Index to build a Typedef Index
+  It may be possible to add also references to the C types mentioned
+  at 486/39-48 and 523/14, 525/21-23, and 503/19-32, 507/40
+
+  Do I catch all?  What is missing?
+
+- Using all MPI_.* entries in the Index to build the Function Index
+

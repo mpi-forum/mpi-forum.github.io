@@ -1,0 +1,2314 @@
+Index: one-side-2.tex
+===================================================================
+--- one-side-2.tex	(revision 1707)
++++ one-side-2.tex	(working copy)
+@@ -13,12 +13,15 @@
+ 
+ 
+ \chapter{One-Sided Communications}
++\mpitermtitleindexsubmain{one-sided}{communication}
+ \label{chap:one-side-2}
+ \label{sec:one-side-2}
+ 
+ \section{Introduction}
+ 
+-Remote Memory Access (\RMA/) extends the communication mechanisms of \MPI/ by
++\mpitermdefni{Remote Memory Access}\mpitermdefindex{Remote Memory Access|see{RMA}}
++\mpitermdefni{(\RMA/)}\mpitermdefindex{RMA}\mpitermdefindex{communication!RMA}
++extends the communication mechanisms of \MPI/ by
+ allowing one process to specify all communication parameters, both for
+ the sending side and for the receiving side.
+ This mode of communication facilitates the coding of some applications
+@@ -47,14 +50,14 @@
+ global computations or explicit polling.
+ A generic example of this nature is the execution of an assignment of
+ the form
+-\texttt{A = B(map)}, where \texttt{map} is a permutation vector, and \texttt{A},
+-\texttt{B}, and \texttt{map} are distributed
++\code{A = B(map)}, where \code{map} is a permutation vector, and \code{A},
++\code{B}, and \code{map} are distributed
+ in the same manner.  
+ 
+ Message-passing communication achieves two effects:
+-\emph{communication} of data from sender to
++\mpiterm{communication} of data from sender to
+ receiver and 
+-\emph{synchronization} of sender 
++\mpiterm{synchronization} of sender 
+ with receiver.
+ The \RMA/ design separates these two functions.
+ The following communication calls are provided:
+@@ -70,9 +73,10 @@
+ remote read and update, and remote atomic swap operations as
+ ``accumulate'' operations.
+ 
+-\MPI/ supports two fundamentally different memory models: separate
+-and unified. The
+-separate model makes no assumption about memory consistency and is
++\MPI/ supports two fundamentally different \mpitermni{memory models}\mpitermindex{memory model}:
++\mpitermni{separate}\mpitermindex{separate memory model}\mpitermindex{memory model!separate}
++and \mpitermni{unified}\mpitermindex{unified memory model}\mpitermindex{memory model!unified}.
++The separate model makes no assumption about memory consistency and is
+ highly portable. This model is similar to that of weakly coherent memory
+ systems: the user must impose correct ordering of memory accesses
+ through synchronization calls. The
+@@ -94,19 +98,19 @@
+ \RMA/ functions might need support for asynchronous communication agents in
+ software (handlers, threads, etc.) in a distributed memory environment.
+ 
+-We shall denote by {\bf origin} the process that performs the call,
+-and by {\bf target} the process in which the memory is accessed.
++We shall denote by \mpitermdef{origin} the process that performs the call,
++and by \mpitermdef{target} the process in which the memory is accessed.
+ Thus, in a put
+ operation, source=origin and destination=target; in a get operation, source=target and destination=origin.
+ 
+ \section{Initialization}
+ 
+-MPI provides
++\MPI/ provides
+ the following window initialization
+ functions: \mpifunc{MPI\_WIN\_CREATE},
+ \mpifunc{MPI\_WIN\_ALLOCATE},
+ \mpifunc{MPI\_WIN\_ALLOCATE\_SHARED},
+-and\hfill\hbox{}\linebreak % fix for margin 
++and\flushline % fix for margin 
+ \mpifunc{MPI\_WIN\_CREATE\_DYNAMIC}, which are collective on an
+ intracommunicator.
+ \mpifunc{MPI\_WIN\_CREATE}
+@@ -129,6 +133,7 @@
+ user to dynamically control which memory is exposed by the window.
+ 
+ \subsection{Window Creation}
++\mpitermtitleindex{window!creation}
+ \label{chap:one-side-2:win_create}
+ 
+ \begin{funcdef}{MPI\_WIN\_CREATE(base, size, disp\_unit, info, comm, win)}
+@@ -140,11 +145,11 @@
+ \funcarg{\OUT}{win}{window object returned by the call (handle)}
+ \end{funcdef}
+ 
+-\mpibind{MPI\_Win\_create(void~*base, MPI\_Aint~size, int~disp\_unit, MPI\_Info info, MPI\_Comm~comm, MPI\_Win~*win)}
++\mpibind{MPI\_Win\_create(void~*base, MPI\_Aint~size, int~disp\_unit, MPI\_Info~info, MPI\_Comm~comm, MPI\_Win~*win)}
+ \cdeclmainindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+ 
+-\mpifnewbind{MPI\_Win\_create(base, size, disp\_unit, info, comm, win, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), ASYNCHRONOUS :: base \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: size \\ INTEGER, INTENT(IN) :: disp\_unit \\ TYPE(MPI\_Info), INTENT(IN) :: info \\ TYPE(MPI\_Comm), INTENT(IN) :: comm \\ TYPE(MPI\_Win), INTENT(OUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_create(base, size, disp\_unit, info, comm, win, ierror) \fargs TYPE(*), DIMENSION(..), ASYNCHRONOUS :: base \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: size \\ INTEGER, INTENT(IN) :: disp\_unit \\ TYPE(MPI\_Info), INTENT(IN) :: info \\ TYPE(MPI\_Comm), INTENT(IN) :: comm \\ TYPE(MPI\_Win), INTENT(OUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_CREATE(BASE, SIZE, DISP\_UNIT, INFO, COMM, WIN, IERROR)\fargs  <type> BASE(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) SIZE  \\INTEGER DISP\_UNIT, INFO, COMM, WIN, IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Create(const void* base, MPI::Aint size, int disp\_unit, const MPI::Info\& info, const MPI::Intracomm\& comm)}{static MPI::Win}
+@@ -154,15 +159,15 @@
+ processes to perform \RMA/ operations.  Each process specifies
+ a window of existing memory that it exposes to \RMA/ accesses by the
+ processes in the group of
+- \mpiarg{comm}.
++\mpiarg{comm}.
+ The window consists of \mpiarg{size} bytes,
+ starting at address \mpiarg{base}.
+ In C, \mpiarg{base} is the starting
+ address of a memory region. 
+ In Fortran, one can pass the first element of a memory region
+ or a whole array, which must be `simply contiguous' 
+-(for `simply contiguous', see also 
+-Section~\ref{sec:misc-sequence} on page~\pageref{sec:misc-sequence}).  
++(for `simply contiguous,' see also 
++\sectionref{sec:misc-sequence}).
+ A process may elect to expose no memory by
+ specifying \mpiarg{size = 0}.
+ 
+@@ -173,17 +178,33 @@
+ process, at window creation.
+ 
+ \begin{rationale}
+-The window size is specified using an address-sized integer, to allow windows that span
+-more than 4~GB of 
+-address space.  (Even if the physical memory size is less than 4~GB, the
+-address range may be larger than 4~GB, if addresses are not contiguous.)
++The window size is specified using an address-sized integer%
++%% B3.1
++\color{red}%
++%% 3.1Note: Nothing in C says that an int is 4 bytes.  This text is just wrong.
++%, to allow windows that span
++%more than 4~GB of
++%address space.  (Even if the physical memory size is less than 4~GB, the
++%address range may be larger than 4~GB, if addresses are not contiguous.)
++, rather than a basic integer type, to allow windows that span more memory than
++can be described with a basic integer type.
++%% E3.1
++\color{black}%
+ \end{rationale}
+ 
+ \begin{users}
+ Common choices for \mpiarg{disp\_unit}
+-are 1 (no scaling), and (in C syntax) \texttt{sizeof(type)}, for a
+-window that consists of an array of elements of type \texttt{type}.  The
+-later choice will allow one to use array indices in \RMA/ calls, and have those scaled correctly to byte displacements, even in a heterogeneous environment.
++are 1 (no scaling), and (in C syntax) \code{sizeof(type)}, for a
++window that consists of an array of elements of type \code{type}.  The
++%% B3.1
++\color{red}%
++%later
++latter
++%% E3.1
++\color{black}%
++choice will allow one to use array indices in \RMA/ calls,
++and have those scaled correctly to byte displacements, even in a
++heterogeneous environment.
+ \end{users}
+ 
+ The \mpiarg{info} argument provides
+@@ -194,7 +215,7 @@
+ \begin{description}
+ \item{\infokey{no\_locks}} --- if set to \constskip{true},
+ then the implementation may assume that passive target synchronization (i.e.,
+-\mpifunc{MPI\_WIN\_LOCK}, \mpifunc{MPI\_LOCK\_ALL}) will not be used on
++\mpifunc{MPI\_WIN\_LOCK}, \mpifunc{MPI\_WIN\_LOCK\_ALL}) will not be used on
+ the given window. This implies that this window is not used for 3-party
+ communication, and \RMA/ can be implemented with no (less) asynchronous
+ agent activity at this process.
+@@ -208,11 +229,26 @@
+ same operation or \mpiarg{MPI\_NO\_OP}. This can eliminate the need to
+ protect access for certain operation types where the hardware can
+ guarantee atomicity. The default is \infoval{same\_op\_no\_op}.
++\item{\infokey{same\_size}} --- if set to \constskip{true},
++then the implementation may assume that the argument \mpiarg{size} is
++identical on all processes, and that all processes have provided this
++info key with the same value.
++\item{\infokey{same\_disp\_unit}} --- if set to \constskip{true},
++then the implementation
++may assume that the argument \mpiarg{disp\_unit}
++is identical on all processes, and
++that all processes have provided this info key with the same value.
+ \end{description}
+ 
+ \begin{users}
+ The info query mechanism described in Section~\ref{subsec:window-info}
+-can be used to query the specified info arguments windows that have been
++can be used to query the specified info arguments
++%% B3.1
++\color{red}%
++for
++%% E3.1
++\color{black}%
++windows that have been
+ passed to a library. It is recommended that libraries check attached
+ info keys for each passed window.
+ \end{users}
+@@ -236,7 +272,7 @@
+ what memory can be a target of \RMA/ operations and for the
+ implementation to enforce that specification.  For example, with this
+ definition, a server process can safely allow a client process to use
+-RMA operations, knowing that (under the assumption that the \MPI/
++\RMA/ operations, knowing that (under the assumption that the \MPI/
+ implementation does enforce the specified limits on the exposed
+ memory) an error in the client cannot affect any memory other than
+ what was explicitly exposed.  
+@@ -246,8 +282,7 @@
+ A window can be created in any part of the process memory.  However,
+ on some systems, the performance of windows in
+ memory allocated by \mpifunc{MPI\_ALLOC\_MEM} 
+-(Section~\ref{sec:misc-memalloc}, 
+-page~\pageref{sec:misc-memalloc}) will be better.
++(\sectionref{sec:misc-memalloc}) will be better.
+ Also, on some systems, performance is improved when window boundaries
+ are aligned at ``natural'' boundaries (word, double-word, cache line,
+ page frame, etc.).
+@@ -276,6 +311,7 @@
+ \end{implementors}
+ 
+ \subsection{Window That Allocates Memory}
++\mpitermtitleindex{window!allocation}
+ \label{sec:winalloc}
+ 
+ %% Alloc_mem uses baseptr, which distinguishes this from the base in win_create
+@@ -292,14 +328,14 @@
+ 
+ \cdeclmainindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+-\mpibind{MPI\_Win\_allocate(MPI\_Aint~size, int~disp\_unit, MPI\_Info info, MPI\_Comm~comm, void~*baseptr, MPI\_Win~*win)}
++\mpibind{MPI\_Win\_allocate(MPI\_Aint~size, int~disp\_unit, MPI\_Info~info, MPI\_Comm~comm, void~*baseptr, MPI\_Win~*win)}
+ 
+ %% WDG - This follows the Fortran binding for MPI_Alloc_mem, which
+ %% views base (baseptr in alloc_mem) as an address-sized integer in
+ %% Fortran.  If there is a change in Alloc_mem to use new Fortran
+ %% interfaces, this binding should follow the same approach
+-\mpifnewbind{MPI\_Win\_allocate(size, disp\_unit, info, comm, baseptr, win, ierror) BIND(C) \fargs USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: size \\ INTEGER, INTENT(IN) :: disp\_unit \\ TYPE(MPI\_Info), INTENT(IN) :: info \\ TYPE(MPI\_Comm), INTENT(IN) :: comm \\ TYPE(C\_PTR), INTENT(OUT) :: baseptr \\ TYPE(MPI\_Win), INTENT(OUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+-\mpifbind{MPI\_WIN\_ALLOCATE(SIZE, DISP\_UNIT, INFO, COMM, BASEPTR, WIN, IERROR)\fargs INTEGER DISP\_UNIT, INFO, COMM, WIN, IERROR \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) SIZE, BASEPTR \mpifoverloadOnlyInAnnex{\>INTERFACE MPI\_WIN\_ALLOCATE \\ \>\>SUBROUTINE MPI\_WIN\_ALLOCATE\_CPTR(SIZE, DISP\_UNIT, INFO, COMM, BASEPTR, \& \\ \>\>\>\>WIN, IERROR) \\ \>\>\>USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ \>\>\>INTEGER :: DISP\_UNIT, INFO, COMM, WIN, IERROR \\ \>\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE \\ \>\>\>TYPE(C\_PTR) :: BASEPTR \\ \>\>END SUBROUTINE \\ \>END INTERFACE}}
++\mpifnewbind{MPI\_Win\_allocate(size, disp\_unit, info, comm, baseptr, win, ierror) \fargs USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: size \\ INTEGER, INTENT(IN) :: disp\_unit \\ TYPE(MPI\_Info), INTENT(IN) :: info \\ TYPE(MPI\_Comm), INTENT(IN) :: comm \\ TYPE(C\_PTR), INTENT(OUT) :: baseptr \\ TYPE(MPI\_Win), INTENT(OUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifbind{MPI\_WIN\_ALLOCATE(SIZE, DISP\_UNIT, INFO, COMM, BASEPTR, WIN, IERROR)\fargs INTEGER DISP\_UNIT, INFO, COMM, WIN, IERROR \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) SIZE, BASEPTR \mpifoverloadOnlyInAnnex{\>INTERFACE MPI\_WIN\_ALLOCATE \\ \>\>SUBROUTINE MPI\_WIN\_ALLOCATE(SIZE, DISP\_UNIT, INFO, COMM, BASEPTR, \& \\ \>\>\>\>WIN, IERROR) \\ \>\>\>IMPORT ::  MPI\_ADDRESS\_KIND \\ \>\>\>INTEGER :: DISP\_UNIT, INFO, COMM, WIN, IERROR \\ \>\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE, BASEPTR \\ \>\>END SUBROUTINE \\ \>\>SUBROUTINE MPI\_WIN\_ALLOCATE\_CPTR(SIZE, DISP\_UNIT, INFO, COMM, BASEPTR, \& \\ \>\>\>\>WIN, IERROR) \\ \>\>\>USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ \>\>\>IMPORT ::  MPI\_ADDRESS\_KIND \\ \>\>\>INTEGER :: DISP\_UNIT, INFO, COMM, WIN, IERROR \\ \>\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE \\ \>\>\>TYPE(C\_PTR) :: BASEPTR \\ \>\>END SUBROUTINE \\ \>END INTERFACE}}
+ 
+ %\mpicppemptybind{MPI::Win::Allocate(MPI::Aint size, int disp\_unit, %const MPI::Info\& info, const MPI::Intracomm\& comm, void** baseptr)}{static MPI::Win}
+ 
+@@ -320,29 +356,40 @@
+ \mpiarg{baseptr}.
+  
+ If the Fortran compiler provides \ftype{TYPE(C\_PTR)}, 
+-then the following interface must be provided in the \texttt{mpi}
+-module and should be provided in \texttt{mpif.h} through overloading, 
++then the following generic interface must be provided in the \code{mpi}
++module and should be provided in \code{mpif.h} through overloading, 
+ i.e., with the same routine name as the
+ routine with \ftype{INTEGER(KIND=MPI\_ADDRESS\_KIND) BASEPTR}, 
+-but with a different linker name:
++but with a different specific procedure name:
+  
+-{\tt
+-\begin{tabbing} 
+-mmmm\=mmmm\=mmmm\= \kill 
+-INTERFACE MPI\_WIN\_ALLOCATE \\
+-\>SUBROUTINE MPI\_WIN\_ALLOCATE\_CPTR(SIZE, DISP\_UNIT, INFO, COMM, BASEPTR, \& \\
+-\>\>\>WIN, IERROR) \\
+-\>\>USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\
+-\>\>INTEGER :: DISP\_UNIT, INFO, COMM, WIN, IERROR \\
+-\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE \\
+-\>\>TYPE(C\_PTR) :: BASEPTR \\
+-\>END SUBROUTINE \\
++%%HEADER
++%%LANG: FORTRAN90
++%%SKIP
++%%ENDHEADER
++\begin{verbatim}
++INTERFACE MPI_WIN_ALLOCATE
++    SUBROUTINE MPI_WIN_ALLOCATE(SIZE, DISP_UNIT, INFO, COMM, BASEPTR, &
++                                WIN, IERROR)
++        IMPORT ::  MPI_ADDRESS_KIND
++        INTEGER DISP_UNIT, INFO, COMM, WIN, IERROR
++        INTEGER(KIND=MPI_ADDRESS_KIND) SIZE, BASEPTR
++    END SUBROUTINE
++    SUBROUTINE MPI_WIN_ALLOCATE_CPTR(SIZE, DISP_UNIT, INFO, COMM, BASEPTR, &
++                                     WIN, IERROR)
++        USE, INTRINSIC ::  ISO_C_BINDING, ONLY : C_PTR
++        IMPORT ::  MPI_ADDRESS_KIND
++        INTEGER ::  DISP_UNIT, INFO, COMM, WIN, IERROR
++        INTEGER(KIND=MPI_ADDRESS_KIND) ::  SIZE
++        TYPE(C_PTR) ::  BASEPTR
++    END SUBROUTINE
+ END INTERFACE
+-\end{tabbing}
+-} 
++\end{verbatim}
++
+  
+-The linker name base of this overloaded function is \mpifunc{MPI\_WIN\_ALLOCATE\_CPTR}. The implied linker names
+-are described in Section~\ref{sec:f90:linker-names} on page~\pageref{sec:f90:linker-names}. 
++The base procedure name of this overloaded function is
++\mpifunc{MPI\_WIN\_ALLOCATE\_CPTR}. The implied specific procedure
++names
++are described in \sectionref{sec:f90:linker-names}.
+ 
+ \begin{rationale}
+ By allocating (potentially aligned) memory instead of allowing the user
+@@ -358,15 +405,10 @@
+ The \mpiarg{info} argument can be used to specify hints
+ similar to the \mpiarg{info} argument for \mpifunc{MPI\_WIN\_CREATE} and
+ \mpifunc{MPI\_ALLOC\_MEM}.
+-The following info key is  predefined:
++%The following info key is  predefined:
+ 
+-\begin{description}
+-\item{\infokey{same\_size}} --- if set to \constskip{true},
+-then the implementation may assume that the argument \mpiarg{size} is
+-identical on all processes.
+-\end{description}
+-
+ \subsection{Window That Allocates Shared Memory}
++\mpitermtitleindexmainsub{window}{shared memory allocation}
+ \label{sec:winallocshared}
+ 
+ %% Alloc_mem uses baseptr, which distinguishes this from the base in win_create
+@@ -381,20 +423,24 @@
+ 
+ \cdeclmainindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+-\mpibind{MPI\_Win\_allocate\_shared(MPI\_Aint~size, int~disp\_unit, MPI\_Info info, MPI\_Comm~comm, void~*baseptr, MPI\_Win~*win)}
++\mpibind{MPI\_Win\_allocate\_shared(MPI\_Aint~size, int~disp\_unit, MPI\_Info~info, MPI\_Comm~comm, void~*baseptr, MPI\_Win~*win)}
+ 
+ %% WDG - This follows the Fortran binding for MPI_Alloc_mem, which
+ %% views base (baseptr in alloc_mem) as an address-sized integer in
+ %% Fortran.  If there is a change in Alloc_mem to use new Fortran
+ %% interfaces, this binding should follow the same approach
+-\mpifnewbind{MPI\_Win\_allocate\_shared(size, disp\_unit, info, comm, baseptr, win, ierror) BIND(C) \fargs USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: size \\ INTEGER, INTENT(IN) :: disp\_unit \\ TYPE(MPI\_Info), INTENT(IN) :: info \\ TYPE(MPI\_Comm), INTENT(IN) :: comm \\ TYPE(C\_PTR), INTENT(OUT) :: baseptr \\ TYPE(MPI\_Win), INTENT(OUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+-\mpifbind{MPI\_WIN\_ALLOCATE\_SHARED(SIZE, DISP\_UNIT, INFO, COMM, BASEPTR, WIN, IERROR)\fargs INTEGER DISP\_UNIT, INFO, COMM, WIN, IERROR \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) SIZE, BASEPTR \mpifoverloadOnlyInAnnex{\>INTERFACE MPI\_WIN\_ALLOCATE\_SHARED \\ \>\>SUBROUTINE MPI\_WIN\_ALLOCATE\_SHARED\_CPTR(SIZE, DISP\_UNIT, INFO, COMM, \& \\ \>\>\>\>BASEPTR, WIN, IERROR) \\ \>\>\>USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ \>\>\>INTEGER :: DISP\_UNIT, INFO, COMM, WIN, IERROR \\ \>\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE \\ \>\>\>TYPE(C\_PTR) :: BASEPTR \\ \>\>END SUBROUTINE \\ \>END INTERFACE}}
++\mpifnewbind{MPI\_Win\_allocate\_shared(size, disp\_unit, info, comm, baseptr, win, ierror) \fargs USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: size \\ INTEGER, INTENT(IN) :: disp\_unit \\ TYPE(MPI\_Info), INTENT(IN) :: info \\ TYPE(MPI\_Comm), INTENT(IN) :: comm \\ TYPE(C\_PTR), INTENT(OUT) :: baseptr \\ TYPE(MPI\_Win), INTENT(OUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifbind{MPI\_WIN\_ALLOCATE\_SHARED(SIZE, DISP\_UNIT, INFO, COMM, BASEPTR, WIN, IERROR)\fargs INTEGER DISP\_UNIT, INFO, COMM, WIN, IERROR \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) SIZE, BASEPTR \mpifoverloadOnlyInAnnex{\>INTERFACE MPI\_WIN\_ALLOCATE\_SHARED \\ \>\>SUBROUTINE MPI\_WIN\_ALLOCATE\_SHARED(SIZE, DISP\_UNIT, INFO, COMM, \& \\ \>\>\>\>BASEPTR, WIN, IERROR) \\ \>\>\>IMPORT ::  MPI\_ADDRESS\_KIND \\ \>\>\>INTEGER :: DISP\_UNIT, INFO, COMM, WIN, IERROR \\ \>\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE, BASEPTR \\ \>\>END SUBROUTINE \\ \>\>SUBROUTINE MPI\_WIN\_ALLOCATE\_SHARED\_CPTR(SIZE, DISP\_UNIT, INFO, COMM, \& \\ \>\>\>\>BASEPTR, WIN, IERROR) \\ \>\>\>USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ \>\>\>IMPORT ::  MPI\_ADDRESS\_KIND \\ \>\>\>INTEGER :: DISP\_UNIT, INFO, COMM, WIN, IERROR \\ \>\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE \\ \>\>\>TYPE(C\_PTR) :: BASEPTR \\ \>\>END SUBROUTINE \\ \>END INTERFACE}}
+ 
+ %\mpicppemptybind{MPI::Win::Allocate(MPI::Aint size, int disp\_unit, %const MPI::Info\& info, const MPI::Intracomm\& comm, void* baseptr)}{static MPI::Win}
+ 
+ 
+ This is a collective call executed by all processes in the group of
+-\mpiarg{comm}. On each process $i$, it allocates memory of at least 
++\mpiarg{comm}. On each process%
++%% B3.1
++% $i$
++%% E3.1
++, it allocates memory of at least
+ \mpiarg{size} bytes that is shared among all processes in \mpiarg{comm},
+ and returns a pointer to
+ the locally allocated segment in \mpiarg{baseptr} that can be used for
+@@ -421,36 +467,44 @@
+ calculate remote address offsets with local information only. 
+  
+ If the Fortran compiler provides \ftype{TYPE(C\_PTR)}, 
+-then the following interface must be provided in the \texttt{mpi}
+-module and should be provided in \texttt{mpif.h} through overloading, 
++then the following generic interface must be provided in the \code{mpi}
++module and should be provided in \code{mpif.h} through overloading, 
+ i.e., with the same routine name as the
+ routine with \ftype{INTEGER(KIND=MPI\_ADDRESS\_KIND) BASEPTR}, 
+-but with a different linker name:
++but with a different specific procedure name:
+  
+-{\tt
+-\begin{tabbing} 
+-mmmm\=mmmm\=mmmm\= \kill 
+-INTERFACE MPI\_WIN\_ALLOCATE\_SHARED \\
+-\>SUBROUTINE MPI\_WIN\_ALLOCATE\_SHARED\_CPTR(SIZE, DISP\_UNIT, INFO, COMM, \& \\
+-\>\>\>BASEPTR, WIN, IERROR) \\
+-\>\>USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\
+-\>\>INTEGER :: DISP\_UNIT, INFO, COMM, WIN, IERROR \\
+-\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE \\
+-\>\>TYPE(C\_PTR) :: BASEPTR \\
+-\>END SUBROUTINE \\
++%%HEADER
++%%LANG: FORTRAN90
++%%SKIP
++%%ENDHEADER
++\begin{verbatim}
++INTERFACE MPI_WIN_ALLOCATE_SHARED
++    SUBROUTINE MPI_WIN_ALLOCATE_SHARED(SIZE, DISP_UNIT, INFO, COMM, &
++                                       BASEPTR, WIN, IERROR)
++        IMPORT ::  MPI_ADDRESS_KIND
++        INTEGER DISP_UNIT, INFO, COMM, WIN, IERROR
++        INTEGER(KIND=MPI_ADDRESS_KIND) SIZE, BASEPTR
++    END SUBROUTINE
++    SUBROUTINE MPI_WIN_ALLOCATE_SHARED_CPTR(SIZE, DISP_UNIT, INFO, COMM, &
++                                            BASEPTR, WIN, IERROR)
++        USE, INTRINSIC ::  ISO_C_BINDING, ONLY : C_PTR
++        IMPORT ::  MPI_ADDRESS_KIND
++        INTEGER ::  DISP_UNIT, INFO, COMM, WIN, IERROR
++        INTEGER(KIND=MPI_ADDRESS_KIND) ::  SIZE
++        TYPE(C_PTR) ::  BASEPTR
++    END SUBROUTINE
+ END INTERFACE
+-\end{tabbing}
+-} 
++\end{verbatim}
+  
+-The linker name base of this overloaded function is\hfill\hbox{}\linebreak % fix for margin
+-\mpifunc{MPI\_WIN\_ALLOCATE\_SHARED\_CPTR}. The implied linker names
+-are described in Section~\ref{sec:f90:linker-names} on page~\pageref{sec:f90:linker-names}. 
++The base procedure name of this overloaded function is\flushline % fix for margin
++\mpifunc{MPI\_WIN\_ALLOCATE\_SHARED\_CPTR}. The implied specific procedure names
++are described in \sectionref{sec:f90:linker-names}.
+ 
+ The \mpiarg{info} argument can be used to specify hints
+ similar to the \mpiarg{info} argument for \mpifunc{MPI\_WIN\_CREATE},
+-\mpifunc{MPI\_WIN\_ALLOC}, and \mpifunc{MPI\_ALLOC\_MEM}. The additional info
++\mpifunc{MPI\_WIN\_ALLOCATE}, and \mpifunc{MPI\_ALLOC\_MEM}. The additional info
+ key \const{alloc\_shared\_noncontig} allows the library to optimize the layout
+-of the shared memory segments in memory. 
++of the shared memory segments in memory.
+ 
+ \begin{users}
+ If the info key \const{alloc\_shared\_noncontig} is not set to true, the
+@@ -470,12 +524,12 @@
+ 
+ The consistency of load/store accesses from/to the shared memory as
+ observed by the user program depends on the architecture. A consistent
+-view can be created in the unified memory model (see 
++view can be created in the \mpiterm{unified memory model}\mpitermindex{memory model!unified} (see 
+ Section~\ref{sec:1sided-memmodel}) by utilizing the window
+ synchronization functions (see Section~\ref{sec:1sided-sync}) or
+ explicitly completing outstanding store accesses (e.g., by calling
+ \mpifunc{MPI\_WIN\_FLUSH}). \MPI/ does not define semantics for
+-accessing shared memory windows in the separate memory model.
++accessing shared memory windows in the \mpiterm{separate memory model}\mpitermindex{memory model!separate}.
+ 
+ \begin{funcdef}{MPI\_WIN\_SHARED\_QUERY(win, rank, size, disp\_unit, baseptr)}
+ \funcarg{\IN}{win}{shared memory window object (handle)}
+@@ -484,21 +538,27 @@
+ \funcarg{\OUT}{size}{size of the window segment (non-negative integer)}
+ \funcarg{\OUT}{disp\_unit}{local unit size for displacements, in bytes (positive integer)}
+ \funcarg{\OUT}{baseptr}{address for load/store access to window 
+-segment\hfill\hbox{}\linebreak % fix for margin
++segment\flushline % fix for margin
+ (choice)}
+ \end{funcdef}
+ 
+-\mpibind{MPI\_Win\_shared\_query(MPI\_Win win, int rank, MPI\_Aint *size, int~*disp\_unit, void~*baseptr)}
++\mpibind{MPI\_Win\_shared\_query(MPI\_Win~win, int~rank, MPI\_Aint~*size, int~*disp\_unit, void~*baseptr)}
+ 
+-\mpifnewbind{MPI\_Win\_shared\_query(win, rank, size, disp\_unit, baseptr, ierror) BIND(C) \fargs USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, INTENT(IN) :: rank \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(OUT) :: size \\ INTEGER, INTENT(OUT) :: disp\_unit \\ TYPE(C\_PTR), INTENT(OUT) :: baseptr \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+-\mpifbind{MPI\_WIN\_SHARED\_QUERY(WIN, RANK, SIZE, DISP\_UNIT, BASEPTR, IERROR)\fargs INTEGER WIN, RANK, DISP\_UNIT, IERROR\\INTEGER (KIND=MPI\_ADDRESS\_KIND) SIZE, BASEPTR \mpifoverloadOnlyInAnnex{\>INTERFACE MPI\_WIN\_SHARED\_QUERY \\ \>\>SUBROUTINE MPI\_WIN\_SHARED\_QUERY\_CPTR(WIN, RANK, SIZE, DISP\_UNIT, \&\\ \>\>\>\>BASEPTR, IERROR) \\ \>\>\>USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ \>\>\>INTEGER :: WIN, RANK, DISP\_UNIT, IERROR \\ \>\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE \\ \>\>\>TYPE(C\_PTR) :: BASEPTR \\ \>\>END SUBROUTINE \\ \>END INTERFACE}}
++\mpifnewbind{MPI\_Win\_shared\_query(win, rank, size, disp\_unit, baseptr, ierror) \fargs USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, INTENT(IN) :: rank \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(OUT) :: size \\ INTEGER, INTENT(OUT) :: disp\_unit \\ TYPE(C\_PTR), INTENT(OUT) :: baseptr \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifbind{MPI\_WIN\_SHARED\_QUERY(WIN, RANK, SIZE, DISP\_UNIT, BASEPTR, IERROR)\fargs INTEGER WIN, RANK, DISP\_UNIT, IERROR\\INTEGER (KIND=MPI\_ADDRESS\_KIND) SIZE, BASEPTR \mpifoverloadOnlyInAnnex{\>INTERFACE MPI\_WIN\_SHARED\_QUERY \\ \>\>SUBROUTINE MPI\_WIN\_SHARED\_QUERY(WIN, RANK, SIZE, DISP\_UNIT, \&\\ \>\>\>\>BASEPTR, IERROR) \\ \>\>\>IMPORT ::  MPI\_ADDRESS\_KIND \\ \>\>\>INTEGER :: WIN, RANK, DISP\_UNIT, IERROR \\ \>\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE, BASEPTR \\ \>\>END SUBROUTINE \\ \>\>SUBROUTINE MPI\_WIN\_SHARED\_QUERY\_CPTR(WIN, RANK, SIZE, DISP\_UNIT, \&\\ \>\>\>\>BASEPTR, IERROR) \\ \>\>\>USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\ \>\>\>IMPORT ::  MPI\_ADDRESS\_KIND \\ \>\>\>INTEGER :: WIN, RANK, DISP\_UNIT, IERROR \\ \>\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE \\ \>\>\>TYPE(C\_PTR) :: BASEPTR \\ \>\>END SUBROUTINE \\ \>END INTERFACE}}
+ 
+ This function queries the process-local address for remote memory segments
+ created with \mpifunc{MPI\_WIN\_ALLOCATE\_SHARED}. This function can return
+ different process-local addresses for the same physical memory on different
+ processes. The returned memory can be used for load/store accesses subject to
+ the constraints defined in Section~\ref{sec:1sided-semantics}. This function
+-can only be called with windows of type
++can only be called with windows of
++%% B3.1
++\color{red}%
++% type
++flavor
++%% E3.1
++\color{black}%
+ \mpiarg{MPI\_WIN\_FLAVOR\_SHARED}. If the passed window is not of flavor
+ \mpiarg{MPI\_WIN\_FLAVOR\_SHARED}, the error
+ \error{MPI\_ERR\_RMA\_FLAVOR} is raised.
+@@ -512,31 +572,41 @@
+ was called with \mpiarg{size} $= 0$.
+  
+ If the Fortran compiler provides \ftype{TYPE(C\_PTR)}, 
+-then the following interface must be provided in the \texttt{mpi}
+-module and should be provided in \texttt{mpif.h} through overloading, 
++then the following generic interface must be provided in the \code{mpi}
++module and should be provided in \code{mpif.h} through overloading, 
+ i.e., with the same routine name as the
+ routine with \ftype{INTEGER(KIND=MPI\_ADDRESS\_KIND) BASEPTR}, 
+-but with a different linker name:
++but with a different specific procedure name:
+  
+-{\tt
+-\begin{tabbing} 
+-mmmm\=mmmm\=mmmm\= \kill 
+-INTERFACE MPI\_WIN\_SHARED\_QUERY \\
+-\>SUBROUTINE MPI\_WIN\_SHARED\_QUERY\_CPTR(WIN, RANK, SIZE, DISP\_UNIT, \&\\
+-\>\>\>BASEPTR, IERROR) \\
+-\>\>USE, INTRINSIC :: ISO\_C\_BINDING, ONLY : C\_PTR \\
+-\>\>INTEGER :: WIN, RANK, DISP\_UNIT, IERROR \\
+-\>\>INTEGER(KIND=MPI\_ADDRESS\_KIND) :: SIZE \\
+-\>\>TYPE(C\_PTR) :: BASEPTR \\
+-\>END SUBROUTINE \\
++%%HEADER
++%%SKIP
++%%ENDHEADER
++\begin{verbatim}
++INTERFACE MPI_WIN_SHARED_QUERY
++    SUBROUTINE MPI_WIN_SHARED_QUERY(WIN, RANK, SIZE, DISP_UNIT, &
++                                    BASEPTR, IERROR)
++        IMPORT :: MPI_ADDRESS_KIND
++        INTEGER WIN, RANK, DISP_UNIT, IERROR
++        INTEGER (KIND=MPI_ADDRESS_KIND) SIZE, BASEPTR
++    END SUBROUTINE
++    SUBROUTINE MPI_WIN_SHARED_QUERY_CPTR(WIN, RANK, SIZE, DISP_UNIT, &
++                                         BASEPTR, IERROR)
++        USE, INTRINSIC :: ISO_C_BINDING, ONLY : C_PTR
++        IMPORT :: MPI_ADDRESS_KIND
++        INTEGER :: WIN, RANK, DISP_UNIT, IERROR
++        INTEGER(KIND=MPI_ADDRESS_KIND) :: SIZE
++        TYPE(C_PTR) :: BASEPTR
++    END SUBROUTINE
+ END INTERFACE
+-\end{tabbing}
+-} 
++\end{verbatim}
+  
+-The linker name base of this overloaded function is \mpifunc{MPI\_WIN\_SHARED\_QUERY\_CPTR}. The implied linker names
+-are described in Section~\ref{sec:f90:linker-names} on page~\pageref{sec:f90:linker-names}. 
++The base procedure name of this overloaded function is
++\flushline\mpifunc{MPI\_WIN\_SHARED\_QUERY\_CPTR}. The implied specific
++procedure names
++are described in \sectionref{sec:f90:linker-names}.
+ 
+ \subsection{Window of Dynamically Attached Memory}
++\mpitermtitleindexmainsub{window}{dynamically attached memory}
+ \label{sec:rma-create-dynamic}
+ 
+ The \MPIII/ \RMA/ model requires the user to identify the local memory
+@@ -549,8 +619,8 @@
+ operations; as new items are added to the list, memory must be
+ allocated.
+ In a C or C++ program,
+-this memory is typically allocated using \texttt{malloc} or
+-\texttt{new} respectively.  In \MPIII/ \RMA/, the programmer must create
++this memory is typically allocated using \code{malloc} or
++\code{new} respectively.  In \MPIII/ \RMA/, the programmer must create
+ a window with a predefined amount of memory and then
+ implement routines for allocating memory from within the window's
+ memory.  In addition, there is no easy way to handle the situation
+@@ -568,9 +638,9 @@
+ 
+ \cdeclmainindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+-\mpibind{MPI\_Win\_create\_dynamic(MPI\_Info info, MPI\_Comm~comm, MPI\_Win~*win)}
++\mpibind{MPI\_Win\_create\_dynamic(MPI\_Info~info, MPI\_Comm~comm, MPI\_Win~*win)}
+ 
+-\mpifnewbind{MPI\_Win\_create\_dynamic(info, comm, win, ierror) BIND(C) \fargs TYPE(MPI\_Info), INTENT(IN) :: info \\ TYPE(MPI\_Comm), INTENT(IN) :: comm \\ TYPE(MPI\_Win), INTENT(OUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_create\_dynamic(info, comm, win, ierror) \fargs TYPE(MPI\_Info), INTENT(IN) :: info \\ TYPE(MPI\_Comm), INTENT(IN) :: comm \\ TYPE(MPI\_Win), INTENT(OUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_CREATE\_DYNAMIC(INFO, COMM, WIN, IERROR)\fargs  INTEGER INFO, COMM, WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Create\_dynamic(const MPI::Info\& info, const MPI::Intracomm\& comm)}{static MPI::Win}
+@@ -601,7 +671,15 @@
+ \begin{users}
+ Users are cautioned that displacement arithmetic can overflow in
+ variables of type \type{MPI\_Aint} and result in unexpected values on some
+-platforms.  This issue may be addressed in a future version of \MPI/.
++platforms.
++%% B3.1
++\color{red}%
++The \mpifunc{MPI\_AINT\_ADD} and \mpifunc{MPI\_AINT\_DIFF}
++functions can be used to safely perform address arithmetic with \type{MPI\_Aint}
++displacements.
++%This issue may be addressed in a future version of \MPI/.
++%% E3.1
++\color{black}%
+ \end{users}
+ 
+ \begin{implementors}
+@@ -611,14 +689,20 @@
+ 64-bit pointer) cannot be expressed as an address at the origin (for
+ example, the origin uses 32-bit pointers).  For this reason, a portable
+ \MPI/ implementation should ensure that the type \type{MPI\_AINT}
+-(see~Table~\ref{table:pttopt:datatypes:c_f} on
+-Page~\pageref{table:pttopt:datatypes:c_f}) is able to store addresses
++(see \namedref{Table}{table:pttopt:datatypes:c_f}) is able to store addresses
+ from any process.
+ \end{implementors}
+ 
+-Memory in this window may not be used as the target of one-sided
+-accesses in this window until it is attached using the function
+-\mpifunc{MPI\_WIN\_ATTACH}.  
++%% B3.1
++\color{red}%
++Memory at the target cannot be accessed with this window until that memory
++has been
++attached using the function \mpifunc{MPI\_WIN\_ATTACH}.
++%Memory in this window may not be used as the target of one-sided
++%accesses in this window until it is attached using the function
++%\mpifunc{MPI\_WIN\_ATTACH}.  
++%% E3.1
++\color{black}%
+ That is, in addition to using \mpifunc{MPI\_WIN\_CREATE\_DYNAMIC} to
+ create an \MPI/ window, the user must use \mpifunc{MPI\_WIN\_ATTACH}
+ before any local memory may be the target of an \MPI/ \RMA/ operation.
+@@ -630,9 +714,9 @@
+ \funcarg{\IN}{size}{size of memory to be attached in bytes}
+ \end{funcdef}
+ 
+-\mpibind{MPI\_Win\_attach(MPI\_Win win, void *base, MPI\_Aint size)}
++\mpibind{MPI\_Win\_attach(MPI\_Win~win, void~*base, MPI\_Aint~size)}
+ 
+-\mpifnewbind{MPI\_Win\_attach(win, base, size, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: base \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: size \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_attach(win, base, size, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: base \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: size \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_ATTACH(WIN, BASE, SIZE, IERROR)\fargs INTEGER WIN, IERROR\\<type> BASE(*)\\INTEGER (KIND=MPI\_ADDRESS\_KIND) SIZE}
+ 
+ %\mpicppemptybind{MPI::Win::Register(void *base, MPI::Aint size) const}{void}
+@@ -640,15 +724,26 @@
+ Attaches a local memory region beginning at
+ \mpiarg{base} for remote access within the given window. The memory region
+ specified must not contain any part that is already attached to the
+-window \mpiarg{win}, 
++window \mpiarg{win},
+ that is, attaching overlapping memory concurrently within the same window is
+ erroneous. The argument \mpiarg{win} must be a window that was created with
+-\mpifunc{MPI\_WIN\_CREATE\_DYNAMIC}.  Multiple (but non-overlapping) memory
+-regions may be attached to the same window.  
++\mpifunc{MPI\_WIN\_CREATE\_DYNAMIC}.
++The local memory region attached to the window consists of \mpiarg{size} bytes,
++starting at address \mpiarg{base}.
++In C, \mpiarg{base} is the starting address of a
++memory region. In Fortran, one can pass the first element of a memory
++region or a whole array, which must be `simply contiguous' (for
++`simply contiguous,' see \sectionref{sec:misc-sequence}).
++Multiple (but non-overlapping) memory
++regions may be attached to the same window.
+ 
+ \begin{rationale}
+-Requiring that memory be explicitly attached before it is exposed to 
+-one-sided access by other processes can significantly simplify
++Requiring that memory be explicitly attached before it is exposed to
++one-sided access by other processes can
++%% B3.1
++% significantly
++%% E3.1
++simplify
+ implementations and improve performance. The ability to make memory
+ available for \RMA/ operations without requiring a collective
+ \mpifunc{MPI\_WIN\_CREATE} call is needed for some one-sided programming
+@@ -694,9 +789,9 @@
+ \funcarg{\IN}{base}{initial address of memory to be detached}
+ \end{funcdef}
+ 
+-\mpibind{MPI\_Win\_detach(MPI\_Win win, const~void *base)}
++\mpibind{MPI\_Win\_detach(MPI\_Win~win, const~void~*base)}
+ 
+-\mpifnewbind{MPI\_Win\_detach(win, base, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: base \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_detach(win, base, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: base \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_DETACH(WIN, BASE, IERROR)\fargs INTEGER WIN, IERROR\\<type> BASE(*)}
+ 
+ %\mpicppemptybind{MPI::Win::Detach(void *base, MPI\_Aint size) const}{void}
+@@ -726,9 +821,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_free(MPI\_Win *win)}
++\mpibind{MPI\_Win\_free(MPI\_Win~*win)}
+ 
+-\mpifnewbind{MPI\_Win\_free(win, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(INOUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_free(win, ierror) \fargs TYPE(MPI\_Win), INTENT(INOUT) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_FREE(WIN, IERROR)\fargs INTEGER WIN, IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Free()}{void}
+@@ -829,7 +924,7 @@
+ \begin{center} 
+ \begin{tabular}{|l | l|}
+ \hline
+-{\bf Attribute} & {\bf C Type}\\\hline\hline
++\textbf{Attribute} & \textbf{C Type}\\\hline\hline
+ \const{MPI\_WIN\_BASE} & void *\\\hline
+ \const{MPI\_WIN\_SIZE} &   MPI\_Aint *\\\hline
+ \const{MPI\_WIN\_DISP\_UNIT} &  int *\\\hline
+@@ -863,7 +958,7 @@
+ 
+ The values of \mpiarg{create\_kind} are
+ \begin{constlist}
+-\setlength{\itemindent}{0pt}
++%\setlength{\itemindent}{0pt}
+ \constitem{MPI\_WIN\_FLAVOR\_CREATE}{Window was created with \mpifunc{MPI\_WIN\_CREATE}.}
+ \constitem{MPI\_WIN\_FLAVOR\_ALLOCATE}{Window was created with \mpifunc{MPI\_WIN\_ALLOCATE}.}
+ \constitem{MPI\_WIN\_FLAVOR\_DYNAMIC}{Window was created with \mpifunc{MPI\_WIN\_CREATE\_DYNAMIC}.}
+@@ -880,9 +975,9 @@
+ are returned, and in Fortran, the
+ values are returned, for the respective attributes.
+ (The window attribute access functions are defined in
+-Section~\ref{sec:ei-attr:windows}, page~\pageref{sec:ei-attr:windows}.)
++\sectionref{sec:ei-attr:windows}.)
+ The value returned for an attribute on a window is constant
+-  over the lifetime of the window. 
++over the lifetime of the window. 
+ 
+ The other ``window attribute,'' namely the group of processes attached
+ to the window, can be retrieved using the call below.
+@@ -895,7 +990,7 @@
+ \cdeclindex{MPI\_Group}%
+ \cdeclindex{MPI\_Win}%
+ \mpibind{MPI\_Win\_get\_group(MPI\_Win~win, MPI\_Group~*group)}
+-\mpifnewbind{MPI\_Win\_get\_group(win, group, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Group), INTENT(OUT) :: group \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_get\_group(win, group, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Group), INTENT(OUT) :: group \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_GET\_GROUP(WIN, GROUP, IERROR)\fargs INTEGER WIN, GROUP, IERROR}
+ \mpicppemptybind{MPI::Win::Get\_group() const}{MPI::Group}
+ 
+@@ -909,7 +1004,7 @@
+ \label{subsec:window-info}
+ 
+ Hints specified via info
+-(see Section~\ref{subsec:info}, page~\pageref{subsec:info})
++(see \sectionref{subsec:info})
+ allow a user to provide information
+ to direct optimization.
+ Providing hints may enable an implementation to deliver increased
+@@ -943,7 +1038,7 @@
+ \cdeclindex{MPI\_Info}%
+ \cdeclindex{MPI\_Win}%
+ \mpibind{MPI\_Win\_set\_info(MPI\_Win~win, MPI\_Info~info)}
+-\mpifnewbind{MPI\_Win\_set\_info(win, info, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Info), INTENT(IN) :: info \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_set\_info(win, info, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Info), INTENT(IN) :: info \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_SET\_INFO(WIN, INFO, IERROR)\fargs INTEGER WIN, INFO, IERROR}
+ 
+ \mpifunc{MPI\_WIN\_SET\_INFO} sets new values for the hints of the window associated with \mpiarg{win}.
+@@ -966,7 +1061,7 @@
+ \cdeclindex{MPI\_Info}%
+ \cdeclindex{MPI\_Win}%
+ \mpibind{MPI\_Win\_get\_info(MPI\_Win~win, MPI\_Info~*info\_used)}
+-\mpifnewbind{MPI\_Win\_get\_info(win, info\_used, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Info), INTENT(OUT) :: info\_used \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_get\_info(win, info\_used, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Info), INTENT(OUT) :: info\_used \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_GET\_INFO(WIN, INFO\_USED, IERROR)\fargs INTEGER WIN, INFO\_USED, IERROR}
+ 
+ \mpifunc{MPI\_WIN\_GET\_INFO} returns a new info object containing the hints of the window associated with \mpiarg{win}.
+@@ -981,6 +1076,7 @@
+ \end{users}
+ 
+ \section{Communication Calls}
++\mpitermtitleindex{RMA!communication calls}
+ \label{sec:onesided-putget}
+ 
+ \MPI/ supports the following \RMA/ communication calls: \mpifunc{MPI\_PUT}
+@@ -995,26 +1091,27 @@
+ before the accumulate operation; and
+ \mpifunc{MPI\_COMPARE\_AND\_SWAP} performs a remote atomic compare and swap
+ operation.
+-These operations are \emph{nonblocking}: the call initiates
++These operations are \mpiterm{nonblocking}: the call initiates
+ the transfer, but the transfer may continue after the call returns.
+ The transfer is completed, at the origin or both the origin and the target, when
+-a subsequent \emph{synchronization} call is issued by the caller on
++a subsequent \mpiterm{synchronization} call is issued by the caller on
+ the involved window object.  These synchronization calls are described in
+-Section~\ref{sec:1sided-sync}, page~\pageref{sec:1sided-sync}.
++\sectionref{sec:1sided-sync}.
+ Transfers can also be completed with calls to flush routines; see
+-Section~\ref{sec:1sided-flush}, page~\pageref{sec:1sided-flush} for details. For the
++\sectionref{sec:1sided-flush} for details. For the
+ \mpifunc{MPI\_RPUT}, \mpifunc{MPI\_RGET},
+ \mpifunc{MPI\_RACCUMULATE}, and
+ \mpifunc{MPI\_RGET\_ACCUMULATE} calls, the transfer can be locally
+ completed by using the \MPI/ test or wait operations described in
+-Section~\ref{subsec:pt2pt-commend}, page~\pageref{subsec:pt2pt-commend}.
++\sectionref{subsec:pt2pt-commend}.
+ 
+ The local communication buffer of an \RMA/ call should not be updated,
+ and the local communication buffer of a get call should not be accessed
+ after the \RMA/
+ call until the operation completes at the origin.
+ 
+-The outcome of concurrent conflicting accesses to the same memory locations is undefined; 
++The resulting data values, or outcome, of concurrent conflicting
++accesses to the same memory locations is undefined;
+ if a location is updated by a put or accumulate operation, then 
+ the outcome of loads or other \RMA/ operations is undefined
+ until the updating operation has completed at the target.
+@@ -1024,7 +1121,7 @@
+ the outcome of concurrent load/store and \RMA/ updates to the same memory location is undefined.
+ These restrictions
+ are described in more detail in
+-Section~\ref{sec:1sided-semantics}, page~\pageref{sec:1sided-semantics}.
++\sectionref{sec:1sided-semantics}.
+ 
+ The calls use general datatype arguments to specify communication
+ buffers at the origin and at the target.  Thus, a transfer operation
+@@ -1086,10 +1183,10 @@
+ 
+ \cdeclindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+-\mpibind{MPI\_Put(const void *origin\_addr, int origin\_count, MPI\_Datatype origin\_datatype, int target\_rank, MPI\_Aint target\_disp, int target\_count, MPI\_Datatype target\_datatype, MPI\_Win win)}
++\mpibind{MPI\_Put(const~void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Win~win)}
+ 
+ 
+-\mpifnewbind{MPI\_Put(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, win, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Put(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, win, ierror) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_PUT(ORIGIN\_ADDR, ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_DISP, TARGET\_COUNT, TARGET\_DATATYPE, WIN, IERROR)\fargs <type> ORIGIN\_ADDR(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_COUNT, TARGET\_DATATYPE,  WIN, IERROR}
+ 
+ 
+@@ -1140,8 +1237,15 @@
+ is as if the target datatype object was defined at the target process
+ by the same sequence of calls used to define it at the origin process.
+ The target datatype must 
+-contain only relative displacements, not absolute addresses.  The same
+-holds for get and accumulate.
++contain only relative displacements, not absolute addresses.
++The same
++holds for get and accumulate
++%% B3.1
++\color{red}%
++operations%
++%% E3.1
++\color{black}%
++.
+ 
+ \begin{users}
+ The \mpiarg{target\_datatype} argument is a handle to a datatype
+@@ -1151,7 +1255,7 @@
+ the target process memory.  This causes no problems in a homogeneous
+ environment, or in a heterogeneous environment if only portable
+ datatypes are used (portable datatypes are defined in
+-Section~\ref{terms:semantic}, page~\pageref{terms:semantic}).
++\sectionref{terms:semantic}).
+ 
+ The performance of a put transfer can be significantly affected, on
+ some systems,
+@@ -1168,11 +1272,22 @@
+ A high-quality 
+ implementation will attempt to
+ prevent remote accesses to memory outside the
+-window that was exposed by the process.  This, both for debugging
+-purposes, and for protection with client-server codes that use \RMA/.
+-I.e., a high-quality implementation will check, if possible,
++window that was exposed by the process.
++%% B3.1
++\color{red}%
++This is important both for debugging
++purposes and for protection with client-server codes that use \RMA/.
++%% E3.1
++\color{black}%
++%% B3.1
++\color{red}%
++%I.e.,
++That is,
++%% E3.1
++\color{black}%
++a high-quality implementation will check, if possible,
+ window bounds on each \RMA/ call,
+-and raise an \MPI/ exception at the origin call if an out-of-bound 
++and raise an \MPI/ exception at the origin call if an out-of-bound
+ situation occurs.
+ Note that the condition can be checked at the origin.
+ Of course, the added safety achieved by such checks has to be weighed
+@@ -1204,9 +1319,9 @@
+ 
+ \cdeclindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+-\mpibind{MPI\_Get(void *origin\_addr, int origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Win~win)}
++\mpibind{MPI\_Get(void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Get(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, win, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Get(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, win, ierror) \fargs TYPE(*), DIMENSION(..), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_GET(ORIGIN\_ADDR, ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_DISP, TARGET\_COUNT, TARGET\_DATATYPE, WIN, IERROR)\fargs <type> ORIGIN\_ADDR(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_COUNT, TARGET\_DATATYPE, WIN, IERROR}
+ 
+ % \mpicppemptybind{MPI::Win::Get(const void *origin\_addr, int origin\_count, const MPI::Datatype\& origin\_datatype, int target\_rank, MPI::Aint target\_disp, int target\_count, const MPI::Datatype\& target\_datatype) const}{void}
+@@ -1230,7 +1345,7 @@
+   routine \mpifunc{MPI\_WIN\_FENCE}, introduced in
+   Section~\ref{sec:1sided-sync}.
+ 
+-\begin{example}{\rm
++\begin{example}
+ \label{ex:1sided-goodmap}
+ \exindex{MPI\_WIN\_CREATE}%
+ \exindex{MPI\_TYPE\_EXTENT}%
+@@ -1240,10 +1355,10 @@
+ \exindex{MPI\_GET}%
+ \exindex{MPI\_TYPE\_FREE}%
+ We show how to implement the generic indirect assignment
+-\texttt{A = B(map)}, where \texttt{A},
+-\texttt{B}, and 
+-\texttt{map} have the same
+-distribution, and \texttt{map} is a permutation.  To simplify, we assume
++\code{A = B(map)}, where \code{A},
++\code{B}, and 
++\code{map} have the same
++distribution, and \code{map} is a permutation.  To simplify, we assume
+ a block distribution with equal size 
+ blocks.
+ 
+@@ -1335,9 +1450,9 @@
+ RETURN
+ END
+ \end{verbatim}
+-}\end{example}
++\end{example}
+ 
+-\begin{example}{\rm
++\begin{example}
+ \label{ex:1sided-simplemap}
+ \exindex{MPI\_WIN\_CREATE}%
+ \exindex{MPI\_TYPE\_GET\_EXTENT}%
+@@ -1379,17 +1494,23 @@
+ RETURN
+ END
+ \end{verbatim}
+-}\end{example}
++\end{example}
+ 
+ \subsection{Accumulate Functions}
+ \label{sec:1sided-accumulate}
+ 
+ It is often useful in a put operation to combine the data moved to the
+-target process with the data that resides at that process, rather 
+-then replacing the data there.  This will allow, for example, the
+-accumulation of 
++target process with the data that resides at that process, rather
++%% B3.1
++\color{red}%
++%then replacing the data there.
++than replacing it.
++%% E3.1
++\color{black}%
++This will allow, for example, the
++accumulation of
+ a sum by having all involved processes add their
+-contributions to the 
++contributions to the
+ sum variable in the memory of one process.
+ The accumulate functions have slightly different
+ semantics with respect to overlapping data accesses than
+@@ -1415,9 +1536,9 @@
+ \cdeclindex{MPI\_Op}%
+ \cdeclindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+-\mpibind{MPI\_Accumulate(const void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype,  MPI\_Op~op, MPI\_Win~win)}
++\mpibind{MPI\_Accumulate(const~void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Op~op, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Accumulate(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, op, win, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Accumulate(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, op, win, ierror) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_ACCUMULATE(ORIGIN\_ADDR, ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_DISP, TARGET\_COUNT, TARGET\_DATATYPE,  OP, WIN, IERROR) \fargs <type> ORIGIN\_ADDR(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER ORIGIN\_COUNT, ORIGIN\_DATATYPE,TARGET\_RANK, TARGET\_COUNT, TARGET\_DATATYPE,  OP, WIN, IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Accumulate(const void* origin\_addr, int origin\_count, const MPI::Datatype\& origin\_datatype, int target\_rank, MPI::Aint target\_disp, int target\_count, const MPI::Datatype\& target\_datatype, const MPI::Op\& op) const}{void}
+@@ -1468,15 +1589,16 @@
+ have different constraints on concurrent updates.
+ \end{users}
+ 
+-\begin{example}{\rm
++\begin{example}
+ \label{ex:1sided-sum}
+ \exindex{MPI\_WIN\_CREATE}%
+ \exindex{MPI\_TYPE\_GET\_EXTENT}%
+ \exindex{MPI\_WIN\_FENCE}%
+ \exindex{MPI\_ACCUMULATE}%
+ \exindex{MPI\_WIN\_FREE}%
+-We want to compute $\tt B(j) = \sum_{map(i) = j} A(i)$.  The arrays
+-\texttt{A}, \texttt{B}, and \texttt{map} are
++We want to compute $\code{B(j)} = \sum_{\code{map(i)} = \code{j}} \code{A(i)}$.  
++The arrays
++\code{A}, \code{B}, and \code{map} are
+ distributed in the same manner.  We write 
+ the simple version.
+ 
+@@ -1511,20 +1633,19 @@
+ \end{verbatim}
+ 
+ This code is identical to the code in
+-Example~\ref{ex:1sided-simplemap}, page~\pageref{ex:1sided-simplemap},
++\namedref{Example}{ex:1sided-simplemap},
+ except that a call to get has been
+-replaced by a call to accumulate.  (Note that, if \texttt{map} is
+-one-to-one, the code computes $\tt B =
+-A(map^{-1})$, which is the 
++replaced by a call to accumulate.  (Note that, if \code{map} is
++one-to-one, the code computes $\code{B} =
++\code{A(map}^{-1}\code{)}$, which is the 
+ reverse assignment to the one computed in that previous example.)
+ In a similar manner, we can replace
+-in Example~\ref{ex:1sided-goodmap},
+-page~\pageref{ex:1sided-goodmap},
++in \namedref{Example}{ex:1sided-goodmap},
+ the call to get by a call to accumulate,
+ thus
+ performing the computation with only one communication between any
+ two processes.
+-} \end{example}
++\end{example}
+ 
+ \subsubsection{Get Accumulate Function}
+ \label{sec:1sided-getaccumulate}
+@@ -1560,7 +1681,7 @@
+ \cdeclindex{MPI\_Aint}%
+ \mpibind{MPI\_Get\_accumulate(const~void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, void~*result\_addr, int~result\_count, MPI\_Datatype~result\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Op~op, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Get\_accumulate(origin\_addr, origin\_count, origin\_datatype, result\_addr, result\_count, result\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, op, win, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: result\_addr \\ INTEGER, INTENT(IN) :: origin\_count, result\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype, result\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Get\_accumulate(origin\_addr, origin\_count, origin\_datatype, result\_addr, result\_count, result\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, op, win, ierror) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: result\_addr \\ INTEGER, INTENT(IN) :: origin\_count, result\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype, result\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_GET\_ACCUMULATE(ORIGIN\_ADDR, ORIGIN\_COUNT, ORIGIN\_DATATYPE, RESULT\_ADDR, RESULT\_COUNT, RESULT\_DATATYPE, TARGET\_RANK, TARGET\_DISP, TARGET\_COUNT, TARGET\_DATATYPE, OP, WIN, IERROR) \fargs <type> ORIGIN\_ADDR(*), RESULT\_ADDR(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER ORIGIN\_COUNT, ORIGIN\_DATATYPE, RESULT\_COUNT, RESULT\_DATATYPE, TARGET\_RANK, TARGET\_COUNT, TARGET\_DATATYPE, OP, WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Get\_accumulate(const void* origin\_addr, void* result\_addr, const MPI::Datatype\& datatype, int target\_rank, MPI::Aint target\_disp, const MPI::Op\& op) const}{void}
+@@ -1570,7 +1691,12 @@
+ \mpiarg{target\_disp}, in the target window specified by
+ \mpiarg{target\_rank} and \mpiarg{win}, using the operation \mpiarg{op}
+ and return in the result buffer \mpiarg{result\_addr} the content
+-of the target buffer before the accumulation.
++of the target buffer before the accumulation, specified by
++\mpiarg{target\_disp}, \mpiarg{target\_count}, and
++\mpiarg{target\_datatype}.
++The data transferred from origin to target must fit, without
++truncation, in the target buffer.  Likewise, the data copied from target to
++origin must fit, without truncation, in the result buffer.
+ 
+ The origin and result buffers (\mpiarg{origin\_addr} and
+ \mpiarg{result\_addr}) must be disjoint. 
+@@ -1596,6 +1722,9 @@
+ value in the target memory is returned in the result buffer at the
+ origin and no operation is performed on the target buffer.
+ %
++When \const{MPI\_NO\_OP} is specified as the operation, the
++\mpiarg{origin\_addr},
++\mpiarg{origin\_count}, and \mpiarg{origin\_datatype} arguments are ignored.
+ \const{MPI\_NO\_OP} can be used only in \mpifunc{MPI\_GET\_ACCUMULATE},
+ \mpifunc{MPI\_RGET\_ACCUMULATE}, and \mpifunc{MPI\_FETCH\_AND\_OP}.
+ \const{MPI\_NO\_OP} cannot be used
+@@ -1636,7 +1765,7 @@
+ \cdeclindex{MPI\_Aint}%
+ \mpibind{MPI\_Fetch\_and\_op(const~void~*origin\_addr, void~*result\_addr, MPI\_Datatype~datatype, int~target\_rank, MPI\_Aint~target\_disp, MPI\_Op~op, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Fetch\_and\_op(origin\_addr, result\_addr, datatype, target\_rank, target\_disp, op, win, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: result\_addr \\ TYPE(MPI\_Datatype), INTENT(IN) :: datatype \\ INTEGER, INTENT(IN) :: target\_rank \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Fetch\_and\_op(origin\_addr, result\_addr, datatype, target\_rank, target\_disp, op, win, ierror) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: result\_addr \\ TYPE(MPI\_Datatype), INTENT(IN) :: datatype \\ INTEGER, INTENT(IN) :: target\_rank \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_FETCH\_AND\_OP(ORIGIN\_ADDR, RESULT\_ADDR, DATATYPE, TARGET\_RANK, TARGET\_DISP, OP, WIN, IERROR) \fargs <type> ORIGIN\_ADDR(*), RESULT\_ADDR(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER DATATYPE, TARGET\_RANK, OP, WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Fetch\_and\_op(const void* origin\_addr, void* result\_addr, const MPI::Datatype\& datatype, int target\_rank, MPI::Aint target\_disp, const MPI::Op\& op) const}{void}
+@@ -1682,7 +1811,7 @@
+ 
+ % compare_addr gets its own declaration to avoid having it spill to the next 
+ % line. 
+-\mpifnewbind{MPI\_Compare\_and\_swap(origin\_addr, compare\_addr, result\_addr, datatype, target\_rank, target\_disp, win, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: compare\_addr \\TYPE(*), DIMENSION(..), ASYNCHRONOUS :: result\_addr \\ TYPE(MPI\_Datatype), INTENT(IN) :: datatype \\ INTEGER, INTENT(IN) :: target\_rank \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Compare\_and\_swap(origin\_addr, compare\_addr, result\_addr, datatype, target\_rank, target\_disp, win, ierror) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: compare\_addr \\TYPE(*), DIMENSION(..), ASYNCHRONOUS :: result\_addr \\ TYPE(MPI\_Datatype), INTENT(IN) :: datatype \\ INTEGER, INTENT(IN) :: target\_rank \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_COMPARE\_AND\_SWAP(ORIGIN\_ADDR, COMPARE\_ADDR, RESULT\_ADDR, DATATYPE, TARGET\_RANK, TARGET\_DISP, WIN, IERROR) \fargs <type> ORIGIN\_ADDR(*), COMPARE\_ADDR(*), RESULT\_ADDR(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER DATATYPE, TARGET\_RANK, WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Compare\_and\_swap(const void* origin\_addr, const void* compare\_addr, void* result\_addr, const MPI::Datatype\& datatype, int target\_rank, MPI::Aint target\_disp) const}{void}
+@@ -1698,26 +1827,25 @@
+ in the buffer \mpiarg{result\_addr}. The parameter \mpiarg{datatype}
+ must belong to one of the following categories of predefined datatypes: C integer, Fortran
+ integer, Logical, Multi-language types, or Byte as specified in
+-Section~\ref{coll-predefined-op} on page~\pageref{coll-predefined-op}. 
++\sectionref{coll-predefined-op}.
+ The origin and result buffers (\mpiarg{origin\_addr} and
+ \mpiarg{result\_addr}) must be disjoint. 
+ 
+ 
+ \subsection{Request-based RMA Communication Operations}
++\mpitermtitleindex{RMA!communication calls!request-based}
+ \label{sec:1sided-req}
+ 
+ Request-based \RMA/ communication operations allow the user to
+ associate a request handle with the \RMA/ operations and test or wait
+ for the completion of these requests using the functions described in
+-Section~\ref{subsec:pt2pt-commend},
+-page~\pageref{subsec:pt2pt-commend}. Request-based \RMA/ operations
++\sectionref{subsec:pt2pt-commend}. Request-based \RMA/ operations
+ are only valid within a passive target
+ epoch (see Section~\ref{sec:1sided-sync}). 
+ 
+ Upon returning from a completion call in which an \RMA/ operation
+ completes, the \const{MPI\_ERROR} field in the associated status
+-object is set appropriately (see Section \ref{subsec:pt2pt-status} on
+-page \pageref{subsec:pt2pt-status}). All
++object is set appropriately (see \sectionref{subsec:pt2pt-status}). All
+ other fields of status and the results of status query functions (e.g.,
+ \mpifunc{MPI\_GET\_COUNT}) are undefined. It is
+ valid to mix different request types (e.g., any combination of \RMA/
+@@ -1762,9 +1890,9 @@
+ 
+ \cdeclindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+-\mpibind{MPI\_Rput(const~void *origin\_addr, int origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Win~win, MPI\_Request~*request)}
++\mpibind{MPI\_Rput(const~void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Win~win, MPI\_Request~*request)}
+ 
+-\mpifnewbind{MPI\_Rput(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, win, request, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Request), INTENT(OUT) :: request \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Rput(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, win, request, ierror) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Request), INTENT(OUT) :: request \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_RPUT(ORIGIN\_ADDR, ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_DISP, TARGET\_COUNT, TARGET\_DATATYPE, WIN, REQUEST, IERROR)\fargs <type> ORIGIN\_ADDR(*)\\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_COUNT, TARGET\_DATATYPE,  WIN, REQUEST, IERROR}
+ 
+ \mpifunc{MPI\_RPUT} is similar to \mpifunc{MPI\_PUT}
+@@ -1803,9 +1931,9 @@
+ 
+ \cdeclindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+-\mpibind{MPI\_Rget(void *origin\_addr, int origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Win~win, MPI\_Request~*request)}
++\mpibind{MPI\_Rget(void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Win~win, MPI\_Request~*request)}
+ 
+-\mpifnewbind{MPI\_Rget(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, win, request, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Request), INTENT(OUT) :: request \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Rget(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, win, request, ierror) \fargs TYPE(*), DIMENSION(..), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Request), INTENT(OUT) :: request \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_RGET(ORIGIN\_ADDR, ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_DISP, TARGET\_COUNT, TARGET\_DATATYPE, WIN, REQUEST, IERROR)\fargs <type> ORIGIN\_ADDR(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_COUNT, TARGET\_DATATYPE, WIN, REQUEST, IERROR}
+ 
+ \mpifunc{MPI\_RGET} is similar to \mpifunc{MPI\_GET}
+@@ -1835,9 +1963,9 @@
+ \cdeclindex{MPI\_Op}%
+ \cdeclindex{MPI\_Win}%
+ \cdeclindex{MPI\_Aint}%
+-\mpibind{MPI\_Raccumulate(const~void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype,  MPI\_Op~op, MPI\_Win~win, MPI\_Request~*request)}
++\mpibind{MPI\_Raccumulate(const~void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Op~op, MPI\_Win~win, MPI\_Request~*request)}
+ 
+-\mpifnewbind{MPI\_Raccumulate(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, op, win, request, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Request), INTENT(OUT) :: request \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Raccumulate(origin\_addr, origin\_count, origin\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, op, win, request, ierror) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ INTEGER, INTENT(IN) :: origin\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Request), INTENT(OUT) :: request \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_RACCUMULATE(ORIGIN\_ADDR, ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_DISP, TARGET\_COUNT, TARGET\_DATATYPE, OP, WIN, REQUEST, IERROR) \fargs <type> ORIGIN\_ADDR(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER ORIGIN\_COUNT, ORIGIN\_DATATYPE, TARGET\_RANK, TARGET\_COUNT, TARGET\_DATATYPE, OP, WIN, REQUEST, IERROR}
+ 
+ \mpifunc{MPI\_RACCUMULATE} is similar to \mpifunc{MPI\_ACCUMULATE}
+@@ -1873,7 +2001,7 @@
+ \cdeclindex{MPI\_Aint}%
+ \mpibind{MPI\_Rget\_accumulate(const~void~*origin\_addr, int~origin\_count, MPI\_Datatype~origin\_datatype, void~*result\_addr, int~result\_count, MPI\_Datatype~result\_datatype, int~target\_rank, MPI\_Aint~target\_disp, int~target\_count, MPI\_Datatype~target\_datatype, MPI\_Op~op, MPI\_Win~win, MPI\_Request~*request)}
+ 
+-\mpifnewbind{MPI\_Rget\_accumulate(origin\_addr, origin\_count, origin\_datatype, result\_addr, result\_count, result\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, op, win, request, ierror) BIND(C) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: result\_addr \\ INTEGER, INTENT(IN) :: origin\_count, result\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype, result\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Request), INTENT(OUT) :: request \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Rget\_accumulate(origin\_addr, origin\_count, origin\_datatype, result\_addr, result\_count, result\_datatype, target\_rank, target\_disp, target\_count, target\_datatype, op, win, request, ierror) \fargs TYPE(*), DIMENSION(..), INTENT(IN), ASYNCHRONOUS :: origin\_addr \\ TYPE(*), DIMENSION(..), ASYNCHRONOUS :: result\_addr \\ INTEGER, INTENT(IN) :: origin\_count, result\_count, target\_rank, target\_count \\ TYPE(MPI\_Datatype), INTENT(IN) :: origin\_datatype, target\_datatype, result\_datatype \\ INTEGER(KIND=MPI\_ADDRESS\_KIND), INTENT(IN) :: target\_disp \\ TYPE(MPI\_Op), INTENT(IN) :: op \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ TYPE(MPI\_Request), INTENT(OUT) :: request \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_RGET\_ACCUMULATE(ORIGIN\_ADDR, ORIGIN\_COUNT, ORIGIN\_DATATYPE, RESULT\_ADDR, RESULT\_COUNT, RESULT\_DATATYPE, TARGET\_RANK, TARGET\_DISP, TARGET\_COUNT, TARGET\_DATATYPE, OP, WIN, REQUEST, IERROR) \fargs <type> ORIGIN\_ADDR(*), RESULT\_ADDR(*) \\ INTEGER(KIND=MPI\_ADDRESS\_KIND) TARGET\_DISP \\ INTEGER ORIGIN\_COUNT, ORIGIN\_DATATYPE, RESULT\_COUNT, RESULT\_DATATYPE, TARGET\_RANK, TARGET\_COUNT, TARGET\_DATATYPE, OP, WIN, REQUEST, IERROR}
+ 
+ \mpifunc{MPI\_RGET\_ACCUMULATE} is similar to
+@@ -1886,10 +2014,13 @@
+ the operation has been completed at the target window.
+ 
+ \section{Memory Model}
++\mpitermtitleindex{RMA!memory model}
+ \label{sec:1sided-memmodel}
+ 
+-The memory semantics of \RMA/ are best understood by using the concept of public
+-and private window copies. We assume that systems have a public
++The memory semantics of \RMA/ are best understood by using the concept of 
++\mpitermni{public}\mpitermindex{public window copy}
++and \mpitermni{private}\mpitermindex{private window copy} window copies.
++We assume that systems have a public
+ memory region that is addressable by all processes (e.g., the shared memory
+ in shared memory machines or the exposed main memory in distributed
+ memory machines). In addition, most machines have fast private
+@@ -1905,12 +2036,14 @@
+ private memory. Thus, in coherent memory, the public and the private
+ window are identical while they remain logically separate in the
+ non-coherent case.
+-\MPI/ thus differentiates between two memory models called \emph{RMA
+-unified}, if public and private window are logically identical, and \emph{RMA
+-separate}, otherwise. 
++\MPI/ thus differentiates between two 
++\mpitermdefni{memory models}\mpitermdefindex{memory model} called 
++\mpitermdefni{\RMA/ unified}\mpitermdefindex{unified memory model}, 
++if public and private window are logically identical, and 
++\mpitermdefni{\RMA/ separate}\mpitermdefindex{separate memory model}, otherwise. 
+ 
+ In the \RMA/ separate model, there is only one instance of each variable
+-in process memory, but a distinct \emph{public} copy of the variable for
++in process memory, but a distinct \mpitermni{public} copy of the variable for
+ each window that contains it. A load accesses the instance in process
+ memory (this includes \MPI/ sends).  A local store accesses and updates the
+ instance in process memory (this includes \MPI/ receives), but the
+@@ -1959,18 +2092,20 @@
+ \const{MPI\_WIN\_SEPARATE}. 
+ 
+ \section{Synchronization Calls}
++\mpitermtitleindex{RMA!synchronization calls}
++\mpitermtitleindex{synchronization calls -- RMA}
+ \label{sec:1sided-sync}
+ 
+ \RMA/ communications fall in two categories:
+ \begin{itemize}
+ \item
+-{\bf active target} communication, where data is moved from the memory of one
++\mpitermdef{active target communication}, where data is moved from the memory of one
+ process to the memory of another, and both are explicitly involved in the
+ communication.  This communication pattern is similar to message
+ passing, except that all the data transfer arguments are provided by
+ one process, and the second process only participates in the synchronization.
+ \item
+-{\bf passive target} communication, where data is moved from the memory of one
++\mpitermdef{passive target communication}, where data is moved from the memory of one
+ process to the memory of another, and only the origin process is
+ explicitly involved
+ in
+@@ -1985,7 +2120,7 @@
+ \end{itemize}
+ 
+ \RMA/ communication calls with argument \mpiarg{win} must occur at a process
+-only within an {\bf access epoch} for \mpiarg{win}.  Such an epoch
++only within an \mpitermdef{access epoch} for \mpiarg{win}.  Such an epoch
+ starts with an \RMA/ synchronization
+ call on \mpiarg{win}; it proceeds with zero or more \RMA/
+ communication calls (e.g., \mpifunc{MPI\_PUT}, \mpifunc{MPI\_GET} or
+@@ -2002,7 +2137,7 @@
+ an epoch.
+ 
+ In active target communication, a target window can be accessed by \RMA/
+-operations only within an {\bf exposure epoch}. Such an epoch is
++operations only within an \mpitermdef{exposure epoch}. Such an epoch is
+ started and completed by \RMA/ synchronization calls executed by the
+ target process.  Distinct exposure epochs at a process
+ on the same window must be disjoint, but such an exposure epoch
+@@ -2112,11 +2247,11 @@
+ temporal order implied by the synchronizations: the \texttt{post}
+ occurs before the matching \texttt{start}, and \texttt{complete} occurs before
+ the
+-matching \texttt{wait}.  However, such {\bf strong} synchronization is more
++matching \texttt{wait}.  However, such \mpitermdef{strong synchronization} is more
+ than
+ needed for correct ordering of window accesses.  The semantics of
+-\MPI/ calls allow {\bf weak}
+-synchronization, as illustrated in Figure~\ref{fig:1sided-sync14}.
++\MPI/ calls allow \mpitermdef{weak synchronization}, 
++as illustrated in Figure~\ref{fig:1sided-sync14}.
+ \begin{figure}[t]
+ \centerline{\includegraphics[width=3.0in]{figures/sync14}}
+ \caption[Active target communication, with weak synchronization]{Active target communication, with weak synchronization.  Dashed
+@@ -2171,7 +2306,7 @@
+ \cdeclindex{MPI\_Win}%
+ \mpibind{MPI\_Win\_fence(int~assert, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_fence(assert, win, ierror) BIND(C) \fargs INTEGER, INTENT(IN) :: assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_fence(assert, win, ierror) \fargs INTEGER, INTENT(IN) :: assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_FENCE(ASSERT, WIN, IERROR)\fargs INTEGER ASSERT, WIN, IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Fence(int assert) const}{void}
+@@ -2232,9 +2367,9 @@
+ 
+ \cdeclindex{MPI\_Group}%
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_start(MPI\_Group group, int assert, MPI\_Win win)}
++\mpibind{MPI\_Win\_start(MPI\_Group~group, int~assert, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_start(group, assert, win, ierror) BIND(C) \fargs TYPE(MPI\_Group), INTENT(IN) :: group \\ INTEGER, INTENT(IN) :: assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_start(group, assert, win, ierror) \fargs TYPE(MPI\_Group), INTENT(IN) :: group \\ INTEGER, INTENT(IN) :: assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_START(GROUP, ASSERT, WIN, IERROR)\fargs INTEGER GROUP, ASSERT, WIN, IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Start(const MPI::Group\& group, int assert) const}{void}
+@@ -2262,9 +2397,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_complete(MPI\_Win win)}
++\mpibind{MPI\_Win\_complete(MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_complete(win, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_complete(win, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_COMPLETE(WIN, IERROR)\fargs INTEGER WIN,  IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Complete() const}{void}
+@@ -2328,9 +2463,9 @@
+ 
+ \cdeclindex{MPI\_Group}%
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_post(MPI\_Group group, int assert, MPI\_Win win)}
++\mpibind{MPI\_Win\_post(MPI\_Group~group, int~assert, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_post(group, assert, win, ierror) BIND(C) \fargs TYPE(MPI\_Group), INTENT(IN) :: group \\ INTEGER, INTENT(IN) :: assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_post(group, assert, win, ierror) \fargs TYPE(MPI\_Group), INTENT(IN) :: group \\ INTEGER, INTENT(IN) :: assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_POST(GROUP, ASSERT, WIN, IERROR)\fargs INTEGER GROUP, ASSERT, WIN, IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Post(const MPI::Group\& group, int assert) const}{void}
+@@ -2349,9 +2484,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_wait(MPI\_Win win)}
++\mpibind{MPI\_Win\_wait(MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_wait(win, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_wait(win, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_WAIT(WIN, IERROR)\fargs INTEGER WIN,  IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Wait() const}{void}
+@@ -2395,9 +2530,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_test(MPI\_Win win, int *flag)}
++\mpibind{MPI\_Win\_test(MPI\_Win~win, int~*flag)}
+ 
+-\mpifnewbind{MPI\_Win\_test(win, flag, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ LOGICAL, INTENT(OUT) :: flag \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_test(win, flag, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ LOGICAL, INTENT(OUT) :: flag \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_TEST(WIN, FLAG, IERROR)\fargs INTEGER WIN, IERROR\\LOGICAL FLAG}
+ 
+ \mpicppemptybind{MPI::Win::Test() const}{bool}
+@@ -2430,7 +2565,7 @@
+ 
+ \begin{description}
+ \item[\mpifunc{MPI\_WIN\_POST(group,0,win)}]
+-initiate a nonblocking send with tag \mpiarg{tag0} to each
++initiates a nonblocking send with tag \mpiarg{tag0} to each
+ process in \mpiarg{group}, using \mpiarg{wincomm}.
+ There is no need to wait for the
+ completion of these sends.
+@@ -2440,11 +2575,11 @@
+ a window in target process \mpiarg{i} is delayed until the receive
+ from \mpiarg{i} is completed.
+ \item[\mpifunc{MPI\_WIN\_COMPLETE(win)}]
+-initiate a nonblocking send with tag \mpiarg{tag1} to each process in
++initiates a nonblocking send with tag \mpiarg{tag1} to each process in
+ the group of the preceding start call.  No need to wait for the
+ completion of these sends.
+ \item[\mpifunc{MPI\_WIN\_WAIT(win)}]
+-initiate a nonblocking receive with tag \mpiarg{tag1} from each
++initiates a nonblocking receive with tag \mpiarg{tag1} from each
+ process in the group of the preceding post call.  Wait for the
+ completion of all receives. 
+ \end{description}
+@@ -2475,7 +2610,7 @@
+ $i$ accesses the window at target process $j$.  Then each process $i$
+ issues a call to 
+ \mpifunc{MPI\_WIN\_POST($ingroup_i$, \ldots)}, 
+-followed by a call to\hfill\hbox{}\linebreak
++followed by a call to\flushline
+ \mpifunc{MPI\_WIN\_START($outgroup_i$,\ldots)},
+ where 
+ $outgroup_i = \{ j ~:~ ij \in E\}$ and $ingroup_i = \{ j ~:~ ji \in E
+@@ -2500,17 +2635,30 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_lock(int lock\_type, int rank, int assert, MPI\_Win win)}
++\mpibind{MPI\_Win\_lock(int~lock\_type, int~rank, int~assert, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_lock(lock\_type, rank, assert, win, ierror) BIND(C) \fargs INTEGER, INTENT(IN) :: lock\_type, rank, assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_lock(lock\_type, rank, assert, win, ierror) \fargs INTEGER, INTENT(IN) :: lock\_type, rank, assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_LOCK(LOCK\_TYPE, RANK, ASSERT, WIN, IERROR)\fargs INTEGER LOCK\_TYPE, RANK, ASSERT, WIN, IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Lock(int lock\_type, int rank, int assert) const}{void}
+ 
+-Starts an \RMA/ access epoch.  Only the window at the
++Starts an \RMA/ access epoch.
++%% B3.1
++\color{red}%
++The
++%% E3.1
++\color{black}%
++window at the
+ process with rank \mpiarg{rank} can be accessed by \RMA/ operations
+ on \mpiarg{win} during that
+-epoch. 
++epoch.
++%% B3.1
++\color{red}%
++Multiple \RMA/ access epochs (with calls to \mpifunc{MPI\_WIN\_LOCK})
++can occur simultaneously; however, each access epoch must target a
++different process.
++%% E3.1
++\color{black}%
+ 
+ \begin{funcdef}{MPI\_WIN\_LOCK\_ALL(assert, win)} 
+ \funcarg{\IN}{assert}{program assertion (integer)}
+@@ -2518,9 +2666,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_lock\_all(int assert, MPI\_Win win)}
++\mpibind{MPI\_Win\_lock\_all(int~assert, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_lock\_all(assert, win, ierror) BIND(C) \fargs INTEGER, INTENT(IN) :: assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_lock\_all(assert, win, ierror) \fargs INTEGER, INTENT(IN) :: assert \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_LOCK\_ALL(ASSERT, WIN, IERROR)\fargs INTEGER ASSERT, WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Lock\_all(int assert) const}{void}
+@@ -2547,14 +2695,20 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_unlock(int rank, MPI\_Win win)}
++\mpibind{MPI\_Win\_unlock(int~rank, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_unlock(rank, win, ierror) BIND(C) \fargs INTEGER, INTENT(IN) :: rank \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_unlock(rank, win, ierror) \fargs INTEGER, INTENT(IN) :: rank \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_UNLOCK(RANK, WIN, IERROR)\fargs INTEGER RANK, WIN, IERROR}
+ 
+ \mpicppemptybind{MPI::Win::Unlock(int rank) const}{void}
+ 
+-Completes an \RMA/ access epoch started by a call to \mpifunc{MPI\_WIN\_LOCK(...,win)}.  \RMA/ operations issued during this
++Completes an \RMA/ access epoch started by a call to
++%% B3.1
++\color{red}%
++\mpifunc{MPI\_WIN\_LOCK} on window \mpiarg{win}.
++%% E3.1
++\color{black}%
++\RMA/ operations issued during this
+ period will have completed both at the origin and at the target when the call returns.
+ 
+ \begin{funcdef}{MPI\_WIN\_UNLOCK\_ALL(win)}
+@@ -2562,17 +2716,24 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_unlock\_all(MPI\_Win win)}
++\mpibind{MPI\_Win\_unlock\_all(MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_unlock\_all(win, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_unlock\_all(win, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_UNLOCK\_ALL(WIN, IERROR)\fargs INTEGER WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Unlock\_all() const}{void}
+ 
+ Completes a shared \RMA/ access epoch started by a call to
+-\mpifunc{MPI\_WIN\_LOCK\_ALL(assert, win)}.  \RMA/ operations issued during this
++%% B3.1
++\color{red}%
++\mpifunc{MPI\_WIN\_LOCK\_ALL} on window \mpiarg{win}.
++%% E3.1
++\color{black}%
++\RMA/ operations issued during this
+ epoch will have completed both at the origin and at the target when the call returns.
+ 
++\bigskip%%ALLOWLATEX%%
++
+ Locks are used to protect accesses to the locked target
+ window effected by \RMA/ calls issued between the lock and unlock
+ calls, and to protect
+@@ -2617,10 +2778,9 @@
+ Implementors may restrict the use of \RMA/ communication that is 
+ synchronized by lock calls to windows in memory allocated by 
+ \mpifunc{MPI\_ALLOC\_MEM} 
+-(Section~\ref{sec:misc-memalloc}, page~\pageref{sec:misc-memalloc}),
+-\mpifunc{MPI\_WIN\_ALLOCATE} (Section~\ref{sec:winalloc},
+-page~\pageref{sec:winalloc}), or attached with
+-\mpifunc{MPI\_WIN\_ATTACH} (Section~\ref{sec:rma-create-dynamic}, page~\pageref{sec:rma-create-dynamic}).
++(\sectionref{sec:misc-memalloc}),
++\mpifunc{MPI\_WIN\_ALLOCATE} (\sectionref{sec:winalloc}), or attached with
++\mpifunc{MPI\_WIN\_ATTACH} \gb(\sectionref{sec:rma-create-dynamic}).
+ Locks can be used portably only in such memory.
+ 
+ \begin{rationale}
+@@ -2632,11 +2792,13 @@
+ impose restrictions that allows one to use shared memory for third
+ party communication in shared memory machines.
+ 
+-The downside of this decision is that passive target communication cannot be
+-used without taking advantage of nonstandard Fortran features: namely,
+-the availability of C-like pointers; these are not supported by some
+-Fortran
+-compilers.
++%% B3.1
++%The downside of this decision is that passive target communication cannot be
++%used without taking advantage of nonstandard Fortran features: namely,
++%the availability of C-like pointers; these are not supported by some
++%Fortran
++%compilers.
++%% E3.1
+ \end{rationale}
+ 
+ Consider the sequence of calls in the example below.
+@@ -2687,9 +2849,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_flush(int rank, MPI\_Win win)}
++\mpibind{MPI\_Win\_flush(int~rank, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_flush(rank, win, ierror) BIND(C) \fargs INTEGER, INTENT(IN) :: rank \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_flush(rank, win, ierror) \fargs INTEGER, INTENT(IN) :: rank \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_FLUSH(RANK, WIN, IERROR)\fargs INTEGER RANK, WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Flush(int rank) const}{void}
+@@ -2703,9 +2865,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_flush\_all(MPI\_Win win)}
++\mpibind{MPI\_Win\_flush\_all(MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_flush\_all(win, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_flush\_all(win, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_FLUSH\_ALL(WIN, IERROR)\fargs INTEGER WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Flush\_all() const}{void}
+@@ -2721,9 +2883,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_flush\_local(int rank, MPI\_Win win)}
++\mpibind{MPI\_Win\_flush\_local(int~rank, MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_flush\_local(rank, win, ierror) BIND(C) \fargs INTEGER, INTENT(IN) :: rank \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_flush\_local(rank, win, ierror) \fargs INTEGER, INTENT(IN) :: rank \\ TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_FLUSH\_LOCAL(RANK, WIN, IERROR)\fargs INTEGER RANK, WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Flush\_local(int rank) const}{void}
+@@ -2738,9 +2900,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_flush\_local\_all(MPI\_Win win)}
++\mpibind{MPI\_Win\_flush\_local\_all(MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_flush\_local\_all(win, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_flush\_local\_all(win, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_FLUSH\_LOCAL\_ALL(WIN, IERROR)\fargs INTEGER WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::Flush\_local\_all() const}{void}
+@@ -2754,9 +2916,9 @@
+ \end{funcdef}
+ 
+ \cdeclindex{MPI\_Win}%
+-\mpibind{MPI\_Win\_sync(MPI\_Win win)}
++\mpibind{MPI\_Win\_sync(MPI\_Win~win)}
+ 
+-\mpifnewbind{MPI\_Win\_sync(win, ierror) BIND(C) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
++\mpifnewbind{MPI\_Win\_sync(win, ierror) \fargs TYPE(MPI\_Win), INTENT(IN) :: win \\ INTEGER, OPTIONAL, INTENT(OUT) :: ierror}
+ \mpifbind{MPI\_WIN\_SYNC(WIN, IERROR)\fargs INTEGER WIN, IERROR}
+ 
+ %\mpicppemptybind{MPI::Win::sync() const}{void}
+@@ -2769,6 +2931,7 @@
+ actually end an epoch or complete any pending \MPI/ \RMA/ operations).
+ 
+ \subsection{Assertions}
++\mpitermtitleindex{assertions}
+ \label{sec:1sided-assert}
+ 
+ The \mpiarg{assert} argument in the calls 
+@@ -2810,16 +2973,19 @@
+ \begin{users}
+ C/C++ users can use bit vector or ($\mid$) to combine these constants;
+ Fortran 90 users
+-can use the bit-vector \texttt{IOR} intrinsic. 
+-Fortran 77 users can use (nonportably)
+-bit
+-vector \texttt{IOR} on systems that support it.  Alternatively, Fortran users can 
++can use the bit-vector \code{IOR} intrinsic.
++%% B3.1
++%Fortran 77 users can use (nonportably)
++%bit
++%vector \code{IOR} on systems that support it.
++%% E3.1
++Alternatively, Fortran users can
+ portably use integer addition to OR the constants (each constant should
+ appear at most once in the addition!).
+ \end{users}
+ 
+ \begin{description}
+-\item[] {\bf MPI\_WIN\_START:}
++\item[\mpifunc{MPI\_WIN\_START}:]\quad
+ \begin{description}
+ \item{\const{MPI\_MODE\_NOCHECK}}
+ --- the matching calls to \mpifunc{MPI\_WIN\_POST}
+@@ -2835,7 +3001,7 @@
+ (However, ready-send is matched by a regular receive, whereas
+ both start and post must specify the nocheck option.)
+ \end{description}
+-\item[]{\bf MPI\_WIN\_POST:}
++\item[\mpifunc{MPI\_WIN\_POST}:]\quad
+ \begin{description}
+ \item{\const{MPI\_MODE\_NOCHECK}}  
+ --- the matching calls to \mpifunc{MPI\_WIN\_START}
+@@ -2855,7 +3021,7 @@
+ calls after the post call, until the ensuing (wait) synchronization.
+ This may avoid the need for cache synchronization at the wait call.
+ \end{description}
+-\item[]{\bf MPI\_WIN\_FENCE:}
++\item[\mpifunc{MPI\_WIN\_FENCE}:]\quad
+ \begin{description}
+ \item{\const{MPI\_MODE\_NOSTORE}}
+ --- the local window was not updated by
+@@ -2874,7 +3040,7 @@
+ of locally issued \RMA/ calls.  If the assertion is given by any process
+ in the window group, then it must be given by all processes in the group.
+ \end{description}
+-\item[]{\bf  MPI\_WIN\_LOCK, MPI\_WIN\_LOCK\_ALL:}
++\item[\mpifunc{MPI\_WIN\_LOCK}, \mpifunc{MPI\_WIN\_LOCK\_ALL}:]\quad
+ \begin{description}
+ \item{\const{MPI\_MODE\_NOCHECK}}
+ --- no other process holds, or will attempt
+@@ -2906,13 +3072,15 @@
+ be used in \RMA/ communication.
+ 
+ \section{Error Handling}
++\mpitermtitleindex{error handling!one-sided communication}
+ \label{sec:1sided-errhandlers}
+ 
+ \subsection{Error Handlers}
+ Errors occurring
+ during calls to
+ routines that
+-  create \MPI/ windows (e.g., \mpifunc{MPI\_WIN\_CREATE}\mpiarg{(...,comm,...)}) cause the
++  create \MPI/ windows (e.g., 
++\mpifunc{MPI\_WIN\_CREATE}\mpiarg{($\ldots$,comm,$\ldots$)}) cause the
+ error handler currently associated with \mpiarg{comm} to be invoked.
+ All other \RMA/ calls have an input \mpiarg{win} argument.  When an
+ error occurs during such a call, the error handler currently
+@@ -2921,13 +3089,13 @@
+ The default error handler associated with \mpiarg{win} is
+ \consti{MPI\_ERRORS\_ARE\_FATAL}.  Users may change this default by
+ explicitly associating a new error handler with \mpiarg{win} 
+-(see Section~\ref{sec:errorhandler}, page~\pageref{sec:errorhandler}).
++(see \sectionref{sec:errorhandler}).
+ 
+ \subsection{Error Classes}
+ 
+ The error classes for one-sided communication are
+ defined in Table~\ref{table:onesided:errclasses}.
+-RMA routines may (and almost certainly will) use other \MPI/ error
++\RMA/ routines may (and almost certainly will) use other \MPI/ error
+ classes, such as \const{MPI\_ERR\_OP} or \const{MPI\_ERR\_RANK}.
+ 
+ \begin{table}[h!]
+@@ -2962,6 +3130,7 @@
+ 
+ 
+ \section{Semantics and Correctness}
++\mpitermtitleindex{semantics and correctness!one-sided communication}
+ \label{sec:1sided-semantics}
+ 
+ 
+@@ -3053,9 +3222,17 @@
+ window copy can be delayed in both memory models until the window owner
+ executes a synchronization call.
+ When passive target 
+-synchronization (lock/unlock or even flush) is used, it is necessary to update the public window
+-copy in the \RMA/ separate model, or the private window copy in the \RMA/
+-unified model, even if the window owner does not execute any related
++synchronization
++%% B3.1
++% (lock/unlock or even flush)
++%% E3.1
++is used, it is necessary to update the public window
++copy
++%% B3.1
++% in the \RMA/ separate model, or the private window copy in the \RMA/
++%unified model,
++%% E3.1
++even if the window owner does not execute any related
+ synchronization call.
+ 
+ The rules above also define, by implication, when an update to a
+@@ -3090,7 +3267,7 @@
+ overlapping puts to be erroneous makes it difficult to use \MPI/
+ \RMA/ to implement programming models---such as Unified Parallel C (UPC) or SHMEM---that permit
+ these operations.  Further, while \MPIII/ defined these operations as
+-erroneous, the MPI Forum is unaware of any implementation that enforces
++erroneous, the \MPI/ Forum is unaware of any implementation that enforces
+ this rule, as it would require significant overhead.  Thus, relaxing
+ this condition does not impact existing implementations or applications.
+ \end{rationale}
+@@ -3106,13 +3283,16 @@
+ must obey the following rules.
+ 
+ \begin{enumerate}
+-\item
++%% B3.1
++\def\makelabel#1{\hss\llap{S#1}}%ALLOWLATEX%
++%% E3.1
++\item\label{rule:s1}
+ A location in a window must not be accessed
+ with load/store operations once an update to
+ that location has started, until the update becomes visible in the
+ private window copy in process
+-memory. 
+-\item
++memory.
++\item\label{rule:s2}
+ A location in a window must not  be accessed as a target of an \RMA/
+ operation once an update to that location has started, until the
+ update becomes visible in the public window copy. There is one
+@@ -3121,9 +3301,10 @@
+ predefined datatype, on the same window. Additional restrictions on the
+ operation apply, see the info key \mpiarg{accumulate\_ops} in
+ Section~\ref{chap:one-side-2:win_create}.
+-\item
++\item\label{rule:s3}
+ A put or accumulate must not access a target window once a
+-load/store update
++%load/
++store % update
+ or a put or accumulate update to another (overlapping) target window
+ has started on a location in the target window, until the  update
+ becomes visible in the public copy of the  window.
+@@ -3155,18 +3336,25 @@
+ (that is, updates to one are made visible to the other).
+ 
+ In the \const{MPI\_WIN\_UNIFIED} memory model, the rules are
+-much simpler because the public and private windows are the same.
++%% B3.1
++%much
++%% E3.1
++simpler because the public and private windows are the same.
+ However, there are restrictions to avoid concurrent access to
+ the same memory locations by different processes.
+ The rules that a program with a well-defined outcome must obey in this case are:
+ 
+ \begin{enumerate}
+-\item
++%% B3.1
++\def\makelabel#1{\hss\llap{U#1}}%ALLOWLATEX%
++%% E3.1
++\item\label{rule:u1}
+ A location in a window must not be accessed
+ with load/store operations once an update to
+ that location has started, until the update is complete, 
+ subject to the following special case.
+-\item Accessing a location in the
++\item\label{rule:u2}
++Accessing a location in the
+ window that is also the target of a remote update is valid (not
+ erroneous) but the precise result will depend on the behavior of the
+ implementation.  Updates from a remote process will appear in the memory of
+@@ -3191,7 +3379,8 @@
+ may produce unexpected results.
+ \end{users}
+ 
+-\item Updating a location in the
++\item\label{rule:u3}
++Updating a location in the
+ window with a store operation
+   that is also the target of a remote read (but not update) is valid
+   (not erroneous) but the precise result will depend on the behavior
+@@ -3208,7 +3397,7 @@
+   behavior only if the other rules given here and
+   elsewhere in this chapter
+   are followed.
+-\item
++\item\label{rule:u4}
+ A location in a window must not be accessed as a
+ target of an \RMA/ 
+ operation once an update to that location has started and until the
+@@ -3218,7 +3407,7 @@
+ predefined datatype on the same window. Additional restrictions on the
+ operation apply; see the info key \mpiarg{accumulate\_ops} in
+ Section~\ref{chap:one-side-2:win_create}.
+-\item
++\item\label{rule:u5}
+ A put or accumulate must not access a target
+ window once a store, put, or
+ accumulate update to another (overlapping) target window
+@@ -3230,13 +3419,28 @@
+ and until the put or accumulate
+ update completes at the target.  
+ \end{enumerate}
+-Note that \mpifunc{MPI\_WIN\_FLUSH} and \mpifunc{MPI\_WIN\_FLUSH\_ALL}
+-may be used within a passive target epoch to complete \RMA/
+-operations at the target process. 
+ 
++\begin{users}
++In the unified memory model, in the case where
++the window is in shared memory, \mpifunc{MPI\_WIN\_SYNC} can be used to order
++store operations and make store updates to the window visible to
++other processes and threads. Use of this routine is necessary to
++ensure portable behavior when point-to-point, collective, or
++shared memory synchronization is used in place of an \RMA/
++synchronization routine. \mpifunc{MPI\_WIN\_SYNC} should be called by the
++writer before the non-RMA synchronization operation and by the
++reader after the non-RMA synchronization, as shown in
++Example~\ref{ex:shmem-sync}.
++\end{users}
++
++%% B3.1
++%Note that \mpifunc{MPI\_WIN\_FLUSH} and \mpifunc{MPI\_WIN\_FLUSH\_ALL}
++%may be used within a passive target epoch to complete \RMA/
++%operations at the target process.
++%% E3.1
++
+ A program that violates these rules has undefined behavior.
+ 
+-
+ \begin{users}
+ A user can write correct programs by following the following rules:
+ \begin{description}
+@@ -3267,8 +3471,8 @@
+ they may conflict.  Nonconflicting accesses (such as read-only accesses
+ or accumulate accesses) are protected by shared locks, 
+ both for load/store accesses and for \RMA/ accesses.
+-\item[changing window or synchronization mode:]
+-\hskip 0pt plus 2em minus 0em
++\item[changing window or synchronization mode:]\quad
++%\hskip 0pt plus 2em minus 0em
+ One can change synchronization mode, or change the window used to
+ access a location that belongs to two overlapping windows, when the
+ process memory and the window copy are guaranteed to have the same
+@@ -3301,7 +3505,7 @@
+ The following example demonstrates updating a memory location inside a
+ window for the separate memory model, according to
+ Rule~\ref{rma:rule:unlockprivate}.  The \mpifunc{MPI\_WIN\_LOCK} and
+-\mpifunc{MPI\_WIN\_UNLOCK} calls around the store to \texttt{X} in
++\mpifunc{MPI\_WIN\_UNLOCK} calls around the store to \code{X} in
+ process B are necessary 
+ to ensure consistency between the public and private copies of the
+ window.
+@@ -3336,20 +3540,20 @@
+ of the windows are synchronized, caution must be used when
+ combining load/stores and multi-process synchronization.
+ Although the following example appears correct, the compiler or
+-hardware may delay the store to \texttt{X} after the barrier, possibly
++hardware may delay the store to \code{X} after the barrier, possibly
+ resulting in the \mpifunc{MPI\_GET} returning
+ an incorrect value 
+-of \texttt{X}.
++of \code{X}.
+ 
+ %%HEADER
+ %%SKIP
+ %%ENDHEADER
+ \begin{verbatim}
+-Process A:                 Process B:
+-                           window location X
+-                            
+-                           store X /* update to private&public copy of B */
+-MPI_Barrier                MPI_Barrier
++Process A:             Process B:
++                       window location X
++
++                       store X /* update to private & public copy of B */
++MPI_Barrier            MPI_Barrier
+ MPI_Win_lock_all
+ MPI_Get(X) /* ok, read from window */
+ MPI_Win_flush_local(B)
+@@ -3361,7 +3565,7 @@
+ synchronization.  The example could potentially be made safe through the use
+ of compiler- and
+ hardware-specific notations to ensure the
+-store to \texttt{X} occurs 
++store to \code{X} occurs 
+ before process B enters the \mpifunc{MPI\_BARRIER}.  The use of one-sided
+ synchronization calls, as shown in Example~\ref{ex:mpi_rma_rule5}, also ensures
+ the correct result.
+@@ -3461,7 +3665,7 @@
+ \mpifunc{MPI\_WIN\_LOCK\_ALL} do \emph{not} update the public copy of
+ a window with changes to the private copy.  Therefore, there is no
+ guarantee that process A in the
+-following sequence will see the value of \texttt{X} as updated by the local
++following sequence will see the value of \code{X} as updated by the local
+ store by process B before the lock.
+ 
+ %%HEADER
+@@ -3483,7 +3687,7 @@
+ \end{verbatim}
+ The addition of an \mpifunc{MPI\_WIN\_SYNC} before the call to
+ \mpifunc{MPI\_BARRIER} by process B would guarantee process A would
+-see the updated value of \texttt{X}, as the public copy of the window would be
++see the updated value of \code{X}, as the public copy of the window would be
+ explicitly synchronized with the private copy.
+ \end{example}
+ 
+@@ -3625,11 +3829,18 @@
+ \mpifunc{MPI\_ACCUMULATE}) are executed and committed in program order.
+ Ordering only applies to operations originating at the same origin that
+ access overlapping target memory regions. \MPI/ does not provide any
+-guarantees for accesses or updates from different origins to overlapping
++guarantees for accesses or updates from different
++%% B3.1
++\color{red}%
++% origins
++origin processes
++%% E3.1
++\color{black}%
++to overlapping
+ target memory regions.
+ 
+ The default strict ordering may incur a significant performance penalty.
+-MPI specifies the info key \infokey{accumulate\_ordering} to allow relaxation
++\MPI/ specifies the info key \infokey{accumulate\_ordering} to allow relaxation
+ of the ordering semantics when specified to any window creation
+ function. 
+ The values for this key are as follows.
+@@ -3644,7 +3855,13 @@
+ whether operations of the specified type complete in the order they were 
+ issued.  
+ For example, \infoval{raw} means that any writes must complete at the target 
+-before any reads.  These ordering requirements apply only to operations issued 
++%% B3.1
++\color{red}%
++%before any reads.
++before subsequent reads.
++%% E3.1
++\color{black}%
++These ordering requirements apply only to operations issued 
+ by the same origin process and targeting the same target process.  
+ The default value for \infokey{accumulate\_ordering} is 
+ \constskip{rar,raw,war,waw}, which implies that writes complete at the target 
+@@ -3679,14 +3896,13 @@
+ the ensuing synchronization call is issued.  Once the
+ communication is enabled both at the origin and at the target, the communication must complete.
+ 
+-Consider the code fragment in Example~\ref{ex:1sided-start-complete},
+-on page~\pageref{ex:1sided-start-complete}.
++Consider the code fragment in \namedref{Example}{ex:1sided-start-complete}.
+ Some of
+ the calls may block if the target window is not posted.  However, if
+ the target window is posted, then the code fragment must complete.
+ The data transfer may start as soon as the put call occurs, but may be delayed until the ensuing complete call occurs.
+ 
+-Consider the code fragment in Example~\ref{ex:1sided-lock-unlock}, on page~\pageref{ex:1sided-lock-unlock}.
++Consider the code fragment in \namedref{Example}{ex:1sided-lock-unlock}.
+ Some of the calls may block if another process holds a conflicting
+ lock.  However, if no conflicting lock is held, then the code fragment
+ must complete.
+@@ -3769,11 +3985,10 @@
+ under both interpretations, unless a process is caught in an infinite compute loop, in which case the difference may not matter.
+ However, the quantitative expectations are different.
+ Different \MPI/ implementations reflect these different
+-interpretations.  While this ambiguity is unfortunate, it does not
+-seem to affect many real codes.  The \MPI/ Forum
+-decided not to decide which interpretation of the standard is the
+-correct one, since the issue is very contentious, and a decision would
+-have much impact on implementors but less impact on users.
++interpretations.
++While this ambiguity is unfortunate, the \MPI/ Forum decided not to define
++which interpretation of the standard is the correct one, since the issue is
++contentious.
+ \end{rationale}
+ 
+ \subsection{Registers and Compiler Optimizations}
+@@ -3796,11 +4011,10 @@
+ 
+ The problem is illustrated by the following code:
+ 
+-{\tt
++{\tt%%ALLOWLATEX%
+ \begin{tabbing}
+ \rule{3mm}{0mm}\=\rule{50mm}{0mm}\=\rule{48mm}{0mm}\=\kill
+-\>\bf Source of Process 1\>\bf Source of Process 2\>\bf Executed in
+-Process 2
++\>\textbf{Source of Process 1}\>\textbf{Source of Process 2}\>\textbf{Executed in Process 2}
+ \\[2pt]
+ \>bbbb = 777         \> buff = 999        \>reg\_A:=999        \\
+ \>call MPI\_WIN\_FENCE \> call MPI\_WIN\_FENCE \\
+@@ -3812,10 +4026,10 @@
+ \end{tabbing}
+ }
+ 
+-In this example, variable \texttt{buff} is allocated in the register 
+-\texttt{reg\_A} and therefore
+-\texttt{ccc} will have the old value of \texttt{buff} and not the new value
+-\texttt{777}.
++In this example, variable \code{buff} is allocated in the register 
++\code{reg\_A} and therefore
++\code{ccc} will have the old value of \code{buff} and not the new value
++\code{777}.
+ 
+ This problem, which also afflicts in some cases
+ send/receive communication, is discussed more at length in 
+@@ -3830,18 +4044,19 @@
+ modules or \ftype{COMMON} blocks.
+ To prevent problems with the argument copying and register
+ optimization done by Fortran compilers, please note the hints in 
+-Sections~\ref{sec:misc-problems}--\ref{sec:f90-problems:comparison-with-C},
+-especially in 
+-Sections~\ref{sec:misc-sequence} and~\ref{sec:f90-problems:vector-subscripts}
+-on pages~\pageref{sec:misc-sequence}--\pageref{sec:f90-problems:vector-subscripts}
+-about ``{\sf Problems Due to Data Copying and Sequence Association with Subscript Triplets}''
+-and ``{\sf Vector Subscripts}'',
+-and in Sections~\ref{sec:misc-register} to~\ref{sec:f90-problems:perm-data-movements}
+-on pages~\pageref{sec:misc-register} to~\pageref{sec:f90-problems:perm-data-movements} 
+-about ``{\sf Optimization Problems}'', ``{\sf Code Movements and Register Optimization}'', 
+-``{\sf Temporary Data Movements}'' and ``{\sf Permanent Data Movements}''.  
+-Sections ``{\sf Solutions}'' to ``{\sf VOLATILE}''
+-on pages~\pageref{sec:f90-problems:code-movements:solutions}-\pageref{sec:f90-problems:volatile}
++Sections~\ref{sec:misc-problems}--\ref{sec:f90-problems:comparison-with-C}.
++%%% See comments in pt2pt on why the commented text is both incorrect and
++%% unnecessary
++%% especially in 
++%% Sections~\ref{sec:misc-sequence} and~\ref{sec:f90-problems:vector-subscripts}
++%% on pages~\pageref{sec:misc-sequence}--\pageref{sec:f90-problems:vector-subscripts}
++%% about ``{\sf Problems Due to Data Copying and Sequence Association with Subscript Triplets}''
++%% and ``{\sf Vector Subscripts}'',
++%% and in Sections~\ref{sec:misc-register} to~\ref{sec:f90-problems:perm-data-movements}
++%% on pages~\pageref{sec:misc-register} to~\pageref{sec:f90-problems:perm-data-movements} 
++%% about ``{\sf Optimization Problems}'', ``{\sf Code Movements and Register Optimization}'', 
++%% ``{\sf Temporary Data Movements}'' and ``{\sf Permanent Data Movements}''.  
++\sectionrange{sec:f90-problems:code-movements:solutions}{sec:f90-problems:volatile}
+ discuss several solutions for the problem in this example.
+ 
+ 
+@@ -3851,10 +4066,9 @@
+ \label{ex:1sided-fence}
+ \exindex{MPI\_Win\_fence}%
+ \exindex{MPI\_Put}%
+-{\rm
+ The following example shows a generic loosely synchronous, iterative
+ code, using fence synchronization.  The window at each process
+-consists of array \texttt{A}, which contains the origin and target buffers of
++consists of array \code{A}, which contains the origin and target buffers of
+ the
+ put calls.
+ 
+@@ -3876,7 +4090,7 @@
+     MPI_Put(&frombuf[i], 1, fromtype[i], toneighbor[i],
+                          todisp[i], 1, totype[i], win);
+   MPI_Win_fence((MPI_MODE_NOSTORE | MPI_MODE_NOSUCCEED), win);
+-  }
++}
+ \end{verbatim}
+ The same code could be written with get rather than put.  Note that,
+ during the communication phase, each
+@@ -3884,13 +4098,12 @@
+ (as target buffer of puts).  This is OK, provided that there is no
+ overlap between the target buffer of a put and another communication 
+ buffer.
+-}\end{example}
++\end{example}
+ 
+ \begin{example}
+ \label{ex:1sided-split}
+ \exindex{MPI\_Win\_fence}%
+ \exindex{MPI\_Get}%
+-{\rm
+ Same generic example, with more computation/communication overlap.  We
+ assume that the update phase is broken into two
+ subphases: the first, 
+@@ -3917,20 +4130,20 @@
+                     fromdisp[i], 1, fromtype[i], win);
+   update_core(A);
+   MPI_Win_fence(MPI_MODE_NOSUCCEED, win);
+-  }
++}
+ \end{verbatim}
+ The get communication can be concurrent with the core update, since
+ they do not access the same locations, and the local update of the
+ origin buffer by the get call can be concurrent with the local update
+-of the core by the \texttt{update\_core} call.  In order to get similar
++of the core by the \code{update\_core} call.  In order to get similar
+ overlap with put communication we would need to use separate windows
+ for the core and for the boundary.
+ This is required 
+ because we do not allow local stores to be concurrent with puts
+ on the same, or on overlapping, windows.
+-}\end{example}
++\end{example}
+ 
+-\begin{example}{\rm
++\begin{example}
+ \exindex{MPI\_Win\_post}%
+ \exindex{MPI\_Win\_start}%
+ \exindex{MPI\_Put}%
+@@ -3958,11 +4171,11 @@
+                          todisp[i], 1, totype[i], win);
+   MPI_Win_complete(win);
+   MPI_Win_wait(win);
+-  }
++}
+ \end{verbatim}
+-}\end{example}
++\end{example}
+ 
+-\begin{example}{\rm
++\begin{example}
+ \exindex{MPI\_Win\_post}%
+ \exindex{MPI\_Win\_start}%
+ \exindex{MPI\_Get}%
+@@ -3990,11 +4203,11 @@
+   update_core(A);
+   MPI_Win_complete(win);
+   MPI_Win_wait(win);
+-  }
++}
+ \end{verbatim}
+-}\end{example}
++\end{example}
+ 
+-\begin{example}{\rm
++\begin{example}
+ \exindex{MPI\_Barrier}%
+ \exindex{MPI\_Win\_post}%
+ \exindex{MPI\_Win\_start}%
+@@ -4002,8 +4215,8 @@
+ \exindex{MPI\_Win\_complete}%
+ \exindex{MPI\_Win\_wait}%
+ A checkerboard, or double buffer  communication pattern, that allows
+-more computation/communication overlap.  Array \texttt{A0} is updated
+-using values of array \texttt{A1}, and vice versa.  We assume that communication is symmetric: if process A gets data from process B, then process B gets data from process A.  Window \texttt{wini} consists of array \texttt{Ai}.
++more computation/communication overlap.  Array \code{A0} is updated
++using values of array \code{A1}, and vice versa.  We assume that communication is symmetric: if process A gets data from process B, then process B gets data from process A.  Window \code{wini} consists of array \code{Ai}.
+ %%HEADER
+ %%LANG: C
+ %%SKIPELIPSIS
+@@ -4048,28 +4261,28 @@
+     MPI_Win_post(neighbors, (MPI_MODE_NOCHECK | MPI_MODE_NOPUT), win0);
+   MPI_Win_complete(win1);
+   MPI_Win_wait(win1);
+-  }
++}
+ \end{verbatim}
+ 
+ A process posts the local window associated with
+-\texttt{win0} before it completes \RMA/ accesses to
+-the remote windows associated with \texttt{win1}.
+-When the \texttt{wait(win1}) call
++\code{win0} before it completes \RMA/ accesses to
++the remote windows associated with \code{win1}.
++When the \code{wait(win1}) call
+ returns, then all neighbors of the calling process have posted the
+-windows associated with \texttt{win0}. Conversely, when the 
+-\texttt{wait(win0)} call returns, then all neighbors of the calling process
+-have posted the windows associated with \texttt{win1}.
++windows associated with \code{win0}. Conversely, when the 
++\code{wait(win0)} call returns, then all neighbors of the calling process
++have posted the windows associated with \code{win1}.
+ Therefore, the nocheck option can be used with the calls to
+ \mpifunc{MPI\_WIN\_START}.
+ 
+ Put calls can be used, instead of get calls, if the area of array
+-\texttt{A0} (resp.\ \texttt{A1}) used by the \texttt{update(A1, A0)}
+-(resp.\ \texttt{update(A0, A1)}) call is disjoint from the area
++\code{A0} (resp.\ \code{A1}) used by the \code{update(A1, A0)}
++(resp.\ \code{update(A0, A1)}) call is disjoint from the area
+ modified by the \RMA/ communication.  On some systems, a put call may be
+ more efficient than a get call, as it requires information exchange
+ only in one direction.
+ 
+-}\end{example}
++\end{example}
+ 
+ In the next several examples, for conciseness, the expression
+ %%HEADER
+@@ -4179,11 +4392,11 @@
+ %Example 2 (rule 6).
+ Implementing a critical region between multiple processes with compare
+ and swap.  The call to \mpifunc{MPI\_WIN\_SYNC} is necessary on
+-Process A after local initialization of \texttt{A} to guarantee the public copy
++Process A after local initialization of \code{A} to guarantee the public copy
+ has been updated with the initialization value found in the private
+ copy.  It would also be valid to call \mpifunc{MPI\_ACCUMULATE} with
+ \const{MPI\_REPLACE} to directly initialize the public copy.  A call
+-to \mpifunc{MPI\_WIN\_FLUSH} would be necessary to assure \texttt{A} in the
++to \mpifunc{MPI\_WIN\_FLUSH} would be necessary to assure \code{A} in the
+ public copy of Process A had been updated before the barrier.
+ %%HEADER
+ %%SKIP
+@@ -4213,8 +4426,66 @@
+ %  \mpifunc{MPI\_Accumulate} with \const{MPI\_REPLACE}, because
+ %  ordering }
+ 
+-\begin{example}{\rm
++\begin{example}\label{ex:shmem-sync}%
++The following example demonstrates the proper synchronization in the
++unified memory model when a data transfer is implemented with load and
++store in the case of windows in shared memory (instead of \mpifunc{MPI\_PUT} or
++\mpifunc{MPI\_GET}) and the synchronization between processes is performed using
++point-to-point communication. The synchronization between processes
++must be supplemented with a memory synchronization through calls to
++\mpifunc{MPI\_WIN\_SYNC}, which act locally as a processor-memory barrier. In
++Fortran, if \const{MPI\_ASYNC\_PROTECTS\_NONBLOCKING} is
++\exindex{MPI\_ASYNC\_PROTECTS\_NONBLOCKING}%
++\code{.FALSE.}
++or the variable \code{X} is not declared as \code{ASYNCHRONOUS},
++\exindex{ASYNCHRONOUS}%
++reordering of the accesses to the
++variable \code{X} must be prevented with \mpifunc{MPI\_F\_SYNC\_REG}
++operations. (No equivalent function is needed in C.)
++
++The variable \code{X} is contained within a shared memory window and \code{X}
++corresponds to the same memory location at both processes. The
++\mpifunc{MPI\_WIN\_SYNC} operation performed by process A ensures completion of
++the load/store operations issued by process A. The \mpifunc{MPI\_WIN\_SYNC}
++operation performed by process B ensures that process A's updates to \code{X}
++are visible to process B.
++
+ \exindex{MPI\_Win\_lock\_all}%
++\exindex{MPI\_Win\_sync!shared memory windows}%
++\exindex{Shared memory windows!MPI\_Win\_sync}%
++\exindex{MPI\_F\_sync\_reg}%
++%%HEADER
++%%SKIP
++%%ENDHEADER
++\begin{verbatim}
++Process A                        Process B
++
++MPI_WIN_LOCK_ALL(                MPI_WIN_LOCK_ALL(
++      MPI_MODE_NOCHECK,win)            MPI_MODE_NOCHECK,win)
++
++DO ...                           DO ...
++  X=...
++
++  MPI_F_SYNC_REG(X)
++  MPI_WIN_SYNC(win)
++  MPI_SEND                         MPI_RECV
++                                   MPI_WIN_SYNC(win)
++                                   MPI_F_SYNC_REG(X)
++
++                                   print X
++
++                                   MPI_F_SYNC_REG(X)
++  MPI_RECV                         MPI_SEND
++  MPI_F_SYNC_REG(X)
++END DO                           END DO
++
++MPI_WIN_UNLOCK_ALL(win)          MPI_WIN_UNLOCK_ALL(win)
++\end{verbatim}
++
++\end{example}
++
++\begin{example}
++\exindex{MPI\_Win\_lock\_all}%
+ \exindex{MPI\_Rget}%
+ \exindex{MPI\_Rput}%
+ \exindex{MPI\_Win\_unlock\_all}%
+@@ -4222,8 +4493,8 @@
+ \exindex{MPI\_Waitany}%
+ The following example shows how request-based operations can be used
+ to overlap communication with computation.  Each process fetches,
+-processes, and writes the result for \texttt{NSTEPS} chunks of data.  Instead
+-of a single buffer, \texttt{M} local buffers are used to allow up to \texttt{M}
++processes, and writes the result for \code{NSTEPS} chunks of data.  Instead
++of a single buffer, \code{M} local buffers are used to allow up to \code{M}
+ communication operations to overlap with computation. 
+ 
+ %%HEADER
+@@ -4240,48 +4511,48 @@
+ MPI_Win     win;
+ MPI_Request put_req[M] = { MPI_REQUEST_NULL };
+ MPI_Request get_req;
+-double      **baseptr;
++double      *baseptr;
+ double      data[M][N];
+ 
+ MPI_Win_allocate(NSTEPS*N*sizeof(double), sizeof(double), MPI_INFO_NULL,
+-  MPI_COMM_WORLD, baseptr, &win);
++  MPI_COMM_WORLD, &baseptr, &win);
+ 
+ MPI_Win_lock_all(0, win);
+ 
+ for (i = 0; i < NSTEPS; i++) {
+- if (i<M) 
++ if (i<M)
+    j=i;
+  else
+    MPI_Waitany(M, put_req, &j, MPI_STATUS_IGNORE);
+ 
+- MPI_Rget(data[j], N, MPI_DOUBLE, target, i*N, N, MPI_DOUBLE, win, 
++ MPI_Rget(data[j], N, MPI_DOUBLE, target, i*N, N, MPI_DOUBLE, win,
+           &get_req);
+  MPI_Wait(&get_req,MPI_STATUS_IGNORE);
+  compute(i, data[j], ...);
+- MPI_Rput(data[j], N, MPI_DOUBLE, target, i*N, N, MPI_DOUBLE, win, 
++ MPI_Rput(data[j], N, MPI_DOUBLE, target, i*N, N, MPI_DOUBLE, win,
+           &put_req[j]);
+ }
+ 
+ MPI_Waitall(M, put_req, MPI_STATUSES_IGNORE);
+ MPI_Win_unlock_all(win);
+ \end{verbatim}
+-}
++\end{example}
+ %%FIXME
+ %% This end group is a temp hack - something is wrong elsewhere in the
+ %% file, and this is a workaround
+-\endgroup
++%\endgroup
+ 
+-\begin{example}{\rm
++\begin{example}
+ The following example constructs a distributed shared linked list using dynamic
+ windows.  Initially process 0 creates the head of the list, attaches it to
+ the window, and broadcasts the pointer to all processes.  All processes then
+-concurrently append \texttt{N} new elements to the list.  When a
++concurrently append \code{N} new elements to the list.  When a
+ process attempts to 
+ attach its element to the tail of the list it may discover that its tail pointer
+ is stale and it must chase ahead to the new tail before the element can be
+ attached.
+ This example requires some modification to
+-work in an environment where the length of a pointer is different on
++work in an environment where the layout of the structures is different on
+ different processes.
+ 
+ \exindex{MPI\_Win\_create\_dynamic}%
+@@ -4295,15 +4566,22 @@
+ \exindex{MPI\_Get\_accumulate}%
+ \exindex{MPI\_Win\_flush}%
+ \exindex{MPI\_Win\_unlock\_all}%
++\exindex{MPI\_Aint\_add}%
+ %%HEADER
+ %%LANG: C
+ %%SUBST:\.\.\.:
+ %%TAIL: return 0;}
++%%TOP: #include <stddef.h>
+ %%ENDHEADER
+ \begin{verbatim}
+ ...
+ #define NUM_ELEMS 10
+ 
++#define LLIST_ELEM_NEXT_RANK ( offsetof(llist_elem_t, next) + \
++                               offsetof(llist_ptr_t, rank) )
++#define LLIST_ELEM_NEXT_DISP ( offsetof(llist_elem_t, next) + \
++                               offsetof(llist_ptr_t, disp) )
++
+ /* Linked list pointer */
+ typedef struct {
+   MPI_Aint disp;
+@@ -4334,7 +4612,7 @@
+   elem_ptr->next  = nil;
+   MPI_Win_attach(win, elem_ptr, sizeof(llist_elem_t));
+ 
+-  /* Add the element to the list of local elements so we can free 
++  /* Add the element to the list of local elements so we can free
+      it later. */
+   if (my_elems_size == my_elems_count) {
+     my_elems_size += 100;
+@@ -4388,7 +4666,7 @@
+ 
+       MPI_Compare_and_swap((void*) &new_elem_ptr.rank, (void*) &nil.rank,
+           (void*)&next_tail_ptr.rank, MPI_INT, tail_ptr.rank,
+-          (MPI_Aint) &(((llist_elem_t*)tail_ptr.disp)->next.rank), 
++          MPI_Aint_add(tail_ptr.disp, LLIST_ELEM_NEXT_RANK),
+           llist_win);
+ 
+       MPI_Win_flush(tail_ptr.rank, llist_win);
+@@ -4396,19 +4674,19 @@
+ 
+       if (success) {
+         MPI_Accumulate(&new_elem_ptr.disp, 1, MPI_AINT, tail_ptr.rank,
+-            (MPI_Aint) &(((llist_elem_t*)tail_ptr.disp)->next.disp), 1,
++            MPI_Aint_add(tail_ptr.disp, LLIST_ELEM_NEXT_DISP), 1,
+             MPI_AINT, MPI_REPLACE, llist_win);
+ 
+         MPI_Win_flush(tail_ptr.rank, llist_win);
+         tail_ptr = new_elem_ptr;
+ 
+       } else {
+-        /* Tail pointer is stale, fetch the displacement.  May take 
++        /* Tail pointer is stale, fetch the displacement.  May take
+            multiple tries if it is being updated. */
+         do {
+-          MPI_Get_accumulate( NULL, 0, MPI_AINT, &next_tail_ptr.disp, 
+-              1, MPI_AINT, tail_ptr.rank, 
+-              (MPI_Aint) &(((llist_elem_t*)tail_ptr.disp)->next.disp),
++          MPI_Get_accumulate( NULL, 0, MPI_AINT, &next_tail_ptr.disp,
++              1, MPI_AINT, tail_ptr.rank,
++              MPI_Aint_add(tail_ptr.disp, LLIST_ELEM_NEXT_DISP),
+               1, MPI_AINT, MPI_NO_OP, llist_win);
+ 
+           MPI_Win_flush(tail_ptr.rank, llist_win);
+@@ -4430,7 +4708,7 @@
+ ...
+ \end{verbatim}
+ 
+-}\end{example}
++\end{example}
+ 
+ % LocalWords:  RMA MPI noncoherent SMP ALLOC MEM baseptr Alloc mem Aint IERROR
+ % LocalWords:  const FRR malloc IERR sizeof disp comm int GB attr ierror addr

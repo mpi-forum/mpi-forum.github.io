@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      Attachment –
+      MPI Forum – Trac
+    </title>
+        <link rel="search" href="/trac/mpi-forum-web/search" />
+        <link rel="help" href="/trac/mpi-forum-web/wiki/TracGuide" />
+        <link rel="alternate" href="/trac/mpi-forum-web/raw-attachment/wiki/MPI3Hybrid/hybrid_wg.2.pdf" type="application/pdf; charset=iso-8859-15" title="Original Format" />
+        <link rel="up" href="/trac/mpi-forum-web/wiki/MPI3Hybrid" title="MPI3Hybrid" />
+        <link rel="start" href="/trac/mpi-forum-web/wiki" />
+        <link rel="stylesheet" href="/htdocs/css/trac.css" type="text/css" /><link rel="stylesheet" href="/htdocs/css/code.css" type="text/css" />
+        <link rel="shortcut icon" href="/trac/mpi-forum-web/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/trac/mpi-forum-web/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/trac/mpi-forum-web/search/opensearch" title="Search MPI Forum" />
+    <script type="text/javascript" src="/htdocs/js/jquery.js"></script><script type="text/javascript" src="/htdocs/js/trac.js"></script><script type="text/javascript" src="/htdocs/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/htdocs/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="https://svn.mpi-forum.org/"><img src="/img/mpi-forum-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/trac/mpi-forum-web/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/trac/mpi-forum-web/login">Login</a></li><li><a href="/trac/mpi-forum-web/wiki/TracGuide">Help/Guide</a></li><li><a href="/trac/mpi-forum-web/about">About Trac</a></li><li class="last"><a href="/trac/mpi-forum-web/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/trac/mpi-forum-web/wiki">Wiki</a></li><li><a href="/trac/mpi-forum-web/timeline">Timeline</a></li><li><a href="/trac/mpi-forum-web/roadmap">Roadmap</a></li><li><a href="/trac/mpi-forum-web/report">View Tickets</a></li><li class="last"><a href="/trac/mpi-forum-web/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+            <li class="first last"><a href="/trac/mpi-forum-web/wiki/MPI3Hybrid">Back to MPI3Hybrid</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="attachment">
+        <h1><a href="/trac/mpi-forum-web/wiki/MPI3Hybrid">MPI3Hybrid</a>: hybrid_wg.2.pdf</h1>
+        <table id="info" summary="Description">
+          <tbody>
+            <tr>
+              <th scope="col">
+                File hybrid_wg.2.pdf, <span title="84678 bytes">82.7 kB</span>
+                (added by balaji,  <a class="timeline" href="/trac/mpi-forum-web/timeline?from=2009-06-09T13%3A03%3A50Z-0400&amp;precision=second" title="2009-06-09T13:03:50Z-0400 in Timeline">32 hours</a> ago)
+              </th>
+            </tr>
+            <tr>
+              <td class="message searchable">
+                <p>
+June 2009 Meeting
+</p>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="preview" class="searchable">
+      <p>
+        <strong>HTML preview not available</strong>,
+            since no preview renderer could handle it.
+        Try <a href="/trac/mpi-forum-web/raw-attachment/wiki/MPI3Hybrid/hybrid_wg.2.pdf">downloading</a> the file instead.
+      </p>
+        </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/trac/mpi-forum-web/raw-attachment/wiki/MPI3Hybrid/hybrid_wg.2.pdf">Original Format</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/htdocs/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/trac/mpi-forum-web/about"><strong>Trac 0.11</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

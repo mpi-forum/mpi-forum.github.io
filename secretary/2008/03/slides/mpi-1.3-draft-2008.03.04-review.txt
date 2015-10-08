@@ -1,0 +1,65 @@
+Review of mpi-1.3-draft-2008.03.04.pdf
+--------------------------------------
+          
+Comments  by the MPI-1.3 Editor (Rainer Keller)
+
+      OK  = Obvious, typo, correction must be done, ...
+            or good idea, correction should be done, ...
+      ?   = should be decided by the MPI Forum 
+      22  = should be deferred to MPI-2.2.
+            It is mainly a suggestion to the content of MPI and not 
+            to the merging of MPI-1.1 with MPI-2. 
+      Q?  = Question & answer only, no need for corrections 
+      -   = Comment, can be ignored 
+     *NO* = Correction must or should not be done 
+
+          
+Rolf Rabenseifner, HLRS, 9 Mar 2008
+===================================
+ 
+1.1   ..  Titlepage after title: Subtitle "Version 1.3" must be added.
+
+1.2   ..  Copyright: Add "2008" in the list of years.
+
+1.3   ..  193/7 Section title was MPI-1.2: "Version Number"
+                and is in MPI 1.3: "Version Inquiries"
+                Is this okay? 
+
+1.4   -   205/42 was done according to Protocal Jan. 2008 meeting 
+          MPI-21 slide 39. Okay.
+
+1.5   ..  160/42-43 Formatting problem: 
+          The space between "communicator" and "." should be removed.
+
+1.6   ..  41/4:  Correct references are 10.2.2 / page 286 / page 289
+
+1.7   ..  60/8:  Correct references are 10.2.2 / page 286 / page 289
+
+1.8   ..  71/27: Correct references are 10.2.2 / page 286 / page 289
+
+1.9   ..  72/25 Formatting problem: A space is too long.
+                Maybe, "the the" must be substituted by "the".
+
+1.10  ..  76/42: The MPI-1.2 errata defined at MPI-2.0 29/6-9
+                 is not implemented.
+
+1.11  ..  111/26: remove first "jth" on this line.
+ 
+1.12  ..  112/28: remove first "jth" on this line.
+ 
+1.13  ..  119/30: Formatting problem: A space is too long.
+ 
+1.14  ..  197/5:  Formatting problem: A space is too long.
+ 
+1.15  ..  207/29: Formatting problem: A space is too long.
+
+1.16  ..  54/6: "= 0" must be substituted by ".EQ. 0", see Ballot 3, Item 10.
+
+1.17  ..  vi/29: The numbering in the Chapter title "Language Binding"
+                 must be "A Language Binding".
+
+1.18  ..  217/3: Numbering "Annex A" is missing.
+
+          All other items from MPI-1.2, Errata page, and Ballot 3 are 
+          included (and checked). 
+ 
