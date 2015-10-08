@@ -11,6 +11,7 @@ $slides[] = "2015-09-24-tickets-324-477";
 $slides[] = "2015-09-26-ulfm";
 $slides[] = "MPI Forum SVN-Git";
 $slides[] = "mpi31-report-japanese-translation-with-notes";
+$slides[] = "RMA Notified Access Implementation Discussion";
 
 show_slides($slide_dir, $slides);
 
