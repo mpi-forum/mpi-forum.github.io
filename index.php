@@ -10,8 +10,15 @@ include_once("$topdir/include/header.php");
 Forum, which is the standardization forum for the <A HREF="http://www.mpi-forum.org/">Message Passing Interface (MPI)</A>.</p>
 
 <h2>Updates</h2>
-<ul><h4>
-<li>
+<ul>
+<li><h4>BoF at SC 15, Nov. 18th, 2015</h4>
+<ul>
+<li>Room 15, Austin Convention Center, Austin, TX
+<li>News from the MPI Forum, incl. MPI 3.1
+<li>Activities from all MPI Forum Working Groups
+<li>How can you get involved?"
+</ul>
+<li><h4>
 <A HREF="mpi3-impl-status-Mar15.pdf">Implementation Status</A>, as of March 2015
 </h4></li>
 <li><h4>BoF at SC 14, Nov. 19th, 2014</h4>
