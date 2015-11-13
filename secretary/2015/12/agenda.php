@@ -59,6 +59,7 @@ plenary_item("","Reading #3: Define new MPI Error handler for subcommunicator ab
 plenary_item("","Reading #7: Cleanup Advice and Definition of MPI_COMM_FREE","Wesley",0);
 plenary_item("","Reading ?: Large count proposal","Jeff H.",0);
 plenary_item("","Readings on INFO Assertions (github issues tbd.)","Dan",0);
+plenary_item("","Update and Q/A on github transition","Jeff/Wesley",0);
 agenda_plenary_end();
 
 include_once("$topdir/include/footer.php");
