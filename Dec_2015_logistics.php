@@ -21,9 +21,20 @@ include_once("$topdir/include/header.php");
 
 <h3><a name=registration>Meeting Registration</a></h3>
 
-TBD.
 
-</p>
+
+<p>Advanced registration is requested for this meeting.</p>
+
+<p><a
+href="https://www.eventbrite.com/e/mpi-forum-tickets-19122551065">Meeting Registration</a></p>
+
+<p>The registration covers snacks at the meeting on Monday, Tuesday
+Wednesday, and Thursday lunch on Tuesday and Wednesday, and the meeting logistics.  </p>
+
+
+<p>Advanced registration is required for this meeting so that Cisco
+can process their visitor processing procedure.</p>
+
 
 <div align="center"><hr width=50%></div>
 
@@ -39,7 +50,10 @@ Milpitas, CA, USA.  Great Dane conference room.</li>
 
 <h3><a name=cost>Meeting Cost</a></h3>
 
-TBD.
+<p>&nbsp;&nbsp;&nbsp; $150 per person to cover meeting logistics
+costs, snacks on Monday, Tuesday, Wednesday, and Thursday, and
+lunch on Tuesday and Wednesday.
+&nbsp; </p>
 
 </p>
 

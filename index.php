@@ -19,7 +19,8 @@ Forum, which is the standardization forum for the <A HREF="http://www.mpi-forum.
 <li>Room 15, Austin Convention Center, Austin, TX
 <li>News from the MPI Forum, incl. MPI 3.1
 <li>Activities from all MPI Forum Working Groups
-<li>How can you get involved?"
+<li>How can you get involved?
+<li><a href="2015-11-scbof.pdf">Complete slide deck available</a>
 </ul>
 <li><h4>
 <A HREF="mpi3-impl-status-Mar15.pdf">Implementation Status (MPI 3.0)</A>, as of March 2015
