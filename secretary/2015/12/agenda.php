@@ -52,8 +52,8 @@ agenda_item(" 12:00pm          ", "Close");
 agenda_day_end();
 
 agenda_plenary_start("Plenary Items to be Discussed",0);
-plenary_item("","Update on WG status","All WG chairs or their proxies",0);
-plenary_item("","Update and Q/A on github transition","Jeff/Wesley",0);
+plenary_item("","Update on WG status","All WG chairs or their proxies",1);
+plenary_item("","Update and Q/A on github transition","Jeff/Wesley",1);
 
 plenary_item("","Update on persistence WG","Tony",0);
 
