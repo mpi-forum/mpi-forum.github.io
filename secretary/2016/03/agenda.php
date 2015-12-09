@@ -44,6 +44,12 @@ agenda_day_end();
 
 agenda_day_start("Thursday, February 3, 2016 - Plenary");
 agenda_item(" 9:00am - 9:30am", "Votes");
+agenda_item("                ", "No-No-Vote Readings and Votes:");
+plenary_item("","Changes regarding intra-communicators to <a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">PR #1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
+agenda_item("                ", "First Votes:");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">PR #5</a>:  MPIR being_debugged","",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">PR #1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">PR #7</a>: Cleanup Advice and Definition of MPI_COMM_FREE","",0);
 agenda_item(" 9:30am - 10:30am", "Plenary Discusssions (agenda, see below)");
 agenda_item(" 10:30am - 11:00am", "Break");
 agenda_item(" 11:00am - 12:00pm", "Plenary Discusssions (agenda, see below)");
@@ -53,7 +59,9 @@ agenda_day_end();
 
 agenda_plenary_start("Plenary Items to be Discussed",0);
 plenary_item("","Update on WG status","All WG chairs or their proxies",0);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">Reading #29</a> - ERRATA: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions","Jeff",0);
+plenary_item("Errata Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">PR #29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions","Jeff",0);
+plenary_item("Proposed Readings","need to be confirmed (with PR) at least 2 weeks prior to meeting","",0);
+plenary_item("","Persistent Collectives","Tony",1);
 agenda_plenary_end();
 
 include_once("$topdir/include/footer.php");
