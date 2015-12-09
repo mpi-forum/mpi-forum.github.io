@@ -57,8 +57,8 @@ plenary_item("","Update and Q/A on github transition","Jeff/Wesley",0);
 
 plenary_item("","Update on persistence WG","Tony",0);
 
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">Reading #5</a>:  MPIR being_debugged","Martin/Jeff",0);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">Reading #12</a> - ERRATA: MPI_T code example bug","Martin/Jeff",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">Reading #12</a> - ERRATA: MPI_T code example bug","Jeff",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">Reading #5</a>:  MPIR being_debugged","Anh",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">Reading #1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">Reading #3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">Reading #7</a>: Cleanup Advice and Definition of MPI_COMM_FREE","Wesley",0);
