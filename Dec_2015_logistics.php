@@ -25,6 +25,24 @@ include_once("$topdir/include/header.php");
 
 <p>Advanced registration is requested for this meeting.</p>
 
+<blockquote>
+<p><strong>NOTICE:</strong>
+
+Data from three questions in the registration is being collected by
+the MPI Forum for research by the <a href="www.womeninhp.org.uk">Women
+in HPC</a> initiative:
+
+<ol>
+<li> What country do you live in?</li>
+<li> What is your gender?</li>
+<li> Who is your employer?</li>
+</ol>
+
+This data will not be retained by the MPI Forum and only anonymised
+data will be retained by Women in HPC to facilitate research into the
+under-representation of women in the international HPC community.
+</blockquote>
+
 <p><a
 href="https://www.eventbrite.com/e/mpi-forum-tickets-19122551065">Meeting Registration</a></p>
 
