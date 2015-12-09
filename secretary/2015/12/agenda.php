@@ -43,11 +43,11 @@ agenda_item(" 3:00pm - 3:30pm", "Break");
 agenda_item(" 3:30pm - 5:00pm", "Plenary Discusssions (agenda, see below)");
 agenda_day_end();
 
-agenda_day_start("Thursday, December 10, 2015 - Plenary");
-agenda_item(" 9:00am - 9:30am", "Votes");
-agenda_item(" 9:30am - 10:30am", "Plenary Discusssions (agenda, see below)");
+agenda_day_start("Thursday, December 10, 2015 - Working Groups");
+agenda_item(" 9:00am - 9:30am", "No Votes Scheduled");
+agenda_item(" 9:30am - 10:30am", "WG time");
 agenda_item(" 10:30am - 11:00am", "Break");
-agenda_item(" 11:00am - 12:00pm", "Plenary Discusssions (agenda, see below)");
+agenda_item(" 11:00am - 12:00pm", "WG time");
 agenda_item(" 12:00pm          ", "Close");
 agenda_day_end();
 
@@ -60,12 +60,12 @@ plenary_item("","Update on persistence WG","Tony",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">Reading #12</a> - ERRATA: MPI_T code example bug","Jeff",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">Reading #5</a>:  MPIR being_debugged","Anh",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">Reading #1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",1);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">Reading #3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">Reading #3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">Reading #7</a>: Cleanup Advice and Definition of MPI_COMM_FREE","Wesley",1);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">Reading #11</a>: Communicator Info Assertions","Jim",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">Reading #11</a>: Communicator Info Assertions","Jim",1);
 
-plenary_item("","FT-WG: non-catastrophic errors","Wesley",0);
 plenary_item("","Minor update on update on persistence WG","Tony",0);
+plenary_item("","FT-WG: non-catastrophic errors","Wesley",0);
 agenda_plenary_end();
 
 include_once("$topdir/include/footer.php");

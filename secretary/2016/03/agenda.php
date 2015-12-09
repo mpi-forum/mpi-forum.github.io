@@ -16,7 +16,7 @@ agenda_item(" 4:00pm -   5:30pm", "WG time");
 agenda_item(" 4:00pm -   5:30pm", "WG time");
 agenda_day_end();
 
-agenda_day_start("Tuesday, February 1, 2016 - Working Groups");
+agenda_day_start("Tuesday, March 1, 2016 - Working Groups");
 agenda_item(" 9:00am - 10:30am", "WG time");
 agenda_item(" 9:00am - 10:30am", "WG time");
 agenda_item(" 10:30am - 11:00am", "Break");
@@ -31,7 +31,7 @@ agenda_item(" 3:30pm - 5:00pm", "WG time");
 agenda_day_end();
 
 
-agenda_day_start("Wednesday, February 2, 2016 - Plenary");
+agenda_day_start("Wednesday, March 2, 2016 - Plenary");
 agenda_item(" 9:00am - 10:30am", "Persistence WG - Tony");
 agenda_item(" 9:00am - 10:30am", "Large Counts WG - Jeff H.");
 agenda_item(" 10:30am - 11:00am", "Break");
@@ -42,12 +42,15 @@ agenda_item(" 3:00pm - 3:30pm", "Break");
 agenda_item(" 3:30pm - 5:00pm", "Plenary Discusssions (agenda, see below)");
 agenda_day_end();
 
-agenda_day_start("Thursday, February 3, 2016 - Plenary");
+agenda_day_start("Thursday, March 3, 2016 - Plenary");
 agenda_item(" 9:00am - 9:30am", "Votes");
 agenda_item("                ", "No-No-Vote Readings and Votes:");
+agenda_item("                ", "Errata Votes:");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">PR #12</a>: MPI_T code example bug");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">PR #29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions");
 agenda_item("                ", "First Votes:");
-agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">PR #5</a>:  MPIR being_debugged","",0);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">PR #7</a>: Cleanup Advice and Definition of MPI_COMM_FREE","",0);
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">PR #5</a>:  MPIR being_debugged");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">PR #7</a>: Cleanup Advice and Definition of MPI_COMM_FREE");
 agenda_item(" 9:30am - 10:30am", "Plenary Discusssions (agenda, see below)");
 agenda_item(" 10:30am - 11:00am", "Break");
 agenda_item(" 11:00am - 12:00pm", "Plenary Discusssions (agenda, see below)");
@@ -61,6 +64,7 @@ plenary_item("Errata Reading","<a href=\"https://github.com/mpi-forum/mpi-issues
 plenary_item("Possible Readings","need to be confirmed (with ready to read PR number) at least 2 weeks prior to meeting","",0);
 plenary_item("","Persistent Collectives","Tony",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">PR #1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">PR #3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
 agenda_plenary_end();
 
 include_once("$topdir/include/footer.php");
