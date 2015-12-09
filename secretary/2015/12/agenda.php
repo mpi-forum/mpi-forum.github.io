@@ -55,16 +55,15 @@ agenda_plenary_start("Plenary Items to be Discussed",0);
 plenary_item("","Update on WG status","All WG chairs or their proxies",1);
 plenary_item("","Update and Q/A on github transition","Jeff/Wesley",1);
 
-plenary_item("","Update on persistence WG","Tony",0);
+plenary_item("","Update on persistence WG","Tony",1);
 
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">Reading #12</a> - ERRATA: MPI_T code example bug","Jeff",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">Reading #12</a> - ERRATA: MPI_T code example bug","Jeff",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">Reading #5</a>:  MPIR being_debugged","Anh",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">Reading #1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">Reading #3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">Reading #7</a>: Cleanup Advice and Definition of MPI_COMM_FREE","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">Reading #11</a>: Communicator Info Assertions","Jim",0);
 
-plenary_item("","Reading ?: Large count proposal","Jeff H.",0);
 plenary_item("","FT-WG: non-catastrophic errors","Wesley",0);
 agenda_plenary_end();
 
