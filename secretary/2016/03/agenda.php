@@ -58,7 +58,7 @@ agenda_day_end();
 agenda_plenary_start("Plenary Items to be Discussed",0);
 plenary_item("","Update on WG status","All WG chairs or their proxies",0);
 plenary_item("Errata Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">PR #29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions","Jeff",0);
-plenary_item("Proposed Readings","need to be confirmed (with ready to read PR number) at least 2 weeks prior to meeting","",0);
+plenary_item("Possible Readings","need to be confirmed (with ready to read PR number) at least 2 weeks prior to meeting","",0);
 plenary_item("","Persistent Collectives","Tony",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">PR #1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
 agenda_plenary_end();
