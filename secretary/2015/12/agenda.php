@@ -68,7 +68,7 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">Re
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">Reading #11</a>: Communicator Info Assertions","Jim",1);
 
 plenary_item("","Minor update on update on persistence WG","Dan",1);
-plenary_item("","FT-WG: non-catastrophic errors","Wesley",0);
+plenary_item("","FT-WG: non-catastrophic errors","Wesley",1);
 agenda_plenary_end();
 
 include_once("$topdir/include/footer.php");
