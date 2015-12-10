@@ -40,6 +40,9 @@ agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
 agenda_item(" 1:30pm - 3:00pm", "Plenary Discusssions (agenda, see below)");
 agenda_item(" 3:00pm - 3:30pm", "Break");
 agenda_item(" 3:30pm - 5:00pm", "Plenary Discusssions (agenda, see below)");
+
+agenda_item(" 6:00pm (?) - ...", "Dinner (optional, pay on your own)");
+
 agenda_day_end();
 
 agenda_day_start("Thursday, March 3, 2016 - Plenary");
@@ -65,6 +68,7 @@ plenary_item("Possible Readings","need to be confirmed (with ready to read PR nu
 plenary_item("","Persistent Collectives","Tony",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">PR #1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">PR #3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">Reading #11</a>: Communicator Info Assertions","Jim",0);
 agenda_plenary_end();
 
 include_once("$topdir/include/footer.php");

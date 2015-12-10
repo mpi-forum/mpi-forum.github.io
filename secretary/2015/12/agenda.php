@@ -41,6 +41,9 @@ agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
 agenda_item(" 1:30pm - 3:00pm", "Plenary Discusssions (agenda, see below)");
 agenda_item(" 3:00pm - 3:30pm", "Break");
 agenda_item(" 3:30pm - 5:00pm", "Plenary Discusssions (agenda, see below)");
+
+agenda_item(" 6:00pm (?) - ...", "Dinner (optional, pay on your own)");
+
 agenda_day_end();
 
 agenda_day_start("Thursday, December 10, 2015 - Working Groups");
@@ -53,7 +56,7 @@ agenda_day_end();
 
 agenda_plenary_start("Plenary Items to be Discussed",0);
 plenary_item("","Update on WG status","All WG chairs or their proxies",1);
-plenary_item("","Update and Q/A on github transition","Jeff/Wesley",1);
+plenary_item("","Update and Q/A on github transition","Wesley",1);
 
 plenary_item("","Update on persistence WG","Tony",1);
 
@@ -64,7 +67,7 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">Re
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">Reading #7</a>: Cleanup Advice and Definition of MPI_COMM_FREE","Wesley",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">Reading #11</a>: Communicator Info Assertions","Jim",1);
 
-plenary_item("","Minor update on update on persistence WG","Tony",0);
+plenary_item("","Minor update on update on persistence WG","Dan",1);
 plenary_item("","FT-WG: non-catastrophic errors","Wesley",0);
 agenda_plenary_end();
 
