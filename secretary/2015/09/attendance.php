@@ -30,8 +30,6 @@ attendee("Brice Goglin", "INRIA");
 attendee("Geoffroy Vallee", $ornl);
 attendee("Takafumi Nose", "Fujitsu");
 attendee("James Dinan", "Intel");
-attendee("William Gropp", "UIUC/NCSA");
-attendee("Wesley Bland", "Intel");
 
 attendance_global();
 
