@@ -7,6 +7,7 @@ include_once("subpage.php");
 $slide_dir = "slides";
 
 $slides[] = "2015-12-09 GitHub Recap";
+$slides[] = "Persistence-Update-09dec15a";
 
 show_slides($slide_dir, $slides);
 
