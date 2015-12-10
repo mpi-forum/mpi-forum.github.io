@@ -8,6 +8,8 @@ $slide_dir = "slides";
 
 $slides[] = "2015-12-09 GitHub Recap";
 $slides[] = "Persistence-Update-09dec15a";
+$slides[] = "2015-12-09 Catastrophic Errors";
+$slides[] = "2015-12-09-issues-1-3-reading";
 
 show_slides($slide_dir, $slides);
 
