@@ -10,12 +10,10 @@ include_once("$topdir/include/header.php");
 <h3><a name=registration>Meeting Registration</a></h3>
 
 
-<p>Advanced registration is required for this meeting - Registration will be available soon.</p>
+<p>Advanced registration is required for this meeting - Registration is available at the following link.</p>
 
-<!--
 <p><a
-href="https://www.eventbrite.com/e/mpi-forum-tickets-16703722283">Meeting Registration</a></p>
--->
+href="https://www.eventbrite.com/e/mpi-forum-tickets-21536496240">Meeting Registration</a></p>
 
 
 <p>The registration covers snacks at the meeting on Monday, Tuesday
