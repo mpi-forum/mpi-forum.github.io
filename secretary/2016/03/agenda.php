@@ -10,8 +10,10 @@ function ticket($num) {
 
 agenda_day_start("Monday, February 29, 2016 - Working Groups");
 agenda_item(" 2:00pm -   3:30pm", "Tools WG time (debugging)");
+agenda_item(" 2:00pm -   3:30pm", "P2P WG time");
 agenda_item(" 3:30pm -   4:00pm", "Break");
 agenda_item(" 4:00pm -   5:30pm", "Tools WG time (debugging)");
+agenda_item(" 2:00pm -   3:30pm", "P2P WG time");
 agenda_day_end();
 
 agenda_day_start("Tuesday, March 1, 2016 - Working Groups");
@@ -69,7 +71,7 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#
 
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#11</a>: Communicator Info Assertions","Jim",0);
 
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#16</a>: Deprecate point-to-point send cancel)","Dan",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel)","Dan",0);
 
 plenary_item("Other","Generic/unified errhandler","Wesley",0);
 plenary_item("","Re-evaluating MPI Threading levels","Ryan",0);
@@ -79,7 +81,8 @@ plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: ULFM part 2","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: ULFM part 3","Wesley",0);
 
-plenary_item("","Hybrid WG plenary","Pavan",0);
+plenary_item("Other","Hybrid WG plenary","Pavan",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/32\">#32</a>:Generic/unified errhandler","Dan",0);
 plenary_item("","Location discussion 2017","Martin",0);
 agenda_plenary_end();
 
