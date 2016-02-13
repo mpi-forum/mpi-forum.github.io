@@ -33,19 +33,21 @@ agenda_item(" 9:00am - 10:30am", "Plenary Discusssions (agenda, see below)");
 agenda_item(" 10:30am - 11:00am", "Break");
 agenda_item(" 11:00am - 12:30pm", "Plenary Discusssions (agenda, see below)");
 agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
-agenda_item(" 1:30pm - 3:00pm", "Plenary Discusssions (agenda, see below)");
-agenda_item(" 3:00pm - 3:30pm", "Break");
-agenda_item(" 3:30pm - 5:00pm", "Plenary Discusssions (agenda, see below)");
+agenda_item(" 1:30pm - 3:30pm", "Plenary Discusssions (agenda, see below)");
+agenda_item(" 3:30pm - 4:00pm", "Break");
+agenda_item(" 4:30pm - 6:30pm", "Plenary Discusssions (agenda, see below)");
 
-agenda_item(" 6:00pm (?) - ...", "Dinner (optional, pay on your own)");
+agenda_item(" 6:45pm (?) - ...", "Dinner (optional, pay on your own)");
 
 agenda_day_end();
 
 agenda_day_start("Thursday, March 3, 2016 - Plenary");
 agenda_item(" 9:00am - 9:30am", "Votes");
+<!--
 agenda_item("                ", "No-No-Vote Readings and Votes:");
 agenda_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort");
 agenda_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort");
+-->
 agenda_item("                ", "Errata Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">#12</a>: MPI_T code example bug");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions");
@@ -75,7 +77,7 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#
 
 plenary_item("Other","Generic/unified errhandler","Wesley",0);
 plenary_item("","Re-evaluating MPI Threading levels","Ryan",0);
-plenary_item("","How to Make MPI (More) Awesome","Jeff",0);
+plenary_item("","Title: tbd","Jeff",0);
 
 plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: ULFM part 1","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: ULFM part 2","Wesley",0);
