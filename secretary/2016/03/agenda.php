@@ -84,7 +84,7 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: ULFM part 3","Wesley",0);
 
 plenary_item("Other","Hybrid WG plenary","Pavan",0);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/32\">#32</a>:Generic/unified errhandler","Dan",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/32\">#32</a>:Allocating receive and freeing send","Dan",0);
 plenary_item("","Location discussion 2017","Martin",0);
 agenda_plenary_end();
 
