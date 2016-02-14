@@ -10,18 +10,21 @@ function ticket($num) {
 
 agenda_day_start("Monday, February 29, 2016 - Working Groups");
 agenda_item(" 2:00pm -   3:30pm", "Tools WG time (debugging)");
-agenda_item(" 2:00pm -   3:30pm", "P2P WG time");
+agenda_item(" 2:00pm -   3:30pm", "RMA WG time");
 agenda_item(" 3:30pm -   4:00pm", "Break");
 agenda_item(" 4:00pm -   5:30pm", "Tools WG time (debugging)");
-agenda_item(" 2:00pm -   3:30pm", "P2P WG time");
+agenda_item(" 2:00pm -   3:30pm", "RMA WG time");
 agenda_day_end();
 
 agenda_day_start("Tuesday, March 1, 2016 - Working Groups");
 agenda_item(" 9:00am - 10:30am", "Tools WG time (MPI_T, MPI Ext. Intf.)");
+agenda_item(" 9:00am - 10:30am", "P2P WG time");
 agenda_item(" 11:00am - 12:30pm", "WG time");
 agenda_item(" 11:00am - 12:30pm", "Tools WG time (MPI_T, MPI Ext. Intf.)");
+agenda_item(" 11:00am - 12:30pm", "P2P WG time");
 agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
 agenda_item(" 1:30pm - 3:00pm", "Tools WG time (MPI_T, MPI Ext. Intf. (overflow))");
+agenda_item(" 1:30pm - 3:00pm", "Hybrid WG time");
 agenda_item(" 3:00pm - 3:30pm", "Break");
 agenda_item(" 3:30pm - 5:30pm", "Hybrid WG time");
 agenda_item(" 3:30pm - 5:30pm", "Large Count WG time");
