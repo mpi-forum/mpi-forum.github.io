@@ -46,6 +46,8 @@ agenda_day_end();
 
 agenda_day_start("Thursday, March 3, 2016 - Plenary");
 agenda_item(" 9:00am - 9:30am", "Votes");
+agenda_item("                ", "Procedures Votes:");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/35\">#35</a>: Procedure Changes: Allow move of voting block as an exception");
 agenda_item("                ", "Errata Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">#12</a>: MPI_T code example bug");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions");
@@ -62,6 +64,7 @@ agenda_day_end();
 
 agenda_plenary_start("Plenary Items to be Discussed",0);
 plenary_item("","Update on WG status","All WG chairs or their proxies",0);
+plenary_item("Procedures Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/35\">#35</a>: Procedure Changes: Allow move of voting block as an exception","Martin",0);
 plenary_item("Errata Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">#12</a>: MPI_T code example bug","Kathryn",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions","Jeff",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#34</a>: Bug in code example 7.9 in call to MPI_DIMS_CREATE ","Dan",0);
@@ -75,7 +78,7 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#
 
 plenary_item("Other","Generic/unified errhandler","Wesley",0);
 plenary_item("","Re-evaluating MPI Threading levels","Ryan",0);
-plenary_item("","Title: tbd","Jeff",0);
+plenary_item("","MPI Sessions","Jeff",0);
 
 plenary_item("","The FENIX library","Marc Gamell",0);
 
