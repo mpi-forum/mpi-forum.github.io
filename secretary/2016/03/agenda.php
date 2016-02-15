@@ -13,7 +13,7 @@ agenda_item(" 2:00pm -   3:30pm", "Tools WG time (debugging)");
 agenda_item(" 2:00pm -   3:30pm", "RMA WG time");
 agenda_item(" 3:30pm -   4:00pm", "Break");
 agenda_item(" 4:00pm -   5:30pm", "Tools WG time (debugging)");
-agenda_item(" 2:00pm -   3:30pm", "RMA WG time");
+agenda_item(" 4:00pm -   5:30pm", "RMA WG time");
 agenda_day_end();
 
 agenda_day_start("Tuesday, March 1, 2016 - Working Groups");
