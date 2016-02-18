@@ -19,9 +19,11 @@ agenda_day_end();
 agenda_day_start("Tuesday, March 1, 2016 - Working Groups");
 agenda_item(" 9:00am - 10:30am", "Tools WG time (MPI_T, MPI Ext. Intf.)");
 agenda_item(" 9:00am - 10:30am", "P2P WG time");
-agenda_item(" 11:00am - 12:30pm", "WG time");
+agenda_item(" 9:00am - 10:30am", "FT WG time");
+agenda_item(" 10:30am - 11:00am", "Break");
 agenda_item(" 11:00am - 12:30pm", "Tools WG time (MPI_T, MPI Ext. Intf.)");
 agenda_item(" 11:00am - 12:30pm", "P2P WG time");
+agenda_item(" 11:00am - 12:30pm", "FT WG time");
 agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
 agenda_item(" 1:30pm - 3:00pm", "Tools WG time (MPI_T, MPI Ext. Intf. (overflow))");
 agenda_item(" 1:30pm - 3:00pm", "Hybrid WG time");
@@ -76,7 +78,6 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#
 
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel)","Dan",0);
 
-plenary_item("Other","Generic/unified errhandler","Wesley",0);
 plenary_item("","Re-evaluating MPI Threading levels","Ryan",0);
 plenary_item("","MPI Sessions","Jeff",0);
 
