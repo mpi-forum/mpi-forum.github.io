@@ -48,7 +48,7 @@ Note, though, that all of these efforts or new concepts are currently only being
 
 <h2>Voting Rules:</h2>
 
-On June 4th 2015, the MPI forum voted for <A HREF="procedures-2015-06-04.pdf">new voting rules</a> (effective June 4th, 2015).
+On June 4th 2015, the MPI forum voted for <A HREF="procedures-current.pdf">new voting rules</a> (effective June 4th, 2015).
 
 <h2>Working Groups:</h2>
 

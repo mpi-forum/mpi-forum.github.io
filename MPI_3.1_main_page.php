@@ -64,9 +64,6 @@ As of the December 2014 meeting, we completed all additions to the MPI 3.1 stand
 </ul>
 </ul>
 
-<h2>Voting Rules:</h2>
-
-On March 14th 2013, the MPI forum voted for <A HREF="procedures-2013-03-15.pdf">new voting rules</a> (effective March 15th, 2013). Additionaly, there is a current proposal for a <A HREF="procedures-2015-06-proposal.pdf">new edition of this document</a>, which will be brought up for a vote at the Chicago meeting.
 
 <h2>Document Intergration Process and Chaper Committee Responsibilities</h2>
 
