@@ -9,23 +9,33 @@ function ticket($num) {
 }
 
 agenda_day_start("Monday, February 29, 2016 - Working Groups");
-agenda_item(" 2:00pm -   3:30pm", "Tools WG time (debugging)");
+agenda_item_webex(" 2:00pm -   3:30pm", "Tools WG time (debugging)",
+                  "https://cisco.webex.com/ciscosales/j.php?MTID=m0fa1852669cec2c998236178f6097a50",
+                  "J72u6vnT");
 agenda_item(" 2:00pm -   3:30pm", "RMA WG time");
 agenda_item(" 3:30pm -   4:00pm", "Break");
-agenda_item(" 4:00pm -   5:30pm", "Tools WG time (debugging)");
+agenda_item_webex(" 4:00pm -   5:30pm", "Tools WG time (debugging)",
+                  "https://cisco.webex.com/ciscosales/j.php?MTID=m0fa1852669cec2c998236178f6097a50",
+                  "J72u6vnT");
 agenda_item(" 4:00pm -   5:30pm", "RMA WG time");
 agenda_day_end();
 
 agenda_day_start("Tuesday, March 1, 2016 - Working Groups");
-agenda_item(" 9:00am - 10:30am", "Tools WG time (MPI_T, MPI Ext. Intf.)");
+agenda_item_webex(" 9:00am - 10:30am", "Tools WG time (MPI_T, MPI Ext. Intf.)",
+                  "https://cisco.webex.com/ciscosales/j.php?MTID=m8b2e84b01bb651d3d3d6a67e48187f84",
+                  "Q34cpcpQ");
 agenda_item(" 9:00am - 10:30am", "P2P WG time");
 agenda_item(" 9:00am - 10:30am", "FT WG time");
 agenda_item(" 10:30am - 11:00am", "Break");
-agenda_item(" 11:00am - 12:30pm", "Tools WG time (MPI_T, MPI Ext. Intf.)");
+agenda_item_webex(" 11:00am - 12:30pm", "Tools WG time (MPI_T, MPI Ext. Intf.)",
+                  "https://cisco.webex.com/ciscosales/j.php?MTID=m8b2e84b01bb651d3d3d6a67e48187f84",
+                 "Q34cpcpQ");
 agenda_item(" 11:00am - 12:30pm", "P2P WG time");
 agenda_item(" 11:00am - 12:30pm", "FT WG time");
 agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
-agenda_item(" 1:30pm - 3:00pm", "Tools WG time (MPI_T, MPI Ext. Intf. (overflow))");
+agenda_item_webex(" 1:30pm - 3:00pm", "Tools WG time (MPI_T, MPI Ext. Intf. (overflow))",
+                  "https://cisco.webex.com/ciscosales/j.php?MTID=m8b2e84b01bb651d3d3d6a67e48187f84",
+                 "Q34cpcpQ");
 agenda_item(" 1:30pm - 3:00pm", "Hybrid WG time");
 agenda_item(" 3:00pm - 3:30pm", "Break");
 agenda_item(" 3:30pm - 5:30pm", "Hybrid WG time");
@@ -34,13 +44,22 @@ agenda_day_end();
 
 
 agenda_day_start("Wednesday, March 2, 2016 - Plenary");
-agenda_item(" 9:00am - 10:30am", "Plenary Discusssions (agenda, see below)");
+$p = "Plenary Discussions (see agenda, below)";
+agenda_item_webex(" 9:00am - 10:30am", $p,
+            "https://cisco.webex.com/ciscosales/j.php?MTID=mec5fabb37c3a09f736e258af12c27909",
+            "MaKQkBRy");
 agenda_item(" 10:30am - 11:00am", "Break");
-agenda_item(" 11:00am - 12:30pm", "Plenary Discusssions (agenda, see below)");
+agenda_item_webex(" 11:00am - 12:30pm", $p,
+            "https://cisco.webex.com/ciscosales/j.php?MTID=mec5fabb37c3a09f736e258af12c27909",
+            "MaKQkBRy");
 agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
-agenda_item(" 1:30pm - 3:30pm", "Plenary Discusssions (agenda, see below)");
+agenda_item_webex(" 1:30pm - 3:30pm", $p,
+            "https://cisco.webex.com/ciscosales/j.php?MTID=mec5fabb37c3a09f736e258af12c27909",
+            "MaKQkBRy");
 agenda_item(" 3:30pm - 4:00pm", "Break");
-agenda_item(" 4:30pm - 6:30pm", "Plenary Discusssions (agenda, see below)");
+agenda_item_webex(" 4:30pm - 6:30pm", $p,
+            "https://cisco.webex.com/ciscosales/j.php?MTID=mec5fabb37c3a09f736e258af12c27909",
+            "MaKQkBRy");
 
 agenda_item(" 6:45pm (?) - ...", "Dinner (optional, pay on your own)");
 
