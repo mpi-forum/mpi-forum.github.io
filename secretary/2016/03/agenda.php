@@ -87,7 +87,7 @@ agenda_plenary_start("Plenary Items to be Discussed",0);
 plenary_item("","Update on WG status","All WG chairs or their proxies",0);
 plenary_item("Procedures Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/35\">#35</a>: Procedure Changes: Allow move of voting block as an exception","Martin",0);
 plenary_item("Errata Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">#12</a>: MPI_T code example bug","Kathryn",0);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions","Jeff",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions","Jeff S.",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/34\">#34</a>: Bug in code example 7.9 in call to MPI_DIMS_CREATE ","Dan",0);
 plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
@@ -98,7 +98,7 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel)","Dan",0);
 
 plenary_item("","Re-evaluating MPI Threading levels","Ryan",0);
-plenary_item("","MPI Sessions","Jeff",0);
+plenary_item("","MPI Sessions","Jeff S.",0);
 
 plenary_item("","The FENIX library","Marc Gamell",0);
 
