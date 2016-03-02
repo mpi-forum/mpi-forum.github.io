@@ -89,7 +89,7 @@ plenary_item("Errata Reading","<a href=\"https://github.com/mpi-forum/mpi-issues
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions","Jeff S.",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/34\">#34</a>: Bug in code example 7.9 in call to MPI_DIMS_CREATE ","Dan",1);
 plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",1);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28</a>: Add Catastrophic and Noncatastrophic Error Codes)","Wesley",0);
 
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#11</a>: Communicator Info Assertions","Jim",0);
@@ -108,7 +108,9 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#
 plenary_item("Other","Hybrid WG plenary","Pavan",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/32\">#32</a>:Allocating receive and freeing send","Dan",0);
 plenary_item("","Fortran datatypes","Jeff S.",0);
-plenary_item("","Location discussion 2017","Martin",0);
+plenary_item("","MPI_Comm_get_info discussion","George",0);
+
+plenary_item("Admin","Location discussion 2017","Martin",0);
 agenda_plenary_end();
 
 include_once("$topdir/include/footer.php");

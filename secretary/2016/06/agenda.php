@@ -44,9 +44,6 @@ agenda_item(" 9:00am - 9:30am", "Votes");
 agenda_item("                ", "Procudure Votes:");
 agenda_item("                ","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/35\">#35</a>: Procedure Changes: Allow move of voting block as an exception");
 agenda_item("                ", "No No Votes:");
-agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort");
-agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define
-            new MPI Error handler for subcommunicator abort");
 agenda_item("                ", "Errata Votes:");
 agenda_item("                ", "First Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort");
@@ -63,6 +60,8 @@ agenda_plenary_start("Plenary Items to be Discussed",0);
 plenary_item("Opening","Update on WG status","All WG chairs or their proxies",0);
 plenary_item("","Git Transition Update","Wesley",0);
 plenary_item("Procedures Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/35\">#35</a>: Procedure Changes: Allow move of voting block as an exception","Martin",0);
+            plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
+            plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
 plenary_item("","Administrative items for the MPI Forum","Martin",0);
 agenda_plenary_end();
 
