@@ -92,7 +92,7 @@ plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28</a>: Add Catastrophic and Noncatastrophic Error Codes","Wesley",1);
 
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#11</a>: Communicator Info Assertions","Jim",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#11</a>: Communicator Info Assertions","Jim",1);
 
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel","Dan",0);
 
