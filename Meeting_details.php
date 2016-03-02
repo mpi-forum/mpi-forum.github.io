@@ -133,7 +133,7 @@ function meeting_compare($a, $b)
       "secretary/2016/03/votes.php");
 
   add(6, 6, 2016, 6, 9, 2016,
-      "Bellvue, WA, USA (Microsoft)",
+      "Bellevue, WA, USA (Microsoft)",
       "Jun_2016_logistics.php",
       "secretary/2016/06/agenda.php",
       "",

@@ -1,5 +1,5 @@
 <?
-$short_desc = "Agenda DRAFT";
+$short_desc = "Agenda";
 $long_sec = $short_desc;
 $file = "agenda.php";
 include_once("subpage.php");
@@ -88,7 +88,7 @@ plenary_item("Procedures Reading","<a href=\"https://github.com/mpi-forum/mpi-is
 plenary_item("Errata Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">#12</a>: MPI_T code example bug","Kathryn",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions","Jeff S.",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/34\">#34</a>: Bug in code example 7.9 in call to MPI_DIMS_CREATE ","Dan",1);
-plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
+plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28</a>: Add Catastrophic and Noncatastrophic Error Codes)","Wesley",0);
 
