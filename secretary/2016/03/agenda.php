@@ -94,23 +94,28 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#
 
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#11</a>: Communicator Info Assertions","Jim",1);
 
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel","Dan",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel","Dan",1);
 
-plenary_item("Other","Re-evaluating MPI Threading levels","Ryan",0);
+plenary_item("Other","The FENIX library","Marc Gamell",1);
+
+plenary_item("","Re-evaluating MPI Threading levels","Ryan",0);
+
 plenary_item("","MPI Sessions","Jeff S.",0);
 
-plenary_item("","The FENIX library","Marc Gamell",0);
+plenary_item("NEW DAY","NEW DAY","NEW DAY",0);
 
-plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: ULFM part 1","Wesley",0);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: ULFM part 2","Wesley",0);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: ULFM part 3","Wesley",0);
+plenary_item("Admin","Location discussion 2017","Martin",0);
 
-plenary_item("Other","Hybrid WG plenary","Pavan",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/32\">#32</a>:Allocating receive and freeing send","Dan",0);
 plenary_item("","Fortran datatypes","Jeff S.",0);
 plenary_item("","MPI_Comm_get_info discussion","George",0);
 
-plenary_item("Admin","Location discussion 2017","Martin",0);
+plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: ULFM part 1","Aurelien",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: ULFM part 2","Aurelien",1);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: ULFM part 3","Aurelien",1);
+
+plenary_item("Other","Hybrid WG plenary","Pavan",0);
+
 agenda_plenary_end();
 
 include_once("$topdir/include/footer.php");
