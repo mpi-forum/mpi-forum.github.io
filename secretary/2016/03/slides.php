@@ -11,6 +11,7 @@ $slides[] = "2016-03-02-ULFM-in-Fenix-plenary";
 $slides[] = "2016-03-02-Catastrophic-Errors";
 $slides[] = "2016-03-02-issues-1-3-reading";
 $slides[] = "Pitch - Allocating Receive and Freeing Send";
+$slides[] = "fortran-datatypes-in-mpih";
 
 show_slides($slide_dir, $slides);
 
