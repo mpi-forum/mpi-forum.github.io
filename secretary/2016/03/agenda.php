@@ -67,6 +67,9 @@ agenda_day_end();
 
 agenda_day_start("Thursday, March 3, 2016 - Plenary");
 agenda_item(" 9:00am - 9:30am", "Votes");
+agenda_item("                ", "No-No Presentations and Votes:");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/34\">#34</a>: Bug in code example 7.9 in call to MPI_DIMS_CREATE");
 agenda_item("                ", "Errata Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/12\">#12</a>: MPI_T code example bug");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/29\">#29</a>: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions");
@@ -98,13 +101,13 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#
 
 plenary_item("Other","The FENIX library","Marc Gamell",1);
 
-plenary_item("","Re-evaluating MPI Threading levels","Ryan",0);
+plenary_item("","Re-evaluating MPI Threading levels","Ryan",1);
 
-plenary_item("","MPI Sessions","Jeff S.",0);
+plenary_item("","MPI Sessions","Jeff S.",1);
 
-plenary_item("NEW DAY","NEW DAY","NEW DAY",0);
+plenary_item("NEW DAY","NEW DAY","NEW DAY",1);
 
-plenary_item("Admin","Location discussion 2017","Martin",0);
+plenary_item("Admin","Quick location discussion 2017","Martin",0);
 
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/32\">#32</a>:Allocating receive and freeing send","Dan",0);
 plenary_item("","Fortran datatypes","Jeff S.",0);
