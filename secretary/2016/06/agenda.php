@@ -49,6 +49,8 @@ agenda_item("                ", "First Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort");
 agenda_item("                ", "Second Votes:");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">#5</a>: MPIR being_debugged");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">#7</a>: Cleanup Advice and Definition of MPI_COMM_FREE");
 agenda_item(" 9:30am - 10:30am", "Plenary Discusssions (agenda, see below)");
 agenda_item(" 10:30am - 11:00am", "Break");
 agenda_item(" 11:00am - 12:00pm", "Plenary Discusssions (agenda, see below)");
