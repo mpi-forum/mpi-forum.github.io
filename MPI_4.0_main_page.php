@@ -56,7 +56,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 For more information on each working group, current topics, and meeting schedules, 
 please follow the links to the respective Wiki pages.
 
-<h4>Collective Communication and Topology (<A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/CollectivesWikiPage">wiki page</A>)</h4>
+<h4>Collective Communication and Topology (<A HREF="https://github.com/mpiwg-coll">wiki page</A>)</h4>
 <ul>
 <li>Lead: Torsten Hoefler, Andrew Lumsdaine</li>
 <li>Scope:
@@ -64,23 +64,26 @@ please follow the links to the respective Wiki pages.
 The main goals of the working group are to discuss the modernization of the collective communication interface to reflect
 the changed environment and improve the capability of
 MPI to run efficiently on large-scale computing systems. Our efforts also affect communicator management MPI topologies.</li>
+<li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/CollectivesWikiPage">Old Wiki page for reference</A></li>
 </ul>
 
-<h4>Fault Tolerance (<A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/FaultToleranceWikiPage">wiki page</A>)</h4>
+<h4>Fault Tolerance (<A HREF="https://github.com/mpiwg-ft">wiki page</A>)</h4>
 <ul>
 <li>Leads: Wesley Bland, Aur&eacute;lien Bouteiller and Rich Graham</li>
 <li>Scope: To define any additional support needed in the MPI standard to enable
 implementation of portable Fault Tolerant solutions for MPI based
 applications.</li>
+<li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/FaultToleranceWikiPage">Old Wiki page for reference</A></li>
 </ul>
 
-<h4>Fortran (<A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/FtnWikiPage">wiki page</A>)</h4>
+<h4>Fortran</h4>
 <ul>
 <li>Lead: Craig Rasmussen</li>
 <li>Scope: To investigate new Fortran language bindings that overcome the problems and limitations of the Fortran 90 MPI bindings.</li>
+<li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/FtnWikiPage">Old Wiki page for reference</A></li>
 </ul>
 
-<h4>Generalized Requests (<A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/GeneralizedRequestsWikiPage">wiki page</A>)</h4>
+<h4>Generalized Requests</h4>
 <ul>
 <li>Lead: Fab Tillier</li>
 <li>Scope: Redefine the generalized requests interface. A more flexible interface
@@ -90,23 +93,25 @@ progress function inside the MPI library. The ultimate goal is to allow
 the generalized requests progress to be done without a special test or
 wait function.
 </li>
+<li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/GeneralizedRequestsWikiPage">Old Wiki page for reference</A></li>
 </ul>
 
-<h4>Hybrid (<A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/MPI3Hybrid">wiki page</A>)</h4>
+<h4>Hybrid (<A HREF="https://github.com/mpiwg-hybrid">wiki page</A>)</h4>
 <ul>
 <li>Lead: Pavan Balaji and Jim Dinan</li>
 <li>Scope:  Ensure that MPI has the features necessary to facilitate efficient hybrid programming and
 investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP),
 emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.). </li>
+<li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/MPI3Hybrid">Old Wiki page for reference</A></li>
 </ul>
 
-<h4>I/O (<A HREF="">wiki page</A>)</h4>
+<h4>I/O (WG on hold)</h4>
 <ul>
 <li>Lead: Quincey Koziol and Mohamad Chaarawi</li>
 <li>Scope:</bf> Definition of API extensions for I/O operations</li>
 </ul>
 
-<h4>Large Counts</h4>
+<h4>Large Counts (<A HREF="https://github.com/mpiwg-large-count">wiki page</A>)</h4>
 <ul>
 <li>Lead: Jeff Hammond</li>
 <li>Scope:
@@ -114,33 +119,43 @@ Understanding and fixing the issues associated with integer
 counts and displacements.
 </ul>
 
-<h4>Persistence (<A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/MPI3Persistence">wiki page</A>)</h4>
+<h4>Persistence (<A HREF="https://github.com/mpiwg-persistence">wiki page</A>)</h4>
 <ul>
 <li>Lead: Anthony Skjellum</li>
 <li>Scope:</li>
+<li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/MPI3Persistence">Old Wiki page for reference</A></li>
 </ul>
 
-<h4>Point to Point Communication (<A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/PtpWikiPage">wiki page</A>)</h4>
+<h4>Point to Point Communication (<A HREF="https://github.com/mpiwg-p2p">wiki page</A>)</h4>
 <ul>
 <li>Lead: Rich Graham and Dan Holmes</li>
 <li>Scope: To re-examine the MPI peer communication semantics and interface, and
 consider additions and/or changes needed to better support
 point-to-point data movement within MPI.
 </li>
+<li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/PtpWikiPage">Old Wiki page for reference</A></li>
 </ul>
 
-<h4>Remote Memory Access (<A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/RmaWikiPage">wiki page</A>)</h4>
+<h4>Remote Memory Access (<A HREF="https://github.com/mpiwg-rma">wiki page</A>)</h4>
 <ul>
 <li>Lead: Bill Gropp and Rajeev Thakur</li>
 <li>Scope: To re-examine the MPI RMA interface and consider additions and or
 changes needed to better support the one-sided programming model within
 MPI.</li>
+<li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/RmaWikiPage">Old Wiki page for reference</A></li>
 </ul>
 
-<h4>Tools (<A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/MPI3Tools">wiki page</A>)</h4>
+<h4>Sessions (<A HREF="https://github.com/mpiwg-sessions">wiki page</A>)</h4>
+<ul>
+<li>Lead: Jeff Squyres</li>
+<li>Scope: Expore alternate concepts to MPI_Init and MPI_Finalize</li>
+</ul>
+
+<h4>Tools (<A HREF="https://github.com/mpiwg-tools">wiki page</A>)</h4>
 <ul>
 <li>Lead: Kathryn Mohror and Marc-Andre Hermanns</li>
 <li>Scope: Definition of interfaces for debugging and performance tools</li>
+<li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/MPI3Tools">Old Wiki page for reference</A></Li>
 </ul>
 
 <h2>Chapter Committees</h2>

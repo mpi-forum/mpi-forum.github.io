@@ -227,8 +227,9 @@ printsublink("$topdir/secretary/", "Secretary notes (past mtgs.)");
 // Standards efforts
 printbutton("Ongoing Technical Efforts");
 printsublink("$topdir/MPI_4.0_main_page.php", "MPI 4.0 effort");
-  printsublink("https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/", "Wiki",
-               urchin_click("/outgoing/svn.mpi-forum.org/trac/mpi-forum-web/wiki/"));
+    printsublink("https://github.com/mpi-forum/", "Main MPI Github Page");
+    printsublink("https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/", "Wiki (defunct)",
+                 urchin_click("/outgoing/svn.mpi-forum.org/trac/mpi-forum-web/wiki/"));
 printbutton("Completed Technical Efforts");
     printsublink("$topdir/MPI_3.1_main_page.php", "MPI 3.1 effort");
 printsublink("$topdir/MPI_3.0_main_page.php", "MPI 3.0 effort");

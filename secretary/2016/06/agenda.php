@@ -60,9 +60,12 @@ agenda_plenary_start("Plenary Items to be Discussed",0);
 plenary_item("Opening","Update on WG status","All WG chairs or their proxies",0);
 plenary_item("","Git Transition Update","Wesley",0);
 plenary_item("Procedures Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/35\">#35</a>: Procedure Changes: Allow move of voting block as an exception","Martin",0);
-            plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
-            plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
-plenary_item("","Administrative items for the MPI Forum","Martin",0);
+plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: ULFM part 1","Aurelien",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: ULFM part 2","Aurelien",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: ULFM part 3","Aurelien",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort","Wesley",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort","Wesley",0);
+plenary_item("Other","Administrative items for the MPI Forum","Martin",0);
 agenda_plenary_end();
 
 include_once("$topdir/include/footer.php");
