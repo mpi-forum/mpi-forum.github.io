@@ -145,7 +145,7 @@ MPI.</li>
 <li><A HREF="https://svn.mpi-forum.org/trac/mpi-forum-web/wiki/RmaWikiPage">Old Wiki page for reference</A></li>
 </ul>
 
-<h4>Sessions (<A HREF="https://github.com/mpiwg-sessions">wiki page</A>)</h4>
+<h4>Sessions (<A HREF="https://github.com/mpiwg-sessions/sessions-issues/wiki">wiki page</A>)</h4>
 <ul>
 <li>Lead: Jeff Squyres</li>
 <li>Scope: Expore alternate concepts to MPI_Init and MPI_Finalize</li>
