@@ -10,10 +10,10 @@ function ticket($num) {
 
 agenda_day_start("Monday, June 6, 2016 - Working Groups");
 agenda_item(" 2:00pm -   3:30pm", "Tools WG time");
-agenda_item(" 2:00pm -   3:30pm", "Hybrid WG time");
+agenda_item(" 2:00pm -   3:30pm", "FT WG time");
 agenda_item(" 3:30pm -   4:00pm", "Break");
 agenda_item(" 4:00pm -   5:30pm", "Tools WG time");
-agenda_item(" 4:00pm -   5:30pm", "Large Count WG time");
+agenda_item(" 4:00pm -   5:30pm", "FT WG time");
 agenda_day_end();
 
 agenda_day_start("Tuesday, June 7, 2016 - Working Groups");
@@ -21,11 +21,13 @@ agenda_item(" 9:00am - 10:30am", "Tools WG time");
 agenda_item(" 9:00am - 10:30am", "Persistance WG time");
 agenda_item(" 10:30am - 11:00am", "Break");
 agenda_item(" 11:00am - 12:30pm", "Tools WG time");
-agenda_item(" 11:00am - 12:30pm", "Persistance WG time");
+agenda_item(" 11:00am - 12:30pm", "RMA WG time");
 agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
-agenda_item(" 1:30pm - 3:00pm", "FT WG time");
+agenda_item(" 1:30pm - 3:00pm", "Sessions WG time");
+agenda_item(" 1:30pm - 3:00pm", "Hybrid WG time");
 agenda_item(" 3:00pm - 3:30pm", "Break");
-agenda_item(" 3:30pm - 5:30pm", "FT WG time");
+agenda_item(" 3:30pm - 5:30pm", "Sessions WG time");
+agenda_item(" 3:30pm - 5:30pm", "Large Count WG time");
 agenda_day_end();
 
 
@@ -53,6 +55,7 @@ agenda_item("                ", "Errata Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/52\">#52</a>: Erratum to remove info key propagation from MPI_COMM_DUP (ticketErrta)");
 agenda_item("                ", "First Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel");
+agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25</a>: Adding Persistent Collective Communication");
 agenda_item("                ", "Second Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">#5</a>: MPIR being_debugged");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">#7</a>: Cleanup Advice and Definition of MPI_COMM_FREE");
@@ -75,10 +78,11 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#
 plenary_item("Procedures Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/35\">#35</a>: Procedure Changes: Allow move of voting block as an exception","Martin",0);
 plenary_item("Change Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel","Dan",0);
 plenary_item("Errata Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/52\">#52</a>: Erratum to remove info key propagation from MPI_COMM_DUP (ticketErrta)","Dan",0);
-plenary_item("Other","Persistence WG","Tony",0);
+plenary_item("Refresher","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25</a>: Adding Persistent Collective Communication","Tony",0);
 plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/53\">#53</a>: MPI_COMM_DUP_WITH_INFO can be used to explicitly propagate info hints (ticketIDWI)","Dan",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#11</a>: Adds communicator info keys and allows info assertions (ticketInfo)","Dan",0);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6</a>: MPIR: Include line numbers in specification","Kathryn",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/51\">#51</a>: Deprecate MPI_SIZEOF in MPI-4.0","Jeff",0);
 plenary_item("Other","Discussion on Locations and Dates for 2017 Meetings","Martin",0);
 agenda_plenary_end();
 
