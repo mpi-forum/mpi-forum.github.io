@@ -32,6 +32,11 @@ place at the Microsoft facility in downtown Bellevue, WA (<a HREF="https://www.g
 <p>
 
 <div align=center><hr width=50%></div>
+<h3><a aname=hotel>Hotel</a></h3>
+<p>We were able to secure a few rooms at a discounted rate in the Courtyard Seattle Bellevue right across the street from the Microsoft Facility. However, the discount block is only good Monday-Thursday. If you need to stay Sunday or Thursday night, you will have to call Alex Sanchez at the hotel at (425) 452-0567 to get the additional night(s).
+<p>To reserve Monday-Thursday - <a href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Mellanox%20Technologies^bvudt`melmela`229.00`USD`false`4`6/6/16`6/9/16`05/30/2016">click here</a> The Monday-Thursday rate is $229/night.
+
+<div align=center><hr width=50%></div>
 
 <h3><a name=cost>Meeting Cost</a></h3>
 
