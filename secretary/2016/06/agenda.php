@@ -1,5 +1,5 @@
 <?
-$short_desc = "Agenda DRAFT";
+$short_desc = "Agenda";
 $long_sec = $short_desc;
 $file = "agenda.php";
 include_once("subpage.php");
