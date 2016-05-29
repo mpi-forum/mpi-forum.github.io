@@ -9,18 +9,18 @@ function ticket($num) {
 }
 
 agenda_day_start("Monday, June 6, 2016 - Working Groups");
-agenda_item(" 2:00pm -   3:30pm", "Tools WG time");
+agenda_item_webex(" 2:00pm -   3:30pm", "Tools WG time", "https://cisco.webex.com/ciscosales/j.php?MTID=m04bbeb292282de876535d864a103ee05", "JMpFhhhG");
 agenda_item(" 2:00pm -   3:30pm", "FT WG time");
 agenda_item(" 3:30pm -   4:00pm", "Break");
-agenda_item(" 4:00pm -   5:30pm", "Tools WG time");
+agenda_item_webex(" 4:00pm -   5:30pm", "Tools WG time", "https://cisco.webex.com/ciscosales/j.php?MTID=m04bbeb292282de876535d864a103ee05", "JMpFhhhG");
 agenda_item(" 4:00pm -   5:30pm", "FT WG time");
 agenda_day_end();
 
 agenda_day_start("Tuesday, June 7, 2016 - Working Groups");
-agenda_item(" 9:00am - 10:30am", "Tools WG time");
+agenda_item_webex(" 9:00am - 10:30am", "Tools WG time", "https://cisco.webex.com/ciscosales/j.php?MTID=m0f6e91e92d02244e1be8c1b08f18b75f", "JMpFhhhG");
 agenda_item(" 9:00am - 10:30am", "Persistance WG time");
 agenda_item(" 10:30am - 11:00am", "Break");
-agenda_item(" 11:00am - 12:30pm", "Tools WG time");
+agenda_item_webex(" 11:00am - 12:30am", "Tools WG time", "https://cisco.webex.com/ciscosales/j.php?MTID=m0f6e91e92d02244e1be8c1b08f18b75f", "JMpFhhhG");
 agenda_item(" 11:00am - 12:30pm", "Hybrid WG time");
 agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
 agenda_item(" 1:30pm - 3:00pm", "Sessions WG time");
@@ -33,18 +33,22 @@ agenda_day_end();
 
 agenda_day_start("Wednesday, June 8, 2016 - Plenary");
 $p = "Plenary Discussions (see agenda, below)";
-agenda_item(" 9:00am - 10:30am", $p);
+$pwu = "https://cisco.webex.com/ciscosales/j.php?MTID=m97c5f23fde662d68019fa7f703f79de7";
+$pwp = "Y7uTPct6";
+agenda_item_webex(" 9:00am - 10:30am", $p, $pwu, $pwp);
 agenda_item(" 10:30am - 11:00am", "Break");
-agenda_item(" 11:00am - 12:30pm", $p);
+agenda_item_webex(" 11:00am - 12:30pm", $p, $pwu, $pwp);
 agenda_item(" 12:30pm -  1:30pm", "Lunch (provided)");
-agenda_item(" 1:30pm - 3:30pm", $p);
+agenda_item_webex(" 1:30pm - 3:30pm", $p, $pwu, $pwp);
 agenda_item(" 3:30pm - 4:00pm", "Break");
-agenda_item(" 4:30pm - 6:00pm", $p);
+agenda_item_webex(" 4:30pm - 6:00pm", $p, $pwu, $pwp);
 
 agenda_item(" 6:30pm (?) - ...", "Dinner (optional, pay on your own)");
 
 agenda_day_end();
 
+$pwu = "https://cisco.webex.com/ciscosales/j.php?MTID=maa91d7b8959b61546da865893bc88c15";
+$pwp = "brBJra9y";
 agenda_day_start("Thursday, June 9, 2016 - Plenary");
 agenda_item(" 9:00am - 9:30am", "Votes");
 agenda_item("                ", "Procudure Votes:");
@@ -59,9 +63,9 @@ agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issu
 agenda_item("                ", "Second Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/5\">#5</a>: MPIR being_debugged");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/7\">#7</a>: Cleanup Advice and Definition of MPI_COMM_FREE");
-agenda_item(" 9:30am - 10:30am", "Plenary Discusssions (agenda, see below)");
+agenda_item_webex(" 9:30am - 10:30am", "Plenary Discusssions (agenda, see below)", $pwu, $pwp);
 agenda_item(" 10:30am - 11:00am", "Break");
-agenda_item(" 11:00am - 12:00pm", "Plenary Discusssions (agenda, see below)");
+agenda_item_webex(" 11:00am - 12:00pm", "Plenary Discusssions (agenda, see below)", $pwu, $pwp);
 agenda_item(" 12:00pm          ", "Close");
 agenda_day_end();
 
