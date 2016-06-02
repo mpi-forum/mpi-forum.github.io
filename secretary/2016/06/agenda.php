@@ -53,7 +53,7 @@ agenda_day_start("Thursday, June 9, 2016 - Plenary");
 agenda_item(" 9:00am - 9:30am", "Votes");
 agenda_item("                ", "Procudure Votes:");
 agenda_item("                ","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/35\">#35</a>: Procedure Changes: Allow move of voting block as an exception");
-agenda_item("                ", "No No Votes:");
+agenda_item("                ", "No \"No Votes\" Vote:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel");
 agenda_item("                ", "Errata Votes:");
 agenda_item("                ", "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/52\">#52</a>: Erratum to remove info key propagation from MPI_COMM_DUP (ticketErrta)");
