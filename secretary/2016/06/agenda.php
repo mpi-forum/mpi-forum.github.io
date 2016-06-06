@@ -10,10 +10,10 @@ function ticket($num) {
 
 agenda_day_start("Monday, June 6, 2016 - Working Groups");
 agenda_item_webex(" 2:00pm -   3:30pm", "Tools WG time", "https://cisco.webex.com/ciscosales/j.php?MTID=m04bbeb292282de876535d864a103ee05", "JMpFhhhG");
-agenda_item(" 2:00pm -   3:30pm", "FT WG time");
+agenda_item_webex(" 2:00pm -   3:30pm", "FT WG time", "https://cisco.webex.com/ciscosales/j.php?MTID=m441f041e40eef2dc9206b012ae478930", "PsA8TCkj");
 agenda_item(" 3:30pm -   4:00pm", "Break");
 agenda_item_webex(" 4:00pm -   5:30pm", "Tools WG time", "https://cisco.webex.com/ciscosales/j.php?MTID=m04bbeb292282de876535d864a103ee05", "JMpFhhhG");
-agenda_item(" 4:00pm -   5:30pm", "FT WG time");
+agenda_item_webex(" 4:00pm -   5:30pm", "FT WG time", "https://cisco.webex.com/ciscosales/j.php?MTID=m441f041e40eef2dc9206b012ae478930", "PsA8TCkj");
 agenda_day_end();
 
 agenda_day_start("Tuesday, June 7, 2016 - Working Groups");
