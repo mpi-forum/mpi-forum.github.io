@@ -85,6 +85,7 @@ plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6</a>: MPIR: Include line numbers in specification","Kathryn",1);
 plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/51\">#51</a>: Deprecate MPI_SIZEOF in MPI-4.0","Jeff",1);
 plenary_item("","Discussion on Error Handlers","Wesley",0);
+plenary_item("","PR #19: Statuses in Wait","Aurelien",0);
 plenary_item("Other","Discussion on Locations and Dates for 2017 Meetings","Martin",0);
 agenda_plenary_end();
 
