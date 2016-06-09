@@ -81,9 +81,9 @@ plenary_item("Refresher","<a href=\"https://github.com/mpi-forum/mpi-issues/issu
 plenary_item("Change Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel","Dan",1);
 plenary_item("Errata Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/52\">#52</a>: Erratum to remove info key propagation from MPI_COMM_DUP (ticketErrta)","Dan",1);
 plenary_item("Reading","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/53\">#53</a>: MPI_COMM_DUP_WITH_INFO can be used to explicitly propagate info hints (ticketIDWI)","Dan",1);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#11</a>: Adds communicator info keys and allows info assertions (ticketInfo)","Dan",0);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6</a>: MPIR: Include line numbers in specification","Kathryn",0);
-plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/51\">#51</a>: Deprecate MPI_SIZEOF in MPI-4.0","Jeff",0);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/11\">#11</a>: Adds communicator info keys and allows info assertions (ticketInfo)","Dan",1);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6</a>: MPIR: Include line numbers in specification","Kathryn",1);
+plenary_item("","<a href=\"https://github.com/mpi-forum/mpi-issues/issues/51\">#51</a>: Deprecate MPI_SIZEOF in MPI-4.0","Jeff",1);
 plenary_item("","Discussion on Error Handlers","Wesley",0);
 plenary_item("Other","Discussion on Locations and Dates for 2017 Meetings","Martin",0);
 agenda_plenary_end();
