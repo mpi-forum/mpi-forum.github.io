@@ -123,45 +123,84 @@ function meeting_compare($a, $b)
 # being displayed.
 #
 
-  add(2, 29, 2016, 3, 3, 2016,
-      "Chicago, IL, USA (Microsoft)",
-      "Mar_2016_logistics.php",
-      "secretary/2016/03/agenda.php",
-      "",
-      "secretary/2016/03/slides.php",
-      "secretary/2016/03/attendance.php",
-      "secretary/2016/03/votes.php");
-
-  add(6, 6, 2016, 6, 9, 2016,
-      "Bellevue, WA, USA (Microsoft)",
-      "Jun_2016_logistics.php",
-      "secretary/2016/06/agenda.php",
-      "",
-      "secretary/2016/06/slides.php",
-      "secretary/2016/06/attendance.php",
-      "secretary/2016/06/votes.php");
-
-  add(9, 21, 2016, 9, 23, 2016,
-      "before EuroMPI in Edinburgh, UK (EPCC) (in conjunction with <a href=\"http://www.eurompi2016.ed.ac.uk/\">Euro MPI 2016</a>)",
-      "Sep_2016_logistics.php",
-      "secretary/2016/09/agenda.php",
-      "",
-      "secretary/2016/09/slides.php",
-      "secretary/2016/09/attendance.php",
-      "secretary/2016/09/votes.php");
-
-  add(12, 5, 2016, 12, 8, 2016,
-      "Dallas, TX, USA (IBM)",
-      "Dec_2016_logistics.php",
-      "secretary/2016/12/agenda.php",
-      "",
-      "secretary/2016/12/slides.php",
-      "secretary/2016/12/attendance.php",
-      "secretary/2016/12/votes.php");
-
-
-
-
+    add(2, 27, 2017, 3, 2, 2017,
+        "Portland, OR, USA (Microsoft) - TENTATIVE",
+        "Mar_2017_logistics.php",
+        "secretary/2017/03/agenda.php",
+        "",
+        "secretary/2017/03/slides.php",
+        "secretary/2017/03/attendance.php",
+        "secretary/2017/03/votes.php");
+    
+    add(6, 14, 2017, 6, 16, 2017,
+        "Aachen, Germany (RWTH Aachen, week before ISC in Frankfurt) - TENTATIVE",
+        "Jun_2017_logistics.php",
+        "secretary/2017/06/agenda.php",
+        "",
+        "secretary/2017/06/slides.php",
+        "secretary/2017/06/attendance.php",
+        "secretary/2017/06/votes.php");
+    
+    add(9, 20, 2017, 9, 22, 2017,
+        "Chicago, IL (week before EuroMPI/USA 2017, Forum held at Microsoft downtown) - TENTATIVE",
+        "Sep_2017_logistics.php",
+        "secretary/2017/09/agenda.php",
+        "",
+        "secretary/2017/09/slides.php",
+        "secretary/2017/09/attendance.php",
+        "secretary/2017/09/votes.php");
+    
+    add(12, 4, 2017, 12, 7, 2017,
+        "San Jose, CA, USA (Cisco) - TENTATIVE",
+        "Dec_2017_logistics.php",
+        "secretary/2017/12/agenda.php",
+        "",
+        "secretary/2017/12/slides.php",
+        "secretary/2017/12/attendance.php",
+        "secretary/2017/12/votes.php");
+    
+    
+    
+    
+    add(2, 29, 2016, 3, 3, 2016,
+        "Chicago, IL, USA (Microsoft)",
+        "Mar_2016_logistics.php",
+        "secretary/2016/03/agenda.php",
+        "",
+        "secretary/2016/03/slides.php",
+        "secretary/2016/03/attendance.php",
+        "secretary/2016/03/votes.php");
+    
+    add(6, 6, 2016, 6, 9, 2016,
+        "Bellevue, WA, USA (Microsoft)",
+        "Jun_2016_logistics.php",
+        "secretary/2016/06/agenda.php",
+        "",
+        "secretary/2016/06/slides.php",
+        "secretary/2016/06/attendance.php",
+        "secretary/2016/06/votes.php");
+    
+    add(9, 21, 2016, 9, 23, 2016,
+        "before EuroMPI in Edinburgh, UK (EPCC) (in conjunction with <a href=\"http://www.eurompi2016.ed.ac.uk/\">Euro MPI 2016</a>)",
+        "Sep_2016_logistics.php",
+        "secretary/2016/09/agenda.php",
+        "",
+        "secretary/2016/09/slides.php",
+        "secretary/2016/09/attendance.php",
+        "secretary/2016/09/votes.php");
+    
+    add(12, 5, 2016, 12, 8, 2016,
+        "Dallas, TX, USA (IBM)",
+        "Dec_2016_logistics.php",
+        "secretary/2016/12/agenda.php",
+        "",
+        "secretary/2016/12/slides.php",
+        "secretary/2016/12/attendance.php",
+        "secretary/2016/12/votes.php");
+    
+    
+    
+    
 
   add(3, 2, 2015, 3, 5, 2015,
       "Portland, OR, USA (Microsoft)",
