@@ -12,6 +12,16 @@ Forum, which is the standardization forum for the <A HREF="http://www.mpi-forum.
 <h2>Updates</h2>
 <ul>
 <li><h4>
+<A HREF="mpi31-impl-status-Jun16.pdf">Implementation Status (MPI 3.1)</A>, as of June 2016
+</h4></li>
+<li><h4>BoF at ISC 16, Jun. 21st, 2016</h4>
+<ul>
+<li>News from the MPI Forum, incl. MPI 3.1
+<li>Activities from all MPI Forum Working Groups
+<li>How can you get involved?
+<li><a href="2016-06-iscbof.pdf">Complete slide deck available</a>
+</ul>
+<li><h4>
 <A HREF="mpi31-impl-status-Nov15.pdf">Implementation Status (MPI 3.1)</A>, as of November 2015
 </h4></li>
 <li><h4>BoF at SC 15, Nov. 18th, 2015</h4>
