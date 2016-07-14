@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+<script>
+function ballot(rules, yes, no, abstain, missed, imove) {
+    if (rules == "original") {
+        if (yes > no) {
+            return "<font color=\"green\">Passed</font>";
+        } else {
+            return "<font color=\"red\">Failed Vote</font>";
+        }
+    } else if (rules == 52012) {
+        if (yes > (no + abstain + missed)) {
+            return "<font color=\"green\">Passed</font>";
+        } else {
+            return "<font color=\"red\">Failed Vote</font>";
+        }
+    } else if (rules == 72012) {
+        if (yes > (no + abstain)) {
+            return "<font color=\"green\">Passed</font>";
+        } else {
+            return "<font color=\"red\">Failed Vote</font>";
+        }
+    } else if (rules == 3152013) {
+        if ((yes + no) > (0.75 * imove)) {
+            if (yes > 0.75 * (yes + no)) {
+                return "<font color=\"green\">Passed</font>";
+            } else {
+                return "<font color=\"red\">Failed Vote</font>";
+            }
+        } else {
+            return "<font color=\"red\">Failed Ballot Quorum</font>";
+        }
+    } else {
+        return "<font color=\"orange\">Unknown Rules</font>";
+    }
+}
+</script>
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Meeting Votes</h1>
+    <h2>{{ page.date }}</h2>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+  <b>Registered:</b> {{ page.registered }}<br>
+  <b>Attended:</b> {{ page.attended }}<br>
+  <b>OOE:</b> {{ page.ooe }}<br>
+  <b>IMOVE:</b> {{ page.imove }}<br>
+  <b>Votes needed for individual vote quorum:</b> <script> document.write((3/4) * {{page.imove}}); </script> <br>
+  <br>
+  <script>
+  if ({{ page.rules }} == 3152013) {
+      document.write("<b>Note:</b> \"Miss\" counts the same as \"abstain\"<br>");
+  }
+  </script>
+  <br>
+  <hr>
+  <br>
+  <ol>
+      {% for vote in site.data.meetings.[page.year].[page.month].votes %}
+      <li> Vote Topic: <b>{{ vote.topic }}</b><br>
+          <table>
+              <tr>
+                  <th>Yes</th>
+                  <th>No</th>
+                  <th>Abstain</th>
+                  <th>Missed</th>
+                  <th>Result</th>
+              </tr>
+              <tr>
+                  <td>{{ vote.yes }}</td>
+                  <td>{{ vote.no }}</td>
+                  <td>{{ vote.abstain }}</td>
+                  <td>{{ vote.missed }}</td>
+                  <td><script>
+                  document.write(ballot({{page.rules}},{{vote.yes}},{{vote.no}},{{vote.abstain}},{{vote.missed}},{{page.imove}}));
+                  </script></td>
+              </tr>
+          </table>
+      </li>
+      {% endfor %}
+  </ol>
+
+  </div>
+
+</article>
