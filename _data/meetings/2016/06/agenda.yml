@@ -1,0 +1,287 @@
+test: data
+
+schedule:
+    - date: 2016-06-06
+      start: 2:00pm
+      end: 3:30pm
+      title: Tools WG Time
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m04bbeb292282de876535d864a103ee05
+      password: JMpFhhhG
+
+    - date: 2016-06-06
+      start: 2:00pm
+      end: 3:30pm
+      title: FT WG Time
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m441f041e40eef2dc9206b012ae478930
+      password: PsA8TCkj
+
+    - date: 2016-06-06
+      start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - date: 2016-06-06
+      start: 4:00pm
+      end: 5:30pm
+      title: Tools WG Time
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m04bbeb292282de876535d864a103ee05
+      password: JMpFhhhG
+
+    - date: 2016-06-06
+      start: 4:00pm
+      end: 5:30pm
+      title: FT WG Time
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m441f041e40eef2dc9206b012ae478930
+      password: PsA8TCkj
+
+    - date: 2016-06-07
+      start: 9:00am
+      end: 10:30am
+      title: Tools WG Time
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m04bbeb292282de876535d864a103ee05
+      password: JMpFhhhG
+
+    - date: 2016-06-07
+      start: 9:00am
+      end: 10:30am
+      title: Persistance WG Time
+
+    - date: 2016-06-07
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-06-07
+      start: 11:00am
+      end: 12:30pm
+      title: Tools WG Time
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m04bbeb292282de876535d864a103ee05
+      password: JMpFhhhG
+
+    - date: 2016-06-07
+      start: 11:00am
+      end: 12:30pm
+      title: Hybrid WG Time
+
+    - date: 2016-06-07
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch (provided)
+
+    - date: 2016-06-07
+      start: 1:30pm
+      end: 3:00pm
+      title: Sessions WG Time
+
+    - date: 2016-06-07
+      start: 1:30pm
+      end: 3:00pm
+      title: RMA WG Time
+
+    - date: 2016-06-07
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2016-06-07
+      start: 3:30pm
+      end: 5:30pm
+      title: Sessions WG Time
+
+    - date: 2016-06-07
+      start: 3:30pm
+      end: 5:30pm
+      title: Large Count WG Time
+
+    - date: 2016-06-08
+      start: 9:00am
+      end: 10:30am
+      title: Plenary Discussions (See agenda below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m97c5f23fde662d68019fa7f703f79de7
+      password: Y7uTPct6
+
+    - date: 2016-06-08
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-06-08
+      start: 11:00am
+      end: 12:30pm
+      title: Plenary Discussions (See agenda below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m97c5f23fde662d68019fa7f703f79de7
+      password: Y7uTPct6
+
+    - date: 2016-06-08
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch (provided)
+
+    - date: 2016-06-08
+      start: 1:30pm
+      end: 3:30pm
+      title: Plenary Discussions (See agenda below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m97c5f23fde662d68019fa7f703f79de7
+      password: Y7uTPct6
+
+    - date: 2016-06-08
+      start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - date: 2016-06-08
+      start: 4:00pm
+      end: 6:00pm
+      title: Plenary Discussions (See agenda below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m97c5f23fde662d68019fa7f703f79de7
+      password: Y7uTPct6
+
+    - date: 2016-06-08
+      start: 6:00pm
+      end: 8:00pm
+      title: Dinner (optional pay on your own)
+
+    - date: 2016-06-09
+      start: 9:00am
+      end: 9:30am
+      title: Votes (See agenda below)
+
+    - date: 2016-06-09
+      start: 9:30am
+      end: 10:30am
+      title: Plenary Discussions (See agenda below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=maa91d7b8959b61546da865893bc88c15
+      password: brBJra9y
+
+    - date: 2016-06-09
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-06-09
+      start: 11:00am
+      end: 12:30pm
+      title: Plenary Discussions (See agenda below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=maa91d7b8959b61546da865893bc88c15
+      password: brBJra9y
+
+procedure-votes:
+    - number: 35
+      description: Procedure Changes - Allow move of voting block as an exception
+
+no-no-votes:
+    - number: 26
+      description: Deprecate point-to-point send cancel
+
+first-votes:
+    - number: 26
+      description: Deprecate point-to-point send cancel
+
+second-votes:
+    - number: 5
+      description: MPIR being_debugged
+
+    - number: 7
+      description: Cleanup Advice and Definition of MPI_COMM_FREE
+
+plenaries:
+    - type: Discussion
+      title: Git Q&A (if necessary)
+      presenter: Wesley
+      done: 1
+
+    - type: Reading
+      title: Add Catastrophic and Noncatastrophic Error Codes
+      presenter: Wesley
+      issue_number: 28
+      done: 1
+
+    - type: Reading
+      title: Clarify MPI_ERRORS_ARE_FATAL scope of abort
+      presenter: Wesley
+      issue_number: 1
+      done: 1
+
+    - type: Reading
+      title: Define new MPI Error handler for subcommunicator abort
+      presenter: Wesley
+      issue_number: 3
+      done: 1
+
+    - type: Reading
+      title: ULFM part 1
+      presenter: Aurelien
+      issue_number: 20
+      done: 1
+
+    - type: Reading
+      title: ULFM part 2
+      presenter: Aurelien
+      issue_number: 21
+      done: 1
+
+    - type: Reading
+      title: ULFM part 3
+      presenter: Aurelien
+      issue_number: 22
+      done: 1
+
+    - type: Procedures Reading
+      title: Procedure Changes - Allow move of voting block as an exception
+      presenter: Martin
+      issue_number: 35
+      done: 1
+
+    - type: Refresher
+      title: Adding Persistent Collective Communication
+      presenter: Tony
+      issue_number: 25
+      done: 1
+
+    - type: Change Reading
+      title: Deprecate point-to-point send cancel
+      presenter: Dan
+      issue_number: 26
+      done: 1
+
+    - type: Errata Reading
+      title: Erratum to remove info key propagation from MPI_COMM_DUP
+      presenter: Dan
+      issue_number: 52
+      done: 1
+
+    - type: Reading
+      title: MPI_COMM_DUP_WITH_INFO can be used to explicitly propagate info hints (ticketIDWI)
+      presenter: Dan
+      issue_number: 53
+      done: 1
+
+    - type: Reading
+      title: Adds communicator info keys and allows info assertions (ticketInfo)
+      presenter: Dan
+      issue_number: 11
+      done: 1
+
+    - type: Reading
+      title: MPIR - Include line numbers in specification
+      presenter: Kathryn
+      issue_number: 6
+      done: 1
+
+    - type: Reading
+      title: Deprecate MPI_SIZEOF in MPI-4.0
+      presenter: Jeff
+      issue_number: 51
+      done: 1
+
+    - type: Plenary
+      title: Discussion on Error Handlers
+      presenter: Wesley
+
+    - type: Plenary
+      title: PR 19 - Statuses in Wait
+      presenter: Aurelien
+
+    - type: Other
+      title: Discussion on Locations and Dates for 2017 Meetings
+      presenter: Martin

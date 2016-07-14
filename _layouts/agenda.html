@@ -10,6 +10,106 @@ layout: default
 
   <div class="post-content">
     {{ content }}
+
+    {% assign input = site.data.meetings.[page.year].[page.month].agenda %}
+
+    <h2>Agenda:</h2>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Title</th>
+            <th>WebEx Link</th>
+            <th>Password</th>
+        </tr>
+        {% for item in input.schedule %}
+            <tr>
+                <td>{{ item.date }}</td>
+                <td>{{ item.start }} - {{ item.end }}</td>
+                <td>{{ item.title }}</td>
+                <td><a href="{{ item.link }}">WebEx</a></td>
+                <td>{{ item.password }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Votes:</h2>
+    <h3>Procedure:</h3>
+    <ul>
+    {% for item in input.procedure-votes %}
+        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    <h3>No "No Votes":</h3>
+    <ul>
+    {% for item in input.no-no-votes %}
+        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    <h3>First Vote:</h3>
+    <ul>
+    {% for item in input.first-votes %}
+        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    <h3>Second Vote:</h3>
+    <ul>
+    {% for item in input.second-votes %}
+        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+
+    <h2>Plenaries:</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Issue</th>
+            <th>Title</th>
+            <th>Presenter</th>
+        </tr>
+        {% for item in input.plenaries %}
+            <tr>
+                <td>
+                    {% if item.done == 1 %}
+                    <del>
+                    {% endif %}
+                    {{ item.type }}
+                    {% if item.done == 1 %}
+                    </del>
+                    {% endif %}
+                </td>
+                <td>
+                    <center>
+                        {% if item.done == 1 %}
+                        <del>
+                        {% endif %}
+                        <a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.issue_number}}">{{item.issue_number}}</a>
+                        {% if item.done == 1 %}
+                        </del>
+                        {% endif %}
+                    </center>
+                </td>
+                <td>
+                    {% if item.done == 1 %}
+                    <del>
+                    {% endif %}
+                    {{ item.title }}
+                    {% if item.done == 1 %}
+                    </del>
+                    {% endif %}
+                </td>
+                <td>
+                    {% if item.done == 1 %}
+                    <del>
+                    {% endif %}
+                    {{ item.presenter }}
+                    {% if item.done == 1 %}
+                    </del>
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
   </div>
 
 </article>

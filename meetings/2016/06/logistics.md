@@ -1,7 +1,7 @@
 ---
 layout: logistics
 date: June 6th - 9th, 2016
-permalink: meetings/logistics/2016-06
+permalink: meetings/2016/06/logistics
 ---
 
 ### [Meeting Registration](http://www.eventbrite.com/e/mpi-forum-seattle-tickets-25514658029)
