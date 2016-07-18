@@ -13,7 +13,7 @@ layout: default
 
     {% assign input = site.data.meetings.[page.year].[page.month].agenda %}
 
-    <h2>Agenda:</h2>
+    <h2>Agenda</h2>
     <table>
         <tr>
             <th>Date</th>
@@ -27,39 +27,45 @@ layout: default
                 <td>{{ item.date }}</td>
                 <td>{{ item.start }} - {{ item.end }}</td>
                 <td>{{ item.title }}</td>
-                <td><a href="{{ item.link }}">WebEx</a></td>
+                <td>{% if item.link.size > 0 %}<a href="{{ item.link }}">WebEx</a>{% endif %}</td>
                 <td>{{ item.password }}</td>
             </tr>
         {% endfor %}
     </table>
 
-    <h2>Votes:</h2>
-    <h3>Procedure:</h3>
+    <h2>Votes</h2>
+    <h3>Procedure</h3>
     <ul>
     {% for item in input.procedure-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
-    <h3>No "No Votes":</h3>
+    <h3>Errata Votes</h3>
+    <ul>
+    {% for item in input.errata-votes %}
+        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    <h3>No "No Votes"</h3>
     <ul>
     {% for item in input.no-no-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
-    <h3>First Vote:</h3>
+    <h3>First Vote</h3>
     <ul>
     {% for item in input.first-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
-    <h3>Second Vote:</h3>
+    <h3>Second Vote</h3>
     <ul>
     {% for item in input.second-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
 
-    <h2>Plenaries:</h2>
+    <h2>Plenaries</h2>
     <table>
         <tr>
             <th>Type</th>

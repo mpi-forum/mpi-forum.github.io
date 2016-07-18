@@ -1,0 +1,299 @@
+test: data
+
+schedule:
+    - date: 2016-02-29
+      start: 2:00pm
+      end: 3:30pm
+      title: Tools WG Time (debugging)
+
+    - date: 2016-02-29
+      start: 2:00pm
+      end: 3:30pm
+      title: RMA WG Time
+
+    - date: 2016-02-29
+      start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - date: 2016-02-29
+      start: 4:00pm
+      end: 5:30pm
+      title: Tools WG Time (debugging)
+
+    - date: 2016-02-29
+      start: 4:00pm
+      end: 5:30pm
+      title: RMA WG Time
+
+    - date: 2016-03-01
+      start: 9:00am
+      end: 10:30am
+      title: Tools WG time (MPI_T, MPI Ext. Intf.)
+
+    - date: 2016-03-01
+      start: 9:00am
+      end: 10:30am
+      title: P2P WG Time
+
+    - date: 2016-03-01
+      start: 9:00am
+      end: 10:30am
+      title: FT WG Time
+
+    - date: 2016-03-01
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-03-01
+      start: 11:00am
+      end: 12:30pm
+      title: Tools WG Time (MPI_T, MPI Ext. Intf. (overflow))
+
+    - date: 2016-03-01
+      start: 11:00am
+      end: 12:30pm
+      title: Hybrid WG Time
+
+    - date: 2016-03-01
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch (provided)
+
+    - date: 2016-03-01
+      start: 1:30pm
+      end: 3:00pm
+      title: Tools WG Time (MPI_T, MPI Ext. Intf. (overflow))
+
+    - date: 2016-03-01
+      start: 1:30pm
+      end: 3:00pm
+      title: Hybrid WG Time
+
+    - date: 2016-03-01
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2016-03-01
+      start: 3:30pm
+      end: 5:30pm
+      title: Hybrid WG Time
+
+    - date: 2016-03-01
+      start: 3:30pm
+      end: 5:30pm
+      title: Large Count WG Time
+
+    - date: 2016-03-02
+      start: 9:00am
+      end: 10:30am
+      title: Plenary Discussions (See agenda below)
+
+    - date: 2016-03-02
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-03-02
+      start: 11:00am
+      end: 12:30pm
+      title: Plenary Discussions (See agenda below)
+
+    - date: 2016-03-02
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch (provided)
+
+    - date: 2016-03-02
+      start: 1:30pm
+      end: 3:30pm
+      title: Plenary Discussions (See agenda below)
+
+    - date: 2016-03-02
+      start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - date: 2016-03-02
+      start: 4:00pm
+      end: 6:00pm
+      title: Plenary Discussions (See agenda below)
+
+    - date: 2016-03-02
+      start: 6:00pm
+      end: 8:00pm
+      title: Dinner (optional pay on your own)
+
+    - date: 2016-03-03
+      start: 9:00am
+      end: 9:30am
+      title: Votes (See agenda below)
+
+    - date: 2016-03-03
+      start: 9:30am
+      end: 10:30am
+      title: Plenary Discussions (See agenda below)
+
+    - date: 2016-03-03
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-03-03
+      start: 11:00am
+      end: 12:30pm
+      title: Plenary Discussions (See agenda below)
+
+procedure-votes:
+
+no-no-votes:
+    - number: 29
+      description: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions
+
+    - number: 34
+      description: Bug in code example 7.9 in call to MPI_DIMS_CREATE
+
+errata-votes:
+    - number: 12
+      description: MPI_T code example bug
+
+    - number: 29
+      description: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions
+
+    - number: 34
+      description: Bug in code example 7.9 in call to MPI_DIMS_CREATE
+
+first-votes:
+    - number: 5
+      description: Bug in code example 7.9 in call to MPI_DIMS_CREATE
+
+    - number: 7
+      description: Cleanup Advice and Definition of MPI_COMM_FREE
+
+second-votes:
+
+plenaries:
+    - type: Opening
+      title: Update on WG status","All WG chairs or their proxies
+      presenter: WG Chairs
+      done: 1
+
+    - type: Discussion
+      title: Git Transition Update
+      presenter: Wesley
+      done: 1
+
+    - type: Procedures Reading
+      title: Procedure Changes - Allow move of voting block as an exception
+      presenter: Martin
+      issue_number: 35
+      done: 1
+
+    - type: Errata Reading
+      title: MPI_T code example bug
+      presenter: Kathryn
+      issue_number: 12
+      done: 1
+
+    - type: Errata Reading
+      title: Fix and improve MPI_2REAL and MPI_FLOAT_INT definitions
+      presenter: Jeff S.
+      issue_number: 29
+      done: 1
+
+    - type: Errata Reading
+      title: Bug in code example 7.9 in call to MPI_DIMS_CREATE
+      presenter: Dan
+      issue_number: 34
+      done: 1
+
+    - type: Reading
+      title: Clarify MPI_ERRORS_ARE_FATAL scope of abort
+      presenter: Wesley
+      issue_number: 1
+      done: 1
+
+    - type: Reading
+      title: Define new MPI Error handler for subcommunicator abort
+      presenter: Wesley
+      issue_number: 3
+      done: 1
+
+    - type: Reading
+      title: Add Catastrophic and Noncatastrophic Error Codes
+      presenter: Wesley
+      issue_number: 28
+      done: 1
+
+    - type: Reading
+      title: Communicator Info Assertions
+      presenter: Jim
+      issue_number: 11
+      done: 1
+
+    - type: Reading
+      title: Deprecate point-to-point send cancel
+      presenter: Dan
+      issue_number: 26
+      done: 1
+
+    - type: Other
+      title: The FENIX library
+      presenter: Marc Gamell
+      done: 1
+
+    - type: Other
+      title: Re-evaluating MPI Threading levels
+      presenter: Ryan
+      done: 1
+
+    - type: Other
+      title: MPI Sessions
+      presenter: Jeff S.
+      done: 1
+
+    - type: Admin
+      title: Quick location discussion 2017
+      presenter: Martin
+      done: 1
+
+    - type: Reading
+      title: Allocating receive and freeing send
+      presenter: Dan
+      issue_number: 32
+      done: 1
+
+    - type: Plenary
+      title: Fortran Datatypes
+      presenter: Jeff S.
+      done: 1
+
+    - type: Plenary
+      title: MPI_Comm_get_info discussion
+      presenter: George
+      done: 1
+
+    - type: Reading
+      title: ULFM part 1
+      presenter: Aurelien
+      issue_number: 20
+      done: 1
+
+    - type: Reading
+      title: ULFM part 2
+      presenter: Aurelien
+      issue_number: 21
+      done: 1
+
+    - type: Reading
+      title: ULFM part 3
+      presenter: Aurelien
+      issue_number: 22
+      done: 1
+
+    - type: Other
+      title: Hybrid WG Plenary
+      presenter: Pavan
+      done: 1

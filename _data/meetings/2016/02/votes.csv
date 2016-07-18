@@ -1,0 +1,8 @@
+topic,yes,no,abstain,missed
+CHANGE SINCE 2-WEEK WINDOW: Addition of errata item for #29 Pair datatypes example (no no vote),21,0,0,0
+#29 Pair datatypes example (1st-and-only vote),21,0,0,0
+CHANGE SINCE 2-WEEK WINDOW: Addition of errata item for #34 DIMS_CREATE example fix),21,0,0,0
+#34 DIMS_CREATE example fix (1st-and-only vote),21,0,0,0
+#12 MPI_T example error (1st-and-only vote),21,0,0,0
+#5 MPIR_Being_debugged (1st of 2 votes),20,0,1,0
+#7 MPI_COMM_FREE advice to implementers (1st of 2 votes),21,0,0,0
