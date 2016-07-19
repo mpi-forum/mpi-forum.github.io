@@ -34,37 +34,48 @@ layout: default
     </table>
 
     <h2>Votes</h2>
+    {% if input.procedure-votes.size > 0 %}
     <h3>Procedure</h3>
     <ul>
     {% for item in input.procedure-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
+    {% endif %}
+    {% if input.errata-votes.size > 0 %}
     <h3>Errata Votes</h3>
     <ul>
     {% for item in input.errata-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
+    {% endif %}
+    {% if input.no-no-votes > 0 %}
     <h3>No "No Votes"</h3>
     <ul>
     {% for item in input.no-no-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
+    {% endif %}
+    {% if input.first-votes.size > 0 %}
     <h3>First Vote</h3>
     <ul>
     {% for item in input.first-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
+    {% endif %}
+    {% if input.second-votes.size > 0 %}
     <h3>Second Vote</h3>
     <ul>
     {% for item in input.second-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
+    {% endif %}
 
+    {% if input.plenaries.size > 0 %}
     <h2>Plenaries</h2>
     <table>
         <tr>
@@ -116,6 +127,29 @@ layout: default
             </tr>
         {% endfor %}
     </table>
+    {% endif %}
+
+    {% if input.documents.size > 0 %}
+    <h2>Documents</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Title</th>
+            <th>File</th>
+            <th>Link</th>
+            <th>Presenter</th>
+        </tr>
+        {% for item in input.documents %}
+            <tr>
+                <td>{{ item.type }}</td>
+                <td>{{ item.title }}</td>
+                <td><a href="../../../docs/{{page.year}}/{{page.month}}/{{item.filename}}">File</a></td>
+                <td>{% if item.link %}<a href="{{item.link}}">Link</a>{% endif %}</td>
+                <td>{{item.presenter}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
   </div>
 
 </article>

@@ -1,0 +1,198 @@
+test: data
+
+schedule:
+    - date: 2015-06-01
+      start: 2:00pm
+      end: 3:30pm
+      title: Discussion on Procedures Document (see below)
+
+    - date: 2015-06-01
+      start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - date: 2015-06-01
+      start: 4:00pm
+      end: 5:30pm
+      title: Discussion on Changes to Release Candidate Standard (see below)
+
+    - date: 2015-06-02
+      start: 9:00am
+      end: 10:30am
+      title: Rereading of changes to Procedures Document
+
+    - date: 2015-06-02
+      start: 9:00am
+      end: 10:00am
+      title: Rereading of changes to Release Candidate Standard
+
+    - date: 2015-06-02
+      start: 10:00am
+      end: 10:30am
+      title: Break
+
+    - date: 2015-06-02
+      start: 10:30am
+      end: 12:00pm
+      title: Plenary
+
+    - date: 2015-06-02
+      start: 12:00pm
+      end: 1:00pm
+      title: Lunch
+
+    - date: 2015-06-02
+      start: 1:00pm
+      end: 2:30pm
+      title: Hybrid WG
+
+    - date: 2015-06-02
+      start: 1:00pm
+      end: 2:30pm
+      title: Persistence WG Time
+
+    - date: 2015-06-02
+      start: 2:30pm
+      end: 3:00pm
+      title: Break
+
+    - date: 2015-06-02
+      start: 3:00pm
+      end: 5:00pm
+      title: FT WG Time
+
+    - date: 2015-06-02
+      start: 3:00pm
+      end: 5:00pm
+      title: Persistence WG Time
+
+    - date: 2015-06-03
+      start: 9:00am
+      end: 9:15am
+      title: Vote on Procedures Document
+
+    - date: 2015-06-03
+      start: 9:15am
+      end: 10:00am
+      title: Vote on Changes to Release Candidate
+
+    - date: 2015-06-03
+      start: 10:00am
+      end: 10:30pm
+      title: Break
+
+    - date: 2015-06-03
+      start: 10:30am
+      end: 12:00pm
+      title: Plenary
+
+    - date: 2015-06-03
+      start: 12:00pm
+      end: 1:00pm
+      title: Lunch
+
+    - date: 2015-06-03
+      start: 1:00pm
+      end: 2:30pm
+      title: Tools WG (P/QMPI2)
+
+    - date: 2015-06-03
+      start: 1:00pm
+      end: 2:30pm
+      title: RMA WG
+
+    - date: 2015-06-03
+      start: 2:30pm
+      end: 5:00pm
+      title: Tools WG (P/QMPI2)
+
+    - date: 2015-06-03
+      start: 2:30pm
+      end: 5:00pm
+      title: RMA WG
+
+    - date: 2015-06-04
+      start: 9:00am
+      end: 9:15am
+      title: Vote on MPI 3.1
+
+    - date: 2015-06-04
+      start: 9:15am
+      end: 10:00am
+      title: Other Votes
+
+    - date: 2015-06-04
+      start: 10:00am
+      end: 10:30am
+      title: Break
+
+    - date: 2015-06-04
+      start: 10:30am
+      end: 12:00am
+      title: Discussion on MPI 4.0 and Beyond + Document Management
+
+procedure-votes:
+
+no-no-votes:
+
+first-votes:
+
+second-votes:
+
+plenaries:
+    - type: Reading
+      title: Persistent Collective Operations for MPI 4.0
+      presenter: Tony
+      issue_number: Trac466
+      done: 1
+
+    - type: Reading
+      title: Clarify MPI_ERRORS_ARE_FATAL scope of abort
+      presenter: Wesley
+      issue_number: Trac324
+      done: 1
+
+    - type: Discussion
+      title: Allow Application Behavior Hints in Info Keys
+      presenter: Dan
+      issue_number: Trac476
+      done: 1
+
+    - type: Discussion
+      title: Issues found during Japanese Translation
+      presenter: Atsushi
+      done: 1
+
+documents:
+    - type: Rules
+      title: Proposal for Revised Rules (changes in red)
+      filename: procedures-2015-06-proposal.pdf
+      presenter: Martin
+
+    - type: Rules
+      title: Proposal for Revised Rules (including changes from meeting)
+      filename: procedures-2015-06-final-proposal.pdf
+      presenter: FINAL - TO BE VOTED ON
+
+    - type: Standard
+      title: Final Release Candidate
+      filename: mpi31-frc.pdf
+      link: https://gist.github.com/jsquyres/ab8afbe726291719160a
+      presenter: Bill
+
+    - type: Standard
+      title: Final Release Candidate (including changes from meeting)
+      filename: mpi31-frc-final.pdf
+      link: https://gist.github.com/jsquyres/ab8afbe726291719160a
+      presenter: FINAL - TO BE VOTED ON
+
+    - type: Chapter
+      title: Changes to RMA Chapter
+      filename: one-side-2.pdf
+      link: https://gist.github.com/jsquyres/e0e608fe4521b4f62f1f
+      presenter: Bill
+
+    - type: Chapter
+      title: Changes to Tools Chapter (with changes highligthed)
+      filename: tools-chapter-31.pdf
+      presenter: Kathryn

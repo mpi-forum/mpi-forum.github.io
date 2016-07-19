@@ -1,0 +1,280 @@
+test: data
+
+schedule:
+    - date: 2015-03-02
+      start: 2:00pm
+      end: 4:00pm
+      title: Tools WG (PMPI-2 Discussion) - Kathryn
+
+    - date: 2015-03-02
+      start: 2:00pm
+      end: 4:00pm
+      title: FT WG (ULFM) - Wesley
+
+    - date: 2015-03-02
+      start: 4:00pm
+      end: 4:15pm
+      title: Break
+
+    - date: 2015-03-02
+      start: 4:15pm
+      end: 5:45pm
+      title: Tools WG (PMPI-2 Discussion) - Kathryn
+
+    - date: 2015-03-02
+      start: 4:15pm
+      end: 5:45pm
+      title: Hybrid WG (Pavan)
+
+    - date: 2015-03-03
+      start: 9:00am
+      end: 10:00am
+      title: RMA WG (Bill)
+
+    - date: 2015-03-03
+      start: 9:00am
+      end: 10:00am
+      title: Tools WG
+
+    - date: 2015-03-03
+      start: 10:00am
+      end: 10:30am
+      title: Break
+
+    - date: 2015-03-03
+      start: 10:30am
+      end: 12:00pm
+      title: RMA WG (Bill)
+
+    - date: 2015-03-03
+      start: 10:30am
+      end: 12:00pm
+      title: Tools WG
+
+    - date: 2015-03-03
+      start: 12:00pm
+      end: 1:00pm
+      title: Lunch (provided)
+
+    - date: 2015-03-03
+      start: 1:00pm
+      end: 3:00pm
+      title: Plenary (agenda, see below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m5934b3a7b3d6e6c57002eda77383a0f9
+      password: mpi
+
+    - date: 2015-03-03
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2015-03-03
+      start: 3:30pm
+      end: 5:30pm
+      title: Plenary (agenda, see below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m5934b3a7b3d6e6c57002eda77383a0f9
+      password: mpi
+
+    - date: 2015-03-04
+      start: 9:00am
+      end: 10:00am
+      title: Plenary (agenda, see below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m5be88595caf59c18a01c6f9e32132fe6
+      password: mpi
+
+    - date: 2015-03-04
+      start: 10:00am
+      end: 10:30am
+      title: Break
+
+    - date: 2015-03-04
+      start: 10:30am
+      end: 12:00pm
+      title: Plenary Discussions (See agenda below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m5be88595caf59c18a01c6f9e32132fe6
+      password: mpi
+
+    - date: 2015-03-04
+      start: 12:00pm
+      end: 1:00pm
+      title: Lunch (provided)
+
+    - date: 2015-03-04
+      start: 1:00pm
+      end: 3:00pm
+      title: Plenary Discussions (See agenda below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m5be88595caf59c18a01c6f9e32132fe6
+      password: mpi
+
+    - date: 2015-03-04
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2015-03-04
+      start: 3:30pm
+      end: 5:00pm
+      title: Plenary Discussions (See agenda below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m5be88595caf59c18a01c6f9e32132fe6
+      password: mpi
+
+    - date: 2015-03-04
+      start: 6:00pm
+      end: 8:00pm
+      title: Dinner (optional pay on your own)
+
+    - date: 2015-03-05
+      start: 9:00am
+      end: 9:30am
+      title: Starting of voting block (fixed time / can only be changed on unanimous consent). Updates to tickets as neded and votes on accepting updates
+
+    - date: 2015-03-05
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2015-03-03
+      start: 11:00am
+      end: 12:30pm
+      title: Plenary Discussions (See agenda below)
+
+procedure-votes:
+
+no-no-votes:
+
+errata-votes:
+
+first-votes:
+
+second-votes:
+
+plenaries:
+    - type: Opening
+      title: Update on WG status
+      presenter: All WG chairs or their proxies
+      done: 1
+
+    - type: Chapter Reading
+      title: Front Matter
+      presenter: Bill
+      done: 1
+
+    - type: Chapter Reading
+      title: 1 - Introduction
+      presenter: Bill
+      done: 1
+
+    - type: Chapter Reading
+      title: 2 - MPI Terms and Conventions
+      presenter: Rolf
+      done: 1
+
+    - type: Chapter Reading
+      title: 3 - Point to Point Communication
+      presenter: Dan
+      done: 1
+
+    - type: Chapter Reading
+      title: 4 - Datatypes
+      presenter: George
+      done: 1
+
+    - type: Chapter Reading
+      title: 5 - Collective Communication
+      presenter: Torsten
+      done: 1
+
+    - type: Chapter Reading
+      title: 6 - Groups, Contexts, Communicatiors, Caching
+      presenter: Pavan
+      done: 1
+
+    - type: Chapter Reading
+      title: 7 - Process Topologies
+      presenter: Rolf for Torsten
+      done: 1
+
+    - type: Chapter Reading
+      title: 8 - MPI Environmental Management
+      presenter: George
+      done: 1
+
+    - type: Chapter Reading
+      title: 9 - The Info Object
+      presenter: Jeff H.
+      done: 1
+
+    - type: Chapter Reading
+      title: 10 - Process Creation and Management
+      presenter: David
+      done: 1
+
+    - type: Chapter Reading
+      title: 11 - One-Sided Communication
+      presenter: Bill
+      done: 1
+
+    - type: Chapter Reading
+      title: 12 - External Interfaces
+      presenter: Pavan
+      done: 1
+
+    - type: Chapter Reading
+      title: I/O
+      presenter: Quincey
+      done: 1
+
+    - type: Chapter Reading
+      title: 14 - Tool Support
+      presenter: Kathryn
+      done: 1
+
+    - type: Chapter Reading
+      title: 15 - Deprecated Functions
+      presenter: Rolf
+      done: 1
+
+    - type: Chapter Reading
+      title: 16 - Removed Interfaces
+      presenter: Rolf
+      done: 1
+
+    - type: Chapter Reading
+      title: 17 - Language Bindings
+      presenter: Jeff S.
+      done: 1
+
+    - type: Chapter Reading
+      title: A - Language Bindings Summary
+      presenter: Rolf
+      done: 1
+
+    - type: Chapter Reading
+      title: B - Change Log
+      presenter: Rolf
+      done: 1
+
+    - type: Open Issues
+      title: Review issues found during chapter reviews
+      presenter: Martin
+      done: 1
+
+    - type: Plenary
+      title: Proposals to introduce assertions
+      presenter: Bill
+      done: 1
+
+    - type: Plenary
+      title: FT WG
+      presenter: Wesley
+      done: 1
+
+    - type: General Business
+      title: Future of MPI beyond 3.1
+      presenter: Martin
+      done: 1
+
+    - type: General Business
+      title: Policy on removing stale rationals
+      presenter: Martin
+      done: 1

@@ -1,0 +1,158 @@
+test: data
+
+schedule:
+    - date: 2015-09-24
+      start: 9:00am
+      end: 10:15am
+      title: Plenary
+
+    - date: 2015-09-24
+      start: 10:15am
+      end: 10:45am
+      title: Break
+
+    - date: 2015-09-24
+      start: 10:45am
+      end: 12:00pm
+      title: Plenary
+
+    - date: 2015-09-24
+      start: 12:00pm
+      end: 2:00pm
+      title: Lunch
+
+    - date: 2015-09-24
+      start: 2:00pm
+      end: 3:30pm
+      title: FT WG / ULFM and RMA
+
+    - date: 2015-09-24
+      start: 2:00pm
+      end: 3:30pm
+      title: P2P WG
+
+    - date: 2015-09-24
+      start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - date: 2015-09-24
+      start: 4:00pm
+      end: 5:30pm
+      title: FT WG / ULFM and RMA
+
+    - date: 2015-09-24
+      start: 4:00pm
+      end: 5:30pm
+      title: P2P WG
+
+    - date: 2015-09-25
+      start: 9:00am
+      end: 9:15am
+      title: Votes
+
+    - date: 2015-09-25
+      start: 9:15am
+      end: 10:15am
+      title: Plenary
+
+    - date: 2015-09-25
+      start: 10:15am
+      end: 10:45am
+      title: Break
+
+    - date: 2015-09-25
+      start: 10:45am
+      end: 12:00pm
+      title: Plenary
+
+    - date: 2015-09-25
+      start: 12:00pm
+      end: 2:00pm
+      title: Lunch
+
+    - date: 2015-09-25
+      start: 2:00pm
+      end: 3:30pm
+      title: Tools WG / QMPI (with dialin)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m98b758a0f03126f1d3124d81874512c2
+      password: tools
+
+    - date: 2015-09-25
+      start: 2:00pm
+      end: 3:30pm
+      title: RMA WG Time
+
+    - date: 2015-09-25
+      start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - date: 2015-09-25
+      start: 4:00pm
+      end: 5:30pm
+      title: Tools WG / QMPI (with dialin)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m98b758a0f03126f1d3124d81874512c2
+      password: tools
+
+    - date: 2015-09-25
+      start: 4:00pm
+      end: 5:30pm
+      title: RMA WG Time
+
+procedure-votes:
+
+no-no-votes:
+
+first-votes:
+
+second-votes:
+
+plenaries:
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 1
+
+    - type: Plenary
+      title: Feedback on the MPI Standard from the Japanese Translation
+      presenter: Atsushi
+      done: 1
+
+    - type: Reading
+      title: Update MPIR_being_debugged scope to include MPI processes
+      presenter: Jeff
+      issue_number: Trac484
+      done: 1
+
+    - type: Reading
+      title: Clarify MPI_ERRORS_ARE_FATAL scope of abort
+      presenter: Wesley
+      issue_number: Trac324
+      done: 1
+
+    - type: Reading
+      title: Define new MPI Error handler for subcommunicator abort
+      presenter: Wesley
+      issue_number: Trac477
+      done: 1
+
+    - type: General
+      title: ULFM and general FT Update
+      presenter: Wesley
+      done: 1
+
+    - type: General
+      title: MPC Presentation
+      presenter: Jean-Baptiste
+      done: 1
+
+    - type: General
+      title: RMA Notification
+      presenter: Torsten
+      done: 1
+
+    - type: General
+      title: Git Workflow Proposal
+      presenter: Wesley
+      done: 1
