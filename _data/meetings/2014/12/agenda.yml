@@ -1,0 +1,288 @@
+test: data
+
+schedule:
+    - date: 2014-12-08
+      start: 2:00pm
+      end: 3:30pm
+      title: Tools WG (PMPI-2 Disucssion) - Martin and Jeff S.
+    - date: 2014-12-08
+      start: 2:00pm
+      end: 3:30pm
+      title: Large Count WG - Jeff H.
+    - date: 2014-12-08
+      start: 3:30pm
+      end: 4:00pm
+      title: Break
+    - date: 2014-12-08
+      start: 4:00pm
+      end: 5:30pm
+      title: Tools WG (PMPI-2 Disucssion) - Martin and Jeff S.
+    - date: 2014-12-08
+      start: 4:00pm
+      end: 5:30pm
+      title: Large Count and GREQ WG - Jeff H.
+
+    - date: 2014-12-09
+      start: 9:00am - 10:00am
+      title: P2P WG - Dan
+    - date: 2014-12-09
+      start: 9:00am - 10:00am
+      title: RMA WG - Bill
+    - date: 2014-12-09
+      start: 10:00am
+      end: 10:30am
+      title: Break
+    - date: 2014-12-09
+      start: 10:30am
+      end: 12:00pm
+      title: P2P WG - Dan
+    - date: 2014-12-09
+      start: 10:30am
+      end: 12:00pm
+      title: RMA WG - Bill
+    - date: 2014-12-09
+      start: 12:00pm
+      end: 1:00pm
+      title: Lunch (provided)
+    - date: 2014-12-09
+      start: 1:00pm
+      end: 3:00pm
+      title: P2P WG - Dan
+    - date: 2014-12-09
+      start: 1:00pm
+      end: 3:00pm
+      title: Hybrid WG - Pavan
+    - date: 2014-12-09
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+    - date: 2014-12-09
+      start: 3:30pm
+      end: 5:30pm
+      title: Plenary Discusssions (agenda, see below)
+    - date: 2014-12-09
+      start: about 5:30pm (after plen.)
+      title: Fortran WG (Rolf, Craig)
+    - date: 2014-12-10
+      start: 9:00am - 10:00am
+      title: Plenary Discusssions (agenda, see below)
+    - date: 2014-12-10
+      start: 10:00am
+      end: 10:30am
+      title: Break
+    - date: 2014-12-10
+      start: 10:30am
+      end: 12:00pm
+      title: Plenary Discusssions (agenda, see below)
+    - date: 2014-12-10
+      start: 12:00pm
+      end: 1:00pm
+      title: Lunch (provided)
+    - date: 2014-12-10
+      start: 1:00pm
+      end: 3:00pm
+      title: Plenary Discusssions (agenda, see below)
+    - date: 2014-12-10
+      start: 3:00pm
+      end: 3:20pm
+      title: Break
+    - date: 2014-12-10
+      start: 3:20pm
+      title: Start of voting block (changed on unanimous consent)
+
+procedure-votes:
+
+no-no-votes:
+    - number: 273
+      description: "Vote 2: Add Immediate versions of nonblocking collective I/O routines"
+
+    - number: 369
+      description: "Vote 2: Add same_disp_unit info key for RMA window creation"
+
+    - number: 421
+      description: "Errata: MPI_Aint addressing arithmetic (on top of 349/402/404)"
+
+    - number: 449
+      description: "Errata: Missing in C in wording about handle-comparison - ticket 0 change"
+
+errata-votes:
+    - number: 383
+      description: "Consistency of tools information interface variable information"
+
+    - number: 394
+      description: "MPI_T: Clarify values of watermark variables between and during stopped and started periods"
+
+    - number: 433
+      description: "Errata: MPI_WIN_ATTACH must only be for simply contiguous buffers"
+
+    - number: 441
+      description: "Errata: Missing text for Fortran MPI_SUBARRAYS_SUPPORTED equals .FALSE. "
+
+    - number: 444
+      description: "Errata: Fortran and Persistent Requests"
+
+    - number: 431
+      description: "Errata: MPI Address Errata"
+
+    - number: 421
+      description: "Errata: MPI_Aint addressing arithmetic (on top of 349/402/404)"
+
+    - number: 447
+      description: "Errata: Tools section is an exception: no Fortran interface"
+
+    - number: 449
+      description: "Errata: Missing in C in wording about handle-comparison"
+
+    - number: 451
+      description: "Errata: Correcting description of nonblocking"
+
+    - number: 453
+      description: "Errata: Avoidance of mpi_ / pmpi_ in C due to Fortran reasons"
+
+first-votes:
+
+second-votes:
+    - number: 273
+      description: "Add Immediate versions of nonblocking collective I/O routines"
+
+    - number: 349
+      description: "MPI_Aint addressing arithmetic"
+
+    - number: 402
+      description: "Update dynamic window example to use MPI_Aint_add"
+
+    - number: 404
+      description: "MPI_Aint diff arithmetic"
+
+    - number: 369
+      description: "Add same_disp_unit info key for RMA window creation"
+
+    - number: 357
+      description: "thread-safety of MPI_INITIALIZED, MPI_FINALIZED, MPI_QUERY_THREAD and MPI_IS_THREAD_MAIN in all uses for library correctness"
+
+plenaries:
+        - type: "Plenary"
+          title: "Update on WG status"
+          presenter: "All WG chairs or their proxies"
+          done: 1
+
+        - type: "Plenary"
+          title: "Chapter Committee Discussion"
+          presenter: ""
+          done: 1
+
+        - type: "Reading"
+          issue_number: 380
+          title: "Endpoints"
+          presenter: "Jim"
+          done: 1
+
+        - type: "Reading"
+          issue_number: 461
+          title: "Wildcard Info Keys"
+          presenter: "Jim"
+          done: 1
+
+        - type: "Reading"
+          issue_number: 411
+          title: "MPI info key namespacing"
+          presenter: "Pavan"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 383
+          title: "Consistency of tools information interface variable information"
+          presenter: "Martin"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 394
+          title: "MPI_T: Clarify values of watermark variables between and during stopped and started periods"
+          presenter: "Martin"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 433
+          title: "Errata: MPI_WIN_ATTACH must only be for simply contiguous buffers"
+          presenter: "Rolf"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 441
+          title: "Errata: Missing text for Fortran MPI_SUBARRAYS_SUPPORTED equals .FALSE. "
+          presenter: "Rolf"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 444
+          title: "Errata: Fortran and Persistent Requests"
+          presenter: "Rolf"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 431
+          title: "Errata: MPI Address Errata"
+          presenter: "Rolf"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 421
+          title: "Errata: MPI_Aint addressing arithmetic (on top of 349/402/404)"
+          presenter: "Rolf"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 447
+          title: "Errata: Tools section is an exception: no Fortran interface"
+          presenter: "Rolf"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 449
+          title: "Errata: Missing in C in wording about handle-comparison"
+          presenter: "Rolf"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 451
+          title: "Errata: Correcting description of nonblocking"
+          presenter: "Rolf"
+          done: 1
+
+        - type: "Errata Reading"
+          issue_number: 453
+          title: "Errata: Avoidance of mpi_ / pmpi_ in C due to Fortran reasons"
+          presenter: "Rolf"
+          done: 1
+
+        - type: "Other Discussions"
+          title: "Hybrid WG"
+          presenter: "Jim"
+          done: 1
+
+        - type: "Other Discussions"
+          issue_number: 323
+          title: "ULFM"
+          presenter: "Wesley"
+          done: 1
+
+        - type: "Other Discussions"
+          issue_number: 301
+          title: "deprecate MPI_COMM_JOIN"
+          presenter: "Fab"
+          done: 1
+
+        - type: "Other Discussions"
+          title: "Fortran WG - deprecation of MPI_SIZEOF and mpif.h"
+          presenter: Jeff S.
+          done: 1
+
+        - type: "Other Discussions"
+          title: "Endpoints in McMPI"
+          presenter: "Dan"
+          done: 1
+
+        - type: "Other Discussions"
+          title: "Discussion and Logistics in Finishing MPI 3.1, incl. chapter committees"
+          presenter: "Martin"
+          done: 1

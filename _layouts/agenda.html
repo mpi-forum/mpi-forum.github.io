@@ -50,10 +50,18 @@ layout: default
     {% endfor %}
     </ul>
     {% endif %}
-    {% if input.no-no-votes > 0 %}
+    {% if input.no-no-votes.size > 0 %}
     <h3>No "No Votes"</h3>
     <ul>
     {% for item in input.no-no-votes %}
+        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% if input.first-and-only-votes.size > 0 %}
+    <h3>First and Only Votes</h3>
+    <ul>
+    {% for item in input.first-and-only-votes %}
         <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>

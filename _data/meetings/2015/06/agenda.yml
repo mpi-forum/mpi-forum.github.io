@@ -132,8 +132,21 @@ schedule:
       title: Discussion on MPI 4.0 and Beyond + Document Management
 
 procedure-votes:
+    - description: Procedures document
 
 no-no-votes:
+    - description: Procedures document
+
+    - description: "Changelog"
+
+    - description: "Minor editorial changes"
+
+first-and-only-votes:
+    - description: "Tools chapter"
+
+    - description: "RMA chapter"
+
+    - description: "Changelog"
 
 first-votes:
 
