@@ -46,7 +46,6 @@ function ballot(rules, yes, no, abstain, missed, imove) {
   </header>
 
   <div class="post-content">
-    {{ content }}
 
   <b>Registered:</b> {{ page.registered }}<br>
   <b>Attended:</b> {{ page.attended }}<br>
@@ -54,6 +53,7 @@ function ballot(rules, yes, no, abstain, missed, imove) {
   <b>IMOVE:</b> {{ page.imove }}<br>
   <b>Votes needed for individual vote quorum:</b> <script> document.write((3/4) * {{page.imove}}); </script> <br>
   <br>
+
   <script>
   if ({{ page.rules }} == 3152013) {
       document.write("<b>Note:</b> \"Miss\" counts the same as \"abstain\"<br>");
@@ -61,7 +61,7 @@ function ballot(rules, yes, no, abstain, missed, imove) {
   </script>
   <br>
   <hr>
-  <br>
+  {{ content }}
   <ol>
       {% for vote in site.data.meetings.[page.year].[page.month].votes %}
       <li> Vote Topic: <b>{{ vote.topic }}</b><br>

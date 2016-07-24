@@ -1,0 +1,203 @@
+test: data
+
+schedule:
+    - date: 2014-09-15
+      start: 10:00am
+      end: 12:00pm
+      title: "Tools WG (Kathryn)"
+
+    - date: 2014-09-15
+      start: 12:00pm
+      end: 1:30pm
+      title: "Lunch / outside restaurant"
+
+    - date: 2014-09-15
+      start:  1:45pm
+      end: 6:00pm
+      title: "Errata readings (with 30min break)"
+
+    - date: 2014-09-15
+      title: "   Ticket #433: MPI_WIN_ATTACH must only be for simply contiguous buffers"
+
+    - date: 2014-09-15
+      title: "   Ticket #441: Missing text for Fortran MPI_SUBARRAYS_SUPPORTED equals .FALSE. "
+
+    - date: 2014-09-15
+      title: "   Ticket #442: Fortran vector subscipts and MPI_BOTTOM"
+
+    - date: 2014-09-15
+      title: "   Ticket #444: Fortran and Persistent Requests"
+
+    - date: 2014-09-15
+      title: "   Ticket #445: Fortran and Permament Data Movement: All nonblocking"
+
+    - date: 2014-09-15
+      title: "   Ticket #431: MPI Address Errata"
+
+    - date: 2014-09-15
+      title: "   Ticket #421: MPI_Aint addressing arithmetic (on top of 349/402/404"
+
+    - date: 2014-09-15
+      title: "   Ticket #447: Tools section is an exception: no Fortran interface"
+
+    - date: 2014-09-15
+      title: "   Ticket #448: Semantic term matching is missing - may be considered Ticket 0"
+
+    - date: 2014-09-15
+      title: "   Ticket #449: Missing in C in wording about handle-comparison"
+
+    - date: 2014-09-15
+      title: "   Ticket #451: Correcting description of nonblocking"
+
+    - date: 2014-09-15
+      title: "   Ticket #453: Avoidance of mpi_ / pmpi_ in C due to Fortran reasons"
+
+    - date: 2014-09-15
+      title: "   Ticket #455: Removal of duplicated text on MPI_Aint and MPI_Offset"
+
+    - date: 2014-09-15
+      title: "Ticket 0, but discussion required"
+
+    - date: 2014-09-15
+      title: "   Ticket #446: Fortran cross-reference update"
+
+    - date: 2014-09-15
+      title: "Ticket 0 additions that where announced, but are not needed, unless there are objections: "
+
+    - date: 2014-09-15
+      title: "   Ticket #440: Fortran cross-reference correction"
+
+    - date: 2014-09-15
+      title: "   Ticket #443: Fortran MPI_BOTTOM not for initialization or assignment"
+
+    - date: 2014-09-15
+      title: "   Ticket #450: Outdated cross-reference to MPI-1"
+
+    - date: 2014-09-15
+      title: "   Ticket #452: Wording correction about deprecated and removed functions"
+
+    - date: 2014-09-16
+      start: 10:00am
+      end: 11:00am
+      title: "Fault Tolerance (Aurelien and George)"
+
+    - date: 2014-09-16
+      start: 11:00am
+      end: 12:00pm
+      title: "Point to Point discussion/feedback (Ken)"
+
+    - date: 2014-09-16
+      start: 12:00pm
+      end: 1:30pm
+      title: "Lunch / outside restaurant"
+
+    - date: 2014-09-16
+      start:  1:30pm
+      end: 3:00pm
+      title: "Tour of the K Computer"
+
+    - date: 2014-09-16
+      start:  3:00pm
+      end: 3:30pm
+      title: "Remote Notification Ideas (Torsten)"
+
+    - date: 2014-09-16
+      start:  3:30pm
+      end: 3:45pm
+      title: "Ticket Updates (if necessary)"
+
+    - date: 2014-09-16
+      start:  3:45pm
+      end: 4:15pm
+      title: "Votes"
+
+    - date: 2014-09-16
+      title: "   We will vote on any of the other announced tickets as well, if the forum decides they are not ticket 0"
+
+    - date: 2014-09-16
+      start:  4:15pm
+      end: 4:45pm
+      title: "Break"
+
+    - date: 2014-09-16
+      start:  4:45pm
+      end: 6:00pm
+      title: "MPI 3.1 Logistics Discussions"
+
+    - date: 2014-09-17
+      start: 10:00am
+      end: 12:00pm
+      title: "WG Discussions"
+
+    - date: 2014-09-17
+      start: 12:00pm
+      end: 1:30pm
+      title: "Lunch / outside restaurant"
+
+    - date: 2014-09-17
+      start:  1:30pm
+      end: 5:00pm
+      title: "WG Discussions"
+
+second-votes:
+    - number: 273
+      description: "Add Immediate versions of nonblocking collective I/O routines"
+
+    - number: 349
+      description: "MPI_Aint addressing arithmetic"
+
+    - number: 402
+      description: "Update dynamic window example to use MPI_Aint_add"
+
+    - number: 404
+      description: "MPI_Aint diff arithmetic"
+
+    - number: 369
+      description: "Add same_disp_unit info key for RMA window creation"
+
+    - number: 357
+      description: "thread-safety of MPI_INITIALIZED, MPI_FINALIZED, MPI_QUERY_THREAD and MPI_IS_THREAD_MAIN in all uses for library correctness"
+
+first-votes:
+    - number: 411
+      description: "MPI info key namespacing"
+
+errata:
+    - number: 433
+      description: "MPI_WIN_ATTACH must only be for simply contiguous buffers"
+
+    - number: 441
+      description: "Missing text for Fortran MPI_SUBARRAYS_SUPPORTED equals .FALSE. "
+
+    - number: 442
+      description: "Fortran vector subscipts and MPI_BOTTOM"
+
+    - number: 444
+      description: "Fortran and Persistent Requests"
+
+    - number: 445
+      description: "Fortran and Permament Data Movement: All nonblocking"
+
+    - number: 431
+      description: "MPI Address Errata"
+
+    - number: 421
+      description: "MPI_Aint addressing arithmetic (on top of 349/402/404"
+
+    - number: 447
+      description: "Tools section is an exception: no Fortran interface"
+
+    - number: 448
+      description: "Semantic term matching is missing - may be considered Ticket 0"
+
+    - number: 449
+      description: "Missing in C in wording about handle-comparison"
+
+    - number: 451
+      description: "Correcting description of nonblocking"
+
+    - number: 453
+      description: "Avoidance of mpi_ / pmpi_ in C due to Fortran reasons"
+
+    - number: 455
+      description: "Removal of duplicated text on MPI_Aint and MPI_Offset"
