@@ -1,0 +1,208 @@
+test: data
+
+schedule:
+    - date: 2014-06-02
+      start: 2:00pm
+      end: 3:30pm
+      title: "Tools WG / PMPI2 Discussions and #428"
+
+    - date: 2014-06-02
+      start: 3:30pm
+      end: 4:00pm
+      title: "Break"
+
+    - date: 2014-06-02
+      start: 4:00pm
+      end: 5:30pm
+      title: "Tools WG / PMPI2 Discussions"
+
+    - date: 2014-06-03
+      start: 9:00am
+      end: 10:00am
+      title: "FT WG"
+
+    - date: 2014-06-03
+      start: 10:00am
+      end: 10:30am
+      title: "Break"
+
+    - date: 2014-06-03
+      start: 10:30am
+      end: 12:00pm
+      title: "FT WG"
+
+    - date: 2014-06-03
+      start: 12:00pm
+      end: 1:00pm
+      title: "Lunch"
+
+    - date: 2014-06-03
+      start: 1:00pm
+      end: 2:00pm
+      title: "Persistance WG"
+
+    - date: 2014-06-03
+      start: 2:00pm
+      end: 2:30pm
+      title: "Break"
+
+    - date: 2014-06-03
+      start: 2:30pm
+      end: 5:00pm
+      title: "Hybrid WG"
+
+    - date: 2014-06-04
+      start: 9:00am
+      end: 9:15am
+      title: "Working Group Updates"
+
+    - date: 2014-06-04
+      start: 9:15am
+      end: 9:30am
+      title: "Proposal and vote for a new Datatypes WG (Jeff H.)"
+
+    - date: 2014-06-04
+      start: 9:30am
+      end: 10:30am
+      title: "Readings"
+
+    - date: 2014-06-04
+      title: "Ticket #411 - Jeff H."
+
+    - date: 2014-06-04
+      title: "Update on #349+#402+#404+#431 filed as Ticket #421(Jim)"
+
+    - date: 2014-06-04
+      start: 10:30am
+      end: 10:45am
+      title: "Break"
+
+    - date: 2014-06-04
+      start: 10:45am
+      end: 11:15am
+      title: "Errata readings"
+
+    - date: 2014-06-04
+      title: "Ticket #374 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #383 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #393 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #403 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #413 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #415 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #419 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #422 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #424 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #427 - Jeff S."
+
+    - date: 2014-06-04
+      title: "Ticket #429 - Jeff S."
+
+    - date: 2014-06-04
+      start: 11:15am
+      end: 12:15pm
+      title: "Large count plenary (Jeff H.)"
+
+    - date: 2014-06-04
+      start: 12:15pm
+      end: 1:00pm
+      title: "Lunch"
+
+    - date: 2014-06-04
+      start: 1:00pm
+      end: 1:30pm
+      title: "Update on persistent communication proposals (Puri)"
+
+    - date: 2014-06-04
+      start: 1:30pm
+      end: 3:30pm
+      title: "Hybrid WG Plenary (Jim): Endpoints (#380) and other business"
+
+    - date: 2014-06-04
+      start: 3:30pm
+      end: 3:45pm
+      title: "Break"
+
+    - date: 2014-06-04
+      start: 3:45pm
+      end: 5:45pm
+      title: "Reading FT WG (Wesley): #323"
+
+    - date: 2014-06-04
+      start: 6:00pm
+      end: 9:00pm
+      title: "Dinner (optional, pay on your own)"
+
+    - date: 2014-06-05
+      title: "Starting of voting block"
+      start: 9:00am
+      end: 10:00am
+
+    - date: 2014-06-05
+      start: 10:00am
+      end: 10:30am
+      title: "Break"
+
+    - date: 2014-06-05
+      start: 10:30am
+      end: 12:30pm
+      title: "P2P WG plea for input from applications (Dan)"
+
+    - date: 2014-06-05
+      title: "Close"
+
+no-no-votes:
+    - number: 421
+      description: "Ticket #421 which modifies #349+#402+#404, and/or ticket #431"
+
+errata:
+    - number: 374
+
+    - number: 393
+
+    - number: 403
+
+    - number: 413
+
+    - number: 415
+
+    - number: 419
+
+    - number: 422
+
+    - number: 424
+
+    - number: 427
+
+first-votes:
+    - number: 273
+
+    - number: 349
+
+    - number: 402
+
+    - number: 404
+
+    - number: 369
+
+    - number: 357
+
+second-votes:
+    - number: 400
