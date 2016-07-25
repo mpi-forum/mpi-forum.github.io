@@ -122,19 +122,19 @@ plenaries:
     - type: Reading
       title: Update MPIR_being_debugged scope to include MPI processes
       presenter: Jeff
-      issue_number: Trac484
+      issue_number: 484
       done: 1
 
     - type: Reading
       title: Clarify MPI_ERRORS_ARE_FATAL scope of abort
       presenter: Wesley
-      issue_number: Trac324
+      issue_number: 324
       done: 1
 
     - type: Reading
       title: Define new MPI Error handler for subcommunicator abort
       presenter: Wesley
-      issue_number: Trac477
+      issue_number: 477
       done: 1
 
     - type: General

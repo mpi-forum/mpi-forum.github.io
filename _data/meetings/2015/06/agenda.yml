@@ -156,19 +156,19 @@ plenaries:
     - type: Reading
       title: Persistent Collective Operations for MPI 4.0
       presenter: Tony
-      issue_number: Trac466
+      issue_number: 466
       done: 1
 
     - type: Reading
       title: Clarify MPI_ERRORS_ARE_FATAL scope of abort
       presenter: Wesley
-      issue_number: Trac324
+      issue_number: 324
       done: 1
 
     - type: Discussion
       title: Allow Application Behavior Hints in Info Keys
       presenter: Dan
-      issue_number: Trac476
+      issue_number: 476
       done: 1
 
     - type: Discussion

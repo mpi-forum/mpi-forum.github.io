@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="post">
 
   <header class="post-header">
@@ -10,6 +11,18 @@ layout: default
 
   <div class="post-content">
     {{ content }}
+
+    {% assign url = "https://github.com/mpi-forum/mpi-issues/issues/" %}
+    {% assign trac_url = "https://github.com/mpi-forum/mpi-forum-historic/issues/" %}
+    {% assign year = page.year | plus: 0 %}
+    {% assign month = page.month | plus: 0 %}
+
+    {{year}}/{{month}}
+
+    {% if year == 2015 and month == 12 %}
+    {% else if year < 2016 %}
+        {% assign url = trac_url %}
+    {% endif %}
 
     {% assign input = site.data.meetings.[page.year].[page.month].agenda %}
 
@@ -38,7 +51,7 @@ layout: default
     <h3>Procedure</h3>
     <ul>
     {% for item in input.procedure-votes %}
-        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -46,7 +59,7 @@ layout: default
     <h3>Errata Votes</h3>
     <ul>
     {% for item in input.errata-votes %}
-        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -54,7 +67,7 @@ layout: default
     <h3>No "No Votes"</h3>
     <ul>
     {% for item in input.no-no-votes %}
-        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -62,7 +75,7 @@ layout: default
     <h3>First and Only Votes</h3>
     <ul>
     {% for item in input.first-and-only-votes %}
-        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+        <li><a href="{{url}}{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -70,7 +83,7 @@ layout: default
     <h3>First Vote</h3>
     <ul>
     {% for item in input.first-votes %}
-        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -78,7 +91,7 @@ layout: default
     <h3>Second Vote</h3>
     <ul>
     {% for item in input.second-votes %}
-        <li><a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -108,7 +121,7 @@ layout: default
                         {% if item.done == 1 %}
                         <del>
                         {% endif %}
-                        <a href="https://github.com/mpi-forum/mpi-issues/issue/{{item.issue_number}}">{{item.issue_number}}</a>
+                        <a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>
                         {% if item.done == 1 %}
                         </del>
                         {% endif %}
@@ -151,7 +164,7 @@ layout: default
             <tr>
                 <td>{{ item.type }}</td>
                 <td>{{ item.title }}</td>
-                <td><a href="../../../docs/{{page.year}}/{{page.month}}/{{item.filename}}">File</a></td>
+                <td><a href="https://github.com/mpi-forum/mpi-forum.github.io/tree/master/docs/{{page.year}}/{{page.month}}/{{item.filename}}">File</a></td>
                 <td>{% if item.link %}<a href="{{item.link}}">Link</a>{% endif %}</td>
                 <td>{{item.presenter}}</td>
             </tr>
