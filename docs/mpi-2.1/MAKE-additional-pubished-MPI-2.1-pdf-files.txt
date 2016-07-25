@@ -1,0 +1,88 @@
+#!/bin/bash
+ 
+# mpi-report-2.1-2008-06-23.pdf
+# mpi-report-2.1-2008-06-23.ps
+# 
+# additionally published: small.pdf twice.pdf split-book-A5.pdf
+ 
+    pstops "2:0L@.7(21cm,0)+1L@.7(21cm,14.85cm)" mpi-report-2.1-2008-06-23.ps mpi-report-2.1-2008-06-23-small.ps
+    epstopdf --outfile=mpi-report-2.1-2008-06-23-small.pdf mpi-report-2.1-2008-06-23-small.ps
+    \rm mpi-report-2.1-2008-06-23-small.ps 
+ 
+    pstops '2:0R@.707(0,14.8cm)+0R@.707(0,29.6cm),1L@.707(21cm,0)+1L@.707(21cm,14.8cm)' mpi-report-2.1-2008-06-23.ps mpi-report-2.1-2008-06-23-twice.ps 
+    epstopdf --outfile=mpi-report-2.1-2008-06-23-twice.pdf mpi-report-2.1-2008-06-23-twice.ps
+    \rm mpi-report-2.1-2008-06-23-twice.ps 
+ 
+    \rm -f mpi-report-2.1-2008-06-23-split.ps mpi-report-2.1-2008-06-23-split-book.ps 
+    psselect -p1-308 -p593-608 -p1-16 -p309-608  -p4 -p4 -p4 -p4 -p4 -p4 -p4 -p4 mpi-report-2.1-2008-06-23.ps mpi-report-2.1-2008-06-23-split.ps
+    psbook -s648 mpi-report-2.1-2008-06-23-split.ps mpi-report-2.1-2008-06-23-split-book.ps
+    pstops '4:0R@.707(0,14.8cm)+1R@.707(0,29.6cm),3L@.707(21cm,0)+2L@.707(21cm,14.8cm)' mpi-report-2.1-2008-06-23-split-book.ps mpi-report-2.1-2008-06-23-split-book-A5.ps
+    \rm -f mpi-report-2.1-2008-06-23-split.ps mpi-report-2.1-2008-06-23-split-book.ps 
+    epstopdf --outfile=mpi-report-2.1-2008-06-23-split-book-A5.pdf mpi-report-2.1-2008-06-23-split-book-A5.ps
+    \rm mpi-report-2.1-2008-06-23-split-book-A5.ps 
+# 
+# -------------------------------------------------------------------------------------------
+# 
+# mpi-report-2.1-2008-06-23-black.pdf
+# mpi-report-2.1-2008-06-23-black.ps
+# 
+# additionally published: split-book-A5.pdf twice-part1.pdf twice-part2.pdf
+ 
+    \rm -f mpi-report-2.1-2008-06-23-black-split.ps mpi-report-2.1-2008-06-23-black-split-book.ps 
+    psselect -p1-308 -p593-608 -p1-16 -p309-608  -p4 -p4 -p4 -p4 -p4 -p4 -p4 -p4 mpi-report-2.1-2008-06-23-black.ps mpi-report-2.1-2008-06-23-black-split.ps
+    psbook -s648 mpi-report-2.1-2008-06-23-black-split.ps mpi-report-2.1-2008-06-23-black-split-book.ps
+    pstops '4:0R@.707(0,14.8cm)+1R@.707(0,29.6cm),3L@.707(21cm,0)+2L@.707(21cm,14.8cm)' mpi-report-2.1-2008-06-23-black-split-book.ps mpi-report-2.1-2008-06-23-black-split-book-A5.ps
+    \rm -f mpi-report-2.1-2008-06-23-black-split.ps mpi-report-2.1-2008-06-23-black-split-book.ps 
+    epstopdf --outfile=mpi-report-2.1-2008-06-23-black-split-book-A5.pdf mpi-report-2.1-2008-06-23-black-split-book-A5.ps
+    \rm mpi-report-2.1-2008-06-23-black-split-book-A5.ps 
+ 
+    \rm -f mpi-report-2.1-2008-06-23-black-part1.ps mpi-report-2.1-2008-06-23-black-part2.ps 
+    psselect -p1-308 -p593-608 mpi-report-2.1-2008-06-23-black.ps mpi-report-2.1-2008-06-23-black-part1.ps
+    psselect -p1-16  -p309-608 mpi-report-2.1-2008-06-23-black.ps mpi-report-2.1-2008-06-23-black-part2.ps
+    pstops '2:0R@.707(0,14.8cm)+0R@.707(0,29.6cm),1L@.707(21cm,0)+1L@.707(21cm,14.8cm)' mpi-report-2.1-2008-06-23-black-part1.ps mpi-report-2.1-2008-06-23-black-twice-part1.ps 
+    pstops '2:0R@.707(0,14.8cm)+0R@.707(0,29.6cm),1L@.707(21cm,0)+1L@.707(21cm,14.8cm)' mpi-report-2.1-2008-06-23-black-part2.ps mpi-report-2.1-2008-06-23-black-twice-part2.ps 
+    \rm -f mpi-report-2.1-2008-06-23-black-part1.ps mpi-report-2.1-2008-06-23-black-part2.ps 
+    epstopdf --outfile=mpi-report-2.1-2008-06-23-black-twice-part1.pdf mpi-report-2.1-2008-06-23-black-twice-part1.ps
+    epstopdf --outfile=mpi-report-2.1-2008-06-23-black-twice-part2.pdf mpi-report-2.1-2008-06-23-black-twice-part2.ps
+    \rm mpi-report-2.1-2008-06-23-black-twice-part1.ps mpi-report-2.1-2008-06-23-black-twice-part2.ps 
+# 
+# -------------------------------------------------------------------------------------------
+# 
+# mpi-report-2.1-2008-06-23-reviewcolors.pdf
+# mpi-report-2.1-2008-06-23-reviewcolors.ps
+# 
+# additionally published: split-book-A5.pdf
+ 
+    \rm -f mpi-report-2.1-2008-06-23-reviewcolors-split.ps mpi-report-2.1-2008-06-23-reviewcolors-split-book.ps 
+    psselect -p1-308 -p593-608 -p1-16 -p309-608  -p4 -p4 -p4 -p4 -p4 -p4 -p4 -p4 mpi-report-2.1-2008-06-23-reviewcolors.ps mpi-report-2.1-2008-06-23-reviewcolors-split.ps
+    psbook -s648 mpi-report-2.1-2008-06-23-reviewcolors-split.ps mpi-report-2.1-2008-06-23-reviewcolors-split-book.ps
+    pstops '4:0R@.707(0,14.8cm)+1R@.707(0,29.6cm),3L@.707(21cm,0)+2L@.707(21cm,14.8cm)' mpi-report-2.1-2008-06-23-reviewcolors-split-book.ps mpi-report-2.1-2008-06-23-reviewcolors-split-book-A5.ps
+    \rm -f mpi-report-2.1-2008-06-23-reviewcolors-split.ps mpi-report-2.1-2008-06-23-reviewcolors-split-book.ps 
+    epstopdf --outfile=mpi-report-2.1-2008-06-23-reviewcolors-split-book-A5.pdf mpi-report-2.1-2008-06-23-reviewcolors-split-book-A5.ps
+    \rm mpi-report-2.1-2008-06-23-reviewcolors-split-book-A5.ps 
+# 
+# -------------------------------------------------------------------------------------------
+# 
+# General commands: 
+#
+#   pstops "2:0L@.7(21cm,0)+1L@.7(21cm,14.85cm)" $(MAIN).ps $(MAIN)-small.ps
+#   epstopdf --outfile=$(MAIN)-small.pdf $(MAIN)-small.ps
+#
+#   pstops '2:0R@.707(0,14.8cm)+0R@.707(0,29.6cm),1L@.707(21cm,0)+1L@.707(21cm,14.8cm)' $(MAIN).ps $(MAIN)-twice.ps 
+#   epstopdf --outfile=$(MAIN)-twice.pdf $(MAIN)-twice.ps
+#
+#   \rm -f $(MAIN)-split.ps $(MAIN)-split-book.ps 
+#   psselect -p1-308 -p593-608 -p1-16 -p309-608  -p4 -p4 -p4 -p4 -p4 -p4 -p4 -p4 $(MAIN).ps $(MAIN)-split.ps
+#   psbook -s648 $(MAIN)-split.ps $(MAIN)-split-book.ps
+#   pstops '4:0R@.707(0,14.8cm)+1R@.707(0,29.6cm),3L@.707(21cm,0)+2L@.707(21cm,14.8cm)' $(MAIN)-split-book.ps $(MAIN)-split-book-A5.ps
+#   \rm -f $(MAIN)-split.ps $(MAIN)-split-book.ps 
+#   epstopdf --outfile=$(MAIN)-split-book-A5.pdf $(MAIN)-split-book-A5.ps
+#
+#   \rm -f $(MAIN)-part1.ps $(MAIN)-part2.ps 
+#   psselect -p1-308 -p593-608 $(MAIN).ps $(MAIN)-part1.ps
+#   psselect -p1-16  -p309-608 $(MAIN).ps $(MAIN)-part2.ps
+#   pstops '2:0R@.707(0,14.8cm)+0R@.707(0,29.6cm),1L@.707(21cm,0)+1L@.707(21cm,14.8cm)' $(MAIN)-part1.ps $(MAIN)-twice-part1.ps 
+#   pstops '2:0R@.707(0,14.8cm)+0R@.707(0,29.6cm),1L@.707(21cm,0)+1L@.707(21cm,14.8cm)' $(MAIN)-part2.ps $(MAIN)-twice-part2.ps 
+#   \rm -f $(MAIN)-part1.ps $(MAIN)-part2.ps 
+#   epstopdf --outfile=$(MAIN)-twice-part1.pdf $(MAIN)-twice-part1.ps
+#   epstopdf --outfile=$(MAIN)-twice-part2.pdf $(MAIN)-twice-part2.ps
