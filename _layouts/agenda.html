@@ -20,8 +20,9 @@ layout: default
     {{year}}/{{month}}
 
     {% if year == 2015 and month == 12 %}
-    {% else if year < 2016 %}
+    {% elsif year < 2016 %}
         {% assign url = trac_url %}
+    {% else %}
     {% endif %}
 
     {% assign input = site.data.meetings.[page.year].[page.month].agenda %}
