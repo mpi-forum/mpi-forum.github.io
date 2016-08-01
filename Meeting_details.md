@@ -15,7 +15,7 @@ permalink: meetings/
 ### 2016
 
 |2016-12-05 - 2016-12-08|Dallas, TX, USA (IBM)|Logistics|Agenda|Presentations|Attendance|Voting|
-|2016-09-21 - 2016-09-23|before EuroMPI in Edinburgh, UK (EPCC) (in conjunction with [Euro MPI 2016](http://www.eurompi2016.ed.ac.uk/)|Logistics|Agenda||Presentations|Attendance|Voting|
+|2016-09-21 - 2016-09-23|before EuroMPI in Edinburgh, UK (EPCC) (in conjunction with [Euro MPI 2016](http://www.eurompi2016.ed.ac.uk/)|Logistics|Agenda|Presentations|Attendance|Voting|
 |2016-06-06 - 2016-06-09|Bellevue, WA, USA (Microsoft)|[Logistics](2016/06/logistics)|[Agenda](2016/06/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2016/06)|[Attendance](2016/06/attendance)|[Voting](2016/06/votes)|
 |2016-02-29 - 2016-03-03|Chicago, IL, USA (Microsoft)|[Logistics](2016/02/logistics)|[Agenda](2016/02/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2016/02)|[Attendance](2016/02/attendance)|[Voting](2016/02/votes)|
 

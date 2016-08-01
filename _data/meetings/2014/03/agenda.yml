@@ -1,0 +1,167 @@
+test: data
+
+schedule:
+        - date: 2014-03-03
+          start: 2:00pm
+          end:   3:30pm
+          title: "FT WG"
+
+        - date: 2014-03-03
+          start: 3:30pm
+          end:   4:00pm
+          title: "Break"
+
+        - date: 2014-03-03
+          start: 4:00pm
+          end:   5:30pm
+          title: "FT WG"
+
+        - date: 2014-03-04
+          start: 9:00am
+          end: 10:00am
+          title: "Tools WG"
+
+        - date: 2014-03-04
+          start: 9:00am
+          end: 10:00am
+          title: "RMA WG"
+
+        - date: 2014-03-04
+          start: 10:00am
+          end: 10:30am
+          title: "Break"
+
+        - date: 2014-03-04
+          start: 10:30am
+          end: 12:00pm
+          title: "Tools WG"
+
+        - date: 2014-03-04
+          start: 10:30am
+          end: 12:00pm
+          title: "RMA WG"
+
+        - date: 2014-03-04
+          start: 12:00pm
+          end:  1:00pm
+          title: "Lunch break - switch to plenary"
+
+        - date: 2014-03-04
+          start: 1:00pm
+          end: 1:15pm
+          title: "Working Group Updates (Working group leads)"
+
+        - date: 2014-03-04
+          start: 1:15pm
+          end: 1:45pm
+          title: "Readings from I/O WG (Tickets: #273)"
+
+        - date: 2014-03-04
+          start: 1:45pm
+          end: 2:00pm
+          title: "Readings from Tools WG (Errata tickets: #405, #406)"
+
+        - date: 2014-03-04
+          start: 2:00pm
+          end: 3:00pm
+          title: "Readings from Hybrid/RMA WG (Tickets: #349, #402, #404, #369, #414)"
+
+        - date: 2014-03-04
+          start: 3:00pm
+          end: 3:30pm
+          title: "Break - switch to plenary"
+
+        - date: 2014-03-04
+          start: 3:30pm
+          end: 5:30pm
+          title: "Readings from Hybrid WG (Tickets: #357, #380, #411)"
+
+        - date: 2014-03-05
+          start:  9:00am
+          end:  9:30am
+          title: "Readings from Fortran/Language Binding WG (Tickets: #408, #409)"
+
+        - date: 2014-03-05
+          start:  9:30am
+          end: 10:30am
+          title: "Background/Discussion on current FT proposal (Wesley)"
+
+        - date: 2014-03-05
+          start: 10:30am
+          end: 11:00am
+          title: "Break"
+
+        - date: 2014-03-05
+          start: 11:00am
+          end: 12:00pm
+          title: "Discussions on FT proposal feedback and alternatives (Kathryn and Todd)"
+
+        - date: 2014-03-05
+          start: 12:00pm
+          end:  1:00pm
+          title: "Lunch break"
+
+        - date: 2014-03-05
+          start:  1:00pm
+          end:  3:00pm
+          title: "Reading from FT WG (Ticket: #323)"
+
+        - date: 2014-03-05
+          start:  3:00pm
+          end:  3:30pm
+          title: "Break"
+
+        - date: 2014-03-05
+          start:  3:30pm
+          end:  5:30pm
+          title: "Reading from FT WG (Ticket: #323)"
+
+        - date: 2014-03-05
+          start:  5:30pm
+          end:  6:00pm
+          title: "Break"
+
+        - date: 2014-03-05
+          start:  6:00pm
+          end:  9:00pm
+          title: "Dinner at <a href=\"http://www.bananaleaf-usa.com/\">Banana Leaf</a> (optional, pay on your own)"
+
+        - date: 2014-03-06
+          start:  9:00am
+          end:  9:30am
+          title: "Updates to tickets as neded"
+
+        - date: 2014-03-06
+          start:  9:30am
+          end: 10:00am
+          title: "Votes"
+
+        - date: 2014-03-06
+          start: 10:00am
+          end: 10:30am
+          title: "Break"
+
+        - date: 2014-03-06
+          start: 10:30am
+          end: 12:00pm
+          title: "Final decision on/procedures for MPI 3.1, Discussion on MPI 4.0"
+
+        - date: 2014-03-06
+          start: 12:00pm
+          title: "Close"
+
+procedure-votes:
+    - description: "Logo Vote: Proposals see above"
+
+errata:
+    - number: 405
+
+    - number: 406
+
+first-votes:
+    - number: 400
+
+second-votes:
+    - number: 377
+
+    - number: 378

@@ -1,0 +1,7 @@
+topic,yes,no,abstain,missed
+"#405: MPI_T: Errata item to explicitly state the intent of MPI_CHAR in the tools interface (Errata Vote)",16,0,0,2
+"#406: MPI_T: Errata item to remove MPI_T_ERR_INVALID_ITEM (Errata Vote)",16,0,0,2
+"Accept changes to #357 since it was read last meeting (1st-and-only vote)",16,0,0,2
+"#400: MPI_T: new return code to catch invalid use of interface (1st Vote)",16,0,0,2
+"#377: MPI_T get variables and categories by index (2nd Vote)",16,0,0,2
+"#378: MPI_T Optional output parameters (2nd Vote)",16,0,0,2
