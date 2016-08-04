@@ -1,0 +1,216 @@
+test: data
+
+schedule:
+        - date: 2013-09-11
+          start: 9:30am
+          end: 10:30am
+          title: "Open Disucssions"
+
+        - date: 2013-09-11
+          start: 10:30am
+          end: 11:00am
+          title: "Break"
+
+        - date: 2013-09-11
+          start: 11:00am
+          end: 12:30pm
+          title: "Open Disucssions"
+
+        - date: 2013-09-11
+          start: 12:30pm
+          end: 1:30pm
+          title: "Lunch - not provided"
+
+        - date: 2013-09-11
+          start: 1:30am
+          end: 3:00pm
+          title: "Open Disucssions"
+
+        - date: 2013-09-11
+          start: 3:00pm
+          end: 3:30pm
+          title: "Break"
+
+        - date: 2013-09-11
+          start: 3:30pm
+          end: 5:00pm
+          title: "Open Disucssions"
+
+        - date: 2013-09-12
+          title: "Location: Salon Traviata on the 1st floor"
+
+        - date: 2013-09-12
+          start: 9:00am
+          end: 9:30am
+          title: "WG Updates"
+
+        - date: 2013-09-12
+          start: 9:30am
+          end: 10:30am
+          title: "MPI Attributes Proposal (Jeff S.)"
+
+        - date: 2013-09-12
+          start: 10:30am
+          end: 11:00am
+          title: "Break"
+
+        - date: 2013-09-12
+          start: 11:00am
+          end: 12:30pm
+          title: "Tool Plenary (Errata and Readings, Jeff S. and Martin)"
+
+        - date: 2013-09-12
+          title: "377: MPI_T get variables and categories by index"
+
+        - date: 2013-09-12
+          title: "378: MPI_T Optional output parameters"
+
+        - date: 2013-09-12
+          title: "385: Errata: MPI_T_PVAR_CLASS_SIZE description"
+
+        - date: 2013-09-12
+          title: "386: Errata: Clarify error code for perf var routines if bad handle given"
+
+        - date: 2013-09-12
+          title: "387: Errata: control -> categories"
+
+        - date: 2013-09-12
+          title: "391: Errata: MPI_T: Clarify return code for start/stop/reset of perf vars"
+
+        - date: 2013-09-12
+          title: "375: Message Queue Support For Debugger Side Document"
+
+        - date: 2013-09-12
+          start: 12:30pm
+          end: 1:30pm
+          title: "Lunch - provided"
+
+        - date: 2013-09-12
+          start: 1:30am
+          end: 3:00pm
+          title: "Fortran WG Plenary (Errata and Readings, Jeff S. and Rolf)"
+
+        - date: 2013-09-12
+          title: "388: Errata: Solving the FORTRAN LOGICAL and BIND(C) problem"
+
+        - date: 2013-09-12
+          title: "389: Errata: MPI_CONVERSION_FN_NULL is missing in annexes A.2, A.3, and A.4"
+
+        - date: 2013-09-12
+          title: "390: Errata: Correcting Fortran _CPTR interface descriptions"
+
+        - date: 2013-09-12
+          start: 3:00pm
+          end: 3:30pm
+          title: "Break"
+
+        - date: 2013-09-12
+          start: 3:30pm
+          end: 4:00pm
+          title: "MPI allocate receive / MPI_Arecv (Jeff S.)"
+
+        - date: 2013-09-12
+          start: 4:00pm
+          end: 5:00pm
+          title: "Collectives WG Discussions (Torsten)"
+
+        - date: 2013-09-13
+          title: "Location: Salon Traviata on the 1st floor"
+
+        - date: 2013-09-13
+          start: 9:00am
+          end: 10:30am
+          title: "FT WG Plenary (Rich)"
+
+        - date: 2013-09-13
+          start: 10:30am
+          end: 11:00am
+          title: "Break"
+
+        - date: 2013-09-13
+          start: 11:00am
+          end: 11:15am
+          title: "Final discussion on votes"
+
+        - date: 2013-09-13
+          start: 11:15am
+          end: 11:30am
+          title: "Reread/Discusson of ticket 0 changes (Fortran)"
+
+        - date: 2013-09-13
+          start: 11:30am
+          end: 11:45am
+          title: "Votes (Errata)"
+
+        - date: 2013-09-13
+          start: 11:45am
+          end: 12:30pm
+          title: "Adminstrativa Discussion, Logos, Process, ..."
+
+        - date: 2013-09-13
+          start: 12:30pm
+          end: 1:30pm
+          title: "Lunch - provided"
+
+        - date: 2013-09-13
+          start: 1:30pm
+          end: 3:00pm
+          title: "Hybrid WG Plenary"
+          link: https://cisco.webex.com/ciscosales/j.php?ED=206545308&UID=0&PW=NMGQzYzBmYzk1&RT=MiMxNDQ%3D
+          password: mpi
+
+        - date: 2013-09-13
+          start: 3:00pm
+          end: 3:30pm
+          title: "Break"
+
+        - date: 2013-09-13
+          start: 3:30pm
+          end: 5:00pm
+          title: "Hybrid WG Plenary (cont.)"
+
+first-and-only-votes:
+    - number: 388
+      description: "Accept changes to #388 since it was posted 2 weeks ago"
+
+    - description: "Accept cahnges since the MQD document was read last meeting"
+
+second-votes:
+
+first-votes:
+    - number: 375
+      description: "Message Queue Support For Debugger Side Document"
+
+errata-votes:
+    - number: 385
+      description: "MPI 3.0 Errata: Tools interface: MPI_T_PVAR_CLASS_SIZE description"
+
+    - number: 386
+      description: "MPI 3.0 Errata: Tools interface: Clarify error code for perf var routines if bad handle given"
+
+    - number: 387
+      description: "MPI_T Errata: control -> categories"
+
+    - number: 391
+      description: "MPI_T: Clarify return code for start/stop/reset of perf vars"
+
+    - number: 385
+      description: "MPI 3.0 Errata: Tools interface: MPI_T_PVAR_CLASS_SIZE description"
+
+    - number: 386
+      description: "MPI 3.0 Errata: Tools interface: Clarify error code for perf var routines if bad handle given"
+
+    - number: 387
+      description: "MPI_T Errata: control -> categories"
+
+    - number: 391
+      description: "MPI_T: Clarify return code for start/stop/reset of perf vars"
+
+    - number: 388
+      description: "MPI-3.0 errata: Solving the FORTRAN LOGICAL and BIND(C) problem"
+
+    - number: 389
+      description: "MPI-3.0 errata: MPI_CONVERSION_FN_NULL is missing in annexes A.2, A.3, and A.4"
+
+    - number: 390
+      description: "MPI-3.0 errata: Correcting Fortran _CPTR interface descriptions"
