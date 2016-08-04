@@ -1,0 +1,173 @@
+test: data
+
+schedule:
+        - date: 2013-12-09
+          start: 2:00pm
+          end: 3:30pm
+          title: "Tools WG (Kathryn)"
+
+        - date: 2013-12-09
+          start: 2:00pm
+          end: 3:30pm
+          title: "Point-to-Point WG (Rich and Brian)"
+
+        - date: 2013-12-09
+          start: 3:30pm
+          end: 4:00pm
+          title: "Break"
+
+        - date: 2013-12-09
+          start: 4:00pm
+          end: 6:00pm
+          title: "Tools WG (Kathryn)"
+
+        - date: 2013-12-09
+          start: 4:00pm
+          end: 6:00pm
+          title: "Fault Tolerance WG (Aurelien, Rich and Wesley)"
+
+        - date: 2013-12-10
+          start: 9:00am
+          end: 10:30pm
+          title: "Hybrid WG (Pavan)"
+
+        - date: 2013-12-10
+          start: 10:30am
+          end: 11:00am
+          title: "Break"
+
+        - date: 2013-12-10
+          start: 11:00am
+          end: 12:30pm
+          title: "Hybrid WG (Pavan)"
+
+        - date: 2013-12-10
+          start: 12:30pm
+          end: 1:30pm
+          title: "Working lunch (provided)"
+
+        - date: 2013-12-10
+          start: 1:30pm
+          end: 3:30pm
+          title: "RMA WG (Rajeev)"
+
+        - date: 2013-12-10
+          start: 3:30pm
+          end: 4:00pm
+          title: "Break"
+
+        - date: 2013-12-10
+          start: 4:00pm
+          end: 6:00pm
+          title: "RMA WG (Rajeev)"
+
+        - date: 2013-12-11
+          start: 9:00am
+          end: 10:15am
+          title: "Point to Point WG (Rich and Brian)"
+
+        - date: 2013-12-11
+          start: 10:15am
+          end: 10:45am
+          title: "Break"
+
+        - date: 2013-12-11
+          start: 10:45am
+          end: 11:00am
+          title: "Working Group Updates (Working group leads)"
+
+        - date: 2013-12-11
+          start: 11:00am
+          end: 11:15am
+          title: "Updates on tickets (#377)"
+
+        - date: 2013-12-11
+          start: 11:15am
+          end: 12:00pm
+          title: "Readings (#400, #349, #402 - not a reading, just discussion)"
+
+        - date: 2013-12-11
+          start: 12:00pm
+          end: 12:45pm
+          title: "Working lunch (provided) with Logo Discussion"
+
+        - date: 2013-12-11
+          start: 12:45pm
+          end: 1:30pm
+          title: "Discussion on MPI 3.1 vs. 4.0 (Martin)"
+
+        - date: 2013-12-11
+          start: 1:30pm
+          end: 3:30pm
+          title: "Hybrid Discussion (including a discussion on #381 (Pavan)"
+
+        - date: 2013-12-11
+          start: 3:30pm
+          end: 4:00pm
+          title: "Break"
+
+        - date: 2013-12-11
+          start: 4:00pm
+          end: 5:30pm
+          title: "Hybrid Discusssion (Pavan)"
+
+        - date: 2013-12-11
+          start: 5:30pm
+          end: 6:30pm
+          title: "Attributes Proposal (Fab)"
+
+        - date: 2013-12-11
+          start: 6:30pm
+          end: 7:00pm
+          title: "Break"
+
+        - date: 2013-12-11
+          start: 7:00pm
+          end: 10:00pm
+          title: "Common Dinner (optional, pay on your own)"
+
+        - date: 2013-12-12
+          start: 9:00am
+          end: 9:30am
+          title: "Vote on updates in ticket (#377)"
+
+        - date: 2013-12-12
+          title: "First Votes (#377, #378)"
+
+        - date: 2013-12-12
+          title: "Second Votes (#375)"
+
+        - date: 2013-12-12
+          start: 9:30am
+          end: 10:30am
+          title: "Fault Tolerance Discussions (Status, Overview, Use-cases) (Aurelien, Rich and Wesley)"
+
+        - date: 2013-12-12
+          start: 10:30am
+          end: 10:45am
+          title: "Break"
+
+        - date: 2013-12-12
+          start: 10:45am
+          end: 12:00pm
+          title: "Fault Tolerance Discussions (Status, Overview, Use-cases) (Aurelien, Rich and Wesley)"
+
+        - date: 2013-12-12
+          title: "Close"
+
+procedure-votes:
+
+no-no-votes:
+    - number: 377
+
+errata-votes:
+
+first-votes:
+    - number: 377
+
+    - number: 378
+
+second-votes:
+    - number: 375
+
+plenaries:
