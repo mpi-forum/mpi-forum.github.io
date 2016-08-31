@@ -1,0 +1,180 @@
+test: data
+
+schedule:
+    - date: 2014-06-04
+      start: 1:00pm
+      end: 3:00pm
+      title: Fortran WG
+
+    - date: 2014-06-04
+      start: 1:00pm
+      end: 3:00pm
+      title: FT and RMA WG Joint Session
+
+    - date: 2014-06-04
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2014-06-04
+      start: 3:30pm
+      end: 4:30pm
+      title: Fortran WG (cont.)
+
+    - date: 2014-06-04
+      start: 3:30pm
+      end: 5:00pm
+      title: FT WG
+
+    - date: 2014-06-04
+      start: 4:30pm
+      end: 5:30pm
+      title: Fortran and Tools WG Joint Session
+
+    - date: 2014-06-05
+      start: 9:00am
+      end: 10:15pm
+      title: Tools WG
+
+    - date: 2014-06-05
+      start: 9:00am
+      end: 10:15pm
+      title: I/O WG (includes FT/IO discussion)
+
+    - date: 2014-06-05
+      start: 10:15am
+      end: 10:30am
+      title: Break
+
+    - date: 2014-06-05
+      start: 10:30am
+      end: 12:00pm
+      title: Tools WG (cont.)
+
+    - date: 2014-06-05
+      start: 10:30am
+      end: 12:00pm
+      title: Persistent Communication WG
+
+    - date: 2014-06-05
+      start: 12:00pm
+      end: 1:00pm
+      title: Lunch break
+
+    - date: 2014-06-05
+      start: 1:00pm
+      end: 3:00pm
+      title: Tools WG / Fortran Wrapper Generation
+
+    - date: 2014-06-05
+      start: 1:00pm
+      end: 3:00pm
+      title: Hybrid WG
+
+    - date: 2014-06-05
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2014-06-05
+      start: 3:30pm
+      end: 4:30pm
+      title: RMA WG
+
+    - date: 2014-06-05
+      start: 4:30pm
+      end: 5:30pm
+      title: Collective WG
+
+    - date: 2014-06-06
+      start: 9:00am
+      end: 11:00am
+      title: Point to Point Communication WG
+
+    - date: 2014-06-06
+      start: 9:00pm
+      end: 11:00am
+      title: Communicator Discussion (Pavan and Anh)
+
+    - date: 2014-06-06
+      start: 11:00am
+      end: 11:15am
+      title: Break
+
+    - date: 2014-06-06
+      start: 11:15am
+      end: 11:30am
+      title: Working Group Updates (Working group leads)
+
+    - date: 2014-06-06
+      start: 11:30am
+      end: 11:45am
+      title: "Reading of Tools Errata Ticket #354 (Kathryn)"
+
+    - date: 2014-06-06
+      start: 11:45am
+      end: 12:00pm
+      title: "Official votes on Errata Ticket #354"
+
+    - date: 2014-06-06
+      start: 12:00pm
+      end: 12:15pm
+      title: Finance Update (Rich)
+
+    - date: 2014-06-06
+      start: 12:15pm
+      end: 1:00pm
+      title: Lunch break
+
+    - date: 2014-06-06
+      start: 1:00pm
+      end: 3:00pm
+      title: Official Reading of Message Queue Side Document (Anh)
+
+    - date: 2014-06-06
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2014-06-06
+      start: 3:30pm
+      end: 4:15pm
+      title: FT Plenary (Aurelien)
+
+    - date: 2014-06-06
+      start: 4:15pm
+      end: 5:00pm
+      title: Function Classification Plenary (Wesley)
+
+    - date: 2014-06-06
+      start: 5:00pm
+      end: 5:30pm
+      title: Non-Blocking Functions Discussion Plenary (Wesley for Pavan)
+
+    - date: 2014-06-07
+      start: 9:00am
+      end: 9:45am
+      title: The MPI 4.0 Process (Martin)
+
+    - date: 2014-06-07
+      start: 9:45am
+      end: 10:15am
+      title: Administrative Issues (Martin)
+
+    - date: 2014-06-07
+      start: 10:15am
+      end: 10:30am
+      title: Break
+
+    - date: 2014-06-07
+      start: 10:30am
+      end: 11:00am
+      title: Fortran Plenary
+
+    - date: 2014-06-07
+      start: 11:00am
+      end: 12:00pm
+      title: RMA Plenary / MPI_Aint_add
+
+errata-votes:
+    - number: 354

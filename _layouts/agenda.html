@@ -17,8 +17,6 @@ layout: default
     {% assign year = page.year | plus: 0 %}
     {% assign month = page.month | plus: 0 %}
 
-    {{year}}/{{month}}
-
     {% if year == 2015 and month == 12 %}
     {% elsif year < 2016 %}
         {% assign url = trac_url %}

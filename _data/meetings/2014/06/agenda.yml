@@ -172,7 +172,7 @@ no-no-votes:
     - number: 421
       description: "Ticket #421 which modifies #349+#402+#404, and/or ticket #431"
 
-errata:
+errata-votes:
     - number: 374
 
     - number: 393

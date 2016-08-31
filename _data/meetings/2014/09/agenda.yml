@@ -162,7 +162,7 @@ first-votes:
     - number: 411
       description: "MPI info key namespacing"
 
-errata:
+errata-votes:
     - number: 433
       description: "MPI_WIN_ATTACH must only be for simply contiguous buffers"
 
