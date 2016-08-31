@@ -1,12 +1,12 @@
 ---
 layout: page
 title: MPI 3.0
-permalink: /mpi-3.0/
+permalink: /mpi-30/
 ---
 
 ## Status
 
-The standardization of MPI 3.0 is complete and the new version of the standard is available at [MPI Forum Document Page](http://www.mpi-forum.org/docs/docs.html).
+The standardization of MPI 3.0 is complete and the new version of the standard is available at [MPI Forum Document Page](docs/).
 
 #### [Implementation Status](mpi3-impl-status-Nov14.pdf), as of November 2014
 
@@ -16,15 +16,15 @@ Additions to the MPI 3.0 standard that are needed for better platform and applic
 
 ### Working Groups
 
-*   [Collective Communications and Topology](mpi3.0_collectives.php)
-*   [Fault Tolerance](mpi3.0_ft.php)
-*   [Fortran Bindings](mpi3.0_fortran.php)
-*   [Remote Memory Access](mpi3.0_rma.php)
-*   [Tools Support](mpi3.0_tools.php)
-*   [Hybrid Programming](mpi3.0_hybrid.php)
-*   [Backwards Compatibility](mpi3.0_backwards_compat.php)
-*   [Persistence](mpi3.0_persistence.php)
-*   [Chapter Working Groups](mpi3.0_chapter_wgs.php)
+*   [Collective Communications and Topology](collectives-wg)
+*   [Fault Tolerance](ft-wg)
+*   [Fortran Bindings](fortran-wg)
+*   [Remote Memory Access](rma-wg)
+*   [Tools Support](tools-wg)
+*   [Hybrid Programming](hybrid-wg)
+*   [Backwards Compatibility](backwards_compat-wg)
+*   [Persistence](persistence-wg)
+*   [Chapter Working Groups](chapter_wgs)
 
 ### MPI-3 Voting rules
 

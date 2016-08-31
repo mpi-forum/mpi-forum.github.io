@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Official Votes for MPI-2
-permalink: mpi-2.0/
+permalink: mpi-20/
 ---
 
 

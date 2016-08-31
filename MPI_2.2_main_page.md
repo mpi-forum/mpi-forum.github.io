@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MPI 2.2
-permalink: /mpi-2.2/
+permalink: /mpi-22/
 ---
 
 # Effort Lead: Bill Gropp, University of Illinois Urbana-Champaign

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MPI 2.1
-permalink: /mpi-2.1/
+permalink: /mpi-21/
 ---
 
 # Effort Lead: Rolf Rabenseifner, HLRS

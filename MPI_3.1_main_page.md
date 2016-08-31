@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MPI 3.1
-permalink: /mpi-3.1/
+permalink: /mpi-31/
 ---
 
 ## Status
