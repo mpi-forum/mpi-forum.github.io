@@ -93,3 +93,143 @@ permalink: meetings/
 ##### Mar 11 - Mar 13: Chicago, IL, USA
 
 |[Logistics](2013/03/logistics)|[Agenda](2013/03/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2013/03)|[Attendance](2013/03/attendance)|[Voting](2013/03/votes)|
+
+## 2012
+
+##### December 3 - 6, 2012: Bay Area, CA, USA
+
+|[Logistics](2012/12/logistics)|[Agenda](2012/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2012/12)|[Attendance](2012/12/attendance)|[Voting](2012/12/votes)|
+
+##### September 20 - 21, 2012: Vienna, Austria
+
+|[Logistics](2012/09/logistics)|[Agenda](2012/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2012/09)|[Attendance](2012/09/attendance)|[Voting](2012/09/votes)|
+
+##### July 16 - 19, 2012: Chicago, IL, USA
+
+|[Logistics](2012/07/logistics)|[Agenda](2012/07/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2012/07)|[Attendance](2012/07/attendance)|[Voting](2012/07/votes)|
+
+##### May 28 - 30, 2012: Japan - Tsukuba
+
+|[Logistics](2012/05/logistics)|[Agenda](2012/05/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2012/05)|[Attendance](2012/05/attendance)|[Voting](2012/05/votes)|
+
+##### March 5 - 7, 2012: Chicago, IL, USA
+
+|[Logistics](2012/03/logistics)|[Agenda](2012/03/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2012/03)|[Attendance](2012/03/attendance)|[Voting](2012/03/votes)|
+
+##### January 9 - 11, 2012: San Jose, CA, USA
+
+|[Logistics](2012/01/logistics)|[Agenda](2012/01/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2012/01)|[Attendance](2012/01/attendance)|[Voting](2012/01/votes)|
+
+## 2011
+
+##### October 24 - 26, 2011: Chicago, IL, USA
+
+|[Logistics](2011/10/logistics)|[Agenda](2011/10/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2011/10)|[Attendance](2011/10/attendance)|[Voting](2011/10/votes)|
+
+##### September 22 - 24, 2011: Santorini, Greece (in conjunction with [Euro MPI 2011](http://www.eurompi2011.org/))
+
+|[Logistics](2011/09/logistics)|[Agenda](2011/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2011/09)|[Attendance](2011/09/attendance)|[Voting](2011/09/votes)|
+
+##### July 18 - 20, 2011: Chicago, IL, USA
+
+|[Logistics](2011/07/logistics)|[Agenda](2011/07/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2011/07)|[Attendance](2011/07/attendance)|[Voting](2011/07/votes)|
+
+##### May 9 - 11, 2011: Cisco, Milpitas/San Jose, CA, USA
+
+|[Logistics](2011/05/logistics)|[Agenda](2011/05/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2011/05)|[Attendance](2011/05/attendance)|[Voting](2011/05/votes)|
+
+##### March 28 - 30, 2011: Chicago
+
+|[Logistics](2011/03/logistics)|[Agenda](2011/03/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2011/03)|[Attendance](2011/03/attendance)|[Voting](2011/03/votes)|
+
+##### February 7 - 9, 2011: Cisco, Milpitas/San Jose, CA, USA
+
+|[Logistics](2011/02/logistics)|[Agenda](2011/02/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2011/02)|[Attendance](2011/02/attendance)|[Voting](2011/02/votes)|
+
+## 2010
+
+##### December 6 - 8, 2010: Cisco, San Jose, CA, USA
+
+|[Logistics](2010/12/logistics)|[Agenda](2010/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2010/12)|[Attendance](2010/12/attendance)|[Voting](2010/12/votes)|
+
+##### October 11 - 13, 2010: Chicago, IL
+
+|[Logistics](2010/10/logistics)|[Agenda](2010/10/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2010/12)|[Attendance](2010/10/attendance)|[Voting](2010/10/votes)|
+
+##### September 16 - 18, 2010: Stuttgart, Germany, in conjunction with Euro PVM/MPI 2010, Sep. 12-15
+
+|[Logistics](2010/09/logistics)|[Agenda](2010/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2010/12)|[Attendance](2010/09/attendance)|[Voting](2010/09/votes)|
+
+##### June 14 - 16, 2010: Cisco, San Jose, CA, USA
+
+|[Logistics](2010/07/logistics)|[Agenda](2010/07/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2010/07)|[Attendance](2010/07/attendance)|[Voting](2010/07/votes)|
+
+##### May 3 - 5, 2010: Microsoft, Chicago, IL, USA
+
+|[Logistics](2010/05/logistics)|[Agenda](2010/05/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2010/05)|[Attendance](2010/05/attendance)|[Voting](2010/05/votes)|
+
+##### March 8 - 10, 2010: Cisco, San Jose, CA
+
+|[Logistics](2010/03/logistics)|[Agenda](2010/03/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2010/03)|[Attendance](2010/03/attendance)|[Voting](2010/03/votes)|
+
+##### January 19 - 21, 2010: JW Marriott Buckhead - Atlanta, Georgia
+
+|[Logistics](2010/01/logistics)|[Agenda](2010/01/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2010/01)|[Attendance](2010/01/attendance)|[Voting](2010/01/votes)|
+
+
+## 2009
+
+##### November 11 - 13, 2009: Portland, OR
+
+|[Logistics](2009/11/logistics)|[Agenda](2009/11/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2009/11)|[Attendance](2009/11/attendance)|[Voting](2009/11/votes)|
+
+##### September 2 - 4, 2009: Helsinki, Finland
+
+|[Logistics](2009/09/logistics)|[Agenda](2009/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2009/09)|[Attendance](2009/09/attendance)|[Voting](2009/09/votes)|
+
+##### July 27 - 29, 2009: Chicago, IL
+
+|[Logistics](2009/07/logistics)|[Agenda](2009/07/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2009/07)|[Attendance](2009/07/attendance)|[Voting](2009/07/votes)|
+
+##### June 8 - 10, 2009: Sun, Menlo Park, CA
+
+|[Logistics](2009/06/logistics)|[Agenda](2009/06/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2009/06)|[Attendance](2009/06/attendance)|[Voting](2009/06/votes)|
+
+##### April 6 - 8, 2009: Microsoft Corp., Chicago, IL
+
+|[Logistics](2009/04/logistics)|[Agenda](2009/04/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2009/04)|[Attendance](2009/04/attendance)|[Voting](2009/04/votes)|
+
+##### February 9 - 11, 2009: Cisco, San Jose, CA
+
+|[Logistics](2009/02/logistics)|[Agenda](2009/02/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2009/02)|[Attendance](2009/02/attendance)|[Voting](2009/02/votes)|
+
+
+## 2008
+
+##### December 15 - 17, 2008: Sun, Menlo Park, CA
+
+|[Logistics](2008/12/logistics)|[Agenda](2008/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/12)|[Attendance](2008/12/attendance)|[Voting](2008/12/votes)|
+
+##### October 20 - 22, 2008: Marriott O'Hare, Chicago, IL
+
+|[Logistics](2008/10/logistics)|[Agenda](2008/10/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/10)|[Attendance](2008/10/attendance)|[Voting](2008/10/votes)|
+
+##### September 3 - 5, 2008: University College Park, Dublin, Ireland
+
+|[Logistics](2008/09/logistics)|[Agenda](2008/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/09)|[Attendance](2008/09/attendance)|[Voting](2008/09/votes)|
+
+##### June 30 - July 2, 2008: Sun, Menlo Park, CA
+
+|[Logistics](2008/06/logistics)|[Agenda](2008/06/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/06)|[Attendance](2008/06/attendance)|[Voting](2008/06/votes)|
+
+##### April 28 - 30, 2008: Microsoft's Downtown Facility, Chicago, IL
+
+|[Logistics](2008/04/logistics)|[Agenda](2008/04/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/04)|[Attendance](2008/04/attendance)|[Voting](2008/04/votes)|
+
+##### March 10 - 12, 2008: Marriott O'Hare, Chicago, IL
+
+|[Logistics](2008/03/logistics)|[Agenda](2008/03/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/03)|[Attendance](2008/03/attendance)|[Voting](2008/03/votes)|
+
+##### January 14 - 16, 2008: Marriott O'Hare, Chicago, IL
+
+|[Logistics](2008/01/logistics)|[Agenda](2008/01/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/01)|[Attendance](2008/01/attendance)|[Voting](2008/01/votes)|

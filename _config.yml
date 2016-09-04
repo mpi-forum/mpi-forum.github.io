@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: MPI Forum Meetings
+title: MPI Forum
 
 # Short description of your site
 description: This website contains information about the activities of the MPI Forum, which is the standardization forum for the Message Passing Interface (MPI).
