@@ -37,6 +37,11 @@ function ballot(rules, yes, no, abstain, missed, imove) {
     }
 }
 </script>
+{% if page.imove.size > 0 %}
+    {% assign imove = page.imove %}
+{% else %}
+    {% assign imove = 0 %}
+{% endif %}
 
 <article class="post">
 
@@ -47,11 +52,21 @@ function ballot(rules, yes, no, abstain, missed, imove) {
 
   <div class="post-content">
 
+  {% if page.registered > 0 %}
   <b>Registered:</b> {{ page.registered }}<br>
+  {% endif %}
+  {% if page.attended > 0 %}
   <b>Attended:</b> {{ page.attended }}<br>
+  {% endif %}
+  {% if page.ooe > 0 %}
   <b>OOE:</b> {{ page.ooe }}<br>
-  <b>IMOVE:</b> {{ page.imove }}<br>
-  <b>Votes needed for individual vote quorum:</b> <script> document.write((3/4) * {{page.imove}}); </script> <br>
+  {% endif %}
+  {% if page.imove > 0 %}
+  <b>IMOVE:</b> {{ imove }}<br>
+  {% endif %}
+  {% if page.imove > 0 %}
+  <b>Votes needed for individual vote quorum:</b> <script> document.write((3/4) * {{imove}}); </script> <br>
+  {% endif %}
   <br>
 
   <script>
@@ -65,21 +80,33 @@ function ballot(rules, yes, no, abstain, missed, imove) {
   <ol>
       {% for vote in site.data.meetings.[page.year].[page.month].votes %}
       <li> Vote Topic: <b>{{ vote.topic }}</b><br>
+          {% assign yes_votes = vote.yes %}
+          {% assign no_votes = vote.no %}
+          {% if vote.abstain.size > 0 %}
+              {% assign abstain_votes = vote.abstain %}
+          {% else %}
+              {% assign abstain_votes = 0 %}
+          {% endif %}
+          {% if vote.missed.size > 0 %}
+              {% assign missed_votes = vote.missed %}
+          {% else %}
+              {% assign missed_votes = 0 %}
+          {% endif %}
           <table>
               <tr>
                   <th>Yes</th>
                   <th>No</th>
                   <th>Abstain</th>
-                  <th>Missed</th>
+                  {% if vote.missed.size > 0 %}<th>Missed</th>{% endif %}
                   <th>Result</th>
               </tr>
               <tr>
-                  <td>{{ vote.yes }}</td>
-                  <td>{{ vote.no }}</td>
-                  <td>{{ vote.abstain }}</td>
-                  <td>{{ vote.missed }}</td>
+                  <td>{{ yes_votes }}</td>
+                  <td>{{ no_votes }}</td>
+                  {% if vote.abstain.size > 0 %}<td>{{ abstain_votes }}</td>{% endif %}
+                  {% if vote.missed.size > 0 %}<td>{{ missed }}</td>{% endif %}
                   <td><script>
-                  document.write(ballot({{page.rules}},{{vote.yes}},{{vote.no}},{{vote.abstain}},{{vote.missed}},{{page.imove}}));
+                  document.write(ballot({{page.rules}},{{yes_votes}},{{no_votes}},{{abstain_votes}},{{missed_votes}},{{imove}}));
                   </script></td>
               </tr>
           </table>

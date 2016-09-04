@@ -1,0 +1,9 @@
+topic,yes,no,abstain
+"New voting rules document (1st-and-only)",16,0,5
+"347: MPI-3.0 Errata: RMA Info appendices (Errata Vote)",16,0,5
+"348: MPI-3.0 Errata: RMA Example 11.21 (Errata Vote)",16,0,5
+"350: MPI-3.0 Errata: RMA origin argument ignored with MPI_NO_OP (Errata Vote)",16,0,5
+"355: MPI-3.0 Errata: Get_accumulate Datatype Clarification (Errata Vote)",16,0,5
+"359: MPI-3.0 Errata: Update RMA progress rationale (Errata Vote)",16,0,5
+"362: MPI-3.0 Errata: RMA same_size info key (Errata Vote)",16,0,5
+"367: MPI-3.0 Errata: RMA Typo in function name (Errata Vote)",16,0,5

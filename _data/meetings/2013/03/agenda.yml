@@ -1,0 +1,168 @@
+test: data
+
+schedule:
+    - date: 2013-03-11
+      start: 1:00pm
+      end: 3:00pm
+      title: "Tools and FT WGs: Piggybacking / Vector Send/Recv (MPR-2)"
+
+    - date: 2013-03-11
+      start: 3:00pm
+      end: 3:30pm
+      title: "Break"
+
+    - date: 2013-03-11
+      start: 3:30pm
+      end: 5:30pm
+      title: "P2P WG: Recvreduce (MPR-2)"
+
+    - date: 2013-03-12
+      start: 9:00am
+      end: 10:00pm
+      title: "Collectives WG: MPI_Alltoallwt (Navy Pier)"
+
+    - date: 2013-03-12
+      start: 10:00am
+      end: 10:15am
+      title: "Break"
+
+    - date: 2013-03-12
+      start: 10:15am
+      end: 12:00pm
+      title: "Tools WG: Debugging Interfaces (Navy Pier)"
+
+    - date: 2013-03-12
+      start: 10:15am
+      end: 12:00pm
+      title: "I/O WG (MPR-2)"
+
+    - date: 2013-03-12
+      start: 12:00pm
+      end: 1:00pm
+      title: "Lunch break"
+
+    - date: 2013-03-12
+      start: 1:00pm
+      end: 3:00pm
+      title: "Gen. Req. WG (Navy Pier)"
+
+    - date: 2013-03-12
+      start: 1:00pm
+      end: 2:00pm
+      title: "Fault Tolerance and RMA WG (MPR-2)"
+
+    - date: 2013-03-12
+      start: 2:00pm
+      end: 3:00pm
+      title: "Fault Tolerance WG (MPR-2)"
+
+    - date: 2013-03-12
+      start: 3:00pm
+      end: 3:30pm
+      title: "Break"
+
+    - date: 2013-03-12
+      start: 3:30pm
+      end: 5:30pm
+      title: "RMA WG: Iwin_create and Iwin_allocate (Navy Pier)"
+
+    - date: 2013-03-12
+      start: 3:30pm
+      end: 5:30pm
+      title: "Fault Tolerance WG (MPR-2)"
+
+    - date: 2013-03-13
+      start: 9:00am
+      end: 9:15am
+      title: "Working Group Updates (Working group leads)"
+
+    - date: 2013-03-13
+      start: 9:15am
+      end: 11:00am
+      title: "Discussion on MPI 3.1/4.0 <A HREF=\"mpi-forum-voting-proposal-1.2.pdf\">Voting Rules Document</A> (Jeff S.)"
+
+    - date: 2013-03-13
+      start: 11:00am
+      end: 11:15am
+      title: "Break"
+
+    - date: 2013-03-13
+      start: 11:15am
+      end: 12:00pm
+      title: "Discussion/Update on MPI Architecture Review Board"
+
+    - date: 2013-03-13
+      start: 12:00pm
+      end: 1:00pm
+      title: "Lunch break (continued ARB discussion)"
+
+    - date: 2013-03-13
+      start: 1:00pm
+      end: 2:00pm
+      title: "Reading: MPI 3.0 RMA Errata (tickets #347, #348, #350, #355, #359, #361, #362 + late addition #367)"
+
+    - date: 2013-03-13
+      start: 2:00pm
+      end: 2:45pm
+      title: "MPI Side Document Discussion (Jeff S.)"
+
+    - date: 2013-03-13
+      start: 2:45pm
+      end: 3:00pm
+      title: "Fortran BIND(C) discussion (Jeff S.)"
+
+    - date: 2013-03-13
+      start: 3:00pm
+      end: 3:30pm
+      title: "Break"
+
+    - date: 2013-03-13
+      start: 3:30pm
+      end: 5:00pm
+      title: "Hybrid WG Plenary (Pavan)"
+
+    - date: 2013-03-13
+      start: 5:00pm
+      end: 6:00pm
+      title: "Thread safety for query routines (ticket #357). (Jeff H.)"
+
+    - date: 2013-03-14
+      start: 9:00am
+      end: 9:45am
+      title: "Official votes on Errata and Voting Rules: <a href=\"procedures-2013-03-15.pdf\">Final document</a>, <a href=\"procedures-prior-to-2013-03-15.pdf\">Archival document</a>"
+
+    - date: 2013-03-14
+      start: 9:45am
+      end: 10:30am
+      title: "Safe mechanisms to return strings (Fab)"
+
+    - date: 2013-03-14
+      start: 10:30am
+      end: 10:45am
+      title: "Break"
+
+    - date: 2013-03-14
+      start: 10:45am
+      end: 12:30pm
+      title: "P2P Working Group"
+
+    - date: 2013-03-14
+      start: 12:30pm
+      end:
+      title: "Close"
+
+procedure-votes:
+    - description: "New voting rules document"
+
+errata-votes:
+    - number: 347
+
+    - number: 348
+
+    - number: 355
+
+    - number: 359
+
+    - number: 362
+
+    - number: 367
