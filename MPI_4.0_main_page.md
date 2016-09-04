@@ -29,7 +29,7 @@ Additionally, several working groups are working on new ideas and concepts, incl
 Further, the tools WG is discussing additional 3rd party tool interfaces, which are generally published as side documents:
 
 *   Handle introspection from debuggers
-*   Debug DLL detection and identificattion
+*   Debug DLL detection and identification
 
 Note, though, that all of these efforts or new concepts are currently only being discussed or proposed and there is no guarantee that any particular one will be included in any upcoming MPI version.
 
@@ -39,7 +39,7 @@ The forum encourages that new items will be brought forward through the respecti
 
 ## Voting Rules
 
-On June 4th 2015, the MPI forum voted for [new voting rules](procedures-current.pdf) (effective June 4th, 2015).
+On June 4th 2015, the MPI forum voted for [new voting rules](../procedures-current.pdf) (effective June 4th, 2015).
 
 ## Working Groups
 
