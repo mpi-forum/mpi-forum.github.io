@@ -1,0 +1,206 @@
+test: data
+
+schedule:
+    - date: 2016-09-21
+      start: 9:00am
+      end: 10:30am
+      title: Tools / Perf WG
+      link:
+      password:
+
+    - date: 2016-09-21
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-09-21
+      start: 11:00am
+      end: 12:30pm
+      title: Hybrid WG
+      link:
+      password:
+
+    - date: 2016-09-21
+      start: 11:00am
+      end: 12:30pm
+      title: Tools / Perf WG
+      link:
+      password:
+
+    - date: 2016-09-21
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch
+
+    - date: 2016-09-21
+      start: 1:30pm
+      end: 3:00pm
+      title: Tools / Perf WG
+      link:
+      password:
+
+    - date: 2016-09-21
+      start: 1:30pm
+      end: 3:00pm
+      title: Persistence WG
+
+    - date: 2016-09-21
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2016-09-21
+      start: 3:30pm
+      end: 5:00pm
+      title: Tool / Perf WG
+      link:
+      password:
+
+    - date: 2016-09-21
+      start: 3:30pm
+      end: 5:00pm
+      title: Persistence WG
+
+    - date: 2016-09-22
+      start: 9:00am
+      end: 10:30am
+      title: "Plenary (see below)"
+      link:
+      password:
+
+    - date: 2016-09-22
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-09-22
+      start: 11:00am
+      end: 12:30pm
+      title: "Plenary (see below)"
+      link:
+      password:
+
+    - date: 2016-09-22
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch
+
+    - date: 2016-09-22
+      start: 1:30pm
+      end: 3:00pm
+      title: "Plenary (see below)"
+      link:
+      password:
+
+    - date: 2016-09-22
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2016-09-22
+      start: 3:30pm
+      end: 5:00pm
+      title: "Tools / Debugging WG"
+      link:
+      password:
+
+    - date: 2016-09-23
+      start: 9:00am
+      end: 9:30am
+      title: "Votes (see below)"
+
+    - date: 2016-09-23
+      start: 9:30am
+      end: 10:30am
+      title: "Plenary (see below)"
+
+    - date: 2016-09-23
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-09-23
+      start: 11:00am
+      end: 12:30pm
+      title: "Plenary (see below)"
+
+    - date: 2016-09-23
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch
+
+    - date: 2016-09-23
+      start: 1:30pm
+      end: 3:00pm
+      title: "RMA WG"
+
+    - date: 2016-09-23
+      start: 3:00pm
+      end: 3:30pm
+      title: "Break"
+
+    - date: 2016-09-23
+      start: 3:30pm
+      end: 5:00pm
+      title: RMA WG
+
+procedure-votes:
+
+no-no-votes:
+    - number: 26
+      description: Deprecate point-to-point send cancel
+
+first-votes:
+    - number: 52
+      description: Remove info key propagation from MPI_COMM_DUP_WITH_INFO
+
+    - number: 53
+      description: MPI_COMM_DUP_WITH_INFO can be used to explicitly propagate info hints
+
+    - number: 11
+      description: Adds communicator info keys and allows info assertions
+
+second-votes:
+    - number: 26
+      description: Deprecate point-to-point send cancel
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Change Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel"
+      presenter: Dan
+      done: 0
+
+    - type: Errata
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50</a>: MPI_T: Errata: Reinitialization"
+      presenter: Kathryn
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#60</a>: MPI_T: Deprecate Error Code MPI_T_ERR_INVALID_ITEM"
+      presenter: Kathryn
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: User-Level Failure Mitigation"
+      presenter: George
+      done: 0
+
+    - type: Update
+      title: "Tools: The MPI_T Event Interface"
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Update
+      title: "Towards a New Debugger Interface"
+      presenter: Kathryn
+      done: 0
