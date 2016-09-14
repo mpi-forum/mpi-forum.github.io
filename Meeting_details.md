@@ -30,7 +30,7 @@ permalink: meetings/
 
 ##### Sep 21 - Sep 23: Edinburgh, UK (EPCC) - in conjunction with [Euro MPI 2016](http://www.eurompi2016.ed.ac.uk/)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|[Logistics](2016/09/logistics)|[Agenda](2016/09/agenda)|Presentations|Attendance|Voting|
 
 ##### Jun 06 - Jun 09: Bellevue, WA, USA (Microsoft)
 
