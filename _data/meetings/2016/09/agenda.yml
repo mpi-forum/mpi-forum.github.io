@@ -5,7 +5,7 @@ schedule:
       start: 9:00am
       end: 10:30am
       title: Tools / Perf WG
-      link:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m26d6099c78786845aeb6fb7480c83509
       password:
 
     - date: 2016-09-21
@@ -24,7 +24,7 @@ schedule:
       start: 11:00am
       end: 12:30pm
       title: Tools / Perf WG
-      link:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m26d6099c78786845aeb6fb7480c83509
       password:
 
     - date: 2016-09-21
@@ -36,7 +36,7 @@ schedule:
       start: 1:30pm
       end: 3:00pm
       title: Tools / Perf WG
-      link:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m26d6099c78786845aeb6fb7480c83509
       password:
 
     - date: 2016-09-21
@@ -101,7 +101,7 @@ schedule:
       start: 3:30pm
       end: 5:00pm
       title: "Tools / Debugging WG"
-      link:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m40c05d2511c81fa2aa86eed204c6f2b8
       password:
 
     - date: 2016-09-23
