@@ -152,7 +152,7 @@ no-no-votes:
 
 first-votes:
     - number: 52
-      description: Remove info key propagation from MPI_COMM_DUP_WITH_INFO
+      description: Remove info key propagation
 
     - number: 53
       description: MPI_COMM_DUP_WITH_INFO can be used to explicitly propagate info hints
