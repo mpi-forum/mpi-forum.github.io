@@ -205,8 +205,8 @@ plenaries:
       presenter: Kathryn
       done: 0
 
-- type: Update
-title: "discussion on MPI_Comm/Win/File_get_info"
-presenter: Dan
-done: 0
+    - type: Update
+      title: "discussion on MPI_Comm/Win/File_get_info"
+      presenter: Dan
+      done: 0
 
