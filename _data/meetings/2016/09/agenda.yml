@@ -52,7 +52,7 @@ schedule:
     - date: 2016-09-21
       start: 3:30pm
       end: 5:00pm
-      title: Tool / Perf WG
+      title: RMA
       link: https://cisco.webex.com/ciscosales/j.php?MTID=m26d6099c78786845aeb6fb7480c83509
       password: 8by4JTZm
 
@@ -132,7 +132,7 @@ schedule:
     - date: 2016-09-23
       start: 1:30pm
       end: 3:00pm
-      title: "RMA WG"
+      title: "WGs"
 
     - date: 2016-09-23
       start: 3:00pm
@@ -142,7 +142,7 @@ schedule:
     - date: 2016-09-23
       start: 3:30pm
       end: 5:00pm
-      title: RMA WG
+      title: "WGs"
 
 procedure-votes:
 
@@ -204,3 +204,9 @@ plenaries:
       title: "Towards a New Debugger Interface"
       presenter: Kathryn
       done: 0
+
+- type: Update
+title: "discussion on MPI_Comm/Win/File_get_info"
+presenter: Dan
+done: 0
+
