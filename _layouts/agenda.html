@@ -31,15 +31,15 @@ layout: default
             <th>Date</th>
             <th>Time</th>
             <th>Title</th>
-            <th>WebEx Link</th>
-            <th>Password</th>
+            <th>Link</th>
+            <th>WebEx Password</th>
         </tr>
         {% for item in input.schedule %}
             <tr>
                 <td>{{ item.date }}</td>
                 <td>{{ item.start }} - {{ item.end }}</td>
                 <td>{{ item.title }}</td>
-                <td>{% if item.link.size > 0 %}<a href="{{ item.link }}">WebEx</a>{% endif %}</td>
+                <td>{% if item.link.size > 0 %}<a href="{{ item.link }}">Link</a>{% endif %}</td>
                 <td>{{ item.password }}</td>
             </tr>
         {% endfor %}
