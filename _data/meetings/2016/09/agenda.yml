@@ -104,6 +104,12 @@ schedule:
       link: https://cisco.webex.com/ciscosales/j.php?MTID=m40c05d2511c81fa2aa86eed204c6f2b8
       password: 3iCceWPp
 
+    - date: 2016-09-22
+      start: 7:00pm
+      end: open
+      title: Unpaid Group Dinner at Blonde
+      link: http://blonderestaurant.co.uk/
+
     - date: 2016-09-23
       start: 9:00am
       end: 9:30am
