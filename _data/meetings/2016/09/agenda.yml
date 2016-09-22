@@ -150,7 +150,7 @@ no-no-votes:
     - number: 26
       description: Deprecate point-to-point send cancel
 
-first-and-only-votes:
+errata-votes:
     - number: 50
       description: MPI_T: Errata: Reinitialization
 
@@ -172,27 +172,22 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
-
-    - type: Change Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel"
-      presenter: Dan
-      done: 0
+      done: 1
 
     - type: Errata
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50</a>: MPI_T: Errata: Reinitialization"
       presenter: Kathryn
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#60</a>: MPI_T: Deprecate Error Code MPI_T_ERR_INVALID_ITEM"
       presenter: Kathryn
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: User-Level Failure Mitigation"
@@ -202,7 +197,7 @@ plenaries:
     - type: Update
       title: "Tools: The MPI_T Event Interface"
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Update
       title: "Towards a New Debugger Interface"

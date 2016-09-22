@@ -71,7 +71,7 @@ layout: default
     </ul>
     {% endif %}
     {% if input.first-and-only-votes.size > 0 %}
-    <h3>Errata Votes</h3>
+    <h3>First and Only Votes</h3>
     <ul>
     {% for item in input.first-and-only-votes %}
         <li><a href="{{url}}{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
