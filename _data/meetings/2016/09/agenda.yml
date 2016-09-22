@@ -150,6 +150,10 @@ no-no-votes:
     - number: 26
       description: Deprecate point-to-point send cancel
 
+errata-votes:
+    - number: 50
+      description: MPI_T: Errata: Reinitialization
+
 first-votes:
     - number: 52
       description: Remove info key propagation
