@@ -54,18 +54,18 @@ layout: default
     {% endfor %}
     </ul>
     {% endif %}
+    {% if input.no-no-votes.size > 0 %}
+    <h3>No "No Votes"</h3>
+    <ul>
+        {% for item in input.no-no-votes %}
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
     {% if input.errata-votes.size > 0 %}
     <h3>Errata Votes</h3>
     <ul>
     {% for item in input.errata-votes %}
-        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
-    {% endfor %}
-    </ul>
-    {% endif %}
-    {% if input.no-no-votes.size > 0 %}
-    <h3>No "No Votes"</h3>
-    <ul>
-    {% for item in input.no-no-votes %}
         <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
     {% endfor %}
     </ul>
