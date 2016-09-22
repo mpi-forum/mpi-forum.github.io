@@ -194,10 +194,10 @@ plenaries:
     - type: Update
       title: "Towards a New Debugger Interface"
       presenter: Kathryn
-      done: 0
+      done: 1
 
     - type: Update
       title: "discussion on MPI_Comm/Win/File_get_info"
       presenter: Dan
-      done: 0
+      done: 1
 
