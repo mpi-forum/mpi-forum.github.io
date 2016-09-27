@@ -20,7 +20,7 @@ Some [translations of MPI documents](translations.html) are available.
 *   [Errata for MPI 3.1](mpi-3.1/errata-31.pdf)
 *   [Unofficial HTML version of MPI 3.1](mpi-3.1/mpi31-report/mpi31-report.htm). This version was produced with tohtml.
 
-The complete, official MPI-3.1 Standard (June 2015) is available in one book (hardcover, 868 pages, sewn binding). For all MPI programmers, the standard can be used as a complete MPI reference manual with many examples and advices to users. With MPI-3.1, a general index was added that supplements the other indices. It was printed and is sold at cost by HLRS; see [http://www.hlrs.de/mpi/mpi31/](http://www.hlrs.de/mpi/mpi31/).
+The complete, official MPI-3.1 Standard (June 2015) is available in **one book** (hardcover, 868 pages, sewn binding). For all MPI programmers, the standard can be used as a complete MPI **reference manual** with many **examples** and **advices to users**. With MPI-3.1, a **general index was added** that supplements the other indices. It was printed and is **sold at cost by HLRS**; see [http://www.hlrs.de/mpi/mpi31/](http://www.hlrs.de/mpi/mpi31/).
 
 ## Previous Versions of the MPI Standard
 
@@ -102,3 +102,4 @@ Though not a part of the MPI standard, the [MPI Message Queue Dumping Interface]
 
 *   MPI-2.0 Journal of Development in [compressed postscript](mpi-jd/mpi-20-jod.ps.Z) or [postscript](mpi-jd/mpi-20-jod.ps)
 *   [compressed tar file](mpi-jd/mpi-20-jod-dvi.tar.Z) or [tar file](mpi-jd/mpi-20-jod-dvi.tar) of the dvi files and figures needed to create the MPI-2.0 Journal of Development document. Intended for those who need to create special output for their printing device.
+
