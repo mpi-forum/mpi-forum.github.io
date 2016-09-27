@@ -10,7 +10,7 @@ permalink: meetings/
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Sep 20 - Sep 22: Chicago, IL (week before EuroMPI/USA 2017, Forum held at Microsoft downtown) - TENTATIVE
+##### Sep 20 - Sep 22: Chicago, IL (week before [EuroMPI/USA 2017](http://www.mcs.anl.gov/eurompi2017/), Forum held at Microsoft downtown) - TENTATIVE
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
