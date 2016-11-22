@@ -37,11 +37,14 @@ layout: default
             <th>Link</th>
             <th>WebEx Password</th>
         </tr>
+        {% assign laststart = 0 %}
+        {% assign lastend = 0 %}
     {% elsif item.endday.size > 0 %}
     </table>
     {% else %}
             <tr>
-                <td>{{ item.start }} - {{ item.end }}</td>
+                <td>{% if item.start!=laststart OR item.end!=item.lastend %}
+                    {{ item.start }} - {{ item.end }}{* endif *}</td>
                 <td>{{ item.title }}</td>
                 <td>{% if item.link.size > 0 %}<a href="{{ item.link }}">Link</a></td>
                 <td>{{ item.password }}</td>{% endif %}
