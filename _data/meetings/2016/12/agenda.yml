@@ -183,7 +183,7 @@ plenaries:
       presenter: Wesley
       done: 0
 
-    - type: Informal Reading
+    - type: Update
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63</a>: fix info query"
       presenter: Dan
       done: 0
