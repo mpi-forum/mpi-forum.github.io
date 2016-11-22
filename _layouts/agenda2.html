@@ -26,8 +26,8 @@ layout: default
     {% assign input = site.data.meetings.[page.year].[page.month].agenda %}
 
     <h2>Agenda</h2>
-    {% for item in input.day %}
-    <h3>{{ item.date }}</h3>
+    {% for agendaday in input.day %}
+    <h3>{{ agendaday.date }}</h3>
        <table>
         <tr>
             <th>Time</th>
