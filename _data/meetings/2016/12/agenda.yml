@@ -121,13 +121,9 @@ schedule:
     - endday: done
 
 
-procedure-votes:
-
 no-no-votes:
     - number: 26
       description: deprecate send cancel
-
-errata-votes:
 
 first-votes:
     - number: 11
