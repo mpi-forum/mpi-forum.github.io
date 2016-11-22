@@ -1,9 +1,8 @@
 test: data
 
-day:
-    - date: Monday, December 5th
-
 schedule:
+    - day: Monday, December 5th
+
     - start: 2:00pm
       end: 3:30pm
       title: Tools WG / Debugger Topics
@@ -16,10 +15,8 @@ schedule:
       end: 5:30pm
       title: Tools WG / Debugger Topics
 
-day:
-    - date: Tuesday, December 6th
+    - day: Tuesday, December 6th
 
-schedule:
     - start: 9:00pm
       end: 10:30am
       title: Tools WG / c Topics

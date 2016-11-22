@@ -26,24 +26,27 @@ layout: default
     {% assign input = site.data.meetings.[page.year].[page.month].agenda %}
 
     <h2>Agenda</h2>
-    {% for agendaday in input.day %}
-    <h3>{{ agendaday.date }}</h3>
-       <table>
+ 
+    {% for item in input.schedule %}
+    {% if item.day.size > 0 %}
+    <h3>{{ item.day }}</h3>
+    <table>
         <tr>
             <th>Time</th>
             <th>Title</th>
             <th>Link</th>
             <th>WebEx Password</th>
         </tr>
-        {% for item in input.schedule %}
+    {% elsif item.endday.size >0 %}
+    </table>
+    {* else *}
             <tr>
                 <td>{{ item.start }} - {{ item.end }}</td>
                 <td>{{ item.title }}</td>
                 <td>{% if item.link.size > 0 %}<a href="{{ item.link }}">Link</a>{% endif %}</td>
                 <td>{{ item.password }}</td>
             </tr>
-        {% endfor %}
-      </table>
+        {% endif %}
     {% endfor %}
 
     <h2>Votes</h2>
