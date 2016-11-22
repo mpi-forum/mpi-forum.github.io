@@ -18,4 +18,4 @@ The meeting will take place at the IBM facility 1177 S Belt Line Rd, Coppell, TX
 
 ### Hotel
 
-TBD.
+No special hotel block planned. There should be plenty of hotels in the DFW area in all price ranges.

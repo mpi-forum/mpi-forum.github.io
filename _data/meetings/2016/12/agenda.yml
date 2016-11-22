@@ -1,0 +1,61 @@
+test: data
+
+day:
+    - date: Monday, December 5th
+
+schedule:
+    - start: 2:00pm
+      end: 3:30pm
+      title: Tools WG / Debugger Topics
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 5:30pm
+      title: Tools WG / Debugger Topics
+
+day:
+    - date: Tuesday, December 6th
+
+schedule:
+    - start: 9:00pm
+      end: 10:30am
+      title: Tools WG / c Topics
+
+    - start: 10:30am
+      end: 11:30am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Tools WG / Performance Topics
+
+
+procedure-votes:
+
+errata-votes:
+    - number: 50
+      description: MPI_T Errata Reinitialization
+
+first-votes:
+    - number: 52
+      description: Remove info key propagation
+
+    - number: 53
+      description: MPI_COMM_DUP_WITH_INFO can be used to explicitly propagate info hints
+
+    - number: 11
+      description: Adds communicator info keys and allows info assertions
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0

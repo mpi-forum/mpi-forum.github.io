@@ -6,19 +6,19 @@ permalink: meetings/
 
 ## 2017
 
-##### Dec 04 - Dec 07: San Jose, CA, USA (Cisco) - TENTATIVE
+##### Dec 04 - Dec 07: San Jose, CA, USA (Cisco)
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Sep 20 - Sep 22: Chicago, IL (week before [EuroMPI/USA 2017](http://www.mcs.anl.gov/eurompi2017/), Forum held at Microsoft downtown) - TENTATIVE
+##### Sep 20 - Sep 22: Chicago, IL (week before [EuroMPI/USA 2017](http://www.mcs.anl.gov/eurompi2017/), Forum held at Microsoft downtown)
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Jun 14 - Jun 16: Aachen, Germany (RWTH Aachen, week before ISC in Frankfurt) - TENTATIVE
+##### Jun 14 - Jun 16: Aachen, Germany (RWTH Aachen, week before ISC in Frankfurt)
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Feb 27 - Mar 02: Portland, OR, USA (Microsoft) - TENTATIVE
+##### Feb 27 - Mar 02: Portland, OR, USA (Microsoft)
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
@@ -26,7 +26,7 @@ permalink: meetings/
 
 ##### Dec 05 - Dec 08: Dallas, TX, USA (IBM)
 
-|[Logistics](2016/12/logistics)|Agenda|Presentations|Attendance|Voting|
+|[Logistics](2016/12/logistics)|[Agenda](2016/12/agenda)|Presentations|Attendance|Voting|
 
 ##### Sep 21 - Sep 23: Edinburgh, UK (EPCC) - in conjunction with [Euro MPI 2016](http://www.eurompi2016.ed.ac.uk/)
 

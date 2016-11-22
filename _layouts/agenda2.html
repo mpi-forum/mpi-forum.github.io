@@ -1,0 +1,176 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Meeting Agenda</h1>
+    <h2>{{ page.date }}</h2>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+    {% assign url = "https://github.com/mpi-forum/mpi-issues/issues/" %}
+    {% assign trac_url = "https://github.com/mpi-forum/mpi-forum-historic/issues/" %}
+    {% assign year = page.year | plus: 0 %}
+    {% assign month = page.month | plus: 0 %}
+
+    {% if year == 2015 and month == 12 %}
+    {% elsif year < 2016 %}
+        {% assign url = trac_url %}
+    {% else %}
+    {% endif %}
+
+    {% assign input = site.data.meetings.[page.year].[page.month].agenda %}
+
+    <h2>Agenda</h2>
+    {% for item in input.day %}
+    <h3>{{ item.date }}</h3>
+       <table>
+        <tr>
+            <th>Time</th>
+            <th>Title</th>
+            <th>Link</th>
+            <th>WebEx Password</th>
+        </tr>
+        {% for item in input.schedule %}
+            <tr>
+                <td>{{ item.start }} - {{ item.end }}</td>
+                <td>{{ item.title }}</td>
+                <td>{% if item.link.size > 0 %}<a href="{{ item.link }}">Link</a>{% endif %}</td>
+                <td>{{ item.password }}</td>
+            </tr>
+        {% endfor %}
+      </table>
+    {% endfor %}
+
+    <h2>Votes</h2>
+    {% if input.procedure-votes.size > 0 %}
+    <h3>Procedure</h3>
+    <ul>
+    {% for item in input.procedure-votes %}
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% if input.no-no-votes.size > 0 %}
+    <h3>No "No Votes"</h3>
+    <ul>
+        {% for item in input.no-no-votes %}
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% if input.errata-votes.size > 0 %}
+    <h3>Errata Votes</h3>
+    <ul>
+    {% for item in input.errata-votes %}
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% if input.first-and-only-votes.size > 0 %}
+    <h3>First and Only Votes</h3>
+    <ul>
+    {% for item in input.first-and-only-votes %}
+        <li><a href="{{url}}{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% if input.first-votes.size > 0 %}
+    <h3>First Vote</h3>
+    <ul>
+    {% for item in input.first-votes %}
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% if input.second-votes.size > 0 %}
+    <h3>Second Vote</h3>
+    <ul>
+    {% for item in input.second-votes %}
+        <li><a href="{{url}}{{item.number}}">#{{item.number}}</a>: {{item.description}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if input.plenaries.size > 0 %}
+    <h2>Plenaries</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Issue</th>
+            <th>Title</th>
+            <th>Presenter</th>
+        </tr>
+        {% for item in input.plenaries %}
+            <tr>
+                <td>
+                    {% if item.done == 1 %}
+                    <del>
+                    {% endif %}
+                    {{ item.type }}
+                    {% if item.done == 1 %}
+                    </del>
+                    {% endif %}
+                </td>
+                <td>
+                    <center>
+                        {% if item.done == 1 %}
+                        <del>
+                        {% endif %}
+                        <a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>
+                        {% if item.done == 1 %}
+                        </del>
+                        {% endif %}
+                    </center>
+                </td>
+                <td>
+                    {% if item.done == 1 %}
+                    <del>
+                    {% endif %}
+                    {{ item.title }}
+                    {% if item.done == 1 %}
+                    </del>
+                    {% endif %}
+                </td>
+                <td>
+                    {% if item.done == 1 %}
+                    <del>
+                    {% endif %}
+                    {{ item.presenter }}
+                    {% if item.done == 1 %}
+                    </del>
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+
+    {% if input.documents.size > 0 %}
+    <h2>Documents</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Title</th>
+            <th>File</th>
+            <th>Link</th>
+            <th>Presenter</th>
+        </tr>
+        {% for item in input.documents %}
+            <tr>
+                <td>{{ item.type }}</td>
+                <td>{{ item.title }}</td>
+                <td><a href="https://github.com/mpi-forum/mpi-forum.github.io/tree/master/docs/{{page.year}}/{{page.month}}/{{item.filename}}">File</a></td>
+                <td>{% if item.link %}<a href="{{item.link}}">Link</a>{% endif %}</td>
+                <td>{{item.presenter}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+  </div>
+
+</article>
