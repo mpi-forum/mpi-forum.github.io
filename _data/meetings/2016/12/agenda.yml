@@ -15,11 +15,14 @@ schedule:
       end: 5:30pm
       title: Tools WG / Debugger Topics
 
+    - endday: done
+    
+
     - day: Tuesday, December 6th
 
     - start: 9:00pm
       end: 10:30am
-      title: Tools WG / c Topics
+      title: Tools WG / Performance Topics
 
     - start: 10:30am
       end: 11:30am
@@ -28,6 +31,8 @@ schedule:
     - start: 11:00am
       end: 12:30pm
       title: Tools WG / Performance Topics
+
+    - endday: done
 
 
 procedure-votes:
