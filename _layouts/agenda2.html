@@ -42,8 +42,7 @@ layout: default
     </table>
     {% else %}
             <tr>
-                <td>{% if item.start!=laststart %}{% assign laststart=item.start %}
-                    {{ item.start }} - {{ item.end }}{* endif *}</td>
+                <td>{{ item.start }} - {{ item.end }}</td>
                 <td>{{ item.title }}</td>
                 <td>{% if item.link.size > 0 %}<a href="{{ item.link }}">Link</a></td>
                 <td>{{ item.password }}</td>{% endif %}
