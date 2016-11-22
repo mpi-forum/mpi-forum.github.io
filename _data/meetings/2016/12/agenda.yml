@@ -7,6 +7,10 @@ schedule:
       end: 3:30pm
       title: Tools WG / Debugger Topics
 
+    - start: 2:00pm
+      end: 3:30pm
+      title: FT WG
+
     - start: 3:30pm
       end: 4:00pm
       title: Break
@@ -15,8 +19,12 @@ schedule:
       end: 5:30pm
       title: Tools WG / Debugger Topics
 
+    - start: 4:00pm
+      end: 5:30pm
+      title: FT WG
+
     - endday: done
-    
+
 
     - day: Tuesday, December 6th
 
@@ -32,24 +40,111 @@ schedule:
       end: 12:30pm
       title: Tools WG / Performance Topics
 
+    - start: 12:30pm
+      end: 1:30pm
+      title: lunch
+
+    - start: 1:30pm
+      end: 3:00pm
+      title: Plenary (see below)
+
+    - start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - start: 3:30pm
+      end: 5:00pm
+      title: Plenary (see below)
+
+    - endday: done
+
+
+    - day: Wednesday, December 7th
+
+    - start: 9:00pm
+      end: 10:30am
+      title: Plenary (see below)
+
+    - start: 10:30am
+      end: 11:30am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (see below)
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: lunch
+
+    - start: 1:30pm
+      end: 3:00pm
+      title: Plenary (see below)
+
+    - start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - start: 3:30pm
+      end: 5:00pm
+      title: Plenary (see below)
+
+    - start: 5:00pm
+      end: 6:00pm
+      title: Plenary (see below) - overflow, in case needed
+
+    - start: 6:30pm
+      end: 9:00pm
+      title: Group dinner ("pay yourself"), location tbd.
+
+    - endday: done
+
+
+    - day: Thusday, December 8th
+
+    - start: 9:00pm
+      end: 9:30am
+      title: Voting Block
+
+    - start: 9:30am
+      end: 10:30am
+      title: Discussion on MPI Forum Business, incl. timeline for MPI 4.0
+
+    - start: 10:30am
+      end: 11:30am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: WG time
+
     - endday: done
 
 
 procedure-votes:
 
+no-no-votes:
+    - number: 26
+      description: deprecate send cancel
+
 errata-votes:
-    - number: 50
-      description: MPI_T Errata Reinitialization
 
 first-votes:
+    - number: 11
+      description: Adds communicator info keys and allows info assertions
+
+    - number: 60
+      description: Adds communicator info keys and allows info assertions
+
+second-votes:
     - number: 52
       description: Remove info key propagation
 
     - number: 53
       description: MPI_COMM_DUP_WITH_INFO can be used to explicitly propagate info hints
 
-    - number: 11
-      description: Adds communicator info keys and allows info assertions
+    - number: 26
+      description: deprecate send cancel (based on no-no-vote)
 
 plenaries:
     - type: Welcome
@@ -60,4 +155,39 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort"
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort"
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28</a>: Add Catastrophic and Noncatastrophic Error Codes "
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: User-Level Failure Mitigation"
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: User-Level Failure Mitigation: RMA"
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: User-Level Failure Mitigation: Files"
+      presenter: Wesley
+      done: 0
+
+    - type: Informal Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63</a>: fix info query"
+      presenter: Dan
       done: 0
