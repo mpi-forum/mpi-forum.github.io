@@ -130,7 +130,7 @@ first-votes:
       description: Adds communicator info keys and allows info assertions
 
     - number: 60
-      description: Adds communicator info keys and allows info assertions
+      description: MPI_T: Deprecate Error Code MPI_T_ERR_INVALID_ITEM
 
 second-votes:
     - number: 52
@@ -183,7 +183,7 @@ plenaries:
       presenter: Wesley
       done: 0
 
-    - type: Update
+    - type: Update or Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63</a>: fix info query"
       presenter: Dan
       done: 0
