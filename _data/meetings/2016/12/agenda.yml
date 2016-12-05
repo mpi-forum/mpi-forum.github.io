@@ -6,6 +6,8 @@ schedule:
     - start: 2:00pm
       end: 3:30pm
       title: Tools WG / Debugger Topics
+      link: https://llnl.webex.com/llnl/j.php?MTID=m4a793a0431424598429db08bd4283e98
+      password: RcFUZuZE
 
     - start: 2:00pm
       end: 3:30pm
@@ -18,6 +20,8 @@ schedule:
     - start: 4:00pm
       end: 5:30pm
       title: Tools WG / Debugger Topics
+      link: https://llnl.webex.com/llnl/j.php?MTID=m4a793a0431424598429db08bd4283e98
+      password: RcFUZuZE
 
     - start: 4:00pm
       end: 5:30pm
@@ -31,6 +35,8 @@ schedule:
     - start: 9:00pm
       end: 10:30am
       title: Tools WG / Performance Topics
+      link: https://llnl.webex.com/llnl/j.php?MTID=m89c289af7005fd35f99f867a9efcfd71
+      password: XzxTwDKW
 
     - start: 10:30am
       end: 11:00am
@@ -39,6 +45,8 @@ schedule:
     - start: 11:00am
       end: 12:30pm
       title: Tools WG / Performance Topics
+      link: https://llnl.webex.com/llnl/j.php?MTID=m89c289af7005fd35f99f867a9efcfd71
+      password: XzxTwDKW
 
     - start: 12:30pm
       end: 1:30pm
