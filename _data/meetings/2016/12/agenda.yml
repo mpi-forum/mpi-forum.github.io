@@ -188,7 +188,7 @@ plenaries:
     - type: No-No Update
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel"
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: User-Level Failure Mitigation"
