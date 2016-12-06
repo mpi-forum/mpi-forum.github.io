@@ -145,9 +145,6 @@ first-votes:
     - number: 11
       description: Adds communicator info keys and allows info assertions
 
-    - number: 60
-      description: MPI_T - Deprecate Error Code MPI_T_ERR_INVALID_ITEM
-
 second-votes:
     - number: 52
       description: Remove info key propagation
