@@ -39,7 +39,7 @@ The forum encourages that new items will be brought forward through the respecti
 
 ## Voting Rules
 
-On June 4th 2015, the MPI forum voted for [new voting rules](../procedures-current.pdf) (effective June 4th, 2015).
+On June 9th 2016, the MPI forum voted for [new voting rules](../procedures-current.pdf) (effective June 9th, 2016).
 
 ## Working Groups
 

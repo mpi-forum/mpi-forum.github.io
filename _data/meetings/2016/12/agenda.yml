@@ -86,6 +86,10 @@ schedule:
       title: lunch
 
     - start: 1:30pm
+      end: 2:00pm
+      title: Voting Block (moved on 12/6 following MPI forum rules)
+
+    - start: 2:00pm
       end: 3:00pm
       title: Plenary (see below)
 
@@ -107,16 +111,11 @@ schedule:
 
     - endday: done
 
-
     - day: Thusday, December 8th
 
-    - start: 9:00pm
-      end: 9:30am
-      title: Voting Block
-
-    - start: 9:30am
+    - start: 9:00am
       end: 10:30am
-      title: Discussion on MPI Forum Business, incl. timeline for MPI 4.0
+      title: WG time
 
     - start: 10:30am
       end: 11:00am
@@ -154,25 +153,30 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort"
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>: Define new MPI Error handler for subcommunicator abort"
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28</a>: Add Catastrophic and Noncatastrophic Error Codes "
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28</a>: Add Catastrophic and Noncatastrophic Error Codes"
+      presenter: Wesley
+      done: 1
+
+    - type: No-No Update
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/26\">#26</a>: Deprecate point-to-point send cancel"
       presenter: Wesley
       done: 0
 
@@ -195,3 +199,9 @@ plenaries:
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63</a>: fix info query"
       presenter: Dan
       done: 0
+
+    - type: Discussion
+      title: Discussion on MPI Forum Business, incl. timeline for MPI 4.0
+      presenter: Martin
+      done: 0
+
