@@ -32,11 +32,15 @@ schedule:
 
     - day: Tuesday, December 6th
 
-    - start: 9:00pm
+    - start: 9:00am
       end: 10:30am
       title: Tools WG / Performance Topics
       link: https://llnl.webex.com/llnl/j.php?MTID=m89c289af7005fd35f99f867a9efcfd71
       password: XzxTwDKW
+      
+    - start: 9:00am
+      end: 10:30am
+      title: FT WG
 
     - start: 10:30am
       end: 11:00am
@@ -47,6 +51,10 @@ schedule:
       title: Tools WG / Performance Topics
       link: https://llnl.webex.com/llnl/j.php?MTID=m89c289af7005fd35f99f867a9efcfd71
       password: XzxTwDKW
+      
+    - start: 11:00am
+      end: 12:30pm
+      title: FT WG
 
     - start: 12:30pm
       end: 1:30pm
@@ -136,9 +144,6 @@ first-votes:
     - number: 11
       description: Adds communicator info keys and allows info assertions
 
-    - number: 60
-      description: MPI_T - Deprecate Error Code MPI_T_ERR_INVALID_ITEM
-
 second-votes:
     - number: 52
       description: Remove info key propagation
@@ -158,6 +163,11 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
+      done: 1
+
+    - type: Plenary
+      title: Error Handler Greenfield Update
+      presenter: Wesley
       done: 1
 
     - type: Reading
@@ -182,17 +192,17 @@ plenaries:
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: User-Level Failure Mitigation"
-      presenter: Wesley
+      presenter: Aurelien
       done: 0
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: User-Level Failure Mitigation: RMA"
-      presenter: Wesley
+      presenter: Aurelien
       done: 0
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: User-Level Failure Mitigation: Files"
-      presenter: Wesley
+      presenter: Aurelien
       done: 0
 
     - type: Update or Reading
