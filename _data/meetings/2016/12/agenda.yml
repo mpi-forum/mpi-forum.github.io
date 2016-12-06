@@ -168,6 +168,11 @@ plenaries:
       title: WG Status
       presenter: All WG chairs or their proxies
       done: 0
+      
+    - type: Plenary
+      title: Error Handler Greenfield Update
+      presenter: Wesley
+      done: 0
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>: Clarify MPI_ERRORS_ARE_FATAL scope of abort"
