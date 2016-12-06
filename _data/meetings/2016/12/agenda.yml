@@ -191,17 +191,17 @@ plenaries:
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: User-Level Failure Mitigation"
-      presenter: Wesley
+      presenter: Aurelien
       done: 0
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: User-Level Failure Mitigation: RMA"
-      presenter: Wesley
+      presenter: Aurelien
       done: 0
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: User-Level Failure Mitigation: Files"
-      presenter: Wesley
+      presenter: Aurelien
       done: 0
 
     - type: Update or Reading
