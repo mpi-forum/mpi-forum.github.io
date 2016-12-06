@@ -32,11 +32,15 @@ schedule:
 
     - day: Tuesday, December 6th
 
-    - start: 9:00pm
+    - start: 9:00am
       end: 10:30am
       title: Tools WG / Performance Topics
       link: https://llnl.webex.com/llnl/j.php?MTID=m89c289af7005fd35f99f867a9efcfd71
       password: XzxTwDKW
+      
+    - start: 9:00am
+      end: 10:30am
+      title: FT WG
 
     - start: 10:30am
       end: 11:00am
@@ -47,6 +51,10 @@ schedule:
       title: Tools WG / Performance Topics
       link: https://llnl.webex.com/llnl/j.php?MTID=m89c289af7005fd35f99f867a9efcfd71
       password: XzxTwDKW
+      
+    - start: 11:00am
+      end: 12:30pm
+      title: FT WG
 
     - start: 12:30pm
       end: 1:30pm
