@@ -145,12 +145,6 @@ first-votes:
       description: Adds communicator info keys and allows info assertions
 
 second-votes:
-    - number: 52
-      description: Remove info key propagation
-
-    - number: 53
-      description: MPI_COMM_DUP_WITH_INFO can be used to explicitly propagate info hints
-
     - number: 26
       description: deprecate send cancel (based on no-no-vote)
 
@@ -195,6 +189,11 @@ plenaries:
       presenter: Aurelien
       done: 1
 
+    - type: Update or Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63</a>: fix info query"
+      presenter: Jim
+      done: 1
+
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: User-Level Failure Mitigation: RMA"
       presenter: Aurelien
@@ -203,11 +202,6 @@ plenaries:
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: User-Level Failure Mitigation: Files"
       presenter: Aurelien
-      done: 0
-
-    - type: Update or Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63</a>: fix info query"
-      presenter: Jim
       done: 0
 
     - type: Discussion
