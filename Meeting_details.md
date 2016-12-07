@@ -26,7 +26,7 @@ permalink: meetings/
 
 ##### Dec 05 - Dec 08: Dallas, TX, USA (IBM)
 
-|[Logistics](2016/12/logistics)|[Agenda](2016/12/agenda)|Presentations|Attendance|[Voting](2016/12/votes)|
+|[Logistics](2016/12/logistics)|[Agenda](2016/12/agenda)|Presentations|[Attendance](2016/12/attendance)|[Voting](2016/12/votes)|
 
 ##### Sep 21 - Sep 23: Edinburgh, UK (EPCC) - in conjunction with [Euro MPI 2016](http://www.eurompi2016.ed.ac.uk/)
 
