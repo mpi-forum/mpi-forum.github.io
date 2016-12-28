@@ -20,7 +20,7 @@ permalink: meetings/
 
 ##### Feb 27 - Mar 02: Portland, OR, USA (Microsoft)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|[Logistics](2017/02/logistics)|[Agenda](2017/02/agenda)|Presentations|Attendance|Voting|
 
 ## 2016
 
