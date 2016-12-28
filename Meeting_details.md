@@ -26,11 +26,11 @@ permalink: meetings/
 
 ##### Dec 05 - Dec 08: Dallas, TX, USA (IBM)
 
-|[Logistics](2016/12/logistics)|[Agenda](2016/12/agenda)|Presentations|Attendance|Voting|
+|[Logistics](2016/12/logistics)|[Agenda](2016/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2016/12)|[Attendance](2016/12/attendance)|[Voting](2016/12/votes)|
 
 ##### Sep 21 - Sep 23: Edinburgh, UK (EPCC) - in conjunction with [Euro MPI 2016](http://www.eurompi2016.ed.ac.uk/)
 
-|[Logistics](2016/09/logistics)|[Agenda](2016/09/agenda)|Presentations|Attendance|Voting|
+|[Logistics](2016/09/logistics)|[Agenda](2016/09/agenda)|Presentations|[Attendance](2016/09/attendance)|[Voting](2016/09/votes)|
 
 ##### Jun 06 - Jun 09: Bellevue, WA, USA (Microsoft)
 

@@ -104,7 +104,7 @@ function ballot(rules, yes, no, abstain, missed, imove) {
                   <td>{{ yes_votes }}</td>
                   <td>{{ no_votes }}</td>
                   {% if vote.abstain.size > 0 %}<td>{{ abstain_votes }}</td>{% endif %}
-                  {% if vote.missed.size > 0 %}<td>{{ missed }}</td>{% endif %}
+                  {% if vote.missed.size > 0 %}<td>{{ missed_votes }}</td>{% endif %}
                   <td><script>
                   document.write(ballot({{page.rules}},{{yes_votes}},{{no_votes}},{{abstain_votes}},{{missed_votes}},{{imove}}));
                   </script></td>
