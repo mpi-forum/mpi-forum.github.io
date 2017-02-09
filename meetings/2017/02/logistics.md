@@ -5,15 +5,13 @@ permalink: meetings/2017/02/logistics
 ---
 
 
-### Meeting Registration
+### [Meeting Registration](https://www.eventbrite.com/e/mpi-portland-tickets-31940380538)
 
 Advanced registration is required for this meeting. The registration covers
 snacks at the meeting on Monday, Tuesday Wednesday, and Thursday lunch on
 Tuesday and Wednesday, and the meeting logistics. Advanced registration is
 required for this meeting so that Microsoft can process their visitor
 processing procedure. 
-
-### [Meeting Registration Link](https://www.eventbrite.com/e/mpi-portland-tickets-31940380538)
 
 ### Meeting Location
 
