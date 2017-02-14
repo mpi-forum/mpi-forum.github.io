@@ -5,7 +5,7 @@ schedule:
 
     - start: 2:00pm
       end: 3:30pm
-      title: WGs
+      title: Tools WG (Debug)
 
     - start: 3:30pm
       end: 4:00pm
@@ -13,7 +13,7 @@ schedule:
 
     - start: 4:00pm
       end: 5:30pm
-      title: WGs
+      title: Tools WG (Debug)
 
     - endday: done
 
@@ -22,7 +22,7 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: WGs
+      title: Tools WG (Perf.)
 
     - start: 10:30am
       end: 11:00am
@@ -30,7 +30,7 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: WGs
+      title: Tools WG (Perf.)
 
     - start: 12:30pm
       end: 1:30pm
@@ -38,7 +38,7 @@ schedule:
 
     - start: 1:30pm
       end: 3:00pm
-      title: WGs
+      title: Hybrid 
 
     - start: 3:00pm
       end: 3:30pm
@@ -113,6 +113,21 @@ schedule:
     - endday: done
 
 
+errata-votes:
+    - number: 50
+      description: MPI_T Errata Reinitialization
+
+no-no-votes:
+
+first-votes:
+
+second-votes:
+    - number: 11
+      description: Adds communicator info keys and allows info assertions (PR 14)
+    - number: 52
+      description: Remove info key propagation (PR 14)
+    - number: 53
+      description: Add MPI_Comm_idup_with_info (PR 14)
 
 plenaries:
     - type: Welcome
@@ -125,8 +140,33 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63</a>: Info query"
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50</a>: MPI_T: Errata: Reinitialization"
+      presenter: Kathryn
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/60\">#60</a>: MPI_T: Deprecate Error Code MPI_T_ERR_INVALID_ITEM"
+      presenter: Kathryn
+      done: 0
+
     - type: Discussion
-      title: Discussion on MPI Forum Business, incl. timeline for MPI 4.0
+      title: Possible bug in the neighbourhood collective example code
+      presenter: Dan
+      done: 0
+
+    - type: Discussion
+      title: Future Directions for MPI Endpoints
+      presenter: Dan
+      done: 0
+
+    - type: Discussion
+      title: Discussion on MPI Forum Business, incl. timeline for MPI 4.0 and future locations
       presenter: Martin
       done: 0
 
