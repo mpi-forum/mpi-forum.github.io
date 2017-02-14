@@ -38,7 +38,7 @@ schedule:
 
     - start: 1:30pm
       end: 3:00pm
-      title: Hybrid 
+      title: Hybrid
 
     - start: 3:00pm
       end: 3:30pm
@@ -153,11 +153,6 @@ plenaries:
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/60\">#60</a>: MPI_T: Deprecate Error Code MPI_T_ERR_INVALID_ITEM"
       presenter: Kathryn
-      done: 0
-
-    - type: Discussion
-      title: Possible bug in the neighbourhood collective example code
-      presenter: Dan
       done: 0
 
     - type: Discussion
