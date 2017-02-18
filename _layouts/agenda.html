@@ -32,6 +32,7 @@ layout: default
             <th>Time</th>
             <th>Title</th>
             <th>Link</th>
+            <th>Video phone number</th>
             <th>WebEx Password</th>
         </tr>
         {% for item in input.schedule %}
@@ -40,6 +41,7 @@ layout: default
                 <td>{{ item.start }} - {{ item.end }}</td>
                 <td>{{ item.title }}</td>
                 <td>{% if item.link.size > 0 %}<a href="{{ item.link }}">Link</a>{% endif %}</td>
+                <td>{{ item.video }}</td>
                 <td>{{ item.password }}</td>
             </tr>
         {% endfor %}
