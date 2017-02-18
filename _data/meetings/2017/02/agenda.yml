@@ -24,7 +24,7 @@ schedule:
     - endday: done
 
 
-    - day: Tuesday, February 29th
+    - day: Tuesday, February 28th
 
     - start: 9:00am
       end: 10:30am
