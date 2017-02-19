@@ -203,6 +203,11 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: new split_type argument of the MPI_Comm_split_type
+      presenter: Guillaume
+      done: 0
+
+    - type: Discussion
       title: Discussion on MPI Forum Business, incl. timeline for MPI 4.0 and future locations
       presenter: Martin
       done: 0
