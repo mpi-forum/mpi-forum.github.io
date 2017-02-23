@@ -61,7 +61,7 @@ schedule:
 
     - start: 3:30pm
       end: 5:00pm
-      title: WGs
+      title: FT WG (Error Management)
       link: https://cisco.webex.com/ciscosales/j.php?MTID=m06cd43470e22f6b187667e71a0a4938e
       video: 308933625@cisco.webex.com
       password: Uui3E3QY
