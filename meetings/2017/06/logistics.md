@@ -68,8 +68,11 @@ RWTH Aachen University guests receive a discount on bookings through the
 HRS portal in some of Aachen's hotels. Search for hotels
 using [this link to the HRS website](https://web3.hrs.de/web3/init.do?clientId=ZGVfX1JXVEhBQUNIRU4-&amp;cid=48-3&clientConfigId=e59c2bb9-4345-33f4-9a5a-3e13b276525f&clientId=ZGVfX3J3dGhhYWNoZW4,1&activity=initVisit&sslRedirected=true) (an RWTH Aachen University Logo should appear at the top of the HRS page).
 
-The guest host of RWTH Aachen University also rents out rooms but you have to book them directly (not through HRS). The contact
-information can be found [here](http://www.rwth-aachen.de/cms/root/Die-RWTH/Kontakt-Anreise/Raumverwaltung/~bdst/Gaestehaeuser/?lidx=1).
+**Recommendation**:
+The guest house of RWTH Aachen University also rents out rooms, but you have to
+book them directly (not through HRS). It is in close vicinity to the IT Center
+only minutes away on foot. We have 10 rooms blocked for participants of the MPI
+Forum. The contact information can be found [here](http://www.rwth-aachen.de/cms/root/Die-RWTH/Kontakt-Anreise/Raumverwaltung/~bdst/Gaestehaeuser/?lidx=1).
 
 ### Useful links
 
