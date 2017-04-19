@@ -7,14 +7,14 @@ permalink: meetings/2017/06/logistics
 
 ### Meeting Registration
 
-Advanced registration is required for this meeting. The registration fee covers
-snacks and lunch at the meeting on Wednesday, Thursday and Friday.
+Advanced registration is required for this meeting.
 
-The registration link to be announced.
+You can register [here](https://www.zhv.rwth-aachen.de/kasse/catalog/product_info.php?cPath=37_67&products_id=539).
 
 ### Meeting Cost
 
-To be announced.
+The registration fee is 90 EUR. The registration fee covers snacks, drinks, and lunch at
+the meeting on Wednesday, Thursday and Friday.
 
 ### Meeting Location
 
