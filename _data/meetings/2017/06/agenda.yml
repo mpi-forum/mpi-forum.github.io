@@ -144,7 +144,7 @@ schedule:
     - date: 2016-06-16
       start: 3:00pm
       end: 3:30pm
-      title: “Break”
+      title: Break
 
     - date: 2016-06-16
       start: 3:30pm
