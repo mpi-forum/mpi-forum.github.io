@@ -1,0 +1,173 @@
+test: data
+
+schedule:
+    - date: 2017-06-14
+      start: 9:00am
+      end: 10:30am
+      title: Tools WG (MPI_T issues)
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2017-06-14
+      start: 11:00am
+      end: 12:30pm
+      title: Tools WG (MPI_T issues)
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch
+
+    - date: 2017-06-14
+      start: 1:30pm
+      end: 3:00pm
+      title: Tools WG (MPI_T issues)
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2017-06-14
+      start: 3:30pm
+      end: 5:00pm
+      title: Tools WG (MPI_T issues)
+      link:
+      password:
+
+    - date: 2017-06-15
+      start: 9:00am
+      end: 10:30am
+      title: Tools WG (MPIR issues)
+      link:
+      password:
+
+    - date: 2017-06-15
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2017-06-15
+      start: 11:00am
+      end: 12:30pm
+      title: Tools WG (MPIR issues)
+      link:
+      password:
+
+    - date: 2017-06-15
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch
+
+    - date: 2016-06-15
+      start: 1:30pm
+      end: 3:00pm
+      title: "Plenary (see below)"
+      link:
+      password:
+
+    - date: 2016-06-15
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2016-06-15
+      start: 3:30pm
+      end: 5:00pm
+      title: "Plenary (see below)"
+      link:
+      password:
+
+    - date: 2016-06-15
+      start: 6:00pm
+      end: open
+      title: Unpaid Group Dinner
+      link:
+      password:
+
+    - date: 2016-06-16
+      start: 9:00am
+      end: 9:30am
+      title: "Votes (see below)"
+      link:
+      password:
+
+    - date: 2016-06-16
+      start: 9:30am
+      end: 10:30am
+      title: "Plenary (see below)"
+      link:
+      password:
+
+    - date: 2016-06-16
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-06-16
+      start: 11:00am
+      end: 12:30pm
+      title: "Plenary (see below)"
+
+    - date: 2016-06-16
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch
+
+    - date: 2016-06-16
+      start: 1:30pm
+      end: 3:00pm
+      title: "Plenary (see below)"
+
+    - date: 2016-06-16
+      start: 3:00pm
+      end: 3:30pm
+      title: "Plenary (see below)"
+
+    - date: 2016-06-16
+      start: 3:30pm
+      end: 5:00pm
+      title: "Plenary (see below)"
+
+procedure-votes:
+
+errata-votes:
+
+first-votes:
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Discussion
+      title: FP16 
+      presenter: Atsushi Hori
+      done: 0
+
+    - type: Discussion
+      title: Alternative to spawn / enabling malleable processes
+      presenter: Isaias Compres
+      done: 0
+
+    - type: Discussion
+      title: Future MPI Forum locations
+      presenter: Martin Schulz
+      done: 0
+
+
