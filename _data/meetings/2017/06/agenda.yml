@@ -1,6 +1,9 @@
 test: data
 
 schedule:
+
+    - day: Wednesday, June 14th
+
     - date: 2017-06-14
       start: 9:00am
       end: 10:30am
@@ -43,6 +46,10 @@ schedule:
       title: Tools WG (MPI_T issues)
       link:
       password:
+
+    - endday: done
+
+    - day: Thursday, June 15th
 
     - date: 2017-06-15
       start: 9:00am
@@ -94,6 +101,10 @@ schedule:
       link:
       password:
 
+    - endday: done
+
+    - day: Friday, June 16th
+
     - date: 2016-06-16
       start: 9:00am
       end: 9:30am
@@ -137,6 +148,8 @@ schedule:
       start: 3:30pm
       end: 5:00pm
       title: "Plenary (see below)"
+
+    - endday: done
 
 procedure-votes:
 
