@@ -49,6 +49,7 @@ schedule:
 
     - endday: done
 
+
     - day: Thursday, June 15th
 
     - date: 2017-06-15
@@ -103,6 +104,7 @@ schedule:
 
     - endday: done
 
+
     - day: Friday, June 16th
 
     - date: 2016-06-16
@@ -150,6 +152,7 @@ schedule:
       title: "Plenary (see below)"
 
     - endday: done
+
 
 procedure-votes:
 
