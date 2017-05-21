@@ -97,7 +97,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 #### [Sessions](https://github.com/mpiwg-sessions/sessions-issues/wiki)
 
-*   Lead: Jeff Squyres
+*   Lead: Dan Holmes
 *   Scope: Explore alternate concepts to MPI_Init and MPI_Finalize
 
 #### [Tools](https://github.com/mpiwg-tools)

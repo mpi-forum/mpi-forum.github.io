@@ -30,23 +30,41 @@ schedule:
 
     - date: 2017-06-14
       start: 1:30pm
-      end: 3:00pm
+      end: 2:00pm
+      title: Visit to the VR Cave
+
+    - date: 2017-06-14
+      start: 2:30pm
+      end: 3:30pm
       title: Tools WG (MPI_T issues)
       link:
       password:
 
     - date: 2017-06-14
-      start: 3:00pm
+      start: 2:30pm
       end: 3:30pm
-      title: Break
+      title: P2P WG 
+      link:
+      password:
 
     - date: 2017-06-14
       start: 3:30pm
-      end: 5:00pm
-      title: Tools WG (MPI_T issues)
+      end: 4:00pm
+      title: Break
+
+    - date: 2017-06-14
+      start: 4:00pm
+      end: 5:30pm
+      title: Tools WG (GTI discussion/connection to PMPI-NG)
       link:
       password:
 
+    - date: 2017-06-14
+      start: 4:00pm
+      end: 5:30pm
+      title: P2P WG 
+      link:
+      password:
     - endday: done
 
 
@@ -55,7 +73,7 @@ schedule:
     - date: 2017-06-15
       start: 9:00am
       end: 10:30am
-      title: Tools WG (MPIR issues)
+      title: Sessions WG
       link:
       password:
 
@@ -67,7 +85,7 @@ schedule:
     - date: 2017-06-15
       start: 11:00am
       end: 12:30pm
-      title: Tools WG (MPIR issues)
+      title: Sessions WG 
       link:
       password:
 
@@ -76,22 +94,22 @@ schedule:
       end: 1:30pm
       title: Lunch
 
-    - date: 2016-06-15
+    - date: 2017-06-14
       start: 1:30pm
       end: 3:00pm
-      title: "Plenary (see below)"
+      title: Tools WG (MPIR issues)
       link:
       password:
 
-    - date: 2016-06-15
+    - date: 2017-06-14
       start: 3:00pm
       end: 3:30pm
       title: Break
 
-    - date: 2016-06-15
+    - date: 2017-06-14
       start: 3:30pm
       end: 5:00pm
-      title: "Plenary (see below)"
+      title: Tools WG (MPIR issues)
       link:
       password:
 
@@ -109,15 +127,15 @@ schedule:
 
     - date: 2016-06-16
       start: 9:00am
-      end: 9:30am
-      title: "Votes (see below)"
+      end: 10:00am
+      title: "Plenary (see below) - focus on prep for votes“
       link:
       password:
 
     - date: 2016-06-16
-      start: 9:30am
+      start: 10:00am
       end: 10:30am
-      title: "Plenary (see below)"
+      title: "Votes (see below)"
       link:
       password:
 
@@ -144,7 +162,7 @@ schedule:
     - date: 2016-06-16
       start: 3:00pm
       end: 3:30pm
-      title: Break
+      title: ```Break
 
     - date: 2016-06-16
       start: 3:30pm
@@ -159,6 +177,9 @@ procedure-votes:
 errata-votes:
 
 first-votes:
+    - number: 63
+      description: tbd (PR 27)
+
 
 plenaries:
     - type: Welcome
