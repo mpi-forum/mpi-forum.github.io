@@ -162,7 +162,7 @@ schedule:
     - date: 2016-06-16
       start: 3:00pm
       end: 3:30pm
-      title: ```Break
+      title: Break
 
     - date: 2016-06-16
       start: 3:30pm
@@ -178,7 +178,7 @@ errata-votes:
 
 first-votes:
     - number: 63
-      description: tbd (PR 27)
+      description: MPI_Comm/File/Win_get_info (PR 27)
 
 
 plenaries:
