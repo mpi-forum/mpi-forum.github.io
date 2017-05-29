@@ -221,6 +221,16 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: MPI Sessions + Endpoints / Feedback from Forum
+      presenter: Dan Holmes
+      done: 0
+
+    - type: Discussion
+      title: Voting rules for side documents
+      presenter: Martin Schulz
+      done: 0
+
+    - type: Discussion
       title: Future MPI Forum locations
       presenter: Martin Schulz
       done: 0
