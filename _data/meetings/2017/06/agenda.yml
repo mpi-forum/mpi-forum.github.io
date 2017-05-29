@@ -176,7 +176,7 @@ procedure-votes:
 
 no-no-votes:
     - number: 60
-      MPI_T: Deprecate Error Code MPI_T_ERR_INVALID_ITEM
+      description: MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM
 
 errata-votes:
     - number: 50
@@ -184,7 +184,7 @@ errata-votes:
 
 first-votes:
     - number: 60
-      MPI_T: Deprecate Error Code MPI_T_ERR_INVALID_ITEM
+      description: MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM
 
     - number: 63
       description: MPI_Comm/File/Win_get_info (PR 27)
@@ -206,7 +206,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: <a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50</a>" MPI_T Errata Reinitialization
+      title: <a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50</a> MPI_T Errata Reinitialization
       presenter: Kathryn
       done: 0
 
