@@ -210,6 +210,11 @@ plenaries:
       presenter: Kathryn
       done: 0
 
+    - type: Reading
+      title: <a href=\"https://github.com/mpi-forum/mpi-issues/issues/\">#tbd</a> MPI Persistent Collectives
+      presenter: Dan Holmes / Tony Skjellum
+      done: 0
+
     - type: Discussion
       title: FP16 
       presenter: Atsushi Hori
