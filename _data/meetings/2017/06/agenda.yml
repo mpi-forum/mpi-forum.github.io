@@ -29,42 +29,53 @@ schedule:
       title: Lunch
 
     - date: 2017-06-14
-      start: 1:30pm
-      end: 2:00pm
-      title: Visit to the VR Cave
+      start: 12:30pm
+      end: 1:00pm
+      title: Visit to the VR Cave (group 1)
 
     - date: 2017-06-14
-      start: 2:30pm
-      end: 3:30pm
+      start: 1:00pm
+      end: 1:30pm
+      title: Visit to the VR Cave (group 2)
+
+    - date: 2017-06-14
+      start: 1:30pm
+      end: 3:00pm
       title: Tools WG (MPI_T issues)
       link:
       password:
 
     - date: 2017-06-14
-      start: 2:30pm
-      end: 3:30pm
+      start: 1:30pm
+      end: 3:00pm
       title: P2P WG 
       link:
       password:
 
     - date: 2017-06-14
-      start: 3:30pm
-      end: 4:00pm
+      start: 3:00pm
+      end: 3:30pm
       title: Break
 
     - date: 2017-06-14
-      start: 4:00pm
-      end: 5:30pm
+      start: 3:30pm
+      end: 5:00pm
       title: Tools WG (GTI discussion/connection to PMPI-NG)
       link:
       password:
 
     - date: 2017-06-14
-      start: 4:00pm
-      end: 5:30pm
+      start: 3:30pm
+      end: 5:00pm
       title: P2P WG 
       link:
       password:
+
+    - date: 2017-06-14
+      start: 6:00pm
+      end: open
+      title: Self-paid Group Dinner at Elisenbrunnen Restaurant
+      link: https://www.facebook.com/elisenbrunnen.gastronomie
     - endday: done
 
 
@@ -116,8 +127,8 @@ schedule:
     - date: 2016-06-15
       start: 6:00pm
       end: open
-      title: Unpaid Group Dinner
-      link:
+      title: Self-paid Group Dinner at Macaroni
+      link: http://www.restaurant-macaroni.de/
       password:
 
     - endday: done
