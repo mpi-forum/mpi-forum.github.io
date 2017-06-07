@@ -212,17 +212,17 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: <a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\”>#6</a> MPIR Include line numbers in specification
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6</a> MPIR Include line numbers in specification"
       presenter: Kathryn
       done: 0
 
     - type: Reading
-      title: <a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50</a> MPI_T Errata Reinitialization
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50</a> MPI_T Errata Reinitialization"
       presenter: Kathryn
       done: 0
 
     - type: Reading
-      title: <a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25</a> MPI Persistent Collectives
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25</a> MPI Persistent Collectives"
       presenter: Dan Holmes / Tony Skjellum
       done: 0
 
