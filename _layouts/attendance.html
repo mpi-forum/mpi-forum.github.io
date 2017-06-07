@@ -13,7 +13,7 @@ layout: default
 
   Attendees List:
   <ol>
-      {% for person in site.data.meetings.[page.year].[page.month].attendance %}
+      {% for person in site.data.meetings[page.year][page.month].attendance %}
       <li> {{ person.name }} ({{ person.org }}) </li>
       {% endfor %}
   </ol>
