@@ -85,8 +85,8 @@ schedule:
       start: 9:00am
       end: 10:30am
       title: Sessions WG
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m8b18d6c62c5eecbd9a6b349b3fc982d5
+      password: ZJ2TMmft (95286638 from phones) 
 
     - date: 2017-06-15
       start: 10:30am
@@ -97,8 +97,8 @@ schedule:
       start: 11:00am
       end: 12:30pm
       title: Sessions WG 
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m8b18d6c62c5eecbd9a6b349b3fc982d5
+      password: ZJ2TMmft (95286638 from phones) 
 
     - date: 2017-06-15
       start: 12:30pm
@@ -108,9 +108,9 @@ schedule:
     - date: 2017-06-14
       start: 1:30pm
       end: 3:00pm
-      title: Tools WG (MPIR issues)
-      link:
-      password:
+      title: Tools WG (MPIR/Sessions issues)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m8b18d6c62c5eecbd9a6b349b3fc982d5
+      password: ZJ2TMmft (95286638 from phones) 
 
     - date: 2017-06-14
       start: 3:00pm
@@ -120,9 +120,9 @@ schedule:
     - date: 2017-06-14
       start: 3:30pm
       end: 5:00pm
-      title: Tools WG (MPIR issues)
-      link:
-      password:
+      title: Tools WG (MPIR/Sessions issues)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m8b18d6c62c5eecbd9a6b349b3fc982d5
+      password: ZJ2TMmft (95286638 from phones) 
 
     - date: 2016-06-15
       start: 6:00pm
@@ -140,15 +140,15 @@ schedule:
       start: 9:00am
       end: 10:00am
       title: "Plenary (see below) - focus on prep for votes"    
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m40b8ebe1edecfe5c5fe9b3ad44540e60
+      password: pna294Hp (76229447 from phones) 
 
     - date: 2016-06-16
       start: 10:00am
       end: 10:30am
       title: "Votes (see below)"
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m40b8ebe1edecfe5c5fe9b3ad44540e60
+      password: pna294Hp (76229447 from phones) 
 
     - date: 2016-06-16
       start: 10:30am
@@ -159,6 +159,8 @@ schedule:
       start: 11:00am
       end: 12:30pm
       title: "Plenary (see below)"
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m40b8ebe1edecfe5c5fe9b3ad44540e60
+      password: pna294Hp (76229447 from phones) 
 
     - date: 2016-06-16
       start: 12:30pm
@@ -169,6 +171,8 @@ schedule:
       start: 1:30pm
       end: 3:00pm
       title: "Plenary (see below)"
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m40b8ebe1edecfe5c5fe9b3ad44540e60
+      password: pna294Hp (76229447 from phones) 
 
     - date: 2016-06-16
       start: 3:00pm
@@ -179,6 +183,8 @@ schedule:
       start: 3:30pm
       end: 5:00pm
       title: "Plenary (see below)"
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m40b8ebe1edecfe5c5fe9b3ad44540e60
+      password: pna294Hp (76229447 from phones) 
 
     - endday: done
 
