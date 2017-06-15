@@ -16,7 +16,7 @@ permalink: meetings/
 
 ##### Jun 14 - Jun 16: Aachen, Germany (RWTH Aachen, week before ISC in Frankfurt)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|[Logistics](2017/06/logistics)|[Agenda](2017/06/agenda)|Presentations|Attendance|Voting|
 
 ##### Feb 27 - Mar 02: Portland, OR, USA (Microsoft)
 

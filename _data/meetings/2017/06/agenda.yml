@@ -1,0 +1,254 @@
+test: data
+
+schedule:
+
+    - day: Wednesday, June 14th
+
+    - date: 2017-06-14
+      start: 9:00am
+      end: 10:30am
+      title: Tools WG (MPI_T issues)
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2017-06-14
+      start: 11:00am
+      end: 12:30pm
+      title: Tools WG (MPI_T issues)
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch
+
+    - date: 2017-06-14
+      start: 12:30pm
+      end: 1:00pm
+      title: Visit to the VR Cave (group 1)
+
+    - date: 2017-06-14
+      start: 1:00pm
+      end: 1:30pm
+      title: Visit to the VR Cave (group 2)
+
+    - date: 2017-06-14
+      start: 1:30pm
+      end: 3:00pm
+      title: Tools WG (MPI_T issues)
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 1:30pm
+      end: 3:00pm
+      title: P2P WG 
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2017-06-14
+      start: 3:30pm
+      end: 5:00pm
+      title: Tools WG (GTI discussion/connection to PMPI-NG)
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 3:30pm
+      end: 5:00pm
+      title: P2P WG 
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 6:00pm
+      end: open
+      title: Self-paid Group Dinner at Elisenbrunnen Restaurant
+      link: https://www.facebook.com/elisenbrunnen.gastronomie
+    - endday: done
+
+
+    - day: Thursday, June 15th
+
+    - date: 2017-06-15
+      start: 9:00am
+      end: 10:30am
+      title: Sessions WG
+      link:
+      password:
+
+    - date: 2017-06-15
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2017-06-15
+      start: 11:00am
+      end: 12:30pm
+      title: Sessions WG 
+      link:
+      password:
+
+    - date: 2017-06-15
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch
+
+    - date: 2017-06-14
+      start: 1:30pm
+      end: 3:00pm
+      title: Tools WG (MPIR issues)
+      link:
+      password:
+
+    - date: 2017-06-14
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2017-06-14
+      start: 3:30pm
+      end: 5:00pm
+      title: Tools WG (MPIR issues)
+      link:
+      password:
+
+    - date: 2016-06-15
+      start: 6:00pm
+      end: open
+      title: Self-paid Group Dinner at Macaroni
+      link: http://www.restaurant-macaroni.de/
+      password:
+
+    - endday: done
+
+
+    - day: Friday, June 16th
+
+    - date: 2016-06-16
+      start: 9:00am
+      end: 10:00am
+      title: "Plenary (see below) - focus on prep for votes"    
+      link:
+      password:
+
+    - date: 2016-06-16
+      start: 10:00am
+      end: 10:30am
+      title: "Votes (see below)"
+      link:
+      password:
+
+    - date: 2016-06-16
+      start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - date: 2016-06-16
+      start: 11:00am
+      end: 12:30pm
+      title: "Plenary (see below)"
+
+    - date: 2016-06-16
+      start: 12:30pm
+      end: 1:30pm
+      title: Lunch
+
+    - date: 2016-06-16
+      start: 1:30pm
+      end: 3:00pm
+      title: "Plenary (see below)"
+
+    - date: 2016-06-16
+      start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - date: 2016-06-16
+      start: 3:30pm
+      end: 5:00pm
+      title: "Plenary (see below)"
+
+    - endday: done
+
+
+procedure-votes:
+
+no-no-votes:
+    - number: 60
+      description: MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM
+
+errata-votes:
+    - number: 50
+      description: MPI_T Errata Reinitialization
+
+first-votes:
+    - number: 60
+      description: MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM
+
+    - number: 63
+      description: MPI_Comm/File/Win_get_info (PR 27)
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6</a> MPIR Include line numbers in specification"
+      presenter: Kathryn
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50</a> MPI_T Errata Reinitialization"
+      presenter: Kathryn
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25</a> MPI Persistent Collectives"
+      presenter: Dan Holmes / Tony Skjellum
+      done: 0
+
+    - type: Discussion
+      title: FP16 
+      presenter: Atsushi Hori
+      done: 0
+
+    - type: Discussion
+      title: Alternative to spawn / enabling malleable processes
+      presenter: Isaias Compres
+      done: 0
+
+    - type: Discussion
+      title: MPI Sessions + Endpoints / Feedback from Forum
+      presenter: Dan Holmes
+      done: 0
+
+    - type: Discussion
+      title: Voting rules for side documents
+      presenter: Martin Schulz
+      done: 0
+
+    - type: Discussion
+      title: Future MPI Forum locations
+      presenter: Martin Schulz
+      done: 0
+
+

@@ -78,7 +78,7 @@ function ballot(rules, yes, no, abstain, missed, imove) {
   <hr>
   {{ content }}
   <ol>
-      {% for vote in site.data.meetings.[page.year].[page.month].votes %}
+      {% for vote in site.data.meetings[page.year][page.month].votes %}
       <li> Vote Topic: <b>{{ vote.topic }}</b><br>
           {% assign yes_votes = vote.yes %}
           {% assign no_votes = vote.no %}
