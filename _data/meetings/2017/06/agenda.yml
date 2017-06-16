@@ -255,7 +255,7 @@ plenaries:
     - type: Discussion
       title: MPI Sessions + Endpoints / Feedback from Forum
       presenter: Dan Holmes
-      done: 0
+      done: 1
 
     - type: Discussion
       title: RMA
