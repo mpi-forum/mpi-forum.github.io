@@ -235,7 +235,7 @@ plenaries:
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25</a> MPI Persistent Collectives"
       presenter: Dan Holmes / Tony Skjellum
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63</a> MPI_Comm/File/Win_get_info (PR 27)"
@@ -265,7 +265,7 @@ plenaries:
     - type: Discussion
       title: Voting rules for side documents
       presenter: Martin Schulz
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Future MPI Forum locations
