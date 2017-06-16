@@ -238,7 +238,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\”>#63</a> MPI_Comm/File/Win_get_info (PR 27)"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\”>#63</a> MPI_Comm File Win_get_info (PR 27)"
       presenter: Jim Dinan
       done: 0
 
