@@ -210,12 +210,17 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#60</a> MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM"
+      presenter: Kathryn
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6</a> MPIR Include line numbers in specification"
@@ -232,6 +237,11 @@ plenaries:
       presenter: Dan Holmes / Tony Skjellum
       done: 0
 
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\”>#63</a> MPI_Comm/File/Win_get_info (PR 27)"
+      presenter: Jim Dinan
+      done: 0
+
     - type: Discussion
       title: FP16 
       presenter: Atsushi Hori
@@ -245,6 +255,11 @@ plenaries:
     - type: Discussion
       title: MPI Sessions + Endpoints / Feedback from Forum
       presenter: Dan Holmes
+      done: 0
+
+    - type: Discussion
+      title: RMA
+      presenter: Jim and Salvatore
       done: 0
 
     - type: Discussion
