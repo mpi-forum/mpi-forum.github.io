@@ -240,17 +240,17 @@ plenaries:
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63</a> MPI_Comm/File/Win_get_info (PR 27)"
       presenter: Jim Dinan
-      done: 0
+      done: 1
 
     - type: Discussion
       title: FP16 
       presenter: Atsushi Hori
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Alternative to spawn / enabling malleable processes
       presenter: Isaias Compres
-      done: 0
+      done: 1
 
     - type: Discussion
       title: MPI Sessions + Endpoints / Feedback from Forum
