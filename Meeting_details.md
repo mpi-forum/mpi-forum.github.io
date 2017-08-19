@@ -162,7 +162,7 @@ permalink: meetings/
 
 ##### June 14 - 16, 2010: Cisco, San Jose, CA, USA
 
-|[Logistics](2010/07/logistics)|[Agenda](2010/07/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2010/07)|[Attendance](2010/07/attendance)|[Voting](2010/07/votes)|
+|[Logistics](2010/06/logistics)|[Agenda](2010/06/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2010/06)|[Attendance](2010/06/attendance)|[Voting](2010/06/votes)|
 
 ##### May 3 - 5, 2010: Microsoft, Chicago, IL, USA
 
