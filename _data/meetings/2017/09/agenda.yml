@@ -196,17 +196,17 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25</a>Adding Persistent Collective Communication"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
       presenter: Tony
       done: 0
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1</a>Clarify MPI_ERRORS_ARE_FATAL scope of abort"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1:</a> Clarify MPI_ERRORS_ARE_FATAL scope of abort"
       presenter: Wesley
       done: 0
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3</a>Define new MPI Error handler for subcommunicator abort"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3:</a> Define new MPI Error handler for subcommunicator abort"
       presenter: Wesley
       done: 0
 
