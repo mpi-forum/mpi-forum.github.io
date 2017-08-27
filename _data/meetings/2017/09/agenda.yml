@@ -31,7 +31,14 @@ schedule:
     - date: 2017-09-20
       start: 1:30pm
       end: 3:00pm
-      title: P2P WG (Dan)
+      title: Tools WG, MPI_T Events (Marc-Andre)
+      link:
+      password:
+
+    - date: 2017-09-20
+      start: 1:30pm
+      end: 3:00pm
+      title: FT WG (Wesley)
       link:
       password:
 
@@ -43,7 +50,14 @@ schedule:
     - date: 2017-09-20
       start: 3:30pm
       end: 5:00pm
-      title:
+      title: Tools WG, MPI_T Events (Marc-Andre)
+      link:
+      password:
+
+    - date: 2017-09-20
+      start: 3:30pm
+      end: 5:00pm
+      title: FT WG (Wesley)
       link:
       password:
 
@@ -55,7 +69,7 @@ schedule:
     - date: 2017-09-21
       start: 9:00am
       end: 10:30am
-      title: FT WG (Wesley)
+      title: Tools WG, PMPI2 (Kathryn)
       link:
       password:
 
@@ -74,7 +88,7 @@ schedule:
     - date: 2017-09-21
       start: 11:00am
       end: 12:30pm
-      title: FT WG (Wesley)
+      title: Tools WG, PMPI2 (Kathryn)
       link:
       password:
 
@@ -93,7 +107,7 @@ schedule:
     - date: 2017-09-21
       start: 1:30pm
       end: 3:00pm
-      title: "Plenary (see below) - focus on prep for votes"    
+      title: P2P WG (Dan)
       link:
       password:
 
@@ -184,6 +198,8 @@ schedule:
 no-no-votes:
     - number: 60
       description: MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM
+    - number: 63
+      description: Info Query Update (MPI_Comm/File/Win_get_info) (PR 27)
 
 errata-votes:
     - number: 50
@@ -194,7 +210,7 @@ first-votes:
       description: MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM
 
     - number: 63
-      description: MPI_Comm/File/Win_get_info (PR 27)
+      description: Info Query Update (MPI_Comm/File/Win_get_info) (PR 27)
 
 second-votes:
 
@@ -207,6 +223,21 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Change Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/60\">#60:</a> MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM"
+      presenter: Kathryn
+      done: 0
+
+    - type: Change Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63:</a> Info Query Update (MPI_Comm/File/Win_get_info) (PR 27)"
+      presenter: Dan
+      done: 0
+
+    - type: Errata
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50:</a> MPI_T Errata Reinitialization"
+      presenter: Marc-Andre
       done: 0
 
     - type: Reading
