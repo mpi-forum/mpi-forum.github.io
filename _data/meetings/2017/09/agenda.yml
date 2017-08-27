@@ -60,6 +60,13 @@ schedule:
       password:
 
     - date: 2017-09-21
+      start: 9:00am
+      end: 10:30am
+      title: Persistence WG (Tony)
+      link:
+      password:
+
+    - date: 2017-09-21
       start: 10:30am
       end: 11:00am
       title: Break
@@ -68,6 +75,13 @@ schedule:
       start: 11:00am
       end: 12:30pm
       title: FT WG (Wesley)
+      link:
+      password:
+
+    - date: 2017-09-21
+      start: 11:00am
+      end: 12:30pm
+      title: Persistence WG (Tony)
       link:
       password:
 
