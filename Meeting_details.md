@@ -4,6 +4,25 @@ title: Meetings
 permalink: meetings/
 ---
 
+## 2018
+
+##### Dec 3 - Dec 6: Location tbd - TENTATIVE
+
+|Logistics|Agenda|Presentations|Attendance|Voting|
+
+##### Sep 20 - Sep 22: Barcelona (before EuroMPI 2018) - TENTATIVE / EuroMPI Dates are fixed
+
+|Logistics|Agenda|Presentations|Attendance|Voting|
+
+##### Jun 11 - Jun 14: Location tbd - TENTATIVE
+
+|Logistics|Agenda|Presentations|Attendance|Voting|
+
+##### Feb 26 - Mar 1: Location tbd - TENTATIVE
+
+|Logistics|Agenda|Presentations|Attendance|Voting|
+
+
 ## 2017
 
 ##### Dec 04 - Dec 07: San Jose, CA, USA (Cisco)
