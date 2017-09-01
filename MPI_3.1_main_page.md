@@ -6,7 +6,7 @@ permalink: /mpi-31/
 
 ## Status
 
-The standardization of MPI 3.1 is complete and the new version of the standard is available at [MPI Forum Document Page](http://www.mpi-forum.org/docs/docs.html).
+The standardization of MPI 3.1 is complete and the new version of the standard is available at [MPI Forum Document Page](/docs).
 
 ## Scope
 
