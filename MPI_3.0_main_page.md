@@ -8,7 +8,7 @@ permalink: /mpi-30/
 
 The standardization of MPI 3.0 is complete and the new version of the standard is available at [MPI Forum Document Page](docs/).
 
-#### [Implementation Status](mpi3-impl-status-Nov14.pdf), as of November 2014
+#### [Implementation Status](../slides/2014/11/mpi3-impl-status-Nov14.pdf), as of November 2014
 
 ### Scope
 
@@ -28,8 +28,8 @@ Additions to the MPI 3.0 standard that are needed for better platform and applic
 
 ### MPI-3 Voting rules
 
-*   [document](../standardization_process_3.pdf)
+*   [document](../docs/other/standardization_process_3.pdf)
 
 ### Other
 
-*   [Supercomputing 2010 MPI-3 overview](../presentations/MPI_Forum_SC10.ppt.pdf)
+*   [Supercomputing 2010 MPI-3 overview](../slides/2010/11/MPI_Forum_SC10.ppt.pdf)

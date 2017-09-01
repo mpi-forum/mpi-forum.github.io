@@ -9,16 +9,16 @@ You may find standard documents, information about the activities of the MPI for
 
 ## Updates
 
-* #### [Implementation Status (MPI 3.1)](mpi31-impl-status-Jun16.pdf), as of June 2016
+* #### [Implementation Status (MPI 3.1)](slides/2016/06/mpi31-impl-status-Jun16.pdf), as of June 2016
 
 * #### BoF at ISC 16, Jun. 21st, 2016
 
     *   News from the MPI Forum, incl. MPI 3.1
     *   Activities from all MPI Forum Working Groups
     *   How can you get involved?
-    *   [Complete slide deck available](2016-06-iscbof.pdf)
+    *   [Complete slide deck available](slides/2016/06/2016-06-iscbof.pdf)
 
-* #### [Implementation Status (MPI 3.1)](mpi31-impl-status-Nov15.pdf), as of November 2015
+* #### [Implementation Status (MPI 3.1)](slides/2015/11/mpi31-impl-status-Nov15.pdf), as of November 2015
 
 * #### BoF at SC 15, Nov. 18th, 2015
 
@@ -26,18 +26,18 @@ You may find standard documents, information about the activities of the MPI for
     *   News from the MPI Forum, incl. MPI 3.1
     *   Activities from all MPI Forum Working Groups
     *   How can you get involved?
-    *   [Complete slide deck available](2015-11-scbof.pdf)
+    *   [Complete slide deck available](slides/2015/11/2015-11-scbof.pdf)
 
-* #### [Implementation Status (MPI 3.0)](mpi3-impl-status-Mar15.pdf), as of March 2015
+* #### [Implementation Status (MPI 3.0)](slides/2015/03/mpi3-impl-status-Mar15.pdf), as of March 2015
 
 * #### BoF at SC 14, Nov. 19th, 2014
 
-    *   [Introduction and General Update - Martin Schulz](2014-11-scbof-intro.pdf)
-    *   [Proposals for MPI Fault Tolerance - Wesley Bland](2014-11-scbof-ft.pdf)
-    *   [The MPI Endpoints Proposal for better MPI+X Support - Pavan Balaji](2014-11-scbof-hybrid.pdf)
-    *   [Ideas for persistant Pt-to-Pt Communication - Daniel Holmes](2014-11-scbof-p2p.pdf)
+    *   [Introduction and General Update - Martin Schulz](slides/2014/11/2014-11-scbof-intro.pdf)
+    *   [Proposals for MPI Fault Tolerance - Wesley Bland](slides/2014/11/2014-11-scbof-ft.pdf)
+    *   [The MPI Endpoints Proposal for better MPI+X Support - Pavan Balaji](slides/2014/11/2014-11-scbof-hybrid.pdf)
+    *   [Ideas for persistant Pt-to-Pt Communication - Daniel Holmes](slides/2014/11/2014-11-scbof-p2p.pdf)
         ([Editable Version of the Document to Add Comments](https://docs.google.com/presentation/d/1EPcklG0PMFQCAbu5F1qmcyeWPdsJf4xKr8JOhs1OcVA/edit?usp=sharing))
-    *   [How to Participate in the MPI Forum](2014-11-scbof-join.pdf)
+    *   [How to Participate in the MPI Forum](slides/2014/11/2014-11-scbof-join.pdf)
 
 ## Meeting Coordinators
 

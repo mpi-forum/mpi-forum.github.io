@@ -27,7 +27,7 @@ As of the December 2014 meeting, we completed all additions to the MPI 3.1 stand
 *   Starting Dec. 2014: Start integrating passed tickets into golden copy
     *   Has to be done by chapter committee chairs
     *   Changes to be reviewed by chapter committees
-    *   Text edits must follow [http://meetings.mpi-forum.org/2014-12-instructions.pdf](http://meetings.mpi-forum.org/2014-12-instructions.pdf)
+    *   Text edits must follow [2014-12-instructions.pdf](../slides/2014/12/2014-12-instructions.pdf)
     *   The location of the SVN repo listed in the instructions
     *   WARNING: start with current version of the golden copy (Fortran changes already in)
 *   By February 2nd (4 weeks before MPI Forum)
@@ -53,7 +53,7 @@ As of the December 2014 meeting, we completed all additions to the MPI 3.1 stand
 
 ### Document Intergration Process and Chaper Committee Responsibilities
 
-Chapter committees will be responsible for integrating and reviewing all changes into the standard document. For already voted in tickets, errata items, and ticket 0 changes, this process can start immediately, at the latest, though, this work needs to be done between the September and December meetings. For this, one member of eacg chapter committee (the chair a designee) will have write access to the MPI 3.1 tree.
+Chapter committees will be responsible for integrating and reviewing all changes into the standard document. For already voted in tickets, errata items, and ticket 0 changes, this process can start immediately, at the latest, though, this work needs to be done between the September and December meetings. For this, one member of each chapter committee (the chair a designee) will have write access to the MPI 3.1 tree.
 
 We decided to no longer use the Latex change macros for adding the new text, since those led to bad document quality (feel free to still use them for working group documents and ticket presentations - I am just talking about the main document). Instead we will rely on \"svn diff\" for change tracking. To make this work, please don't reflow any text! Also, please make sure you follow the document instructions contained in the MPI document repository (see README) to make sure we get a consistent document.
 
@@ -65,7 +65,7 @@ At the end of the process, every chapter committee chair is expected to provide:
 
 These documents need to be reviewed by the chapter committee and made available at least two weeks before the forum meeting.
 
-A longer description of these procedures and documentation on how to write/build the MPI document is available [here](../2014-12-instructions.pdf).
+A longer description of these procedures and documentation on how to write/build the MPI document is available [here](../slides/2014/12/2014-12-instructions.pdf).
 
 ## Chapter Committees
 
