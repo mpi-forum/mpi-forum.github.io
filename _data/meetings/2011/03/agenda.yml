@@ -1,0 +1,76 @@
+schedule:
+    - day: Monday, March 28, 2011
+
+    - start: 1:00pm 
+      end: 3:30pm
+      title: "Fault Tolerance working group"
+
+    - start: 1:00pm 
+      end: 3:30pm
+      title: "Hybrid working group"
+
+    - start: 3:30pm 
+      end: 4:00pm
+      title: "Plenary Session: Timers"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm 
+      end: 4:30pm
+      title: "Plenary session: 2nd vote - MProbe, ticket #38"
+
+    - start: 4:30pm 
+      end: 7:00pm
+      title: "Plenary Session: RMA working group - First reading of proposal #1 - Ticket #270"
+
+    - endday: done
+
+    - day: Tuesday, March 29, 2011
+
+    - start: 9:00am 
+      end: 11:30am
+      title: "RMA plenary: continued first first reading"
+
+    - start: 11:30am 
+      end: 1:00pm
+      title: "Working Lunch - Plenary Session: MPI_info and disabling PMPI"
+
+    - start: 1:00pm 
+      end: 4:00pm
+      title: "Plenary Session: Tools group - MPI_T formal reading -Ticket #266"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm 
+      end: 4:45pm
+      title: "Plenary Session: const"
+
+    - start: 5:15pm 
+      end: 7:00pm
+      title: "Collective working group"
+
+    - endday: done
+
+    - day: Wednesday, March 30, 2011
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Plenary Session: Count - first reading, ticket #265 + #269 "
+
+    - start: 11:00am 
+      end: 11:45am
+      title: "Plenary Session: RMA working group"
+
+    - start: 11:45am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+second-votes:
+    - number: 38
+      description: "Matched probe/receive"

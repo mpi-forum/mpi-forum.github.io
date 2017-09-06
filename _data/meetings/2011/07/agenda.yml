@@ -1,0 +1,107 @@
+schedule:
+    - day: Monday, July 18, 2011
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Fault Tolerance working group"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Hybrid working group"
+
+    - start: 3:00pm 
+      end: 3:30pm
+      title: "Plenary session: RMA - First Vote - Ticket #270"
+
+    - start: 3:30pm 
+      end: 4:00pm
+      title: "Plenary session: MPI Timers - Formal Reading - Ticket #277"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm 
+      end: 7:00pm
+      title: "Plenary Session: Fault Tolerance working group - formal reading - Ticket #276"
+
+    - endday: done
+
+    - day: Tuesday, July 19, 2011
+
+    - start: 9:00am 
+      end: 10:00pm
+      title: "Working group: Hybrid working group Shared Memory Allocation"
+
+    - start: 10:00am 
+      end: 11:00pm
+      title: "Plenary Session: Hybrid working group shared memory proposal"
+
+    - start: 11:00pm 
+      end: 1:00pm
+      title: "Working Lunch: Plenary Session: Fault Tolerance proposal, ticket #276"
+
+    - start: 1:00pm 
+      end: 1:30pm
+      title: "Plenary Session: MPI_Count (ticket #265) Const (ticket #140) first votes"
+
+    - start: 1:30pm 
+      end: 2:00pm
+      title: "Plenary Session: MPI_MPROBE Fortran fix -- first vote -- ticket #274"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "Plenary Session: Tools group - MPI_T formal reading - Ticket #266"
+
+    - start: 5:00pm 
+      end: 5:15pm
+      title: "Break"
+
+    - start: 5:15pm 
+      end: 8:00pm
+      title: "Plenary Session: Fortran working group - formal reading - ticket #229 (summary) through ticket #253"
+
+    - endday: done
+
+    - day: Wednesday, July 20, 2011
+
+    - start: 9:00am 
+      end: 10:00pm
+      title: "Plenary: Nonblocking MPI-I/O"
+
+    - start: 10:00am 
+      end: 11:00am
+      title: "Sparse Collectives - First vote - Ticket #258"
+
+    - start: 11:00pm 
+      end: 12:00pm
+      title: "Plenary Session: Remove deprecated bindings - formal reading"
+
+    - start: 12:00pm 
+      end: 12:45pm
+      title: "Working Lunch: Plenary Session: C++ binding as optional -- formal reading (ticket #279)"
+
+    - start: 12:45 
+      end: 1:30pm
+      title: "Plenary Session: Remove C++ bindings -- discussion (ticket #281<a/>)"
+
+    - endday: done
+
+no-no-votes:
+    - description: "Ok to vote on #270 even though there is no implementation yet"
+
+first-votes:
+    - number: 270
+      description: "Updated RMA chapter"
+
+    - number: 265
+      description: "Support for large counts using derived datatypes"
+
+    - number: 140
+      description: "Add const Keyword to the C bindings"
+
+    - number: 274
+      description: "Matched probe Language Bindings / Language Bindings Support addition"
+
+    - number: 258
+      description: "Sparse Collectives on Process Topologies"

@@ -1,0 +1,85 @@
+schedule:
+    - day: Thursday, Sept 22, 2011
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Fault Tolerance working group"
+
+    - start: 3:00pm 
+      end: 3:30pm
+      title: "Plenary Session: MPI_Count (ticket #265) Const (ticket #140) second vote"
+
+    - start: 3:30pm 
+      end: 3:45pm
+      title: "Plenary Session: MPI_MPROBE Fortran fix -- second vote -- ticket #274"
+
+    - start: 3:45pm 
+      end: 4:00pm
+      title: "Break"
+
+    - start: 4:00pm 
+      end: 7:00pm
+      title: "Plenary Session: Fault Tolerance working group Ticket #276"
+
+    - endday: done
+
+    - day: Friday, Sept 23, 2011
+
+    - start: 9:00am 
+      end: 10:00am
+      title: "Plenary Session: Glossary"
+
+    - start: 10:00am 
+      end: 11:30am
+      title: "Plenary Session: Hybrid Programming group - Shared Memory Proposal - Formal Reading Ticket #287"
+
+    - start: 11:30am 
+      end: 1:00pm
+      title: "Working Lunch: Plenary Session: Hybrid Programming group - Shared Memory Window Allocation - Formal Reading Ticket #284"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Plenary Session: Hybrid Programming group - End Points Proposal Ticket #288"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "Plenary Session: Tools group - MPI_T formal reading - Ticket #266"
+
+    - start: 5:00pm 
+      end: 7:00pm
+      title: "Plenary Session: Hybrid Programming group - End Points Proposal Ticket #289"
+
+    - endday: done
+
+    - day: Saturday, Sept 24, 2011
+
+    - start: 9:00am 
+      end: 10:30am
+      title: "Plenary Session: Fortran working group - Ticket #229"
+
+    - start: 10:30am 
+      end: 11:30am
+      title: "Sparse Collectives - Second vote - Ticket #258"
+
+    - start: 11:30am 
+      end: 1:00pm
+      title: "Working Lunch: Scalable Vector Collectives"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Plenary Session - MPI_Group_comm_create"
+
+    - endday: done
+
+second-votes:
+    - number: 265
+      description: "Support for large counts using derived datatypes"
+
+    - number: 140
+      description: "Add const Keyword to the C bindings"
+
+    - number: 274
+      description: "Matched probe Language Bindings / Language Bindings Support addition"
+
+    - number: 258
+      description: "Sparse Collectives on Process Topologies"

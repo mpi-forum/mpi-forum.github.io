@@ -1,0 +1,129 @@
+schedule:
+    - day: Monday, Oct 24, 2011
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Fault Tolerance working group"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "RMA working group"
+
+    - start: 3:00pm 
+      end: 4:00pm
+      title: "Plenary Session: Hybrid Programming group - End Points Proposal  - Ticket #288"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm 
+      end: 7:00pm
+      title: "Plenary Session: Fault Tolerance working group - Ticket #276"
+
+    - endday: done
+
+    - day: Tuesday, Oct 25, 2011
+
+    - start: 9:00am 
+      end: 9:15am
+      title: "Plenary Session: Hybrid Programming group - Shared Memory Proposal - 1st vote  - Ticket #287"
+
+    - start: 9:15am 
+      end: 9:30am
+      title: "Plenary Session: Tools group - MPI_T 1st vote - Ticket #266"
+
+    - start: 9:30am 
+      end: 9:45am
+      title: "Plenary Session: Tools MPI Get Library Version - 1st vote - Ticket #204"
+
+    - start: 9:45am 
+      end: 10:30pm
+      title: "Plenary Session: Forum business"
+
+    - start: 10:30am 
+      end: 11:30am
+      title: "Plenary Session: MPI Comm Group Create - 1st reading  - Ticket #286"
+
+    - start: 11:30pm 
+      end: 12:30pm
+      title: "Working Lunch: Plenary Session: Hybrid Programming group - Shared Memory Window Allocation - Formal Reading  - Ticket #284"
+
+    - start: 12:30pm 
+      end: 1:15pm
+      title: "Plenary Session: C++ bindings - Discussion on their continued support in the standard"
+
+    - start: 1:15pm 
+      end: 1:30pm
+      title: "Plenary Session: C++ binding as optional -- 1st vote (ticket #279)"
+
+    - start: 1:30pm 
+      end: 2:15pm
+      title: "Plenary Session: MPI Fortran bindings proposal - Tutorial"
+
+    - start: 2:15pm 
+      end: 2:20pm
+      title: "Plenary Session: MPI_UNWEIGHTED should not be NULL -- 1st reading  - ticket #294"
+
+    - start: 2:20pm 
+      end: 2:30pm
+      title: "Plenary Session: Change displs in neighborhood collectives -- 1st reading  - ticket #299"
+
+    - start: 2:30pm 
+      end: 3:15pm
+      title: "Plenary Session: Fortran Bindings -- 1st reading (Round 1)  - ticket #229"
+
+    - start: 3:15pm 
+      end: 3:30pm
+      title: "Break"
+
+    - start: 3:30pm 
+      end: 5:00pm
+      title: "Plenary Session: Fortran Bindings -- 1st reading (Round 2)  - ticket #229"
+
+    - start: 5:00pm 
+      end: 5:30pm
+      title: "Plenary Session: Functions to query MPI_Info object attached to windows and communicators  - ticket #271 "
+
+    - start: 5:30pm 
+      end: 6:00pm
+      title: "Plenary Session: Missing basic datatypes for C ints  - ticket #187"
+
+    - start: 6:00pm 
+      end: 6:30pm
+      title: "Plenary Session: MPI_Type_create_hindexed_block - 1st reading  - Ticket #280"
+
+    - endday: done
+
+    - day: Wednesday, Oct 26, 2011
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Plenary Session - Helper Threads: - 1st reading  - Ticket #217"
+
+    - start: 11:00am 
+      end: 12:00pm
+      title: "Plenary session: RMA working group -  Ticket #270 "
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working Lunch: Plenary Session - Non blocking collective I/O routines:  - Ticket #273"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Plenary Session - Non blocking file manipulation routines:  - Ticket #285"
+
+    - start: 2:00pm 
+      end: 2:30pm
+      title: "Plenary Session - MPI_File_stat discussion  - Ticket #295"
+
+    - endday: done
+
+first-votes:
+    - number: 287
+
+    - number: 266
+
+    - number: 204
+
+    - number: 279

@@ -1,0 +1,86 @@
+schedule:
+    - day: Monday, Feb  7, 2011
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Fault Tolerance working group"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Collectives working group"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Plenary session: 1st vote - MProbe, ticket #38"
+
+    - start: 3:15pm 
+      end: 3:30pm
+      title: "Break - refreshments provided"
+
+    - start: 3:30pm 
+      end: 6:00am
+      title: "Plenary session: RMA working group"
+
+    - start: 6:00am 
+      end: 7:00pm
+      title: "Plenary session: Sparse Collectives - Formal Reading"
+
+    - endday: done
+
+    - day: Tuesday, Feb 8, 2011
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "RMA working group"
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Persistence working group"
+
+    - start: 11:00am 
+      end: 11:30am
+      title: "Plenary session: Profiling Interface - minor changes review and vote "
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Plenary session: External Interfaces - minor changes review and vote "
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Plenary session: MPI Count - Working lunch"
+
+    - start: 1:00pm 
+      end: 4:00pm
+      title: "Plenary session: Tools Group - MPT proposal overview"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break - Refreshments provided"
+
+    - start: 4:15pm 
+      end: 7:00pm
+      title: "RMA working group"
+
+
+    - endday: done
+
+    - day: Wednesday, Feb 9, 2011
+
+    - start: 9:00am 
+      end: 11:30am
+      title: "Plenary session: Hybrid Programming working group"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+first-votes:
+    - number: 38
+      description: "Matched probe/receive"
+
+procedure-votes:
+    - description: "Profiling chapter"
+
+    - description: "External interfaces chapter"

@@ -1,0 +1,88 @@
+schedule:
+    - day: Monday, May 9, 2011
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "FT working group"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "RMA working group"
+
+    - start: 3:00pm 
+      end: 4:00pm
+      title: "Plenary Session: Tools group - MPI_T formal reading -Ticket #266"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm 
+      end: 6:00pm
+      title: "Plenary Session: Tools group - MPI_T formal reading -Ticket #266"
+
+    - start: 6:00pm 
+      end: 8:00pm
+      title: "Plenary Session: Fortran working group - formal reading -Tickets #229 to #253"
+
+    - endday: done
+
+    - day: Tuesday, May 10, 2011
+
+    - start: 9:00am 
+      end: 12:00pm
+      title: "Plenary session: RMA - Formal Reading - Ticket #270 "
+
+    - start: 12:00pm 
+      end: 2:00pm
+      title: "Working Lunch - Plenary session: RMA - Formal Reading - Ticket #270 "
+
+    - start: 2:00pm 
+      end: 3:00pm
+      title: "Plenary session: Sparse Collectives - Formal Reading - Ticket #258 "
+
+    - start: 3:00pm 
+      end: 5:00pm
+      title: "Plenary session: Persistence working group "
+
+    - start: 5:00pm 
+      end: 6:00pm
+      title: "Hybrid working group"
+
+    - start: 6:00pm 
+      end: 8:00pm
+      title: "Plenary session: Hybrid working group "
+
+    - endday: done
+
+    - day: Wednesday, May 11, 2011
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Plenary Session: Fortran working group - formal reading -Tickets #229 to #253"
+
+    - start: 11:00am 
+      end: 12:00am
+      title: "Plenary session: First reading - count - Ticket #265 "
+
+    - start: 12:00am 
+      end: 1:00pm
+      title: "Working lunch: Plenary session: First reading - Const - Ticket #140 "
+
+    - start: 1:00am 
+      end: 2:00am
+      title: "Plenary session: Info object"
+
+    - start: 2:00am 
+      end: 3:00am
+      title: "Plenary session: Data type changes"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Remove Nonblocking Collectives C++ bindings - Ticket #272"
+
+    - start: 3:15pm 
+      end: 3:30pm
+      title: "Wrap up"
+
+    - endday: done
