@@ -1,0 +1,72 @@
+schedule:
+    - day: Wed, November 11, 2009
+
+    - start: 1:00pm 
+      end: 1:30pm
+      title: "Reports from the working groups"
+
+    - start: 1:30pm 
+      end: 2:00pm
+      title: "MPI 3.0 priorities discussion"
+
+    - start: 2:00pm 
+      end: 4:00pm
+      title: "MPI 3.0 Backward compatibility discussion"
+
+    - start: 4:00pm 
+      end: 4:30pm
+      title: "Break"
+
+    - start: 4:30pm 
+      end: 7:00pm
+      title: "Hybrid Programming Working Group"
+
+    - endday: done
+
+    - day: Thu, November 12, 2009
+
+    - start: 8:00am 
+      end: 11:00am
+      title: "Fault Tolerance working group"
+
+    - start: 11:00am 
+      end: 12:00pm
+      title: "Collectives working group"
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working Lunch - Collectives working group"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Tools Working Group"
+
+    - start: 3:00pm 
+      end: 3:30pm
+      title: "Break "
+
+    - start: 3:30pm 
+      end: 5:30pm
+      title: "RMA working group"
+
+    - start: 5:30pm 
+      end: 7:00pm
+      title: "MPI 3 - Corrections "
+
+    - endday: done
+
+    - day: Fri, November 13, 2009
+
+    - start: 9:00am 
+      end: 10:30am
+      title: "MPI 3.0 Plenary session - Corrections"
+
+    - start: 10:30am 
+      end: 11:30am
+      title: "Fortran Binding - Plenary session"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done

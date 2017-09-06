@@ -1,0 +1,109 @@
+schedule:
+    - day: Mon, Feb 9, 2009
+
+    - start: 1:00pm 
+      end: 1:30pm
+      title: "Reports from the working groups"
+
+    - start: 1:30pm 
+      end: 2:30pm
+      title: "MPI 3.0 process and timeline discussion"
+
+    - start: 2:30pm 
+      end: 4:30pm
+      title: "MPI 3.0 - Tools working group; Fault Tolerance Working Group"
+
+    - start: 4:30pm 
+      end: 6:30pm
+      title: "MPI 2.2 Plenary session"
+
+    - start: 6:30pm 
+      end: 7:00pm
+      title: "Non Blocking Collectives - document changes"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "Break for dinner"
+
+    - endday: done
+
+    - day: Tue, Feb 10, 2009
+
+    - start: 9:00am 
+      end: 10:45am
+      title: "MPI 2.2 Plenary session - cont'd"
+
+    - start: 10:45am 
+      end: 11:00am
+      title: "Break"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "RMA working group ; Fortran Working Group"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Working lunch - RMA working group; Fortran Working Group"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "Fault tolerance working group"
+
+    - start: 5:00pm 
+      end: 5:15pm
+      title: "Break"
+
+    - start: 5:15pm 
+      end: 7:00pm
+      title: "MPI 2.2 Plenary session - cont'd"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "Dinner"
+
+    - endday: done
+
+    - day: Wed, Feb 11, 2009
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Collectives working group; ABI Consortium meeting"
+
+    - start: 11:00am 
+      end: 11:30am
+      title: "Nonblock Collectives MPI-3 proposal: First Vote"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+first-votes:
+    - number: 9
+      description: "Consistency in 'Naming Conventions' Section"
+
+    - number: 16
+      description: "Error in Example 4.18"
+
+    - number: 17
+      description: "Fix text about freeing error classes and codes"
+
+second-votes:
+        - number: 6
+          description: "Function Pointer Arguments to MPI::Grequest::Start"
+
+        - number: 10
+          description: "MPI_CANCEL Argument is Wrong Type"
+
+        - number: 11
+          description: "Remove C++ Deprecated Section"
+
+        - number: 41
+          description: "Typo in description of MPI_Cart_shift"
+
+        - number: 42
+          description: "Minor typo in description of MPI_Cart_rank"
+
+        - number: 49
+          description: "MPI-2.1 Errata MPI_MAX_OBJECT_NAME (page 237 lines 1+3, page 563, lines 18+20)"

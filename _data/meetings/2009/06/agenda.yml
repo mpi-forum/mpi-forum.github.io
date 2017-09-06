@@ -1,0 +1,298 @@
+schedule:
+    - day: Mon, June 8, 2009
+
+    - start: 1:00pm 
+      end: 1:30pm
+      title: "Reports from the working groups"
+
+    - start: 1:30pm 
+      end: 2:00pm
+      title: "MPI 3.0 process and timeline discussion"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "MPI 2.2 Voting"
+
+    - start: 5:00pm 
+      end: 6:30pm
+      title: "Hybrid Programming Working Group"
+
+    - start: 6:30pm 
+      end: 7:00pm
+      title: "Non Blocking Collectives - Second Vote"
+
+    - endday: done
+
+    - day: Tue, June 9, 2009
+
+    - start: 9:00am 
+      end: 10:45am
+      title: "MPI 3.0 Plenary session - Corrections"
+
+    - start: 10:45am 
+      end: 11:00am
+      title: "Break"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "Working Lunch - RMA working group ; Fortran Working Group"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Collectives working group"
+
+    - start: 3:00pm 
+      end: 5:00pm
+      title: "Active Messages Working Group"
+
+    - start: 5:00pm 
+      end: 5:15pm
+      title: "Break"
+
+    - start: 5:15pm 
+      end: 7:00pm
+      title: "MPI 3.0 Plenary session - Corrections, cont'd"
+
+    - endday: done
+
+    - day: Wed, June 10, 2009
+
+    - start: 9:00am 
+      end: 11:30am
+      title: "Fault tolerance working group ; Tools Working Group"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+first-votes:
+    - number: 7
+      description: "Function pointer typedefs: '_function' vs. '_fn'"
+
+    - number: 13
+      description: "Small clarifications in chapter 10"
+
+    - number: 18
+      description: "New Predefined Datatypes"
+
+    - number: 19
+      description: "Inconsistent comments about intercommunicators"
+
+    - number: 24
+      description: "Add a local Reduction Function"
+
+    - number: 27
+      description: "Regular (non-vector) version of MPI_Reduce_scatter"
+
+    - number: 31
+      description: "Add MPI_IN_PLACE option to Alltoall"
+
+    - number: 33
+      description: "Fix Scalability Issues in Graph Topology Interface"
+
+    - number: 37
+      description: "Clarify semantics of one-sided semantics when changing synchronization mode"
+
+    - number: 50
+      description: "Ibsend and Irsend Advice to Users misleading"
+
+    - number: 51
+      description: "Inconsistent use of MPI_ANY_SOURCE in argument description"
+
+    - number: 55
+      description: "MPI-2.1 Cross-language attribute example is wrong"
+
+    - number: 57
+      description: "Fortran specific length types are not consistently listed"
+
+    - number: 59
+      description: "Clarification on MPI::FILE_NULL, MPI::WIN_NULL and MPI::COMM_NULL"
+
+    - number: 64
+      description: "Parameterized and optional named predefined datatypes in reduction operations"
+
+    - number: 65
+      description: "Predefined handles before MPI_Init and constants in general, Clarification Solution 1"
+
+    - number: 66
+      description: "Extending MPI_COMM_CREATE to create several disjoint sub-communicators from an intracommunicator"
+
+    - number: 70
+      description: "Misleading rationale for MPI_Test (and MPI_Win_test)"
+
+    - number: 71
+      description: "Specify order of atribute delete callbacks on MPI_COMM_SELF at MPI_FINALIZE"
+
+    - number: 72
+      description: "Convenience function: MPI_CART_SHIFT_VECTOR"
+
+    - number: 77
+      description: "Version 2.2 intro and text"
+
+    - number: 80
+      description: "Misleading discussion of thread ordering"
+
+    - number: 94
+      description: "Add MPI_IN_PLACE option to Exscan"
+
+    - number: 98
+      description: "Additional change requried for changes to Send Buffer restriction (#45)"
+
+    - number: 99
+      description: "Change-Log is also used for important clarifications for the MPI users."
+
+    - number: 100
+      description: "Change-Log from Version 2.1 to Version 2.2"
+
+    - number: 103
+      description: "Fortran in this document refers to Fortran 90"
+
+    - number: 105
+      description: "Matching arguments and collective routines."
+
+    - number: 107
+      description: "Types of predefined constants in Appendix A"
+
+    - number: 116
+      description: "Data type chapter example corrections"
+
+    - number: 121
+      description: "Filling out list of CHAR types in Section 5.9.3"
+
+    - number: 122
+      description: "Typo in MPI_CART_SHIFT example 7.4"
+
+    - number: 124
+      description: "Slightly changed description of MPI_REDUCE_SCATTER, explanation on 'in place'"
+
+    - number: 127
+      description: "Add C++ versions of Fortran COMPLEX8 etc."
+
+    - number: 128
+      description: "Verify and correct example 'Building Name Service for Intercommunications'"
+
+    - number: 132
+      description: "Change 'a data item' to 'data' in allgather on intercommunicators"
+
+    - number: 135
+      description: "Define matching semantics of collective operations in threaded environments"
+
+    - number: 136
+      description: "Advice to users about associativity in reduction operations"
+
+    - number: 137
+      description: "MPI_REQUEST_GET_STATUS should allow inactive and NULL request arguments"
+
+    - number: 141
+      description: "MPI_Aint/MPI_ADDRESS_KIND and MPI_Offset/MPI_OFFSET_KIND equality"
+
+    - number: 142
+      description: "Fix incorrect mentions of 3 routines"
+
+    - number: 143
+      description: "MPI_Request_free bad advice to users"
+
+    - number: 146
+      description: "Fix MPI_INIT description text"
+
+    - number: 148
+      description: "Missing entries in the Index pages."
+
+    - number: 149
+      description: "Obsolete reference to deprecated function MPI_Attr_get"
+
+    - number: 150
+      description: "Deprecate the C++ bindings"
+
+    - number: 151
+      description: "Predefined handles before MPI_Init and constants in general, Enhancment Solution 2"
+
+second-votes:
+    - number: 109
+      description: "MPI-3: Nonblocking Collective Operations"
+
+    - number: 1
+      description: "Fortran MPI_*_ERRHANDLER callback functions are varargs"
+
+    - number: 3
+      description: "Repeating a Neighbor in a Graph Communicator Ambiguity with MPI_GRAPH_NEIGHBOR[_COUNT]"
+
+    - number: 4
+      description: "Remove MPI-2.1 A.1.1 p494:31-32 table"
+
+    - number: 8
+      description: "Text Updates to Language Bindings Chapter"
+
+    - number: 30
+      description: "Clarification to intercomm MPI_Barrier"
+
+    - number: 40
+      description: "MPI-2.1 Errata MPI::F_DOUBLE_COMPLEX (page 495 line 11)"
+
+    - number: 43
+      description: "MPI_REPLACE in MPI_Accumulate"
+
+    - number: 44
+      description: "Non blocking versus non-blocking versus nonblocking"
+
+    - number: 53
+      description: "Explicitly encourage routines for 'good' one-sided memory for all memory types"
+
+    - number: 60
+      description: "Modernize example on p 279"
+
+    - number: 61
+      description: "MPI-2.1 Change-Log: Version number modified to 2.1"
+
+    - number: 63
+      description: "MPI_CHAR for printable characters - C & C++ consisteny"
+
+    - number: 67
+      description: "MPI-2.1 Errata: Error in name of participating institution for MPI 2.1"
+
+    - number: 74
+      description: "Nonnegative vs. non-negative"
+
+    - number: 87
+      description: "Wording changes to collective chapter for consistency"
+
+    - number: 89
+      description: "Philosophical difference with current classification of barriers"
+
+    - number: 90
+      description: "Minor grammar corrections for collectives chapter"
+
+    - number: 91
+      description: "Undefined term in description of Reduce-Scatter"
+
+    - number: 92
+      description: "Need to fix MPI_EXSCAN advice to users"
+
+    - number: 93
+      description: "Inconsistent description of arrays in collective operations"
+
+    - number: 97
+      description: "Small bug in RMA example"
+
+    - number: 101
+      description: "Version number changed to (2,2)"
+
+    - number: 104
+      description: "MPI_ARGV_NULL and MPI_ARGVS_NULL missing on p465:13-15."
+
+    - number: 113
+      description: "Minor typo in MPI_ALLTOALLV"
+
+    - number: 115
+      description: "Corrections to point-to-point chapter examples"
+
+    - number: 118
+      description: "Corrections to collectives chapter: fix examples and remove deprecated functions"
+
+    - number: 120
+      description: "Typos in Collectives Chapter"
+
+    - number: 123
+      description: "Fix errors in example in profiling chapter"

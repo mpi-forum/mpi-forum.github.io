@@ -1,0 +1,122 @@
+schedule:
+    - day: Wed, September 2, 2009
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working lunch - State of MPI 2.2"
+
+    - start: 1:00pm 
+      end: 1:30pm
+      title: "Reports from the working groups"
+
+    - start: 1:30pm 
+      end: 2:00pm
+      title: "MPI 3.0 priorities discussion"
+
+    - start: 2:00pm 
+      end: 4:45pm
+      title: "MPI 3.0 Backward compatibility discussion"
+
+    - start: 5:00pm 
+      end: 7:00pm
+      title: "Hybrid Programming Working Group"
+
+    - endday: done
+
+    - day: Thur, September 3, 2009
+
+    - start: 9:00am 
+      end: 12:00am
+      title: "MPI 2.2 final reviews and corrections"
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working Lunch - MPI 2.2 final reviews and corrections - cont'd "
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "MPI 2.2 final reviews and corrections - cont'd "
+
+    - start: 2:00pm 
+      end: 3:00pm
+      title: "RMA working group "
+
+    - start: 3:00pm 
+      end: 3:30pm
+      title: "Break "
+
+    - start: 3:30pm 
+      end: 4:30pm
+      title: "Collectives working group"
+
+    - start: 4:30pm 
+      end: 5:30pm
+      title: "Fault Tolerance working group"
+
+    - start: 5:30pm 
+      end: 7:00pm
+      title: "Tools Working Group"
+
+    - endday: done
+
+    - day: Fri, September 4, 2009
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "MPI 3.0 Plenary session - Corrections"
+
+    - start: 11:00am 
+      end: 12:00pm
+      title: "MPI 2.2 final voting"
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working lunch - MPI 3.0 time lines, and wrap up"
+
+    - endday: done
+
+first-votes:
+    - number: 171
+      description: "change MPI_C_BOOL external32 size to 1 byte"
+
+chapter-votes:
+    - description: "MPI v2.2 Frontmatter"
+
+    - description: "MPI v2.1 Chapter 1"
+
+    - description: "MPI v2.1 Chapter 2"
+
+    - description: "MPI v2.1 Chapter 3"
+
+    - description: "MPI v2.1 Chapter 4"
+
+    - description: "MPI v2.1 Chapter 5"
+
+    - description: "MPI v2.1 Chapter 6"
+
+    - description: "MPI v2.1 Chapter 7"
+
+    - description: "MPI v2.1 Chapter 8"
+
+    - description: "MPI v2.1 Chapter 9"
+
+    - description: "MPI v2.1 Chapter 10"
+
+    - description: "MPI v2.1 Chapter 11"
+
+    - description: "MPI v2.1 Chapter 12"
+
+    - description: "MPI v2.1 Chapter 13"
+
+    - description: "MPI v2.1 Chapter 14"
+
+    - description: "MPI v2.1 Chapter 15"
+
+    - description: "MPI v2.1 Chapter 16"
+
+    - description: "MPI v2.2 Appendix"
+
+    - description: "MPI v2.2 Changelog"
+
+whole-document-vote:
+    - description: "MPI v2.2 (entire document)"

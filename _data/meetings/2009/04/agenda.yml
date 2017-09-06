@@ -1,0 +1,178 @@
+schedule:
+    - day: Mon, April 6, 2009
+
+    - start: 1:00pm 
+      end: 1:30pm
+      title: "Reports from the working groups"
+
+    - start: 1:30pm 
+      end: 2:00pm
+      title: "MPI 3.0 process and timeline discussion"
+
+    - start: 2:00pm 
+      end: 5:30pm
+      title: "MPI 2.2 Plenary session"
+
+    - start: 5:30pm 
+      end: 6:30pm
+      title: "MPI 3.0 Plenary session - Tools "
+
+    - start: 6:30pm 
+      end: 7:00pm
+      title: "Non Blocking Collectives - First Vote"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "Break for dinner"
+
+    - endday: done
+
+    - day: Tue, April 7, 2009
+
+    - start: 9:00am 
+      end: 10:45am
+      title: "MPI 2.2 Plenary session - cont'd"
+
+    - start: 10:45am 
+      end: 11:00am
+      title: "Break"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "RMA working group ; Fortran Working Group"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Working lunch - RMA working group; Fortran Working Group"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "Fault tolerance working group ; Tools Working Group"
+
+    - start: 5:00pm 
+      end: 5:15pm
+      title: "Break"
+
+    - start: 5:15pm 
+      end: 7:00pm
+      title: "MPI 2.2 Plenary session - cont'd"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "Dinner"
+
+    - endday: done
+
+    - day: Wed, April 8, 2009
+
+    - start: 9:00am 
+      end: 11:30am
+      title: "Collectives working group; ABI Consortium meeting"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+first-votes:
+    - number: 1
+      description: "Fortran MPI_*_ERRHANDLER callback functions are varargs"
+
+    - number: 3
+      description: "Repeating a Neighbor in a Graph Communicator Ambiguity with MPI_GRAPH_NEIGHBOR[_COUNT]"
+
+    - number: 4
+      description: "Remove MPI-2.1 A.1.1 p494:31-32 table"
+
+    - number: 8
+      description: "Text Updates to Language Bindings Chapter"
+
+    - number: 30
+      description: "Clarification to intercomm MPI_Barrier"
+
+    - number: 40
+      description: "MPI-2.1 Errata MPI::F_DOUBLE_COMPLEX (page 495 line 11)"
+
+    - number: 43
+      description: "MPI_REPLACE in MPI_Accumulate"
+
+    - number: 44
+      description: "Non blocking versus non-blocking versus nonblocking"
+
+    - number: 53
+      description: "Explicitly encourage routines for 'good' one-sided memory for all memory types"
+
+    - number: 60
+      description: "Modernize example on p 279"
+
+    - number: 61
+      description: "MPI-2.1 Change-Log: Version number modified to 2.1"
+
+    - number: 63
+      description: "MPI_CHAR for printable characters - C & C++ consisteny"
+
+    - number: 67
+      description: "MPI-2.1 Errata: Error in name of participating institution for MPI 2.1"
+
+    - number: 68
+      description: "MPI-2.1 errata: Need to add acknowledgment for NSF support for MPI 2.1"
+
+    - number: 74
+      description: "Nonnegative vs. non-negative"
+
+    - number: 87
+      description: "Wording changes to collective chapter for consistency"
+
+    - number: 89
+      description: "Philosophical difference with current classification of barriers"
+
+    - number: 90
+      description: "Minor grammar corrections for collectives chapter"
+
+    - number: 91
+      description: "Undefined term in description of Reduce-Scatter"
+
+    - number: 92
+      description: "Need to fix MPI_EXSCAN advice to users"
+
+    - number: 93
+      description: "Inconsistent description of arrays in collective operations"
+
+    - number: 97
+      description: "Small bug in RMA example"
+
+    - number: 101
+      description: "Version number changed to (2,2)"
+
+    - number: 104
+      description: "MPI_ARGV_NULL and MPI_ARGVS_NULL missing on p465:13-15."
+
+    - number: 113
+      description: "Minor typo in MPI_ALLTOALLV"
+
+    - number: 115
+      description: "Corrections to point-to-point chapter examples"
+
+    - number: 118
+      description: "Corrections to collectives chapter: fix examples and remove deprecated functions"
+
+    - number: 120
+      description: "Typos in Collectives Chapter"
+
+    - number: 123
+      description: "Fix errors in example in profiling chapter"
+
+
+    - number: 109
+      description: "MPI-3: Nonblocking Collective Operations"
+
+second-votes:
+    - number: 9
+      description: "Consistency in 'Naming Conventions' Section"
+
+    - number: 16
+      description: "Error in Example 4.18"
+
+    - number: 17
+      description: "Fix text about freeing error classes and codes"

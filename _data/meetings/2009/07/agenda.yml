@@ -1,0 +1,194 @@
+schedule:
+    - day: Mon, July 27, 2009
+
+    - start: 1:00pm 
+      end: 1:30pm
+      title: "Reports from the working groups"
+
+    - start: 1:30pm 
+      end: 2:00pm
+      title: "MPI 3.0 priorities discussion"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "MPI 2.2 Voting: tickets to be voted on"
+
+    - start: 5:00pm 
+      end: 7:00pm
+      title: "Hybrid Programming Working Group"
+
+    - endday: done
+
+    - day: Tue, July 28, 2009
+
+    - start: 9:00am 
+      end: 10:45am
+      title: "Fault tolerance working group ; Tools Working Group"
+
+    - start: 10:45am 
+      end: 11:00am
+      title: "Break"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "Working Lunch - RMA working group ; Fortran Working Group"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Collectives working group"
+
+    - start: 3:00pm 
+      end: 5:00pm
+      title: "Active Messages Working Group"
+
+    - start: 5:00pm 
+      end: 5:15pm
+      title: "Break"
+
+    - start: 5:15pm 
+      end: 7:00pm
+      title: "MPI 3.0 Plenary session - Corrections"
+
+    - endday: done
+
+    - day: Wed, July 29, 2009
+
+    - start: 9:00am 
+      end: 11:30am
+      title: "MPI 3.0 Plenary session - Corrections"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+second-votes:
+    - number: 7
+      description: "Function pointer typedefs: '_function' vs. '_fn'"
+
+    - number: 13
+      description: "Small clarifications in chapter 10"
+
+    - number: 18
+      description: "New Predefined Datatypes"
+
+    - number: 19
+      description: "Inconsistent comments about intercommunicators"
+
+    - number: 24
+      description: "Add a local Reduction Function"
+
+    - number: 27
+      description: "Regular (non-vector) version of MPI_Reduce_scatter"
+
+    - number: 31
+      description: "Add MPI_IN_PLACE option to Alltoall"
+
+    - number: 33
+      description: "Fix Scalability Issues in Graph Topology Interface"
+
+    - number: 37
+      description: "Clarify semantics of one-sided semantics when changing synchronization mode"
+
+    - number: 50
+      description: "Ibsend and Irsend Advice to Users misleading"
+
+    - number: 51
+      description: "Inconsistent use of MPI_ANY_SOURCE in argument description"
+
+    - number: 55
+      description: "MPI-2.1 Cross-language attribute example is wrong"
+
+    - number: 57
+      description: "Fortran specific length types are not consistently listed"
+
+    - number: 64
+      description: "Parameterized and optional named predefined datatypes in reduction operations"
+
+    - number: 65
+      description: "Predefined handles before MPI_Init and constants in general, Clarification Solution 1"
+
+    - number: 66
+      description: "Extending MPI_COMM_CREATE to create several disjoint sub-communicators from an intracommunicator"
+
+    - number: 68
+      description: "MPI-2.1 errata: Need to add acknowledgment for NSF support for MPI 2.1"
+
+    - number: 70
+      description: "Misleading rationale for MPI_Test (and MPI_Win_test)"
+
+    - number: 71
+      description: "Specify order of attribute delete callbacks on MPI_COMM_SELF at MPI_FINALIZE"
+
+    - number: 77
+      description: "Version 2.2 intro and text"
+
+    - number: 94
+      description: "Add MPI_IN_PLACE option to Exscan"
+
+    - number: 98
+      description: "Additional change requried for changes to Send Buffer restriction (#45)"
+
+    - number: 99
+      description: "Change-Log is also used for important clarifications for the MPI users."
+
+    - number: 100
+      description: "Change-Log from Version 2.1 to Version 2.2"
+
+    - number: 103
+      description: "Fortran in this document refers to Fortran 90"
+
+    - number: 105
+      description: "Matching arguments and collective routines."
+
+    - number: 107
+      description: "Types of predefined constants in Appendix A"
+
+    - number: 116
+      description: "Data type chapter example corrections"
+
+    - number: 121
+      description: "Filling out list of CHAR types in Section 5.9.3"
+
+    - number: 122
+      description: "Typo in MPI_CART_SHIFT example 7.4"
+
+    - number: 124
+      description: "Slightly changed description of MPI_REDUCE_SCATTER, explanation on 'in place'"
+
+    - number: 127
+      description: "Add C++ versions of Fortran COMPLEX8 etc."
+
+    - number: 128
+      description: "Verify and correct example 'Building Name Service for Intercommunications'"
+
+    - number: 132
+      description: "Change 'a data item' to 'data' in allgather on intercommunicators"
+
+    - number: 136
+      description: "Advice to users about associativity in reduction operations"
+
+    - number: 137
+      description: "MPI_REQUEST_GET_STATUS should allow inactive and NULL request arguments"
+
+    - number: 141
+      description: "MPI_Aint/MPI_ADDRESS_KIND and MPI_Offset/MPI_OFFSET_KIND equality"
+
+    - number: 142
+      description: "Fix incorrect mentions of 3 routines"
+
+    - number: 143
+      description: "MPI_Request_free bad advice to users"
+
+    - number: 146
+      description: "Fix MPI_INIT description text"
+
+    - number: 148
+      description: "Missing entries in the Index pages."
+
+    - number: 149
+      description: "Obsolete reference to deprecated function MPI_Attr_get"
+
+    - number: 150
+      description: "Deprecate the C++ bindings"
