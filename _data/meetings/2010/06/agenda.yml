@@ -1,0 +1,76 @@
+schedule:
+    - day: Mon, June 14, 2010
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Hybrid working group"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 4:00pm
+      title: "Plenary session - report back on data piggybacking"
+
+    - start: 4:00pm 
+      end: 5:00pm
+      title: "Plenary session - report back on nonblocking dynamic process control"
+
+    - start: 5:00pm 
+      end: 7:00pm
+      title: "RMA Working group"
+
+    - endday: done
+
+    - day: Tue, June 15, 2010
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Fault Tolerance working group"
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "RMA working group"
+
+    - start: 11:00am 
+      end: 11:15am
+      title: "Break"
+
+    - start: 11:15am 
+      end: 12:00pm
+      title: "Plenary session - Tools working group "
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Backwards Compatibility Plenary (working lunch)"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Plenary - Formal reading of MPI-3 nonblocking collectives operations"
+
+    - start: 2:00pm 
+      end: 4:00pm
+      title: "RMA working group"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break"
+
+    - endday: done
+
+    - day: Wed, June 16, 2010
+
+    - start: 9:00am 
+      end: 10:00am
+      title: "Persistence working group"
+
+    - start: 10:00am 
+      end: 11:30am
+      title: "RMA working group - refreshments provided"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done

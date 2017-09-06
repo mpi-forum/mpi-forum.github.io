@@ -1,0 +1,108 @@
+schedule:
+    - day: Monday, Oct 11, 2010
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Plenary session: MPI_Count "
+
+    - start: 2:00pm 
+      end: 2:45pm
+      title: "Plenary session: Sparse collectives"
+
+    - start: 2:45pm 
+      end: 3:00pm
+      title: "Plenary session: First Vote on MPIR Companion Document"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Plenary session: Nonblocking collectives - 2nd vote"
+
+    - start: 3:15pm 
+      end: 3:30pm
+      title: "Break"
+
+    - start: 3:30pm 
+      end: 7:00pm
+      title: "Plenary Session: Fortran working group"
+
+    - endday: done
+
+    - day: Tuesday, Oct 12, 2010
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Tools working group"
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Fortran working group "
+
+    - start: 11:00am 
+      end: 11:15am
+      title: "Break"
+
+    - start: 11:15am 
+      end: 12:00pm
+      title: "Plenary Session: Piggybacking proposal"
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working lunch: Fault Tolerance working group"
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working lunch: Hybrid working group"
+
+    - start: 1:00pm 
+      end: 2:30pm
+      title: "Fault Tolerance working group"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Hybrid working group"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "RMA working group"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "Persistance working group"
+
+    - start: 5:00pm 
+      end: 5:15pm
+      title: "Break"
+
+    - start: 5:15pm 
+      end: 7:00pm
+      title: "Collectives working group"
+
+    - start: 5:15pm 
+      end: 7:00pm
+      title: "RMA working group"
+
+    - endday: done
+
+    - day: Wednesday, Oct 13, 2010
+
+    - start: 9:00am 
+      end: 9:30am
+      title: "Plenary session: Mprobe proposal - ticket #38"
+
+    - start: 9:30am 
+      end: 11:30am
+      title: "Plenary session: Tickets"
+
+    - start: 1130am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+first-votes:
+    - number: 228
+      description: "MPIR Specification - An Official Companion Document for the MPI Standard"
+
+second-votes:
+    - number: 109
+      description:  "Nonblocking Collective Operations (integration into MPI-3 latex)"

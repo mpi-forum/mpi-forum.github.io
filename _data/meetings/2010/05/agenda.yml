@@ -1,0 +1,80 @@
+schedule:
+    - day: Mon, May 3, 2010
+
+    - start: 1:00pm 
+      end: 4:00pm
+      title: "Hybrid working group"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 5:00pm
+      title: "Hybrid working group"
+
+    - start: 5:00pm 
+      end: 7:00pm
+      title: "RMA Working group"
+
+    - endday: done
+
+    - day: Tue, May 4, 2010
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Fault Tolerance working group"
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "RMA working group"
+
+    - start: 11:00am 
+      end: 11:15am
+      title: "Break"
+
+    - start: 11:15am 
+      end: 12:00pm
+      title: "Backwards Compatibility Plenary "
+
+    - start: 12:00pm 
+      end: 2:00pm
+      title: "Backwards Compatibility Plenary (working lunch)"
+
+    - start: 2:00pm 
+      end: 4:00pm
+      title: "Collectives working group"
+
+    - start: 2:00pm 
+      end: 4:00pm
+      title: "RMA working group"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm 
+      end: 7:00pm
+      title: "Fortran working group"
+
+    - start: 4:15pm 
+      end: 7:00pm
+      title: "Hybrid working group"
+
+    - endday: done
+
+    - day: Wed, May 5, 2010
+
+    - start: 9:00pm 
+      end: 10:30pm
+      title: "RMA working group"
+
+    - start: 10:30am 
+      end: 11:30am
+      title: "Backwards Compatibility Working Group"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done

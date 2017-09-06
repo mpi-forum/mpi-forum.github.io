@@ -1,0 +1,76 @@
+schedule:
+    - day: Mon, March 8, 2010
+
+    - start: 1:00pm 
+      end: 4:00pm
+      title: "RMA working Group"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 5:00pm
+      title: "RMA working Group"
+
+    - start: 5:00pm 
+      end: 7:00pm
+      title: "Hybrid Working Group"
+
+    - endday: done
+
+    - day: Tue, March 9, 2010
+
+    - start: 8:00am 
+      end: 11:00am
+      title: "Fault Tolerance working Group"
+
+    - start: 8:00am 
+      end: 11:00am
+      title: "Tools working group"
+
+    - start: 11:00am 
+      end: 11:15am
+      title: "Break"
+
+    - start: 11:15am 
+      end: 12:00pm
+      title: "Tools working group"
+
+    - start: 12:00pm 
+      end: 2:00pm
+      title: "Backwards Compatibility Plenary (working lunch)"
+
+    - start: 2:00pm 
+      end: 4:00pm
+      title: "Tools - Plenary session"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm 
+      end: 7:00pm
+      title: "Fortran working Group"
+
+    - start: 4:15pm 
+      end: 7:00pm
+      title: "RMA working group"
+
+    - endday: done
+
+    - day: Wed, March 10, 2010
+
+    - start: 8:00pm 
+      end: 10:30pm
+      title: "Tools Working Group"
+
+    - start: 10:30am 
+      end: 11:30am
+      title: "Collectives Working Group"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done

@@ -1,0 +1,112 @@
+schedule:
+    - day: Monday, Dec  6, 2010
+
+    - start: 1:00pm 
+      end: 1:30pm
+      title: "Plenary session: Misc admin items "
+
+    - start: 1:30pm 
+      end: 4:00pm
+      title: "Plenary session: Sparse collectives - Formal reading"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Plenary session: Second Vote on MPIR Companion Document"
+
+    - start: 4:15pm 
+      end: 4:30pm
+      title: "Break"
+
+    - start: 4:30pm 
+      end: 7:00pm
+      title: "MPI-3 release process"
+
+    - endday: done
+
+    - day: Tuesday, Dec 7, 2010
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Backward compatibility working group"
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Fortran working group "
+
+    - start: 11:00am 
+      end: 11:15am
+      title: "Break"
+
+    - start: 11:15am 
+      end: 12:00pm
+      title: "Fault Tolerance working group"
+
+    - start: 11:15am 
+      end: 12:00pm
+      title: "Collectives working group"
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working lunch: Fault Tolerance working group"
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working lunch: Collectives working group"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Collectives working group"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Fault Tolerance working group"
+
+    - start: 2:00pm 
+      end: 3:00pm
+      title: "Plenary session: Persistence working group"
+
+    - start: 3:00pm 
+      end: 4:30pm
+      title: "RMA working group"
+
+    - start: 3:00pm 
+      end: 4:30pm
+      title: "Persistence working group"
+
+    - start: 4:30pm 
+      end: 4:45pm
+      title: "Break"
+
+    - start: 4:45pm 
+      end: 7:00pm
+      title: "Point-To-Point working group"
+
+    - start: 4:45pm 
+      end: 7:00pm
+      title: "RMA working group"
+
+    - endday: done
+
+    - day: Wednesday, Dec 8, 2010
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Tools working group"
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "RMA working group"
+
+    - start: 10:30am 
+      end: 11:30am
+      title: "C++ binding deprecation discussion"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+second-votes:
+    - number: 228
+      description: "MPIR Specification - An Official Companion Document for the MPI Standard"
