@@ -1,0 +1,114 @@
+schedule:
+    - day: Monday, April 28 2008
+
+    - start: 1:00pm 
+      end: 1:45pm
+      title: "Reports from the working groups"
+
+    - start: 1:45pm 
+      end: 2:00pm
+      title: "Items from the floor"
+
+    - start: 2:00pm 
+      end: 3:00pm
+      title: "Full Forum: Sturcture of MPI-3"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 4:15pm
+      title: "Full Forum: Structure of MPI-3, continued"
+
+    - start: 4:15pm 
+      end: 4:35pm
+      title: "MPI-2.1 Ballot 3/4 preparation of Second/First official vote"
+
+    - start: 4:35pm 
+      end: 4:55pm
+      title: "MPI-1.3 official reading, i.e. report of the reviewers"
+
+    - start: 4:55pm 
+      end: 5:15pm
+      title: "MPI-2.1 official reading, i.e. report of the reviewers"
+
+    - start: 5:30pm 
+      end: 7:00pm
+      title: "Break for dinner"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "MPI-2.1 official reading, continued, 5-10 min/chapter"
+
+    - start: 9:00pm 
+      end: 10:00pm
+      title: "Further discussions on MPI-1.3/2.1 details (<em>only if needed</em>)"
+
+    - endday: done
+
+    - day: Tuesday, April 29 2008
+
+    - start: 9:00am 
+      end: 9:40am
+      title: "MPI 2.1 Ballot 3/4: Second=final / first vote"
+
+    - start: 9:45am 
+      end: 10:00am
+      title: "MPI 2.1 decisions (straw votes) on open issues from the discussions"
+
+    - start: 10:00am 
+      end: 10:15am
+      title: "Break"
+
+    - start: 10:15am 
+      end: 11:15pm
+      title: "Full Forum: MPI 2.0 dynamics and Fault-tolerance support - Proposal discussion"
+
+    - start: 11:15am 
+      end: 12:15pm
+      title: "MPI 2.1 presentation of results from all discussions finishing the official reading of MPI-1.3 and MPI-2.1"
+
+    - start: 12:15pm 
+      end: 1:30pm
+      title: "Break for lunch"
+
+    - start: 1:30pm 
+      end: 3:00pm
+      title: "Fault Tolerance working group<br />Fortran Working group"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 5:15pm
+      title: "MPI 2.2 discussions<br /> Official Reading: Remove Send Buffer Access Restriction<br /> Official Reading: Adding const Correctness to the C Bindings<br />"
+
+    - start: 5:15pm 
+      end: 7:15pm
+      title: "Point-to-Point working group <br /> ABI working group"
+
+    - endday: done
+
+    - day: Wednesday, April 30, 2008
+
+    - start: 9:00am 
+      end: 9:30am
+      title: "MPI 2.1 follow up"
+
+    - start: 9:30am 
+      end: 10:45am
+      title: "RMA working group <br /> Collectives working group"
+
+    - start: 10:45am 
+      end: 11:00am
+      title: "Wrap up"
+
+    - endday: done
+
+first-votes:
+    - description: "Ballot 4"
+
+second-votes:
+    - description: "Ballot 3"

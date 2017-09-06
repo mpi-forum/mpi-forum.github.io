@@ -1,0 +1,101 @@
+schedule:
+    - day: Wed, Sept 3, 2008
+
+    - start: 1:00pm 
+      end: 1:45pm
+      title: "Reports from the working groups"
+
+    - start: 1:45pm 
+      end: 2:00pm
+      title: "Items from the floor"
+
+    - start: 2:00pm 
+      end: 2:30pm
+      title: "Preparation of final MPI-2.1 and MPI-1.3 votes"
+
+    - start: 2:30pm 
+      end: 3:00pm
+      title: "MPI 2.2 Plenary session"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 5:00pm
+      title: "MPI 2.2 Plenary session - cont'd"
+
+    - start: 5:00pm 
+      end: 7:00pm
+      title: "MPI Tool Support"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "Break for dinner"
+
+    - endday: done
+
+    - day: Thursday, Sept 4, 2008
+
+    - start: 9:00am 
+      end: 9:30am
+      title: "Final vote MPI-2.1 and MPI-1.3"
+
+    - start: 9:30am 
+      end: 11:00pm
+      title: "MPI 2.2 Plenary session - cont'd"
+
+    - start: 11:00am 
+      end: 11:15am
+      title: "Break"
+
+    - start: 11:15am 
+      end: 1:00pm
+      title: "Collectives working group"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Working lunch - Collectives working group"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "Fault tolerance working group"
+
+    - start: 5:00pm 
+      end: 5:15pm
+      title: "Break"
+
+    - start: 5:15pm 
+      end: 7:00pm
+      title: "ABI working group ; MPI 2.2 Plenary session - cont'd"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "Dinner"
+
+
+    - day: Friday, Sept 5, 2008
+
+    - start: 9:00am 
+      end: 9:30am
+      title: "MPI-2.1 wrap up"
+
+    - start: 9:30am 
+      end: 11:30am
+      title: "RMA working group"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+first-votes:
+    - description: "MPI-2.2 Remove send buffer restriction"
+
+    - description: "MPI-2.2 const for C bindings"
+
+second-votes:
+    - description: "MPI-1.3"
+
+    - description: "MPI-2.1"

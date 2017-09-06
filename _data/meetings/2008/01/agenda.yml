@@ -1,0 +1,113 @@
+schedule:
+    - day: Monday, January 14 2008
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Welcome, overall introduction (Rich)<br> Introductions<br> Scope of the effort<br> Voting rules<br> Committee rules "
+
+    - start: 2:00pm 
+      end: 2:15pm
+      title: "Items for the floor (Rich)"
+
+    - start: 2:15pm 
+      end: 3:15pm
+      title: "MPI 2.1 Introduction (Rolf)"
+
+    - start: 3:15pm 
+      end: 3:30pm
+      title: "Break"
+
+    - start: 3:30pm 
+      end: 5:00pm
+      title: "Ballot 3 (Rolf)"
+
+    - start: 5:00pm 
+      end: 6:30pm
+      title: "Break for dinner (in airport area)"
+
+    - start: 6:30pm 
+      end: 8:00pm
+      title: "MPI 2.2 Introduction (Bill)"
+
+    - start: 8:00pm 
+      end: 8:15pm
+      title: "MPI 2.2 committee signup"
+
+    - endday: done
+
+    - day: Tuesday, January 15 2008
+
+    - start: 9:00am 
+      end: 9:30am
+      title: "Discussion and straw vote on ballot #3 (Rolf)"
+
+    - start: 9:30am 
+      end: 11:00am
+      title: "MPI 2.2 committee 1 and 2 meeting<br> (Question: Bill, how do you want to handle this ? - can you fill in details here ?)"
+
+    - start: 11:00am 
+      end: 11:15am
+      title: "Break"
+
+    - start: 11:15am 
+      end: 11:50am
+      title: "Introduction to MPI 3.0 (Rich)"
+
+    - start: 11:50am 
+      end: 12:00pm
+      title: "Overview of Fault Tolerance committee (Rich)"
+
+    - start: 12:00pm 
+      end: 12:10pm
+      title: "Overview of Generalized Requests committee ()"
+
+    - start: 12:10pm 
+      end: 12:20pm
+      title: "Overview of Non-Blocking Collectives committee (Andrew)"
+
+    - start: 12:20pm 
+      end: 12:30pm
+      title: "Overview of One-Sided Communications committee (Bill/Rajeev)"
+
+    - start: 12:30pm 
+      end: 1:30pm
+      title: "Lunch (3.0 committee signup)"
+
+    - start: 1:30pm 
+      end: 3:00pm
+      title: "Fault Tolerance committee meeting (Rich)"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 4:45pm
+      title: "One-Sided Communications committee meeting (Bill/Rajeev)"
+
+    - start: 4:45pm 
+      end: 8:00pm
+      title: "Dinner (downtown ?)"
+
+    - start: 8:00pm 
+      end: 10:00pm
+      title: "MPI 2.2 committee meetings (Bill)<br> Generalized Requests committee meeting ()<br> Non-Blocking Collectives committee meeting (Andrew)"
+
+    - endday: done
+
+
+    - day: Wednesday, January 16 2008
+
+    - start: 9:00am 
+      end: 10:30am 
+      title: "First reading of MPI 2.1 Ballot #3 (Rolf)"
+
+    - start: 10:30am 
+      end: 11:50am
+      title: "Report Back from Committees:<br> MPI 2.1 (Rolf)<br> MPI 2.2 (Bill)<br> Fault Tolerance (Rich)<br> Generalized Requests ()<br> Non-Blocking Collectives (Andrew)<br> One-Sided Communications (Bill/Rajeev) "
+
+    - start: 11:50am 
+      end: 12:00pm
+      title: "Wrap up and adjourn (Rich)"
+
+    - endday: done

@@ -1,0 +1,79 @@
+schedule:
+    - day: Mon, Oct 20, 2008
+
+    - start: 1:00pm 
+      end: 1:45pm
+      title: "Reports from the working groups"
+
+    - start: 1:45pm 
+      end: 2:00pm
+      title: "Items from the floor"
+
+    - start: 2:00pm 
+      end: 3:00pm
+      title: "MPI 2.2 Plenary session"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 5:00pm
+      title: "MPI 2.2 Plenary session - cont'd"
+
+    - start: 5:00pm 
+      end: 7:00pm
+      title: "MPI higher-level language support"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "Break for dinner"
+
+
+
+    - day: Tuesday, Oct 21, 2008
+
+    - start: 9:00am 
+      end: 11:00pm
+      title: "MPI 2.2 Plenary session - cont'd"
+
+    - start: 10:45am 
+      end: 11:00am
+      title: "Break"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "RMA working group ; Misc Working Group"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Working lunch - RMA working group; Misc Working Group"
+
+    - start: 2:00pm 
+      end: 5:00pm
+      title: "Fault tolerance working group"
+
+    - start: 5:00pm 
+      end: 5:15pm
+      title: "Break"
+
+    - start: 5:15pm 
+      end: 7:00pm
+      title: "MPI 2.2 Plenary session - cont'd"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "Dinner"
+
+
+    - day: Wed, Oct 22, 2008
+
+    - start: 9:00am 
+      end: 11:30am
+      title: "Collectives working group; ABI Consortium meeting"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+    - endday: done

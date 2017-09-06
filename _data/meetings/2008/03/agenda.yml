@@ -1,0 +1,100 @@
+schedule:
+    - day: Monday, March 10 2008
+
+    - start: 1:00pm 
+      end: 1:45pm
+      title: "Reports from the working groups"
+
+    - start: 1:45pm 
+      end: 2:00pm
+      title: "Items from the floor"
+
+    - start: 2:00pm 
+      end: 3:00pm
+      title: "MPI 2.1 - Ballot 4 proposals - official reading"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 5:15pm
+      title: "MPI 2.1 - Ballot 4 proposals - continued"
+
+    - start: 5:15pm 
+      end: 5:30pm
+      title: "Ballot 3 preparation of First official vote"
+
+    - start: 5:30pm 
+      end: 7:00pm
+      title: "Break for Dinner>"
+
+    - start: 7:00pm 
+      end: 9:00pm
+      title: "MPI 3.0 ABI working Group"
+
+    - endday: done
+
+    - day: Tuesday, March 11 2008
+
+    - start: 9:00am 
+      end: 9:30am
+      title: "MPI 2.1 - Ballot 4: Straw vote"
+
+    - start: 9:30am 
+      end: 10:00am
+      title: "MPI 2.1 - Ballot 3: First official vote"
+
+    - start: 10:00am 
+      end: 10:15am
+      title: "Break>"
+
+    - start: 10:15am 
+      end: 12:15pm
+      title: "MPI 3.0 Fault tolerance Working Group<br>MPI 3.0 Fortran Bindings"
+
+    - start: 12:15pm 
+      end: 1:30pm
+      title: "Break for lunch (on your own)"
+
+    - start: 1:30pm 
+      end: 3:00pm
+      title: "MPI 2.1 combined document review"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 3:45pm
+      title: "MPI 1.3 Review"
+
+    - start: 3:45pm 
+      end: 5:45pm
+      title: "MPI 3.0 Remote Memory Access Working Group<br> MPI 3.0 Point-to-Point working group (const, send buffer access)"
+
+    - start: 5:45pm 
+      end: 7:15pm
+      title: "MPI 3.0 Generalized Request Working Group<br> MPI 3.0 Sub-Setting working group"
+
+    - endday: done
+
+    - day: Wednesday, March 12 2008
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "MPI 3.0 Collective Operations Working Group"
+
+    - start: 11:00am 
+      end: 11:30am
+      title: "MPI 2.1 follow up"
+
+    - start: 11:30am 
+      end: 12:00pm
+      title: "Wrap up"
+
+
+    - endday: done
+
+first-votes:
+    - description: "Ballot 3: items 1-4 and 7-14"
