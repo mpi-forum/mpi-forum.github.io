@@ -1,0 +1,112 @@
+test: data
+
+schedule:
+    - day: Monday, Dec 3
+
+    - start: 1:00pm
+      end: 2:00pm
+      title: "Planary session: Follow up on SC responses to MPI 3.0, and MPI 3.0 errata plans."
+
+    - start: 2:00pm
+      end: 3:00pm
+      title: "Planary session: Future direction with nonblocking I/O."
+
+    - start: 3:00pm
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm
+      end: 6:30pm
+      title: "Planary session: Future direction with hybrid programming efforts."
+
+    - endday: done
+
+
+    - day: Tuesday, Dec 4
+
+    - start: 9:00am
+      end: 12:00am
+      title: "Planary session: Future direction with Fault Tolerance support in MPI."
+
+    - start: 2:00pm
+      end: 1:00pm
+      title: "Lunch break"
+
+    - start: :00pm
+      end: 1:30pm
+      title: "Plenary Session: Fortran Programming group - Errata vote Ticket #345"
+
+    - start: 1:30pm
+      end: 4:00pm
+      title: "MPI-Next/4 structure and future direction."
+
+    - start: 4:00pm
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm
+      end: 7:00pm
+      title: "MPI-Next/4 structure and future direction - cont'd."
+
+    - endday: done
+
+
+    - day: Wednesday, Dec 5
+
+    - start: 9:00am
+      end: 11:00am
+      title: "RMA/FT joint working group."
+
+    - start: 1:00am
+      end: 12:00pm
+      title: "Persistence working group - collective and Point-to-point performance enhancements."
+
+    - start: 2:00pm
+      end: 1:00pm
+      title: "Lunch break"
+
+    - start: 1:00pm
+      end: 3:00pm
+      title: "RMA working group"
+
+    - start: 1:00pm
+      end: 4:00pm
+      title: "FT/Tools working group - piggybacking"
+
+    - start: 4:00pm
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm
+      end: 7:00pm
+      title: "FT working group"
+
+    - endday: done
+
+
+    - day: Thursday, Dec 6
+
+    - start: 9:00am
+      end: 11:00am
+      title: "Collectives working group"
+
+    - start: 9:00am
+      end: 11:00am
+      title: "Hybrid working group"
+
+    - start: 1:00am
+      end: 1:00pm
+      title: "Working lunch: Tools working group"
+
+    - start: 1:30pm
+      end: 2:00pm
+      title: "Wrap up"
+
+    - endday: done
+
+procedure-votes:
+    - description: "Motion to adjourn the MPI Forum indefinitely"
+
+errata-votes:
+    - number: 345
+      description: "MPI-3.0 Errata: Corrections to the Fortran interface"

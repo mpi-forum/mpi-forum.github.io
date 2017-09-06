@@ -1,0 +1,211 @@
+schedule:
+    - day: Monday, March 5, 2012
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Plenary Session: Hybrid working group -  <br>
+      Clarify MPI behavior when multiple MPI processes run in the same address space - formal reading Ticket #310"
+
+    - start: 2:00pm 
+      end: 3:00pm
+      title: "Plenary Session: Hybrid working group -  <br>
+      Provide a mechanism for migrating threads between MPI processes - formal reading Ticket #311"
+
+    - start: 3:00pm 
+      end: 4:00pm
+      title: "Plenary Session: Hybrid working group -  <br>
+      Helper Threads - formal reading Ticket #217"
+
+    - start: 4:00pm 
+      end: 4:15pm
+      title: "Break"
+
+    - start: 4:15pm 
+      end: 6:30pm
+      title: "Planary Session: Fault Tolerance working group Formal Readings -  <br>
+      User-Level Failure Mitigation - Ticket #323,  <br>
+      Clarify MPI_ERRORS_ARE_FATAL scope of abort - Ticket #324"
+
+    - start: 6:30pm 
+      end: 7:30pm
+      title: "Dinner on own"
+
+    - start: 7:30pm 
+      end: 10:00pm
+      title: "Planary Session: Fault Tolerance working group Formal Readings -  <br>
+      User-Level Failure Mitigation - Ticket #323,  <br>
+      Clarify MPI_ERRORS_ARE_FATAL scope of abort - Ticket #324"
+
+    - endday: done
+
+    - day: Tuesday, March 6, 2012
+
+    - start: 8:45am 
+      end: 9:30am
+      title: "Existing ticket 0 -  <br>
+      Mention C++ typedef deprecations - ticket #185,  <br>
+      Minor Text Correction / MPI_COMM_GET_NAME + MPI_GET_PROCESSOR_NAME - ticket #207,  <br>
+      MPI-2.2 typo - missing parenthesis on page 272, line 25 - ticket #215,  <br>
+      Typo in the description of MPI_GROUP_INCL - ticket #254,  <br>
+      Missing headline for MPI_GET_PROCESSOR_NAME - ticket #255,  <br>
+      Minor typos in pt2pt chapter - ticket #262,  <br>
+      wrong formula for the upper bound - ticket #263,  <br>
+      Typo in One-Sided chapter 11.4.4 - ticket #267,  <br>
+      Formatting issue in One-Sided chapter 11.4.4 - ticket #268, <br>
+      MPI 2.1 Clarification - MPI_Cart_map with num_dims=0 - ticket #162,  <br>
+      s/legal/something_better/g - ticket #182,  <br>
+      MPI_MAX_OBJECT_NAME and MPI_Type/win_get_name - ticket #219,  <br>
+      Typo-Correction in ALLTOALLV - ticket #312"
+
+    - start: 9:30am 
+      end: 10:00am
+      title: "Plenary Session: MPI_info object - formal reading - Ticket #271"
+
+    - start: 10:00am 
+      end: 10:15am
+      title: "Votes"
+
+    - start: 10:15am 
+      end: 10:30am
+      title: "Break"
+
+    - start: 10:30am 
+      end: 11:30am
+      title: "Votes"
+
+    - start: 11:30am 
+      end: 12:30pm
+      title: "Working lunch: Plenary Session: Formal Readings:  <br>
+      Add Immediate versions of nonblocking collective I/O routines (Koziel) - ticket #273, <br>
+      Noncollective Communicator Creation(Dinan) - ticket #286"
+
+
+    - start: 12:30pm 
+      end: 4:30pm
+      title: "Plenary Session: Formal Readings: <br>
+      Update MPI_Intercomm_create to use collective tag space(Dinan) - ticket #305, <br>
+      Update examples to not use deprecated constructs (where possible)(Tillier) - ticket #278, <br>
+      Remove C++ Bindings(Tillier) - ticket #281, <br>
+      MPI_UNWEIGHTED should not be NULL - ticket #294 <br>
+      Change MPI_OFFSET external32 size to 16 Bytes - ticket #196, <br>
+      MPI_WAIT/TEST language unclear about non blocking I/O, Generalized, or collective requests - ticket #321,  <br>
+      Topology awareness in MPI_Dims_create(Balaji) - ticket #195, <br>
+      Move MPI-1 deprecated functions to new Removed Interfaces chapter(Tillier) - ticket #303"
+
+    - start: 4:30pm 
+      end: 4:45pm
+      title: "Break"
+
+    - start: 4:45pm 
+      end: 6:30pm
+      title: "Plenary Session: Formal Readings: <br>
+      Clarification that MPI_Cart_map and MPI_Graph_map are local calls(Traff/Rabenseifner) - ticket #158, <br>
+      For reductions: Grouping MPI_AINT, MPI_OFFSET, MPI_COUNT as Multi-language types(Ritzdorf/Rabenseifner) - ticket #187, <br>
+      Clarify ambiguous sentence for MPI_FINALIZE(Snir) - ticket #227,  <br>
+      MPI_PROC_NULL behavior for MPI_PROBE and MPI_IPROBE not directly defined(Squyres) - ticket #256,  <br>
+      Text updates for MPI_DIST_GRAPH(Moody) - ticket #259 "
+
+    - start: 6:30pm 
+      end: 7:30pm
+      title: "Dinner on own"
+
+    - start: 7:30pm 
+      end: 9:30pm
+      title: "Plenary Session: Formal Readings:  <br>
+      Consistent use of [] for input arrays(Tillier) - ticket #126,  <br>
+      K&R style on 6.7.6(Tillier) - ticket #293"
+
+
+    - endday: done
+
+    - day: Wednesday, March 7, 2012
+
+    - start: 9:00am 
+      end: 10:00am
+      title: "Plenary Session: Formal Reading:  <br>
+      Update examples to not use deprecated constructs (where possible)(Tillier) - ticket #278,   <br>
+      Plenary Session: Relaxing MPI_TYPE_GET_ENVELOPE combiner rules "
+
+    - start: 10:00am 
+      end: 12:00pm
+      title: "Planary Session: Formal Readings  <br>
+      User-Level Failure Mitigation - Ticket #323,  <br>
+      MPI3 Fault Tolerance - Files - Ticket #326,  <br>
+      MPI3 Fault Tolerance - Dynamic process management - Ticket #327,  <br>
+      Clarify MPI behavior when multiple MPI processes run in the same address space - Ticket #310,  <br>
+      Provide a mechanism for migrating threads between MPI processes - Ticket #311,  <br>
+      MPI_INIT & MPI_FINALIZE - Ticket #313"
+
+    - start: 12:00pm 
+      end: 12:30pm
+      title: "Working Lunch: Plenary Session: MPI 3.0 status"
+
+    - start: 12:30pm 
+      end: 3:30pm
+      title: "Plenary Session: Formal Readings:  <br>
+      Nonblocking Communicator Duplication - ticket #168,  <br>
+      MPI_IN_PLACE in Gather (Hoefler) - ticket #163,  <br>
+      Fix issue with definition of nonblocking in One Sided Chapter (Hoefler) - ticket #300,  <br>
+      Fix MPI_PROC_NULL behavior for mprobe/improbe/mrecv/imrecv - ticket #328,  <br>
+      Topology awareness in MPI_Dims_create - ticket #195,  <br>
+      C++ binding for Dist_graph_neighbors_count is badly broken - ticket #192,  <br>
+      Correct error related to MPI_REQUEST_FREE - ticket #317"
+
+    - endday: done
+
+ticket-zero-votes:
+    - description: "Big ticket 0 glob: #162, #182, #185, #207, #215, #219, #254, #255, #262, #263, #312, #322"
+      number: 0
+
+    - description: "Use of [] in output arrays"
+      number: 125
+
+    - description: "Consistent use of [] for input arrays"
+      number: 126
+
+    - description: "K&R style on 6.7.6"
+      number: 293
+
+    - description: "MPI_WAIT/TEST language unclear about non blocking I/O, Generalized, or collective requests."
+      number: 321
+
+    - description: "Clarification that MPI_Cart_map and MPI_Graph_map are local calls"
+      number: 158
+
+    - description: "Text updates for MPI_DIST_GRAPH"
+      number: 259
+
+first-votes:
+    - description: "RMA - Remove sentence on offset in datatypes"
+      number: 308
+
+    - description: "RMA - Clarify usage of status for request-based RMA operations"
+      number: 309
+
+    - description: "Allocate a shared memory window"
+      number: 284
+
+    - description: "Add a new datatype creation routine - MPI_Type_create_hindexed_block"
+      number: 280
+
+    - description: "Nonblocking Communicator Duplication"
+      number: 168
+
+    - description: "Remove non-blocking collective C++ bindings"
+      number: 272
+
+    - description: "Noncollective Communicator Creation"
+      number: 286
+
+    - description: "Update MPI_Intercomm_create to use collective tag space"
+      number: 305
+
+second-votes:
+    - description: "Adding clarification to MPI_WIN_LOCK_ALL"
+      number: 298
+
+    - description: "New MPI-3 Fortran Support - #A: Overview over all related tickets"
+      number: 229
+
+    - description: "Change displs arguments in neighborhood w collectives to MPI_Aint"
+      number: 29

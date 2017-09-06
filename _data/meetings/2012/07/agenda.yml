@@ -1,0 +1,154 @@
+schedule:
+    - day: Monday, July 16, 2012
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Forum Logistics"
+
+    - start: 2:00pm 
+      end: 3:30pm
+      title: "Votes"
+
+    - start: 3:30pm 
+      end: 3:45pm
+      title: "Break"
+
+    - start: 3:45pm 
+      end: 5:45pm
+      title: "Front Matter & Introduction chapter committee  - final chapter edits"
+
+    - start: 3:45pm 
+      end: 5:45pm
+      title: "Point-to-Point chapter committee  - final chapter edits"
+
+    - start: 5:45pm 
+      end: 6:15pm
+      title: "MPI 3.0 final logistics"
+
+    - start: 6:15pm 
+      end: 7:15pm
+      title: "MPI Next"
+
+    - endday: done
+
+
+    - day: Tuesday, July 17, 2012
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Datytypes chapter committee  - final chapter edits"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "Working Lunch: Collectives chapter committee  - final chapter edits"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Process Topologies chapter committee  - final chapter edits"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 5:15pm
+      title: "Process Creation and Management chapter committee  - final chapter edits"
+
+    - start: 3:15pm 
+      end: 5:15pm
+      title: "Deprecated Functions chapter committee  - final chapter edits"
+
+    - start: 5:15pm 
+      end: 7:15pm
+      title: "One-Sided Communications chapter committee  - final chapter edits"
+
+    - start: 5:15pm 
+      end: 7:15pm
+      title: "External Interfaces chapter committee  - final chapter edits"
+
+    - endday: done
+
+    - day: Wednesday, July 18, 2012
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "Terms and Definitions chapter committee  - final chapter edits"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "Working Lunch: Groups, Contexts, and Communicators chapter committee  - final chapter edits"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "Working Lunch: Profiling Interface chapter committee  - final chapter edits"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Environmental Management chapter committee  - final chapter edits"
+
+    - start: 3:00pm 
+      end: 3:15pm
+      title: "Break"
+
+    - start: 3:15pm 
+      end: 5:15pm
+      title: "Info Object chapter committee  - final chapter edits"
+
+    - start: 5:15pm 
+      end: 7:15pm
+      title: "Language bindings chapter committee  - final chapter edits"
+
+    - endday: done
+
+    - day: Thursday, July 19, 2012
+
+    - start: 9:00am 
+      end: 11:00am
+      title: "I/O chapter committee  - final chapter edits"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "Working Lunch: Annex Language Bindings Summary chapter committee  - final chapter edits"
+
+    - endday: done
+
+first-and-only-votes:
+    - description: "C/Fortran predefined datatypes for C++ types"
+      number: 340
+
+second-votes:
+    - description: "Grouping MPI_AINT, MPI_OFFSET, MPI_COUNT as Multi-language types"
+      number: 187
+
+    - description: "C++ binding for Dist_graph_neighbors_count is badly broken"
+      number: 192
+
+    - description: "MPI_PROC_NULL behavior for MPI_PROBE and MPI_IPROBE not directly defined"
+      number: 256
+
+    - description: "Functions to query MPI_Info object attached to windows and communicators"
+      number: 271
+
+    - description: "Update examples to not use deprecated constructs (where possible)"
+      number: 278
+
+    - description: "Remove C++ Bindings"
+      number: 281
+
+    - description: "MPI_UNWEIGHTED should not be NULL"
+      number: 294
+
+    - description: "Fix issue with definition of nonblocking in One Sided Chapter"
+      number: 300
+
+    - description: "Move MPI-1 deprecated functions to new \"Removed Interfaces\" chapter"
+      number: 303
+
+    - description: "MPI_INIT & MPI_FINALIZE"
+      number: 313
+
+    - description: "correct error related to MPI_REQUEST_FREE"
+      number: 317
+
+    - description: "fix MPI_PROC_NULL behavior for mprobe/improbe/mrecv/imrecv"
+      number: 328

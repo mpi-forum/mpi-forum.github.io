@@ -1,0 +1,124 @@
+schedule:
+    - day: Monday, Jan 9, 2012
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Fault Tolerance working group"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Persistence working group"
+
+    - start: 3:00pm 
+      end: 3:05pm
+      title: "Plenary Session: Hybrid Programming group -  Shared Memory Proposal - 2nd vote  - Ticket #287"
+
+    - start: 3:05pm 
+      end: 3:10pm
+      title: "Plenary Session: Tools working group -  get_library_version - 2nd vote  - Ticket #204"
+
+    - start: 3:10pm 
+      end: 3:15pm
+      title: "Plenary Session:  Optional C++ Bindings - 2nd vote  - Ticket #279"
+
+    - start: 3:15pm 
+      end: 3:45pm
+      title: "Plenary Session: MPI_Init/Finalize ref-counting - formal reading  - Ticket #302"
+
+    - start: 3:45pm 
+      end: 4:00pm
+      title: "Break"
+
+    - start: 4:00pm 
+      end: 4:10pm
+      title: "Plenary Session: RMA working group - Modified RMA support - 2nd vote  - Ticket #270"
+
+    - start: 4:10pm 
+      end: 4:20pm
+      title: "Plenary Session: Change displs in neighborhood collectives -- 2nd vote  - ticket #299"
+
+    - start: 4:20pm 
+      end: 4:30pm
+      title: "Plenary Session: Tools working group -  MPI_T - 2nd vote  - Ticket #266"
+
+    - start: 4:30pm 
+      end: 4:45pm
+      title: "Plenary Session: Adding clarification to MPI_WIN_LOCK_ALL - formal reading  - ticket #298"
+
+    - start: 4:45pm 
+      end: 5:00pm
+      title: "Plenary Session: Fortran Bindings -- 1st vote  - ticket #229"
+
+    - start: 5:00pm 
+      end: 7:00pm
+      title: "Plenary Session: Fault Tolerance working group -  - Ticket #276"
+
+    - endday: done
+
+    - day: Tuesday, Jan 10, 2012
+
+    - start: 9:00am 
+      end: 10:00am
+      title: "Plenary Session: Hybrid working group- Endpoints - formal reading   - Ticket #310"
+
+    - start: 10:00am 
+      end: 11:00am
+      title: "Plenary Session: Hybrid working group- Endpoints - formal reading   - Ticket #311"
+
+    - start: 11:00am 
+      end: 1:00pm
+      title: "Working lunch - Plenary Session: Hybrid working group- Helper Threads - formal reading   - Ticket #217"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Plenary Session: MPI Noncollective Communicator Creation - formal reading - Ticket #286  and  - Ticket #305"
+
+    - start: 2:00pm 
+      end: 2:30pm
+      title: "Plenary Session: RMA working group - Ticket #308  and  - Ticket #309"
+
+    - start: 4:30pm 
+      end: 5:00pm
+      title: "Break"
+
+    - start: 5:00pm 
+      end: 6:00pm
+      title: "Plenary Session: MPI_Icomm_dup - Formal reading  - Ticket #168"
+
+    - start: 6:00pm 
+      end: 7:00pm
+      title: "Plenary Session: C++ bindings - Formal reading  - Ticket #281"
+
+    - start: 8:00pm 
+      end: 9:00pm
+      title: "Plenary Session: Removing deprecated functions - Formal reading  - Ticket #278, and  - Ticket #303"
+
+    - endday: done
+
+    - day: Wednesday, Jan 11, 2012
+
+    - start: 9:00am 
+      end: 10:30am
+      title: "Plenary Session: Nonblocking collective I/O routines - formal reading  - Ticket #273"
+
+    - start: 10:30am 
+      end: 10:45am
+      title: "Plenary Session: Decide the fate of FT in MPI 3.0 -- formal vote"
+
+    - start: 10:45am 
+      end: 11:15am
+      title: "Plenary Session: MPI_Type_create_indexed_blocked - formal reading  - Ticket #280"
+
+    - start: 11:15am 
+      end: 1:00pm
+      title: "Working lunch - Plenary Session: Hybrid Programming group - Shared Memory Window Allocation - Formal Reading  - Ticket #284"
+
+    - start: 1:00pm 
+      end: 2:00pm
+      title: "Plenary Session: Scalable vector collectives - formal reading   - Ticket #264"
+
+    - start: 2:00pm 
+      end: 3:00pm
+      title: "Plenary Session: MPI_Icomm_dup - formal reading   - Ticket #168"
+
+    - endday: done

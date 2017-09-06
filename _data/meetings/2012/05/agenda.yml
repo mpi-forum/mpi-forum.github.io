@@ -1,0 +1,158 @@
+schedule:
+    - day: Monday, May 28, 2012
+
+    - start: 10:00am 
+      end: 10:30pm
+      title: "Forum Logistics"
+
+    - start: 10:30am 
+      end: 12:00pm
+      title: "Fault Tolerance working group"
+
+    - start: 12:00pm 
+      end: 1:30pm
+      title: "Working Lunch: Fault Tolerance working group"
+
+    - start: 1:30pm 
+      end: 2:00pm
+      title: "Planary session: NUDT efforts and view of MPI - Dr Min Xie, National University of Defense Technology"
+
+    - start: 2:00pm 
+      end: 2:30pm
+      title: "Planary session: Fujitsu extensions of Open MPI for the K Computer - Takahiro Kawashima, Tomoya Adachi, Shinji Sumimoto"
+
+    - start: 2:30pm 
+      end: 3:30pm
+      title: "Planary session: Overview of current FT implementations"
+
+    - start: 3:30pm 
+      end: 4:00pm
+      title: "Break"
+
+    - start: 4:00pm 
+      end: 5:30pm
+      title: "Planary session: MPI 3.1 - initial plans"
+
+    - start: 5:30pm 
+      end: 6:00pm
+      title: "Planary session: MPI 3.0 - Draft standard"
+
+    - endday: done
+
+
+    - day: Tuesday, May 29, 2012
+
+    - start: 9:00am 
+      end: 12:00pm
+      title: "Tools working group"
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working Lunch: Fault Tolerace proposal - Skjellum"
+
+    - start: 1:00pm 
+      end: 3:00pm
+      title: "Fault Tolerace proposal, Continued - Skjellum"
+
+    - start: 3:00pm 
+      end: 5:00pm
+      title: "Collectives working group"
+
+    - endday: done
+
+    - day: Wednesday, May 30, 2012
+
+    - start: 9:00am 
+      end: 10:30pm
+      title: "Votes"
+
+    - start: 10:30am 
+      end: 11:00am
+      title: "Break"
+
+    - start: 11:00am 
+      end: 12:00pm
+      title: "Votes continued"
+
+    - start: 12:00pm 
+      end: 1:00pm
+      title: "Working lunch: Summary and Forum business"
+
+    - endday: done
+
+first-votes:
+    - description: "Grouping MPI_AINT, MPI_OFFSET, MPI_COUNT as Multi-language types"
+      number: 187
+
+    - description: "C++ binding for Dist_graph_neighbors_count is badly broken"
+      number: 192
+
+    - description: "Topology awareness in MPI_Dims_create"
+      number: 195
+
+    - description: "MPI3 Hybrid Programming: Proposal for Helper Threads"
+      number: 217
+
+    - description: "MPI_PROC_NULL behavior for MPI_PROBE and MPI_IPROBE not directly defined"
+      number: 256
+
+    - description: "Functions to query MPI_Info object attached to windows and communicators"
+      number: 271
+
+    - description: "Add Immediate versions of nonblocking collective I/O routines"
+      number: 273
+
+    - description: "Update examples to not use deprecated constructs (where possible)"
+      number: 278
+
+    - description: "Remove C++ Bindings"
+      number: 281
+
+    - description: "MPI_UNWEIGHTED should not be NULL"
+      number: 294
+
+    - description: "Fix issue with definition of nonblocking in One Sided Chapter"
+      number: 300
+
+    - description: "Move MPI-1 deprecated functions to new \"Removed Interfaces\" chapter"
+      number: 303
+
+    - description: "MPI_INIT & MPI_FINALIZE"
+      number: 313
+
+    - description: "clarify MPI behavior when multiple MPI processes run in the same address space"
+      number: 310
+
+    - description: "correct error related to MPI_REQUEST_FREE"
+      number: 317
+
+    - description: "User-Level Failure Mitigation"
+      number: 323
+
+    - description: "fix MPI_PROC_NULL behavior for mprobe/improbe/mrecv/imrecv"
+      number: 328
+
+second-votes:
+    - description: "RMA - Remove sentence on offset in datatypes"
+      number: 308
+
+    - description: "RMA - Clarify usage of status for request-based RMA operations"
+      number: 309
+
+    - description: "Allocate a shared memory window"
+      number: 284
+
+    - description: "Add a new datatype creation routine - MPI_Type_create_hindexed_block"
+      number: 280
+
+    - description: "Nonblocking Communicator Duplication"
+      number: 168
+
+    - description: "Remove non-blocking collective C++ bindings"
+      number: 272
+
+    - description: "Noncollective Communicator Creation"
+      number: 286
+
+    - description: "Update MPI_Intercomm_create to use collective tag space"
+      number: 305
