@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "MPI Forum, Feb. 2009 meeting"
-AuthUserFile /nfs/rontok/xraid/users/jsquyres/Public/meetings.mpi-forum.org/2009-02-htpasswd.txt
-Require valid-user
