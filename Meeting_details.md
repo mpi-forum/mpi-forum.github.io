@@ -227,28 +227,28 @@ permalink: meetings/
 
 ##### December 15 - 17, 2008: Sun, Menlo Park, CA
 
-|[Logistics](2008/12/logistics)|[Agenda](2008/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/12)|[Attendance](2008/12/attendance)|[Voting](2008/12/votes)|
+|[Logistics](2008/12/logistics)|[Agenda](2008/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/12)|[Attendance](2008/12/attendance)|[Voting](2008/12/votes)|[Notes](2008/12/notes)|
 
 ##### October 20 - 22, 2008: Marriott O'Hare, Chicago, IL
 
-|[Logistics](2008/10/logistics)|[Agenda](2008/10/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/10)|[Attendance](2008/10/attendance)|[Voting](2008/10/votes)|
+|[Logistics](2008/10/logistics)|[Agenda](2008/10/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/10)|[Attendance](2008/10/attendance)|[Voting](2008/10/votes)|[Notes](2008/10/notes)|
 
 ##### September 3 - 5, 2008: University College Park, Dublin, Ireland
 
-|[Logistics](2008/09/logistics)|[Agenda](2008/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/09)|[Attendance](2008/09/attendance)|[Voting](2008/09/votes)|
+|[Logistics](2008/09/logistics)|[Agenda](2008/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/09)|[Attendance](2008/09/attendance)|[Voting](2008/09/votes)|[Notes](2008/09/notes)|
 
 ##### June 30 - July 2, 2008: Sun, Menlo Park, CA
 
-|[Logistics](2008/06/logistics)|[Agenda](2008/06/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/06)|[Attendance](2008/06/attendance)|[Voting](2008/06/votes)|
+|[Logistics](2008/06/logistics)|[Agenda](2008/06/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/06)|[Attendance](2008/06/attendance)|[Voting](2008/06/votes)|[Notes](2008/06/notes)|
 
 ##### April 28 - 30, 2008: Microsoft's Downtown Facility, Chicago, IL
 
-|[Logistics](2008/04/logistics)|[Agenda](2008/04/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/04)|[Attendance](2008/04/attendance)|[Voting](2008/04/votes)|
+|[Logistics](2008/04/logistics)|[Agenda](2008/04/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/04)|[Attendance](2008/04/attendance)|[Voting](2008/04/votes)|[Notes](2008/04/notes)|
 
 ##### March 10 - 12, 2008: Marriott O'Hare, Chicago, IL
 
-|[Logistics](2008/03/logistics)|[Agenda](2008/03/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/03)|[Attendance](2008/03/attendance)|[Voting](2008/03/votes)|
+|[Logistics](2008/03/logistics)|[Agenda](2008/03/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/03)|[Attendance](2008/03/attendance)|[Voting](2008/03/votes)|[Notes](2008/03/notes)|
 
 ##### January 14 - 16, 2008: Marriott O'Hare, Chicago, IL
 
-|[Logistics](2008/01/logistics)|[Agenda](2008/01/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/01)|[Attendance](2008/01/attendance)|[Voting](2008/01/votes)|
+|[Logistics](2008/01/logistics)|[Agenda](2008/01/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2008/01)|[Attendance](2008/01/attendance)|[Voting](2008/01/votes)|[Notes](2008/01/notes)|
