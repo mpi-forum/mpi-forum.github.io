@@ -1,0 +1,9 @@
+topic,yes,no,abstain,missed
+"#6: Function Pointer Arguments to MPI::Grequest::Start (1st vote)",23,0,0,4
+"#10: MPI_CANCEL Argument is Wrong Type (1st vote)",22,1,0,4
+"#11: Remove C++ Deprecated Section (1st vote)",23,0,0,4
+"#41: Typo in description of MPI_Cart_shift (1st vote)",23,0,0,4
+"#42: Minor typo in description of MPI_Cart_rank (1st vote)",23,0,0,4
+"#49: MPI-2.1 Errata MPI_MAX_OBJECT_NAME (page 237 lines 1+3, page 563, lines 18+20) (1st vote)",23,0,0,4
+"#21: Typo in a personal name (2nd vote)",22,1,0,4
+"#45: Send Buffer Access (2nd vote)",21,2,0,4
