@@ -1,0 +1,19 @@
+topic,yes,no,abstain,missed
+"#0: Big ticket 0 glob: #162, #182, #185, #207, #215, #219, #254, #255, #262, #263, #312, #322 (Ticket 0 vote)",17,0,0,4
+"#125: Use of [] in output arrays (Ticket 0 vote)",18,0,0,3
+"#126: Consistent use of [] for input arrays (Ticket 0 vote)",18,0,0,3
+"#293: K&R style on 6.7.6 (Ticket 0 vote)",18,0,0,3
+"#321: MPI_WAIT/TEST language unclear about non blocking I/O, Generalized, or collective requests. (Ticket 0 vote)",19,0,0,2
+"#158: Clarification that MPI_Cart_map and MPI_Graph_map are local calls (Ticket 0 vote)",16,2,1,2
+"#259: Text updates for MPI_DIST_GRAPH (Ticket 0 vote)",17,1,0,3
+"#308: RMA - Remove sentence on offset in datatypes (1st vote)",17,0,2,2
+"#309: RMA - Clarify usage of status for request-based RMA operations (1st vote)",19,0,0,2
+"#284: Allocate a shared memory window (1st vote)",16,0,3,2
+"#280: Add a new datatype creation routine - MPI_Type_create_hindexed_block (1st vote)",19,0,1,1
+"#168: Nonblocking Communicator Duplication (1st vote)",17,0,1,3
+"#272: Remove non-blocking collective C++ bindings (1st vote)",17,0,2,2
+"#286: Noncollective Communicator Creation (1st vote)",19,0,1,1
+"#305: Update MPI_Intercomm_create to use collective tag space (1st vote)",19,0,1,1
+"#298: Adding clarification to MPI_WIN_LOCK_ALL (2nd vote)",20,0,0,1
+"#229: New MPI-3 Fortran Support - #A: Overview over all related tickets (2nd vote)",19,0,1,1
+"#299: Change displs arguments in neighborhood w collectives to MPI_Aint (2nd vote)",19,0,1,1

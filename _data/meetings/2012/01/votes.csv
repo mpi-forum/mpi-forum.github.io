@@ -1,0 +1,10 @@
+topic,yes,no,abstain,missed
+"#287: MPI_Comm_split_type functionality (2nd vote)",17,1,0,0
+"#204: Query minor/implementation specific versions (2nd vote)",18,0,0,0
+"#279: Make C++ bindings optional (2nd vote)",16,1,1,0
+"#270: Updated RMA chapter (2nd vote)",16,1,1,0
+"#266: MPIT Tool Interface / Reorganization of the Profiling Chapter (2nd vote)",18,0,0,0
+"#299: Change displs arguments in neighborhood w collectives to MPI_Aint (1st vote)",17,0,1,0
+"#229: New MPI-3 Fortran Support - #A: Overview over all related tickets (1st vote)",16,0,1,1
+"#298: Adding clarification to MPI_WIN_LOCK_ALL (1st vote)",16,0,0,2
+"Should Fault Tolerance still be a gating factor for MPI-3.0?",5,10,3,0
