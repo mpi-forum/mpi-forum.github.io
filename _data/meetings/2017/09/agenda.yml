@@ -126,7 +126,7 @@ schedule:
     - date: 2017-09-21
       start: 5:00pm
       end: 5:30pm
-      title: "MPI Forum Business Discussion"
+      title: "FP16"
       link:
       password:
 
@@ -163,8 +163,15 @@ schedule:
 
     - date: 2016-09-22
       start: 11:00am
-      end: 12:30pm
+      end: 12:00pm
       title: "Plenary (see below)"
+      link:
+      password:
+
+    - date: 2017-09-22
+      start: 12:00pm
+      end: 12:30pm
+      title: "MPI Forum Business Discussion"
       link:
       password:
 
@@ -258,4 +265,24 @@ plenaries:
     - type: Discussion
       title: Update on MPI Sessions
       presenter: Dan
+      done: 0
+
+    - type: Discussion
+      title: Update on MPI P2P topics
+      presenter: Dan
+      done: 0
+
+    - type: Discussion
+      title: MPI Timers
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Discussion
+      title: The MPI_T Events proposal
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Discussion
+      title: Moving towards unique MPI_T event IDs
+      presenter: Marc-Andre
       done: 0
