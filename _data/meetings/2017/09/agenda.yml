@@ -8,8 +8,8 @@ schedule:
       start: 9:00am
       end: 10:30am
       title: Sessions WG (Dan)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m9950b613396505b4da7d0921c777d4fc
+      password: HnDZSnhx
 
     - date: 2017-09-20
       start: 10:30am
@@ -20,8 +20,8 @@ schedule:
       start: 11:00am
       end: 12:30pm
       title: Sessions WG (Dan)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m9950b613396505b4da7d0921c777d4fc
+      password: HnDZSnhx
 
     - date: 2017-09-20
       start: 12:30pm
@@ -32,15 +32,15 @@ schedule:
       start: 1:30pm
       end: 3:00pm
       title: Tools WG, MPI_T Events (Marc-Andre)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m9950b613396505b4da7d0921c777d4fc
+      password: HnDZSnhx
 
     - date: 2017-09-20
       start: 1:30pm
       end: 3:00pm
       title: FT WG (Wesley)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m663f1b32868f3e7b193e651d2ef6f95a
+      password: 4pNgxYGv
 
     - date: 2017-09-20
       start: 3:00pm
@@ -51,15 +51,15 @@ schedule:
       start: 3:30pm
       end: 5:00pm
       title: Tools WG, MPI_T Events (Marc-Andre)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m9950b613396505b4da7d0921c777d4fc
+      password: HnDZSnhx
 
     - date: 2017-09-20
       start: 3:30pm
       end: 5:00pm
       title: FT WG (Wesley)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m663f1b32868f3e7b193e651d2ef6f95a
+      password: 4pNgxYGv
 
     - endday: done
 
@@ -70,15 +70,15 @@ schedule:
       start: 9:00am
       end: 10:30am
       title: Tools WG, PMPI2 (Kathryn)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mc3362c1a7e0bb350b1baefc16fd069f8
+      password: 6JyqXcUg
 
     - date: 2017-09-21
       start: 9:00am
       end: 10:30am
       title: Persistence WG (Tony)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mb2925f1fd5f75bc7e17ce65d473d2103
+      password: YZX2yeg5
 
     - date: 2017-09-21
       start: 10:30am
@@ -89,15 +89,15 @@ schedule:
       start: 11:00am
       end: 12:30pm
       title: Tools WG, PMPI2 (Kathryn)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mc3362c1a7e0bb350b1baefc16fd069f8
+      password: 6JyqXcUg
 
     - date: 2017-09-21
       start: 11:00am
       end: 12:30pm
       title: Persistence WG (Tony)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mb2925f1fd5f75bc7e17ce65d473d2103
+      password: YZX2yeg5
 
     - date: 2017-09-21
       start: 12:30pm
@@ -108,8 +108,8 @@ schedule:
       start: 1:30pm
       end: 3:00pm
       title: P2P WG (Dan)
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mc3362c1a7e0bb350b1baefc16fd069f8
+      password: 6JyqXcUg
 
     - date: 2017-09-21
       start: 3:00pm
@@ -120,15 +120,15 @@ schedule:
       start: 3:30pm
       end: 5:00pm
       title: "Plenary (see below) - focus on prep for votes"    
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mf4db89ebf0e33a0948ce29079d377c14
+      password: Wy8zTZVA
 
     - date: 2017-09-21
       start: 5:00pm
       end: 5:30pm
       title: "FP16"
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mf4db89ebf0e33a0948ce29079d377c14
+      password: Wy8zTZVA
 
     - date: 2017-09-21
       start: 6:00pm
@@ -146,15 +146,15 @@ schedule:
       start: 9:00am
       end:   9:30am
       title: "Votes (see below)"
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m1b7fa3d8e426f6afe90ffa82f5dee29c
+      password: fhnkt3t5
 
     - date: 2016-09-22
       start: 9:30am
       end: 10:30am
       title: "Plenary (see below)"
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m1b7fa3d8e426f6afe90ffa82f5dee29c
+      password: fhnkt3t5
 
     - date: 2016-09-22
       start: 10:30am
@@ -165,15 +165,15 @@ schedule:
       start: 11:00am
       end: 12:00pm
       title: "Plenary (see below)"
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m1b7fa3d8e426f6afe90ffa82f5dee29c
+      password: fhnkt3t5
 
     - date: 2017-09-22
       start: 12:00pm
       end: 12:30pm
       title: "MPI Forum Business Discussion"
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m1b7fa3d8e426f6afe90ffa82f5dee29c
+      password: fhnkt3t5
 
     - date: 2016-09-22
       start: 12:30pm
@@ -184,8 +184,8 @@ schedule:
       start: 1:30pm
       end: 3:00pm
       title: "Plenary (see below)"
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m1b7fa3d8e426f6afe90ffa82f5dee29c
+      password: fhnkt3t5
 
     - date: 2016-09-22
       start: 3:00pm
@@ -196,8 +196,8 @@ schedule:
       start: 3:30pm
       end: 5:00pm
       title: "Plenary (see below)"
-      link:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m1b7fa3d8e426f6afe90ffa82f5dee29c
+      password: fhnkt3t5
 
     - endday: done
 
