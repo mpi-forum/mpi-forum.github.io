@@ -213,10 +213,10 @@ errata-votes:
       description: MPI_T Errata Reinitialization
 
     - number: 67
-      description: MPI_T: Consistent reference to MPI processes
+      description: MPI_T Consistent reference to MPI processes
 
     - number: 68
-      description: MPI_T: MPI_Init vs MPI_Init_thread
+      description: MPI_T MPI_Init vs MPI_Init_thread
 
 first-votes:
     - number: 60
