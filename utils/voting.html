@@ -32,12 +32,14 @@ var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP'],
                'Forschungszentrum': ['FORSCHUNGSZENTRUM JÜLICH'],
                'HLRS': [],
                'Kyushu': ['KYUSHU UNIVERSITY', 'KYUSHU U.', 'U. KYUSHU'],
-               'CRAY': [],
+               'CRAY': ['CRAY INC'],
                'UTEP': ['THE UNIVERSITY OF TEXAS AT EL PASO'],
                'TACC': ['THE TEXAS ADVANCED COMPUTING CENTER'],
                'Lenovo': [],
-               'UAB': ['U ALABAMA BIRMINGHAM'],
+               'UAB': ['U ALABAMA BIRMINGHAM','UNIVERSITY OF ALABAMA AT BIRMINGHAM'],
                'HDF': ['HDF GROUP'],
+               'KTH': ['KTH ROYAL INSTITUTE OF TECHNOLOGY'],
+               'ETH': ['ETH ZURICH'],
 }
 
 var vote_types = {"no-no": "No no vote",
@@ -51,6 +53,8 @@ current_month = 0;
 current_year = 0;
 var orgs = {};
 var votes = {};
+var registered_orgs;
+var ooe_orgs;
 var imove_orgs;
 
 function zeroFill( number, width )
@@ -85,8 +89,16 @@ function finishVote() {
 
     var output = "";
 
+    output += "Copy below text to meetings/" + current_year + "/" +
+        current_month + "/votes.md<br>\n<hr>\n";
+
+    output += "registered: " + registered_orgs + "<br>\n";
+    output += "ooe: " + ooe_orgs + "<br>\n";
+    output += "imove: " + imove_orgs + "<br>\n";
+    output += "<hr>\n"
+
     output += "Copy below text to _data/meetings/" + current_year + "/" +
-        current_month + "voting.csv<br>\n<hr>\n";
+        current_month + "/votes.csv<br>\n<hr>\n";
 
     output += "topic,type,yes,no,abstain,missed<br>\n";
 
@@ -147,6 +159,7 @@ function calculateVotes() {
 function buildVoteTable() {
     var html = "";
     imove_orgs = 0;
+    ooe_orgs = 0;
 
     html += '<tr>\n';
     html += '<th width="15%">Org</th>\n';
@@ -157,20 +170,25 @@ function buildVoteTable() {
     }
     html += '</tr>\n';
 
+    console.log(orgs);
+
     for (org in orgs) {
         if (orgs[org]['registered'] >= 2) {
-            imove_orgs++;
-            html += '<tr>\n';
-            html += '<th>'+org+'</th>\n';
-            for (var i = 0; i < votes.data.length; i++) {
-                html += '<td>\n';
-                html += '<fieldset>\n';
-                html += 'Yes <input type="radio" id="' + i + ' ' + org + ' yes" name="' + i + ' ' + org + '" value="yes" onclick="calculateVotes()">\n';
-                html += 'No <input type="radio" id="' + i + ' ' + org + ' no" name="' + i + ' ' + org + '" value="no" onclick="calculateVotes()">\n';
-                html += 'Abstain <input type="radio" id="' + i + ' ' + org + ' abstain" name="' + i + ' ' + org + '" value="abstain" onclick="calculateVotes()">\n';
-                html += '</fieldset>\n';
-                html += '</td>\n';
-            }
+            ooe_orgs++;
+            //if (orgs[org]['present']) {
+                imove_orgs++;
+                html += '<tr>\n';
+                html += '<th>'+org+'</th>\n';
+                for (var i = 0; i < votes.data.length; i++) {
+                    html += '<td>\n';
+                    html += '<fieldset>\n';
+                    html += 'Yes <input type="radio" id="' + i + ' ' + org + ' yes" name="' + i + ' ' + org + '" value="yes" onclick="calculateVotes()">\n';
+                    html += 'No <input type="radio" id="' + i + ' ' + org + ' no" name="' + i + ' ' + org + '" value="no" onclick="calculateVotes()">\n';
+                    html += 'Abstain <input type="radio" id="' + i + ' ' + org + ' abstain" name="' + i + ' ' + org + '" value="abstain" onclick="calculateVotes()">\n';
+                    html += '</fieldset>\n';
+                    html += '</td>\n';
+                }
+            //}
         }
         html += '</tr>\n';
     }
@@ -202,6 +220,8 @@ function buildImoveMatrix(attendance, current) {
             meeting.push(alias);
         }
     }
+
+    if (current) registered_orgs = meeting.length;
 
     current_month = document.getElementById("monthTxt").value;
     current_year = document.getElementById("yearTxt").value;

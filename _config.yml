@@ -12,7 +12,7 @@ baseurl: ""
 #baseurl: "/projectname"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
-repository: https://github.com/mpi-forum/mpi-forum.github.io
+#repository: https://github.com/mpi-forum/mpi-forum.github.io
 
 # Name of website
 title: MPI Forum
