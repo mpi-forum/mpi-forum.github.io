@@ -228,7 +228,9 @@ function handleVoteGeneration() {
 
     document.getElementById("title").innerHTML = current_month + " " + current_year + " Voting";
     document.getElementById("monthTxt").setAttribute("style", "display: none;");
+    document.getElementById("monthLbl").setAttribute("style", "display: none;");
     document.getElementById("yearTxt").setAttribute("style", "display: none;");
+    document.getElementById("yearLbl").setAttribute("style", "display: none;");
     document.getElementById("generateBtn").setAttribute("style", "display: none;");
     document.getElementById("finishedBtn").setAttribute("style", "");
     document.getElementById("hiddenHr").setAttribute("style", "");
@@ -319,8 +321,10 @@ function handleVoteGeneration() {
 
 <h2 id="title">Generate Vote Form</h2>
 
-<input type="text" name="month" id="monthTxt" value="12" />
-<input type="text" name="year" id="yearTxt" value="2016" />
+<p id="monthLbl">Month
+<input type="text" name="month" id="monthTxt" value="mm" /></p>
+<p id="yearLbl">Year
+<input type="text" name="year" id="yearTxt" value="yyyy" /></p>
 <button type="button" id="generateBtn" onClick=handleVoteGeneration()>Generate</button>
 
 <table id="votes_table">
