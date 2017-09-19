@@ -99,8 +99,6 @@ function finishVote() {
                   votes.data[i]['missed'] + '<br>\n';
     }
 
-    console.log(output)
-
     $('#output').html(output);
 }
 
@@ -123,12 +121,12 @@ function calculateVotes() {
         if (yes + no < ((3 * imove_orgs) / 4)) {
             result = '<span style="color:orange">Ballot Quorum Not Met</span>';
         } else {
-            if (votes.data['type'] == "no-no" && no > 0) {
-                result = '<span style="color:green">Passed</span>';
-            } else if (yes > (3 * (yes + no)) / 4) {
-                result = '<span style="color:green">Passed</span>';
-            } else {
+            if (votes.data[i]['type'] == "no-no" && no > 0) {
                 result = '<span style="color:red">Failed</span>';
+            } else if (votes.data[i]['type'] != "no-no" && yes <= (3 * (yes + no)) / 4) {
+                result = '<span style="color:red">Failed</span>';
+            } else {
+                result = '<span style="color:green">Passed</span>';
             }
         }
 
@@ -147,8 +145,6 @@ function calculateVotes() {
 }
 
 function buildVoteTable() {
-    console.log(votes);
-    console.log(orgs);
     var html = "";
     imove_orgs = 0;
 
@@ -193,7 +189,6 @@ function buildVoteTable() {
 }
 
 function buildImoveMatrix(attendance, current) {
-    console.log(attendance);
     var meeting = [];
 
     for (var i = 0; i < attendance.data.length; i++) {
@@ -265,7 +260,6 @@ function handleVoteGeneration() {
         }
         filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
             +prev_year+'/'+zeroFill(prev_month,2)+'/attendance.csv'
-        console.log(filename);
         request.open('GET', filename, false);
         request.send();
     } while (request.status == 404);
@@ -290,7 +284,6 @@ function handleVoteGeneration() {
         }
         filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
             +prev_year+'/'+zeroFill(prev_month,2)+'/attendance.csv'
-        console.log(filename);
         request.open('GET', filename, false);
         request.send();
     } while (request.status == 404);
