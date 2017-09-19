@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="./papaparse.js"></script>
+<script>
+
+var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP'],
+               'UTK': ['UNIVERSITY OF TENNESSEE, KNOXVILLE', 'UNIVERSITY OF TENNESSEE', 'THE UNIVERSITY OF TENNESSEE', 'U TENNESSEE'],
+               'ANL': ['ARGONNE NATIONAL LABORATORY', 'ARGONNE NATIONAL LAB'],
+               'LANL': ['LOS ALAMOS NATIONAL LABORATORY', 'LOS ALAMOS NATIONAL LAB'],
+               'Cisco': ['CISCO SYSTEMS INC.', 'CISCO SYSTEMS, INC.', 'CISCO SYSTEMS'],
+               'Microsoft': ['MICROSOFT INC.'],
+               'LLNL': ['LAWRENCE LIVERMORE NATIONAL LABORATORY', 'LAWRENCE LIVERMORE NATIONAL LAB', 'LAWRENCE LIVERMORE NATL. LAB.'],
+               'LANL': ['LOS ALAMOS NATIONAL LABORATORY', 'LOS ALAMOS NATIONAL LAB'],
+               'LBL': ['LAWRENCE BERKLEY NATIONAL LABORATORY', 'LAWRENCE BERKLEY LAB', 'LBNL'],
+               'SNL': ['SANDIA NATIONAL LABORATORY', 'SANDIA NATIONAL LAB', 'SANDIA NATIONAL LABORATORIES', 'SANDIA'],
+               'ORNL': ['OAK RIDGE NATIONAL LABORATORY', 'OAK RIDGE NATIONAL LAB'],
+               'EPCC': ['EPCC, THE UNIVERSITY OF EDINBURGH', 'UNIVERISTY OF EDINBURGH'],
+               'Mellanox': ['MELLANOX TECHNOLOGIES'],
+               'Fujitsu': [],
+               'Radcliffe': [],
+               'NVIDIA': [],
+               'OSU': ['THE OHIO STATE U.', 'THE OHIO STATE UNIVERSITY'],
+               'IBM': [],
+               'Auburn': ['AUBURN U', 'AUBURN UNIVERSITY'],
+               'RIKEN': ['RIKEN AICS'],
+               'INRIA': [],
+               'UIUC': ['UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN', 'UNIVERSITY OF ILLINOIS', 'NCSA/UIUC'],
+               'NEC': [],
+               'Paratools': ['PARATOOLS SAS'],
+               'CEA': [],
+               'Forschungszentrum': ['FORSCHUNGSZENTRUM JÜLICH'],
+               'HLRS': [],
+               'Kyushu': ['KYUSHU UNIVERSITY', 'KYUSHU U.', 'U. KYUSHU'],
+               'CRAY': [],
+               'UTEP': ['THE UNIVERSITY OF TEXAS AT EL PASO'],
+               'TACC': ['THE TEXAS ADVANCED COMPUTING CENTER'],
+               'Lenovo': [],
+               'UAB': ['U ALABAMA BIRMINGHAM'],
+               'HDF': ['HDF GROUP'],
+}
+
+var vote_types = {"no-no": "No no vote",
+                  "1st": "First vote",
+                  "2nd": "Second vote",
+                  "Errata": "Errata vote",
+                  "Procedure": "Procedure vote",
+}
+
+current_month = 0;
+current_year = 0;
+var orgs = {};
+var votes = {};
+var imove_orgs;
+
+function zeroFill( number, width )
+{
+  width -= number.toString().length;
+  if ( width > 0 )
+  {
+    return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
+  }
+  return number + ""; // always return a string
+}
+
+function findAlias(org) {
+    for (var alias in aliases) {
+        if (alias.toUpperCase() == org.toUpperCase() ||
+            aliases[alias].includes(org.toUpperCase())) {
+            return alias;
+        }
+    }
+    console.error(org.toUpperCase() + ' NOT FOUND');
+}
+
+function finishVote() {
+    document.getElementById("title").setAttribute("style", "display: none;");
+    document.getElementById("monthTxt").setAttribute("style", "display: none;");
+    document.getElementById("yearTxt").setAttribute("style", "display: none;");
+    document.getElementById("generateBtn").setAttribute("style", "display: none;");
+    document.getElementById("finishedBtn").setAttribute("style", "display: none;");
+    document.getElementById("hiddenHr").setAttribute("style", "display: none;");
+    document.getElementById("votes_table").setAttribute("style", "display: none;");
+    document.getElementById("results_table").setAttribute("style", "display: none;");
+
+    var output = "";
+
+    output += "Copy below text to _data/meetings/" + current_year + "/" +
+        current_month + "voting.csv<br>\n<hr>\n";
+
+    output += "topic,type,yes,no,abstain,missed<br>\n";
+
+    for (var i = 0; i < votes.data.length; i++) {
+        output += votes.data[i]['topic'] + ',' +
+                  votes.data[i]['type'] + ',' +
+                  votes.data[i]['yes'] + ',' +
+                  votes.data[i]['no'] + ',' +
+                  votes.data[i]['abstain'] + ',' +
+                  votes.data[i]['missed'] + '<br>\n';
+    }
+
+    console.log(output)
+
+    $('#output').html(output);
+}
+
+function calculateVotes() {
+    for (var i = 0; i < votes.data.length; i++) {
+        var result;
+        yes = 0;
+        no = 0;
+        abstain = 0;
+
+        for (org in orgs) {
+            if (orgs[org]['registered'] >= 2) {
+                val = $('input[name="' + i + ' ' + org + '"]:checked').val();
+                if (val == 'yes') yes++;
+                else if (val == 'no') no++;
+                else if (val == 'abstain') abstain++;
+            }
+        }
+
+        if (yes + no < ((3 * imove_orgs) / 4)) {
+            result = '<span style="color:orange">Ballot Quorum Not Met</span>';
+        } else {
+            if (votes.data['type'] == "no-no" && no > 0) {
+                result = '<span style="color:green">Passed</span>';
+            } else if (yes > (3 * (yes + no)) / 4) {
+                result = '<span style="color:green">Passed</span>';
+            } else {
+                result = '<span style="color:red">Failed</span>';
+            }
+        }
+
+        document.getElementById('vote ' + i).innerHTML =
+            'Yes: ' + yes + '<br>\n' +
+            'No: ' + no + '<br>\n' +
+            'Abstain: ' + abstain + '<br>\n' +
+            '<br>\n' +
+            result;
+
+        votes.data[i]['yes'] = yes;
+        votes.data[i]['no'] = no;
+        votes.data[i]['abstain'] = abstain;
+        votes.data[i]['missed'] = 0;
+    }
+}
+
+function buildVoteTable() {
+    console.log(votes);
+    console.log(orgs);
+    var html = "";
+    imove_orgs = 0;
+
+    html += '<tr>\n';
+    html += '<th width="15%">Org</th>\n';
+    for (var i = 0; i < votes.data.length; i++) {
+        html += '<th width="200">\n';
+        html += votes.data[i]['topic'];
+        html += '</th>\n';
+    }
+    html += '</tr>\n';
+
+    for (org in orgs) {
+        if (orgs[org]['registered'] >= 2) {
+            imove_orgs++;
+            html += '<tr>\n';
+            html += '<th>'+org+'</th>\n';
+            for (var i = 0; i < votes.data.length; i++) {
+                html += '<td>\n';
+                html += '<fieldset>\n';
+                html += 'Yes <input type="radio" id="' + i + ' ' + org + ' yes" name="' + i + ' ' + org + '" value="yes" onclick="calculateVotes()">\n';
+                html += 'No <input type="radio" id="' + i + ' ' + org + ' no" name="' + i + ' ' + org + '" value="no" onclick="calculateVotes()">\n';
+                html += 'Abstain <input type="radio" id="' + i + ' ' + org + ' abstain" name="' + i + ' ' + org + '" value="abstain" onclick="calculateVotes()">\n';
+                html += '</fieldset>\n';
+                html += '</td>\n';
+            }
+        }
+        html += '</tr>\n';
+    }
+
+    $('#votes_table').html(html);
+
+    html = '<tr>\n';
+    html += '<th width="15%">Results</th>\n';
+    for (var i = 0; i < votes.data.length; i++) {
+        html += '<td width="200" id="vote ' + i + '">\n';
+    }
+    html += '</tr>\n';
+
+    $('#results_table').html(html);
+
+}
+
+function buildImoveMatrix(attendance, current) {
+    console.log(attendance);
+    var meeting = [];
+
+    for (var i = 0; i < attendance.data.length; i++) {
+        alias = findAlias(attendance.data[i].org);
+        if (!meeting.includes(alias)) {
+            if (alias in orgs) {
+                orgs[alias]['registered']++;
+            } else {
+                orgs[alias] = {'registered':1, 'present':current};
+            }
+            meeting.push(alias);
+        }
+    }
+
+    current_month = document.getElementById("monthTxt").value;
+    current_year = document.getElementById("yearTxt").value;
+    filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
+        +current_year+'/'+zeroFill(current_month,2)+'/votes.csv'
+
+    Papa.parse(filename, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+            votes = results;
+            buildVoteTable();
+        },
+        error: function(error, file) {
+            console.error(error);
+        }
+    });
+}
+
+function handleVoteGeneration() {
+    current_month = document.getElementById("monthTxt").value;
+    current_year = document.getElementById("yearTxt").value;
+
+    document.getElementById("title").innerHTML = current_month + " " + current_year + " Voting";
+    document.getElementById("monthTxt").setAttribute("style", "display: none;");
+    document.getElementById("yearTxt").setAttribute("style", "display: none;");
+    document.getElementById("generateBtn").setAttribute("style", "display: none;");
+    document.getElementById("finishedBtn").setAttribute("style", "");
+    document.getElementById("hiddenHr").setAttribute("style", "");
+
+    filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
+        +current_year+'/'+zeroFill(current_month,2)+'/attendance.csv'
+
+    Papa.parse(filename, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+            buildImoveMatrix(results, 1);
+        },
+        error: function(error, file) {
+            console.error(error);
+        }
+    });
+
+    prev_month = current_month;
+    prev_year = current_year;
+
+    var request = new XMLHttpRequest();
+    do {
+        prev_month--;
+        if (prev_month == 0) {
+            prev_month = 12;
+            prev_year--;
+        }
+        filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
+            +prev_year+'/'+zeroFill(prev_month,2)+'/attendance.csv'
+        console.log(filename);
+        request.open('GET', filename, false);
+        request.send();
+    } while (request.status == 404);
+
+    Papa.parse(filename, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+            buildImoveMatrix(results, 0);
+        },
+        error: function(error, file) {
+            console.error(error);
+        }
+    });
+
+    do {
+        prev_month--;
+        if (prev_month == 0) {
+            prev_month = 12;
+            prev_year--;
+        }
+        filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
+            +prev_year+'/'+zeroFill(prev_month,2)+'/attendance.csv'
+        console.log(filename);
+        request.open('GET', filename, false);
+        request.send();
+    } while (request.status == 404);
+
+    Papa.parse(filename, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+            buildImoveMatrix(results, 0);
+        },
+        error: function(error, file) {
+            console.error(error);
+        }
+    });
+}
+
+</script>
+
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 15px;
+            }
+        </style>
+    </head>
+<body>
+
+<h2 id="title">Generate Vote Form</h2>
+
+<input type="text" name="month" id="monthTxt" value="12" />
+<input type="text" name="year" id="yearTxt" value="2016" />
+<button type="button" id="generateBtn" onClick=handleVoteGeneration()>Generate</button>
+
+<table id="votes_table">
+</table>
+
+<table id="results_table">
+</table>
+
+<hr id="hiddenHr" style="display: none;">
+<button type="button" id="finishedBtn" style="display: none;"onClick=finishVote()>Finished</button>
+
+<p id="output"></p>
+
+</body>
+</html>
+
+
