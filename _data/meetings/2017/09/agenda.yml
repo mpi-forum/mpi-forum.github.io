@@ -231,41 +231,41 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Change Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/60\">#60:</a> MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM"
       presenter: Kathryn
-      done: 0
+      done: 1
 
     - type: Change Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/63\">#63:</a> Info Query Update (MPI_Comm/File/Win_get_info) (PR 27)"
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Errata
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50:</a> MPI_T Errata Reinitialization"
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Errata
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/67\">#67:</a> MPI_T: Consistent reference to MPI processes"
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Errata
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/68\">#68:</a> MPI_T: MPI_Init vs MPI_Init_thread"
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6:</a>  MPIR: Include line numbers in specification"
-      presenter: Tony
+      presenter: Marc-Andre
       done: 0
 
     - type: Reading
