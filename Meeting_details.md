@@ -6,19 +6,19 @@ permalink: meetings/
 
 ## 2018
 
-##### Dec 3 - Dec 6: Location tbd - TENTATIVE
+##### Dec 3 - Dec 6: San Jose, CA (Cisco) - TENTATIVE
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Sep 20 - Sep 22: Barcelona (before EuroMPI 2018) - TENTATIVE / EuroMPI Dates are fixed
+##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018) - TENTATIVE / EuroMPI Dates are fixed
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Jun 11 - Jun 14: Location tbd - TENTATIVE
+##### Jun 11 - Jun 14: Austin, TX (Intel) - TENTATIVE
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Feb 26 - Mar 1: Location tbd - TENTATIVE
+##### Feb 26 - Mar 1: Portland, OR (Microsoft) - TENTATIVE
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
