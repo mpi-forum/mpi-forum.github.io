@@ -207,6 +207,8 @@ no-no-votes:
       description: MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM
     - number: 63
       description: Info Query Update (MPI_Comm/File/Win_get_info) (PR 27)
+    - number: 68
+      description: MPI_T MPI_Init vs MPI_Init_thread
 
 errata-votes:
     - number: 50
