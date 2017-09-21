@@ -23,9 +23,9 @@ name,org,attend
 "Ignacio Laguna","LLNL",1
 "Ryan Grant","Sandia",0
 "Sergio Rivas-Gomez","KTH Royal Institute of Technology",1
-"Takahiro Kawashima","Fujitsu",0
-"Guillaume Mercier","Inria",1
 "Jean-Baptiste Besnard","ParaTools",1
 "Marc Pérache","CEA",1
-"Guillaume Papauré","ATOS/Bull",1
 "Sourav Chakraborty","OSU",1
+"Guillaume Papauré","ATOS/Bull",1
+"Takahiro Kawashima","Fujitsu",0
+"Guillaume Mercier","Inria",1
