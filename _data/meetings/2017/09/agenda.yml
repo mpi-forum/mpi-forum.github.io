@@ -265,7 +265,12 @@ plenaries:
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6:</a>  MPIR: Include line numbers in specification"
       presenter: Marc-Andre
-      done: 0
+      done: 1
+
+    - type: Discussion
+      title: MPI Timers
+      presenter: Marc-Andre
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
@@ -280,21 +285,6 @@ plenaries:
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3:</a> Define new MPI Error handler for subcommunicator abort"
       presenter: Wesley
-      done: 0
-
-    - type: Discussion
-      title: Update on MPI Sessions
-      presenter: Dan
-      done: 0
-
-    - type: Discussion
-      title: Update on MPI P2P topics
-      presenter: Dan
-      done: 0
-
-    - type: Discussion
-      title: MPI Timers
-      presenter: Marc-Andre
       done: 0
 
     - type: Discussion
