@@ -46,6 +46,7 @@ var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP','INTEL CORP.'],
                'U INNSBRUCK': ['UNIVERSITY OF INNSBRUCK'],
                'RWTH': ['RWTH AACHEN UNIVERSITY'],
                'PAR-TEC': [],
+               'UTC': ['UNIVERSITY OF TENNESSEE, CHATTANOOGA'],
 }
 
 var vote_types = {"no-no": "No no vote",
@@ -213,13 +214,13 @@ function buildVoteTable() {
         $('#results_table').html("");
         return;
     } else {
-        html += '<b>OOE ORGS:</b> ' + ooe_orgs + '<br>\n';
-        html += '<b>IMOVE ORGS:</b> ' + imove_orgs + '<br>\n';
         $('#votes_table').html(html);
     }
 
 
-    var output = "<h3>Non Voting Orgs</h3>";
+    var output = '<b>OOE ORGS:</b> ' + ooe_orgs + '<br>\n';
+    output += '<b>IMOVE ORGS:</b> ' + imove_orgs + '<br>\n';
+    output += "<h3>Non Voting Orgs</h3>";
     for (org in non_voting_orgs) {
         output += '<b>' + org + ':</b> ' + non_voting_orgs[org]['reason'] + '<br>\n';
     }
