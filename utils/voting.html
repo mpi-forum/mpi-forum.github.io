@@ -4,15 +4,15 @@
 <script src="./papaparse.js"></script>
 <script>
 
-var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP'],
+var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP','INTEL CORP.'],
                'UTK': ['UNIVERSITY OF TENNESSEE, KNOXVILLE', 'UNIVERSITY OF TENNESSEE', 'THE UNIVERSITY OF TENNESSEE', 'U TENNESSEE'],
                'ANL': ['ARGONNE NATIONAL LABORATORY', 'ARGONNE NATIONAL LAB'],
                'LANL': ['LOS ALAMOS NATIONAL LABORATORY', 'LOS ALAMOS NATIONAL LAB'],
                'Cisco': ['CISCO SYSTEMS INC.', 'CISCO SYSTEMS, INC.', 'CISCO SYSTEMS'],
                'Microsoft': ['MICROSOFT INC.'],
-               'LLNL': ['LAWRENCE LIVERMORE NATIONAL LABORATORY', 'LAWRENCE LIVERMORE NATIONAL LAB', 'LAWRENCE LIVERMORE NATL. LAB.'],
+               'LLNL': ['LAWRENCE LIVERMORE NATIONAL LABORATORY', 'LAWRENCE LIVERMORE NATIONAL LAB', 'LAWRENCE LIVERMORE NATL.  LAB.','LAWRENCE LIVERMORE NATIONAL LAB.'],
                'LANL': ['LOS ALAMOS NATIONAL LABORATORY', 'LOS ALAMOS NATIONAL LAB'],
-               'LBL': ['LAWRENCE BERKLEY NATIONAL LABORATORY', 'LAWRENCE BERKLEY LAB', 'LBNL'],
+               'LBL': ['LAWRENCE BERKELEY NATIONAL LABORATORY', 'LAWRENCE BERKLEY LAB', 'LBNL', 'LAWRENCE BERKELEY NATIONAL LAB'],
                'SNL': ['SANDIA NATIONAL LABORATORY', 'SANDIA NATIONAL LAB', 'SANDIA NATIONAL LABORATORIES', 'SANDIA'],
                'ORNL': ['OAK RIDGE NATIONAL LABORATORY', 'OAK RIDGE NATIONAL LAB'],
                'EPCC': ['EPCC, THE UNIVERSITY OF EDINBURGH', 'UNIVERISTY OF EDINBURGH'],
@@ -26,11 +26,11 @@ var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP'],
                'RIKEN': ['RIKEN AICS'],
                'INRIA': [],
                'UIUC': ['UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN', 'UNIVERSITY OF ILLINOIS', 'NCSA/UIUC'],
-               'NEC': [],
+               'NEC': ['NEC COOPERATION'],
                'Paratools': ['PARATOOLS SAS'],
                'CEA': [],
-               'Forschungszentrum': ['FORSCHUNGSZENTRUM JÜLICH'],
-               'HLRS': [],
+               'Forschungszentrum': ['FORSCHUNGSZENTRUM JÜLICH','FORSCHUNGSZENTRUM JÜLICH GMBH'],
+               'HLRS': ["UNIVERSITY OF STUTTGART, HLRS"],
                'Kyushu': ['KYUSHU UNIVERSITY', 'KYUSHU U.', 'U. KYUSHU'],
                'CRAY': ['CRAY INC'],
                'UTEP': ['THE UNIVERSITY OF TEXAS AT EL PASO'],
@@ -39,7 +39,13 @@ var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP'],
                'UAB': ['U ALABAMA BIRMINGHAM','UNIVERSITY OF ALABAMA AT BIRMINGHAM'],
                'HDF': ['HDF GROUP'],
                'KTH': ['KTH ROYAL INSTITUTE OF TECHNOLOGY'],
-               'ETH': ['ETH ZURICH'],
+               'ETH': ['ETH ZURICH','ETH ZÜRICH'],
+               'ATOS/BULL': ['BULL','ATOS'],
+               'U OREGON': ['UNIVERSITY OF OREGON'],
+               'TUM': ['TU MUNICH'],
+               'U INNSBRUCK': ['UNIVERSITY OF INNSBRUCK'],
+               'RWTH': ['RWTH AACHEN UNIVERSITY'],
+               'PAR-TEC': [],
 }
 
 var vote_types = {"no-no": "No no vote",
@@ -56,6 +62,8 @@ var votes = {};
 var registered_orgs;
 var ooe_orgs;
 var imove_orgs;
+var non_voting_orgs = {};
+var meetings_calculated = 0;
 
 function zeroFill( number, width )
 {
@@ -86,6 +94,7 @@ function finishVote() {
     document.getElementById("hiddenHr").setAttribute("style", "display: none;");
     document.getElementById("votes_table").setAttribute("style", "display: none;");
     document.getElementById("results_table").setAttribute("style", "display: none;");
+    document.getElementById("non_voting").setAttribute("style", "display: none;");
 
     var output = "";
 
@@ -161,6 +170,8 @@ function buildVoteTable() {
     imove_orgs = 0;
     ooe_orgs = 0;
 
+    meetings_calculated++;
+
     html += '<tr>\n';
     html += '<th style="width: 10%;">Org</th>\n';
     for (var i = 0; i < votes.data.length; i++) {
@@ -169,8 +180,6 @@ function buildVoteTable() {
         html += '</th>\n';
     }
     html += '</tr>\n';
-
-    console.log(orgs);
 
     for (org in orgs) {
         if (orgs[org]['registered'] >= 2) {
@@ -188,12 +197,33 @@ function buildVoteTable() {
                     html += '</fieldset>\n';
                     html += '</td>\n';
                 }
+            } else {
+                non_voting_orgs[org] = {reason: 'Not present at current meeting'};
             }
+        } else {
+            non_voting_orgs[org] = {reason: 'Attended 1 of 3 previous meetings'};
         }
         html += '</tr>\n';
     }
 
-    $('#votes_table').html(html);
+    if ((meetings_calculated == 3) && (imove_orgs <= ((2 * ooe_orgs) / 3))) {
+        console.log("QUORUM NOT MET");
+        html = '<h1>Meeting Quorum Not Met</h1><br>\n';
+        $('#votes_table').html(html);
+        $('#results_table').html("");
+        return;
+    } else {
+        html += '<b>OOE ORGS:</b> ' + ooe_orgs + '<br>\n';
+        html += '<b>IMOVE ORGS:</b> ' + imove_orgs + '<br>\n';
+        $('#votes_table').html(html);
+    }
+
+
+    var output = "<h3>Non Voting Orgs</h3>";
+    for (org in non_voting_orgs) {
+        output += '<b>' + org + ':</b> ' + non_voting_orgs[org]['reason'] + '<br>\n';
+    }
+    $('#non_voting').html(output);
 
     html = '<tr>\n';
     html += '<th style="width: 10%;">Results</th>\n';
@@ -253,6 +283,7 @@ function handleVoteGeneration() {
     document.getElementById("yearLbl").setAttribute("style", "display: none;");
     document.getElementById("generateBtn").setAttribute("style", "display: none;");
     document.getElementById("finishedBtn").setAttribute("style", "");
+    document.getElementById("non_voting").setAttribute("style", "");
     document.getElementById("hiddenHr").setAttribute("style", "");
 
     filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
@@ -347,6 +378,8 @@ function handleVoteGeneration() {
 <input type="text" name="year" id="yearTxt" value="yyyy" /></p>
 <button type="button" id="generateBtn" onClick=handleVoteGeneration()>Generate</button>
 
+<p id="no_quorum"></p>
+
 <table id="votes_table">
 </table>
 
@@ -354,7 +387,9 @@ function handleVoteGeneration() {
 </table>
 
 <hr id="hiddenHr" style="display: none;">
-<button type="button" id="finishedBtn" style="display: none;"onClick=finishVote()>Finished</button>
+<button type="button" id="finishedBtn" style="display: none;" onClick=finishVote()>Finished</button>
+
+<p id="non_voting" style="display: none;">
 
 <p id="output"></p>
 
