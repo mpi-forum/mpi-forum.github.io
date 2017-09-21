@@ -6,16 +6,16 @@
 
 var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP','INTEL CORP.'],
                'UTK': ['UNIVERSITY OF TENNESSEE, KNOXVILLE', 'UNIVERSITY OF TENNESSEE', 'THE UNIVERSITY OF TENNESSEE', 'U TENNESSEE'],
-               'ANL': ['ARGONNE NATIONAL LABORATORY', 'ARGONNE NATIONAL LAB'],
-               'LANL': ['LOS ALAMOS NATIONAL LABORATORY', 'LOS ALAMOS NATIONAL LAB'],
+               'UTC': ['UNIVERSITY OF TENNESSEE, CHATTANOOGA', 'UNIVERSITY OF TENNESSEE CHATTANOOGA'],
+               'Argonne': ['ANL', 'ARGONNE NATIONAL LABORATORY', 'ARGONNE NATIONAL LAB'],
                'Cisco': ['CISCO SYSTEMS INC.', 'CISCO SYSTEMS, INC.', 'CISCO SYSTEMS'],
                'Microsoft': ['MICROSOFT INC.'],
-               'LLNL': ['LAWRENCE LIVERMORE NATIONAL LABORATORY', 'LAWRENCE LIVERMORE NATIONAL LAB', 'LAWRENCE LIVERMORE NATL.  LAB.','LAWRENCE LIVERMORE NATIONAL LAB.'],
-               'LANL': ['LOS ALAMOS NATIONAL LABORATORY', 'LOS ALAMOS NATIONAL LAB'],
-               'LBL': ['LAWRENCE BERKELEY NATIONAL LABORATORY', 'LAWRENCE BERKLEY LAB', 'LBNL', 'LAWRENCE BERKELEY NATIONAL LAB'],
-               'SNL': ['SANDIA NATIONAL LABORATORY', 'SANDIA NATIONAL LAB', 'SANDIA NATIONAL LABORATORIES', 'SANDIA'],
-               'ORNL': ['OAK RIDGE NATIONAL LABORATORY', 'OAK RIDGE NATIONAL LAB'],
-               'EPCC': ['EPCC, THE UNIVERSITY OF EDINBURGH', 'UNIVERISTY OF EDINBURGH'],
+               'Livermore': ['LLNL', 'LAWRENCE LIVERMORE NATIONAL LABORATORY', 'LAWRENCE LIVERMORE NATIONAL LAB', 'LAWRENCE LIVERMORE NATL.  LAB.','LAWRENCE LIVERMORE NATIONAL LAB.'],
+               'Los Alamos': ['LANL', 'LOS ALAMOS NATIONAL LABORATORY', 'LOS ALAMOS NATIONAL LAB'],
+               'Berkeley': ['LBL', 'LAWRENCE BERKELEY NATIONAL LABORATORY', 'LAWRENCE BERKLEY LAB', 'LBNL', 'LAWRENCE BERKELEY NATIONAL LAB'],
+               'Sandia': ['SNL', 'SANDIA NATIONAL LABORATORY', 'SANDIA NATIONAL LAB', 'SANDIA NATIONAL LABORATORIES', 'SANDIA'],
+               'Oak Ridge': ['ORNL', 'OAK RIDGE NATIONAL LABORATORY', 'OAK RIDGE NATIONAL LAB'],
+               'Edinburgh': ['EPCC', 'EPCC, THE UNIVERSITY OF EDINBURGH', 'UNIVERISTY OF EDINBURGH'],
                'Mellanox': ['MELLANOX TECHNOLOGIES'],
                'Fujitsu': [],
                'Radcliffe': [],
@@ -32,21 +32,20 @@ var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP','INTEL CORP.'],
                'Forschungszentrum': ['FORSCHUNGSZENTRUM JÜLICH','FORSCHUNGSZENTRUM JÜLICH GMBH'],
                'HLRS': ["UNIVERSITY OF STUTTGART, HLRS"],
                'Kyushu': ['KYUSHU UNIVERSITY', 'KYUSHU U.', 'U. KYUSHU'],
-               'CRAY': ['CRAY INC'],
+               'Cray': ['CRAY INC'],
                'UTEP': ['THE UNIVERSITY OF TEXAS AT EL PASO'],
                'TACC': ['THE TEXAS ADVANCED COMPUTING CENTER'],
                'Lenovo': [],
                'UAB': ['U ALABAMA BIRMINGHAM','UNIVERSITY OF ALABAMA AT BIRMINGHAM'],
                'HDF': ['HDF GROUP'],
                'KTH': ['KTH ROYAL INSTITUTE OF TECHNOLOGY'],
-               'ETH': ['ETH ZURICH','ETH ZÜRICH'],
+               'ETH Zurich': ['ETH', 'ETH ZURICH','ETH ZÜRICH'],
                'ATOS/BULL': ['BULL','ATOS'],
-               'U OREGON': ['UNIVERSITY OF OREGON'],
-               'TUM': ['TU MUNICH'],
-               'U INNSBRUCK': ['UNIVERSITY OF INNSBRUCK'],
+               'U Oregon': ['UNIVERSITY OF OREGON'],
+               'TU Munich': ['TUM', 'TU MUNICH'],
+               'U Innsbruck': ['UNIVERSITY OF INNSBRUCK'],
                'RWTH': ['RWTH AACHEN UNIVERSITY'],
                'PAR-TEC': [],
-               'UTC': ['UNIVERSITY OF TENNESSEE, CHATTANOOGA'],
 }
 
 var vote_types = {"no-no": "No no vote",
@@ -132,7 +131,7 @@ function calculateVotes() {
         abstain = 0;
 
         for (org in orgs) {
-            if (orgs[org]['registered'] >= 2) {
+            if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
                 val = $('input[name="' + i + ' ' + org + '"]:checked').val();
                 if (val == 'yes') yes++;
                 else if (val == 'no') no++;
@@ -174,16 +173,17 @@ function buildVoteTable() {
     meetings_calculated++;
 
     html += '<tr>\n';
-    html += '<th style="width: 10%;">Org</th>\n';
+    html += '<th style="min-width: 150px;">Org</th>\n';
     for (var i = 0; i < votes.data.length; i++) {
-        html += '<th style="width: 300px;">\n';
-        html += votes.data[i]['topic'];
+        html += '<th style="min-width: 150px;">\n';
+        html += votes.data[i]['topic'] + '<br>';
+        html += 'Type: ' + votes.data[i]['type'];
         html += '</th>\n';
     }
     html += '</tr>\n';
 
     for (org in orgs) {
-        if (orgs[org]['registered'] >= 2) {
+        if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
             ooe_orgs++;
             if (orgs[org]['present']) {
                 imove_orgs++;
@@ -202,7 +202,7 @@ function buildVoteTable() {
                 non_voting_orgs[org] = {reason: 'Not present at current meeting'};
             }
         } else {
-            non_voting_orgs[org] = {reason: 'Attended 1 of 3 previous meetings'};
+            non_voting_orgs[org] = {reason: 'Attended ' + orgs[org]['attend'] + ' of 3 previous meetings. Registered for ' + orgs[org]['registered'] + ' of 3 previous meetings'};
         }
         html += '</tr>\n';
     }
@@ -220,16 +220,22 @@ function buildVoteTable() {
 
     var output = '<b>OOE ORGS:</b> ' + ooe_orgs + '<br>\n';
     output += '<b>IMOVE ORGS:</b> ' + imove_orgs + '<br>\n';
-    output += "<h3>Non Voting Orgs</h3>";
+    output = "<h3>Non Voting Orgs</h3>";
     for (org in non_voting_orgs) {
         output += '<b>' + org + ':</b> ' + non_voting_orgs[org]['reason'] + '<br>\n';
     }
     $('#non_voting').html(output);
 
     html = '<tr>\n';
-    html += '<th style="width: 10%;">Results</th>\n';
+    html += '<th style="min-width: 150px;"></th>\n';
     for (var i = 0; i < votes.data.length; i++) {
-        html += '<td style="width: 300px;" id="vote ' + i + '">\n';
+        html += '<th style="min-width: 150px;">' + votes.data[i]['topic'] + '</th>\n';
+    }
+    html += '</tr>\n';
+    html += '<tr>\n';
+    html += '<th>Results</th>\n';
+    for (var i = 0; i < votes.data.length; i++) {
+        html += '<td style="min-width: 150px;" id="vote ' + i + '"></td>\n';
     }
     html += '</tr>\n';
 
@@ -245,8 +251,12 @@ function buildImoveMatrix(attendance, current) {
         if (!meeting.includes(alias)) {
             if (alias in orgs) {
                 orgs[alias]['registered']++;
+                orgs[alias]['attend']++;
             } else {
-                orgs[alias] = {'registered':1, 'present':current};
+                orgs[alias] = {'registered':1, 'attend':attendance.data[i]['attend']};
+            }
+            if (current) {
+                orgs[alias]['present'] = 1;
             }
             meeting.push(alias);
         }
