@@ -31,15 +31,15 @@ permalink: meetings/
 
 ##### Sep 20 - Sep 22: Chicago, IL (week before [EuroMPI/USA 2017](http://www.mcs.anl.gov/eurompi2017/), Forum held at Microsoft downtown)
 
-|[Logistics](2017/09/logistics)|[Agenda](2017/09/agenda)|Presentations|Attendance|[Voting](2017/09/votes)|
+|[Logistics](2017/09/logistics)|[Agenda](2017/09/agenda)|Presentations|[Attendance](2017/09/attendance)|[Voting](2017/09/votes)|
 
 ##### Jun 14 - Jun 16: Aachen, Germany (RWTH Aachen, week before ISC in Frankfurt)
 
-|[Logistics](2017/06/logistics)|[Agenda](2017/06/agenda)|Presentations|Attendance|[Voting](2017/06/votes)|
+|[Logistics](2017/06/logistics)|[Agenda](2017/06/agenda)|Presentations|[Attendance](2017/06/attendance)|[Voting](2017/06/votes)|
 
 ##### Feb 27 - Mar 02: Portland, OR, USA (Microsoft)
 
-|[Logistics](2017/02/logistics)|[Agenda](2017/02/agenda)|Presentations|Attendance|[Voting](2017/02/votes)|
+|[Logistics](2017/02/logistics)|[Agenda](2017/02/agenda)|Presentations|[Attendance](2017/02/attendance)|[Voting](2017/02/votes)|
 
 ## 2016
 
