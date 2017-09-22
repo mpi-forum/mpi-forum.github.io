@@ -112,7 +112,7 @@ function finishVote() {
     output += "topic,type,yes,no,abstain,missed<br>\n";
 
     for (var i = 0; i < votes.data.length; i++) {
-        output += votes.data[i]['topic'] + ',' +
+        output += '"' + votes.data[i]['topic'] + '",' +
                   votes.data[i]['type'] + ',' +
                   votes.data[i]['yes'] + ',' +
                   votes.data[i]['no'] + ',' +
@@ -173,7 +173,7 @@ function buildVoteTable() {
     meetings_calculated++;
 
     html += '<tr>\n';
-    html += '<th style="min-width: 150px;">Org</th>\n';
+    html += '<th class="orgs">Org</th>\n';
     for (var i = 0; i < votes.data.length; i++) {
         html += '<th style="min-width: 150px;">\n';
         html += votes.data[i]['topic'] + '<br>';
@@ -188,7 +188,7 @@ function buildVoteTable() {
             if (orgs[org]['present']) {
                 imove_orgs++;
                 html += '<tr>\n';
-                html += '<th>' + org + '</th>\n';
+                html += '<th class="orgs">' + org + '</th>\n';
                 for (var i = 0; i < votes.data.length; i++) {
                     html += '<td>\n';
                     html += '<fieldset>\n';
@@ -229,15 +229,15 @@ function buildVoteTable() {
     $('#non_voting').html(output);
 
     html = '<tr>\n';
-    html += '<th style="min-width: 150px;"></th>\n';
+    html += '<th class="orgs"></th>\n';
     for (var i = 0; i < votes.data.length; i++) {
         html += '<th style="min-width: 150px;">' + votes.data[i]['topic'] + '</th>\n';
     }
     html += '</tr>\n';
     html += '<tr>\n';
-    html += '<th>Results</th>\n';
+    html += '<th class="orgs">Results</th>\n';
     for (var i = 0; i < votes.data.length; i++) {
-        html += '<td style="min-width: 150px;" id="vote ' + i + '"></td>\n';
+        html += '<td id="vote ' + i + '"></td>\n';
     }
     html += '</tr>\n';
 
@@ -376,8 +376,25 @@ function handleVoteGeneration() {
                 border: 1px solid black;
                 border-collapse: collapse;
             }
+            .orgs {
+                position: absolute;
+                width: 150px;
+                left: 0;
+                top: auto;
+                border: 0px;
+                /*only relevant for first row*/
+                margin-top: -1px;
+                /*compensate for top border*/
+            }
             th, td {
                 padding: 15px;
+            }
+            div {
+                width: 80%;
+                overflow-x: scroll;
+                margin-left: 200px;
+                overflow-y: visible;
+                padding: 0;
             }
         </style>
     </head>
@@ -393,11 +410,13 @@ function handleVoteGeneration() {
 
 <h2 id="header"></h2>
 
+<div>
 <table id="votes_table">
 </table>
 
 <table id="results_table">
 </table>
+</div>
 
 <hr id="hiddenHr" style="display: none;">
 <button type="button" id="finishedBtn" style="display: none;" onClick=finishVote()>Finished</button>
