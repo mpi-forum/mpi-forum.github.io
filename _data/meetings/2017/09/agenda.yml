@@ -272,10 +272,10 @@ plenaries:
       presenter: Marc-Andre
       done: 1
 
-    - type: Reading
+    - type: Discussion
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1:</a> Clarify MPI_ERRORS_ARE_FATAL scope of abort"
