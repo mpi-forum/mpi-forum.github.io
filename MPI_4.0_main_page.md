@@ -83,7 +83,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 #### [Persistence](https://github.com/mpiwg-persistence)
 
 *   Lead: Anthony Skjellum
-*   Scope:
+*   Scope: Work on definitions and specifications of operations that support higher performance forms of existing MPI operations when there is an ability to "plan once" and "amortize costs". Current work focuses on collective operations and neighborhood collectives.
 
 #### [Point to Point Communication](https://github.com/mpiwg-p2p)
 
