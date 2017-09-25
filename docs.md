@@ -58,7 +58,7 @@ The complete, official MPI-2.1 Standard (June 2008) is now available **in one bo
 
 ### MPI-2.0
 
-*   MPI-2.0 document in [compressed postscript](mpi-2.0/mpi-20.ps.Z), [postscript](mpi-2.0/mpi-20.ps), or [PDF (unofficial version)](mpi-2.0/mpi2-report.pdf).
+*   MPI-2.0 document in [compressed postscript](mpi-2.0/mpi-20.ps.Z), [postscript](mpi-2.0/mpi-20.ps), or [PDF (unofficial version)](mpi-2.0/mpi2-report.pdf). Note that the PDF version has the wrong date on the cover - it should say July 18, 1997.
 *   Original MPI-2.0 errata in [compressed postscript](mpi-2.0/errata-20.ps.Z) or [postscript](mpi-2.0/errata-20.ps) (last modified 20 May 1998)
 *   Updated MPI-2.0 errata as voted on by the MPI Forum. Available in [Postscript](mpi-2.0/errata-20-2.ps), [PDF](mpi-2.0/errata-20-2.pdf), and (unofficially) [HTML](mpi-2.0/errata-20-2.html).
 *   [MPI-2.0 document](mpi-2.0/mpi-20-html/mpi2-report.html) in HTML
