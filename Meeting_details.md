@@ -31,7 +31,7 @@ permalink: meetings/
 
 ##### Sep 20 - Sep 22: Chicago, IL (week before [EuroMPI/USA 2017](http://www.mcs.anl.gov/eurompi2017/), Forum held at Microsoft downtown)
 
-|[Logistics](2017/09/logistics)|[Agenda](2017/09/agenda)|Presentations|[Attendance](2017/09/attendance)|[Voting](2017/09/votes)|[Notes](2017/09/notes)|
+|[Logistics](2017/09/logistics)|[Agenda](2017/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2017/09)||[Attendance](2017/09/attendance)|[Voting](2017/09/votes)|[Notes](2017/09/notes)|
 
 ##### Jun 14 - Jun 16: Aachen, Germany (RWTH Aachen, week before ISC in Frankfurt)
 
