@@ -6,19 +6,19 @@ permalink: meetings/
 
 ## 2018
 
-##### Dec 3 - Dec 6: San Jose, CA (Cisco) - TENTATIVE
+##### Dec 3 - Dec 6: San Jose, CA (Cisco)
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018) - TENTATIVE / EuroMPI Dates are fixed
+##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018)
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Jun 11 - Jun 14: Austin, TX (Intel) - TENTATIVE
+##### Jun 11 - Jun 14: Austin, TX (Intel)
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Feb 26 - Mar 1: Portland, OR (Microsoft) - TENTATIVE
+##### Feb 26 - Mar 1: Portland, OR (Microsoft)
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
@@ -27,7 +27,7 @@ permalink: meetings/
 
 ##### Dec 04 - Dec 07: San Jose, CA, USA (Cisco)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|[Logistics](2017/12/logistics)||[Agenda](2017/12/agenda)||Presentations|Attendance|Voting|
 
 ##### Sep 20 - Sep 22: Chicago, IL (week before [EuroMPI/USA 2017](http://www.mcs.anl.gov/eurompi2017/), Forum held at Microsoft downtown)
 
