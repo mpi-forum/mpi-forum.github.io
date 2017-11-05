@@ -4,7 +4,7 @@ date: December 7 - 10, 2015
 permalink: meetings/2015/12/logistics
 ---
 
-### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-tickets-19122551065)
+### [Meeting Registration](tbd)
 
 The registration covers snacks at the meeting on Monday, Tuesday Wednesday, and Thursday lunch on Tuesday and Wednesday, and the meeting logistics.
 
@@ -23,7 +23,7 @@ The meeting will tentatively take place at:
 ### Hotel Room Block
 
 We don't have a fixed hotel room block anymore. However, several hotels are nearby and convient for the Cisco locations, including:
-* Crowne Plaza / Silicon Valley (ca. $273 plus tax per night)
-* Hilton Garden Inn (ca. $259 plus tax per night)
-* Best Western (ca. $239 plus tax per night)
+*  Crowne Plaza / Silicon Valley (ca. $273 plus tax per night)
+*  Hilton Garden Inn (ca. $259 plus tax per night)
+*  Best Western (ca. $239 plus tax per night)
 (all prices standard rates according to google and without any promisses or guarantees)
