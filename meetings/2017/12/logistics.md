@@ -1,7 +1,7 @@
 ---
 layout: logistics
-date: December 7 - 10, 2015
-permalink: meetings/2015/12/logistics
+date: December 4th - 7th, 2017
+permalink: meetings/2017/12/logistics
 ---
 
 ### [Meeting Registration](tbd)
