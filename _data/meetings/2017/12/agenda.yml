@@ -172,3 +172,8 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: Discussion
+      title: New WG on Hardware Topologies
+      presenter: Martin Schulz
+      done: 0
+

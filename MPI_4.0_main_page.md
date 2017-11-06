@@ -41,39 +41,19 @@ The forum encourages that new items will be brought forward through the respecti
 
 On June 9th 2016, the MPI forum voted for [new voting rules](../docs/other/procedures-current.pdf) (effective June 9th, 2016).
 
-## Working Groups
+## Active Working Groups
 
 The following working groups are currently participating in the MPI 4.0 efforts. For more information on each working group, current topics, and meeting schedules, please follow the links to the respective Wiki pages.
-
-#### [Collective Communication and Topology](https://github.com/mpiwg-coll)
-
-*   Lead: Torsten Hoefler, Andrew Lumsdaine
-*   Scope: The main goals of the working group are to discuss the modernization of the collective communication interface to reflect the changed environment and improve the capability of MPI to run efficiently on large-scale computing systems. Our efforts also affect communicator management MPI topologies.
 
 #### [Fault Tolerance](https://github.com/mpiwg-ft)
 
 *   Leads: Wesley Bland, Aurélien Bouteiller and Rich Graham
 *   Scope: To define any additional support needed in the MPI standard to enable implementation of portable Fault Tolerant solutions for MPI based applications.
 
-#### Fortran
-
-*   Lead: Craig Rasmussen
-*   Scope: To investigate new Fortran language bindings that overcome the problems and limitations of the Fortran 90 MPI bindings.
-
-#### Generalized Requests
-
-*   Lead: Fab Tillier
-*   Scope: Redefine the generalized requests interface. A more flexible interface between the user defined requests and the MPI library is required in order to allow the provider of the generalized request to integrate a progress function inside the MPI library. The ultimate goal is to allow the generalized requests progress to be done without a special test or wait function.
-
 #### [Hybrid](https://github.com/mpiwg-hybrid)
 
 *   Lead: Pavan Balaji and Jim Dinan
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
-
-#### I/O (WG on hold)
-
-*   Lead: Quincey Koziol and Mohamad Chaarawi
-*   Scope: Definition of API extensions for I/O operations
 
 #### [Large Counts](https://github.com/mpiwg-large-count)
 
@@ -104,6 +84,32 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 *   Lead: Kathryn Mohror and Marc-Andre Hermanns
 *   Scope: Definition of interfaces for debugging and performance tools
+
+## Working Groups on Hold
+
+In addition to the active working groups, several working groups exist that have been on hold.
+
+#### [Collective Communication and Topology](https://github.com/mpiwg-coll)
+
+*   Lead: Torsten Hoefler, Andrew Lumsdaine
+*   Scope: The main goals of the working group are to discuss the modernization of the collective communication interface to reflect the changed environment and improve the capability of MPI to run efficiently on large-scale computing systems. Our efforts also affect communicator management MPI topologies.
+
+#### Fortran
+
+*   Lead: Craig Rasmussen
+*   Scope: To investigate new Fortran language bindings that overcome the problems and limitations of the Fortran 90 MPI bindings.
+
+#### Generalized Requests
+
+*   Lead: Fab Tillier
+*   Scope: Redefine the generalized requests interface. A more flexible interface between the user defined requests and the MPI library is required in order to allow the provider of the generalized request to integrate a progress function inside the MPI library. The ultimate goal is to allow the generalized requests progress to be done without a special test or wait function.
+
+#### I/O
+
+*   Lead: Quincey Koziol and Mohamad Chaarawi
+*   Scope: Definition of API extensions for I/O operations
+
+
 
 ## Chapter Committees
 
