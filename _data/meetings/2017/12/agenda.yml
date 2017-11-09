@@ -177,3 +177,9 @@ plenaries:
       presenter: Martin Schulz
       done: 0
 
+    - type: Discussion
+      title: New MPI timing routines
+      presenter: Martin Schulz
+      done: 0
+
+
