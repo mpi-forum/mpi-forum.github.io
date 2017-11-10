@@ -5,7 +5,7 @@ schedule:
 
     - start: 2:00pm
       end: 3:30pm
-      title: WG time
+      title: Sessions WG (Dan)
       link:
       video:
       password:
@@ -16,7 +16,7 @@ schedule:
 
     - start: 4:00pm
       end: 5:30pm
-      title: WG time
+      title: Sessions WG (Dan)
       link:
       video:
       password:
@@ -28,18 +28,32 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: WG time
+      title: Tools WG covering QMPI (Martin)
       link:
       video:
       password:
 
-    - start: 10:30am
+    - start: 9:00am
+      end: 10:30am
+      title: FT WG (Wesley)
+      link:
+      video:
+      password:
+
+   - start: 10:30am
       end: 11:00am
       title: Break
 
     - start: 11:00am
       end: 12:30pm
-      title: WG time
+      title: Tools WG covering QMPI and Sessions (Martin)
+      link:
+      video:
+      password:
+
+    - start: 11:00am
+      end: 12:30pm
+      title: FT WG (Wesley)
       link:
       video:
       password:
@@ -129,7 +143,14 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: WG time
+      title: Tools WG covering MPI_T Events (tentative)
+      link:
+      video:
+      password:
+
+    - start: 9:00am
+      end: 10:30am
+      title: P2P WG covering FP16
       link:
       video:
       password:
@@ -140,7 +161,7 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: WG time
+      title: Tools WG covering MPI_T Events (tentative)
       link:
       video:
       password:
@@ -177,9 +198,31 @@ plenaries:
       presenter: Martin Schulz
       done: 0
 
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1:</a> Clarify MPI_ERRORS_ARE_FATAL scope of abort"
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3:</a> Define new MPI Error handler for subcommunicator abort"
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28:</a> Query MPI (Catastrophic) State"
+      presenter: Wesley
+      done: 0
+
     - type: Discussion
       title: New MPI timing routines
       presenter: Martin Schulz
       done: 0
+
+    - type: Discussion
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
+      presenter: Tony
+      done: 0
+
+
 
 
