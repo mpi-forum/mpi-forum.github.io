@@ -14,7 +14,9 @@ Advanced registration is required for this meeting so that Cisco can process the
 
 The meeting will tentatively take place at:
 
-*   [Cisco building MR-3 (McCarthy Ranch), 155 North McCarthy Blvd. Milpitas, CA, USA. Great Dane conference room.](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12673.262443392721!2d-121.93341717646358!3d37.4296482985981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x29434aa4a14ef89e!2sCisco+SJ-McCarthy+Ranch+3!5e0!3m2!1sen!2sus!4v1445549128141)
+*   Monday, Tuesday and Thursday at: [Cisco building 7, Cavallo Point conference room (3rd floor), 425 E Tasman Dr, San Jose, CA 95134.](https://www.google.de/maps/place/Cisco+Building+7,+425+E+Tasman+Dr,+San+Jose,+CA+95134,+USA/@37.4133635,-121.9306288,17z/data=!3m1!4b1!4m5!3m4!1s0x808fc9176eb202a1:0x3841c021e14d8261!8m2!3d37.4134138!4d-121.9283781)
+
+*   Wednesday at: [Cisco building 16, Training room (1st floor), 3003 Bunker Hill Ln, Santa Clara, CA 95054.](https://www.google.de/maps/place/Cisco+Jasper/@37.4071759,-121.9831642,17.84z/data=!4m5!3m4!1s0x808fb701310540f7:0xc0c61621c8ac3b0!8m2!3d37.4066792!4d-121.9812382)
 
 ### Meeting Cost
 
