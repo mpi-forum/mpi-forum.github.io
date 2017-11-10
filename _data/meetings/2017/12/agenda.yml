@@ -1,6 +1,7 @@
 test: data
 
 schedule:
+
     - day: Monday, December 4th
 
     - start: 2:00pm
@@ -40,7 +41,7 @@ schedule:
       video:
       password:
 
-   - start: 10:30am
+    - start: 10:30am
       end: 11:00am
       title: Break
 
@@ -218,7 +219,7 @@ plenaries:
       presenter: Martin Schulz
       done: 0
 
-    - type: Discussion
+    - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
       presenter: Tony
       done: 0
