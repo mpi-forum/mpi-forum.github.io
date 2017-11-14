@@ -224,6 +224,17 @@ plenaries:
       presenter: Tony
       done: 0
 
+    - type: Discussion
+      title: FP16
+      presenter: Dan
+      done: 0
+
+    - type: Discussion
+      title: Sessions and Endpoints
+      presenter: Dan
+      done: 0
+
+
 
 
 
