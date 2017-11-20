@@ -200,12 +200,12 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: [Procedured 2.2 (MPI Companions Documents)](../../../../docs/other/procedures-22.pdf)
+      title: "<a href=\"../../../../docs/other/procedures-22.pdf\">Procedures 2.2 (MPI Companions Documents)</a>"
       presenter: Martin and Wesley
       done: 0
 
     - type: Reading
-      title: [Procedures 3.0 (Virtual Meetings and Other Items)](../../../../docs/other/procedures-30.pdf)
+      title: "<a href=\"../../../../docs/other/procedures-30.pdf\">Procedures 3.0 (Virtual Meetings and Other Items)</a>"
       presenter: Wesley and Martin
       done: 0
 
