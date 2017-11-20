@@ -8,30 +8,30 @@ permalink: meetings/
 
 ##### Dec 3 - Dec 6: San Jose, CA (Cisco)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
 ##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
 ##### Jun 11 - Jun 14: Austin, TX (Intel)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
 ##### Feb 26 - Mar 1: Portland, OR (Microsoft)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
 
 ## 2017
 
 ##### Dec 04 - Dec 07: San Jose, CA, USA (Cisco)
 
-|[Logistics](2017/12/logistics)|[Agenda](2017/12/agenda)|Presentations|Attendance|Voting|
+|[Logistics](2017/12/logistics)|[Agenda](2017/12/agenda)|Presentations|Attendance|Voting|Notes|
 
 ##### Sep 20 - Sep 22: Chicago, IL (week before [EuroMPI/USA 2017](http://www.mcs.anl.gov/eurompi2017/), Forum held at Microsoft downtown)
 
-|[Logistics](2017/09/logistics)|[Agenda](2017/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2017/09)||[Attendance](2017/09/attendance)|[Voting](2017/09/votes)|[Notes](2017/09/notes)|
+|[Logistics](2017/09/logistics)|[Agenda](2017/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2017/09)|[Attendance](2017/09/attendance)|[Voting](2017/09/votes)|[Notes](2017/09/notes)|
 
 ##### Jun 14 - Jun 16: Aachen, Germany (RWTH Aachen, week before ISC in Frankfurt)
 
