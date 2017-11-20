@@ -121,7 +121,7 @@ schedule:
 
     - start: 3:30pm
       end: 4:30pm
-      title: MPI-Forum Discussions
+      title: Plenary (agenda see below)
       link:
       video:
       password:
@@ -196,6 +196,21 @@ plenaries:
 
     - type: Discussion
       title: New WG on Hardware Topologies
+      presenter: Martin Schulz
+      done: 0
+
+    - type: Reading
+      title: [Procedured 2.2 (MPI Companions Documents)](../../../../docs/other/procedures-22.pdf)
+      presenter: Martin and Wesley
+      done: 0
+
+    - type: Reading
+      title: [Procedures 3.0 (Virtual Meetings and Other Items)](../../../../docs/other/procedures-30.pdf)
+      presenter: Wesley and Martin
+      done: 0
+
+    - type: Discussion
+      title: MPI-Forum Discussions
       presenter: Martin Schulz
       done: 0
 
