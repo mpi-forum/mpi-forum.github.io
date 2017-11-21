@@ -4,7 +4,7 @@ date: December 4th - 7th, 2017
 permalink: meetings/2017/12/logistics
 ---
 
-### [Meeting Registration](tbd)
+### [Meeting Registration - Link now active](https://mpiforumsanjose.eventbrite.com)
 
 The registration covers snacks at the meeting on Monday, Tuesday Wednesday, and Thursday lunch on Tuesday and Wednesday, and the meeting logistics.
 
