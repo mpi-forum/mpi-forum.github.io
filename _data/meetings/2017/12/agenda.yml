@@ -169,6 +169,12 @@ schedule:
 
     - endday: done
 
+procedure-votes:
+    - number: 2.2
+      description: Procedures 2.2 - MPI Companions Documents
+
+    - number: 3.0
+      description: Procedures 3.0 - (Virtual Meetings and Draft Standards)
 
 errata-votes:
 
@@ -205,7 +211,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "<a href=\"../../../../docs/other/procedures-30.pdf\">Procedures 3.0 (Virtual Meetings and Other Items)</a>"
+      title: "<a href=\"../../../../docs/other/procedures-30.pdf\">Procedures 3.0 (Virtual Meetings and Draft Standards)</a>"
       presenter: Wesley and Martin
       done: 0
 
