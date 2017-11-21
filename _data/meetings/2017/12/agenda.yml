@@ -217,7 +217,12 @@ plenaries:
 
     - type: Discussion
       title: MPI-Forum Discussions
-      presenter: Martin Schulz
+      presenter: Martin
+      done: 0
+
+    - type: Presentation
+      title: Results from the ECP MPI Survey
+      presenter: Howard
       done: 0
 
     - type: Reading
