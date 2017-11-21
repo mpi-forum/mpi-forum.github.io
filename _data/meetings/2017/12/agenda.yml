@@ -202,7 +202,7 @@ plenaries:
 
     - type: Discussion
       title: New WG on Hardware Topologies
-      presenter: Martin Schulz
+      presenter: Martin
       done: 0
 
     - type: Reading
@@ -242,7 +242,7 @@ plenaries:
 
     - type: Discussion
       title: New MPI timing routines
-      presenter: Martin Schulz
+      presenter: Martin
       done: 0
 
     - type: Reading
