@@ -2,7 +2,7 @@ topic,type,yes,no,abstain,missed
 "#60: MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM",no-no,20,0,3,0
 "#63: Info Query Update (MPI_Comm/File/Win_get_info) (PR 27)",no-no,20,0,3,0
 "#68: MPI_T MPI_Init vs MPI_Init_thread",no-no,22,0,1,0
-"#50: MPI_T Errata Reinitialization",errata,20,0,3,0
-"#68: MPI_T MPI_Init vs MPI_Init_thread",errata,20,0,3,0
+"#50: MPI_T Errata Reinitialization",Errata,20,0,3,0
+"#68: MPI_T MPI_Init vs MPI_Init_thread",Errata,20,0,3,0
 "#60: MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM",1st,22,0,1,0
 "#63: Info Query Update (MPI_Comm/File/Win_get_info) (PR 27)",1st,19,0,4,0
