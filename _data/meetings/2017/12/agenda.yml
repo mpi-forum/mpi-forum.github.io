@@ -30,16 +30,23 @@ schedule:
     - start: 9:00am
       end: 10:30am
       title: Tools WG covering QMPI (Martin)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m040bf5994a79926b60c0e329e0346f4f
+      video: 207216915@cisco.webex.com
+      password: gpAJgQC7
 
     - start: 9:00am
       end: 10:30am
       title: FT WG (Wesley)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m37a99ad25dec868297ca9e0a189429df
+      video: 209821166@cisco.webex.com
+      password: 2j4aw9XQ
+
+    - start: 9:00am
+      end: 10:30am
+      title: P2P WG covering FP16
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m29f386046f210d3663b204ddaf8b5e0f
+      video: 207656007@cisco.webex.com
+      password: dDKvwB7p
 
     - start: 10:30am
       end: 11:00am
@@ -48,16 +55,16 @@ schedule:
     - start: 11:00am
       end: 12:30pm
       title: Tools WG covering QMPI and Sessions (Martin)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m040bf5994a79926b60c0e329e0346f4f
+      video: 207216915@cisco.webex.com
+      password: gpAJgQC7
 
     - start: 11:00am
       end: 12:30pm
       title: FT WG (Wesley)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m040bf5994a79926b60c0e329e0346f4f
+      video: 207216915@cisco.webex.com
+      password: gpAJgQC7
 
     - start: 12:30pm
       end: 1:30pm
@@ -66,9 +73,9 @@ schedule:
     - start: 1:30pm
       end: 3:00pm
       title: Plenary (agenda see below)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m040bf5994a79926b60c0e329e0346f4f
+      video: 207216915@cisco.webex.com
+      password: gpAJgQC7
 
     - start: 3:00pm
       end: 3:30pm
@@ -77,9 +84,9 @@ schedule:
     - start: 3:30pm
       end: 5:00pm
       title: Plenary (agenda see below)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m040bf5994a79926b60c0e329e0346f4f
+      video: 207216915@cisco.webex.com
+      password: gpAJgQC7
 
     - endday: done
 
@@ -89,9 +96,9 @@ schedule:
     - start: 9:00pm
       end: 10:30am
       title: Plenary (agenda see below)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m8391eb52862ad31c3be0e9774643045f
+      video: 202836763@cisco.webex.com
+      password: qcGrYH6m
 
     - start: 10:30am
       end: 11:00am
@@ -100,9 +107,9 @@ schedule:
     - start: 11:00am
       end: 12:30pm
       title: Plenary (agenda see below)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m8391eb52862ad31c3be0e9774643045f
+      video: 202836763@cisco.webex.com
+      password: qcGrYH6m
 
     - start: 12:30pm
       end: 1:30pm
@@ -111,9 +118,9 @@ schedule:
     - start: 1:30pm
       end: 3:00pm
       title: Plenary (agenda see below)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m8391eb52862ad31c3be0e9774643045f
+      video: 202836763@cisco.webex.com
+      password: qcGrYH6m
 
     - start: 3:00pm
       end: 3:30pm
@@ -122,16 +129,16 @@ schedule:
     - start: 3:30pm
       end: 4:30pm
       title: Plenary (agenda see below)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m8391eb52862ad31c3be0e9774643045f
+      video: 202836763@cisco.webex.com
+      password: qcGrYH6m
 
     - start: 4:30pm
       end: 5:00pm
       title: Voting Block
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m8391eb52862ad31c3be0e9774643045f
+      video: 202836763@cisco.webex.com
+      password: qcGrYH6m
 
     - start: 5:30pm
       end: 9:00pm
@@ -145,16 +152,9 @@ schedule:
     - start: 9:00am
       end: 10:30am
       title: Tools WG covering MPI_T Events (tentative)
-      link:
-      video:
-      password:
-
-    - start: 9:00am
-      end: 10:30am
-      title: P2P WG covering FP16
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m5dcb9daa250d3402afc00af6935c5294
+      video: 202986381@cisco.webex.com
+      password: 7Kuar9Pw
 
     - start: 10:30am
       end: 11:00am
@@ -163,9 +163,9 @@ schedule:
     - start: 11:00am
       end: 12:30pm
       title: Tools WG covering MPI_T Events (tentative)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m5dcb9daa250d3402afc00af6935c5294
+      video: 202986381@cisco.webex.com
+      password: 7Kuar9Pw
 
     - endday: done
 
