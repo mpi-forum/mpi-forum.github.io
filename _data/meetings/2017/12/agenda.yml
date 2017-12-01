@@ -7,9 +7,9 @@ schedule:
     - start: 2:00pm
       end: 3:30pm
       title: Sessions WG (Dan)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51146da876b4dca5d7fd0eabc531ef37
+      video: 209208802@cisco.webex.com
+      password: QXy9bFpC
 
     - start: 3:30pm
       end: 4:00pm
@@ -18,9 +18,9 @@ schedule:
     - start: 4:00pm
       end: 5:30pm
       title: Sessions WG (Dan)
-      link:
-      video:
-      password:
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51146da876b4dca5d7fd0eabc531ef37
+      video: 209208802@cisco.webex.com
+      password: QXy9bFpC
 
     - endday: done
 
