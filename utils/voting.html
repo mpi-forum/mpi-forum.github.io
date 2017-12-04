@@ -6,7 +6,7 @@
 
 var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP','INTEL CORP.'],
                'UTK': ['UNIVERSITY OF TENNESSEE, KNOXVILLE', 'UNIVERSITY OF TENNESSEE', 'THE UNIVERSITY OF TENNESSEE', 'U TENNESSEE'],
-               'UTC': ['UNIVERSITY OF TENNESSEE, CHATTANOOGA', 'UNIVERSITY OF TENNESSEE CHATTANOOGA'],
+               'UTC': ['UNIVERSITY OF TENNESSEE, CHATTANOOGA', 'UNIVERSITY OF TENNESSEE CHATTANOOGA', 'UNIVERSITY OF TENNESSEE AT CHATTANOOGA'],
                'Argonne': ['ANL', 'ARGONNE NATIONAL LABORATORY', 'ARGONNE NATIONAL LAB'],
                'Cisco': ['CISCO SYSTEMS INC.', 'CISCO SYSTEMS, INC.', 'CISCO SYSTEMS'],
                'Microsoft': ['MICROSOFT INC.'],
@@ -16,10 +16,10 @@ var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP','INTEL CORP.'],
                'Sandia': ['SNL', 'SANDIA NATIONAL LABORATORY', 'SANDIA NATIONAL LAB', 'SANDIA NATIONAL LABORATORIES', 'SANDIA'],
                'Oak Ridge': ['ORNL', 'OAK RIDGE NATIONAL LABORATORY', 'OAK RIDGE NATIONAL LAB'],
                'Edinburgh': ['EPCC', 'EPCC, THE UNIVERSITY OF EDINBURGH', 'UNIVERISTY OF EDINBURGH'],
-               'Mellanox': ['MELLANOX TECHNOLOGIES'],
+               'Mellanox': ['MELLANOX TECHNOLOGIES', 'MELLANOX TECHNOLOGIES INC'],
                'Fujitsu': [],
                'Radcliffe': [],
-               'NVIDIA': [],
+               'NVIDIA': ['NVIDIA USA'],
                'OSU': ['THE OHIO STATE U.', 'THE OHIO STATE UNIVERSITY'],
                'IBM': [],
                'Auburn': ['AUBURN U', 'AUBURN UNIVERSITY'],
@@ -42,7 +42,7 @@ var aliases = {'Intel': ['INTEL CORPORATION', 'INTEL CORP','INTEL CORP.'],
                'ETH Zurich': ['ETH', 'ETH ZURICH','ETH ZÜRICH'],
                'ATOS/BULL': ['BULL','ATOS'],
                'U Oregon': ['UNIVERSITY OF OREGON'],
-               'TU Munich': ['TUM', 'TU MUNICH'],
+               'TU Munich': ['TUM', 'TU MUNICH', 'TU-MUNICH'],
                'U Innsbruck': ['UNIVERSITY OF INNSBRUCK'],
                'RWTH': ['RWTH AACHEN UNIVERSITY'],
                'PAR-TEC': [],
@@ -98,18 +98,24 @@ function finishVote() {
 
     var output = "";
 
-    output += "Copy below text to meetings/" + current_year + "/" +
-        current_month + "/votes.md<br>\n<hr>\n";
+    output += "<h3>Copy below text to meetings/" + current_year + "/" +
+        current_month + "/votes.md</h3>\n<hr>\n";
 
-    output += "registered: " + registered_orgs + "<br>\n";
-    output += "ooe: " + ooe_orgs + "<br>\n";
-    output += "imove: " + imove_orgs + "<br>\n";
+    output += '<pre>';
+
+    output += "registered: " + registered_orgs + "\n";
+    output += "ooe: " + ooe_orgs + "\n";
+    output += "imove: " + imove_orgs + "\n";
+
+    output += '</pre>';
     output += "<hr>\n"
 
-    output += "Copy below text to _data/meetings/" + current_year + "/" +
-        current_month + "/votes.csv<br>\n<hr>\n";
+    output += "<h3>Copy below text to _data/meetings/" + current_year + "/" +
+        current_month + "/votes.csv</h3>\n<hr>\n";
 
-    output += "topic,type,yes,no,abstain,missed<br>\n";
+    output += '<pre>';
+
+    output += "topic,type,yes,no,abstain,missed\n";
 
     for (var i = 0; i < votes.data.length; i++) {
         output += '"' + votes.data[i]['topic'] + '",' +
@@ -117,8 +123,34 @@ function finishVote() {
                   votes.data[i]['yes'] + ',' +
                   votes.data[i]['no'] + ',' +
                   votes.data[i]['abstain'] + ',' +
-                  votes.data[i]['missed'] + '<br>\n';
+                  votes.data[i]['missed'] + '\n';
     }
+
+    output += '</pre>';
+    output += "<hr>\n"
+
+    output += "<h3>Copy below text to _data/meetings/" + current_year + "/" +
+        current_month + "/ballot.csv</h3>\n<hr>\n";
+
+    output += '<pre>';
+
+    output += 'org';
+    for (var i = 0; i < votes.data.length; i++) {
+        output += ',"' + votes.data[i]['topic'] + '"';
+    }
+    output += '\n';
+
+    for (org in orgs) {
+        if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
+            output += org;
+            for (var i = 0; i < votes.data.length; i++) {
+                output += ',' + $('input[name="' + i + ' ' + org + '"]:checked').val();
+            }
+            output += '\n'
+        }
+    }
+
+    output += '</pre>';
 
     $('#output').html(output);
 }
@@ -202,7 +234,9 @@ function buildVoteTable() {
                 non_voting_orgs[org] = {reason: 'Not present at current meeting'};
             }
         } else {
-            if (orgs[org]['registered'] < 2) {
+            if (!orgs[org]['present']) {
+                non_voting_orgs[org] = {reason: 'Not present at current meeting'};
+            } else if (orgs[org]['registered'] < 2) {
                 non_voting_orgs[org] = {reason: 'Registered for ' + orgs[org]['registered'] + ' of 3 previous meetings.'};
             } else {
                 non_voting_orgs[org] = {reason: 'Attended ' + orgs[org]['attend'] + ' of 3 previous meetings'};
@@ -212,7 +246,8 @@ function buildVoteTable() {
     }
 
     if ((meetings_calculated == 3) && (imove_orgs <= ((2 * ooe_orgs) / 3))) {
-        $('#header').html('<h1>Meeting Quorum Not Met</h1><br>\n');
+        $('#header').html('<h1>Meeting Quorum Not Met</h1><br>\n' + '<h3>' +
+            imove_orgs + ' of ' + Math.ceil((2 * ooe_orgs) / 3) + ' orgs needed</h3><br>\n');
         $('#votes_table').html("");
         $('#results_table').html("");
     } else {
