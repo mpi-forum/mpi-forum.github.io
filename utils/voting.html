@@ -67,12 +67,11 @@ var meetings_calculated = 0;
 
 function zeroFill( number, width )
 {
-  width -= number.toString().length;
-  if ( width > 0 )
-  {
-    return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
-  }
-  return number + ""; // always return a string
+    width -= number.toString().length;
+    if ( width > 0 ) {
+        return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
+    }
+    return number + ""; // always return a string
 }
 
 function findAlias(org) {
@@ -82,7 +81,7 @@ function findAlias(org) {
             return alias;
         }
     }
-    console.error(org.toUpperCase() + ' NOT FOUND');
+    window.alert("Org " + org.toUpperCase() + ' not found. Add to alias list in voting.html');
 }
 
 function finishVote() {
