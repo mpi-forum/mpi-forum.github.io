@@ -143,7 +143,7 @@ function finishVote() {
     output += '\n';
 
     for (org in orgs) {
-        if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
+        if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2 && orgs[org]['present']) {
             output += org;
             for (var i = 0; i < votes.data.length; i++) {
                 output += ',' + $('input[name="' + i + ' ' + org + '"]:checked').val();
