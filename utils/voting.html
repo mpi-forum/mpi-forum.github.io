@@ -55,6 +55,9 @@ var vote_types = {"no-no": "No no vote",
                   "Procedure": "Procedure vote",
 }
 
+var month_names = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"];
+
 current_month = 0;
 current_year = 0;
 var orgs = {};
@@ -250,7 +253,7 @@ function buildVoteTable() {
         $('#votes_table').html("");
         $('#results_table').html("");
     } else {
-        $('#header').html(Math.ceil((3 * imove_orgs) / 4) + ' votes needed to meet quorum');
+        $('#header').html(Math.ceil((3 * imove_orgs) / 4) + ' votes needed to meet ballot quorum');
         $('#votes_table').html(html);
     }
 
@@ -323,7 +326,8 @@ function handleVoteGeneration() {
     current_month = document.getElementById("monthTxt").value;
     current_year = document.getElementById("yearTxt").value;
 
-    document.getElementById("title").innerHTML = current_month + " " + current_year + " Voting";
+    document.getElementById("title").innerHTML =
+        month_names[parseInt(current_month-1)] + " " + current_year + " Voting";
     document.getElementById("monthTxt").setAttribute("style", "display: none;");
     document.getElementById("monthLbl").setAttribute("style", "display: none;");
     document.getElementById("yearTxt").setAttribute("style", "display: none;");
@@ -432,14 +436,16 @@ function handleVoteGeneration() {
             }
         </style>
     </head>
-<body>
+<body onload=handleVoteGeneration()>
 
 <h2 id="title">Generate Vote Form</h2>
 
 <p id="monthLbl">Month
-<input type="text" name="month" id="monthTxt" value="mm" /></p>
+<!-- Update this value before the meeting --!>
+<input type="text" name="month" id="monthTxt" value="12" /></p>
 <p id="yearLbl">Year
-<input type="text" name="year" id="yearTxt" value="yyyy" /></p>
+<!-- Update this value before the meeting --!>
+<input type="text" name="year" id="yearTxt" value="2017" /></p>
 <button type="button" id="generateBtn" onClick=handleVoteGeneration()>Generate</button>
 
 <h2 id="header"></h2>
