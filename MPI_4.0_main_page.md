@@ -45,32 +45,32 @@ On June 9th 2016, the MPI forum voted for [new voting rules](../docs/other/proce
 
 The following working groups are currently participating in the MPI 4.0 efforts. For more information on each working group, current topics, and meeting schedules, please follow the links to the respective Wiki pages.
 
-#### [Fault Tolerance](https://github.com/mpiwg-ft)
+#### [Fault Tolerance](https://github.com/mpiwg-ft/ft-issues)
 
 *   Leads: Wesley Bland, Aurélien Bouteiller and Rich Graham
 *   Scope: To define any additional support needed in the MPI standard to enable implementation of portable Fault Tolerant solutions for MPI based applications.
 
-#### [Hybrid](https://github.com/mpiwg-hybrid)
+#### [Hybrid](https://github.com/mpiwg-hybrid/hybrid-issues/wiki)
 
 *   Lead: Pavan Balaji and Jim Dinan
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
 
-#### [Large Counts](https://github.com/mpiwg-large-count)
+#### [Large Counts](https://github.com/mpiwg-large-count/large-count-issues)
 
 *   Lead: Jeff Hammond
 *   Scope: Understanding and fixing the issues associated with integer counts and displacements.
 
-#### [Persistence](https://github.com/mpiwg-persistence)
+#### [Persistence](https://github.com/mpiwg-persistence/persistence-issues)
 
 *   Lead: Anthony Skjellum
 *   Scope: Work on definitions and specifications of operations that support higher performance forms of existing MPI operations when there is an ability to "plan once" and "amortize costs". Current work focuses on collective operations and neighborhood collectives.
 
-#### [Point to Point Communication](https://github.com/mpiwg-p2p)
+#### [Point to Point Communication](https://github.com/mpiwg-p2p/p2p-issues/wiki)
 
 *   Lead: Rich Graham and Dan Holmes
 *   Scope: To re-examine the MPI peer communication semantics and interface, and consider additions and/or changes needed to better support point-to-point data movement within MPI.
 
-#### [Remote Memory Access](https://github.com/mpiwg-rma)
+#### [Remote Memory Access](https://github.com/mpiwg-rma/rma-issues/wiki)
 
 *   Lead: Bill Gropp and Rajeev Thakur
 *   Scope: To re-examine the MPI RMA interface and consider additions and or changes needed to better support the one-sided programming model within MPI.
@@ -80,7 +80,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 *   Lead: Dan Holmes
 *   Scope: Explore alternate concepts to MPI_Init and MPI_Finalize
 
-#### [Tools](https://github.com/mpiwg-tools)
+#### [Tools](https://github.com/mpiwg-tools/tools-issues)
 
 *   Lead: Kathryn Mohror and Marc-Andre Hermanns
 *   Scope: Definition of interfaces for debugging and performance tools
@@ -89,7 +89,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 In addition to the active working groups, several working groups exist that have been on hold.
 
-#### [Collective Communication and Topology](https://github.com/mpiwg-coll)
+#### [Collective Communication and Topology](https://github.com/mpiwg-coll/coll-issues)
 
 *   Lead: Torsten Hoefler, Andrew Lumsdaine
 *   Scope: The main goals of the working group are to discuss the modernization of the collective communication interface to reflect the changed environment and improve the capability of MPI to run efficiently on large-scale computing systems. Our efforts also affect communicator management MPI topologies.
