@@ -179,6 +179,11 @@ procedure-votes:
 errata-votes:
 
 no-no-votes:
+    - number: 2.2
+      description: (No No) Procedures 2.2 - MPI Companions Documents
+
+    - number: 3.0
+      description: (No No) Procedures 3.0 - (Virtual Meetings and Draft Standards)
 
 first-votes:
 
