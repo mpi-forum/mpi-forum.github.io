@@ -198,52 +198,52 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Discussion
       title: New WG on Hardware Topologies
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"../../../../docs/other/procedures-22.pdf\">Procedures 2.2 (MPI Companions Documents)</a>"
       presenter: Martin and Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"../../../../docs/other/procedures-30.pdf\">Procedures 3.0 (Virtual Meetings and Draft Standards)</a>"
       presenter: Wesley and Martin
-      done: 0
+      done: 1
 
     - type: Discussion
       title: MPI-Forum Discussions
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Presentation
       title: Results from the ECP MPI Survey
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/1\">#1:</a> Clarify MPI_ERRORS_ARE_FATAL scope of abort"
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/3\">#3:</a> Define new MPI Error handler for subcommunicator abort"
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28:</a> Query MPI (Catastrophic) State"
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Discussion
       title: New MPI timing routines
