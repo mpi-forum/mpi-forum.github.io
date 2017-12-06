@@ -248,17 +248,17 @@ plenaries:
     - type: Discussion
       title: New MPI timing routines
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Discussion
       title: FP16
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Sessions and Endpoints
