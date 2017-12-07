@@ -27,7 +27,7 @@ permalink: meetings/
 
 ##### Dec 04 - Dec 07: San Jose, CA, USA (Cisco)
 
-|[Logistics](2017/12/logistics)|[Agenda](2017/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2017/12)|[Attendance](2017/12/attendance)|Voting|
+|[Logistics](2017/12/logistics)|[Agenda](2017/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2017/12)|[Attendance](2017/12/attendance)|[Voting](2017/12/votes)||
 
 ##### Sep 20 - Sep 22: Chicago, IL (week before [EuroMPI/USA 2017](http://www.mcs.anl.gov/eurompi2017/), Forum held at Microsoft downtown)
 
