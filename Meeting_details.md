@@ -22,11 +22,11 @@ permalink: meetings/
 
 |Logistics|Agenda|Presentations|Attendance|Voting|
 
-##### Virtual Meeting: (Jan 31, 1 PM Central US): FP 16
+##### Virtual Meeting: (Jan 31, 1 PM - 2 PM Central US): FP 16
 
 |WebEx Link|
 
-##### Virtual Meeting (Jan 17, 1 PM Central US): Persistant Collectives
+##### Virtual Meeting (Jan 17, 1 PM - 2 PM Central US): Persistant Collectives
 
 |WebEx Link|
 
