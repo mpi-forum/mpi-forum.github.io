@@ -3,7 +3,7 @@ layout: default
 ---
 
 <script>
-function ballot(rules, yes, no, abstain, missed, imove) {
+function ballot(rules, yes, no, abstain, missed, type, imove) {
     if (rules == 0000) {
         if (yes > no) {
             return "<font color=\"green\">Passed</font>";
@@ -24,10 +24,18 @@ function ballot(rules, yes, no, abstain, missed, imove) {
         }
     } else if (rules == 3152013) {
         if ((yes + no) > (0.75 * imove)) {
-            if (yes > 0.75 * (yes + no)) {
-                return "<font color=\"green\">Passed</font>";
+            if (type != "no-no") {
+                if (yes > 0.75 * (yes + no)) {
+                    return "<font color=\"green\">Passed</font>";
+                } else {
+                    return "<font color=\"red\">Failed Vote</font>";
+                }
             } else {
-                return "<font color=\"red\">Failed Vote</font>";
+                if (no > 0) {
+                    return "<font color=\"red\">Failed Vote</font>";
+                } else {
+                    return "<font color=\"green\">Passed</font>";
+                }
             }
         } else {
             return "<font color=\"red\">Failed Ballot Quorum</font>";
@@ -79,7 +87,7 @@ function ballot(rules, yes, no, abstain, missed, imove) {
   {{ content }}
   <ol>
       {% for vote in site.data.meetings[page.year][page.month].votes %}
-      <li> Vote Topic: <b>{{ vote.topic }}</b><br>
+      <li> Vote Topic: <b>{{ vote.topic }} ({{ vote.type }})</b><br>
           {% assign yes_votes = vote.yes %}
           {% assign no_votes = vote.no %}
           {% if vote.abstain.size > 0 %}
@@ -106,7 +114,7 @@ function ballot(rules, yes, no, abstain, missed, imove) {
                   {% if vote.abstain.size > 0 %}<td>{{ abstain_votes }}</td>{% endif %}
                   {% if vote.missed.size > 0 %}<td>{{ missed_votes }}</td>{% endif %}
                   <td><script>
-                  document.write(ballot({{page.rules}},{{yes_votes}},{{no_votes}},{{abstain_votes}},{{missed_votes}},{{imove}}));
+                    document.write(ballot({{page.rules}},{{yes_votes}},{{no_votes}},{{abstain_votes}},{{missed_votes}},"{{ vote.type }}",{{imove}}));
                   </script></td>
               </tr>
           </table>
