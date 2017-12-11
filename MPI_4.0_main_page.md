@@ -50,6 +50,11 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 *   Leads: Wesley Bland, Aurélien Bouteiller and Rich Graham
 *   Scope: To define any additional support needed in the MPI standard to enable implementation of portable Fault Tolerant solutions for MPI based applications.
 
+#### [HW-Topologies](https://github.com/mpiwg-hw-topology/hw-topology-issues)
+
+*   Lead: Guillaume Mercier
+*   Scope: Address questions like how can hardware resources (I/O, cores, caches, I/O proxies, etc.) be discovered, queried upon and distributed between execution flows? Define portable primitives inside MPI to explore and take advantage of the hardware topology either at the node or the process level.
+
 #### [Hybrid](https://github.com/mpiwg-hybrid/hybrid-issues/wiki)
 
 *   Lead: Pavan Balaji and Jim Dinan
