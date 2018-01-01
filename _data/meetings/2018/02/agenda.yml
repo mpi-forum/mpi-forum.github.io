@@ -1,0 +1,35 @@
+test: data
+
+schedule:
+
+    - day: Monday, February 26th
+
+    - endday: done
+
+
+    - day: Tuesday, February 27th
+
+    - endday: done
+
+
+    - day: Wednesday, February 28th
+
+    - endday: done
+
+
+    - day: Thusday, March 1st
+
+    - endday: done
+
+procedure-votes:
+
+errata-votes:
+
+no-no-votes:
+
+first-votes:
+
+second-votes:
+
+plenaries:
+

@@ -20,7 +20,7 @@ permalink: meetings/
 
 ##### Feb 26 - Mar 1: Portland, OR (Microsoft)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|[Logistics](2018/02/logistics)|[Agenda](2018/02/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/02)|[Attendance](2018/02/attendance)|[Voting](2018/02/votes)|
 
 ##### Virtual Meeting: (Jan 31, 1 PM - 2 PM Central US): FP 16
 
