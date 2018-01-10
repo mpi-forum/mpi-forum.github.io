@@ -24,11 +24,11 @@ permalink: meetings/
 
 ##### Virtual Meeting: (Jan 31, 1 PM - 2 PM Central US): FP 16
 
-|WebEx Link|
+|Meeting Information|
 
-##### Virtual Meeting (Jan 17, 1 PM - 2 PM Central US): Persistant Collectives
+##### Virtual Meeting ([Jan 17, 1 PM - 2 PM Central US](https://www.timeanddate.com/worldclock/fixedtime.html?msg=MPI+Forum+Virtual+Meeting&iso=20180117T13&p1=64&ah=1)): Persistant Collectives
 
-|WebEx Link|
+|[Meeting Information](2018/01/2018-01-17-virtual)|
 
 
 ## 2017
