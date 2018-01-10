@@ -22,9 +22,9 @@ permalink: meetings/
 
 |[Logistics](2018/02/logistics)|[Agenda](2018/02/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/02)|[Attendance](2018/02/attendance)|[Voting](2018/02/votes)|
 
-##### Virtual Meeting: (Jan 31, 1 PM - 2 PM Central US): FP 16
+##### Virtual Meeting: ([Jan 31, 1 PM - 2 PM Central US](https://www.timeanddate.com/worldclock/fixedtime.html?msg=MPI+Forum+Virtual+Meeting&iso=20180131T13&p1=64&ah=1)): FP 16
 
-|Meeting Information|
+|[Meeting Information](2018/01/2018-01-31-virtual)|
 
 ##### Virtual Meeting ([Jan 17, 1 PM - 2 PM Central US](https://www.timeanddate.com/worldclock/fixedtime.html?msg=MPI+Forum+Virtual+Meeting&iso=20180117T13&p1=64&ah=1)): Persistant Collectives
 
