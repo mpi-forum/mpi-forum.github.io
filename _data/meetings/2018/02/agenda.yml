@@ -4,20 +4,111 @@ schedule:
 
     - day: Monday, February 26th
 
+    - start: 2:00pm
+      end: 3:30pm
+      title: WGs
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 5:30pm
+      title: WGs
+
     - endday: done
 
 
     - day: Tuesday, February 27th
+
+    - start: 9:00am
+      end: 10:30am
+      title: WGs
+
+    - start: 9:00am
+      end: 10:30am
+      title: WGs
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: WGs
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: lunch
+
+    - start: 1:30pm
+      end: 3:00pm
+      title: WGs
+
+    - start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - start: 3:30pm
+      end: 5:00pm
+      title: WGs
 
     - endday: done
 
 
     - day: Wednesday, February 28th
 
+    - start: 9:00pm
+      end: 10:30am
+      title: Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (agenda see below)
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: lunch
+
+    - start: 1:30pm
+      end: 3:00pm
+      title: Plenary (agenda see below)
+
+    - start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - start: 3:30pm
+      end: 5:00pm
+      title: Plenary (agenda see below)
+
+    - start: 5:30pm
+      end: 9:00pm
+      title: Group dinner ("pay yourself"), location tbd.
+
     - endday: done
 
 
     - day: Thusday, March 1st
+
+    - start: 9:00am
+      end: 9:30am
+
+    - start: 9:30am
+      end: 10:30am
+      title: Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (agenda see below)
 
     - endday: done
 
@@ -32,4 +123,23 @@ first-votes:
 second-votes:
 
 plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Discussion
+      title: MPI Forum Updates
+      presenter: Martin
+      done: 0
+
+
+
+
+
 
