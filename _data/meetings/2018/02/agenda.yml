@@ -97,6 +97,7 @@ schedule:
 
     - start: 9:00am
       end: 9:30am
+      title: Voting Block
 
     - start: 9:30am
       end: 10:30am
@@ -135,6 +136,21 @@ plenaries:
 
     - type: Discussion
       title: MPI Forum Updates
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
+      presenter: Tony
+      done: 0
+
+    - type: Discussion
+      title: adding missing nonblocking communicator operations
+      presenter: Tony
+      done: 0
+
+    - type: Discussion
+      title: Decisions on Virtual Meetings
       presenter: Martin
       done: 0
 
