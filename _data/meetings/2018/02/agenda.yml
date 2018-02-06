@@ -166,12 +166,17 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/77\">#77:</a> MPI_Wticks_elapsed"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/67\">#67:</a> MPI_T Consistent reference to MPI processes"
+      presenter: "Marc-Andre"
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/77\">#77:</a> Add integer-based access to MPI_Wtime"
       presenter: "Marc-Andre"
       done: 0
 
     - type: Discussion
-      title: Feedback on MPI_T_Events proposal
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/79\">#79:</a> Callback-driven event inteface for MPI_T"
       presenter: "Marc-Andre"
       done: 0
 
