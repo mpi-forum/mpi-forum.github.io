@@ -8,5 +8,5 @@ When submitting comments, please keep in mind that the MPI Forum only deals with
 
 Please send comments on MPI to the MPI Forum as follows:
 
-1. Subscribe to the [mailing list](http://lists.mpi-forum.org/mailman/listinfo.cgi/mpi-comments)
+1. Subscribe to the [mailing list](https://lists.mpi-forum.org/mailman/listinfo/mpi-comments)
 2. Send your comment to: [mpi-comments@lists.mpi-forum.org](mailto:mpi-comments@lists.mpi-forum.org), together with the URL of the version of the MPI standard and the page and line numbers on which you are commenting. Only use the official versions. Your comment will be forwarded to MPI Forum committee members for consideration. Messages sent from an unsubscribed e-mail address will not be considered.
