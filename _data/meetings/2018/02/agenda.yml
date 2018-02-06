@@ -49,11 +49,11 @@ schedule:
       end: 3:00pm
       title: FT WG (Wesley)
 
-     - start: 1:30pm
+    - start: 1:30pm
       end: 3:00pm
       title: HW Topology (Guillaume)
 
-   - start: 3:00pm
+    - start: 3:00pm
       end: 3:30pm
       title: Break
 
@@ -131,15 +131,16 @@ errata-votes:
 
 no-no-votes:
 
-first-and-only-votes:
-    - number 6
-      description: Update of MPIR document - MPIR, Include line numbers in specification
-
 first-votes:
-    - number 1
+    - number: 1
       description: Clarify MPI_ERRORS_ARE_FATAL scope of abort
-    - number 3
+
+    - number: 3
       description: Define new MPI Error handler for subcommunicator abort
+
+first-and-only-votes:
+    - number: 6
+      description: Update of MPIR document to include line numbers in specification
 
 second-votes:
 
@@ -155,7 +156,7 @@ plenaries:
       done: 0
 
     - type: WG Vote
-      title: Expanding the Scope of the Collectives WG to include Comm/Group
+      title: Expanding the Scope of the Collectives WG to include Comm and Group
       presenter: Martin
       done: 0
 
@@ -166,15 +167,15 @@ plenaries:
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/77\">#77:</a> MPI_Wticks_elapsed"
-      presenter: Marc-Andre
+      presenter: "Marc-Andre"
       done: 0
 
     - type: Discussion
       title: Feedback on MPI_T_Events proposal
-      presenter: Marc-Andre
+      presenter: "Marc-Andre"
       done: 0
 
-   - type: Reading
+    - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
       presenter: Tony
       done: 0
@@ -195,17 +196,17 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: User-Level Failure Mitigation"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20:</a> User-Level Failure Mitigation"
       presenter: Wesley
       done: 0
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: User-Level Failure Mitigation: RMA"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21:</a> User-Level Failure Mitigation: RMA"
       presenter: Wesley
       done: 0
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: User-Level Failure Mitigation: Files"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22:</a> User-Level Failure Mitigation: Files"
       presenter: Wesley
       done: 0
 
@@ -214,7 +215,7 @@ plenaries:
       presenter: Jeff
       done: 0
 
-   - type: Discussion
+    - type: Discussion
       title: FP16
       presenter: Atsushi
       done: 0
@@ -228,9 +229,3 @@ plenaries:
       title: Decisions on Virtual Meetings
       presenter: Martin
       done: 0
-
-
-
-
-
-
