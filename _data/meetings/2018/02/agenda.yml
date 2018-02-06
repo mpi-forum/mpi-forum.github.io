@@ -6,7 +6,7 @@ schedule:
 
     - start: 2:00pm
       end: 3:30pm
-      title: WGs
+      title: Session WG (Dan)
 
     - start: 3:30pm
       end: 4:00pm
@@ -14,7 +14,7 @@ schedule:
 
     - start: 4:00pm
       end: 5:30pm
-      title: WGs
+      title: Session WG (Dan)
 
     - endday: done
 
@@ -23,11 +23,11 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: WGs
+      title: Tools WG (Marc-Andre and Kathyrn)
 
     - start: 9:00am
       end: 10:30am
-      title: WGs
+      title: Persistence WG (Tony)
 
     - start: 10:30am
       end: 11:00am
@@ -35,7 +35,11 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: WGs
+      title: Tools WG (Marc-Andre and Kathyrn)
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Collective/Comm/Groups WG (Tony)
 
     - start: 12:30pm
       end: 1:30pm
@@ -43,15 +47,23 @@ schedule:
 
     - start: 1:30pm
       end: 3:00pm
-      title: WGs
+      title: FT WG (Wesley)
 
-    - start: 3:00pm
+     - start: 1:30pm
+      end: 3:00pm
+      title: HW Topology (Guillaume)
+
+   - start: 3:00pm
       end: 3:30pm
       title: Break
 
     - start: 3:30pm
       end: 5:00pm
-      title: WGs
+      title: FT WG (Wesley)
+
+    - start: 3:30pm
+      end: 5:00pm
+      title: HW Topology (Guillaume)
 
     - endday: done
 
@@ -119,7 +131,15 @@ errata-votes:
 
 no-no-votes:
 
+first-and-only-votes:
+    - number 6
+      description: Update of MPIR document - MPIR, Include line numbers in specification
+
 first-votes:
+    - number 1
+      description: Clarify MPI_ERRORS_ARE_FATAL scope of abort
+    - number 3
+      description: Define new MPI Error handler for subcommunicator abort
 
 second-votes:
 
@@ -134,19 +154,74 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: WG Vote
+      title: Expanding the Scope of the Collectives WG to include Comm/Group
+      presenter: Martin
+      done: 0
+
     - type: Discussion
       title: MPI Forum Updates
       presenter: Martin
       done: 0
 
     - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/77\">#77:</a> MPI_Wticks_elapsed"
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Discussion
+      title: Feedback on MPI_T_Events proposal
+      presenter: Marc-Andre
+      done: 0
+
+   - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
       presenter: Tony
       done: 0
 
     - type: Discussion
-      title: adding missing nonblocking communicator operations
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/78\">#78:</a> Add missing communicator operations (mostly non-blocking) to Groups, Contexts, Communicators, and Caching and Topology chapters"
       presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Catastrophic Errors
+      presenter: Wesley
+      done: 0
+
+    - type: Discussion
+      title: FT Interoperability
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20</a>: User-Level Failure Mitigation"
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21</a>: User-Level Failure Mitigation: RMA"
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22</a>: User-Level Failure Mitigation: Files"
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: Large Count
+      presenter: Jeff
+      done: 0
+
+   - type: Discussion
+      title: FP16
+      presenter: Atsushi
+      done: 0
+
+    - type: Discussion
+      title: The State of Sessions (SoS)
+      presenter: Dan
       done: 0
 
     - type: Discussion
