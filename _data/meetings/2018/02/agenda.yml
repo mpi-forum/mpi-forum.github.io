@@ -216,7 +216,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/2\">#2:</a> Large Count 1 and <a href=\"https://github.com/mpi-forum/mpi-issues/issues/4\">#4:</a> Large Count 2, <a href=\"https://github.com/mpi-forum/mpi-standard/pull/34\"> PR#34</a>"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/80\">#80:</a> Large Count"
       presenter: Jeff
       done: 0
 
