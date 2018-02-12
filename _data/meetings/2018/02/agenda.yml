@@ -226,6 +226,11 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/76\">#76:</a> Same Info in Collectives"
+      presenter: Jeff
+      done: 0
+
+    - type: Discussion
       title: The State of Sessions (SoS)
       presenter: Dan
       done: 0
