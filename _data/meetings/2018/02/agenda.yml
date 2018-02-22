@@ -130,6 +130,11 @@ procedure-votes:
 errata-votes:
 
 no-no-votes:
+    - number: 1
+      description: Clarify MPI_ERRORS_ARE_FATAL scope of abort
+
+    - number: 3
+      description: Define new MPI Error handler for subcommunicator abort
 
 first-votes:
     - number: 1
