@@ -251,7 +251,7 @@ plenaries:
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28:</a> Catastrophic Errors"
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Discussion
       title: FT Interoperability
@@ -310,6 +310,11 @@ plenaries:
 
     - type:
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/78\">#78:</a> Add missing communicator operations (mostly non-blocking) to Groups, Contexts, Communicators, and Caching and Topology chapters"
+      presenter: Tony
+      done: 0
+
+    - type:
+      title: Info Keys for persistent collectives
       presenter: Tony
       done: 0
 
