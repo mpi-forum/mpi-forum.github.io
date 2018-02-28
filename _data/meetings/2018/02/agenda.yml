@@ -294,7 +294,7 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: Decisions on Virtual Meetings, Options include:
+      title: Decisions on Virtual Meetings, Options include ...
       presenter: Martin
       done: 0
 
@@ -304,8 +304,15 @@ plenaries:
       done: 0
 
     - type:
+      title: Misc Call with new timers,
+      presenter: Marc-Andre and ...
+      done: 0
+
+    - type:
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/78\">#78:</a> Add missing communicator operations (mostly non-blocking) to Groups, Contexts, Communicators, and Caching and Topology chapters"
       presenter: Tony
       done: 0
+
+
 
 
