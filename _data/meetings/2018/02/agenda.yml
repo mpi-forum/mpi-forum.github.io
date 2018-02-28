@@ -231,22 +231,22 @@ plenaries:
     - type: Discussion
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/79\">#79:</a> Callback-driven event inteface for MPI_T"
       presenter: "Marc-Andre"
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/25\">#25:</a> Adding Persistent Collective Communication"
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/78\">#78:</a> Add missing communicator operations (mostly non-blocking) to Groups, Contexts, Communicators, and Caching and Topology chapters"
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-standard/pull/1/files/371c57e52c36a1b50ad37f8b89c5af2e07a83282..70b4efad7fd0561184b145ecce77c394da601ce5\">#1 and #3:</a> Clarify MPI_ERRORS_ARE_FATAL scope of abort and Define new MPI Error handler for subcommunicator abort"
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28:</a> Catastrophic Errors"
