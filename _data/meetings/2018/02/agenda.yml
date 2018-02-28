@@ -243,6 +243,11 @@ plenaries:
       presenter: Tony
       done: 0
 
+    - type: No-No Reading
+      title: "<a href=\"https://github.com/mpi-forum/mpi-standard/pull/1/files/371c57e52c36a1b50ad37f8b89c5af2e07a83282..70b4efad7fd0561184b145ecce77c394da601ce5\">#1 and #3:</a> Clarify MPI_ERRORS_ARE_FATAL scope of abort and Define new MPI Error handler for subcommunicator abort"
+      presenter: Wesley
+      done: 0
+
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/28\">#28:</a> Catastrophic Errors"
       presenter: Wesley
@@ -251,7 +256,7 @@ plenaries:
     - type: Discussion
       title: FT Interoperability
       presenter: Wesley/Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20:</a> User-Level Failure Mitigation"
