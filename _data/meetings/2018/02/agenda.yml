@@ -201,32 +201,32 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: WG Vote
       title: Expanding the Scope of the Collectives WG to include Comm and Group
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Discussion
       title: MPI Forum Updates
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/67\">#67:</a> MPI_T Consistent reference to MPI processes"
       presenter: "Marc-Andre"
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/77\">#77:</a> Add integer-based access to MPI_Wtime"
       presenter: "Marc-Andre"
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/79\">#79:</a> Callback-driven event inteface for MPI_T"
@@ -294,6 +294,18 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: Decisions on Virtual Meetings
+      title: Decisions on Virtual Meetings, Options include:
       presenter: Martin
       done: 0
+
+    - type:
+      title: MPI_T Events
+      presenter: Marc-Andre
+      done: 0
+
+    - type:
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/78\">#78:</a> Add missing communicator operations (mostly non-blocking) to Groups, Contexts, Communicators, and Caching and Topology chapters"
+      presenter: Tony
+      done: 0
+
+
