@@ -134,15 +134,15 @@ schedule:
       title: Break
 
     - start: 3:30pm
-      end: 5:00pm
+      end: 6:30pm
       title: Plenary (agenda see below)
       link: https://cisco.webex.com/ciscosales/j.php?MTID=mdab314791c47cf002e393aa30ee2ad6b
       video: 206680799@cisco.webex.com
       password: F9UtJupi
 
-    - start: 5:30pm
-      end: 9:00pm
-      title: Group dinner ("pay yourself"), location tbd.
+    - start: 7:00pm
+      end: 10:00pm
+      title: Group dinner ("pay yourself"), location Fat Heads Brewery at 131 NW 13th Ave, Portland, OR 97209
 
     - endday: done
 
