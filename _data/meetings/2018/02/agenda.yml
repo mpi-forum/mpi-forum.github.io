@@ -286,17 +286,17 @@ plenaries:
     - type: Discussion
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/76\">#76:</a> Same Info in Collectives"
       presenter: Wesley (for Jim)
-      done: 0
+      done: 1
 
     - type: Discussion
       title: The State of Sessions (SoS)
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/75\">#75:</a> Interoperability with task-based runtimes"
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Decisions on Virtual Meetings, Options include ...
