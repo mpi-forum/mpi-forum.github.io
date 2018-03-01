@@ -228,7 +228,7 @@ function buildVoteTable() {
                     html += '<td>\n';
                     html += '<fieldset>\n';
                     html += '<div id="vote_cell">';
-                    html += '<label class="yes"><input type="radio" id="' + i + ' ' + org + ' yes" name="' + i + ' ' + org + '" value="yes" onclick="calculateVotes()"><span>Yes</span></label>\n';
+                    html += '<label class="yes"><input type="radio" id="' + i + ' ' + org + ' yes" name="' + i + ' ' + org + '" value="yes" onclick="calculateVotes()" checked="checked"><span>Yes</span></label>\n';
                     html += '<label class="no"><input type="radio" id="' + i + ' ' + org + ' no" name="' + i + ' ' + org + '" value="no" onclick="calculateVotes()"><span>No</span></label>\n';
                     html += '<label class="abstain"><input type="radio" id="' + i + ' ' + org + ' abstain" name="' + i + ' ' + org + '" value="abstain" onclick="calculateVotes()"><span>Abstain</span></label>\n';
                     html += '</div>';
