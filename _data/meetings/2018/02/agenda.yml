@@ -261,22 +261,22 @@ plenaries:
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/20\">#20:</a> User-Level Failure Mitigation"
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/21\">#21:</a> User-Level Failure Mitigation: RMA"
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/22\">#22:</a> User-Level Failure Mitigation: Files"
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/80\">#80:</a> Large Count"
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Discussion
       title: FP16
@@ -290,6 +290,11 @@ plenaries:
 
     - type: Discussion
       title: The State of Sessions (SoS)
+      presenter: Dan
+      done: 0
+
+    - type: Discussion
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/80\">#75:</a> Interoperability with task-based runtimes"
       presenter: Dan
       done: 0
 
