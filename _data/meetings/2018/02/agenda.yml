@@ -281,7 +281,7 @@ plenaries:
     - type: Discussion
       title: FP16
       presenter: Atsushi
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/76\">#76:</a> Same Info in Collectives"
@@ -301,28 +301,6 @@ plenaries:
     - type: Discussion
       title: Decisions on Virtual Meetings, Options include ...
       presenter: Martin
-      done: 0
-
-    - type:
-      title: MPI_T Events
-      presenter: Marc-Andre
-      done: 0
-
-    - type:
-      title: Misc Call with new timers,
-      presenter: Marc-Andre and ...
-      done: 0
-
-    - type:
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/78\">#78:</a> Add missing communicator operations (mostly non-blocking) to Groups, Contexts, Communicators, and Caching and Topology chapters"
-      presenter: Tony
-      done: 0
-
-    - type:
-      title: Info Keys for persistent collectives
-      presenter: Tony
-      done: 0
-
-
+      done: 1
 
 
