@@ -1,0 +1,23 @@
+org,"#6: Update of MPIR document to include line numbers in specification","#1: Clarify MPI_ERRORS_ARE_FATAL scope of abort","#3: Define new MPI Error handler for subcommunicator abort","#1: Clarify MPI_ERRORS_ARE_FATAL scope of abort","#3: Define new MPI Error handler for subcommunicator abort"
+"Cray",yes,yes,yes,yes,yes
+"UAB",yes,yes,yes,yes,yes
+"TU Munich",yes,yes,yes,yes,yes
+"UTC",yes,yes,yes,yes,yes
+"RIKEN",yes,yes,yes,yes,yes
+"Edinburgh",yes,yes,yes,yes,yes
+"Intel",yes,yes,yes,yes,yes
+"Sandia",yes,yes,yes,yes,yes
+"Fujitsu",yes,yes,yes,yes,yes
+"Los Alamos",yes,yes,yes,yes,yes
+"Livermore",yes,yes,yes,yes,yes
+"Argonne",yes,yes,yes,yes,yes
+"Paratools",yes,yes,yes,yes,yes
+"Microsoft",yes,yes,yes,yes,yes
+"INRIA",yes,yes,yes,yes,yes
+"Berkeley",yes,yes,yes,yes,yes
+"Mellanox",yes,yes,yes,yes,yes
+"OSU",yes,yes,yes,yes,yes
+"Auburn",yes,yes,yes,yes,yes
+"Oak Ridge",yes,yes,yes,yes,yes
+"Lenovo",yes,yes,yes,yes,yes
+"UTK",yes,yes,yes,yes,yes
