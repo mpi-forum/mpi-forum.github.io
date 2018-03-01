@@ -89,7 +89,7 @@ layout: default
     <h3>First and Only Votes</h3>
     <ul>
     {% for item in input.first-and-only-votes %}
-        <li>{% if item.number.size > 0 %}<a href="{{url}}{item.number}}">#{{item.number}}</a>: {% endif %}{{item.description}}</li>
+        <li>{% if item.number.size > 0 %}<a href="{{url}}{{item.number}}">#{{item.number}}</a>: {% endif %}{{item.description}}</li>
     {% endfor %}
     </ul>
     {% endif %}
