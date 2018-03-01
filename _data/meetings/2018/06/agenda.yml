@@ -1,0 +1,151 @@
+test: data
+
+schedule:
+
+    - day: Monday, June 11th
+
+    - start: 2:00pm
+      end: 3:30pm
+      title: WG time
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 5:30pm
+      title: WG time
+
+    - endday: done
+
+
+    - day: Tuesday, June 12th
+
+    - start: 9:00am
+      end: 10:30am
+      title: WG time
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: WG time
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: lunch
+
+    - start: 1:30pm
+      end: 3:00pm
+      title: WG time
+
+    - start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - start: 3:30pm
+      end: 5:00pm
+      title: WG time
+
+    - endday: done
+
+
+    - day: Wednesday, June 13th
+
+    - start: 9:00pm
+      end: 10:30am
+      title: Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (agenda see below)
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: lunch
+
+    - start: 1:30pm
+      end: 3:00pm
+      title: Plenary (agenda see below)
+
+    - start: 3:00pm
+      end: 3:30pm
+      title: Break
+
+    - start: 3:30pm
+      end: 6:30pm
+      title: Plenary (agenda see below)
+
+    - start: 7:00pm
+      end: 10:00pm
+      title: Group dinner ("pay yourself"), location tbd.
+
+    - endday: done
+
+
+    - day: Thusday, June 14th
+
+    - start: 9:00am
+      end: 9:30am
+      title: Voting Block
+
+    - start: 9:30am
+      end: 10:30am
+      title: Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (agenda see below)
+
+    - endday: done
+
+procedure-votes:
+
+errata-votes:
+
+no-no-votes:
+
+first-votes:
+
+first-and-only-votes:
+
+second-votes:
+    - number: 1
+      description: Clarify MPI_ERRORS_ARE_FATAL scope of abort
+
+    - number: 3
+      description: Define new MPI Error handler for subcommunicator abort
+
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Discussion
+      title: MPI Forum Updates
+      presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: Decisions on Virtual Meetings, Options include ...
+      presenter: Martin
+      done: 0
+
+

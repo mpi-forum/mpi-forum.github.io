@@ -45,7 +45,7 @@ On Dec 6th 2017, the MPI forum voted for [new voting rules](../docs/other/proced
 
 The following working groups are currently participating in the MPI 4.0 efforts. For more information on each working group, current topics, and meeting schedules, please follow the links to the respective Wiki pages.
 
-#### [Collective Communication and Topology](https://github.com/mpiwg-coll/coll-issues)
+#### [Collective Communication, Topology, Communicators, Groups](https://github.com/mpiwg-coll/coll-issues)
 
 *   Lead: Torsten Hoefler, Andrew Lumsdaine, Anthony Skjellum
 *   Scope: The main goals of the working group are to discuss the modernization of the collective communication interface to reflect the changed environment and improve the capability of MPI to run efficiently on large-scale computing systems. Our efforts also affect communicator management MPI topologies.
