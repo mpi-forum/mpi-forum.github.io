@@ -16,7 +16,7 @@ permalink: meetings/
 
 ##### Jun 11 - Jun 14: Austin, TX (Intel)
 
-|Logistics|Agenda|Presentations|Attendance|Voting||
+|Logistics|[Agenda](2018/06/agenda)|Presentations|Attendance|Voting||
 
 ##### Virtual Meeting ([May 30, 1 PM - 2 PM Central US](https://www.timeanddate.com/worldclock/fixedtime.html?msg=MPI+Forum+Virtual+Meeting&iso=20180131T13&p1=64&ah=1)): Language Bindings (Puri)
 
