@@ -18,6 +18,18 @@ permalink: meetings/
 
 |Logistics|Agenda|Presentations|Attendance|Voting||
 
+##### Virtual Meeting: ([May 30, 1 PM - 2 PM Central US](https://www.timeanddate.com/worldclock/fixedtime.html?msg=MPI+Forum+Virtual+Meeting&iso=20180131T13&p1=64&ah=1)): Language Bindings (Puri)
+
+|[Meeting Information](2018/01/2018-05-30-virtual)|
+
+##### Virtual Meeting ([May 9, 1 PM - 2 PM Central US](https://www.timeanddate.com/worldclock/fixedtime.html?msg=MPI+Forum+Virtual+Meeting&iso=20180117T13&p1=64&ah=1)): MPI_T_Events Pre-Reading (plus possibly new timers pre-reading) (Marc-Andre)
+
+|[Meeting Information](2018/01/2018-05-09-virtual)|
+
+##### Virtual Meeting ([Apr 11, 1 PM - 2 PM Central US](https://www.timeanddate.com/worldclock/fixedtime.html?msg=MPI+Forum+Virtual+Meeting&iso=20180117T13&p1=64&ah=1)): Ticket 78 (non-blocking routines) and Info keys for persistant collectives (Toni)
+
+|[Meeting Information](2018/01/2018-04-11-virtual)|
+
 ##### Feb 26 - Mar 1: Portland, OR (Microsoft)
 
 |[Logistics](2018/02/logistics)|[Agenda](2018/02/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/02)|[Attendance](2018/02/attendance)|[Voting](2018/02/votes)|[Notes](2018/02/notes)|
