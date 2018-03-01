@@ -8,19 +8,19 @@ permalink: meetings/
 
 ##### Dec 3 - Dec 6: San Jose, CA (Cisco)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|Logistics|Agenda|Presentations|Attendance|Voting||
 
 ##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|Logistics|Agenda|Presentations|Attendance|Voting||
 
 ##### Jun 11 - Jun 14: Austin, TX (Intel)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|
+|Logistics|Agenda|Presentations|Attendance|Voting||
 
 ##### Feb 26 - Mar 1: Portland, OR (Microsoft)
 
-|[Logistics](2018/02/logistics)|[Agenda](2018/02/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/02)|[Attendance](2018/02/attendance)|[Voting](2018/02/votes)|
+|[Logistics](2018/02/logistics)|[Agenda](2018/02/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/02)|[Attendance](2018/02/attendance)|[Voting](2018/02/votes)|[Notes](2018/02/notes)|
 
 ##### Virtual Meeting: ([Jan 31, 1 PM - 2 PM Central US](https://www.timeanddate.com/worldclock/fixedtime.html?msg=MPI+Forum+Virtual+Meeting&iso=20180131T13&p1=64&ah=1)): FP 16
 
