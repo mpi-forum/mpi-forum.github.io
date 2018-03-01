@@ -114,8 +114,12 @@ procedure-votes:
 errata-votes:
 
 no-no-votes:
+    - number: 28
+      description: Noncatastrophic Errors
 
 first-votes:
+    - number: 28
+      description: Noncatastrophic Errors
 
 first-and-only-votes:
 
