@@ -294,7 +294,7 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/80\">#75:</a> Interoperability with task-based runtimes"
+      title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/75\">#75:</a> Interoperability with task-based runtimes"
       presenter: Dan
       done: 0
 
