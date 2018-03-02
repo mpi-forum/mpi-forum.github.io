@@ -40,7 +40,7 @@ Marc-Andre read new interfaces for integer-based timers. There were a few discus
 * A straw vote was take on whether to link the source of `MPI_WTIME` and the new functions.
     * The result was mixed. About 13 in favor and about 5 against.
 
-### [#79: Callback-driven event inteface for MPI_T](https://github.com/mpi-forum/mpi-issues/issues/79)
+### [#79: Callback-driven event interface for MPI_T](https://github.com/mpi-forum/mpi-issues/issues/79)
 
 Marc-Andre presented slides for a callback-driven event interface. He also showed potential text to
 add these ideas to the tools chapter. There was some specific feedback on the text that will
@@ -71,7 +71,7 @@ Tony read the persistent collectives PR.
 ### [#78: Add missing communicator operations (mostly non-blocking) to Groups, Contexts, Communicators, and Caching and Topology chapters](https://github.com/mpi-forum/mpi-issues/issues/78)
 
 Tony read the proposal to add non-blocking versions of many communicator, window, and file based
-functions for contstruction, destruction, and manipulation.
+functions for construction, destruction, and manipulation.
 
 ### [#28: Catastrophic Errors](https://github.com/mpi-forum/mpi-issues/issues/28)
 
@@ -105,3 +105,46 @@ Martin: If we're going to add `_X` versions of all of the MPI functions, we shou
 all of the changes that we we're going to want. What about:
 * Changing the rank from an `int` to `MPI_Rank`
 * Adding an `MPI_INFO` object
+
+### FP16
+
+Atsushi presented an update on the FP16 work.
+
+### [#76: Same Info in Collectives](https://github.com/mpi-forum/mpi-issues/issues/76)
+
+Wesley presented a plenary on behalf of Jim Dinan to add an assertion that all
+info keys are identical across a communicator.
+
+There was feedback about not wanting force _all_ info keys to be uniform, particularly
+around object creation. A number of potential solutions were discussed:
+
+1. The values of this key are a list of other keys
+2. Duplicate all keys that should have the same value and the new version is required to be uniform
+3. Add an API for setting uniform keys (doesn’t work during object creation)
+4. Add new values to keys that we want to be uniform (`true_everywhere`, `false_everywhere`)
+
+### The State of Sessions (SoS)
+
+Dan presented an update on the state of the sessions proposal. He asked for feedback
+on whether the Sessions WG should start working on text for the core proposal. There
+was support for this in the room.
+
+### [#75: Interoperability with task-based runtimes](https://github.com/mpi-forum/mpi-issues/issues/75)
+
+Dan presented an issue about how MPI can interoperate with task-based runtimes. The concern
+is that MPI's thread-safety rules make valid task-based programs erroneous MPI programs.
+This is the example program that breaks:
+
+```
+#OMP parallel
+{
+	#OMP task
+	{ MPI_SSEND(...) }
+	#OMP task
+	{ MPI_RECV(...) }
+	#OMP taskwait
+}
+```
+
+The solution is a new thread level `MPI_TASK_MULTIPLE` which implies that the MPI
+implementation will yield in the appropriate way to unblock other tasks.
