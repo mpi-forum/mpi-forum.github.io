@@ -82,7 +82,7 @@ next meeting.
 ### [#20: User-Level Failure Mitigation](https://github.com/mpi-forum/mpi-issues/issues/20)
 
 Aurelien attempted a reading of the ULFM proposal and presented supporting slides. The general
-feedback from the forum is that ULFM as a whole is still too large to standardize as a whole.
+feedback from the forum is that ULFM still has too many problems to standardize as a whole.
 Individual pieces might be acceptable (e.g. `MPI_COMM_FAILURE_ACK/GET_ACKED`), but others are still
 objectionable (e.g. `MPI_COMM_SHRINK` and `MPI_COMM_REVOKE`).
 
@@ -91,9 +91,9 @@ The suggestion is to break this into three pieces:
 2. `MPI_COMM_AGREE`
 3. `MPI_COMM_REVOKE` and `MPI_COMM_SHRINK`
 
-1 and 2 are probably standardizable as is while 3 is the part that is a problem for many. If we have
-1 and 2, there might be other solutions that can replace 3 (or tweaks to 3 that can fix the problems
-which we would discover in the meantime).
+1 and 2 are probably standardizable as is, while 3 is the part that is a problem for many. If we
+have 1 and 2, there might be other solutions that can replace 3 (or tweaks to 3 that can fix the
+problems which we would discover in the meantime).
 
 ### [#80: Large Count](https://github.com/mpi-forum/mpi-issues/issues/80)
 
