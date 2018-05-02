@@ -15,11 +15,15 @@ MPI Forum rules. Attendees will be required to check in and wear a guest badge o
 The meeting will take place at the Intel office just outside of downtown Austin, TX
 which is at [300 S MoPac Expy, Austin TX 78746](https://goo.gl/maps/9qE85hgdgek).
 
-Follow the signs to the visitor parking lot and park as far in to the lot as possible. **Do not*
-enter through the main entrance up the steps, but instead follow the sidewalk on the south side of
-the parking lot to the double glass door. There will be a special check-in desk set up in that lobby
-to make things easier for our meeting. If you end up in the wrong place, call or email Wesley Bland
-(contact information will be posted around the building).
+Follow the signs to the visitor parking lot. Enter from the frontage road (not by going into the
+campus at the traffic light). If you go into the campus at the traffic light, you will need to leave
+campus and go back around the frontage roads to get back to the visitor parking. The parking garage
+is only for overflow visitor parking. Park as far in to the lot as possible.
+
+**Do not* enter through the main entrance up the steps, but instead follow the sidewalk on the south
+side of the parking lot to the double glass door. There will be a special check-in desk set up in
+that lobby to make things easier for our meeting. If you end up in the wrong place, call or email
+Wesley Bland (contact information will be posted around the building).
 
 ### Hotel
 
