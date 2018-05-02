@@ -19,6 +19,7 @@ which is at 300 S MoPac Expy, Austin TX 78746.
 
 We are working to get a hotel room block, but this is a list of recommended meeting hotels:
 
+* [Springhill Suites by Marriott Austin South](https://goo.gl/maps/YaxEGE7eL2y)
 * [Hampton Inn Austin/Airport Area South](https://goo.gl/maps/qdA7Aqz43ZF2)
 * [Courtyard by Marriott Austin South](https://goo.gl/maps/MngeXUudJjT2)
 * [Residence Inn by Marriott Austin Southwest](https://goo.gl/maps/XWGQmqm5hxS2)
