@@ -20,15 +20,15 @@ permalink: meetings/
 
 ##### Virtual Meeting ([May 30, 1 PM - 2 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): Language Bindings (Puri)
 
-|[Meeting Information](2018/01/2018-05-30-virtual)|
+|[Meeting Information](2018/05/2018-05-30-virtual)|
 
 ##### Virtual Meeting ([May 9, 1 PM - 2 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): MPI_T_Events Pre-Reading (plus possibly new timers pre-reading) (Marc-Andre)
 
-|[Meeting Information](2018/01/2018-05-09-virtual)|
+|[Meeting Information](2018/05/2018-05-09-virtual)|
 
 ##### Virtual Meeting ([Apr 11, 1 PM - 2 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): Ticket 78 (non-blocking routines) and Info keys for persistent collectives (Tony)
 
-|[Meeting Information](2018/01/2018-04-11-virtual)|
+|[Meeting Information](2018/04/2018-04-11-virtual)|
 
 ##### Feb 26 - Mar 1: Portland, OR (Microsoft)
 
