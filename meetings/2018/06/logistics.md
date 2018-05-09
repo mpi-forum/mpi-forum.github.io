@@ -27,18 +27,23 @@ Wesley Bland (contact information will be posted around the building).
 
 ### Hotel
 
-We are working to get a hotel room block, but this is a list of recommended meeting hotels:
+A hotel room block is available at [Residence Inn by Marriott Austin
+Southwest](https://goo.gl/maps/XWGQmqm5hxS2) for $159.00 per night. It can be book via
+[this](http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Intel%20MPI%20Forum%5EAUSWE%60MPIMPIA%60159.00%60USD%60false%603%606/11/18%606/14/18%606/1/18&app=resvlink&stop_mobi=yes)
+link. Reservations must be made by June 1 to use this link (or you can call if you miss the deadline
+and they might honor the price).
+
+If that hotel is not available/preferable, here some other suggestions:
 
 * [Springhill Suites by Marriott Austin South](https://goo.gl/maps/YaxEGE7eL2y)
 * [Hampton Inn Austin/Airport Area South](https://goo.gl/maps/qdA7Aqz43ZF2)
 * [Courtyard by Marriott Austin South](https://goo.gl/maps/MngeXUudJjT2)
-* [Residence Inn by Marriott Austin Southwest](https://goo.gl/maps/XWGQmqm5hxS2)
 * [Hampton Inn Austin/Oak Hill](https://goo.gl/maps/VVkMMVThvTK2)
 
-All of these are suburban hotels and will have to contend with traffic. Downtown hotels are also
-available and will have less of a traffic problem, but are much more expensive. Rental cars or
-taxi/rideshares will be necessary to get to the office as there is no public transit available that
-will bring you to the Intel office.
+All of these are suburban hotels and will have to contend with traffic. Average travel time at 9am
+will probably be about 15 to 20 minutes. Downtown hotels are also available and will have less of a
+traffic problem, but are much more expensive. Rental cars or taxi/rideshares will be necessary to
+get to the office as there is no public transit available that will bring you to the Intel office.
 
 ### Meeting Cost
 
