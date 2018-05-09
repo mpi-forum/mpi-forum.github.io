@@ -4,7 +4,7 @@ date: June 11 - June 14, 2018
 permalink: meetings/2018/06/logistics
 ---
 
-### [Meeting Registration]()
+### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-austin-tickets-45936583558)
 
 The registration covers snacks at the meeting on Monday, Tuesday, Wednesday, and Thursday, lunch on
 Tuesday and Wednesday, and the meeting logistics. Advanced registration is always required per the
