@@ -29,7 +29,7 @@ Wesley Bland (contact information will be posted around the building).
 
 A hotel room block is available at [Residence Inn by Marriott Austin
 Southwest](https://goo.gl/maps/XWGQmqm5hxS2) for $159.00 per night. It can be book via
-[this](http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Intel%20MPI%20Forum%5EAUSWE%60MPIMPIA%60159.00%60USD%60false%603%606/11/18%606/14/18%606/1/18&app=resvlink&stop_mobi=yes)
+[this](https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Intel%20MPI%20Forum%5EAUSWE%60MPIMPIA%60149.00%60USD%60false%603%606/10/18%606/15/18%606/1/18&app=resvlink&stop_mobi=yes) (expanded to include Sunday and Thursday)
 link. Reservations must be made by June 1 to use this link (or you can call if you miss the deadline
 and they might honor the price).
 
