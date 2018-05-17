@@ -143,7 +143,12 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: MPI Forum Updates
+      title: Draft Standard
+      presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: Next locations
       presenter: Martin
       done: 0
 
