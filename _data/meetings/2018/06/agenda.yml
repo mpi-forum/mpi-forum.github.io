@@ -6,7 +6,7 @@ schedule:
 
     - start: 2:00pm
       end: 3:30pm
-      title: WG time
+      title: Collectives WG
 
     - start: 3:30pm
       end: 4:00pm
@@ -14,7 +14,7 @@ schedule:
 
     - start: 4:00pm
       end: 5:30pm
-      title: WG time
+      title: Collectives WG
 
     - endday: done
 
@@ -23,7 +23,11 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: WG time
+      title: Tools WG
+
+    - start: 9:00am
+      end: 10:30am
+      title: Persistence WG
 
     - start: 10:30am
       end: 11:00am
@@ -31,7 +35,11 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: WG time
+      title: Tools WG
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Persistence WG
 
     - start: 12:30pm
       end: 1:30pm
@@ -39,7 +47,7 @@ schedule:
 
     - start: 1:30pm
       end: 3:00pm
-      title: WG time
+      title: Hardware Topologies WG
 
     - start: 3:00pm
       end: 3:30pm
@@ -47,7 +55,7 @@ schedule:
 
     - start: 3:30pm
       end: 5:00pm
-      title: WG time
+      title: Hardware Topologies WG
 
     - endday: done
 
@@ -118,6 +126,8 @@ no-no-votes:
       description: Noncatastrophic Errors
 
 first-votes:
+    - number: 25
+      description: Adding Persistent Collective Communication
     - number: 28
       description: Noncatastrophic Errors
 
@@ -145,6 +155,16 @@ plenaries:
     - type: Discussion
       title: Draft Standard
       presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: Collectives
+      presenter: Tony
+      done: 0
+
+    - type: Discussion
+      title: Splitting ULFM
+      presenter: Wesley and Aurelien
       done: 0
 
     - type: Discussion
