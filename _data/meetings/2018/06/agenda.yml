@@ -125,7 +125,7 @@ procedure-votes:
 
 errata-votes:
     - number: 91
-      description: MPI_STATUS_SET_CANCELED F08 binding: flag param intent
+      description: MPI_STATUS_SET_CANCELED F08 binding flag param intent
     - number: 55
       description: broken link for rfc1832
 
