@@ -16,6 +16,10 @@ schedule:
       end: 5:30pm
       title: Collectives WG
 
+    - start: 4:00pm
+      end: 5:30pm
+      title: Hybrid WG
+
     - endday: done
 
 
@@ -120,6 +124,10 @@ schedule:
 procedure-votes:
 
 errata-votes:
+    - number: 91
+      description: MPI_STATUS_SET_CANCELED F08 binding: flag param intent
+    - number: 55
+      description: broken link for rfc1832
 
 no-no-votes:
     - number: 28
@@ -140,7 +148,6 @@ second-votes:
     - number: 3
       description: Define new MPI Error handler for subcommunicator abort
 
-
 plenaries:
     - type: Welcome
       title: Introductions
@@ -157,6 +164,16 @@ plenaries:
       presenter: Martin
       done: 0
 
+    - type: Reading
+      title: Behavior of MPI_Dims_create when ndims is zero (Issue 72)
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: Deprecate MPI_SIZEOF in MPI-4.0 (Issue 51)
+      presenter: Wesley
+      done: 0
+
     - type: Discussion
       title: Collectives
       presenter: Tony
@@ -165,6 +182,11 @@ plenaries:
     - type: Discussion
       title: Splitting ULFM
       presenter: Wesley and Aurelien
+      done: 0
+
+    - type: Discussion
+      title: Cleanup/Assign/Close Open Tickets (13, 17, 18, 19, 30, 64)
+      presenter: Martin
       done: 0
 
     - type: Discussion
