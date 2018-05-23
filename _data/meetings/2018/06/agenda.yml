@@ -84,7 +84,7 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: tbd WG
+      title: Hybrid WG
 
     - start: 10:30am
       end: 11:00am
@@ -96,7 +96,7 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: Hybrid WG
+      title: or (if Sessions if over earlier) Plenary (agenda see below)
 
     - start: 12:30pm
       end: 1:30pm
