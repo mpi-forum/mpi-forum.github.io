@@ -8,6 +8,10 @@ schedule:
       end: 3:30pm
       title: Collectives WG
 
+   - start: 2:00pm
+      end: 3:30pm
+      title: FT WG
+
     - start: 3:30pm
       end: 4:00pm
       title: Break
@@ -18,7 +22,7 @@ schedule:
 
     - start: 4:00pm
       end: 5:30pm
-      title: Hybrid WG
+      title: FT WG
 
     - endday: done
 
@@ -53,6 +57,10 @@ schedule:
       end: 3:00pm
       title: Hardware Topologies WG
 
+    - start: 1:30pm
+      end: 3:00pm
+      title: Sessions WG
+
     - start: 3:00pm
       end: 3:30pm
       title: Break
@@ -61,14 +69,22 @@ schedule:
       end: 5:00pm
       title: Hardware Topologies WG
 
+    - start: 3:30pm
+      end: 5:00pm
+      title: Sessions WG
+
     - endday: done
 
 
     - day: Wednesday, June 13th
 
-    - start: 9:00pm
+    - start: 9:00am
       end: 10:30am
-      title: Plenary (agenda see below)
+      title: Sessions WG
+
+    - start: 9:00am
+      end: 10:30am
+      title: tbd WG
 
     - start: 10:30am
       end: 11:00am
@@ -76,7 +92,11 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: Plenary (agenda see below)
+      title: Sessions WG
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Hybrid WG
 
     - start: 12:30pm
       end: 1:30pm
@@ -128,6 +148,12 @@ errata-votes:
       description: MPI_STATUS_SET_CANCELED F08 binding flag param intent
     - number: 55
       description: broken link for rfc1832
+    - number: 86
+      description: Possible ambiguity on size of array_of_indices and array_of_statuses
+    - number: 72
+      description: Behavior of MPI_Dims_create when ndims is zero
+    - number: 87
+      description: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies
 
 no-no-votes:
     - number: 28
@@ -160,13 +186,18 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: Draft Standard
+      title: Draft Standard and targets for next MPI Standard
       presenter: Martin
       done: 0
 
     - type: Reading
       title: Behavior of MPI_Dims_create when ndims is zero (Issue 72)
       presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies (Issue 87)
+      presenter: Dan
       done: 0
 
     - type: Reading
@@ -187,6 +218,16 @@ plenaries:
     - type: Discussion
       title: Cleanup/Assign/Close Open Tickets (13, 17, 18, 19, 30, 64)
       presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: HW Topology WG Update
+      presenter: Guillaume
+      done: 0
+
+    - type: Discussion
+      title: Sessions Update
+      presenter: Dan
       done: 0
 
     - type: Discussion
