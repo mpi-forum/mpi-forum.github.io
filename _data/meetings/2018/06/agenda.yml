@@ -166,12 +166,16 @@ errata-votes:
 no-no-votes:
     - number: 28
       description: Noncatastrophic Errors
+   - number: 67
+      description: Refined references to MPI processes throughout the Tools chapter
 
 first-votes:
     - number: 25
       description: Adding Persistent Collective Communication
     - number: 28
       description: Noncatastrophic Errors
+   - number: 67
+      description: Refined references to MPI processes throughout the Tools chapter
 
 first-and-only-votes:
 
@@ -194,7 +198,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: All Errata issues (55, 72, 86, 87, 91)
+      title: All Errata issues (55, 72, 86, 91)
       presenter: Various
       done: 0
 
@@ -206,6 +210,11 @@ plenaries:
     - type: Reading
       title: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies (Issue 87)
       presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: No-No vote issues (28, 67)
+      presenter: Various
       done: 0
 
     - type: Reading
@@ -221,11 +230,6 @@ plenaries:
     - type: Reading
       title: CNew functions to create communicators from groups (Issue 93)
       presenter: Dan
-      done: 0
-
-    - type: Reading
-      title: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies (Issue 87)
-      presenter: Tony
       done: 0
 
     - type: Reading
