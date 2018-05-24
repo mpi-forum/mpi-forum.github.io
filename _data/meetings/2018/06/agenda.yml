@@ -6,11 +6,7 @@ schedule:
 
     - start: 2:00pm
       end: 3:30pm
-      title: Collectives WG
-
-   - start: 2:00pm
-      end: 3:30pm
-      title: FT WG
+      title: Sessions WG
 
     - start: 3:30pm
       end: 4:00pm
@@ -18,11 +14,11 @@ schedule:
 
     - start: 4:00pm
       end: 5:30pm
-      title: Collectives WG
+      title: Sessions WG
 
     - start: 4:00pm
       end: 5:30pm
-      title: FT WG
+      title: Hybrid WG
 
     - endday: done
 
@@ -31,11 +27,11 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: Tools WG
+      title: Hardware Topologies WG
 
     - start: 9:00am
       end: 10:30am
-      title: Persistence WG
+      title: Sessions WG
 
     - start: 10:30am
       end: 11:00am
@@ -43,23 +39,23 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: Tools WG
+      title: Hardware Topologies WG
 
     - start: 11:00am
       end: 12:30pm
-      title: Persistence WG
+      title: Sessions WG
 
     - start: 12:30pm
       end: 1:30pm
-      title: lunch
+      title: working lunch (with discussion on next locations)
 
     - start: 1:30pm
       end: 3:00pm
-      title: Hardware Topologies WG
+      title: FT WG
 
     - start: 1:30pm
       end: 3:00pm
-      title: Sessions WG
+      title: Collectives WG
 
     - start: 3:00pm
       end: 3:30pm
@@ -67,40 +63,48 @@ schedule:
 
     - start: 3:30pm
       end: 5:00pm
-      title: Hardware Topologies WG
+      title: FT WG
 
     - start: 3:30pm
       end: 5:00pm
-      title: Sessions WG
+      title: Collectives WG
+
+    - start: 5:00pm
+      end: 6:00pm
+      title: Plenary (agenda see below)
 
     - endday: done
 
 
     - day: Wednesday, June 13th
 
-    - start: 9:00am
-      end: 10:30am
-      title: Sessions WG
+    - start: 8:30am
+      end: 10:00am
+      title: Tools WG
 
-    - start: 9:00am
-      end: 10:30am
-      title: Hybrid WG
+    - start: 8:30am
+      end: 10:00am
+      title: Persistence WG
 
-    - start: 10:30am
-      end: 11:00am
+    - start: 10:00am
+      end: 10:30am
       title: Break
 
-    - start: 11:00am
-      end: 12:30pm
-      title: Sessions WG
+    - start: 10:30am
+      end: 12:00pm
+      title: Tools WG
 
-    - start: 11:00am
-      end: 12:30pm
-      title: or (if Sessions if over earlier) Plenary (agenda see below)
+    - start: 10:30am
+      end: 12:00pm
+      title: Persistence WG
+
+    - start: 10:30am
+      end: 12:00pm
+      title: Plenary on status, open issues (13, 17, 18, 19, 30, 64)
 
     - start: 12:30pm
       end: 1:30pm
-      title: lunch
+      title: working lunch (with discussion on draft standard and MPI-next)
 
     - start: 1:30pm
       end: 3:00pm
@@ -123,11 +127,11 @@ schedule:
 
     - day: Thusday, June 14th
 
-    - start: 9:00am
-      end: 9:30am
+    - start: 8:30am
+      end: 9:00am
       title: Voting Block
 
-    - start: 9:30am
+    - start: 9:00am
       end: 10:30am
       title: Plenary (agenda see below)
 
@@ -136,8 +140,12 @@ schedule:
       title: Break
 
     - start: 11:00am
-      end: 12:30pm
+      end: 12:15pm
       title: Plenary (agenda see below)
+
+    - start: 12:15pm
+      end: 12:30pm
+      title: Decisions on Virtual Meetings, Options include ...
 
     - endday: done
 
@@ -185,9 +193,9 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Discussion
-      title: Draft Standard and targets for next MPI Standard
-      presenter: Martin
+    - type: Reading
+      title: All Errata issues (55, 72, 86, 87, 91)
+      presenter: Various
       done: 0
 
     - type: Reading
@@ -205,19 +213,64 @@ plenaries:
       presenter: Wesley
       done: 0
 
+    - type: Reading
+      title: New functions to create files from groups (Issue 94)
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: CNew functions to create communicators from groups (Issue 93)
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies (Issue 87)
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Info key(s) for Persistent Collective Communication (Issue 83)
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters (Issue 90)
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Non-blocking communicator/file/win constructors/destructors/etc (Issue 78)
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Nonblocking functionality for the Process Creation and Management Chapter (Issue 81)
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Nonblocking constructor/destructor(s) for the One-sided Communication RMA Chapter (Issue 82)
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: WITH_INFO review across the collective API (Issue 84)
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: WITH_INFO review correlated to Tickets 80 and 84 for collective operations (Issue 85)
+      presenter: Tony
+      done: 0
+
     - type: Discussion
-      title: Collectives
+      title: Collectives WG Update
       presenter: Tony
       done: 0
 
     - type: Discussion
       title: Splitting ULFM
       presenter: Wesley and Aurelien
-      done: 0
-
-    - type: Discussion
-      title: Cleanup/Assign/Close Open Tickets (13, 17, 18, 19, 30, 64)
-      presenter: Martin
       done: 0
 
     - type: Discussion
@@ -230,14 +283,4 @@ plenaries:
       presenter: Dan
       done: 0
 
-    - type: Discussion
-      title: Next locations
-      presenter: Martin
-      done: 0
-
-    - type: Discussion
-      title: Decisions on Virtual Meetings, Options include ...
-      presenter: Martin
-      done: 0
-
-
+ 
