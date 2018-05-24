@@ -166,7 +166,7 @@ errata-votes:
 no-no-votes:
     - number: 28
       description: Noncatastrophic Errors
-   - number: 67
+    - number: 67
       description: Refined references to MPI processes throughout the Tools chapter
 
 first-votes:
@@ -174,7 +174,7 @@ first-votes:
       description: Adding Persistent Collective Communication
     - number: 28
       description: Noncatastrophic Errors
-   - number: 67
+    - number: 67
       description: Refined references to MPI processes throughout the Tools chapter
 
 first-and-only-votes:
@@ -182,7 +182,6 @@ first-and-only-votes:
 second-votes:
     - number: 1
       description: Clarify MPI_ERRORS_ARE_FATAL scope of abort
-
     - number: 3
       description: Define new MPI Error handler for subcommunicator abort
 
@@ -228,7 +227,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: CNew functions to create communicators from groups (Issue 93)
+      title: New functions to create communicators from groups (Issue 93)
       presenter: Dan
       done: 0
 
