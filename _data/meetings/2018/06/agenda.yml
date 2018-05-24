@@ -98,8 +98,8 @@ schedule:
       end: 12:00pm
       title: Persistence WG
 
-    - start: 10:30am
-      end: 12:00pm
+    - start: 12:00pm
+      end: 12:30pm
       title: Plenary on status, open issues (13, 17, 18, 19, 30, 64)
 
     - start: 12:30pm
@@ -283,4 +283,4 @@ plenaries:
       presenter: Dan
       done: 0
 
- 
+
