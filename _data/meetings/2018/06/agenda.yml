@@ -7,6 +7,9 @@ schedule:
     - start: 2:00pm
       end: 3:30pm
       title: Sessions WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=me3710b8c4ddaabd6403a89711f6e5900
+      video: 207700157@cisco.webex.com
+      password: yDxmGP2P
 
     - start: 3:30pm
       end: 4:00pm
@@ -15,10 +18,16 @@ schedule:
     - start: 4:00pm
       end: 5:30pm
       title: Sessions WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=me3710b8c4ddaabd6403a89711f6e5900
+      video: 207700157@cisco.webex.com
+      password: yDxmGP2P
 
     - start: 4:00pm
       end: 5:30pm
       title: Hybrid WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m30989a2a24d1a4ac1a69f5a4ecb3cdc3
+      video: 205228755@cisco.webex.com
+      password: UXmMxKeM
 
     - endday: done
 
@@ -28,10 +37,16 @@ schedule:
     - start: 9:00am
       end: 10:30am
       title: Hardware Topologies WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51e7bdb8f9d9fc3a47010c4b018a96ac
+      video: 209241344@cisco.webex.com
+      password: JYkSP3yq
 
     - start: 9:00am
       end: 10:30am
       title: Sessions WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m357aa8b889a0497381b32001a01929d5
+      video: 202434629@cisco.webex.com
+      password: FDpz9jZU
 
     - start: 10:30am
       end: 11:00am
@@ -40,10 +55,16 @@ schedule:
     - start: 11:00am
       end: 12:30pm
       title: Hardware Topologies WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51e7bdb8f9d9fc3a47010c4b018a96ac
+      video: 209241344@cisco.webex.com
+      password: JYkSP3yq
 
     - start: 11:00am
       end: 12:30pm
       title: Sessions WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m357aa8b889a0497381b32001a01929d5
+      video: 202434629@cisco.webex.com
+      password: FDpz9jZU
 
     - start: 12:30pm
       end: 1:30pm
@@ -52,10 +73,16 @@ schedule:
     - start: 1:30pm
       end: 3:00pm
       title: FT WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51e7bdb8f9d9fc3a47010c4b018a96ac
+      video: 209241344@cisco.webex.com
+      password: JYkSP3yq
 
     - start: 1:30pm
       end: 3:00pm
       title: Collectives WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m357aa8b889a0497381b32001a01929d5
+      video: 202434629@cisco.webex.com
+      password: FDpz9jZU
 
     - start: 3:00pm
       end: 3:30pm
@@ -64,14 +91,23 @@ schedule:
     - start: 3:30pm
       end: 5:00pm
       title: FT WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51e7bdb8f9d9fc3a47010c4b018a96ac
+      video: 209241344@cisco.webex.com
+      password: JYkSP3yq
 
     - start: 3:30pm
       end: 5:00pm
       title: Collectives WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m357aa8b889a0497381b32001a01929d5
+      video: 202434629@cisco.webex.com
+      password: FDpz9jZU
 
     - start: 5:00pm
       end: 6:00pm
       title: Plenary (agenda see below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51e7bdb8f9d9fc3a47010c4b018a96ac
+      video: 209241344@cisco.webex.com
+      password: JYkSP3yq
 
     - endday: done
 
@@ -81,6 +117,9 @@ schedule:
     - start: 8:30am
       end: 10:00am
       title: Tools WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=medfebf9a0fe641a2514ada785efaaf29
+      video: 204736393@cisco.webex.com
+      password: pGrk7iKs
 
     - start: 8:30am
       end: 10:00am
@@ -89,18 +128,30 @@ schedule:
     - start: 10:00am
       end: 10:30am
       title: Break
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m88c510225434b664e8ec499daa945fdb
+      video: 200739438@cisco.webex.com
+      password: Q26bWESw
 
     - start: 10:30am
       end: 12:00pm
       title: Tools WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=medfebf9a0fe641a2514ada785efaaf29
+      video: 204736393@cisco.webex.com
+      password: pGrk7iKs
 
     - start: 10:30am
       end: 12:00pm
       title: Persistence WG
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m88c510225434b664e8ec499daa945fdb
+      video: 200739438@cisco.webex.com
+      password: Q26bWESw
 
     - start: 12:00pm
       end: 12:30pm
       title: Plenary on status, open issues (13, 17, 18, 19, 30, 64)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=medfebf9a0fe641a2514ada785efaaf29
+      video: 204736393@cisco.webex.com
+      password: pGrk7iKs
 
     - start: 12:30pm
       end: 1:30pm
@@ -109,6 +160,9 @@ schedule:
     - start: 1:30pm
       end: 3:00pm
       title: Plenary (agenda see below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=medfebf9a0fe641a2514ada785efaaf29
+      video: 204736393@cisco.webex.com
+      password: pGrk7iKs
 
     - start: 3:00pm
       end: 3:30pm
@@ -117,6 +171,9 @@ schedule:
     - start: 3:30pm
       end: 6:30pm
       title: Plenary (agenda see below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=medfebf9a0fe641a2514ada785efaaf29
+      video: 204736393@cisco.webex.com
+      password: pGrk7iKs
 
     - start: 7:00pm
       end: 10:00pm
@@ -134,6 +191,9 @@ schedule:
     - start: 9:00am
       end: 10:30am
       title: Plenary (agenda see below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mac94629634d177dd4d42a212f5883771
+      video: 208141319@cisco.webex.com
+      password: mQ4Wwibe
 
     - start: 10:30am
       end: 11:00am
@@ -142,10 +202,16 @@ schedule:
     - start: 11:00am
       end: 12:15pm
       title: Plenary (agenda see below)
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mac94629634d177dd4d42a212f5883771
+      video: 208141319@cisco.webex.com
+      password: mQ4Wwibe
 
     - start: 12:15pm
       end: 12:30pm
       title: Decisions on Virtual Meetings, Options include ...
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=mac94629634d177dd4d42a212f5883771
+      video: 208141319@cisco.webex.com
+      password: mQ4Wwibe
 
     - endday: done
 
