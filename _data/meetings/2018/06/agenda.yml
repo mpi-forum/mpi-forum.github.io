@@ -256,12 +256,12 @@ plenaries:
       presenter: Tony
       done: 0
 
-    - type: Reading
+    - type: Discussion
       title: WITH_INFO review across the collective API (Issue 84)
       presenter: Tony
       done: 0
 
-    - type: Reading
+    - type: Discussion
       title: WITH_INFO review correlated to Tickets 80 and 84 for collective operations (Issue 85)
       presenter: Tony
       done: 0
