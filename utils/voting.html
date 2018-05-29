@@ -257,7 +257,7 @@ function buildVoteTable() {
         $('#votes_table').html("");
         $('#results_table').html("");
     } else {
-        $('#header').html(Math.ceil((3 * imove_orgs) / 4) + ' votes needed to meet ballot quorum');
+        $('#header').html(Math.ceil((3 * imove_orgs) / 4) + ' of ' + imove_orgs + ' votes needed to meet ballot quorum');
         $('#votes_table').html(html);
     }
 
