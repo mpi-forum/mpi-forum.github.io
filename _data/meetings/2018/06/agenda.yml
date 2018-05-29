@@ -263,72 +263,104 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Reading of errata issues (55, 86, 91)
-      presenter: Various
-      done: 0
-
-    - type: Reading
-      title: Behavior of MPI_Dims_create when ndims is zero (Issue 72)
+      title: "Errata: broken link for rfc1832"
+      issue_number: 55
       presenter: Martin
       done: 0
 
     - type: Reading
-      title: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies (Issue 87)
+      title: "Errata: Possible ambiguity on size of `array_of_indices` and `array_of_statuses`?"
+      issue_number: 86
       presenter: Dan
       done: 0
 
     - type: Reading
-      title: No-No vote issues (28, 67)
-      presenter: Various
-      done: 0
-
-    - type: Reading
-      title: Deprecate MPI_SIZEOF in MPI-4.0 (Issue 51)
+      title: "Errata: MPI_STATUS_SET_CANCELED F08 binding: flag param intent"
+      issue_number: 91
       presenter: Wesley
       done: 0
 
     - type: Reading
-      title: New functions to create files from groups (Issue 94)
+      title: "Errata: Behavior of MPI_Dims_create when ndims is zero"
+      issue_number: 72
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Errata: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies"
+      issue_number: 87
       presenter: Dan
       done: 0
 
     - type: Reading
-      title: New functions to create communicators from groups (Issue 93)
+      title: "No-No: Noncatastrophic Errors"
+      issue_number: 28
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "No-No: MPI_T: Consistent reference to MPI processes"
+      issue_number: 67
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: Deprecate MPI_SIZEOF in MPI-4.0
+      issue_number: 51
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: New functions to create files from groups
+      issue_number: 94
       presenter: Dan
       done: 0
 
     - type: Reading
-      title: Info key(s) for Persistent Collective Communication (Issue 83)
+      title: New functions to create communicators from groups
+      issue_number: 93
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: Info key(s) for Persistent Collective Communication
+      issue_number: 83
       presenter: Tony
       done: 0
 
     - type: Reading
-      title: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters (Issue 90)
+      title: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters
+      issue_number: 90
       presenter: Tony
       done: 0
 
     - type: Reading
-      title: Non-blocking communicator/file/win constructors/destructors/etc (Issue 78)
+      title: Non-blocking communicator/file/win constructors/destructors/etc
+      issue_number: 78
       presenter: Tony
       done: 0
 
     - type: Reading
-      title: Nonblocking functionality for the Process Creation and Management Chapter (Issue 81)
+      title: Nonblocking functionality for the Process Creation and Management Chapter
+      issue_number: 81
       presenter: Tony
       done: 0
 
     - type: Reading
-      title: Nonblocking constructor/destructor(s) for the One-sided Communication RMA Chapter (Issue 82)
+      title: Nonblocking constructor/destructor(s) for the One-sided Communication RMA Chapter
+      issue_number: 82
       presenter: Tony
       done: 0
 
     - type: Discussion
-      title: WITH_INFO review across the collective API (Issue 84)
+      title: WITH_INFO review across the collective API
+      issue_number: 84
       presenter: Tony
       done: 0
 
     - type: Discussion
-      title: WITH_INFO review correlated to Tickets 80 and 84 for collective operations (Issue 85)
+      title: WITH_INFO review correlated to Tickets 80 and 84 for collective operations
+      issue_number: 80
       presenter: Tony
       done: 0
 
