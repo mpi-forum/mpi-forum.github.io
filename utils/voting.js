@@ -94,6 +94,25 @@ function uniq(a) {
     })
 }
 
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
 function finishVote() {
 	var output = "";
 
@@ -220,7 +239,9 @@ function buildVoteTable() {
 
 		html += '<tr>\n';
 		html += '<td><ol data-draggable="target" vote-type="yes" vote_num="' + i + '">\n';
-		for (org in orgs) {
+		var shuffled_orgs = shuffle(Object.keys(orgs));
+		for (key in shuffled_orgs) {
+			var org = shuffled_orgs[key];
 			if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
 				if (i == 0) ooe_orgs++;
 				if (orgs[org]['present']) {
