@@ -88,6 +88,12 @@ function findAlias(org) {
 	window.alert("Org " + org.toUpperCase() + ' not found. Add to alias list in voting.html');
 }
 
+function uniq(a) {
+    return a.sort().filter(function(item, pos, ary) {
+        return !pos || item != ary[pos - 1];
+    })
+}
+
 function finishVote() {
 	var output = "";
 
@@ -193,6 +199,7 @@ function buildVoteTable() {
 	var html = "";
 	imove_orgs = 0;
 	ooe_orgs = 0;
+	var voting_orgs = [];
 
 	meetings_calculated++;
 
@@ -219,6 +226,7 @@ function buildVoteTable() {
 				if (orgs[org]['present']) {
 					if (i == 0) imove_orgs++;
 					html += '<li data-draggable="item" org="' + org + '" vote_num="' + i + '" vote-type="yes">' + org + '</li>\n';
+					voting_orgs.push(org);
 				} else {
 					non_voting_orgs[org] = {reason: 'Not present at current meeting'};
 				}
@@ -256,6 +264,17 @@ function buildVoteTable() {
 		output += '<b>' + org + ':</b> ' + non_voting_orgs[org]['reason'] + '<br>\n';
 	}
 	$('#non_voting').html(output);
+	output = "<h3>Voting Orgs</h3>\n";
+	sorted_orgs = uniq(voting_orgs);
+	for (var i = 0; i < sorted_orgs.length; i++) {
+		if (i == 0) {
+			output += sorted_orgs[i];
+		} else {
+			output += ', ' + sorted_orgs[i];
+		}
+	}
+	output += '<br>\n';
+	$('#voting_orgs').html(output);
 
 	html = '<tr>\n';
 	html += '<th class="orgs"></th>\n';
@@ -335,9 +354,6 @@ function buildImoveMatrix(attendance, current) {
 function handleVoteGeneration() {
 	document.getElementById("title").innerHTML =
 		month_names[parseInt(current_month-1)] + " " + current_year + " Voting";
-	document.getElementById("finishedBtn").setAttribute("style", "");
-	document.getElementById("non_voting").setAttribute("style", "");
-	document.getElementById("hiddenHr").setAttribute("style", "");
 
 	filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
 		+current_year+'/'+zeroFill(current_month,2)+'/attendance.csv'
