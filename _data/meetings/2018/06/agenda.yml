@@ -360,7 +360,7 @@ plenaries:
 
     - type: Discussion
       title: WITH_INFO review correlated to Tickets 80 and 84 for collective operations
-      issue_number: 80
+      issue_number: 85
       presenter: Tony
       done: 0
 
