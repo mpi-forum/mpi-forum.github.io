@@ -13,7 +13,9 @@ MPI Forum rules. Attendees will be required to check in and wear a guest badge o
 ### Meeting Location
 
 The meeting will take place at the Intel office just outside of downtown Austin, TX
-which is at [300 S MoPac Expy, Austin TX 78746](https://goo.gl/maps/9qE85hgdgek).
+which is at [1300 S MoPac Expy, Austin TX 78746](https://goo.gl/maps/9qE85hgdgek). If you're using
+Uber/Taxis, give them the address of the office next door to go down the frontage road instead of
+the back of the building (1700 S MoPac Expy, Austin, TX 78746).
 
 Follow the signs to the visitor parking lot. Enter from the frontage road (not by going into the
 campus at the traffic light). If you go into the campus at the traffic light, you will need to leave
