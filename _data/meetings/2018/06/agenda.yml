@@ -105,9 +105,9 @@ schedule:
     - start: 5:00pm
       end: 6:00pm
       title: Plenary (agenda see below)
-      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51e7bdb8f9d9fc3a47010c4b018a96ac
-      video: 209241344@cisco.webex.com
-      password: JYkSP3yq
+      link: https://cisco.webex.com/ciscosales/j.php?MTID=m357aa8b889a0497381b32001a01929d5
+      video: 202434629@cisco.webex.com
+      password: FDpz9jZU
 
     - endday: done
 
