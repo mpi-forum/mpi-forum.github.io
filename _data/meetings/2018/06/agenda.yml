@@ -73,9 +73,9 @@ schedule:
     - start: 1:30pm
       end: 3:00pm
       title: FT WG
-      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51e7bdb8f9d9fc3a47010c4b018a96ac
-      video: 209241344@cisco.webex.com
-      password: JYkSP3yq
+      link: https://meet.intel.com/wesley.bland/GJQNV6T3
+      video: "+1(916)356-2663 : Bridge 5"
+      password: "3145780063"
 
     - start: 1:30pm
       end: 3:00pm
@@ -91,9 +91,9 @@ schedule:
     - start: 3:30pm
       end: 5:00pm
       title: FT WG
-      link: https://cisco.webex.com/ciscosales/j.php?MTID=m51e7bdb8f9d9fc3a47010c4b018a96ac
-      video: 209241344@cisco.webex.com
-      password: JYkSP3yq
+      link: https://meet.intel.com/wesley.bland/GJQNV6T3
+      video: "+1(916)356-2663 : Bridge 5"
+      password: "3145780063"
 
     - start: 3:30pm
       end: 5:00pm
