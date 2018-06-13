@@ -348,13 +348,13 @@ plenaries:
       title: Nonblocking constructor/destructor(s) for the One-sided Communication RMA Chapter
       issue_number: 82
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters
       issue_number: 90
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Discussion
       title: WITH_INFO review across the collective API
