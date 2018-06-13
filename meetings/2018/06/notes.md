@@ -5,7 +5,6 @@ permalink: meetings/2018/06/notes
 title: June 2018 Meeting Notes
 ---
 
-# June 2018 Meeting Notes
 ## MPI Forum Working Groups
 Various working groups met. Notes can be found on their respective wikis:
 
@@ -58,9 +57,29 @@ Martin began the plenary portion of the F2F with introductions and working group
 * Asked for minor whitespace change and additional text to point out that some compilers may not support `storage_size`.
 * Pushback from Jeffs Squyres and Hammond that no available, current compiler falls into this category and we should not make those changes.
 
-### Plenary on status, open issues (13, 17, 18, 19, 30, 64)
-
 ### Discussion on Draft Standard and MPI-next
+* Tentative targets
+	* Draft standard at SC19
+	* Release candidate meeting Dec 2019
+	* Ratification meeting March 2020
+
+### Plenary on status, open issues (13, 17, 18, 19, 30, 64)
+* [#13 Deprecate MPI_COMM_JOIN](https://github.com/mpi-forum/mpi-issues/issues/13)
+    * This is a good idea and we should do it.
+    * The collectives working group will pick this up.
+* [#17 Clarify what functions can be called on uncommitted datatypes](https://github.com/mpi-forum/mpi-issues/issues/17)
+	* It seems to have become clear recently that not many implementations are using the commit function.
+	* The fix here is not completely clear, but it seems that it should involve listing the functions where uncommitted datatypes are allowed.
+	* Wesley will move this forward.
+* [#18 Longer types for use with `MPI_MINLOC` and `MPI_MAXLOC`](https://github.com/mpi-forum/mpi-issues/issues/18)
+	* Pavan will raise this in the RMA WG.
+* [#19 Make MPI_THREAD_MULTIPLE a requirement for all implementations](https://github.com/mpi-forum/mpi-issues/issues/19)
+	* Forum agreed to close the ticket.
+* [#30 When are attribute callbacks invoked?](https://github.com/mpi-forum/mpi-issues/issues/30)
+	* The collective WG will take this.
+* [#64 Threading guarantees of MPI_User_function](https://github.com/mpi-forum/mpi-issues/issues/64)
+	* The Forum agreed that we want to clarify the existing state of the art for this issue.
+	* Martin will work on a proposal and bring it back to a future meeting.
 
 ### [No-no: Errata: Possible ambiguity on size of `array_of_indices` and `array_of_statuses`?](https://github.com/mpi-forum/mpi-issues/issues/86)
 
