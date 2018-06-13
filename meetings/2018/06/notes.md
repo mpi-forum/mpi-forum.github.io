@@ -82,22 +82,45 @@ Martin began the plenary portion of the F2F with introductions and working group
 	* Martin will work on a proposal and bring it back to a future meeting.
 
 ### [No-no: Errata: Possible ambiguity on size of `array_of_indices` and `array_of_statuses`?](https://github.com/mpi-forum/mpi-issues/issues/86)
-    * Dan made a few small modifications to the reading from the previous day to make the text more
-      consistent with the rest of the standard.
-
-### [Reading: New functions to create files from groups](https://github.com/mpi-forum/mpi-issues/issues/94)
+* Dan made a few small modifications to the reading from the previous day to make the text more
+  consistent with the rest of the standard.
+* More changes were needed and it was agreed to fix this for a future meeting.
 
 ### [Reading: New functions to create communicators from groups](https://github.com/mpi-forum/mpi-issues/issues/93)
+* Dan gave an overview of tickets #93, 94, and #95
+* The question was raised about deprecating `MPI_COMM_CREATE_GROUP` and Dan responed that it is more
+  likely that `MPI_COMM_CREATE_GROUP` would be changed to allow `MPI_COMM_NULL` and change the name
+  of these new functions to drop `FROM`.
+* Rich raised concerns that relying on group manipulation would have serious performance
+  implications on hardware.
+* Many folks weren't sure that this proposal made sense outside the context of Sessions because it
+  didn't provide a big difference over `MPI_COMM_CREATE_GROUP`.
+* Further notes [here](https://github.com/mpiwg-sessions/sessions-issues/wiki/2018-06-11-forum)
+
+### [Reading: New functions to create files from groups](https://github.com/mpi-forum/mpi-issues/issues/94)
+* Decided not to read this proposal in light of the discussion for #93
 
 ### [Reading: Info key(s) for Persistent Collective Communication](https://github.com/mpi-forum/mpi-issues/issues/83)
-
-### [Reading: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters](https://github.com/mpi-forum/mpi-issues/issues/90)
+* Tony read this proposal. There were a number of changes suggested.
+* The proposal was well received but determined that it needed to be reread in September.
 
 ### [Reading: Non-blocking communicator/file/win constructors/destructors/etc](https://github.com/mpi-forum/mpi-issues/issues/78)
+* Tony read this proposal.
+* The decision was made to re-read the proposal based on the feedback from the room.
 
 ### [Reading: Nonblocking functionality for the Process Creation and Management Chapter](https://github.com/mpi-forum/mpi-issues/issues/81)
+* Tony read this proposal.
+* The decision was made to re-read the proposal based on the feedback from the room.
 
 ### [Reading: Nonblocking constructor/destructor(s) for the One-sided Communication RMA Chapter](https://github.com/mpi-forum/mpi-issues/issues/82)
+* Tony read this proposal.
+* The decision was made to re-read the proposal based on the feedback from the room.
+
+### [Discussion: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters](https://github.com/mpi-forum/mpi-issues/issues/90)
+* Puri read the document. Originally this was scheduled to be an official reading, but changes were
+  made during the working group session and the was converted to an unofficial reading.
+* A straw poll was taken on whether to re-organize Chapter 2 to put similar operations together. It
+  passed almost unanimously.
 
 ### [Discussion: WITH_INFO review across the collective API](https://github.com/mpi-forum/mpi-issues/issues/84)
 
