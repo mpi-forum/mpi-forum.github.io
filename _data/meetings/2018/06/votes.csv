@@ -1,10 +1,8 @@
 topic,type,yes,no,abstain,missed
 "#28: Noncatastrophic Errors",no-no,,,,
 "#67: Refined references to MPI processes throughout the Tools chapter",no-no,,,,
-"#86: Possible ambiguity on size of `array_of_indices` and `array_of_statuses`?",no-no,,,,
 "#91: MPI_STATUS_SET_CANCELED F08 binding flag param intent",errata,,,,
 "#55: broken link for rfc1832",errata,,,,
-"#86: Possible ambiguity on size of array_of_indices and array_of_statuses",errata,,,,
 "#72: Behavior of MPI_Dims_create when ndims is zero",errata,,,,
 "#87: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies",errata,,,,
 "#25: Adding Persistent Collective Communication",1st,,,,
