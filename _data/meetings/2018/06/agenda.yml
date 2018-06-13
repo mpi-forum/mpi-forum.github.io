@@ -318,13 +318,13 @@ plenaries:
       title: New functions to create communicators from groups
       issue_number: 93
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: New functions to create files from groups
       issue_number: 94
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: Info key(s) for Persistent Collective Communication
