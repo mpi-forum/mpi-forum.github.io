@@ -160,9 +160,9 @@ schedule:
     - start: 1:30pm
       end: 3:00pm
       title: Plenary (agenda see below)
-      link: https://cisco.webex.com/ciscosales/j.php?MTID=medfebf9a0fe641a2514ada785efaaf29
-      video: 204736393@cisco.webex.com
-      password: pGrk7iKs
+      link:
+      video:
+      password:
 
     - start: 3:00pm
       end: 3:30pm
@@ -171,9 +171,9 @@ schedule:
     - start: 3:30pm
       end: 6:30pm
       title: Plenary (agenda see below)
-      link: https://cisco.webex.com/ciscosales/j.php?MTID=medfebf9a0fe641a2514ada785efaaf29
-      video: 204736393@cisco.webex.com
-      password: pGrk7iKs
+      link:
+      video:
+      password:
 
     - start: 7:00pm
       end: 10:00pm
@@ -191,9 +191,9 @@ schedule:
     - start: 9:00am
       end: 10:30am
       title: Plenary (agenda see below)
-      link: https://cisco.webex.com/ciscosales/j.php?MTID=mac94629634d177dd4d42a212f5883771
-      video: 208141319@cisco.webex.com
-      password: mQ4Wwibe
+      link:
+      video:
+      password:
 
     - start: 10:30am
       end: 11:00am
@@ -202,16 +202,16 @@ schedule:
     - start: 11:00am
       end: 12:15pm
       title: Plenary (agenda see below)
-      link: https://cisco.webex.com/ciscosales/j.php?MTID=mac94629634d177dd4d42a212f5883771
-      video: 208141319@cisco.webex.com
-      password: mQ4Wwibe
+      link:
+      video:
+      password:
 
     - start: 12:15pm
       end: 12:30pm
       title: Decisions on Virtual Meetings, Options include ...
-      link: https://cisco.webex.com/ciscosales/j.php?MTID=mac94629634d177dd4d42a212f5883771
-      video: 208141319@cisco.webex.com
-      password: mQ4Wwibe
+      link:
+      video:
+      password:
 
     - endday: done
 
