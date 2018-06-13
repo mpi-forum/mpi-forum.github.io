@@ -234,6 +234,8 @@ no-no-votes:
       description: Noncatastrophic Errors
     - number: 67
       description: Refined references to MPI processes throughout the Tools chapter
+    - number: 86
+      description: Possible ambiguity on size of array_of_indices and array_of_statuses
 
 first-votes:
     - number: 25
@@ -255,30 +257,30 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: broken link for rfc1832"
       issue_number: 55
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: Possible ambiguity on size of `array_of_indices` and `array_of_statuses`?"
       issue_number: 86
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: MPI_STATUS_SET_CANCELED F08 binding: flag param intent"
       issue_number: 91
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: Behavior of MPI_Dims_create when ndims is zero"
@@ -290,24 +292,30 @@ plenaries:
       title: "Errata: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies"
       issue_number: 87
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "No-No: Noncatastrophic Errors"
       issue_number: 28
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "No-No: MPI_T: Consistent reference to MPI processes"
       issue_number: 67
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: Deprecate MPI_SIZEOF in MPI-4.0
       issue_number: 51
       presenter: Wesley
+      done: 1
+
+    - type: No-No
+      title: "Errata: Possible ambiguity on size of `array_of_indices` and `array_of_statuses`?"
+      issue_number: 86
+      presenter: Dan
       done: 0
 
     - type: Reading
