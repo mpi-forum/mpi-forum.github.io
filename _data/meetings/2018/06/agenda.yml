@@ -286,7 +286,7 @@ plenaries:
       title: "Errata: Behavior of MPI_Dims_create when ndims is zero"
       issue_number: 72
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies"
@@ -316,7 +316,7 @@ plenaries:
       title: "Errata: Possible ambiguity on size of `array_of_indices` and `array_of_statuses`?"
       issue_number: 86
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: New functions to create files from groups
