@@ -319,14 +319,14 @@ plenaries:
       done: 1
 
     - type: Reading
-      title: New functions to create files from groups
-      issue_number: 94
+      title: New functions to create communicators from groups
+      issue_number: 93
       presenter: Dan
       done: 0
 
     - type: Reading
-      title: New functions to create communicators from groups
-      issue_number: 93
+      title: New functions to create files from groups
+      issue_number: 94
       presenter: Dan
       done: 0
 
