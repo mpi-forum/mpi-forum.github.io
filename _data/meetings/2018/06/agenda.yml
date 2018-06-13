@@ -330,29 +330,29 @@ plenaries:
       title: Info key(s) for Persistent Collective Communication
       issue_number: 83
       presenter: Tony
-      done: 0
-
-    - type: Reading
-      title: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters
-      issue_number: 90
-      presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: Non-blocking communicator/file/win constructors/destructors/etc
       issue_number: 78
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: Nonblocking functionality for the Process Creation and Management Chapter
       issue_number: 81
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: Nonblocking constructor/destructor(s) for the One-sided Communication RMA Chapter
       issue_number: 82
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters
+      issue_number: 90
       presenter: Tony
       done: 0
 
