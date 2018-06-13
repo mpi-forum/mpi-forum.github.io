@@ -82,6 +82,8 @@ Martin began the plenary portion of the F2F with introductions and working group
 	* Martin will work on a proposal and bring it back to a future meeting.
 
 ### [No-no: Errata: Possible ambiguity on size of `array_of_indices` and `array_of_statuses`?](https://github.com/mpi-forum/mpi-issues/issues/86)
+    * Dan made a few small modifications to the reading from the previous day to make the text more
+      consistent with the rest of the standard.
 
 ### [Reading: New functions to create files from groups](https://github.com/mpi-forum/mpi-issues/issues/94)
 
