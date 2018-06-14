@@ -224,8 +224,6 @@ errata-votes:
       description: broken link for rfc1832
     - number: 72
       description: Behavior of MPI_Dims_create when ndims is zero
-    - number: 87
-      description: Clarification to allow MPI_PROC_NULL as neighbor in (distributed) graph topologies
 
 no-no-votes:
     - number: 28
