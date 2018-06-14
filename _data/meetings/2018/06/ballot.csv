@@ -1,0 +1,21 @@
+org,"#28: Noncatastrophic Errors","#67: Refined references to MPI processes throughout the Tools chapter","#91: MPI_STATUS_SET_CANCELED F08 binding flag param intent","#55: broken link for rfc1832","#72: Behavior of MPI_Dims_create when ndims is zero","#25: Adding Persistent Collective Communication","#28: Noncatastrophic Errors","#67: Refined references to MPI processes throughout the Tools chapter","#1: Clarify MPI_ERRORS_ARE_FATAL scope of abort","#3: Define new MPI Error handler for subcommunicator abort"
+"Cray",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"UAB",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"TU Munich",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"UTC",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Edinburgh",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Intel",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Sandia",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Fujitsu",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Los Alamos",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Livermore",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Argonne",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Paratools",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Microsoft",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"INRIA",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Mellanox",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"OSU",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Oak Ridge",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"CEA",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"NEC",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"NVIDIA",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
