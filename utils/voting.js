@@ -117,7 +117,7 @@ function finishVote() {
 	var output = "";
 
 	output += "<h3>Copy below text to meetings/" + current_year + "/" +
-		current_month + "/votes.md</h3>\n<hr>\n";
+		zeroFill(current_month,2) + "/votes.md</h3>\n<hr>\n";
 
 	output += '<pre>';
 
@@ -129,7 +129,7 @@ function finishVote() {
 	output += "<hr>\n"
 
 	output += "<h3>Copy below text to _data/meetings/" + current_year + "/" +
-		current_month + "/votes.csv</h3>\n<hr>\n";
+		zeroFill(current_month,2) + "/votes.csv</h3>\n<hr>\n";
 
 	output += '<pre>';
 
@@ -148,7 +148,7 @@ function finishVote() {
 	output += "<hr>\n"
 
 	output += "<h3>Copy below text to _data/meetings/" + current_year + "/" +
-		current_month + "/ballot.csv</h3>\n<hr>\n";
+		zeroFill(current_month,2) + "/ballot.csv</h3>\n<hr>\n";
 
 	output += '<pre>';
 
