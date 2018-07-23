@@ -32,7 +32,7 @@ permalink: meetings/
 
 |Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
-##### Virtual Meeting ([July 25, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): MPI_T Events (Marc-Andre)
+##### Virtual Meeting ([August 29, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): Process Failures in MPI_INIT and MPI_FINALIZE (Aurelien/Wesley)
 
 |[Meeting Information](http://mpi-forum.epcc.ed.ac.uk/mpiforum-virtual.php)|
 
@@ -40,7 +40,7 @@ permalink: meetings/
 
 |[Meeting Information](http://mpi-forum.epcc.ed.ac.uk/mpiforum-virtual.php)|
 
-##### Virtual Meeting ([August 29, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): Process Failures in MPI_INIT and MPI_FINALIZE (Aurelien/Wesley)
+##### Virtual Meeting ([July 25, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): MPI_T Events (Marc-Andre)
 
 |[Meeting Information](http://mpi-forum.epcc.ed.ac.uk/mpiforum-virtual.php)|
 
