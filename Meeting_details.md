@@ -4,6 +4,24 @@ title: Meetings
 permalink: meetings/
 ---
 
+## 2019 (Tentative)
+
+##### March 4 - March 7: Chattanooga, TN (University of Tennessee, Chattanooga)
+
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+
+##### May 28 - May 31: Chicago, IL (Microsoft)
+
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+
+##### Sep 5 - Sep 7: Zurich, Switzerland (ETH Zurich)
+
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+
+##### Dec 9 - Dec 12: Albuquerque, NM (Sandia National Labs)
+
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+
 ## 2018
 
 ##### Dec 3 - Dec 6: San Jose, CA (Cisco)
