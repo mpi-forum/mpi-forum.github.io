@@ -1,0 +1,33 @@
+test: data
+
+schedule:
+
+    - day: Wednesday, September 19th
+
+    - endday: done
+
+
+    - day: Thursday, September 20th
+
+    - endday: done
+
+
+    - day: Friday, September 21st
+
+    - endday: done
+
+procedure-votes:
+
+errata-votes:
+
+no-no-votes:
+
+first-votes:
+
+first-and-only-votes:
+
+second-votes:
+
+plenaries:
+
+

@@ -30,7 +30,7 @@ permalink: meetings/
 
 ##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+|[Logistics](2018/09/logistics)|[Agenda](2018/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/09)|[Attendance](2018/09/attendance)|[Voting](2018/09/votes)|[Notes](2018/09/notes)|
 
 ##### Virtual Meeting ([August 29, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): Discussion on semantic terms (Puri)
 

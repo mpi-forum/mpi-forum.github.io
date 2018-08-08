@@ -57,7 +57,7 @@ var month_names = [
 	"January", "February", "March", "April", "May", "June",
 	"July", "August", "September", "October", "November", "December"];
 
-current_month = 6;
+current_month = 9;
 current_year = 2018;
 var orgs = {};
 var votes = {};
