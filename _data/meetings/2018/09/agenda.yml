@@ -112,9 +112,14 @@ plenaries:
       presenter: Marc-Andre
       done: 0
 
-    - type: Discussion on Universal IDs for MPI_T variables and events
-      title: Sessions Update
+    - type: Discussion
+      title: Universal IDs for MPI_T variables and events
       presenter: Marc-Andre
+      done: 0
+
+    - type: Discussion
+      title: Semantic Terms
+      presenter: Puri
       done: 0
 
 
