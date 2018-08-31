@@ -17,10 +17,14 @@ Supercomputing Center (BSC) Campus, Room E101 and E106 in the C6 building.
 
 Full details and travel directions can be found on the [EuroMPI website](https://eurompi2018.bsc.es/travel).
 
+
 ### Hotel
 
 The Hotel Sansi Pedralbes is located at just a few minutes walk from the UPC Campus. There are no
 more reserved room rates from the EuroMPI meeting.
+
+Other hotels in the area include the [AC Hotel Victoria Suites](https://www.marriott.com/hotels/travel/bcnsu-ac-hotel-victoria-suites/), the [Hotel Upper Diagonal](https://www.hotel-upperdiagonal.com/), the [Sofia Barcelona](https://sofiabarcelona.com/), and (a bit further away) the [AC Hotel Irla](https://www.marriott.com/hotels/travel/bcnir-ac-hotel-irla/)
+
 
 ### Meeting Cost
 

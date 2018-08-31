@@ -25,8 +25,12 @@ layout: default
 
     {% assign input = site.data.meetings[page.year][page.month].agenda %}
 
+    {% if input.notes %}
+	<UL><h4>Note:</h4> {{ input.notes }}</UL>
+    {% endif %}
+
     <h2>Agenda</h2>
- 
+
     {% for item in input.schedule %}
     {% if item.day.size > 0 %}
     <h3>{{ item.day }}</h3>

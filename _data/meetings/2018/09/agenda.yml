@@ -1,18 +1,79 @@
 test: data
 
+notes: The times for the sessions are being set based on local meal times. This will be updated soon. We will likely start and end later each day than normal.
+
 schedule:
 
     - day: Wednesday, September 19th
+
+    - start: Session 1
+      end: end
+      title: Working Groups
+
+    - start: Session 2
+      end: end
+      title: Working Groups
+
+    - start: Session 3
+      end: end
+      title: Tools WG (Marc-Andre)
+
+    - start: Session 4
+      end: end
+      title: Tools WG (Marc-Andre)
 
     - endday: done
 
 
     - day: Thursday, September 20th
 
+    - start: Session 1
+      end: end
+      title: Plenary (agenda see below)
+
+    - start: Session 2
+      end: end
+      title: Plenary (agenda see below)
+
+    - start: Session 3
+      end: end
+      title: Plenary (agenda see below)
+
+    - start: Session 4
+      end: end
+      title: Plenary (agenda see below)
+
     - endday: done
 
 
     - day: Friday, September 21st
+
+    - start: Session 1 part 1
+      end: end
+      title: Voting Block
+
+    - start: Session 1 part 2
+      end: end
+      title: Preparation of MPI Draft Specification
+
+    - start: Session 2
+      end: end
+      title: Plenary (agenda see below)
+
+    - start: Session 2 final
+      end: end
+      title: Decisions on Virtual Meetings, Options include ...
+      link:
+      video:
+      password:
+
+    - start: Session 3
+      end: end
+      title: Tools WG (Marc-Andre)
+
+    - start: Session 4
+      end: end
+      title: Tools WG (Marc-Andre)
 
     - endday: done
 
@@ -27,7 +88,33 @@ first-votes:
 first-and-only-votes:
 
 second-votes:
+    - number: 25
+      description: Adding Persistent Collective Communication
+    - number: 28
+      description: Noncatastrophic Errors
+    - number: 67
+      description: Refined references to MPI processes throughout the Tools chapter
 
 plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: MPI_T Events
+      issue_number: xx
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Discussion on Universal IDs for MPI_T variables and events
+      title: Sessions Update
+      presenter: Marc-Andre
+      done: 0
 
 

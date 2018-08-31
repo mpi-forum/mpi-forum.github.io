@@ -4,7 +4,7 @@ title: Meetings
 permalink: meetings/
 ---
 
-## 2019 (Tentative)
+## 2019
 
 ##### Dec 9 - Dec 12: Albuquerque, NM (Sandia National Labs)
 
