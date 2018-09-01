@@ -8,11 +8,11 @@ schedule:
 
     - start: Session 1
       end: end
-      title: Working Groups
+      title: FT WG (Aurelien)
 
     - start: Session 2
       end: end
-      title: Working Groups
+      title: FT WG (Aurelien)
 
     - start: Session 3
       end: end
@@ -110,6 +110,12 @@ plenaries:
       title: MPI_T Events
       issue_number: xx
       presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: Define error/failure behavior in MPI_INIT/FINALIZE (PR50)
+      issue_number: xx
+      presenter: Aurelien
       done: 0
 
     - type: Discussion/Reading
