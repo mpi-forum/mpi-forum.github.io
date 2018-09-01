@@ -112,6 +112,21 @@ plenaries:
       presenter: Marc-Andre
       done: 0
 
+    - type: Discussion/Reading
+      title: MPI Sessions
+      presenter: Dan
+      done: 0
+
+    - type: Discussion
+      title: FP16
+      presenter: Dan
+      done: 0
+
+    - type: Discussion
+      title: Memory pointers given to MPI as message buffers
+      presenter: Dan
+      done: 0
+
     - type: Discussion
       title: Universal IDs for MPI_T variables and events
       presenter: Marc-Andre
