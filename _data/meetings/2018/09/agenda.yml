@@ -118,6 +118,12 @@ plenaries:
       presenter: Aurelien
       done: 0
 
+    - type: Reading
+      title: Large Count
+      issue_number: 80
+      presenter: Tony
+      done: 0
+
     - type: Discussion/Reading
       title: MPI Sessions
       presenter: Dan
