@@ -110,7 +110,7 @@ plenaries:
 
     - type: Reading
       title: MPI_T Events
-      issue_number: xx
+      issue_number: 79
       presenter: Marc-Andre
       done: 0
 
