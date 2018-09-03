@@ -84,6 +84,8 @@ errata-votes:
 no-no-votes:
 
 first-votes:
+    - number: 51
+	  description: Deprecate MPI_SIZEOF in MPI-4.0
 
 first-and-only-votes:
 
