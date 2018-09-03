@@ -126,6 +126,12 @@ plenaries:
       presenter: Tony
       done: 0
 
+    - type: Reading
+      title: Define error/failure behavior in MPI_INIT/FINALIZE
+      issue_number: 102
+      presenter: Aurelien
+      done: 0
+
     - type: Discussion/Reading
       title: MPI Sessions
       presenter: Dan
