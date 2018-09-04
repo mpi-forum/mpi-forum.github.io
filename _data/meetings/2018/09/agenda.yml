@@ -18,9 +18,17 @@ schedule:
       end: end
       title: Tools WG (Marc-Andre)
 
+    - start: Session 3
+      end: end
+      title: HW Topologies WG (Guillaume)
+
     - start: Session 4
       end: end
       title: Tools WG (Marc-Andre)
+
+    - start: Session 4
+      end: end
+      title: HW Topologies WG (Guillaume)
 
     - endday: done
 
