@@ -140,6 +140,30 @@ plenaries:
       presenter: Aurelien
       done: 0
 
+    - type: Reading
+      title: 16-bit floating-point support for C/C++
+      issue_number: 65
+      presenter: Atsushi
+      done: 0
+
+    - type: Reading
+      title: define language-agnostic, IEEE types
+      issue_number: 66
+      presenter: Atsushi
+      done: 0
+
+    - type: Reading
+      title: Definition and Explanation of External32
+      issue_number: 69
+      presenter: Atsushi
+      done: 0
+
+    - type: Reading
+      title: Communicator Hints for upscaled reduction ops
+      issue_number: 101
+      presenter: Atsushi
+      done: 0
+
     - type: Discussion/Reading
       title: MPI Sessions
       presenter: Dan
