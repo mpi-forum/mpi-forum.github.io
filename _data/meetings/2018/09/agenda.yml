@@ -10,9 +10,17 @@ schedule:
       end: end
       title: FT WG (Aurelien)
 
+    - start: Session 1
+      end: end
+      title: P2P WG (Dan)
+
     - start: Session 2
       end: end
       title: FT WG (Aurelien)
+
+    - start: Session 2
+      end: end
+      title: P2P WG (Dan)
 
     - start: Session 3
       end: end
@@ -165,11 +173,6 @@ plenaries:
 
     - type: Discussion
       title: FP16
-      presenter: Dan
-      done: 0
-
-    - type: Discussion
-      title: Memory pointers given to MPI as message buffers
       presenter: Dan
       done: 0
 
