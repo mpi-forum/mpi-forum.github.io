@@ -6,7 +6,7 @@ schedule:
 
     - start: 9am
       end: 10:30am
-      title: FT WG (Aurelien)
+      title: Tools WG (Marc-Andre)
 
     - start: 9am
       end: 10:30am
@@ -18,7 +18,7 @@ schedule:
 
     - start: 11am
       end: 1pm
-      title: FT WG (Aurelien)
+      title: Tools WG (Marc-Andre)
 
     - start: 11am
       end: 1pm
@@ -30,7 +30,7 @@ schedule:
 
     - start: 2pm
       end: 4pm
-      title: Tools WG (Marc-Andre)
+      title: Big Count WG (Tony)
 
     - start: 2pm
       end: 4pm
@@ -42,7 +42,7 @@ schedule:
 
     - start: 4:30pm
       end: 6pm
-      title: Tools WG (Marc-Andre)
+      title: Big Count (Tony)
 
     - start: 4:30pm
       end: 6pm
