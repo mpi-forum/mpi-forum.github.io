@@ -62,7 +62,7 @@ schedule:
       title: Break
 
     - start: 11am
-	  end: 1pm
+      end: 1pm
       title: Plenary (agenda see below)
 
     - start: 1:00pm
