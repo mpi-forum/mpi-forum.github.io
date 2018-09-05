@@ -123,7 +123,7 @@ schedule:
 
     - start: 2pm
       end: 4pm
-      title: RMA WG (Rajeev)
+      title: RMA WG (Bill)
 
     - start: 4:00pm
       end: 4:30pm
@@ -135,7 +135,7 @@ schedule:
 
     - start: 4:30pm
       end: 6pm
-      title: RMA WG (Rajeev)
+      title: RMA WG (Bill)
 
     - endday: done
 
