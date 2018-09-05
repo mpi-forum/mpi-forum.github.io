@@ -87,9 +87,17 @@ schedule:
       end: end
       title: Tools WG (Marc-Andre)
 
+    - start: Session 3
+      end: end
+      title: RMA WG (Rajeev)
+
     - start: Session 4
       end: end
       title: Tools WG (Marc-Andre)
+
+    - start: Session 4
+      end: end
+      title: RMA WG (Rajeev)
 
     - endday: done
 
@@ -164,6 +172,18 @@ plenaries:
       title: Communicator Hints for upscaled reduction ops
       issue_number: 101
       presenter: Atsushi
+      done: 0
+
+    - type: Reading
+      title: Deprecate MPI_Graph
+      issue_number: 89
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Sessions
+      issue_number: 103
+      presenter: Dan
       done: 0
 
     - type: Discussion/Reading
