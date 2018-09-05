@@ -1,41 +1,51 @@
 test: data
 
-notes: The times for the sessions are being set based on local meal times. This will be updated soon. We will likely start and end later each day than in previous meetings.
-
 schedule:
 
     - day: Wednesday, September 19th
 
-    - start: Session 1
-      end: end
+    - start: 9am
+      end: 10:30am
       title: FT WG (Aurelien)
 
-    - start: Session 1
-      end: end
+    - start: 9am
+      end: 10:30am
       title: P2P WG (Dan)
 
-    - start: Session 2
-      end: end
+    - start: 10:30am
+      end: 11am
+      title: Break
+
+    - start: 11am
+      end: 1pm
       title: FT WG (Aurelien)
 
-    - start: Session 2
-      end: end
+    - start: 11am
+      end: 1pm
       title: P2P WG (Dan)
 
-    - start: Session 3
-      end: end
+    - start: 1:00pm
+      end: 2:00pm
+      title: Lunch
+
+    - start: 2pm
+      end: 4pm
       title: Tools WG (Marc-Andre)
 
-    - start: Session 3
-      end: end
+    - start: 2pm
+      end: 4pm
       title: HW Topologies WG (Guillaume)
 
-    - start: Session 4
-      end: end
+    - start: 4:00pm
+      end: 4:30pm
+      title: Break
+
+    - start: 4:30pm
+      end: 6pm
       title: Tools WG (Marc-Andre)
 
-    - start: Session 4
-      end: end
+    - start: 4:30pm
+      end: 6pm
       title: HW Topologies WG (Guillaume)
 
     - endday: done
@@ -43,60 +53,88 @@ schedule:
 
     - day: Thursday, September 20th
 
-    - start: Session 1
-      end: end
+    - start: 9am
+      end: 10:30am
       title: Plenary (agenda see below)
 
-    - start: Session 2
-      end: end
+    - start: 10:30am
+      end: 11am
+      title: Break
+
+	- start: 11am
+      end: 1pm
       title: Plenary (agenda see below)
 
-    - start: Session 3
-      end: end
+    - start: 1:00pm
+      end: 2:00pm
+      title: Lunch
+
+    - start: 2pm
+      end: 4pm
       title: Plenary (agenda see below)
 
-    - start: Session 4
-      end: end
+    - start: 4:00pm
+      end: 4:30pm
+      title: Break
+
+    - start: 4:30pm
+      end: 6pm
       title: Plenary (agenda see below)
+
+    - start: 7:30pm
+      end: 10pm
+      title: Self paid group dinner
 
     - endday: done
 
 
     - day: Friday, September 21st
 
-    - start: Session 1 part 1
-      end: end
+    - start: 9am
+      end: 9:30am
       title: Voting Block
 
-    - start: Session 1 part 2
-      end: end
+    - start: 9:30am
+      end: 10:30am
       title: Preparation of MPI Draft Specification
 
-    - start: Session 2
-      end: end
+    - start: 10:30am
+      end: 11am
+      title: Break
+
+    - start: 11am
+      end: 12:45pm
       title: Plenary (agenda see below)
 
-    - start: Session 2 final
-      end: end
+    - start: 12:45pm
+      end: 1pm
       title: Decisions on Virtual Meetings, Options include ...
       link:
       video:
       password:
 
-    - start: Session 3
-      end: end
+    - start: 1:00pm
+      end: 2:00pm
+      title: Lunch
+
+	- start: 2pm
+      end: 4pm
       title: Tools WG (Marc-Andre)
 
-    - start: Session 3
-      end: end
+    - start: 2pm
+      end: 4pm
       title: RMA WG (Rajeev)
 
-    - start: Session 4
-      end: end
+    - start: 4:00pm
+      end: 4:30pm
+      title: Break
+
+    - start: 4:30pm
+      end: 6pm
       title: Tools WG (Marc-Andre)
 
-    - start: Session 4
-      end: end
+    - start: 4:30pm
+      end: 6pm
       title: RMA WG (Rajeev)
 
     - endday: done
