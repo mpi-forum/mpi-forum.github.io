@@ -117,7 +117,7 @@ schedule:
       end: 2:00pm
       title: Lunch
 
-	- start: 2pm
+    - start: 2pm
       end: 4pm
       title: Tools WG (Marc-Andre)
 
