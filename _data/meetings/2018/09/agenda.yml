@@ -106,6 +106,8 @@ procedure-votes:
 errata-votes:
 
 no-no-votes:
+    - number: 25
+      description: Adding Persistent Collective Communication
 
 first-votes:
     - number: 51
@@ -136,12 +138,6 @@ plenaries:
       title: MPI_T Events
       issue_number: 79
       presenter: Marc-Andre
-      done: 0
-
-    - type: Reading
-      title: Large Count
-      issue_number: 80
-      presenter: Tony
       done: 0
 
     - type: Reading
@@ -181,18 +177,20 @@ plenaries:
       done: 0
 
     - type: Reading
+      title: Info key(s) for Persistent Collective Communication
+      issue_number: 83
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Large Count
+      issue_number: 80
+      presenter: Tony
+      done: 0
+
+    - type: Reading
       title: Sessions
       issue_number: 103
-      presenter: Dan
-      done: 0
-
-    - type: Discussion/Reading
-      title: MPI Sessions
-      presenter: Dan
-      done: 0
-
-    - type: Discussion
-      title: FP16
       presenter: Dan
       done: 0
 
