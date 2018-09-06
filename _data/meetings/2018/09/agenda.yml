@@ -151,8 +151,8 @@ schedule:
       end: 6pm
       title: RMA WG (Bill) - Room E106
 
-    - start: 2pm
-      end: 4pm
+    - start: 4:30pm
+      end: 6pm
       title: Collectives (Tony) - Room 202
 
     - endday: done
