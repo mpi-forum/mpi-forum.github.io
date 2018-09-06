@@ -58,6 +58,10 @@ schedule:
       end: 6pm
       title: HW Topologies WG (Guillaume) - Room E106
 
+    - start: 4:30pm
+      end: 6pm
+      title: Reserve - Room 202
+
     - endday: done
 
 
