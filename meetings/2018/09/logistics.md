@@ -7,8 +7,7 @@ permalink: meetings/2018/09/logistics
 ### [Meeting Registration]()
 
 Advanced registration is required for this meeting. The registration covers snacks and lunch during
-all three days and the meeting logistics. Advanced registration is required for this meeting so that
-Microsoft can process their visitor processing procedure.
+all three days and the meeting logistics. 
 
 ### Meeting Location
 
