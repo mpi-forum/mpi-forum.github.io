@@ -1,16 +1,22 @@
 test: data
 
+notes: All rooms (E101, E106, 202) are in building C6 - see logistics page.
+
 schedule:
 
     - day: Wednesday, September 19th
 
     - start: 9am
       end: 10:30am
-      title: Tools WG (Marc-Andre)
+      title: Tools WG (Marc-Andre) - Room E101
 
     - start: 9am
       end: 10:30am
-      title: P2P WG (Dan)
+      title: P2P WG (Dan) - Room E106
+
+    - start: 9am
+      end: 10:30am
+      title: Big Count (Tony) - Room 202
 
     - start: 10:30am
       end: 11am
@@ -18,11 +24,15 @@ schedule:
 
     - start: 11am
       end: 1pm
-      title: Tools WG (Marc-Andre)
+      title: Tools WG (Marc-Andre) - Room E101
 
     - start: 11am
       end: 1pm
-      title: P2P WG (Dan)
+      title: P2P WG (Dan) - Room E106
+
+    - start: 11am
+      end: 1pm
+      title: Big Count (Tony) - Room 202
 
     - start: 1:00pm
       end: 2:00pm
@@ -30,11 +40,11 @@ schedule:
 
     - start: 2pm
       end: 4pm
-      title: Big Count WG (Tony)
+      title: Persistence (Tony) - Room E101
 
     - start: 2pm
       end: 4pm
-      title: HW Topologies WG (Guillaume)
+      title: HW Topologies WG (Guillaume) - Room E106
 
     - start: 4:00pm
       end: 4:30pm
@@ -42,11 +52,11 @@ schedule:
 
     - start: 4:30pm
       end: 6pm
-      title: Big Count (Tony)
+      title: Persistence (Tony) - Room E101
 
     - start: 4:30pm
       end: 6pm
-      title: HW Topologies WG (Guillaume)
+      title: HW Topologies WG (Guillaume) - Room E106
 
     - endday: done
 
@@ -55,7 +65,7 @@ schedule:
 
     - start: 9am
       end: 10:30am
-      title: Plenary (agenda see below)
+      title: Plenary (agenda see below) - Room E106
 
     - start: 10:30am
       end: 11am
@@ -63,7 +73,7 @@ schedule:
 
     - start: 11am
       end: 1pm
-      title: Plenary (agenda see below)
+      title: Plenary (agenda see below) - Room E106
 
     - start: 1:00pm
       end: 2:00pm
@@ -71,7 +81,7 @@ schedule:
 
     - start: 2pm
       end: 4pm
-      title: Plenary (agenda see below)
+      title: Plenary (agenda see below) - Room E106
 
     - start: 4:00pm
       end: 4:30pm
@@ -79,11 +89,11 @@ schedule:
 
     - start: 4:30pm
       end: 6pm
-      title: Plenary (agenda see below)
+      title: Plenary (agenda see below) - Room E106
 
-    - start: 7:30pm
-      end: 10pm
-      title: Self paid group dinner
+    - start: 8:00pm
+      end: 11pm
+      title: Self paid group dinner, location tbd.
 
     - endday: done
 
@@ -92,11 +102,11 @@ schedule:
 
     - start: 9am
       end: 9:30am
-      title: Voting Block
+      title: Voting Block - Room E106
 
     - start: 9:30am
       end: 10:30am
-      title: Preparation of MPI Draft Specification
+      title: Preparation of MPI Draft Specification - Room E106
 
     - start: 10:30am
       end: 11am
@@ -104,11 +114,11 @@ schedule:
 
     - start: 11am
       end: 12:45pm
-      title: Plenary (agenda see below)
+      title: Plenary (agenda see below) - Room E106
 
     - start: 12:45pm
       end: 1pm
-      title: Decisions on Virtual Meetings, Options include ...
+      title: Decisions on Virtual Meetings, Options include ... - Room E106
       link:
       video:
       password:
@@ -119,11 +129,15 @@ schedule:
 
     - start: 2pm
       end: 4pm
-      title: Tools WG (Marc-Andre)
+      title: Tools WG (Marc-Andre) - Room E101
 
     - start: 2pm
       end: 4pm
-      title: RMA WG (Bill)
+      title: RMA WG (Bill) - Room E106
+
+    - start: 2pm
+      end: 4pm
+      title: Collectives (Tony) - Room 202
 
     - start: 4:00pm
       end: 4:30pm
@@ -131,11 +145,15 @@ schedule:
 
     - start: 4:30pm
       end: 6pm
-      title: Tools WG (Marc-Andre)
+      title: Tools WG (Marc-Andre) - Room E101
 
     - start: 4:30pm
       end: 6pm
-      title: RMA WG (Bill)
+      title: RMA WG (Bill) - Room E106
+
+    - start: 2pm
+      end: 4pm
+      title: Collectives (Tony) - Room 202
 
     - endday: done
 
