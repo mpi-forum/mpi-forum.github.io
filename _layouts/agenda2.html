@@ -38,7 +38,6 @@ layout: default
         <tr>
             <th>Time</th>
             <th>Title</th>
-            <th>Link</th>
             <th>Webex</th>
         </tr>
         {% assign laststart = 0 %}
@@ -48,8 +47,7 @@ layout: default
             <tr>
                 <td>{{ item.start }} - {{ item.end }}</td>
                 <td>{{ item.title }}</td>
-                <td>{% if item.link.size > 0 %}<a href="{{ item.link }}">Link</a></td>
-				<td><a href="http://mpi.caps.in.tum.de/">Webex Info</a></td>{% endif %}
+ 				<td><a href="http://mpi.caps.in.tum.de/">Webex Info</a></td>
             </tr>
     {% endif %}
     {% endfor %}
