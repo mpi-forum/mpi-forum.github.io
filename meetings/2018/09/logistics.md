@@ -4,10 +4,11 @@ date: September 19 - 21, 2018
 permalink: meetings/2018/09/logistics
 ---
 
-### [Meeting Registration]()
+### Meeting Registration
 
-Advanced registration is required for this meeting. The registration covers snacks and lunch during
-all three days and the meeting logistics. 
+Advanced registration is required for this meeting. The registration fee for this meeting is $100 plus fees and covers snacks and lunch during all three days and the meeting logistics. 
+
+[Link to the Registration](https://www.eventbrite.com/e/mpi-forum-barcelona-tickets-50071204320)
 
 ### Meeting Location
 
