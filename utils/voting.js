@@ -42,6 +42,9 @@ var aliases = {
 	'RWTH': ['RWTH AACHEN UNIVERSITY'],
 	'PAR-TEC': [],
 	'Hewlett Packard Enterprise': ['HPE'],
+    'TU Wien': [],
+    'ARM': [],
+    'BSC': ['BARCELONA SUPERCOMPUTING CENTER'],
 }
 
 var vote_types = {
