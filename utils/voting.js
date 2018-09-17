@@ -88,7 +88,7 @@ function findAlias(org) {
 			return alias;
 		}
 	}
-	window.alert("Org " + org.toUpperCase() + ' not found. Add to alias list in voting.html');
+	window.alert("Org " + org.toUpperCase() + ' not found. Add to alias list in voting.js');
 }
 
 function uniq(a) {

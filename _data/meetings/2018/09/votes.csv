@@ -1,1 +1,6 @@
 topic,type,yes,no,abstain,missed
+"#25: Adding Persistent Collective Communication","no-no",0,0,0,0
+"#51: Deprecate MPI_SIZEOF in MPI-4.0","1st",0,0,0,0
+"#25: Adding Persistent Collective Communication","2nd",0,0,0,0
+"#28: Noncatastrophic Errors","2nd",0,0,0,0
+"#67: Refined references to MPI processes throughout the Tools chapter","2nd",0,0,0,0
