@@ -1,6 +1,6 @@
 test: data
 
-notes: All rooms (E101, E106, 202) are in building C6 - see logistics page.
+notes: All rooms (101, 106, 220) are in building C6 - see logistics page.
 
 schedule:
 
@@ -8,15 +8,15 @@ schedule:
 
     - start: 9am
       end: 10:30am
-      title: Tools WG (Marc-Andre) - Room E101
+      title: Tools WG (Marc-Andre) - Room 101
 
     - start: 9am
       end: 10:30am
-      title: P2P WG (Dan) - Room E106
+      title: P2P WG (Dan) - Room 106
 
     - start: 9am
       end: 10:30am
-      title: Big Count (Tony) - Room 202
+      title: Big Count (Tony) - Room 220
 
     - start: 10:30am
       end: 11am
@@ -24,15 +24,15 @@ schedule:
 
     - start: 11am
       end: 1pm
-      title: Tools WG (Marc-Andre) - Room E101
+      title: Tools WG (Marc-Andre) - Room 101
 
     - start: 11am
       end: 1pm
-      title: P2P WG (Dan) - Room E106
+      title: P2P WG (Dan) - Room 106
 
     - start: 11am
       end: 1pm
-      title: Big Count (Tony) - Room 202
+      title: Big Count (Tony) - Room 220
 
     - start: 1:00pm
       end: 2:00pm
@@ -40,11 +40,11 @@ schedule:
 
     - start: 2pm
       end: 4pm
-      title: Persistence (Tony) - Room E101
+      title: Persistence (Tony) - Room 101
 
     - start: 2pm
       end: 4pm
-      title: HW Topologies WG (Guillaume) - Room E106
+      title: HW Topologies WG (Guillaume) - Room 106
 
     - start: 4:00pm
       end: 4:30pm
@@ -52,15 +52,15 @@ schedule:
 
     - start: 4:30pm
       end: 6pm
-      title: Persistence (Tony) - Room E101
+      title: Persistence (Tony) - Room 101
 
     - start: 4:30pm
       end: 6pm
-      title: HW Topologies WG (Guillaume) - Room E106
+      title: HW Topologies WG (Guillaume) - Room 106
 
     - start: 4:30pm
       end: 6pm
-      title: Reserve - Room 202
+      title: Reserve - Room 220
 
     - endday: done
 
@@ -69,7 +69,7 @@ schedule:
 
     - start: 9am
       end: 10:30am
-      title: Plenary (agenda see below) - Room E106
+      title: Plenary (agenda see below) - Room 106
 
     - start: 10:30am
       end: 11am
@@ -77,7 +77,7 @@ schedule:
 
     - start: 11am
       end: 1pm
-      title: Plenary (agenda see below) - Room E106
+      title: Plenary (agenda see below) - Room 106
 
     - start: 1:00pm
       end: 2:00pm
@@ -85,7 +85,7 @@ schedule:
 
     - start: 2pm
       end: 4pm
-      title: Plenary (agenda see below) - Room E106
+      title: Plenary (agenda see below) - Room 106
 
     - start: 4:00pm
       end: 4:30pm
@@ -93,7 +93,7 @@ schedule:
 
     - start: 4:30pm
       end: 6pm
-      title: Plenary (agenda see below) - Room E106
+      title: Plenary (agenda see below) - Room 106
 
     - start: 8:00pm
       end: 11pm
@@ -106,11 +106,11 @@ schedule:
 
     - start: 9am
       end: 9:30am
-      title: Voting Block - Room E106
+      title: Voting Block - Room 106
 
     - start: 9:30am
       end: 10:30am
-      title: Preparation of MPI Draft Specification - Room E106
+      title: Preparation of MPI Draft Specification - Room 106
 
     - start: 10:30am
       end: 11am
@@ -118,11 +118,11 @@ schedule:
 
     - start: 11am
       end: 12:45pm
-      title: Plenary (agenda see below) - Room E106
+      title: Plenary (agenda see below) - Room 106
 
     - start: 12:45pm
       end: 1pm
-      title: Decisions on Virtual Meetings, Options include ... - Room E106
+      title: Decisions on Virtual Meetings, Options include ... - Room 106
       link:
       video:
       password:
@@ -133,15 +133,15 @@ schedule:
 
     - start: 2pm
       end: 4pm
-      title: Tools WG (Marc-Andre) - Room E101
+      title: Tools WG (Marc-Andre) - Room 101
 
     - start: 2pm
       end: 4pm
-      title: RMA WG (Bill) - Room E106
+      title: RMA WG (Bill) - Room 106
 
     - start: 2pm
       end: 4pm
-      title: Collectives (Tony) - Room 202
+      title: Collectives (Tony) - Room 220
 
     - start: 4:00pm
       end: 4:30pm
@@ -149,15 +149,15 @@ schedule:
 
     - start: 4:30pm
       end: 6pm
-      title: Tools WG (Marc-Andre) - Room E101
+      title: Tools WG (Marc-Andre) - Room 101
 
     - start: 4:30pm
       end: 6pm
-      title: RMA WG (Bill) - Room E106
+      title: RMA WG (Bill) - Room 106
 
     - start: 4:30pm
       end: 6pm
-      title: Collectives (Tony) - Room 202
+      title: Collectives (Tony) - Room 220
 
     - endday: done
 
