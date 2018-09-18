@@ -16,7 +16,7 @@ The meeting will take place at the Technical University of Catalonia (UPC) / Bar
 
 Full details and travel directions can be found on the [EuroMPI website](https://eurompi2018.bsc.es/travel).
 
-![Location of Building C6](https://github.com/mpi-forum/mpi-forum.github.io.git/blob/master/meetings/2018/09/upc.png "Location of Building C6")
+![Location of Building C6](https://github.com/mpi-forum/mpi-forum.github.io/blob/master/meetings/2018/09/upc.png "Location of Building C6")
 
 ### Hotel
 
