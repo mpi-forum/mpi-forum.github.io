@@ -20,7 +20,7 @@ var aliases = {
 	'Auburn': ['AUBURN U', 'AUBURN UNIVERSITY'],
 	'RIKEN': ['RIKEN AICS'],
 	'INRIA': ['BORDEAUX INP/INRIA', "BORDEAUX INP"],
-	'UIUC': ['UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN', 'UNIVERSITY OF ILLINOIS', 'NCSA/UIUC'],
+	'UIUC': ['UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN', 'UNIVERSITY OF ILLINOIS', 'NCSA/UIUC', 'NCSA'],
 	'NEC': ['NEC COOPERATION', 'NEC DEUTSCHLAND GMBH'],
 	'Paratools': ['PARATOOLS SAS', 'PARATOOLS, INC.'],
 	'CEA': [],
@@ -42,6 +42,9 @@ var aliases = {
 	'RWTH': ['RWTH AACHEN UNIVERSITY'],
 	'PAR-TEC': [],
 	'Hewlett Packard Enterprise': ['HPE'],
+    'TU Wien': [],
+    'ARM': [],
+    'BSC': ['BARCELONA SUPERCOMPUTING CENTER'],
 }
 
 var vote_types = {
@@ -85,7 +88,7 @@ function findAlias(org) {
 			return alias;
 		}
 	}
-	window.alert("Org " + org.toUpperCase() + ' not found. Add to alias list in voting.html');
+	window.alert("Org " + org.toUpperCase() + ' not found. Add to alias list in voting.js');
 }
 
 function uniq(a) {
