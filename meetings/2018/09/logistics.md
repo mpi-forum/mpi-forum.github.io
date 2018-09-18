@@ -12,11 +12,11 @@ Advanced registration is required for this meeting. The registration fee for thi
 
 ### Meeting Location
 
-The meeting will take place at the Technical University of Catalonia (UPC) / Barcelona
-Supercomputing Center (BSC) Campus, Room E101 and E106 in the C6 building.
+The meeting will take place at the Technical University of Catalonia (UPC) / Barcelona (c/ Jordi Girona 1-3, Building C6, see picture below) in the meeting rooms 101, 106, 220. The mapping of WGs to meeting rooms is listed on the agenda, but we will meet in room 106 first on Wednesday morning for coordination.
 
 Full details and travel directions can be found on the [EuroMPI website](https://eurompi2018.bsc.es/travel).
 
+![Location of Building C6](https://github.com/mpi-forum/mpi-forum.github.io.git/blob/master/meetings/2018/09/upc.png "Location of Building C6")
 
 ### Hotel
 
