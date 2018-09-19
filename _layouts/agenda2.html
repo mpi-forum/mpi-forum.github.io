@@ -47,7 +47,11 @@ layout: default
             <tr>
                 <td>{{ item.start }} - {{ item.end }}</td>
                 <td>{{ item.title }}</td>
- 				<td><a href="http://mpi.caps.in.tum.de/">Webex Info</a></td>
+                {% if item.title != "Lunch" %}
+                {% if item.title != "Break" %}
+ 				    <td><a href="http://mpi.caps.in.tum.de/">Webex Info</a></td>
+                {% endif %}
+                {% endif %}
             </tr>
     {% endif %}
     {% endfor %}
