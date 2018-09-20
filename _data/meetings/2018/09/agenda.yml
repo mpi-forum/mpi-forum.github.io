@@ -95,9 +95,9 @@ schedule:
       end: 6pm
       title: Plenary (agenda see below) - Room 106
 
-    - start: 8:00pm
-      end: 11pm
-      title: Self paid group dinner, location tbd.
+    - start: 8:30pm
+      end: 11pm (?)
+      title: Self paid group dinner, Restaurant Pati Blau Pedralbes, C/ Jordi Girona 14, 08034 Barcelona﻿, http://www.restaurantpatiblau.es/
 
     - endday: done
 
@@ -187,42 +187,42 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: MPI_T Events
       issue_number: 79
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: Define error/failure behavior in MPI_INIT/FINALIZE
       issue_number: 102
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: 16-bit floating-point support for C/C++
       issue_number: 65
       presenter: Atsushi
-      done: 0
+      done: 1
 
     - type: Reading
       title: define language-agnostic, IEEE types
       issue_number: 66
       presenter: Atsushi
-      done: 0
+      done: 1
 
     - type: Reading
       title: Definition and Explanation of External32
       issue_number: 69
       presenter: Atsushi
-      done: 0
+      done: 1
 
     - type: Reading
       title: Communicator Hints for upscaled reduction ops
