@@ -237,12 +237,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Deprecate MPI_Graph
-      issue_number: 89
-      presenter: Tony
-      done: 0
-
-    - type: Reading
       title: Info key(s) for Persistent Collective Communication
       issue_number: 83
       presenter: Tony
@@ -252,6 +246,12 @@ plenaries:
       title: Large Count
       issue_number: 80
       presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Deprecate MPI_Graph
+      issue_number: 89
+      presenter: Nathan
       done: 0
 
     - type: Reading
