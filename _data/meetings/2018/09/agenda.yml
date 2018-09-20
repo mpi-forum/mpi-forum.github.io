@@ -228,19 +228,19 @@ plenaries:
       title: Communicator Hints for upscaled reduction ops
       issue_number: 101
       presenter: Atsushi
-      done: 0
+      done: 1
 
     - type: Reading
       title: No/No Reading
       issue_number: 25
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: Info key(s) for Persistent Collective Communication
       issue_number: 83
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: Large Count
