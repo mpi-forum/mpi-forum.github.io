@@ -95,11 +95,11 @@ schedule:
       end: 9:30am
       title: Voting Block and Discussion on Virtual Meeting
 
-	- start: 9:30am
+    - start: 9:30am
       end: 10:30am
       title: Likely WG time
 
-	- start: 10:30am
+    - start: 10:30am
       end: 11:00am
       title: Break
 
@@ -136,9 +136,3 @@ plenaries:
       title: Feedback from SC BoF
       presenter: Martin
       done: 0
-
-
-
-
-
-
