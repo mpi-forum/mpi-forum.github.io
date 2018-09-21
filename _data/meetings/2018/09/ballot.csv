@@ -1,1 +1,18 @@
-org,
+org,"#25: Adding Persistent Collective Communication","#51: Deprecate MPI_SIZEOF in MPI-4.0","#25: Adding Persistent Collective Communication","#28: Noncatastrophic Errors","#67: Refined references to MPI processes throughout the Tools chapter"
+"UTC",yes,yes,yes,yes,yes
+"Fujitsu",yes,yes,yes,yes,yes
+"Edinburgh",yes,yes,yes,yes,yes
+"UAB",yes,yes,yes,yes,yes
+"Mellanox",yes,yes,yes,yes,yes
+"Argonne",yes,yes,yes,yes,yes
+"Intel",yes,yes,yes,yes,yes
+"Berkeley",yes,yes,yes,yes,yes
+"Los Alamos",yes,yes,yes,yes,yes
+"RIKEN",yes,yes,yes,yes,yes
+"INRIA",yes,yes,yes,yes,yes
+"CEA",yes,yes,yes,yes,yes
+"NEC",yes,yes,yes,yes,yes
+"Paratools",yes,yes,yes,yes,yes
+"Oak Ridge",yes,yes,yes,yes,yes
+"TU Munich",yes,yes,yes,yes,yes
+
