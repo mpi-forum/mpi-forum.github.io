@@ -26,7 +26,8 @@ permalink: meetings/
 
 ##### Dec 3 - Dec 6: San Jose, CA (Cisco)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+|[Logistics](2018/12/logistics)|[Agenda](2018/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/12)|[Attendance](2018/12/attendance)|[Voting](2018/12/votes)||
+
 
 ##### Virtual Meeting ([November 7, 10 AM - 11 AM Central US]()): MPI Sessions (Dan)
 
