@@ -264,10 +264,5 @@ plenaries:
       presenter: Geoffroy
       done: 1
 
-    - type: Discussions
-      title: Sessions
-      issue_number: 103
-      presenter: Dan
-      done: 0
 
 
