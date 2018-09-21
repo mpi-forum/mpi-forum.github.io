@@ -120,23 +120,25 @@ In addition to the active working groups, several working groups exist that have
 
 | # | Chapter | Chair | Members |
 |:---:|---|---|---|
-| | Front Matter | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
-|1| Introduction | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
-|2|MPI Terms and Conventions|Rolf Rabenseifner|Bill Gropp, Martin Schulz, Dan Holmes, Jim Dinan|
-|3|Point to Point Communcation|Dan Holmes, Bill Gropp, Sayantan Sur, Rich Graham, Pavan Balaji|
-|4|Datatypes|George Bosilca|Jeff Hammond, Rich Graham, David Solt, Bill Gropp, Jim Dinan|
-|5|Collective Communication|Torsten Hoefler|George Bosilca, Purushotham Bangalore, Jeff Hammond|
-|6|Groups, Contexts, Communicators, Caching|Pavan Balaji|Bill Gropp, Sayantan Sur, Sreeram Potluri|
-|7|Process Topologies|Torsten Hoefler|Rolf Rabenseifner, Purushotham Bangalore, Chulho Kim, Pavan Balaji|
-|8|MPI Environmental Management|George Bosilca|Martin Schulz, Rolf Rabenseifner, Chulho Kim|
-|9|The Info Object|Jeff Hammond|Torsten Hoefler, David Solt, Pavan Balaji|
-|10|Process Creation and Mangement|David Solt|Jeff Hammond, Wesley Bland, Howard Pritchard|
-|11|One-Sided Communication|Bill Gropp|Pavan Balaji, Torsten Hoefler, Rajeev Thakur, Sayantan Sur|
-|12|External Interfaces|Pavan Balaji|Dries Kimpe, Jeff Hammond, Jim Dinan, Aurélien Bouteiller|
-|13|I/O|Quincey Koziol|Mohamad Chaarawi, Rajeev Thakur, Dries Kimpe|
-|14|Tool Support|Kathryn Mohror|Martin Schulz, Marc-Andre Hermanns, Adam Moody|
-|15|Deprecated Functions|Rolf Rabenseifner||
-|16|Removed Interfaces|Rolf Rabenseifner||
-|17|Language Bindings|Jeff Squyres|Jeff Hammond, Rolf Rabenseifner, Craig Rasmussen|
-|A|Language Bindings Summary|Rolf Rabenseifner|Jeff Hammond, Craig Rasmussen|
-|B|Change-Log|Rolf Rabenseifner||
+|  | Front Matter |  | Martin Schulz |
+|1| Introduction |  | Martin Schulz |
+|2|MPI Terms and Conventions|  | Martin Schulz |
+|3|Point to Point Communcation|  | Ken Raffenetti | 
+|4|Datatypes|George Bosilca|  |  | 
+|5|Collective Communication|  |  | 
+|6|Groups, Contexts, Communicators, Caching|  |  | 
+|7|Process Topologies|  |  | 
+|8|MPI Environmental Management|  | Ken Raffenetti | 
+|9|The Info Object|Jeff Hammond|  |  | 
+|10|Process Creation and Mangement|  | Ken Raffenetti  | 
+|11|One-Sided Communication|  |  | 
+|12|External Interfaces|  |  | 
+|13|I/O|  |  | 
+|14|Tool Support|  | Martin Schulz | 
+|15|Deprecated Functions|  |  | 
+|16|Removed Interfaces|  |  | 
+|17|Language Bindings|  |  | 
+|A|Language Bindings Summary|  |  | 
+|B|Change-Log|  |  | 
+
+
