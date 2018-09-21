@@ -55,6 +55,11 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 *   Leads: Wesley Bland, Aurélien Bouteiller and Rich Graham
 *   Scope: To define any additional support needed in the MPI standard to enable implementation of portable Fault Tolerant solutions for MPI based applications.
 
+#### Fortran
+
+*   Lead: Geoffroy Vallee and Rolf Rabenseifner
+*   Scope: To investigate a modernisation of the Fortran language bindings beyond Fortran 2008.
+
 #### [Hardware-Topologies](https://github.com/mpiwg-hw-topology/hw-topology-issues)
 
 *   Lead: Guillaume Mercier
@@ -98,11 +103,6 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 ## Working Groups on Hold
 
 In addition to the active working groups, several working groups exist that have been on hold.
-
-#### Fortran
-
-*   Lead: Craig Rasmussen
-*   Scope: To investigate new Fortran language bindings that overcome the problems and limitations of the Fortran 90 MPI bindings.
 
 #### Generalized Requests
 

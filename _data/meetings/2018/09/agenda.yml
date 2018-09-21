@@ -252,9 +252,9 @@ plenaries:
       title: Deprecate MPI_Graph
       issue_number: 89
       presenter: Nathan
-      done: 0
+      done: 1
 
-    - type: Reading
+    - type: Discussions
       title: Sessions
       issue_number: 103
       presenter: Dan
@@ -263,11 +263,6 @@ plenaries:
     - type: Discussion
       title: Universal IDs for MPI_T variables and events
       presenter: Marc-Andre
-      done: 0
-
-    - type: Discussion
-      title: Semantic Terms
-      presenter: Puri
       done: 0
 
     - type: Discussion
