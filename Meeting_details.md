@@ -28,6 +28,16 @@ permalink: meetings/
 
 |Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
+##### Virtual Meeting ([October 10, 10 AM - 11 AM Central US]()): Failure Behavior for MPI_Init (Aurelien)
+
+##### Virtual Meeting ([October 17, 10 AM - 11 AM Central US]()): MPI_T Events (Marc-Andre)
+
+##### Virtual Meeting ([October 24, 10 AM - 11 AM Central US]()): Forking the Standard for MPI4? (Martin)
+
+##### Virtual Meeting ([October 31, 10 AM - 11 AM Central US]()): Terms and Conventions (Puri)
+
+##### Virtual Meeting ([November 7, 10 AM - 11 AM Central US]()): MPI Sessions (Dan)
+
 ##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018)
 
 |[Logistics](2018/09/logistics)|[Agenda](2018/09/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/09)|[Attendance](2018/09/attendance)|[Voting](2018/09/votes)|[Notes](2018/09/notes)|
