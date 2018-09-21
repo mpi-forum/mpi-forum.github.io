@@ -124,12 +124,12 @@ In addition to the active working groups, several working groups exist that have
 |1| Introduction |  | Martin Schulz |
 |2|MPI Terms and Conventions|  | Martin Schulz |
 |3|Point to Point Communcation|  | Ken Raffenetti | 
-|4|Datatypes|George Bosilca|  |  | 
+|4|Datatypes| |  | 
 |5|Collective Communication|  |  | 
 |6|Groups, Contexts, Communicators, Caching|  |  | 
 |7|Process Topologies|  |  | 
 |8|MPI Environmental Management|  | Ken Raffenetti | 
-|9|The Info Object|Jeff Hammond|  |  | 
+|9|The Info Object|  |  | 
 |10|Process Creation and Mangement|  | Ken Raffenetti  | 
 |11|One-Sided Communication|  |  | 
 |12|External Interfaces|  |  | 
