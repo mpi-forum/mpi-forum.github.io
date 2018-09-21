@@ -54,7 +54,7 @@ schedule:
 
     - day: Wednesday, December 5th
 
-	- start: 9:00am
+    - start: 9:00am
       end: 10:30am
       title: Likely WG time
 
