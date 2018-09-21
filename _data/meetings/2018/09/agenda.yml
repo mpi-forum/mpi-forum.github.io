@@ -254,20 +254,20 @@ plenaries:
       presenter: Nathan
       done: 1
 
-    - type: Discussions
-      title: Sessions
-      issue_number: 103
-      presenter: Dan
-      done: 0
-
     - type: Discussion
       title: Universal IDs for MPI_T variables and events
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Fortran Issues
       presenter: Geoffroy
+      done: 1
+
+    - type: Discussions
+      title: Sessions
+      issue_number: 103
+      presenter: Dan
       done: 0
 
 
