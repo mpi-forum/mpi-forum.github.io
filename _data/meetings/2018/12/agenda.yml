@@ -68,7 +68,7 @@ schedule:
       end: 12:30pm
       title: Likely WG time
 
-     - start: 12:30pm
+    - start: 12:30pm
       end: 1:30pm
       title: lunch
 
