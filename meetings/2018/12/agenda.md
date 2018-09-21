@@ -1,7 +1,7 @@
 ---
 layout: agenda2
-date: December 4, 2017 - December 7, 2017
-permalink: meetings/2017/12/agenda
-year: "2017"
+date: December 3, 2018 - December 6, 2018
+permalink: meetings/2018/12/agenda
+year: "2018"
 month: "12"
 ---
