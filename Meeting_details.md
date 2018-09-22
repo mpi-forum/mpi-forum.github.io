@@ -31,13 +31,13 @@ permalink: meetings/
 
 ##### Virtual Meeting ([November 7, 10 AM - 11 AM Central US]()): MPI Sessions (Dan)
 
-##### Virtual Meeting ([October 31, 10 AM - 11 AM Central US]()): Terms and Conventions (Puri)
+##### Virtual Meeting ([October 31, 10 AM - 11 AM Central US]()): Failure Behavior for MPI_Init (Aurelien)
 
 ##### Virtual Meeting ([October 24, 10 AM - 11 AM Central US]()): Forking the Standard for MPI4? (Martin)
 
 ##### Virtual Meeting ([October 17, 10 AM - 11 AM Central US]()): MPI_T Events (Marc-Andre)
 
-##### Virtual Meeting ([October 10, 10 AM - 11 AM Central US]()): Failure Behavior for MPI_Init (Aurelien)
+##### Virtual Meeting ([October 10, 10 AM - 11 AM Central US]()): Terms and Conventions (Puri)
 
 
 ##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018)

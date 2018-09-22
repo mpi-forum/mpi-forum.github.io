@@ -122,22 +122,22 @@ In addition to the active working groups, several working groups exist that have
 |:---:|---|---|---|
 |  | Front Matter |  | Martin Schulz |
 |1| Introduction |  | Martin Schulz |
-|2|MPI Terms and Conventions|  | Martin Schulz |
+|2|MPI Terms and Conventions|  | Martin Schulz, Wesley Bland |
 |3|Point to Point Communcation|  | Ken Raffenetti | 
-|4|Datatypes| |  | 
+|4|Datatypes| George Bosilca |  | 
 |5|Collective Communication|  |  | 
 |6|Groups, Contexts, Communicators, Caching|  |  | 
 |7|Process Topologies|  |  | 
-|8|MPI Environmental Management|  | Ken Raffenetti | 
-|9|The Info Object|  |  | 
-|10|Process Creation and Mangement|  | Ken Raffenetti  | 
+|8|MPI Environmental Management| George Bosilca | Ken Raffenetti, Wesley Bland | 
+|9|The Info Object| Martin Schulz | | 
+|10|Process Creation and Mangement|  | Ken Raffenetti, Dan Holmes  | 
 |11|One-Sided Communication|  |  | 
 |12|External Interfaces|  |  | 
 |13|I/O|  |  | 
 |14|Tool Support|  | Martin Schulz | 
 |15|Deprecated Functions|  |  | 
 |16|Removed Interfaces|  |  | 
-|17|Language Bindings|  |  | 
+|17|Language Bindings| -open- |  | 
 |A|Language Bindings Summary|  |  | 
 |B|Change-Log|  |  | 
 
