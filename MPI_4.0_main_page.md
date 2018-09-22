@@ -120,18 +120,18 @@ In addition to the active working groups, several working groups exist that have
 
 | # | Chapter | Chair | Members |
 |:---:|---|---|---|
-|  | Front Matter |  | Martin Schulz |
-|1| Introduction |  | Martin Schulz |
-|2|MPI Terms and Conventions|  | Martin Schulz, Wesley Bland |
+|  | Front Matter | Bill Gropp | Martin Schulz |
+|1| Introduction | Bill Gropp | Martin Schulz |
+|2|MPI Terms and Conventions|  | Martin Schulz, Wesley Bland, Bill Gropp |
 |3|Point to Point Communcation|  | Ken Raffenetti | 
-|4|Datatypes| George Bosilca |  | 
+|4|Datatypes| George Bosilca | Bill Gropp | 
 |5|Collective Communication|  |  | 
-|6|Groups, Contexts, Communicators, Caching|  |  | 
+|6|Groups, Contexts, Communicators, Caching|  | Bill Gropp | 
 |7|Process Topologies|  |  | 
 |8|MPI Environmental Management| George Bosilca | Ken Raffenetti, Wesley Bland | 
 |9|The Info Object| Martin Schulz | | 
 |10|Process Creation and Mangement|  | Ken Raffenetti, Dan Holmes  | 
-|11|One-Sided Communication|  |  | 
+|11|One-Sided Communication| Bill Gropp |  | 
 |12|External Interfaces|  |  | 
 |13|I/O|  |  | 
 |14|Tool Support|  | Martin Schulz | 
