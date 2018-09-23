@@ -94,8 +94,12 @@ schedule:
     - day: Thusday, December 6th
 
     - start: 9:00am
-      end: 9:30am
+      end: 9:20am
       title: Voting Block and Discussion on Virtual Meeting
+
+    - start: 9:20am
+      end: 9:30am
+      title: Revalidation of Working Group
 
     - start: 9:30am
       end: 10:30am
