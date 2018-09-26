@@ -120,25 +120,25 @@ In addition to the active working groups, several working groups exist that have
 
 | # | Chapter | Chair | Members |
 |:---:|---|---|---|
-|  | Front Matter | Bill Gropp | Martin Schulz |
-|1| Introduction | Bill Gropp | Martin Schulz |
-|2|MPI Terms and Conventions|  | Martin Schulz, Wesley Bland, Bill Gropp |
-|3|Point to Point Communcation|  | Ken Raffenetti | 
+|  | Front Matter | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
+|1| Introduction | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
+|2|MPI Terms and Conventions| Rolf Rabenseifner | Wesley Bland, Bill Gropp, Tony Skjellum, Puri Bangalore |
+|3|Point to Point Communcation| Dan Holmes | Ken Raffenetti | 
 |4|Datatypes| George Bosilca | Bill Gropp | 
-|5|Collective Communication|  |  | 
-|6|Groups, Contexts, Communicators, Caching|  | Bill Gropp | 
-|7|Process Topologies|  |  | 
-|8|MPI Environmental Management| George Bosilca | Ken Raffenetti, Wesley Bland | 
+|5|Collective Communication| Torsten Höfler | Tony Skjellum | 
+|6|Groups, Contexts, Communicators, Caching| Pavan Balaji | Bill Gropp | 
+|7|Process Topologies| Torsten Höfler | Rolf Rabenseifner | 
+|8|MPI Environmental Management| George Bosilca | Ken Raffenetti, Wesley Bland, Rolf Rabenseifner | 
 |9|The Info Object| Martin Schulz | | 
-|10|Process Creation and Mangement|  | Ken Raffenetti, Dan Holmes  | 
+|10|Process Creation and Mangement|  | Ken Raffenetti, Dan Holmes, Martin Schulz  | 
 |11|One-Sided Communication| Bill Gropp |  | 
-|12|External Interfaces|  |  | 
+|12|External Interfaces| Pavan Balaji | Martin Schulz | 
 |13|I/O|  |  | 
-|14|Tool Support|  | Martin Schulz | 
-|15|Deprecated Functions|  |  | 
-|16|Removed Interfaces|  |  | 
-|17|Language Bindings| -open- |  | 
-|A|Language Bindings Summary|  |  | 
-|B|Change-Log|  |  | 
+|14|Tool Support| Kathryn Mohror | Marc-Andre Hermanns, Martin Schulz | 
+|15|Deprecated Functions| Rolf Rabenseifner | Martin Schulz | 
+|16|Removed Interfaces| Rolf Rabenseifner | Martin Schulz | 
+|17|Language Bindings| Puri Bangalore | Tony Skjellum, Rolf Rabenseifner | 
+|A|Language Bindings Summary| Rolf Rabenseifner |  | 
+|B|Change-Log| Rolf Rabenseifner |  | 
 
 
