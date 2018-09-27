@@ -29,25 +29,25 @@ permalink: meetings/
 |[Logistics](2018/12/logistics)|[Agenda](2018/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/12)|[Attendance](2018/12/attendance)|[Voting](2018/12/votes)||
 
 
-##### Virtual Meeting ([November 7, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): MPI Sessions (Dan)
+##### Virtual Meeting ([November 7, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
-|[Meeting Information](http://mpi-forum.epcc.ed.ac.uk/mpiforum-virtual.php)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
 
-##### Virtual Meeting ([October 31, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): Failure Behavior for MPI_Init (Aurelien)
+##### Virtual Meeting ([October 31, 10 AM - 11 AM Central US](https://mpi.caps.in.tum.de/)): Failure Behavior for MPI_Init (Aurelien)
 
-|[Meeting Information](http://mpi-forum.epcc.ed.ac.uk/mpiforum-virtual.php)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
 
-##### Virtual Meeting ([October 24, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): Forking the Standard for MPI4? (Martin)
+##### Virtual Meeting ([October 24, 10 AM - 11 AM Central US](https://mpi.caps.in.tum.de/)): Forking the Standard for MPI4? (Martin)
 
-|[Meeting Information](http://mpi-forum.epcc.ed.ac.uk/mpiforum-virtual.php)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
 
-##### Virtual Meeting ([October 17, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): MPI_T Events (Marc-Andre)
+##### Virtual Meeting ([October 17, 10 AM - 11 AM Central US](https://mpi.caps.in.tum.de/)): MPI_T Events (Marc-Andre)
 
-|[Meeting Information](http://mpi-forum.epcc.ed.ac.uk/mpiforum-virtual.php)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
 
-##### Virtual Meeting ([October 10, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)): Terms and Conventions (Puri)
+##### Virtual Meeting ([October 10, 10 AM - 11 AM Central US](https://mpi.caps.in.tum.de/)): Terms and Conventions (Puri)
 
-|[Meeting Information](http://mpi-forum.epcc.ed.ac.uk/mpiforum-virtual.php)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
 
 
 ##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018)
