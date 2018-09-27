@@ -126,14 +126,14 @@ In addition to the active working groups, several working groups exist that have
 |3|Point to Point Communcation| Dan Holmes | Ken Raffenetti | 
 |4|Datatypes| George Bosilca | Bill Gropp | 
 |5|Collective Communication| Torsten Höfler | Tony Skjellum | 
-|6|Groups, Contexts, Communicators, Caching| Pavan Balaji | Bill Gropp | 
+|6|Groups, Contexts, Communicators, Caching| Pavan Balaji | Bill Gropp, Tony Skjellum | 
 |7|Process Topologies| Torsten Höfler | Rolf Rabenseifner | 
 |8|MPI Environmental Management| George Bosilca | Ken Raffenetti, Wesley Bland, Rolf Rabenseifner | 
 |9|The Info Object| Martin Schulz | | 
 |10|Process Creation and Mangement| Howard Pritchard | Ken Raffenetti, Dan Holmes, Martin Schulz  | 
 |11|One-Sided Communication| Bill Gropp |  | 
 |12|External Interfaces| Pavan Balaji | Martin Schulz | 
-|13|I/O|  |  | 
+|13|I/O| Tony Skjellum |  | 
 |14|Tool Support| Kathryn Mohror | Marc-Andre Hermanns, Martin Schulz | 
 |15|Deprecated Functions| Rolf Rabenseifner | Martin Schulz | 
 |16|Removed Interfaces| Rolf Rabenseifner | Martin Schulz | 
