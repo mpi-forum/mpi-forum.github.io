@@ -25,36 +25,7 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: Likely WG time
-
-    - start: 10:30am
-      end: 11:00am
-      title: Break
-
-    - start: 11:00am
-      end: 12:30pm
-      title: Likely WG time
-
-    - start: 12:30pm
-      end: 1:30pm
-      title: lunch
-
-    - start: 1:30pm
-      end: 3:30pm
-      title: Likely Plenary (agenda see below)
-
-    - start: 3:30pm
-      end: 4:00pm
-      title: Break
-
-    - start: 4:00pm
-      end: 6:00pm
-      title: Likely Plenary (agenda see below)
-
-    - endday: done
-
-
-    - day: Wednesday, December 5th
+      title: Tools WG (Kathryn)
 
     - start: 9:00am
       end: 10:30am
@@ -66,7 +37,44 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
+      title: Tools WG (Kathryn)
+
+    - start: 11:00am
+      end: 12:30pm
       title: Likely WG time
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: lunch
+
+    - start: 1:30pm
+      end: 3:30pm
+      title: Likely WG time
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: Likely WG time
+
+    - endday: done
+
+
+    - day: Wednesday, December 5th
+
+    - start: 9:00am
+      end: 10:30am
+      title: Likely Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Likely Plenary (agenda see below)
 
     - start: 12:30pm
       end: 1:30pm
@@ -103,7 +111,7 @@ schedule:
 
     - start: 9:30am
       end: 10:30am
-      title: Likely WG time
+      title: Likely Plenary (agenda see below)
 
     - start: 10:30am
       end: 11:00am
@@ -111,7 +119,7 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: Likely WG time
+      title: Likely Plenary (agenda see below)
 
     - endday: done
 
