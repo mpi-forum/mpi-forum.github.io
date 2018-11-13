@@ -7,6 +7,15 @@ permalink: /
 This website contains information about the activities of the MPI Forum, which is the standardization forum for the Message Passing Interface (MPI).
 You may find standard documents, information about the activities of the MPI forum, and links to comment on the MPI Document using the navigation at the top of the page.
 
+## 2018 MPI Standard Draft
+
+Starting in 2018, the MPI Forum has decided to release draft specifications to allow users an
+implementors an early opportunity to see changes in upcoming versions of the MPI Standard. These
+draft specifications are not versions and are subject to change before published as an offical
+version of the MPI Standard.
+
+[2018 Draft](2018-Draft-MPI-Standard.pdf)
+
 ## Updates
 
 * #### BoF at SC 17, Nov. 15th, 2017
