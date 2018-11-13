@@ -10,7 +10,7 @@ permalink: meetings/
 
 |Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
-##### Sep 5 - Sep 7: Zurich, Switzerland (ETH Zurich)
+##### Sep 5 - Sep 7: Zurich, Switzerland (ETH Zurich) ([Joinly hosted with EuroMPI 2019](http://eurompi19.inf.ethz.ch))
 
 |Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
