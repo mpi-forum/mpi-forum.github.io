@@ -18,12 +18,10 @@ version of the MPI Standard.
 
 ## Updates
 
-* #### BoF at SC 17, Nov. 15th, 2017
+* #### BoF at SC 18, Nov. 14th, 2017
 
-    *   News from the MPI Forum
-    *   Updates on Hybrid, FP16, Sessions, FT, Tools, Persistence
-    *   How can you get involved?
-    *   [Complete slide deck available](slides/2017/11/2017-11-scbof.pdf)
+Please attend the MPI Forum BoF Session at SC 18 at 12:15PM in C141/143/149. Presentation materials
+will be posted after the session.
 
 ## Meeting Coordinators
 
