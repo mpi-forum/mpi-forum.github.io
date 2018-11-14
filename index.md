@@ -11,7 +11,7 @@ You may find standard documents, information about the activities of the MPI for
 
 Starting in 2018, the MPI Forum has decided to release draft specifications to allow users an
 implementors an early opportunity to see changes in upcoming versions of the MPI Standard. These
-draft specifications are not versions and are subject to change before published as an offical
+draft specifications are not versions and are subject to change before published as an official
 version of the MPI Standard.
 
 [2018 Draft Specification](docs/drafts/mpi-2018-draft-report.pdf)
