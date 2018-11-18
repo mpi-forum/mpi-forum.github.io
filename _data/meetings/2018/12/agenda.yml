@@ -8,7 +8,7 @@ schedule:
 
     - start: 2:00pm
       end: 3:30pm
-      title: Likely WG time
+      title: RMA WG (Bill)
 
     - start: 3:30pm
       end: 4:00pm
@@ -16,7 +16,7 @@ schedule:
 
     - start: 4:00pm
       end: 6:00pm
-      title: Likely WG time
+      title: RMA WG (Bill)
 
     - endday: done
 
@@ -49,11 +49,19 @@ schedule:
 
     - start: 1:30pm
       end: 3:30pm
+      title: FT WG (Wesley)
+
+    - start: 1:30pm
+      end: 3:30pm
       title: Likely WG time
 
     - start: 3:30pm
       end: 4:00pm
       title: Break
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: FT WG (Wesley)
 
     - start: 4:00pm
       end: 6:00pm
@@ -107,7 +115,7 @@ schedule:
 
     - start: 9:20am
       end: 9:30am
-      title: Revalidation of Working Group
+      title: Revalidation of Working Groups
 
     - start: 9:30am
       end: 10:30am
@@ -144,6 +152,39 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: MPI_T Events
+      issue_number: 79
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: MPI_T UIDs
+      issue_number: tbd
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Discussion
+      title:  MPI Info Objects before Init
+      presenter: Marc-Andre
+      done: 0
+
+	- type: Reading
+      title: Define error/failure behavior in MPI_INIT/FINALIZE
+      issue_number: 102
+      presenter: Wesley
+      done: 0
+
+    - type: Discussion
+      title: Terms and Conventions
+      presenter: Puri
+      done: 0
+
+    - type: Discussion
+      title: Function Pointer based MPI and its implications
+      presenter: Puri
       done: 0
 
     - type: Discussion
