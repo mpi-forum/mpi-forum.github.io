@@ -160,6 +160,12 @@ plenaries:
       presenter: Wesley
       done: 0
 
+    - type: Reading
+      title: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters
+      issue_number: 102
+      presenter: Tony
+      done: 0
+
     - type: Discussion
       title: Terms and Conventions
       presenter: Puri
