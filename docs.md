@@ -10,6 +10,15 @@ Those who prefer to get the documents via anonymous ftp may do so at ftp.mpi-for
 
 Some [translations of MPI documents](translations.html) are available.
 
+## Draft Specification
+
+Starting in 2018, the MPI Forum has decided to release draft specifications to allow users an
+implementors an early opportunity to see changes in upcoming versions of the MPI Standard. These
+draft specifications are not versions and are subject to change before published as an official
+version of the MPI Standard.
+
+[2018 Draft Specification](docs/drafts/mpi-2018-draft-report.pdf)
+
 ## MPI-3.1
 
 |<a href="images/mpi-report-3.1-2015-06-04-as-1book.jpg"><img alt="MPI-3.0 - Click to enlarge" src="images/mpi-report-3.1-2015-06-04-as-1book-thumb.jpg" width="90" /></a>|MPI-3.1 was approved by the MPI Forum on June 4, 2015.|
