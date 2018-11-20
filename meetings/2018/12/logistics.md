@@ -12,6 +12,8 @@ Tuesday and Wednesday, and the meeting logistics.
 Advanced registration is required for this meeting so that Cisco can process their visitor
 processing procedure.
 
+[Meeting Registration](https://www.eventbrite.com/e/mpi-forum-san-jose-tickets-52750170179)
+
 ### Meeting Location
 
 The meeting will take place in:

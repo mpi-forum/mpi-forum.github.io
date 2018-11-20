@@ -138,15 +138,21 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: MPI_T Events
-      issue_number: 79
-      presenter: Marc-Andre
+      title: Add subsections to Variable Categorization section
+      issue_number: 116
+      presenter: Kathryn
       done: 0
 
     - type: Reading
-      title: MPI_T UIDs
-      issue_number: tbd
-      presenter: Marc-Andre
+      title: MPI_T Events
+      issue_number: 79
+      presenter: Kathryn
+      done: 0
+
+    - type: Reading
+      title: MPI_T Universal Identifiers for Variables and Categories
+      issue_number: 113
+      presenter: Kathryn
       done: 0
 
     - type: Discussion
@@ -164,6 +170,24 @@ plenaries:
       title: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters
       issue_number: 102
       presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Info key(s) for Persistent Collective Communication
+      issue_number: 83
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Sessions
+      issue_number: 114
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: Generalized RMA Atomics
+      issue_number: 114
+      presenter: Pavan
       done: 0
 
     - type: Discussion
