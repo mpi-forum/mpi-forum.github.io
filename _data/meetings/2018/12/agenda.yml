@@ -171,7 +171,7 @@ plenaries:
     - type: Reading
       title: Define error/failure behavior in MPI_INIT/FINALIZE
       issue_number: 102
-      presenter: Wesley
+      presenter: Aurelien
       done: 0
 
     - type: Reading
