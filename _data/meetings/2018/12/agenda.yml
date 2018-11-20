@@ -209,6 +209,11 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: Proposal for better dynamic process management
+      presenter: Justin
+      done: 0
+
+    - type: Discussion
       title: Feedback from SC BoF
       presenter: Martin
       done: 0
