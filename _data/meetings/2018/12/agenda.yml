@@ -26,6 +26,10 @@ schedule:
       end: 10:30am
       title: Tools WG (Kathryn)
 
+    - start: 9:00am
+      end: 10:30am
+      title: HW Tologies WG (Guillaume)
+
     - start: 10:30am
       end: 11:00am
       title: Break
@@ -33,6 +37,10 @@ schedule:
     - start: 11:00am
       end: 12:30pm
       title: Tools WG (Kathryn)
+
+    - start: 11:00am
+      end: 12:30pm
+      title: HW Tologies WG (Guillaume)
 
     - start: 12:30pm
       end: 1:30pm

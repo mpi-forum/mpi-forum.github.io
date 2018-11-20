@@ -18,10 +18,16 @@ version of the MPI Standard.
 
 ## Updates
 
-* #### BoF at SC 18, Nov. 14th, 2017
+#### BoF at SC 18, Nov. 14th, 2017
 
-Please attend the MPI Forum BoF Session at SC 18 at 12:15PM in C141/143/149. Presentation materials
-will be posted after the session.
+Presentations from the MPI Forum BoF Session at SC 18:
+* [Introduction (including MPI 3.1 implentation update](bofs/2018-11-sc/intro.pdf)
+* [Error Management](bofs/2018-11-sc/ft.pdf)
+* [MPI_T Events Interface](bofs/2018-11-sc/events.pdf)
+* [One Sided Communication](bofs/2018-11-sc/rma.pdf)
+* [Persistence and Large Count](bofs/2018-11-sc/pers.pdf)
+* [MPI Sessions (based on a presentation for the PMIx BoF)](bofs/2018-11-sc/sessions.pdf)
+
 
 ## Meeting Coordinators
 
