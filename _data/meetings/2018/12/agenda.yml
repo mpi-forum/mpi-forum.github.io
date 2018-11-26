@@ -28,7 +28,7 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: HW Tologies WG (Guillaume)
+      title: HW Topologies WG (Guillaume)
 
     - start: 10:30am
       end: 11:00am
@@ -40,7 +40,7 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: HW Tologies WG (Guillaume)
+      title: HW Topologies WG (Guillaume)
 
     - start: 12:30pm
       end: 1:30pm
@@ -188,14 +188,14 @@ plenaries:
 
     - type: Reading
       title: Sessions
-      issue_number: 114
+      issue_number: 103
       presenter: Dan
       done: 0
 
     - type: Reading
       title: Generalized RMA Atomics
       issue_number: 114
-      presenter: Pavan
+      presenter: Pavan (via Wesley)
       done: 0
 
     - type: Discussion
