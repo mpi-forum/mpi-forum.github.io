@@ -33,7 +33,7 @@ Presentations from the MPI Forum BoF Session at SC 18:
 
 *   Martin Schulz, Meeting Chair
 *   Richard Graham, Convener
-*   Jeff Squyres, Meeting Secretary
+*   Wesley Bland, Meeting Secretary
 *   Bill Gropp, Editor
 
 ## Previous Efforts
