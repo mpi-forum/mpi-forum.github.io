@@ -149,22 +149,22 @@ plenaries:
       presenter: Kathryn
       done: 0
 
-    - type: Reading
-      title: MPI_T Events
-      issue_number: 79
-      presenter: Kathryn
-      done: 0
-
-    - type: Reading
-      title: MPI_T Universal Identifiers for Variables and Categories
-      issue_number: 113
-      presenter: Kathryn
-      done: 0
-
     - type: Discussion
       title:  MPI Info Objects before Init
       presenter: Marc-Andre
       done: 0
+
+    - type: Reading
+      title: MPI_T Events - PULLED
+      issue_number: 79
+      presenter: Kathryn
+      done: 1
+
+    - type: Reading
+      title: MPI_T Universal Identifiers for Variables and Categories - PULLED
+      issue_number: 113
+      presenter: Kathryn
+      done: 1
 
     - type: Reading
       title: Define error/failure behavior in MPI_INIT/FINALIZE
@@ -197,8 +197,18 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: FP16 Options
+      presenter: Atsushi
+      done: 0
+
+    - type: Discussion
+      title: Survey
+      presenter: Atsushi
+      done: 0
+
+    - type: Discussion
       title: Terms and Conventions
-      presenter: Puri
+      presenter: Puri/Dan
       done: 0
 
     - type: Discussion
@@ -211,8 +221,4 @@ plenaries:
       presenter: Justin
       done: 0
 
-    - type: Discussion
-      title: Feedback from SC BoF
-      presenter: Martin
-      done: 0
 
