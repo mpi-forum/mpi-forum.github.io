@@ -136,23 +136,24 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
-      title: Add subsections to Variable Categorization section
+      title: Add subsections to Variable Categorization section - DECIDED TICKET 0
       issue_number: 116
       presenter: Kathryn
-      done: 0
+      done: 1
 
     - type: Discussion
       title:  MPI Info Objects before Init
+      issue_number: 115
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: MPI_T Events - PULLED
