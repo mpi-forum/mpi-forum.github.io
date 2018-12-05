@@ -222,4 +222,14 @@ plenaries:
       presenter: Justin
       done: 0
 
+    - type: Discussion
+      title: Logically Concurrent in P2P
+      presenter: Jeff
+      done: 0
+
+    - type: VMs
+      title: Decide on Topics for Virtual Meetings
+      presenter: Martin
+      done: 0
+
 
