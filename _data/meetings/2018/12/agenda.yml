@@ -177,13 +177,13 @@ plenaries:
       title: Front matter text clarifications for the "Collective Communication" and "Topology" Chapters
       issue_number: 90
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: Info key(s) for Persistent Collective Communication
       issue_number: 83
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: Sessions
