@@ -1,0 +1,21 @@
+org,"#51: Deprecate MPI_SIZEOF in MPI-4.0"
+"RIKEN",yes
+"Argonne",yes
+"Paratools",yes
+"Edinburgh",yes
+"Livermore",yes
+"Los Alamos",yes
+"Sandia",yes
+"OSU",abstain
+"Microsoft",yes
+"Fujitsu",yes
+"INRIA",yes
+"Intel",yes
+"NEC",yes
+"Mellanox",yes
+"Berkeley",yes
+"TU Munich",yes
+"ATOS/BULL",yes
+"Oak Ridge",yes
+"UTC",yes
+"NVIDIA",yes
