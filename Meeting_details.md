@@ -22,12 +22,36 @@ permalink: meetings/
 
 |Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
+##### Virtual Meeting ([February 13, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Resilience Fundamentals (Aurelien)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([February 6, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI via Function Pointers (Tony / Jeff)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([January 30, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([January 23, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI_T Events (Kathryn / Marc-Andre)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([January 16, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Terms and Conventions (Puri)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([January 9, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+
 ## 2018
 
 ##### Dec 3 - Dec 6: San Jose, CA (Cisco)
 
 |[Logistics](2018/12/logistics)|[Agenda](2018/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/12)|[Attendance](2018/12/attendance)|[Voting](2018/12/votes)||
-
 
 ##### Virtual Meeting ([November 7, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
