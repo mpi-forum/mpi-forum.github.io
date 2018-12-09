@@ -49,7 +49,7 @@ permalink: meetings/
 
 ## 2018
 
-##### [Dec 3 - Dec 6: San Jose, CA (Cisco)](2018/12/landing)
+##### Dec 3 - Dec 6: San Jose, CA (Cisco)
 
 |[Logistics](2018/12/logistics)|[Agenda](2018/12/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2018/12)|[Attendance](2018/12/attendance)|[Voting](2018/12/votes)||
 

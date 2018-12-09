@@ -54,16 +54,6 @@ print >> file, 'month: "' + month + '"\n';
 print >> file, "---\n";
 file.close();
 
-file = open('meetings/' + year + '/' + month + '/landing.md', 'w');
-print >> file, "---\n";
-print >> file, "layout: meeting_landing\n";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year + "\n";
-print >> file, "permalink: meetings/" + year + "/" + month + "/landing\n";
-print >> file, 'year: "' + year + '"\n';
-print >> file, 'month: "' + month + '"\n';
-print >> file, "---\n";
-file.close();
-
 file = open('meetings/' + year + '/' + month + '/logistics.md', 'w');
 print >> file, "---\n";
 print >> file, "layout: logistics\n";
