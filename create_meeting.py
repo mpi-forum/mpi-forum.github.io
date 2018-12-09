@@ -35,55 +35,55 @@ if not os.path.exists('_data/meetings/' + year + '/' + month):
 
 # Create the markdown files
 file = open('meetings/' + year + '/' + month + '/agenda.md', 'w');
-print >> file, "---\n";
-print >> file, "layout: agenda2\n";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year + "\n";
-print >> file, "permalink: meetings/" + year + "/" + month + "/agenda\n";
-print >> file, 'year: "' + year + '"\n';
-print >> file, 'month: "' + month + '"\n';
+print >> file, "---";
+print >> file, "layout: agenda2";
+print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, "permalink: meetings/" + year + "/" + month + "/agenda";
+print >> file, 'year: "' + year;
+print >> file, 'month: "' + month;
 print >> file, "---\n";
 file.close();
 
 file = open('meetings/' + year + '/' + month + '/attendance.md', 'w');
-print >> file, "---\n";
-print >> file, "layout: attendance\n";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year + "\n";
-print >> file, "permalink: meetings/" + year + "/" + month + "/attendance\n";
-print >> file, 'year: "' + year + '"\n';
-print >> file, 'month: "' + month + '"\n';
+print >> file, "---";
+print >> file, "layout: attendance";
+print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, "permalink: meetings/" + year + "/" + month + "/attendance";
+print >> file, 'year: "' + year;
+print >> file, 'month: "' + month;
 print >> file, "---\n";
 file.close();
 
 file = open('meetings/' + year + '/' + month + '/logistics.md', 'w');
-print >> file, "---\n";
-print >> file, "layout: logistics\n";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year + "\n";
-print >> file, "permalink: meetings/" + year + "/" + month + "/logistics\n";
-print >> file, 'year: "' + year + '"\n';
-print >> file, 'month: "' + month + '"\n';
+print >> file, "---";
+print >> file, "layout: logistics";
+print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, "permalink: meetings/" + year + "/" + month + "/logistics";
+print >> file, 'year: "' + year;
+print >> file, 'month: "' + month;
 print >> file, "---\n";
 file.close();
 
 file = open('meetings/' + year + '/' + month + '/notes.md', 'w');
-print >> file, "---\n";
-print >> file, "layout: notes\n";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year + "\n";
-print >> file, "permalink: meetings/" + year + "/" + month + "/notes\n";
-print >> file, "title: " + months[month] + " " + year + " Meeting Notes\n";
+print >> file, "---";
+print >> file, "layout: notes";
+print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, "permalink: meetings/" + year + "/" + month + "/notes";
+print >> file, "title: " + months[month] + " " + year + " Meeting Notes";
 print >> file, "---\n";
 file.close();
 
 file = open('meetings/' + year + '/' + month + '/votes.md', 'w');
-print >> file, "---\n";
-print >> file, "layout: votes\n";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year + "\n";
-print >> file, 'year: "' + year + '"\n';
-print >> file, 'month: "' + month + '"\n';
-print >> file, 'rules: 3152013\n';
-print >> file, "permalink: meetings/" + year + "/" + month + "/votes\n";
-print >> file, 'registered: \n';
-print >> file, 'ooe: \n';
-print >> file, 'imove: \n';
+print >> file, "---";
+print >> file, "layout: votes";
+print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, 'year: "' + year + '"';
+print >> file, 'month: "' + month + '"';
+print >> file, 'rules: 3152013';
+print >> file, "permalink: meetings/" + year + "/" + month + "/votes";
+print >> file, 'registered: ';
+print >> file, 'ooe: ';
+print >> file, 'imove: ';
 print >> file, "---\n";
 file.close();
 
@@ -101,13 +101,16 @@ print >> file, 'plenaries: \n';
 file.close();
 
 file = open('_data/meetings/' + year + '/' + month + '/attendance.csv', 'w');
-print >> file, 'name,org,attend\n';
+print >> file, 'name,org,attend';
 file.close();
 
 file = open('_data/meetings/' + year + '/' + month + '/ballot.csv', 'w');
-print >> file, 'org,"Vote 1"\n';
+print >> file, 'org,"Vote 1"';
 file.close();
 
 file = open('_data/meetings/' + year + '/' + month + '/votes.csv', 'w');
-print >> file, 'topic,type,yes,no,abstain,missed\n';
+print >> file, 'topic,type,yes,no,abstain,missed';
 file.close();
+
+print "This doesn't add links to the main meetings page (Meeting_details.md)."
+print "That needs to be done manually, and then everything needs to be checked in."
