@@ -2,6 +2,8 @@
 layout: logistics
 date: December 3rd - 6th, 2018
 permalink: meetings/2018/12/logistics
+year: "2018"
+month: "12"
 ---
 
 ### Meeting Registration

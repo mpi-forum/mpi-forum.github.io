@@ -2,6 +2,8 @@
 layout: logistics
 date: September 19 - 21, 2018
 permalink: meetings/2018/09/logistics
+year: "2018"
+month: "09"
 ---
 
 ### Meeting Registration

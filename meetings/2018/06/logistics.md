@@ -2,6 +2,8 @@
 layout: logistics
 date: June 11 - June 14, 2018
 permalink: meetings/2018/06/logistics
+year: "2018"
+month: "06"
 ---
 
 ### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-austin-tickets-45936583558)

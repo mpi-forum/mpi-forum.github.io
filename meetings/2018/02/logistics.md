@@ -2,6 +2,8 @@
 layout: logistics
 date: February 26 - March 2, 2018
 permalink: meetings/2018/02/logistics
+year: "2018"
+month: "02"
 ---
 
 ### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-portland-tickets-43029725066)
