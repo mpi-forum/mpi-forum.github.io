@@ -69,6 +69,8 @@ print >> file, "---\n";
 print >> file, "layout: logistics\n";
 print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year + "\n";
 print >> file, "permalink: meetings/" + year + "/" + month + "/logistics\n";
+print >> file, 'year: "' + year + '"\n';
+print >> file, 'month: "' + month + '"\n';
 print >> file, "---\n";
 file.close();
 
