@@ -13,8 +13,7 @@ permalink: meetings/2019/03/logistics
 The registration covers snacks at the meeting on Monday, Tuesday Wednesday, and Thursday lunch on
 Tuesday and Wednesday, and the meeting logistics.
 
-Advanced registration is required for this meeting so that Cisco can process their visitor
-processing procedure.
+Advanced registration is required all meetings.
 
 [Meeting Registration]()
 
