@@ -28,7 +28,9 @@ The meeting will take place in The Edney Innovation Center:
 Likely $150 per person to cover meeting logistics costs, snacks on Monday, Tuesday, Wednesday, and
 Thursday, and lunch on Tuesday and Wednesday.  
 
-### Hotel Room Block
+### Hotel Rooms
 
-We don't have a fixed hotel room block anymore.
+[The Read House](https://www.thereadhousehotel.com/)
+[The Chattanooga Marriott Downtown](https://www.marriott.com/hotels/travel/chadt-chattanooga-marriott-downtown/)
+[The Chattanoogan](https://www.chattanooganhotel.com/)
 
