@@ -20,7 +20,7 @@ permalink: meetings/
 
 ##### March 4 - March 7: Chattanooga, TN (University of Tennessee, Chattanooga)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+|[Logistics](2019/03/logistics)|Agenda|Presentations|Attendance|Voting|Notes|
 
 ##### Virtual Meeting ([February 13, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Resilience Fundamentals (Aurelien)
 
