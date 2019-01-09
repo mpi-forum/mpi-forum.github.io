@@ -44,7 +44,7 @@ permalink: meetings/
 
 ##### Virtual Meeting ([January 9, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|[Recording (password: mVERPxZ6)](https://cisco.webex.com/cisco/lsr.php?RCID=a8cf1a68de304e5ba67c58b37af92584)
 
 
 ## 2018
