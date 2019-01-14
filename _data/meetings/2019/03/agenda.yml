@@ -53,7 +53,7 @@ schedule:
 
     - day: Wednesday, March 6th
 
-     - start: 9:00am
+    - start: 9:00am
       end: 10:30am
       title: Plenary (agenda see below)
 
@@ -120,16 +120,16 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 1
+      done: 0
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 1
+      done: 0
 
     - type: Discussion
       title: Decisions on Virtual Meetings, Options include ...
       presenter: Martin
-      done: 1
+      done:
 
 
