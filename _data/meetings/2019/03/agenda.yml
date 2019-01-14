@@ -2,7 +2,7 @@ test: data
 
 schedule:
 
-    - day: Monday, February 26th
+    - day: Monday, March 4th
 
     - start: 2:00pm
       end: 3:30pm
@@ -18,7 +18,7 @@ schedule:
     - endday: done
 
 
-    - day: Tuesday, February 27th
+    - day: Tuesday, March 5th
 
     - start: 9:00am
       end: 10:30am
@@ -51,7 +51,7 @@ schedule:
     - endday: done
 
 
-    - day: Wednesday, February 28th
+    - day: Wednesday, March 6th
 
      - start: 9:00am
       end: 10:30am
@@ -84,7 +84,7 @@ schedule:
     - endday: done
 
 
-    - day: Thusday, March 1st
+    - day: Thusday, March 7th
 
     - start: 9:00am
       end: 9:30am
