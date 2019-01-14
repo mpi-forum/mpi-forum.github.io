@@ -1,18 +1,135 @@
-schedule: 
+test: data
 
-    - day: 
+schedule:
+
+    - day: Monday, February 26th
+
+    - start: 2:00pm
+      end: 3:30pm
+      title: Plenary (agenda see below)
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: Plenary (agenda see below)
+    - endday: done
+
+
+    - day: Tuesday, February 27th
+
+    - start: 9:00am
+      end: 10:30am
+      title: Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (agenda see below)
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: lunch
+
+    - start: 1:30pm
+      end: 3:30pm
+      title: Plenary (agenda see below)
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: Plenary (agenda see below)
 
     - endday: done
 
-procedure-votes: 
 
-errata-votes: 
+    - day: Wednesday, February 28th
 
-no-no-votes: 
+     - start: 9:00am
+      end: 10:30am
+      title: Plenary (agenda see below)
 
-first-votes: 
+    - start: 10:30am
+      end: 11:00am
+      title: Break
 
-second-votes: 
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (agenda see below)
 
-plenaries: 
+    - start: 12:30pm
+      end: 1:30pm
+      title: lunch
+
+    - start: 1:30pm
+      end: 3:30pm
+      title: Plenary (agenda see below)
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: Plenary (agenda see below)
+
+    - endday: done
+
+
+    - day: Thusday, March 1st
+
+    - start: 9:00am
+      end: 9:30am
+      title: Voting Block
+
+    - start: 9:30am
+      end: 10:30am
+      title: Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (agenda see below)
+
+    - endday: done
+
+procedure-votes:
+
+errata-votes:
+
+no-no-votes:
+
+first-votes:
+
+first-and-only-votes:
+
+second-votes:
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 1
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 1
+
+    - type: Discussion
+      title: Decisions on Virtual Meetings, Options include ...
+      presenter: Martin
+      done: 1
+
 

@@ -189,7 +189,7 @@ plenaries:
       title: Sessions
       issue_number: 103
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: Generalized RMA Atomics
