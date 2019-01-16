@@ -30,7 +30,7 @@ Thursday, and lunch on Tuesday and Wednesday.  
 
 ### Hotel Rooms
 
-[The Read House](https://www.thereadhousehotel.com/)
-[The Chattanooga Marriott Downtown](https://www.marriott.com/hotels/travel/chadt-chattanooga-marriott-downtown/)
-[The Chattanoogan](https://www.chattanooganhotel.com/)
+* [The Read House](https://www.thereadhousehotel.com/)
+* [The Chattanooga Marriott Downtown](https://www.marriott.com/hotels/travel/chadt-chattanooga-marriott-downtown/)
+* [The Chattanoogan](https://www.chattanooganhotel.com/)
 
