@@ -48,18 +48,26 @@ layout: default
         <tr>
             <th>Time</th>
             <th>Title</th>
+                {% if item.extra != "nolink" %}
             <th>Webex</th>
+                {% endif %}
         </tr>
         {% assign laststart = 0 %}
     {% elsif item.endday.size > 0 %}
     </table>
     {% else %}
             <tr>
-                <td>{{ item.start }} - {{ item.end }}</td>
+                 {% if item.start.size>0 %}
+               <td>{{ item.start }} - {{ item.end }}</td>
+                {% else %}
+               <td></td>
+               {% endif %}
                 <td>{{ item.title }}</td>
                 {% if item.title != "Lunch" %}
                 {% if item.title != "Break" %}
+                {% if item.extra != "nolink" %}
  				    <td><a href="http://mpi.caps.in.tum.de/">Webex Info</a></td>
+                {% endif %}
                 {% endif %}
                 {% endif %}
             </tr>

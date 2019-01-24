@@ -3,6 +3,32 @@ test: data
 schedule:
 
     - day: Monday, March 4th
+      extra: nolink
+
+    - start: 9:00am
+      end: 2:00pm
+      extra: nolink
+      title: Co-located Event (not directly affiliated with the MPI Forum)
+
+    - start:
+      end:
+      extra: nolink
+      title: System Runtime Interface Kick-off Meeting
+
+    - start:
+      end:
+      extra: nolink
+      title: Organizers - Kathryn Mohror and Josh Hursey
+
+    - start:
+      end:
+      extra: nolink
+      title: More information available soon
+
+    - endday: done
+
+
+    - day: Monday, March 4th
 
     - start: 2:00pm
       end: 3:30pm
@@ -103,6 +129,59 @@ schedule:
       title: Plenary (agenda see below)
 
     - endday: done
+
+
+    - day: Thursday, March 7th
+      extra: nolink
+
+    - start: 1:30pm
+      end: 6:00pm
+      extra: nolink
+      title: Co-located Event (not directly affiliated with the MPI Forum)
+
+    - start:
+      end:
+      extra: nolink
+      title: Future MPI Workshop
+
+    - start:
+      end:
+      extra: nolink
+      title: Organizer - Tony Skjellum
+
+    - start:
+      end:
+      extra: nolink
+      title: More information available soon
+
+    - endday: done
+
+    - day: Friday, March 8th
+      extra: nolink
+
+    - start: 9:00am
+      end: 4:00pm
+      extra: nolink
+      title: Co-located Event (not directly affiliated with the MPI Forum)
+
+    - start:
+      end:
+      extra: nolink
+      title: Future MPI Workshop
+
+    - start:
+      end:
+      extra: nolink
+      title: Organizer - Tony Skjellum
+
+    - start:
+      end:
+      extra: nolink
+      title: More information available soon
+
+    - endday: done
+
+
 
 procedure-votes:
 
