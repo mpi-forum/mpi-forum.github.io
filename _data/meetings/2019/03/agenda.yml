@@ -23,7 +23,8 @@ schedule:
     - start:
       end:
       extra: nolink
-      title: More information available soon
+      title: More information at HPC Runtime WG Pages
+      titlelinks: groups.google.com/forum/#!forum/hpc-runtime-wg
 
     - endday: done
 

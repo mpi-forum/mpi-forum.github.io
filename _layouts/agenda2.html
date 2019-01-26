@@ -62,7 +62,21 @@ layout: default
                 {% else %}
                <td></td>
                {% endif %}
-                <td>{{ item.title }}</td>
+                <td>
+                {% if item.titlelinks.size > 0 %}
+				<A HREF=https://{{ item.titlelinks }}>
+				{% endif %}
+                {% if item.titlelink.size > 0 %}
+				<A HREF=http://{{ item.titlelink }}>
+				{% endif %}
+                {{ item.title }}
+                {% if item.titlelinks.size > 0 %}
+				</A>
+				{% endif %}
+                {% if item.titlelink.size > 0 %}
+				</A>
+				{% endif %}
+                </td>
                 {% if item.title != "Lunch" %}
                 {% if item.title != "Break" %}
                 {% if item.extra != "nolink" %}
