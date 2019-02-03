@@ -11,7 +11,7 @@ permalink: meetings/2019/03/logistics
 ### Meeting Registration
 
 The registration covers snacks at the meeting on Monday, Tuesday Wednesday, and Thursday lunch on
-Tuesday and Wednesday, and the meeting logistics.
+Tuesday, Wednesday, and Thursday and the meeting logistics.
 
 Advanced registration is required all meetings.
 
