@@ -15,7 +15,7 @@ Tuesday and Wednesday, and the meeting logistics.
 
 Advanced registration is required all meetings.
 
-[Meeting Registration]()
+[Meeting Registration](https://www.eventbrite.com/e/mpi-forum-chattanooga-tickets-55731520478?aff=utm_source%3Deb_email%26utm_medium%3Demail%26utm_campaign%3Dnew_event_email&utm_term=eventname_text)
 
 ### Meeting Location
 
@@ -33,4 +33,5 @@ Thursday, and lunch on Tuesday and Wednesday.  
 * [The Read House](https://www.thereadhousehotel.com/)
 * [The Chattanooga Marriott Downtown](https://www.marriott.com/hotels/travel/chadt-chattanooga-marriott-downtown/)
 * [The Chattanoogan](https://www.chattanooganhotel.com/)
+* [Moxy Chattanooga Downtown](https://www.marriott.com/hotels/travel/chaox-moxy-chattanooga-downtown/)
 
