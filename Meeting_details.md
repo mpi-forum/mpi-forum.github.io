@@ -32,7 +32,7 @@ permalink: meetings/
 
 ##### Virtual Meeting ([January 30, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|[Recording (password: 5Ms4pv9e)](https://cisco.webex.com/cisco/lsr.php?RCID=01816d83c07f4f348826eb5df6614d00)
 
 ##### Virtual Meeting ([January 23, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI_T Events (Kathryn / Marc-Andre)
 
