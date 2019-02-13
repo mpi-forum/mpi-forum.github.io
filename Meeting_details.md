@@ -28,7 +28,7 @@ permalink: meetings/
 
 ##### Virtual Meeting ([February 13, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Resilience Fundamentals (Aurelien)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|[Recording (password: Ga2vK6tG)](https://cisco.webex.com/cisco/lsr.php?RCID=99d05348722547bb9061f16075ea0c1d)
 
 ##### Virtual Meeting ([January 30, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
