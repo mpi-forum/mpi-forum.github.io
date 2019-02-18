@@ -85,6 +85,11 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 *   Lead: Bill Gropp and Rajeev Thakur
 *   Scope: To re-examine the MPI RMA interface and consider additions and or changes needed to better support the one-sided programming model within MPI.
 
+#### [Semantic Terms](https://github.com/mpiwg-semantic-terms/semantic-terms-issues)
+
+*   Lead: Rolf Rabenseifner and Purushotham Bangalore
+*   Scope: Review and update semantic terms used throughout the MPI Standard.
+
 #### [Sessions](https://github.com/mpiwg-sessions/sessions-issues/wiki)
 
 *   Lead: Dan Holmes
