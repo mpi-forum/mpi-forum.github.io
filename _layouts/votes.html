@@ -95,6 +95,9 @@ function ballot(rules, yes, no, abstain, missed, type, imove) {
   <br>
   <hr>
   {{ content }}
+  {% if site.data.meetings[page.year][page.month].votes == 0 %}
+  <h2> No votes scheduled </h2>
+  {% else %}
   <ol>
       {% for vote in site.data.meetings[page.year][page.month].votes %}
       <li> Vote Topic: <b>{{ vote.topic }} ({{ vote.type }})</b><br>
@@ -131,6 +134,7 @@ function ballot(rules, yes, no, abstain, missed, type, imove) {
       </li>
       {% endfor %}
   </ol>
+  {% endif %}
 
   </div>
 
