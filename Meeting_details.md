@@ -22,13 +22,13 @@ permalink: meetings/
 
 |[Logistics](2019/03/logistics)|[Agenda](2019/03/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2019/03)|[Attendance](2019/03/attendance)|[Voting](2019/03/votes)|[Notes](2019/03/notes)|
 
+##### Virtual Meeting ([February 20, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI via Function Pointers (Tony / Jeff)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
 ##### Virtual Meeting ([February 13, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Resilience Fundamentals (Aurelien)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
-
-##### Virtual Meeting ([February 6, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI via Function Pointers (Tony / Jeff)
-
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|[Recording (password: Ga2vK6tG)](https://cisco.webex.com/cisco/lsr.php?RCID=99d05348722547bb9061f16075ea0c1d)
 
 ##### Virtual Meeting ([January 30, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
