@@ -178,7 +178,8 @@ schedule:
     - start:
       end:
       extra: nolink
-      title: More information available soon
+      title: More information on the workshop page
+      titlelinks: https://www.utc.edu/simcenter/mpi-beyond-workshop.php
 
     - endday: done
 
