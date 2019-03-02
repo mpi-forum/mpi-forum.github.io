@@ -179,7 +179,7 @@ schedule:
       end:
       extra: nolink
       title: More information on the workshop page
-      titlelinks: https://www.utc.edu/simcenter/mpi-beyond-workshop.php
+      titlelinks: www.utc.edu/simcenter/mpi-beyond-workshop.php
 
     - endday: done
 
