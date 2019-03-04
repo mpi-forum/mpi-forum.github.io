@@ -232,7 +232,7 @@ plenaries:
       presenter: Puri
       done: 0
 
-     - type: Reading (fixed time tbd.)
+    - type: Reading (fixed time tbd.)
       title: MPI_T Events
       issue_number: 79
       presenter: Kathryn
@@ -262,7 +262,7 @@ plenaries:
       presenter: Rolf
       done: 0
 
-   - type: Discussion
+    - type: Discussion
       title: MPI Timeline
       presenter: Martin
       done: 0
