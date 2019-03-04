@@ -198,7 +198,6 @@ first-and-only-votes:
 second-votes:
 
 plenaries:
-
     - type: Welcome
       title: Introductions
       presenter: All
