@@ -198,6 +198,7 @@ first-and-only-votes:
 second-votes:
 
 plenaries:
+
     - type: Welcome
       title: Introductions
       presenter: All
@@ -276,5 +277,3 @@ plenaries:
       title: Decisions on Virtual Meetings, Options include ...
       presenter: Martin
       done: 0
-
-
