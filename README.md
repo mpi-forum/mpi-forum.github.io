@@ -1,3 +1,3 @@
-Repository for MPI Forum Website
+# Repository for MPI Forum Website
 
-[![Build Status](https://travis-ci.org/mpi-forum/mpi-forum.github.io.svg?branch=master)](https://travis-ci.org/mpi-forum/mpi-forum.github.io)
+Feel free to create pull requests to fix problems or make additions to the website.
