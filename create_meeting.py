@@ -39,8 +39,8 @@ print >> file, "---";
 print >> file, "layout: agenda2";
 print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
 print >> file, "permalink: meetings/" + year + "/" + month + "/agenda";
-print >> file, 'year: "' + year;
-print >> file, 'month: "' + month;
+print >> file, 'year: "' + year + '"';
+print >> file, 'month: "' + month + '"';
 print >> file, "---\n";
 file.close();
 
@@ -49,8 +49,8 @@ print >> file, "---";
 print >> file, "layout: attendance";
 print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
 print >> file, "permalink: meetings/" + year + "/" + month + "/attendance";
-print >> file, 'year: "' + year;
-print >> file, 'month: "' + month;
+print >> file, 'year: "' + year + '"';
+print >> file, 'month: "' + month + '"';
 print >> file, "---\n";
 file.close();
 
@@ -59,8 +59,8 @@ print >> file, "---";
 print >> file, "layout: logistics";
 print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
 print >> file, "permalink: meetings/" + year + "/" + month + "/logistics";
-print >> file, 'year: "' + year;
-print >> file, 'month: "' + month;
+print >> file, 'year: "' + year + '"';
+print >> file, 'month: "' + month + '"';
 print >> file, "---\n";
 file.close();
 
