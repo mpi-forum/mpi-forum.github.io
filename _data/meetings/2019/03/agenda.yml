@@ -201,24 +201,24 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: Define error/failure behavior in MPI_INIT/FINALIZE
       issue_number: 102
       presenter: Wesley/Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: Clarify what MPI_SUCCESS guarantees, and what is left undefied when MPI_ERR_XXX happens
       issue_number: 119
       presenter: Wesley/Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: MPI Sessions
@@ -232,7 +232,7 @@ plenaries:
       presenter: Puri
       done: 0
 
-    - type: Reading (fixed time tbd.)
+    - type: Reading (Tues. 2pm)
       title: MPI_T Events
       issue_number: 79
       presenter: Kathryn
