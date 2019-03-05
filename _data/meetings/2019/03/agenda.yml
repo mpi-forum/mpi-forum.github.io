@@ -209,15 +209,15 @@ plenaries:
       done: 1
 
     - type: Reading
-      title: Define error/failure behavior in MPI_INIT/FINALIZE
-      issue_number: 102
-      presenter: Wesley/Aurelien
+      title: Clarify what MPI_SUCCESS guarantees, and what is left undefied when MPI_ERR_XXX happens
+      issue_number: 119
+      presenter: Wesley
       done: 1
 
     - type: Reading
-      title: Clarify what MPI_SUCCESS guarantees, and what is left undefied when MPI_ERR_XXX happens
-      issue_number: 119
-      presenter: Wesley/Aurelien
+      title: Define error/failure behavior in MPI_INIT/FINALIZE
+      issue_number: 102
+      presenter: Aurelien
       done: 1
 
     - type: Reading
@@ -236,7 +236,7 @@ plenaries:
       title: MPI_T Events
       issue_number: 79
       presenter: Kathryn
-      done: 0
+      done: 1
 
     - type: Reading
       title: Errata for Passive Target RMA on shared memory
@@ -260,6 +260,18 @@ plenaries:
       title: MPI_Cart_weighted_create / Topology aware Cartesian communicators
       issue_number: 120
       presenter: Rolf
+      done: 0
+
+    - type: Reading (Unofficial)
+      title: (no-no changes) Define error/failure behavior in MPI_INIT/FINALIZE
+      issue_number: 102
+      presenter: Aurelien
+      done: 0
+
+    - type: Reading (Unofficial)
+      title: (no-no changes) Clarify what MPI_SUCCESS guarantees, and what is left undefied when MPI_ERR_XXX happens
+      issue_number: 119
+      presenter: Wesley
       done: 0
 
     - type: Discussion
