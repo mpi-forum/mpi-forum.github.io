@@ -114,3 +114,5 @@ file.close();
 
 print "This doesn't add links to the main meetings page (Meeting_details.md)."
 print "That needs to be done manually, and then everything needs to be checked in."
+print "The string to be added is: "
+print "|[Logistics]("+year+"/"+month+"/logistics)|[Agenda]("+year+"/"+month+"/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/"+year+"/"+month+")|[Attendance]("+year+"/"+month+"/attendance)|[Voting]("+year+"/"+month+"/votes)|[Notes]("+year+"/"+month+"/notes)|"
