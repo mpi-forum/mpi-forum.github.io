@@ -229,7 +229,7 @@ plenaries:
     - type: Reading
       title: MPI Terms and Conventions
       issue_number: 96
-      presenter: Puri
+      presenter: Dan/Puri
       done: 0
 
     - type: Reading (Tues. 2pm)
