@@ -1,0 +1,147 @@
+test: data
+
+schedule:
+
+    - day: Tuesday, May 28th
+
+    - start: 2:00pm
+      end: 3:30pm
+      title: WG
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 5:30pm
+      title: WG
+
+    - endday: done
+
+
+    - day: Wednesday, May 29th
+
+    - start: 9:00am
+      end: 10:30am
+      title: WG
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: WG
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: working lunch (with discussion on next locations)
+
+    - start: 1:30pm
+      end: 3:30pm
+      title: Plenary (agenda see below)
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: Plenary (agenda see below)
+
+    - endday: done
+
+
+    - day: Thursday, May 30th
+
+    - start: 9:00am
+      end: 10:30am
+      title: Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (agenda see below)
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: working lunch (with discussion on next locations)
+
+    - start: 1:30pm
+      end: 3:30pm
+      title: Plenary (agenda see below)
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: Plenary (agenda see below)
+
+
+    - start: 7:00pm
+      end: 10:00pm
+      title: "Group dinner (pay yourself), Location: Thicket Food Truck Park, 7800 South 1st Street, Austin, TX, 78745 - http://www.thicketaustin.com"
+
+    - endday: done
+
+
+    - day: Friday, May 31st
+
+    - start: 8:30am
+      end: 9:00am
+      title: Voting Block
+
+    - start: 9:30am
+      end: 10:30am
+      title: Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:15pm
+      title: Plenary (agenda see below)
+
+    - start: 12:15pm
+      end: 12:30pm
+      title: Decisions on Virtual Meetings, Options include ...
+
+    - endday: done
+
+procedure-votes:
+
+errata-votes:
+    - number: 123
+      description: Add missing info keys to language bindings
+
+no-no-votes:
+
+first-votes:
+
+first-and-only-votes:
+
+second-votes:
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: "Errata: Add missing info keys to language bindings"
+      issue_number: 123
+      presenter: Dan
+      done: 0
+
