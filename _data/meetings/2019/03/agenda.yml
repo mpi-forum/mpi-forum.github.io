@@ -242,19 +242,19 @@ plenaries:
       title: Errata for Passive Target RMA on shared memory
       issue_number: 61
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: Intro nonblocking - no serialization and no deadlocks
       issue_number: 122
       presenter: Dan/Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: Clarify alignment of memory provided to application
       issue_number: 121
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading (Wed. 9am)
       title: MPI_Cart_weighted_create / Topology aware Cartesian communicators
