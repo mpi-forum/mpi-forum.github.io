@@ -16,7 +16,7 @@ permalink: meetings/
 
 ##### May 28 - May 31: Chicago, IL (Microsoft)
 
-|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+[Logistics](2019/05/logistics)|[Agenda](2019/05/agenda)|Presentations|Attendance|Voting|Notes|
 
 ##### March 4 - March 7: Chattanooga, TN (University of Tennessee, Chattanooga)
 
