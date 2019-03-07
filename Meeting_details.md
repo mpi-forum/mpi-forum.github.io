@@ -16,7 +16,7 @@ permalink: meetings/
 
 ##### May 28 - May 31: Chicago, IL (Microsoft)
 
-[Logistics](2019/05/logistics)|[Agenda](2019/05/agenda)|Presentations|Attendance|Voting|Notes|
+|[Logistics](2019/05/logistics)|[Agenda](2019/05/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2019/05)|[Attendance](2019/05/attendance)|[Voting](2019/05/votes)|[Notes](2019/05/notes)|
 
 ##### March 4 - March 7: Chattanooga, TN (University of Tennessee, Chattanooga)
 

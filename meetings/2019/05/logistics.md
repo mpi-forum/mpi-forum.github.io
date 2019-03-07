@@ -1,6 +1,6 @@
 ---
 layout: logistics
-date: May 29th - May 31st, 2019
+date: May 28th - May 31st, 2019
 permalink: meetings/2019/05/logistics
 ---
 
