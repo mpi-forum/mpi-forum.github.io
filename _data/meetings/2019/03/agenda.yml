@@ -230,7 +230,7 @@ plenaries:
       title: MPI Terms and Conventions
       issue_number: 96
       presenter: Dan/Puri
-      done: 0
+      done: 1
 
     - type: Reading (Tues. 2pm)
       title: MPI_T Events
@@ -266,13 +266,13 @@ plenaries:
       title: (no-no changes) Define error/failure behavior in MPI_INIT/FINALIZE
       issue_number: 102
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading (Unofficial)
       title: (no-no changes) Clarify what MPI_SUCCESS guarantees, and what is left undefied when MPI_ERR_XXX happens
       issue_number: 119
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Discussion
       title: MPI Timeline
@@ -292,4 +292,19 @@ plenaries:
     - type: Discussion
       title: Decisions on Virtual Meetings, Options include ...
       presenter: Martin
+      done: 0
+
+    - type: Option 1
+      title: MPI_T Event Timestamps
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Option 2
+      title: FT Proposal
+      presenter: Aurelien
+      done: 0
+
+    - type: Option 3
+      title: MPI Sessions Update after Reading
+      presenter: Dan
       done: 0
