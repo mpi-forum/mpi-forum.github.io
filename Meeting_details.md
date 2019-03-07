@@ -18,6 +18,30 @@ permalink: meetings/
 
 |[Logistics](2019/05/logistics)|[Agenda](2019/05/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2019/05)|[Attendance](2019/05/attendance)|[Voting](2019/05/votes)|[Notes](2019/05/notes)|
 
+##### Virtual Meeting ([April 24, 10 AM - 12 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Cartesian Topologies / Sessions (Rolf / Dan)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([April 17, 10 AM - 12 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Finepoints / Function Pointes (Ryan / Jeff)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([April 10, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Fault Tolerance (Aurelien)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([April 3, 10 AM - 12 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Split Types / Sessions (Guillaume / Sessions)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([March 27, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI_T Events (Marc-Andre)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
+##### Virtual Meeting ([March 20, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Terms and Conventions (Dan)
+
+|[Meeting Information](https://mpi.caps.in.tum.de/)|
+
 ##### March 4 - March 7: Chattanooga, TN (University of Tennessee, Chattanooga)
 
 |[Logistics](2019/03/logistics)|[Agenda](2019/03/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2019/03)|[Attendance](2019/03/attendance)|[Voting](2019/03/votes)|[Notes](2019/03/notes)|
