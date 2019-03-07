@@ -277,17 +277,17 @@ plenaries:
     - type: Discussion
       title: MPI Timeline
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Discussion
       title: MPI Survey
       presenter: Atsushi
-      done: 0
+      done: 1
 
     - type: Discussion
       title: MPI Function Pointer Interface
       presenter: Tony/Jeff
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Decisions on Virtual Meetings, Options include ...
@@ -306,5 +306,10 @@ plenaries:
 
     - type: Option 3
       title: MPI Sessions Update after Reading
+      presenter: Dan
+      done: 0
+
+    - type: Option 4
+      title: Terms and Conventions
       presenter: Dan
       done: 0
