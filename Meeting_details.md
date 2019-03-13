@@ -22,7 +22,7 @@ permalink: meetings/
 
 |[Meeting Information](https://mpi.caps.in.tum.de/)|
 
-##### Virtual Meeting ([April 17, 10 AM - 12 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Finepoints / Function Pointes (Ryan / Jeff)
+##### Virtual Meeting ([April 17, 10 AM - 12 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Finepoints / Function Pointers (Ryan / Jeff)
 
 |[Meeting Information](https://mpi.caps.in.tum.de/)|
 
