@@ -26,7 +26,7 @@ permalink: meetings/
 
 |[Meeting Information](https://mpi.caps.in.tum.de/)|
 
-##### Virtual Meeting ([April 10, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Fault Tolerance / Terms and Conventions (Aurelien / Puri)
+##### Virtual Meeting ([April 10, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Fault Tolerance (Aurelien)
 
 |[Meeting Information](https://mpi.caps.in.tum.de/)|
 
@@ -34,7 +34,7 @@ permalink: meetings/
 
 |[Meeting Information](https://mpi.caps.in.tum.de/)|
 
-##### Virtual Meeting ([March 27, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI_T Events (Marc-Andre)
+##### Virtual Meeting ([March 27, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI_T Events / Terms and Conventions (Marc-Andre / Puri)
 
 |[Meeting Information](https://mpi.caps.in.tum.de/)|
 
