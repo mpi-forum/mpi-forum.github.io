@@ -20,27 +20,27 @@ permalink: meetings/
 
 ##### Virtual Meeting ([April 24, 10 AM - 12 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Cartesian Topologies / Sessions (Rolf / Dan)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
 ##### Virtual Meeting ([April 17, 10 AM - 12 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Finepoints / Function Pointers (Ryan / Jeff)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
 ##### Virtual Meeting ([April 10, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Fault Tolerance (Aurelien)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
 ##### Virtual Meeting ([April 3, 10 AM - 12 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Split Types / Sessions (Guillaume / Sessions)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
 ##### Virtual Meeting ([March 27, 10 AM - 12 PM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI_T Events / Terms and Conventions (Marc-Andre / Puri)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
 ##### Virtual Meeting ([March 20, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)):  cancelled
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
 ##### March 4 - March 7: Chattanooga, TN (University of Tennessee, Chattanooga)
 
@@ -48,27 +48,27 @@ permalink: meetings/
 
 ##### Virtual Meeting ([February 20, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI via Function Pointers (Tony / Jeff)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
 ##### Virtual Meeting ([February 13, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Resilience Fundamentals (Aurelien)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|[Recording (password: Ga2vK6tG)](https://cisco.webex.com/cisco/lsr.php?RCID=99d05348722547bb9061f16075ea0c1d)
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Recording (password: Ga2vK6tG)](https://cisco.webex.com/cisco/lsr.php?RCID=99d05348722547bb9061f16075ea0c1d)
 
 ##### Virtual Meeting ([January 30, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|[Recording (password: 5Ms4pv9e)](https://cisco.webex.com/cisco/lsr.php?RCID=01816d83c07f4f348826eb5df6614d00)
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Recording (password: 5Ms4pv9e)](https://cisco.webex.com/cisco/lsr.php?RCID=01816d83c07f4f348826eb5df6614d00)
 
 ##### Virtual Meeting ([January 23, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI_T Events (Kathryn / Marc-Andre)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
 ##### Virtual Meeting ([January 16, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Terms and Conventions (Puri)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|[Recording (password: cNbXhyr5)](https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a)
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Recording (password: cNbXhyr5)](https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a)
 
 ##### Virtual Meeting ([January 9, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|[Recording (password: mVERPxZ6)](https://cisco.webex.com/cisco/lsr.php?RCID=a8cf1a68de304e5ba67c58b37af92584)
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Recording (password: mVERPxZ6)](https://cisco.webex.com/cisco/lsr.php?RCID=a8cf1a68de304e5ba67c58b37af92584)
 
 
 ## 2018
@@ -79,23 +79,23 @@ permalink: meetings/
 
 ##### Virtual Meeting ([November 7, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
-##### Virtual Meeting ([October 31, 10 AM - 11 AM Central US](https://mpi.caps.in.tum.de/)): Failure Behavior for MPI_Init (Aurelien)
+##### Virtual Meeting ([October 31, 10 AM - 11 AM Central US](https://github.com/mpi-forum/mpi-standard/wiki/)): Failure Behavior for MPI_Init (Aurelien)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
-##### Virtual Meeting ([October 24, 10 AM - 11 AM Central US](https://mpi.caps.in.tum.de/)): Forking the Standard for MPI4? (Martin)
+##### Virtual Meeting ([October 24, 10 AM - 11 AM Central US](https://github.com/mpi-forum/mpi-standard/wiki/)): Forking the Standard for MPI4? (Martin)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
-##### Virtual Meeting ([October 17, 10 AM - 11 AM Central US](https://mpi.caps.in.tum.de/)): MPI_T Events (Marc-Andre)
+##### Virtual Meeting ([October 17, 10 AM - 11 AM Central US](https://github.com/mpi-forum/mpi-standard/wiki/)): MPI_T Events (Marc-Andre)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
-##### Virtual Meeting ([October 10, 10 AM - 11 AM Central US](https://mpi.caps.in.tum.de/)): Terms and Conventions (Puri)
+##### Virtual Meeting ([October 10, 10 AM - 11 AM Central US](https://github.com/mpi-forum/mpi-standard/wiki/)): Terms and Conventions (Puri)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|
 
 
 ##### Sep 19 - Sep 21: Barcelona (BSC, before EuroMPI 2018)
