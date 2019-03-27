@@ -64,7 +64,7 @@ permalink: meetings/
 
 ##### Virtual Meeting ([January 16, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Terms and Conventions (Puri)
 
-|[Meeting Information](https://mpi.caps.in.tum.de/)|
+|[Meeting Information](https://mpi.caps.in.tum.de/)|[Recording (password: cNbXhyr5)](https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a)
 
 ##### Virtual Meeting ([January 9, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
