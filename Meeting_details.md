@@ -41,7 +41,7 @@ permalink: meetings/
 ##### March 27, 10 AM - 12 PM Central US [\[Your Time\]](http://bit.ly/2Uhk8BS) [\[Google Calendar\]](https://calendar.google.com/calendar/b/2?cid=ZzVtczhyM2lhajN1M3VuM2NqbmRxbWpiYzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) [\[ICAL\]](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)
 ##### Virtual Meeting: MPI_T Events / Terms and Conventions (Marc-Andre / Puri)
 
-|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|[Recording (password: cNbXhyr5)](https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a)
 
 ##### March 4 - March 7: Chattanooga, TN (University of Tennessee, Chattanooga)
 
@@ -65,7 +65,7 @@ permalink: meetings/
 
 ##### Virtual Meeting ([January 16, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): Terms and Conventions (Puri)
 
-|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|[Recording (password: cNbXhyr5)](https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a)
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|
 
 ##### Virtual Meeting ([January 9, 10 AM - 11 AM Central US](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public)): MPI Sessions (Dan)
 
