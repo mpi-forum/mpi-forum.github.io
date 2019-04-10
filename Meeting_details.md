@@ -31,7 +31,7 @@ permalink: meetings/
 ##### April 10, 10 AM - 11 AM Central US [\[Your Time\]](http://bit.ly/2UfsOsw) [\[Google Calendar\]](https://calendar.google.com/calendar/b/2?cid=ZzVtczhyM2lhajN1M3VuM2NqbmRxbWpiYzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) [\[ICAL\]](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)
 ##### Virtual Meeting: Fault Tolerance (Aurelien)
 
-|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|[Recording (password: sFBKYMU2)](https://cisco.webex.com/cisco/lsr.php?RCID=225b20cb189e4eb08c59e263a8c5d524)
 
 ##### April 3, 10 AM - 12 PM Central US [\[Your Time\]](http://bit.ly/2UgaVKb) [\[Google Calendar\]](https://calendar.google.com/calendar/b/2?cid=ZzVtczhyM2lhajN1M3VuM2NqbmRxbWpiYzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) [\[ICAL\]](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)
 ##### Virtual Meeting: Split Types / Sessions (Guillaume / Sessions)
