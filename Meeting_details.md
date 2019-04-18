@@ -24,9 +24,9 @@ permalink: meetings/
 |[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|
 
 ##### April 17, 10 AM - 12 PM Central US [\[Your Time\]](http://bit.ly/2OuGomy) [\[Google Calendar\]](https://calendar.google.com/calendar/b/2?cid=ZzVtczhyM2lhajN1M3VuM2NqbmRxbWpiYzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) [\[ICAL\]](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)
-##### Virtual Meeting: Finepoints / Function Pointers (Ryan / Jeff)
+##### Virtual Meeting: Finepoints (Ryan)
 
-|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|[Recording (password: GnpN8Muk)](https://cisco.webex.com/cisco/lsr.php?RCID=bd5846ead61240c4b8654fb6e4953040)
 
 ##### April 10, 10 AM - 11 AM Central US [\[Your Time\]](http://bit.ly/2UfsOsw) [\[Google Calendar\]](https://calendar.google.com/calendar/b/2?cid=ZzVtczhyM2lhajN1M3VuM2NqbmRxbWpiYzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) [\[ICAL\]](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)
 ##### Virtual Meeting: Fault Tolerance (Aurelien)
