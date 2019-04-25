@@ -21,7 +21,7 @@ permalink: meetings/
 ##### April 24, 10 AM - 12 PM Central US [\[Your Time\]](http://bit.ly/2HXbPVa) [\[Google Calendar\]](https://calendar.google.com/calendar/b/2?cid=ZzVtczhyM2lhajN1M3VuM2NqbmRxbWpiYzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) [\[ICAL\]](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)
 ##### Virtual Meeting: Cartesian Topologies / Sessions (Rolf / Dan)
 
-|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)|[Recording (password: NtNJvGj3)](https://cisco.webex.com/cisco/lsr.php?RCID=595747dfd3fa40a599c980663d57cf42)
 
 ##### April 17, 10 AM - 12 PM Central US [\[Your Time\]](http://bit.ly/2OuGomy) [\[Google Calendar\]](https://calendar.google.com/calendar/b/2?cid=ZzVtczhyM2lhajN1M3VuM2NqbmRxbWpiYzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) [\[ICAL\]](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)
 ##### Virtual Meeting: Finepoints (Ryan)
