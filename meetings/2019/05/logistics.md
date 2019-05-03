@@ -4,12 +4,12 @@ date: May 28th - May 31st, 2019
 permalink: meetings/2019/05/logistics
 ---
 
-### Meeting Registration
+### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-chicago-tickets-61264766566)
 
 Advanced registration is required for this meeting. The registration covers
 snacks and lunch during all three days and the meeting logistics. Advanced registration is
 required for this meeting so that Microsoft can process their visitor
-processing procedure. A registration link will be provided soon.
+processing procedure.
 
 ### Meeting Location
 
@@ -23,9 +23,9 @@ facility.
 
 ### Meeting Cost
 
-There is a $150 (preliminary number) fee per person to cover meeting logistics costs, as well lunch and snacks on Wednesday, Thursday and Friday.
+There is a $160.76 fee per person to cover meeting logistics costs, as well lunch and snacks on Wednesday, Thursday and Friday.
 
 ### Hotels
 
-There are several hotels in walking distance to the meeting location downtown Chicago. At this point we are not planning to arrange a hotel block, but if this causes problems for anyone, please let us know. 
+There are several hotels in walking distance to the meeting location downtown Chicago. At this point we are not planning to arrange a hotel block, but if this causes problems for anyone, please let us know.
 
