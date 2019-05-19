@@ -51,10 +51,6 @@ schedule:
 
     - start: 1:30pm
       end: 3:30pm
-      title: Semantic Terms WG (Tony)
-
-    - start: 1:30pm
-      end: 3:30pm
       title: HW Topologies WG (Guillaume)
 
     - start: 3:30pm
@@ -71,7 +67,7 @@ schedule:
 
     - start: 4:00pm
       end: 6:00pm
-      title: HW Topologies WG (Guillaume)
+      title: Semantic Terms WG (Tony/if needed)
 
     - endday: done
 
@@ -184,7 +180,7 @@ plenaries:
     - type: Reading
       title: "Errata: Add missing info keys to language bindings"
       issue_number: 123
-      presenter: Dan
+      presenter: Wesley
       done: 0
 
     - type: Reading
