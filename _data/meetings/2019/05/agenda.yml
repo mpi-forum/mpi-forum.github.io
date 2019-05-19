@@ -6,40 +6,11 @@ schedule:
 
     - start: 2:00pm
       end: 3:30pm
-      title: WG
+      title: Persistence WG / Finepoints (Tony and Ryan)
 
-    - start: 3:30pm
-      end: 4:00pm
-      title: Break
-
-    - start: 4:00pm
-      end: 5:30pm
-      title: WG
-
-    - endday: done
-
-
-    - day: Wednesday, May 29th
-
-    - start: 9:00am
-      end: 10:30am
-      title: WG
-
-    - start: 10:30am
-      end: 11:00am
-      title: Break
-
-    - start: 11:00am
-      end: 12:30pm
-      title: WG
-
-    - start: 12:30pm
-      end: 1:30pm
-      title: working lunch (with discussion on next locations)
-
-    - start: 1:30pm
+    - start: 2:00pm
       end: 3:30pm
-      title: Plenary (agenda see below)
+      title: Tools WG (Kathryn)
 
     - start: 3:30pm
       end: 4:00pm
@@ -47,14 +18,67 @@ schedule:
 
     - start: 4:00pm
       end: 6:00pm
+      title: Persistence WG / Finepoints (Tony and Ryan)
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: Tools WG (Kathryn)
+
+    - endday: done
+
+
+    - day: Wednesday, May 29th
+
+    - start: 8:30am
+      end: 10:30am
       title: Plenary (agenda see below)
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 12:30pm
+      title: Plenary (agenda see below)
+
+    - start: 12:30pm
+      end: 1:30pm
+      title: working lunch (with discussion on next locations)
+
+    - start: 1:30pm
+      end: 3:30pm
+      title: FT WG (Wesley and Aurelien)
+
+    - start: 1:30pm
+      end: 3:30pm
+      title: Semantic Terms WG (Tony)
+
+    - start: 1:30pm
+      end: 3:30pm
+      title: HW Topologies WG (Guillaume)
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: FT WG (Wesley and Aurelien)
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: BigCount WG (Tony)
+
+    - start: 4:00pm
+      end: 6:00pm
+      title: HW Topologies WG (Guillaume)
 
     - endday: done
 
 
     - day: Thursday, May 30th
 
-    - start: 9:00am
+    - start: 8:30am
       end: 10:30am
       title: Plenary (agenda see below)
 
@@ -85,7 +109,7 @@ schedule:
 
     - start: 7:00pm
       end: 10:00pm
-      title: "Group dinner (pay yourself), Location: TBD"
+      title: "Group dinner (pay yourself), Location: TBD (Pizza?)"
 
     - endday: done
 
@@ -96,7 +120,7 @@ schedule:
       end: 9:00am
       title: Voting Block
 
-    - start: 9:30am
+    - start: 9:00am
       end: 10:30am
       title: Plenary (agenda see below)
 
@@ -119,8 +143,14 @@ procedure-votes:
 errata-votes:
     - number: 123
       description: Add missing info keys to language bindings
+    - number: 61
+      description: Passive Target RMA on shared memory
 
 no-no-votes:
+    - number: 119
+      description: Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens
+    - number: 102
+      description: Define error/failure behavior in MPI_INIT/FINALIZE
 
 first-votes:
 
@@ -139,9 +169,103 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: No No Reading
+      title: "Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens"
+      issue_number: 119
+      presenter: Wesley
+      done: 0
+
+    - type: No No Reading
+      title: " Define error/failure behavior in MPI_INIT/FINALIZE"
+      issue_number: 102
+      presenter: Wesley
+      done: 0
+
     - type: Reading
       title: "Errata: Add missing info keys to language bindings"
       issue_number: 123
       presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: "Errata: Passive Target RMA on shared memory"
+      issue_number: 61
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "Allow management of MPI_Info objects independed of initialization state of MPI"
+      issue_number: 115
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Callback-driven event inteface for MPI_T"
+      issue_number: 79
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Sessions"
+      issue_number: 103
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: "Add MPI_ERR_PROC_ABORTED"
+      issue_number: 134
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "Partitioned Point-to-Point Communication"
+      issue_number: 136
+      presenter: Tony/Ryan
+      done: 0
+
+    - type: Reading
+      title: "Fix Security Issue with MPI_Info_get and align semantics of MPI_Info_get_valuelen"
+      issue_number: 133
+      presenter: Ryan
+      done: 0
+
+    - type: Reading
+      title: "Introduction of a new split_type value in MPI_Comm_split"
+      issue_number: 132
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "Interface to create hardware topology-aware cartesian topologies"
+      issue_number: 120
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "Memory Alignment"
+      issue_number: 121
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "RMA operation ordering"
+      issue_number: 135
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "The terms chapter is missing many terms we would like to see added for MPI-4"
+      issue_number: 96
+      presenter: Tony
+      done: 0
+
+    - type: Discussion
+      title: "Big Count"
+      presenter: Tony
+      done: 0
+
+    - type: Discussion
+      title: "Update FTWG"
+      presenter: Wesley
       done: 0
 
