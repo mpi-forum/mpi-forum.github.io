@@ -4,6 +4,10 @@ layout: default
 
 <script>
 function ballot(rules, yes, no, abstain, missed, type, imove) {
+    if (yes == 0 && no == 0 && abstain == 0 && missed == 0) {
+        return "<font color=\"orange\">Votes not yet occurred</font>";
+    }
+
     if (rules == 0000) {
         if (yes > no) {
             return "<font color=\"green\">Passed</font>";
