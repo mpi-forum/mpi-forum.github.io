@@ -149,6 +149,10 @@ no-no-votes:
       description: Define error/failure behavior in MPI_INIT/FINALIZE
 
 first-votes:
+    - number: 119
+      description: Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens
+    - number: 102
+      description: Define error/failure behavior in MPI_INIT/FINALIZE
 
 first-and-only-votes:
 
