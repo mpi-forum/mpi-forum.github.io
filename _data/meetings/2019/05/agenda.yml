@@ -158,36 +158,36 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 0´1
 
     - type: Reading
       title: "Allow management of MPI_Info objects independed of initialization state of MPI"
       issue_number: 115
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading/Discussion
       title: "Callback-driven event inteface for MPI_T (at 9am)"
       issue_number: 79
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: No No Reading
       title: "Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens"
       issue_number: 119
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: No No Reading
       title: " Define error/failure behavior in MPI_INIT/FINALIZE"
       issue_number: 102
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: Add missing info keys to language bindings"
@@ -202,15 +202,15 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "The terms chapter is missing many terms we would like to see added for MPI-4"
-      issue_number: 96
-      presenter: Tony
-      done: 0
-
-    - type: Reading
       title: "Add MPI_ERR_PROC_ABORTED"
       issue_number: 134
       presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: "The terms chapter is missing many terms we would like to see added for MPI-4"
+      issue_number: 96
+      presenter: Tony
       done: 0
 
     - type: Reading
@@ -257,7 +257,7 @@ plenaries:
 
     - type: Discussion
       title: "Big Count"
-      presenter: Tony
+      presenter: Jeff
       done: 0
 
     - type: Discussion
