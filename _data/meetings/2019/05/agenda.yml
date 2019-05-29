@@ -217,7 +217,7 @@ plenaries:
       title: "The terms chapter is missing many terms we would like to see added for MPI-4"
       issue_number: 96
       presenter: Puri
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Sessions"
@@ -235,7 +235,7 @@ plenaries:
       title: "Introduction of a new split_type value in MPI_Comm_split"
       issue_number: 132
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Interface to create hardware topology-aware cartesian topologies"
