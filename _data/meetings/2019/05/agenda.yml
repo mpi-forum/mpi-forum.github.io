@@ -201,7 +201,7 @@ plenaries:
       presenter: Wesley
       done: 0
 
-   - type: Reading
+    - type: Reading
       title: "The terms chapter is missing many terms we would like to see added for MPI-4"
       issue_number: 96
       presenter: Tony
@@ -255,7 +255,7 @@ plenaries:
       presenter: Joseph
       done: 0
 
-	- type: Discussion
+    - type: Discussion
       title: "Big Count"
       presenter: Tony
       done: 0
