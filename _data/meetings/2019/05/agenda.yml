@@ -193,24 +193,30 @@ plenaries:
       title: "Errata: Add missing info keys to language bindings"
       issue_number: 123
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: Passive Target RMA on shared memory"
       issue_number: 61
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Add MPI_ERR_PROC_ABORTED"
       issue_number: 134
       presenter: Wesley
-      done: 0
+      done: 1
+
+    - type: Reading
+      title: "Fix Security Issue with MPI_Info_get and align semantics of MPI_Info_get_valuelen"
+      issue_number: 133
+      presenter: Ryan
+      done: 1
 
     - type: Reading
       title: "The terms chapter is missing many terms we would like to see added for MPI-4"
       issue_number: 96
-      presenter: Tony
+      presenter: Puri
       done: 0
 
     - type: Reading
@@ -223,12 +229,6 @@ plenaries:
       title: "Partitioned Point-to-Point Communication"
       issue_number: 136
       presenter: Tony/Ryan
-      done: 0
-
-    - type: Reading
-      title: "Fix Security Issue with MPI_Info_get and align semantics of MPI_Info_get_valuelen"
-      issue_number: 133
-      presenter: Ryan
       done: 0
 
     - type: Reading
