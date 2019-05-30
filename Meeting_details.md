@@ -4,6 +4,16 @@ title: Meetings
 permalink: meetings/
 ---
 
+## 2020 (Pending Local Arrangements)
+
+##### Feb 18 - Feb 21: Portland, OR (Microsoft)
+
+##### June 29 - July 1: Munich, Germany (Technical University of Munich)
+
+##### Sep 8 - Sep 11: Austin, TX (Texas Advanced Computing Center)
+
+##### Dec 7 - Dec 10: San Jose, CA (Cisco)
+
 ## 2019
 
 ##### Dec 9 - Dec 12: Albuquerque, NM (Sandia National Labs)
