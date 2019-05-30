@@ -223,7 +223,7 @@ plenaries:
       title: "Memory Alignment"
       issue_number: 121
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA operation ordering"
@@ -241,7 +241,7 @@ plenaries:
       title: "Interface to create hardware topology-aware cartesian topologies"
       issue_number: 120
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Sessions"
