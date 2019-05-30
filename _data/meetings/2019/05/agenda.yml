@@ -220,15 +220,15 @@ plenaries:
       done: 1
 
     - type: Reading
-      title: "Sessions"
-      issue_number: 103
-      presenter: Dan
+      title: "Memory Alignment"
+      issue_number: 121
+      presenter: Joseph
       done: 0
 
     - type: Reading
-      title: "Partitioned Point-to-Point Communication"
-      issue_number: 136
-      presenter: Ryan
+      title: "RMA operation ordering"
+      issue_number: 135
+      presenter: Joseph
       done: 0
 
     - type: Reading
@@ -244,15 +244,15 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Memory Alignment"
-      issue_number: 121
-      presenter: Joseph
+      title: "Sessions"
+      issue_number: 103
+      presenter: Dan
       done: 0
 
     - type: Reading
-      title: "RMA operation ordering"
-      issue_number: 135
-      presenter: Joseph
+      title: "Partitioned Point-to-Point Communication"
+      issue_number: 136
+      presenter: Ryan
       done: 0
 
     - type: Discussion
