@@ -163,7 +163,7 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0´1
+      done: 1
 
     - type: Reading
       title: "Allow management of MPI_Info objects independed of initialization state of MPI"
@@ -228,7 +228,7 @@ plenaries:
     - type: Reading
       title: "Partitioned Point-to-Point Communication"
       issue_number: 136
-      presenter: Tony/Ryan
+      presenter: Ryan
       done: 0
 
     - type: Reading
