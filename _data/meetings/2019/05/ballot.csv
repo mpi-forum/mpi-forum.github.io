@@ -1,1 +1,25 @@
-org,"Vote 1"
+org,"#119: Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens","#102: Define error/failure behavior in MPI_INIT/FINALIZE","#123: Add missing info keys to language bindings","#123: Add missing info keys to language bindings","#61: Passive Target RMA on shared memory","#119: Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens","#102: Define error/failure behavior in MPI_INIT/FINALIZE"
+"Intel",yes,yes,yes,yes,yes,yes,yes
+"Cisco",yes,yes,yes,yes,yes,yes,yes
+"Oak Ridge",yes,yes,yes,yes,yes,yes,yes
+"Los Alamos",yes,yes,yes,yes,yes,yes,yes
+"NEC",yes,yes,yes,yes,yes,yes,yes
+"Paratools",yes,yes,yes,yes,yes,yes,yes
+"Argonne",yes,yes,yes,yes,yes,yes,yes
+"Fujitsu",yes,yes,yes,yes,yes,yes,yes
+"UTC",yes,yes,yes,yes,yes,yes,yes
+"RIKEN",abstain,abstain,abstain,abstain,abstain,abstain,abstain
+"Edinburgh",yes,yes,yes,yes,yes,yes,yes
+"HLRS",abstain,abstain,abstain,abstain,abstain,abstain,abstain
+"Microsoft",yes,yes,yes,yes,yes,yes,yes
+"Cray",yes,yes,yes,yes,yes,yes,yes
+"UAB",yes,yes,yes,yes,yes,yes,yes
+"Sandia",yes,yes,yes,yes,yes,yes,yes
+"INRIA",yes,yes,yes,yes,yes,yes,yes
+"Livermore",yes,yes,yes,yes,yes,yes,yes
+"OSU",yes,yes,yes,yes,yes,yes,yes
+"TU Munich",yes,yes,yes,yes,yes,yes,yes
+"Mellanox",yes,yes,yes,yes,yes,yes,yes
+"Berkeley",yes,yes,yes,yes,yes,yes,yes
+"NVIDIA",yes,yes,yes,yes,yes,yes,yes
+"Lenovo",yes,yes,yes,yes,yes,yes,yes
