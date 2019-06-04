@@ -8,11 +8,23 @@ permalink: meetings/
 
 ##### Feb 18 - Feb 21: Portland, OR (Microsoft)
 
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+
+
 ##### June 29 - July 1: Munich, Germany (Technical University of Munich)
 
-##### Sep 8 - Sep 11: Austin, TX (Texas Advanced Computing Center)
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+
+
+##### Sep 15 - Sep 18: Austin, TX (Texas Advanced Computing Center)
+
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+
 
 ##### Dec 7 - Dec 10: San Jose, CA (Cisco)
+
+|Logistics|Agenda|Presentations|Attendance|Voting|Notes|
+
 
 ## 2019
 
