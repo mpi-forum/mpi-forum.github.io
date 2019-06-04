@@ -1,1 +1,2 @@
-*.ics eol=crlf binary
+*.ics binary
+*.ics -diff -merge
