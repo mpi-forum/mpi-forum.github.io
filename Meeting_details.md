@@ -36,6 +36,11 @@ permalink: meetings/
 
 |Logistics|Agenda|Presentations|Attendance|Voting|Notes|
 
+##### June 5, 10 AM - 12 PM Central US
+##### Virtual Meeting: Sessions (Chapter 10 Changes) (Dan / Howard) [\[Your Time\]](http://bit.ly/2WjZrav) [\[Google Calendar\]](https://calendar.google.com/calendar/b/2?cid=ZzVtczhyM2lhajN1M3VuM2NqbmRxbWpiYzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) [\[ICAL (Calendar)\]](https://calendar.google.com/calendar/ical/g5ms8r3iaj3u3un3cjndqmjbc0%40group.calendar.google.com/public/basic.ics)
+
+|[Meeting Information](https://github.com/mpi-forum/mpi-standard/wiki/)|[Registration](https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository)||
+
 ##### May 28 - May 31: Chicago, IL (Microsoft)
 
 |[Logistics](2019/05/logistics)|[Agenda](2019/05/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2019/05)|[Attendance](2019/05/attendance)|[Voting](2019/05/votes)|[Notes](2019/05/notes)|
