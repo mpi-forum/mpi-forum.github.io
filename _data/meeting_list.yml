@@ -1,0 +1,471 @@
+virtual:
+
+  - year: 2019
+
+  - start: 2019-08-21T10:00
+    end: 2019-08-21T11:00
+    title: "Rules Update"
+
+  - start: 2019-08-14T11:00
+    end: 2019-08-14T12:00
+    title: "Base Elements of Topology Ticket"
+
+  - start: 2019-08-14T10:00
+    end: 2019-08-14T11:00
+    title: "String Handling"
+
+  - start: 2019-07-24T10:00
+    end: 2019-07-24T12:00
+    title: "Big Count"
+
+  - start: 2019-07-17T10:00
+    end: 2019-07-17T12:00
+    title: "Partitioned Communication"
+
+  - start: 2019-07-10T11:00
+    end: 2019-07-10T12:00
+    title: "Info Before MPI_INIT"
+
+  - start: 2019-07-10T10:00
+    end: 2019-07-10T11:00
+    title: "MPI_T Events"
+
+  - start: 2019-07-03T11:00
+    end: 2019-07-03T12:00
+    title: "RMA VM"
+
+  - start: 2019-07-03T10:00
+    end: 2019-07-03T11:00
+    title: "Memory Allocation Alignment (for ALLOC_SHARED)"
+
+  - start: 2019-06-26T10:00
+    end: 2019-06-26T12:00
+    title: "Semantic Terms"
+
+  - start: 2019-06-12T10:00
+    end: 2019-06-12T12:00
+    title: "Sessions (non Chapter 10 Changes)"
+
+  - start: 2019-06-05T10:00
+    end: 2019-06-05T12:00
+    title: "Sessions (Chapter 10 Changes)"
+
+  - start: 2019-04-24T10:00
+    end: 2019-04-24T12:00
+    title: "Cartesian Topologies / Sessions"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=595747dfd3fa40a599c980663d57cf42"
+    recording_password: NtNJvGj3
+
+  - start: 2019-04-17T10:00
+    end: 2019-04-17T12:00
+    title: "Finepoints"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=bd5846ead61240c4b8654fb6e495304"
+    recording_password: GnpN8Muk
+
+  - start: 2019-04-10T10:00
+    end: 2019-04-10T11:00
+    title: "Fault Tolerance"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=225b20cb189e4eb08c59e263a8c5d524"
+    recording_password: sFBKYMU2
+
+  - start: 2019-04-03T10:00
+    end: 2019-04-03T12:00
+    title: "Split Types / Sessions"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a"
+    recording_password: yGPM4kmi
+
+  - start: 2019-03-27T10:00
+    end: 2019-03-27T12:00
+    title: "MPI_T Events / Terms and Conventions"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a"
+    recording_password: cNbXhyr5
+
+  - start: 2019-02-20T10:00
+    end: 2019-02-20T11:00
+    title: "MPI via Function Pointers"
+    recording_url: "none"
+
+  - start: 2019-02-13T10:00
+    end: 2019-02-13T11:00
+    title: "Resilience Fundamentals"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=99d05348722547bb9061f16075ea0c1d"
+    recording_password: Ga2vK6tG
+
+  - start: 2019-01-30T10:00
+    end: 2019-01-30T11:00
+    title: "MPI Sessions"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=01816d83c07f4f348826eb5df6614d00"
+    recording_password: 5Ms4pv9e
+
+  - start: 2019-01-23T10:00
+    end: 2019-01-23T11:00
+    title: "MPI_T Events"
+    recording_url: "none"
+
+  - start: 2019-01-16T10:00
+    end: 2019-01-16T11:00
+    title: "Terms and Conventions"
+    recording_url: "none"
+
+  - start: 2019-01-09T10:00
+    end: 2019-01-09T11:00
+    title: "MPI Sessions"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=a8cf1a68de304e5ba67c58b37af92584"
+    recording_password: mVERPxZ6
+
+  - year: 2018
+
+  - start: 2018-11-07T10:00
+    end: 2018-11-07T11:00
+    title: "MPI Sessions"
+    recording_url: "none"
+
+  - start: 2018-10-31T10:00
+    end: 2018-10-31T11:00
+    title: "Failure Behavior for MPI_Init"
+    recording_url: "none"
+
+  - start: 2018-10-24T10:00
+    end: 2018-10-24T11:00
+    title: "Forking the Standard for MPI4?"
+    recording_url: "none"
+
+  - start: 2018-10-17T10:00
+    end: 2018-10-17T11:00
+    title: "MPI_T Events"
+    recording_url: "none"
+
+  - start: 2018-10-10T10:00
+    end: 2018-10-10T11:00
+    title: "Terms and Conventions"
+    recording_url: "none"
+
+  - start: 2018-08-29T10:00
+    end: 2018-08-29T11:00
+    title: "Discussion on Semantic Terms"
+    recording_url: "none"
+
+  - start: 2018-08-08T10:00
+    end: 2018-08-08T11:00
+    title: "Process Failures in MPI_INIT and MPI_FINALIZE"
+    recording_url: "none"
+
+  - start: 2018-07-25T10:00
+    end: 2018-07-25T11:00
+    title: "MPI_T Events"
+    recording_url: "none"
+
+  - start: 2018-05-30T10:00
+    end: 2018-05-30T11:00
+    title: "Language Bindings"
+    recording_url: "none"
+
+  - start: 2018-05-09T10:00
+    end: 2018-05-09T11:00
+    title: "MPI_T Events Pre-Reading (plus possibly new timers pre-reading)"
+    recording_url: "none"
+
+  - start: 2018-04-11T10:00
+    end: 2018-04-11T11:00
+    title: "Ticket 78 (non-blocking routines) and Info keys for persistent collectives"
+    recording_url: "none"
+
+  - start: 2018-01-31T10:00
+    end: 2018-01-31T11:00
+    title: "FP 16"
+    recording_url: "none"
+
+  - start: 2018-01-17T10:00
+    end: 2018-01-17T11:00
+    title: "Persistent Collectives"
+    recording_url: "none"
+
+physical:
+
+  - year: "2020 (Pending Local Arrangements)"
+
+  - start: 2020-12-07
+    end: 2020-12-10
+    title: "San Jose, CA (Cisco)"
+    links: "no"
+
+  - start: 2020-09-15
+    end: 2020-09-18
+    title: "Austin, TX (Texas Advanced Computing Center)"
+    links: "no"
+
+  - start: 2020-06-29
+    end: 2020-07-01
+    title: "Munich, Germany (Technical University of Munich)"
+    links: "no"
+
+  - start: 2020-02-18
+    end: 2020-02-21
+    title: "Portland, OR (Microsoft)"
+    links: "no"
+
+  - year: 2019
+
+  - start: 2019-12-09
+    end: 2019-12-12
+    title: "Albuquerque, NM (Sandia National Labs)"
+    links: "no"
+
+  - start: 2019-09-05
+    end: 2019-09-07
+    title: "Zurich, Switzerland (ETH Zurich, Jointly hosted with EuroMPI 2019)"
+    links: "no"
+
+  - start: 2019-05-28
+    end: 2019-05-28
+    title: "Chicago, IL (Microsoft)"
+
+  - start: 2019-03-04
+    end: 2019-03-07
+    title: "Chattanooga, TN (University of Tennessee, Chattanooga)"
+
+  - year: 2018
+
+  - start: 2018-12-03
+    end: 2018-12-06
+    title: "San Jose, CA (Cisco)"
+
+  - start: 2018-09-19
+    end: 2018-09-21
+    title: "Barcelona (BSC, before EuroMPI 2018)"
+
+  - start: 2018-06-11
+    end: 2018-06-14
+    title: "Austin, TX (Intel)"
+
+  - start: 2018-02-26
+    end: 2018-03-01
+    title: "Portland, OR (Microsoft)"
+
+  - year: 2017
+
+  - start: 2017-12-05
+    end: 2017-12-08
+    title: "San Jose, CA, USA (Cisco)"
+
+  - start: 2017-09-20
+    end: 2017-09-22
+    title: "Chicago, IL (week before EuroMPI/USA 2017, Forum held at Microsoft downtown)"
+
+  - start: 2017-06-14
+    end: 2017-06-16
+    title: "Aachen, Germany (RWTH Aachen, week before ISC in Frankfurt)"
+
+  - start: 2017-02-27
+    end: 2017-03-02
+    title: "Portland, OR, USA (Microsoft)"
+
+  - year: 2016
+
+  - start: 2016-12-05
+    end: 2016-12-08
+    title: "Dallas, TX, USA (IBM)"
+
+  - start: 2016-09-21
+    end: 2016-09-23
+    title: "Edinburgh, UK (EPCC) - in conjuction with Euro MPI 2016"
+
+  - start: 2016-06-06
+    end: 2016-06-09
+    title: "Bellevue, WA, USA (Microsoft)"
+
+  - start: 2016-02-29
+    end: 2016-03-03
+    title: "Chicago, IL (Microsoft)"
+
+  - year: 2015
+
+  - start: 2015-12-07
+    end: 2015-12-10
+    title: "San Jose, CA, USA (Cisco)"
+
+  - start: 2015-09-24
+    end: 2015-09-25
+    title: "Bordeaux, France (Inria) - in conjunction with Euro MPI 2015"
+
+  - start: 2015-06-01
+    end: 2015-06-04
+    title: "Chicago, IL, USA (Microsoft)"
+
+  - start: 2015-03-02
+    end: 2015-03-05
+    title: "Portland, OR, USA (Microsoft)"
+
+  - year: 2014
+
+  - start: 2014-12-08
+    end: 2014-12-11
+    title: "San Jose, CA, USA (Cisco)"
+
+  - start: 2014-09-15
+    end: 2014-09-17
+    title: "Kobe, Japan - in conjunction with Euro MPI/Asia 2014"
+
+  - start: 2014-06-02
+    end: 2014-06-05
+    title: "Chicago, IL, USA (Microsoft)"
+
+  - start: 2014-03-03
+    end: 2014-03-06
+    title: "San Jose, CA, USA (Microsoft)"
+
+  - year: 2013
+
+  - start: 2013-12-09
+    end: 2013-12-12
+    title: "Chicago, IL, USA"
+
+  - start: 2013-09-11
+    end: 2013-09-13
+    title: "Madrid, Spain - in conjunction with Euro MPI 2013"
+
+  - start: 2013-06-04
+    end: 2013-06-07
+    title: "San Jose, CA, USA"
+
+  - start: 2013-03-11
+    end: 2013-03-13
+    title: "Chicago, IL, USA"
+
+  - year: 2012
+
+  - start: 2012-12-03
+    end: 2012-12-06
+    title: "Bay Area, CA, USA"
+
+  - start: 2012-09-20
+    end: 2012-09-21
+    title: "Vienna, Austria"
+
+  - start: 2012-07-16
+    end: 2012-07-19
+    title: "Chicago, IL, USA"
+
+  - start: 2012-05-28
+    end: 2012-05-30
+    title: "Tsukuba, Japan"
+
+  - start: 2012-03-05
+    end: 2012-03-07
+    title: "Chicago, IL, USA"
+
+  - start: 2012-01-09
+    end: 2012-01-11
+    title: "San Jose, CA, USA"
+
+  - year: 2011
+
+  - start: 2011-10-24
+    end: 2011-10-26
+    title: "Chicago, IL, USA"
+
+  - start: 2011-09-22
+    end: 2011-09-24
+    title: "Santorini, Greece (in conjunction with Euro MPI 2011)"
+
+  - start: 2011-07-18
+    end: 2011-07-20
+    title: "Chicago, IL, USA"
+
+  - start: 2011-05-09
+    end: 2011-05-11
+    title: "Cisco, Milpitas/San Jose, CA, USA"
+
+  - start: 2011-03-28
+    end: 2011-03-30
+    title: "Chicago, IL, USA"
+
+  - start: 2011-02-07
+    end: 2011-02-09
+    title: "Cisco, Milpitas/San Jose, CA, USA"
+
+  - year: 2010
+
+  - start: 2010-12-06
+    end: 2010-12-08
+    title: "Cisco, San Jose, CA, USA"
+
+  - start: 2010-10-11
+    end: 2010-10-13
+    title: "Chicago, IL, USA"
+
+  - start: 2010-09-16
+    end: 2010-09-18
+    title: "Stuttgart, Germany, in conjunction with Euro PVM/MPI 2010"
+
+  - start: 2010-06-14
+    end: 2010-06-16
+    title: "Cisco, San Jose, CA, USA"
+
+  - start: 2010-05-03
+    end: 2010-05-05
+    title: "Microsoft, Chicago, IL, USA"
+
+  - start: 2010-03-08
+    end: 2010-03-10
+    title: "Cisco, San Jose, CA"
+
+  - start: 2010-01-19
+    end: 2010-01-21
+    title: "JW Marriott Buckhead - Atlanta, Georgia"
+
+  - year: 2009
+
+  - start: 2009-11-11
+    end: 2009-11-13
+    title: "Portland, OR"
+
+  - start: 2009-10-02
+    end: 2009-10-04
+    title: "Helsinki, Finland"
+
+  - start: 2009-07-27
+    end: 2009-07-29
+    title: "Chicago, IL"
+
+  - start: 2009-06-08
+    end: 2009-06-10
+    title: "Sun, Menlo Park, CA"
+
+  - start: 2009-04-06
+    end: 2009-04-08
+    title: "Microsoft Corp., Chicago, IL"
+
+  - start: 2009-02-09
+    end: 2009-02-11
+    title: "Cisco, San Jose, CA"
+
+  - year: 2008
+
+  - start: 2008-12-15
+    end: 2008-12-17
+    title: "Sun, Menlo Park, CA"
+
+  - start: 2008-10-20
+    end: 2008-10-22
+    title: "Marriott O'Hare, Chicago, IL"
+
+  - start: 2008-09-03
+    end: 2008-09-05
+    title: "University College Park, Dublin, Ireland"
+
+  - start: 2008-06-30
+    end: 2008-07-02
+    title: "Sun, Menlo Park, CA"
+
+  - start: 2008-04-28
+    end: 2008-04-30
+    title: "Microsoft's Downtown Facility, Chicago, IL"
+
+  - start: 2008-03-10
+    end: 2008-03-12
+    title: "Marriott O'Hare, Chicago, IL"
+
+  - start: 2008-01-14
+    end: 2008-01-14
+    title: "Marriott O'Hare, Chicago, IL"
