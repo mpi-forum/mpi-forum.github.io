@@ -32,7 +32,9 @@ navbar-links:
         - MPI 2.2: "mpi-22/"
         - MPI 2.1: "mpi-21/"
         - MPI 2.0: "mpi-20/"
-    Meetings: "meetings/"
+    Meetings:
+        - Physical Meetings: "physical_meetings"
+        - Virtual Meetings: "virtual_meetings"
     Resources:
         - GitHub: "https://www.github.com/mpi-forum/"
         - Mailing Lists: "http://lists.mpi-forum.org"
