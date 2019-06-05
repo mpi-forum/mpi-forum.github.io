@@ -1,6 +1,6 @@
 ---
 layout: meeting_list
-permalink: physical_meetings/
+permalink: meetings/
 title: "Meetings"
 type: physical
 ---
