@@ -49,6 +49,8 @@ virtual:
   - start: 2019-06-05T10:00
     end: 2019-06-05T12:00
     title: "Sessions (Chapter 10 Changes)"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=61c4edd51e6c4c03aab301f6e04dc839"
+    recording_password: 3Uw9TJyW
 
   - start: 2019-04-24T10:00
     end: 2019-04-24T12:00
