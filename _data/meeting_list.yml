@@ -52,6 +52,8 @@ virtual:
     recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=61c4edd51e6c4c03aab301f6e04dc839"
     recording_password: 3Uw9TJyW
 
+  - blank: "yes"
+
   - start: 2019-04-24T10:00
     end: 2019-04-24T12:00
     title: "Cartesian Topologies / Sessions"
@@ -81,6 +83,8 @@ virtual:
     title: "MPI_T Events / Terms and Conventions"
     recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a"
     recording_password: cNbXhyr5
+
+  - blank: "yes"
 
   - start: 2019-02-20T10:00
     end: 2019-02-20T11:00
@@ -142,6 +146,8 @@ virtual:
     title: "Terms and Conventions"
     recording_url: "none"
 
+  - blank: "yes"
+
   - start: 2018-08-29T10:00
     end: 2018-08-29T11:00
     title: "Discussion on Semantic Terms"
@@ -157,6 +163,8 @@ virtual:
     title: "MPI_T Events"
     recording_url: "none"
 
+  - blank: "yes"
+
   - start: 2018-05-30T10:00
     end: 2018-05-30T11:00
     title: "Language Bindings"
@@ -171,6 +179,8 @@ virtual:
     end: 2018-04-11T11:00
     title: "Ticket 78 (non-blocking routines) and Info keys for persistent collectives"
     recording_url: "none"
+
+  - blank: "yes"
 
   - start: 2018-01-31T10:00
     end: 2018-01-31T11:00

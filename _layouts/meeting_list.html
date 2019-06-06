@@ -35,6 +35,8 @@ layout: default
         {% for item in meetings %}
             {% if item.year.size > 0 %}
                 <h3>{{ item.year }}</h3>
+            {% elsif item.blank.size > 0 %}
+                <br />
             {% else %}
                 {% if page.type == "virtual" %}
                     <h5>
