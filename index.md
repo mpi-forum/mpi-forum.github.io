@@ -7,6 +7,14 @@ permalink: /
 This website contains information about the activities of the MPI Forum, which is the standardization forum for the Message Passing Interface (MPI).
 You may find standard documents, information about the activities of the MPI forum, and links to comment on the MPI Document using the navigation at the top of the page.
 
+## Updates
+
+#### BoF at ISC 19, Jun. 19th, 2018
+
+Presentation from the MPI Forum BoF Session at ISC 18:
+* [Komplete set of slides](bofs/2019-06-mpi-bof.pdf)
+
+
 ## 2018 MPI Standard Draft
 
 Starting in 2018, the MPI Forum has decided to release draft specifications to allow users an
