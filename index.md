@@ -12,7 +12,7 @@ You may find standard documents, information about the activities of the MPI for
 #### BoF at ISC 19, Jun. 19th, 2018
 
 Presentation from the MPI Forum BoF Session at ISC 18:
-* [Komplete set of slides](bofs/2019-06-mpi-bof.pdf)
+* [Complete set of slides](bofs/2019-06-mpi-bof.pdf)
 
 
 ## 2018 MPI Standard Draft
