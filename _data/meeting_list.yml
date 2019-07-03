@@ -37,10 +37,14 @@ virtual:
   - start: 2019-07-03T11:00
     end: 2019-07-03T12:00
     title: "RMA VM"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=072776d5e5ed42c38a53f22b2ad4400a"
+    recording_password: YzqGVnW2
 
   - start: 2019-07-03T10:00
     end: 2019-07-03T11:00
     title: "Memory Allocation Alignment (for ALLOC_SHARED)"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=072776d5e5ed42c38a53f22b2ad4400a"
+    recording_password: YzqGVnW2
 
   - start: 2019-06-26T10:00
     end: 2019-06-26T12:00
