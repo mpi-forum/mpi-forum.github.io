@@ -39,7 +39,7 @@ layout: default
                 <br />
             {% else %}
                 {% if page.type == "virtual" %}
-                    <h5>
+                    <h4>
                         {{ item.start | date: "%-d %B" }}, {{ item.start | date: "%R" }} - {{ item.end | date: "%R" }} - {{ item.title }}
                         {% if item.recording_url.size > 0 %}
                             {% if item.recording_url != "none" %}
@@ -49,18 +49,18 @@ layout: default
                             - [<a href="https://time.is/{{ item.start | date: "%H%M%p_%-d_%B_%Y_in_Chicago" }}">Your Time</a>]
                             [<a href="https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/ical_files/{{ item.start | date: "%Y-%m-%d-%H" }}.ics" download>iCAL Event</a>]
                         {% endif %}
-                    </h5>
+                    </h4>
                 {% else %}
-                    <h5>{{ item.start | date: "%-d %B %Y" }} - {{ item.end | date: "%-d %B %Y" }} - {{ item.title }}</h5>
+                    <h4>{{ item.start | date: "%-d %B %Y" }} - {{ item.end | date: "%-d %B %Y" }} - {{ item.title }}</h4>
                     {% if item.links != "no" %}
-                        <h4><table><tr>
+                        <h5><table><tr>
                             <td><a href="{{ item.start | date: "%Y/%m" }}/logistics">Logistics</a></td>
                             <td><a href="{{ item.start | date: "%Y/%m" }}/agenda">Agenda</a></td>
                             <td><a href="https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/{{ item.start | date: "%Y/%m" }}">Presentations</a></td>
                             <td><a href="{{ item.start | date: "%Y/%m" }}/attendance">Attendance</a></td>
                             <td><a href="{{ item.start | date: "%Y/%m" }}/voting">Voting</a></td>
                             <td><a href="{{ item.start | date: "%Y/%m" }}/notes">Notes</a></td>
-                        </tr></table></h4>
+                        </tr></table></h5>
                     {% endif %}
                 {% endif %}
             {% endif %}
