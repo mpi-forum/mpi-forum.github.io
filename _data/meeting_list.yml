@@ -28,10 +28,6 @@ virtual:
 
   - start: 2019-07-10T11:00
     end: 2019-07-10T12:00
-    title: "Info Before MPI_INIT"
-
-  - start: 2019-07-10T10:00
-    end: 2019-07-10T11:00
     title: "MPI_T Events"
 
   - start: 2019-07-03T11:00
