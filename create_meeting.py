@@ -1,21 +1,7 @@
 #!/usr/bin/python
 
 import os;
-
-months = {
-    '01': "January",
-    '02': "February",
-    '03': "March",
-    '04': "April",
-    '05': "May",
-    '06': "June",
-    '07': "July",
-    '08': "August",
-    '09': "September",
-    '10': "October",
-    '11': "November",
-    '12': "December"
-}
+from datetime import datetime, date, time;
 
 #### RUN FROM TOP OF REPO ####
 
@@ -25,6 +11,9 @@ year = raw_input("4 digit year: ");
 start_day = raw_input("Starting Day: ");
 end_day = raw_input("Ending Day: ");
 location = raw_input("Location: ");
+
+start = date(int(year), int(month), int(start_day))
+end = date(int(year), int(month), int(end_day))
 
 # Create the directories
 if not os.path.exists('meetings/' + year + '/' + month):
@@ -37,17 +26,18 @@ if not os.path.exists('_data/meetings/' + year + '/' + month):
 file = open('meetings/' + year + '/' + month + '/agenda.md', 'w');
 print >> file, "---";
 print >> file, "layout: agenda2";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, "date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y")
 print >> file, "permalink: meetings/" + year + "/" + month + "/agenda";
 print >> file, 'year: "' + year + '"';
 print >> file, 'month: "' + month + '"';
+print >> file, 'webex: ""';
 print >> file, "---\n";
 file.close();
 
 file = open('meetings/' + year + '/' + month + '/attendance.md', 'w');
 print >> file, "---";
 print >> file, "layout: attendance";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, "date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y")
 print >> file, "permalink: meetings/" + year + "/" + month + "/attendance";
 print >> file, 'year: "' + year + '"';
 print >> file, 'month: "' + month + '"';
@@ -57,7 +47,7 @@ file.close();
 file = open('meetings/' + year + '/' + month + '/logistics.md', 'w');
 print >> file, "---";
 print >> file, "layout: logistics";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, "date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y")
 print >> file, "permalink: meetings/" + year + "/" + month + "/logistics";
 print >> file, 'year: "' + year + '"';
 print >> file, 'month: "' + month + '"';
@@ -67,16 +57,16 @@ file.close();
 file = open('meetings/' + year + '/' + month + '/notes.md', 'w');
 print >> file, "---";
 print >> file, "layout: notes";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, "date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y")
 print >> file, "permalink: meetings/" + year + "/" + month + "/notes";
-print >> file, "title: " + months[month] + " " + year + " Meeting Notes";
+print >> file, "title: " + start.strftime("%B %Y Meeting Notes");
 print >> file, "---\n";
 file.close();
 
 file = open('meetings/' + year + '/' + month + '/votes.md', 'w');
 print >> file, "---";
 print >> file, "layout: votes";
-print >> file, "date: " + months[month] + " " + start_day + ", " + year + " - " + months[month] + " " + end_day + ", " + year;
+print >> file, "date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y")
 print >> file, 'year: "' + year + '"';
 print >> file, 'month: "' + month + '"';
 print >> file, 'rules: 3152013';
@@ -90,14 +80,35 @@ file.close();
 # Create the data files
 file = open('_data/meetings/' + year + '/' + month + '/agenda.yml', 'w');
 print >> file, 'schedule: \n';
-print >> file, '    - day: \n'
-print >> file, '    - endday: done\n'
+for day in range(int(start_day), int(end_day)+1):
+    tmp_day = date(int(year), int(month), day)
+    print >> file, '    - day: ' + tmp_day.strftime("%A, %B %d") + '\n'
+    print >> file, '    - start: 12:00am'
+    print >> file, '    - end: 11:59pm'
+    print >> file, '    - title: "Placeholder Agenda Item"\n'
+    print >> file, '    - endday: done\n\n'
+
 print >> file, 'procedure-votes: \n';
+print >> file, '    - number: 1234'
+print >> file, '    - description: "Placeholder Procedure Vote"\n'
 print >> file, 'errata-votes: \n';
 print >> file, 'no-no-votes: \n';
 print >> file, 'first-votes: \n';
 print >> file, 'second-votes: \n';
-print >> file, 'plenaries: \n';
+print >> file, 'plenaries:';
+print >> file, '    - type: Welcome'
+print >> file, '    - title: Introductions'
+print >> file, '    - presenter: All'
+print >> file, '    - done: 0\n'
+print >> file, '    - type: Update'
+print >> file, '    - title: WG Status'
+print >> file, '    - presenter: All WG chairs or their proxies'
+print >> file, '    - done: 0\n'
+print >> file, '    - type: Reading'
+print >> file, '    - title: Placeholder Reading'
+print >> file, '    - issue_number: 1234'
+print >> file, '    - presenter: Placeholder Presenter'
+print >> file, '    - done: 0\n'
 file.close();
 
 file = open('_data/meetings/' + year + '/' + month + '/attendance.csv', 'w');
@@ -112,7 +123,7 @@ file = open('_data/meetings/' + year + '/' + month + '/votes.csv', 'w');
 print >> file, 'topic,type,yes,no,abstain,missed';
 file.close();
 
-print "This doesn't add links to the main meetings page (Meeting_details.md)."
+print "This doesn't add links to the main meetings page."
+print 'To do that, change the "links" value for the associated'
+print 'meeting in _data/meeting_list.yml from "no" to "yes"'
 print "That needs to be done manually, and then everything needs to be checked in."
-print "The string to be added is: "
-print "|[Logistics]("+year+"/"+month+"/logistics)|[Agenda]("+year+"/"+month+"/agenda)|[Presentations](https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/"+year+"/"+month+")|[Attendance]("+year+"/"+month+"/attendance)|[Voting]("+year+"/"+month+"/votes)|[Notes]("+year+"/"+month+"/notes)|"
