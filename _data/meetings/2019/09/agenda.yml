@@ -1,10 +1,36 @@
 schedule: 
 
-    - day: 
+    - day: Thursday, September 05
+
+    - start: 12:00am
+    - end: 11:59pm
+    - title: "Placeholder Agenda Item"
 
     - endday: done
 
+
+    - day: Friday, September 06
+
+    - start: 12:00am
+    - end: 11:59pm
+    - title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Saturday, September 07
+
+    - start: 12:00am
+    - end: 11:59pm
+    - title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
 procedure-votes: 
+
+    - number: 1234
+    - description: "Placeholder Procedure Vote"
 
 errata-votes: 
 
@@ -14,5 +40,20 @@ first-votes:
 
 second-votes: 
 
-plenaries: 
+plenaries:
+    - type: Welcome
+    - title: Introductions
+    - presenter: All
+    - done: 0
+
+    - type: Update
+    - title: WG Status
+    - presenter: All WG chairs or their proxies
+    - done: 0
+
+    - type: Reading
+    - title: Placeholder Reading
+    - issue_number: 1234
+    - presenter: Placeholder Presenter
+    - done: 0
 
