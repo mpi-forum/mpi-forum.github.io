@@ -3,8 +3,8 @@ schedule:
     - day: Monday, December 07
 
     - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
 
     - endday: done
 
@@ -12,8 +12,8 @@ schedule:
     - day: Tuesday, December 08
 
     - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
 
     - endday: done
 
@@ -21,8 +21,8 @@ schedule:
     - day: Wednesday, December 09
 
     - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
 
     - endday: done
 
@@ -30,8 +30,8 @@ schedule:
     - day: Thursday, December 10
 
     - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
 
     - endday: done
 
@@ -39,7 +39,7 @@ schedule:
 procedure-votes:
 
     - number: 1234
-    - description: "Placeholder Procedure Vote"
+      description: "Placeholder Procedure Vote"
 
 errata-votes:
 
@@ -51,18 +51,18 @@ second-votes:
 
 plenaries:
     - type: Welcome
-    - title: Introductions
-    - presenter: All
-    - done: 0
+      title: Introductions
+      presenter: All
+      done: 0
 
     - type: Update
-    - title: WG Status
-    - presenter: All WG chairs or their proxies
-    - done: 0
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
 
     - type: Reading
-    - title: Placeholder Reading
-    - issue_number: 1234
-    - presenter: Placeholder Presenter
-    - done: 0
+      title: Placeholder Reading
+      issue_number: 1234
+      presenter: Placeholder Presenter
+      done: 0
 

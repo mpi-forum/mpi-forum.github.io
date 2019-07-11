@@ -1,10 +1,10 @@
-schedule: 
+schedule:
 
     - day: Thursday, September 05
 
     - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
 
     - endday: done
 
@@ -12,8 +12,8 @@ schedule:
     - day: Friday, September 06
 
     - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
 
     - endday: done
 
@@ -21,39 +21,39 @@ schedule:
     - day: Saturday, September 07
 
     - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
 
     - endday: done
 
 
-procedure-votes: 
+procedure-votes:
 
     - number: 1234
-    - description: "Placeholder Procedure Vote"
+      description: "Placeholder Procedure Vote"
 
-errata-votes: 
+errata-votes:
 
-no-no-votes: 
+no-no-votes:
 
-first-votes: 
+first-votes:
 
-second-votes: 
+second-votes:
 
 plenaries:
     - type: Welcome
-    - title: Introductions
-    - presenter: All
-    - done: 0
+      title: Introductions
+      presenter: All
+      done: 0
 
     - type: Update
-    - title: WG Status
-    - presenter: All WG chairs or their proxies
-    - done: 0
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
 
     - type: Reading
-    - title: Placeholder Reading
-    - issue_number: 1234
-    - presenter: Placeholder Presenter
-    - done: 0
+      title: Placeholder Reading
+      issue_number: 1234
+      presenter: Placeholder Presenter
+      done: 0
 

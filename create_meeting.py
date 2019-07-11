@@ -89,9 +89,9 @@ file = open('_data/meetings/' + start_year + '/' + start_month + '/agenda.yml', 
 print >> file, 'schedule:\n';
 for day in daterange(start, end):
     print >> file, '    - day: ' + day.strftime("%A, %B %d") + '\n'
-    print >> file, '    - start: 12:00am'
-    print >> file, '    - end: 11:59pm'
-    print >> file, '    - title: "Placeholder Agenda Item"\n'
+    print >> file, '      start: 12:00am'
+    print >> file, '      end: 11:59pm'
+    print >> file, '      title: "Placeholder Agenda Item"\n'
     print >> file, '    - endday: done\n\n'
 
 print >> file, 'procedure-votes:\n';
@@ -103,18 +103,18 @@ print >> file, 'first-votes:\n';
 print >> file, 'second-votes:\n';
 print >> file, 'plenaries:';
 print >> file, '    - type: Welcome'
-print >> file, '    - title: Introductions'
-print >> file, '    - presenter: All'
-print >> file, '    - done: 0\n'
+print >> file, '      title: Introductions'
+print >> file, '      presenter: All'
+print >> file, '      done: 0\n'
 print >> file, '    - type: Update'
-print >> file, '    - title: WG Status'
-print >> file, '    - presenter: All WG chairs or their proxies'
-print >> file, '    - done: 0\n'
+print >> file, '      title: WG Status'
+print >> file, '      presenter: All WG chairs or their proxies'
+print >> file, '      done: 0\n'
 print >> file, '    - type: Reading'
-print >> file, '    - title: Placeholder Reading'
-print >> file, '    - issue_number: 1234'
-print >> file, '    - presenter: Placeholder Presenter'
-print >> file, '    - done: 0\n'
+print >> file, '      title: Placeholder Reading'
+print >> file, '      issue_number: 1234'
+print >> file, '      presenter: Placeholder Presenter'
+print >> file, '      done: 0\n'
 file.close();
 
 file = open('_data/meetings/' + start_year + '/' + start_month + '/attendance.csv', 'w');
