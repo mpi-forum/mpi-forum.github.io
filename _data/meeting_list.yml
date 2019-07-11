@@ -29,6 +29,8 @@ virtual:
   - start: 2019-07-10T11:00
     end: 2019-07-10T12:00
     title: "MPI_T Events"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=94d530e1254c4435a2b74c0a09e732ed"
+    recording_password: bFJsiMb3
 
   - start: 2019-07-03T11:00
     end: 2019-07-03T12:00
