@@ -236,7 +236,7 @@ physical:
   - start: 2019-09-05
     end: 2019-09-07
     title: "Zurich, Switzerland (ETH Zurich, Jointly hosted with EuroMPI 2019)"
-    links: "no"
+    links: "yes"
 
   - start: 2019-05-28
     end: 2019-05-28
