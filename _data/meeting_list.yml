@@ -25,6 +25,8 @@ virtual:
   - start: 2019-07-17T10:00
     end: 2019-07-17T12:00
     title: "Partitioned Communication"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=111cb417a6f747a6b8d52b83e09966c0"
+    recording_password: fDMk42aP
 
   - start: 2019-07-10T11:00
     end: 2019-07-10T12:00
