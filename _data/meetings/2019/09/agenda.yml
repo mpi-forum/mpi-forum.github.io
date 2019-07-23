@@ -2,35 +2,111 @@ schedule:
 
     - day: Thursday, September 05
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:30am
+      end: 10:00am
+      title: Working Groups
+
+    - start: 10:0am
+      end: 10:30am
+      title: Break
+
+    - start: 10:30am
+      end: 12pm
+      title: Working Groups
+
+    - start: 12:00pm
+      end: 1:00pm
+      title: Lunch
+
+    - start: 1pm
+      end: 3:30pm
+      title: Working Groups
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6pm
+      title: Working Groups
 
     - endday: done
 
 
     - day: Friday, September 06
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:30am
+      end: 10:00am
+      title: Plenary (agenda see below)
+
+    - start: 10:0am
+      end: 10:30am
+      title: Break
+
+    - start: 10:30am
+      end: 12pm
+      title: Plenary (agenda see below)
+
+    - start: 12:00pm
+      end: 1:00pm
+      title: Lunch
+
+    - start: 1pm
+      end: 3:30pm
+      title: Plenary (agenda see below)
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6pm
+      title: Plenary (agenda see below)
 
     - endday: done
 
 
     - day: Saturday, September 07
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:30am
+      end: 9:00am
+      title: Voting Block
+
+	- start: 9:00am
+      end: 10:00am
+      title: Plenary (agenda see below)
+
+    - start: 10:0am
+      end: 10:30am
+      title: Break
+
+    - start: 10:30am
+      end: 12pm
+      title: Plenary (agenda see below)
+
+    - start: 12:00pm
+      end: 1:00pm
+      title: Lunch
+
+    - start: 1pm
+      end: 3:30pm
+      title: Plenary (agenda see below)
+
+    - start: 3:30pm
+      end: 4:00pm
+      title: Break
+
+    - start: 4:00pm
+      end: 6pm
+      title: Plenary (agenda see below)
 
     - endday: done
 
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
+    - number: tbd
+      description: "Fastracking of in-meeting changes"
 
 errata-votes:
 
@@ -52,8 +128,8 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+      title: Procedural changes: Fastracking of in-meeting changes
+      issue_number: tbd
+      presenter: Martin
       done: 0
 
