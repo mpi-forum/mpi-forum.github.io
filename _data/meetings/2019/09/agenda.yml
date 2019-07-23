@@ -72,7 +72,7 @@ schedule:
       end: 9:00am
       title: Voting Block
 
-	- start: 9:00am
+    - start: 9:00am
       end: 10:00am
       title: Plenary (agenda see below)
 
