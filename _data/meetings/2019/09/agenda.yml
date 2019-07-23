@@ -128,7 +128,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Procedural changes: Fastracking of in-meeting changes
+      title: Procedural changes - Fastracking of in-meeting changes
       issue_number: tbd
       presenter: Martin
       done: 0
