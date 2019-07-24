@@ -133,3 +133,9 @@ plenaries:
       presenter: Martin
       done: 0
 
+    - type: Planned Reading
+      title: Memory Alignment (text to be announced)
+      issue_number: 121
+      presenter: Joseph
+      done: 0
+
