@@ -21,6 +21,8 @@ virtual:
   - start: 2019-07-24T10:00
     end: 2019-07-24T12:00
     title: "Big Count"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=d403177148de4a548b8db06a4d154764"
+    recording_password: yMCfhgq2
 
   - start: 2019-07-17T10:00
     end: 2019-07-17T12:00
