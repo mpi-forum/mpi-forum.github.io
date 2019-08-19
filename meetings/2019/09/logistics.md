@@ -6,10 +6,10 @@ year: "2019"
 month: "09"
 ---
 
-### Meeting Registration
+### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-zurich-switzerland-tickets-69239799103)
 
-Advanced registration is required for this meeting. The registration fee for this meeting is still
-being determine. A registration link will be posted soon.
+Advanced registration is required for this meeting. The registration fee for this meeting is
+$187.29.
 
 ### Meeting Location
 
