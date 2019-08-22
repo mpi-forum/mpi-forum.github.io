@@ -111,11 +111,16 @@ schedule:
     - endday: done
 
 
-    - day: Monday, September 09
+    - day: Sunday, September 08
 
     - start: 9:00am
       end: 6pm
       title: HW Topologies side meeting (please contact Guillaume)
+
+    - endday: done
+
+
+    - day: Monday, September 09
 
     - start: 9:00am
       end: 6pm
