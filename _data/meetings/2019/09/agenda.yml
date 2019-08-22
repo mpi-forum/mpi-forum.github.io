@@ -4,7 +4,11 @@ schedule:
 
     - start: 8:30am
       end: 10:00am
-      title: Working Groups
+      title: HW Topology WG Group
+
+    - start: 8:30am
+      end: 10:00am
+      title: Tools WG Group
 
     - start: 10:0am
       end: 10:30am
@@ -12,7 +16,11 @@ schedule:
 
     - start: 10:30am
       end: 12pm
-      title: Working Groups
+      title: HW Topology WG Group
+
+    - start: 10:30am
+      end: 12pm
+      title: Tools WG Group
 
     - start: 12:00pm
       end: 1:00pm
@@ -20,7 +28,7 @@ schedule:
 
     - start: 1pm
       end: 3:30pm
-      title: Working Groups
+      title: Plenary (agenda see below)
 
     - start: 3:30pm
       end: 4:00pm
@@ -28,7 +36,7 @@ schedule:
 
     - start: 4:00pm
       end: 6pm
-      title: Working Groups
+      title: Plenary (agenda see below)
 
     - endday: done
 
