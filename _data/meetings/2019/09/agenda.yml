@@ -103,18 +103,55 @@ schedule:
     - endday: done
 
 
+    - day: Monday, September 09
+
+    - start: 9:00am
+      end: 6pm
+      title: HW Topologies side meeting (please contact Guillaume)
+
+    - start: 9:00am
+      end: 6pm
+      title: Terms side meeting (please contact Puri)
+
+    - endday: done
+    
+
 procedure-votes:
 
-    - number: tbd
-      description: "Fastracking of in-meeting changes"
+    - number: 154
+      description: "Scheduling of No-No-Votes"
 
 errata-votes:
 
+    - number: 69
+      description: "Definition and Explanation of External32"
+
 no-no-votes:
+
+    - number: 136
+      description: "Partitioned Communication"
+
+    - number: 134
+      description: "Add MPI_ERR_PROC_ABORTED"
 
 first-votes:
 
+    - number: 136
+      description: "Partitioned Communication"
+
+    - number: 103
+      description: "MPI Sessions"
+
+    - number: 134
+      description: "Add MPI_ERR_PROC_ABORTED"
+
 second-votes:
+
+    - number: 119
+      description: "Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens"
+
+    - number: 102
+      description: "Define error/failure behavior in MPI_INIT/FINALIZE"
 
 plenaries:
     - type: Welcome
@@ -127,15 +164,129 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Reading
-      title: Procedural changes - Fastracking of in-meeting changes
-      issue_number: tbd
+    - type: Information
+      title: Logistics for Forum meeting Dec. 19 in ABQ
+      presenter: Matthew
+      done: 0
+
+    - type: Procedures Reading
+      title: Procedural changes - Scheduling of No-No-Votes
+      issue_number: 145
       presenter: Martin
       done: 0
 
-    - type: Planned Reading
-      title: Memory Alignment (text to be announced)
+    - type: Errata Reading
+      title: Definition and Explanation of External32
+      issue_number: 69
+      presenter: Atsushi
+      done: 0
+
+    - type: Reading (no/no reading)
+      title: Partitioned Communication
+      issue_number: 136
+      presenter: Tony
+      done: 0
+
+    - type: Reading (no/no reading)
+      title: MPI Sessions
+      issue_number: 103
+      presenter: Dan
+      done: 0
+
+    - type: Reading (no/no reading)
+      title: Add MPI_ERR_PROC_ABORTED
+      issue_number: 134
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: Callback-driven event interface for MPI_T
+      issue_number: 79
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: Create MPI_INFO_ENV before MPI_INIT
+      issue_number: 143
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: Changes to MPI_T Events if info objects were available before MPI initialization
+      issue_number: 148
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: Memory Alignment
       issue_number: 121
       presenter: Joseph
       done: 0
+
+    - type: Reading
+      title: Mandatory Info Keys
+      issue_number: 144
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: MPI_Comm_split_type
+      issue_number: 132
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: Topology aware Cartesian communicators
+      issue_number: 120
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: The terms chapter is missing many terms we would like to see added for MPI-4
+      issue_number: 96
+      presenter: Puri
+      done: 0
+
+    - type: Reading
+      title: Fix Security Issue with MPI_Info_get (Option 1)
+      issue_number: 133
+      presenter: Ryan
+      done: 0
+
+    - type: Reading
+      title: Fix Security Issue with MPI_Info_get (Option 2)
+      issue_number: 146
+      presenter: Ryan
+      done: 0
+
+    - type: Reading
+      title: Deprecate MPI_Info_get and MPI_Info_get_valuelen
+      issue_number: 147
+      presenter: Ryan
+      done: 0
+
+    - type: Reading
+      title: Add new nonblocking sendrecv and persistent sendrecv functions
+      issue_number: 104
+      presenter: Brandon
+      done: 0
+
+    - type: Reading (if nec.)
+      title: MPI Sessions
+      issue_number: 103
+      presenter: Dan
+      done: 0
+
+    - type: Reading (if nec.)
+      title: Partitioned Communication
+      issue_number: 136
+      presenter: Tony
+      done: 0
+
+    - type: Discussion
+      title: Draft, Acknowledgements and front matter section
+      issue_number:
+      presenter: Martin
+      done: 0
+
 
