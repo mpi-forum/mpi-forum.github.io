@@ -5,10 +5,14 @@ virtual:
   - start: 2019-08-21T11:00
     end: 2019-08-21T12:00
     title: "Rules Update"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=0214b82117914f8cb2673c27571e319b"
+    recording_password: ZpPTnRj2
 
   - start: 2019-08-21T10:00
     end: 2019-08-21T11:00
     title: "Course Grained Failure Recovery"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=0214b82117914f8cb2673c27571e319b"
+    recording_password: ZpPTnRj2
 
   - start: 2019-08-14T11:00
     end: 2019-08-14T12:00
@@ -21,6 +25,8 @@ virtual:
   - start: 2019-07-24T10:00
     end: 2019-07-24T12:00
     title: "Big Count"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=d403177148de4a548b8db06a4d154764"
+    recording_password: yMCfhgq2
 
   - start: 2019-07-17T10:00
     end: 2019-07-17T12:00
