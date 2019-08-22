@@ -139,6 +139,9 @@ errata-votes:
     - number: 69
       description: "Definition and Explanation of External32"
 
+    - number: 144
+      description: Errata - Clarify ordering of accumulate operations with origin == target
+
 no-no-votes:
 
     - number: 136
@@ -189,9 +192,15 @@ plenaries:
       done: 0
 
     - type: Errata Reading
-      title: Definition and Explanation of External32
+      title: Errata - Definition and Explanation of External32
       issue_number: 69
       presenter: Atsushi
+      done: 0
+
+    - type: Errata Reading
+      title: Errata - Clarify ordering of accumulate operations with origin == target
+      issue_number: 144
+      presenter: Joseph
       done: 0
 
     - type: Reading (no/no reading)
@@ -233,12 +242,6 @@ plenaries:
     - type: Reading
       title: Memory Alignment
       issue_number: 121
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: Mandatory Info Keys
-      issue_number: 144
       presenter: Joseph
       done: 0
 
@@ -300,6 +303,12 @@ plenaries:
       title: Partitioned Communication
       issue_number: 136
       presenter: Tony
+      done: 0
+
+    - type: Discussion
+      title: Mandatory Info Keys
+      issue_number:
+      presenter: Joseph
       done: 0
 
     - type: Discussion
