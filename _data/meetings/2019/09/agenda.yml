@@ -114,7 +114,7 @@ schedule:
       title: Terms side meeting (please contact Puri)
 
     - endday: done
-    
+
 
 procedure-votes:
 
@@ -263,6 +263,12 @@ plenaries:
       title: Deprecate MPI_Info_get and MPI_Info_get_valuelen
       issue_number: 147
       presenter: Ryan
+      done: 0
+
+    - type: Reading
+      title: BigCount - generic/overloading interfaces
+      issue_number: 137
+      presenter: Tony
       done: 0
 
     - type: Reading
