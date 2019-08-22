@@ -4,11 +4,11 @@ schedule:
 
     - start: 8:30am
       end: 10:00am
-      title: HW Topology WG Group
+      title: HW Topology WG
 
     - start: 8:30am
       end: 10:00am
-      title: Tools WG Group
+      title: Big Count WG
 
     - start: 10:0am
       end: 10:30am
@@ -16,11 +16,11 @@ schedule:
 
     - start: 10:30am
       end: 12pm
-      title: HW Topology WG Group
+      title: HW Topology WG
 
     - start: 10:30am
       end: 12pm
-      title: Tools WG Group
+      title: Big Count WG
 
     - start: 12:00pm
       end: 1:00pm
@@ -28,7 +28,7 @@ schedule:
 
     - start: 1pm
       end: 3:30pm
-      title: Plenary (agenda see below)
+      title: Persistence and Collectives WG
 
     - start: 3:30pm
       end: 4:00pm
@@ -36,7 +36,11 @@ schedule:
 
     - start: 4:00pm
       end: 6pm
-      title: Plenary (agenda see below)
+      title: Tools WG
+
+    - start: 4:00pm
+      end: 6pm
+      title: Sessions WG
 
     - endday: done
 
