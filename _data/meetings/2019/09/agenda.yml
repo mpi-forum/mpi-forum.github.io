@@ -40,7 +40,7 @@ schedule:
 
     - start: 4:00pm
       end: 6pm
-      title: Sessions WG
+      title: Persistence and Collectives WG
 
     - endday: done
 
@@ -293,7 +293,7 @@ plenaries:
 
     - type: Reading
       title: Add new nonblocking sendrecv and persistent sendrecv functions
-      issue_number: 104
+      issue_number: 125
       presenter: Brandon
       done: 0
 
