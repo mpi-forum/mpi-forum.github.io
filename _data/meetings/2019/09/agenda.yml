@@ -30,6 +30,10 @@ schedule:
       end: 3:30pm
       title: Persistence and Collectives WG
 
+    - start: 1pm
+      end: 3:30pm
+      title: Tools WG
+
     - start: 3:30pm
       end: 4:00pm
       title: Break
