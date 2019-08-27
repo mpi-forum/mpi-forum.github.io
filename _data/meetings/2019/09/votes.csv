@@ -8,5 +8,5 @@ topic,type,yes,no,abstain,missed
 "#136: Partitioned Communication",1st
 "#103: MPI Sessions",1st
 "#134: Add MPI_ERR_PROC_ABORTED",1st
-"#119: "Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens",2nd
+"#119: Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens",2nd
 "#102: Define error/failure behavior in MPI_INIT/FINALIZE",2nd
