@@ -139,7 +139,7 @@ schedule:
 
 procedure-votes:
 
-    - number: 154
+    - number: 145
       description: "Scheduling of No-No-Votes"
 
 errata-votes:
