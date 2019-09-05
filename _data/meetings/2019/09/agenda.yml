@@ -325,4 +325,16 @@ plenaries:
       presenter: Martin
       done: 0
 
+	- type: VM Discussion
+      title: Virtual Meeting options include
+	  issue_number:
+      presenter: Martin
+      done: 0
+
+	- type:
+      title: Possible type erratas
+	  issue_number:
+      presenter: Puri
+      done: 0
+
 
