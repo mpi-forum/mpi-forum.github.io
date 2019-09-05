@@ -193,6 +193,16 @@ plenaries:
       presenter: Matthew
       done: 0
 
+    - type: Information
+      title: Logistics for Forum meeting Sept. 2020
+      presenter: Martin
+      done: 0
+
+    - type: Information
+      title: Chapter Chairs
+      presenter: Martin
+      done: 0
+
     - type: Procedures Reading
       title: Procedural changes - Scheduling of No-No-Votes
       issue_number: 145
@@ -262,7 +272,7 @@ plenaries:
     - type: Reading
       title: Topology aware Cartesian communicators
       issue_number: 120
-      presenter: Guillaume
+      presenter: Rolf
       done: 0
 
     - type: Reading
@@ -325,15 +335,15 @@ plenaries:
       presenter: Martin
       done: 0
 
-	- type: VM Discussion
+    - type: VM Discussion
       title: Virtual Meeting options include
-	  issue_number:
+      issue_number:
       presenter: Martin
       done: 0
 
-	- type:
+    - type:
       title: Possible type erratas
-	  issue_number:
+      issue_number:
       presenter: Puri
       done: 0
 
