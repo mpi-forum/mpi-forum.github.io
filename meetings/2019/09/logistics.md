@@ -15,7 +15,7 @@ $187.29.
 
 The meeting will take place at ETH Zurich in Zurich, Switzerland. Full details and travel directions can be found on the [EuroMPI website](https://eurompi19.inf.ethz.ch/node/12).
 
-The meeting will take place in rooms F 26.3 and F 26.5.
+The meeting will take place in rooms F 26.3 and F 26.5, building HG (Rämistrasse 101, 8006 Zürich).
 
 ### Hotel
 
