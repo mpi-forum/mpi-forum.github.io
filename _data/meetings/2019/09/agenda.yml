@@ -226,13 +226,13 @@ plenaries:
       title: Errata - Clarify ordering of accumulate operations with origin == target
       issue_number: 144
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading (no/no reading)
       title: MPI Sessions
       issue_number: 103
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading (no/no reading)
       title: Add MPI_ERR_PROC_ABORTED
@@ -316,7 +316,7 @@ plenaries:
       title: MPI Sessions
       issue_number: 103
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: Partitioned Communication
