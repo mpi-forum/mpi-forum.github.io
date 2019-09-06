@@ -158,6 +158,9 @@ no-no-votes:
     - number: 134
       description: "Add MPI_ERR_PROC_ABORTED"
 
+    - number: 144
+      description: Errata - Clarify ordering of accumulate operations with origin == target
+
 first-votes:
 
     - number: 136
@@ -181,50 +184,44 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Information
       title: Logistics for Forum meeting Dec. 19 in ABQ
       presenter: Matthew
-      done: 0
+      done: 1
 
     - type: Information
       title: Logistics for Forum meeting Sept. 2020
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Information
       title: Chapter Chairs
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Procedures Reading
       title: Procedural changes - Scheduling of No-No-Votes
       issue_number: 145
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Errata - Definition and Explanation of External32
       issue_number: 69
       presenter: Atsushi
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Errata - Clarify ordering of accumulate operations with origin == target
       issue_number: 144
       presenter: Joseph
-      done: 0
-
-    - type: Reading (no/no reading)
-      title: Partitioned Communication
-      issue_number: 136
-      presenter: Tony
       done: 0
 
     - type: Reading (no/no reading)
@@ -240,7 +237,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Callback-driven event interface for MPI_T
+      title: Callback-driven event interface for MPI_T (2pm)
       issue_number: 79
       presenter: Marc-Andre
       done: 0
@@ -282,21 +279,21 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Fix Security Issue with MPI_Info_get (Option 1)
+      title: Fix Security Issue with MPI_Info_get (Option 1) (Friday)
       issue_number: 133
-      presenter: Ryan
+      presenter: Mathew
       done: 0
 
     - type: Reading
-      title: Fix Security Issue with MPI_Info_get (Option 2)
+      title: Fix Security Issue with MPI_Info_get (Option 2) (Friday)
       issue_number: 146
-      presenter: Ryan
+      presenter: Mathew
       done: 0
 
     - type: Reading
-      title: Deprecate MPI_Info_get and MPI_Info_get_valuelen
+      title: Deprecate MPI_Info_get and MPI_Info_get_valuelen (Friday)
       issue_number: 147
-      presenter: Ryan
+      presenter: Mathew
       done: 0
 
     - type: Reading
@@ -317,16 +314,22 @@ plenaries:
       presenter: Dan
       done: 0
 
-    - type: Reading (if nec.)
+    - type: Reading
       title: Partitioned Communication
       issue_number: 136
-      presenter: Tony
+      presenter: Mathew
       done: 0
 
     - type: Discussion
       title: Mandatory Info Keys
       issue_number:
       presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: Intro nonblocking
+      issue_number: 122
+      presenter: Rolf
       done: 0
 
     - type: Discussion
