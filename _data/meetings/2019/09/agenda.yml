@@ -76,8 +76,12 @@ schedule:
       title: Break
 
     - start: 4:00pm
-      end: 6pm
+      end: 7pm
       title: Plenary (agenda see below)
+
+    - start: 7:30pm
+      end: 10:00pm
+      title: Group Dinner at Commihalle, Stampfenbachstrasse 8 (pay on your own)
 
     - endday: done
 
@@ -234,7 +238,7 @@ plenaries:
       title: Add MPI_ERR_PROC_ABORTED
       issue_number: 134
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: Callback-driven event interface for MPI_T (2pm)
@@ -252,7 +256,7 @@ plenaries:
       title: Create MPI_INFO_ENV before MPI_INIT
       issue_number: 143
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: Memory Alignment
