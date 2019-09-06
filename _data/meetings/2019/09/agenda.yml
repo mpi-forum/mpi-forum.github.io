@@ -147,9 +147,6 @@ errata-votes:
     - number: 69
       description: "Definition and Explanation of External32"
 
-    - number: 144
-      description: Errata - Clarify ordering of accumulate operations with origin == target
-
 no-no-votes:
 
     - number: 136
