@@ -1,9 +1,10 @@
 topic,type,yes,no,abstain,missed
-"#154: Scheduling of No-No-Votes",procedure
-"#136: Partitioned Communication",no-no
+"#145: Scheduling of No-No-Votes",procedure
 "#134: Add MPI_ERR_PROC_ABORTED",no-no
-"#79: Callback-driven event interface for MPI_T",no-no
+"#144: Errata - Clarify ordering of accumulate operations with origin == target",no-no
 "#103: MPI Sessions",no-no
+"#79: Callback-driven event interface for MPI_T",no-no
+"#143: Create MPI_INFO_ENV before MPI_INIT",no-no
 "#69: Definition and Explanation of External32",errata
 "#144: Errata - Clarify ordering of accumulate operations with origin == target",errata
 "#103: MPI Sessions",1st
