@@ -158,6 +158,9 @@ no-no-votes:
     - number: 144
       description: Errata - Clarify ordering of accumulate operations with origin == target
 
+    - number: 144
+      description: Callback-driven event interface for MPI_T (if procedures changes)
+
 first-votes:
 
     - number: 136
@@ -166,7 +169,7 @@ first-votes:
     - number: 103
       description: "MPI Sessions"
 
-    - number: 134
+    - number: 79
       description: "Add MPI_ERR_PROC_ABORTED"
 
 second-votes:
@@ -240,15 +243,15 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Create MPI_INFO_ENV before MPI_INIT
-      issue_number: 143
-      presenter: Wesley
-      done: 0
-
-    - type: Reading
       title: Changes to MPI_T Events if info objects were available before MPI initialization
       issue_number: 148
       presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: Create MPI_INFO_ENV before MPI_INIT
+      issue_number: 143
+      presenter: Wesley
       done: 0
 
     - type: Reading
@@ -291,7 +294,7 @@ plenaries:
       title: Deprecate MPI_Info_get and MPI_Info_get_valuelen (Friday)
       issue_number: 147
       presenter: Mathew
-      done: 0
+      done: 1
 
     - type: Reading
       title: BigCount - generic/overloading interfaces
@@ -315,7 +318,7 @@ plenaries:
       title: Partitioned Communication
       issue_number: 136
       presenter: Mathew
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Mandatory Info Keys
@@ -345,6 +348,12 @@ plenaries:
       title: Possible type erratas
       issue_number:
       presenter: Puri
+      done: 0
+
+    - type:
+      title: 1-2 times partitioned communication
+      issue_number:
+      presenter: Pers. WG
       done: 0
 
 
