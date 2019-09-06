@@ -247,7 +247,7 @@ physical:
     links: "yes"
 
   - start: 2019-05-28
-    end: 2019-05-28
+    end: 2019-05-31
     title: "Chicago, IL (Microsoft)"
 
   - start: 2019-03-04
