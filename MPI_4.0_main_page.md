@@ -127,12 +127,12 @@ In addition to the active working groups, several working groups exist that have
 |:---:|---|---|---|
 |  | Front Matter | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
 |1| Introduction | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
-|2|MPI Terms and Conventions| Rolf Rabenseifner | Wesley Bland, Bill Gropp, Tony Skjellum, Puri Bangalore |
+|2|MPI Terms and Conventions| Rolf Rabenseifner | Wesley Bland, Bill Gropp, Tony Skjellum, Puri Bangalore, Claudia Blaas-Schenner |
 |3|Point to Point Communcation| Dan Holmes | Ken Raffenetti | 
 |4|Datatypes| George Bosilca | Bill Gropp | 
 |5|Collective Communication| Torsten Höfler | Tony Skjellum | 
-|6|Groups, Contexts, Communicators, Caching| Pavan Balaji | Bill Gropp, Tony Skjellum | 
-|7|Process Topologies| Torsten Höfler | Rolf Rabenseifner | 
+|6|Groups, Contexts, Communicators, Caching| Pavan Balaji | Bill Gropp, Tony Skjellum, Guillaume Mercier | 
+|7|Process Topologies| Torsten Höfler | Rolf Rabenseifner, Guillaume Mercier, Claudia Blaas-Schenner  | 
 |8|MPI Environmental Management| George Bosilca | Ken Raffenetti, Wesley Bland, Rolf Rabenseifner | 
 |9|The Info Object| Martin Schulz | | 
 |10|Process Creation and Mangement| Howard Pritchard | Ken Raffenetti, Dan Holmes, Martin Schulz  | 
@@ -143,7 +143,7 @@ In addition to the active working groups, several working groups exist that have
 |15|Deprecated Functions| Rolf Rabenseifner | Martin Schulz | 
 |16|Removed Interfaces| Rolf Rabenseifner | Martin Schulz | 
 |17|Language Bindings| Puri Bangalore | Tony Skjellum, Rolf Rabenseifner | 
-|A|Language Bindings Summary| Rolf Rabenseifner |  | 
-|B|Change-Log| Rolf Rabenseifner |  | 
+|A|Language Bindings Summary| Rolf Rabenseifner | Puri Bangalore 	 | 
+|B|Change-Log| Rolf Rabenseifner | Marc-Andre Hermanns | 
 
 
