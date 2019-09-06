@@ -154,9 +154,6 @@ no-no-votes:
     - number: 144
       description: "Errata - Clarify ordering of accumulate operations with origin == target"
 
-    - number: 103
-      description: "MPI Sessions"
-
     - number: 79
       description: "Callback-driven event interface for MPI_T (if procedures changes)"
 
@@ -172,9 +169,6 @@ errata-votes:
       description: "Errata - Clarify ordering of accumulate operations with origin == target"
 
 first-votes:
-
-    - number: 103
-      description: "MPI Sessions"
 
     - number: 134
       description: "Add MPI_ERR_PROC_ABORTED"
