@@ -282,13 +282,13 @@ plenaries:
       title: Fix Security Issue with MPI_Info_get (Option 1) (Friday)
       issue_number: 133
       presenter: Mathew
-      done: 0
+      done: 1
 
     - type: Reading
       title: Fix Security Issue with MPI_Info_get (Option 2) (Friday)
       issue_number: 146
       presenter: Mathew
-      done: 0
+      done: 1
 
     - type: Reading
       title: Deprecate MPI_Info_get and MPI_Info_get_valuelen (Friday)
