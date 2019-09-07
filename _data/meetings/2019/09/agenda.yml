@@ -301,7 +301,7 @@ plenaries:
       title: Add new nonblocking sendrecv and persistent sendrecv functions
       issue_number: 125
       presenter: Brandon
-      done: 0
+      done: 1
 
     - type: Reading (if nec.)
       title: MPI Sessions
