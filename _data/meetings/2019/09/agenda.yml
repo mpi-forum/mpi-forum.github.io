@@ -259,7 +259,7 @@ plenaries:
       title: MPI_Comm_split_type
       issue_number: 132
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: Topology aware Cartesian communicators
