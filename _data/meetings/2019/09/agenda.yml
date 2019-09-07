@@ -265,7 +265,7 @@ plenaries:
       title: Topology aware Cartesian communicators
       issue_number: 120
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: The terms chapter is missing many terms we would like to see added for MPI-4
