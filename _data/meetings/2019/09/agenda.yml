@@ -253,7 +253,7 @@ plenaries:
       title: Memory Alignment
       issue_number: 121
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: MPI_Comm_split_type
