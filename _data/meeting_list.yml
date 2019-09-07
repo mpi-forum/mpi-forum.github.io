@@ -239,7 +239,7 @@ physical:
   - start: 2019-12-09
     end: 2019-12-12
     title: "Albuquerque, NM (Sandia National Labs)"
-    links: "no"
+    links: "yes"
 
   - start: 2019-09-05
     end: 2019-09-07
