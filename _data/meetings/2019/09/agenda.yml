@@ -151,14 +151,8 @@ no-no-votes:
     - number: 134
       description: "Add MPI_ERR_PROC_ABORTED"
 
-    - number: 144
-      description: "Errata - Clarify ordering of accumulate operations with origin == target"
-
     - number: 79
       description: "Callback-driven event interface for MPI_T (if procedures changes)"
-
-    - number: 143
-      description: "Create MPI_INFO_ENV before MPI_INIT (if procedures changes)"
 
 errata-votes:
 
@@ -355,6 +349,18 @@ plenaries:
       title: 1-2 times partitioned communication
       issue_number:
       presenter: Pers. WG
+      done: 0
+
+    - type:
+      title: 1-2 times session (keeping Sets constant, Error handler)
+      issue_number:
+      presenter: Dan
+      done: 0
+
+    - type:
+      title: MPI_INFO_CREATE_ENV
+      issue_number:
+      presenter: Dan
       done: 0
 
 
