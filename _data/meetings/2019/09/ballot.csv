@@ -1,1 +1,22 @@
-org,"Vote 1"
+org,"#145: Scheduling of No-No-Votes","#134: Add MPI_ERR_PROC_ABORTED","#79: Callback-driven event interface for MPI_T","#69: Definition and Explanation of External32","#144: Errata - Clarify ordering of accumulate operations with origin == target","#134: Add MPI_ERR_PROC_ABORTED","#119: Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens","#102: Define error/failure behavior in MPI_INIT/FINALIZE"
+"Intel",yes,yes,yes,yes,yes,yes,yes,yes
+"Edinburgh",abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain
+"UAB",yes,yes,yes,yes,yes,yes,yes,yes
+"NEC",yes,yes,yes,yes,yes,yes,yes,yes
+"TU Wien",yes,yes,yes,yes,yes,yes,yes,yes
+"HLRS",yes,yes,yes,yes,yes,yes,yes,abstain
+"Fujitsu",yes,yes,yes,yes,yes,yes,yes,yes
+"INRIA",yes,yes,yes,yes,yes,yes,yes,yes
+"UTK",yes,yes,yes,yes,yes,yes,yes,yes
+"Oak Ridge",abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain
+"RIKEN",yes,yes,yes,yes,yes,yes,yes,yes
+"TU Munich",yes,yes,yes,yes,yes,yes,yes,yes
+"UTC",yes,yes,yes,yes,yes,yes,yes,yes
+"Los Alamos",yes,yes,yes,yes,yes,yes,yes,yes
+"Livermore",yes,yes,yes,yes,yes,yes,yes,yes
+"Sandia",yes,yes,yes,yes,yes,yes,yes,yes
+"Paratools",yes,yes,yes,yes,yes,yes,yes,yes
+"Mellanox",yes,yes,yes,yes,yes,yes,yes,yes
+"Berkeley",yes,yes,yes,yes,yes,yes,yes,yes
+"CEA",yes,yes,yes,yes,yes,yes,yes,yes
+"ATOS/BULL",yes,yes,yes,yes,yes,yes,yes,yes
