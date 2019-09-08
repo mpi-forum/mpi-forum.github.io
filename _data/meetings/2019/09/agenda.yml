@@ -271,7 +271,7 @@ plenaries:
       title: The terms chapter is missing many terms we would like to see added for MPI-4
       issue_number: 96
       presenter: Puri
-      done: 0
+      done: 1
 
     - type: Reading
       title: Fix Security Issue with MPI_Info_get (Option 1) (Friday)
@@ -295,7 +295,7 @@ plenaries:
       title: BigCount - generic/overloading interfaces
       issue_number: 137
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Reading
       title: Add new nonblocking sendrecv and persistent sendrecv functions
@@ -361,6 +361,30 @@ plenaries:
       title: MPI_INFO_CREATE_ENV
       issue_number:
       presenter: Dan
+      done: 0
+
+    - type:
+      title: UIDs for Tools
+      issue_number:
+      presenter: Marc-Andre
+      done: 0
+
+    - type:
+      title: Procedures
+      issue_number:
+      presenter: Martin
+      done: 0
+
+    - type:
+      title: Semantic Terms
+      issue_number:
+      presenter: Puri
+      done: 0
+
+    - type:
+      title: BigCount
+      issue_number:
+      presenter: Puri and Tony
       done: 0
 
 
