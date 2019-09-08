@@ -387,4 +387,16 @@ plenaries:
       presenter: Puri and Tony
       done: 0
 
+    - type:
+      title: HW Split Type
+      issue_number:
+      presenter: Guillaume
+      done: 0
+
+    - type:
+      title: MPI_Cart/Dims_create_weighted
+      issue_number:
+      presenter: Rolf
+      done: 0
+
 
