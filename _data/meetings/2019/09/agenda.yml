@@ -376,9 +376,9 @@ plenaries:
       done: 0
 
     - type:
-      title: Semantic Terms
+      title: Semantic Terms (10/9 or 10/16 or 10/30 good)
       issue_number:
-      presenter: Puri
+      presenter: Puri and Tony
       done: 0
 
     - type:
@@ -398,5 +398,13 @@ plenaries:
       issue_number:
       presenter: Rolf
       done: 0
+
+    - type:
+      title: Partitioned comms ; 10/2 and 11/6
+      issue_number:
+      presenter: Ryan
+      done: 0
+
+
 
 
