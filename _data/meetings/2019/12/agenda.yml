@@ -1,37 +1,107 @@
+notes: This is the last meeting for readings of tickets intended for MPI 4.0. Any ticket read after this meeting will be in the next version of the standard!
+
+notes: In order to ensure that we have enough time for the tickets relevant to MPI 4.0, we won't hold any WG meetings during the core times (if you want a WG meeting on Monday morning or Thursday afternoon, please contact Martin Schulz and we'll see what we can do).
+
+notes: Further, we will give preference to tickets that have already been discussed before and are in further iterations. New tickets will only be handled time permitting.
+
 schedule:
 
     - day: Monday, December 09
 
-    - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+    - start: 2:00pm
+    - end: 4:00pm
+    - title: "Plenary (see below)"
+
+    - start: 4:00pm
+    - end: 4:30pm
+    - title: Break
+
+    - start: 4:30pm
+    - end: 7:00pm
+    - title: "Plenary (see below)"
 
     - endday: done
 
 
     - day: Tuesday, December 10
 
-    - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+    - start: 8:30am
+    - end: 10:30am
+    - title: "Plenary (see below)"
+
+    - start: 10:30am
+    - end: 11:00am
+    - title: Break
+
+    - start: 11:00am
+    - end: 1:00pm
+    - title: "Plenary (see below)"
+
+    - start: 1:00pm
+    - end: 2:00pm
+    - title: Lunch
+
+    - start: 2:00pm
+    - end: 4:00pm
+    - title: "Plenary (see below)"
+
+    - start: 4:00pm
+    - end: 4:30pm
+    - title: Break
+
+    - start: 4:30pm
+    - end: 7:00pm
+    - title: "Plenary (see below)"
 
     - endday: done
 
 
     - day: Wednesday, December 11
 
-    - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+    - start: 8:30am
+    - end: 10:30am
+    - title: "Plenary (see below)"
+
+    - start: 10:30am
+    - end: 11:00am
+    - title: Break
+
+    - start: 11:00am
+    - end: 1:00pm
+    - title: "Plenary (see below)"
+
+    - start: 1:00pm
+    - end: 2:00pm
+    - title: Lunch
+
+    - start: 2:00pm
+    - end: 4:00pm
+    - title: "Plenary (see below)"
+
+    - start: 4:00pm
+    - end: 4:30pm
+    - title: Break
+
+    - start: 4:30pm
+    - end: 7:00pm
+    - title: "Plenary (see below)"
 
     - endday: done
 
 
     - day: Thursday, December 12
 
-    - start: 12:00am
-    - end: 11:59pm
-    - title: "Placeholder Agenda Item"
+    - start: 8:30am
+    - end: 10:30am
+    - title: "Plenary (see below)"
+
+    - start: 10:30am
+    - end: 11:00am
+    - title: Break
+
+    - start: 11:00am
+    - end: 1:00pm
+    - title: "Plenary (see below)"
 
     - endday: done
 
@@ -49,20 +119,41 @@ first-votes:
 
 second-votes:
 
+    - number: 134
+      description: "Add MPI_ERR_PROC_ABORTED (unfirmed)"
+
+
 plenaries:
     - type: Welcome
-    - title: Introductions
-    - presenter: All
-    - done: 0
+      title: Introductions
+      presenter: All
+      done: 0
 
     - type: Update
-    - title: WG Status
-    - presenter: All WG chairs or their proxies
-    - done: 0
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Update
+      title: Feedback from SC19 / MPI BoF
+      presenter: Martin
+      done: 0
 
     - type: Reading
-    - title: Placeholder Reading
-    - issue_number: 1234
-    - presenter: Placeholder Presenter
-    - done: 0
+      title: Placeholder Reading
+      issue_number: tbd
+      presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: Plans going forward / organizin MPI 4.0
+      issue_number:
+      presenter: Martin
+      done: 0
+
+    - type: VM Discussion
+      title: Virtual Meeting options
+      issue_number:
+      presenter: Martin
+      done: 0
 
