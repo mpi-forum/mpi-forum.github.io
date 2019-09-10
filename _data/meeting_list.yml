@@ -219,6 +219,11 @@ physical:
     title: "San Jose, CA (Cisco)"
     links: "no"
 
+  - start: 2020-11-16
+    end: 2020-11-16
+    title: "Atlanta, GA (during SC, tentative)"
+    links: "no"
+
   - start: 2020-09-28
     end: 2020-09-30
     title: "Austin, TX (Texas Advanced Computing Center)"
