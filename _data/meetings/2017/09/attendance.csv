@@ -8,7 +8,7 @@ name,org,attend
 "George Bosilca","University of Tennessee, Knoxville",1
 "Brian Smith","Mellanox",1
 "Nathan Hjelm","Los Alamos National Lab",1
-"Rich Graham","Mellanox Technologies",1
+"Richard Graham","Mellanox Technologies",1
 "Manjunath Gorentla Venkata","Oak Ridge National Laboratory",1
 "Purushotham Bangalore","University of Alabama at Birmingham",1
 "Krishna Kandalla","Cray Inc",1
@@ -16,7 +16,7 @@ name,org,attend
 "Rolf Rabenseifner","University of Stuttgart, HLRS",1
 "Nawrin Sultana","Auburn University",1
 "Ken Raffenetti","Argonne National Laboratory",1
-"Marc-Andre Hermanns","Forschungszentrum Jülich",1
+"Marc-André Hermanns","Forschungszentrum Jülich",1
 "Dan Holmes","EPCC, The University of Edinburgh",1
 "Howard Pritchard","LANL",1
 "Hubert Ritzdorf","NEC Cooperation",1
@@ -29,4 +29,4 @@ name,org,attend
 "Guillaume Papauré","ATOS/Bull",1
 "Takahiro Kawashima","Fujitsu",0
 "Guillaume Mercier","Inria",1
-"Tony Skjellum","UTC",1
+"Anthony Skjellum","UTC",1
