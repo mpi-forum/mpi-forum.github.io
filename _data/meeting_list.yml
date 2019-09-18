@@ -36,7 +36,9 @@ virtual:
 
   - start: 2019-09-18T10:00
     end: 2019-09-18T12:00
-    title: "Sessions, MPI_INFO_ENV, and (possibly) Tool UIDs"
+    title: "Sessions, MPI_INFO_ENV, and Tool UIDs"
+    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=bb39969b0c5140c89c41927fb3aa6997"
+    recording_password: mJGpM5Gs
 
   - start: 2019-08-21T11:00
     end: 2019-08-21T12:00
