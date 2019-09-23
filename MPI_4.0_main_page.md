@@ -37,6 +37,8 @@ Note, though, that all of these efforts or new concepts are currently only being
 
 The forum encourages that new items will be brought forward through the respective working group. All working groups are listed below. The working group will the place for discussion, the creation of a preliminary proposal as well as drive the socialization of the idea in the forum once a certain level of maturity has been reached. Once the idea is mature enough, the working group will help to develop a formal proposal, which includes the proposed text as well as entry in the MPI ticket management system linked of the Wiki. Once complete and deemed ready by the working group, the proposal goes through the MPI forum voting process, which is detailed in the next section.
 
+[Link to the MPI-Forum GitHub Issue/Ticket System](https://github.com/mpi-forum/mpi-issues/issues) 
+
 ## Voting Rules
 
 On Dec 6th 2017, the MPI forum voted for [new voting rules](../docs/other/procedures-current.pdf) (effective Dec 6th, 2017).
