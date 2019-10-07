@@ -16,7 +16,7 @@ virtual:
 
   - start: 2019-10-23T10:00
     end: 2019-10-23T12:00
-    title: "Topic TBD (Sessions, Semantics and Terms, Partitioned Communication, Procedures, HW Split Type, Cartesian Communication)"
+    title: "Hardware Topologies"
 
   - start: 2019-10-16T10:00
     end: 2019-10-16T12:00
