@@ -20,11 +20,7 @@ virtual:
 
   - start: 2019-10-16T10:00
     end: 2019-10-16T12:00
-    title: "Topic TBD (Sessions, Semantics and Terms, Partitioned Communication, Procedures, HW Split Type, Cartesian Communication)"
-
-  - start: 2019-10-09T10:00
-    end: 2019-10-09T12:00
-    title: "Topic TBD (Sessions, Semantics and Terms, Partitioned Communication, Procedures, HW Split Type, Cartesian Communication)"
+    title: "MPI Sessions  / final adjustments"
 
   - start: 2019-09-18T10:00
     end: 2019-09-18T12:00
