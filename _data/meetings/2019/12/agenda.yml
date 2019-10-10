@@ -5,16 +5,16 @@ schedule:
     - day: Monday, December 09
 
     - start: 2:00pm
-    - end: 4:00pm
-    - title: "Plenary (see below)"
+      end: 4:00pm
+      title: "Plenary (see below)"
 
     - start: 4:00pm
-    - end: 4:30pm
-    - title: Break
+      end: 4:30pm
+      title: Break
 
     - start: 4:30pm
-    - end: 7:00pm
-    - title: "Plenary (see below)"
+      end: 7:00pm
+      title: "Plenary (see below)"
 
     - endday: done
 
@@ -22,32 +22,32 @@ schedule:
     - day: Tuesday, December 10
 
     - start: 8:30am
-    - end: 10:30am
-    - title: "Plenary (see below)"
+      end: 10:30am
+      title: "Plenary (see below)"
 
     - start: 10:30am
-    - end: 11:00am
-    - title: Break
+      end: 11:00am
+      title: Break
 
     - start: 11:00am
-    - end: 1:00pm
-    - title: "Plenary (see below)"
+      end: 1:00pm
+      title: "Plenary (see below)"
 
     - start: 1:00pm
-    - end: 2:00pm
-    - title: Lunch
+      end: 2:00pm
+      title: Lunch
 
     - start: 2:00pm
-    - end: 4:00pm
-    - title: "Plenary (see below)"
+      end: 4:00pm
+      title: "Plenary (see below)"
 
     - start: 4:00pm
-    - end: 4:30pm
-    - title: Break
+      end: 4:30pm
+      title: Break
 
     - start: 4:30pm
-    - end: 7:00pm
-    - title: "Plenary (see below)"
+      end: 7:00pm
+      title: "Plenary (see below)"
 
     - endday: done
 
@@ -55,32 +55,32 @@ schedule:
     - day: Wednesday, December 11
 
     - start: 8:30am
-    - end: 10:30am
-    - title: "Plenary (see below)"
+      end: 10:30am
+      title: "Plenary (see below)"
 
     - start: 10:30am
-    - end: 11:00am
-    - title: Break
+      end: 11:00am
+      title: Break
 
     - start: 11:00am
-    - end: 1:00pm
-    - title: "Plenary (see below)"
+      end: 1:00pm
+      title: "Plenary (see below)"
 
     - start: 1:00pm
-    - end: 2:00pm
-    - title: Lunch
+      end: 2:00pm
+      title: Lunch
 
     - start: 2:00pm
-    - end: 4:00pm
-    - title: "Plenary (see below)"
+      end: 4:00pm
+      title: "Plenary (see below)"
 
     - start: 4:00pm
-    - end: 4:30pm
-    - title: Break
+      end: 4:30pm
+      title: Break
 
     - start: 4:30pm
-    - end: 7:00pm
-    - title: "Plenary (see below)"
+      end: 7:00pm
+      title: "Plenary (see below)"
 
     - endday: done
 
@@ -88,16 +88,16 @@ schedule:
     - day: Thursday, December 12
 
     - start: 8:30am
-    - end: 10:30am
-    - title: "Plenary (see below)"
+      end: 10:30am
+      title: "Plenary (see below)"
 
     - start: 10:30am
-    - end: 11:00am
-    - title: Break
+      end: 11:00am
+      title: Break
 
     - start: 11:00am
-    - end: 1:00pm
-    - title: "Plenary (see below)"
+      end: 1:00pm
+      title: "Plenary (see below)"
 
     - endday: done
 
@@ -105,7 +105,7 @@ schedule:
 procedure-votes:
 
     - number: 1234
-    - description: "Placeholder Procedure Vote"
+      description: "Placeholder Procedure Vote"
 
 errata-votes:
 
@@ -116,7 +116,7 @@ first-votes:
 second-votes:
 
     - number: 134
-      description: "Add MPI_ERR_PROC_ABORTED (unfirmed)"
+      description: "Add MPI_ERR_PROC_ABORTED (unconfirmed)"
 
 
 plenaries:
@@ -142,7 +142,7 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: Plans going forward / organizin MPI 4.0
+      title: Plans going forward / organizing MPI 4.0
       issue_number:
       presenter: Martin
       done: 0
