@@ -13,6 +13,8 @@ virtual:
   - start: 2019-10-30T10:00
     end: 2019-10-30T12:00
     title: "Partitioned Communication"
+    recording_url: "https://cisco.webex.com/cisco/ldr.php?RCID=5849f3b5dc3f43b98c513c1c79a32c29"
+    recording_password: mU3YBACB
 
   - start: 2019-10-23T10:00
     end: 2019-10-23T12:00
