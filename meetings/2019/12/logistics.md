@@ -7,7 +7,7 @@ month: "12"
 ---
 
 
-### Meeting Registration
+### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-albuquerque-nm-tickets-80928470233)
 
 Advanced registration is required for all meetings. The registration fee for this meeting will be
 posted when the registration web page is available.
