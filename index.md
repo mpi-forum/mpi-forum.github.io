@@ -9,26 +9,25 @@ You may find standard documents, information about the activities of the MPI for
 
 [Link to the central MPI-Forum GitHub Presence](https://github.com/mpi-forum/) 
 
+## 2019 MPI Standard Draft
+
+The MPI Forum has published a draft version of the MPI Standard to give users and implementors a
+chance to see the current status of all proposals that have been merged into the next version of the
+MPI Standard. The 2019 draft was published at SC 19 and is available here:
+
+[2019 Draft Specification](docs/drafts/mpi-2019-draft-report.pdf)
+
+These draft specifications are not versions and are subject to change before published as an
+official version of the MPI Standard.
+
 ## Updates
 
-#### BoF at ISC 19, Jun. 19th, 2018
+#### BoF at ISC 19, Jun. 19th, 2019
 
-Presentation from the MPI Forum BoF Session at ISC 18:
+Presentation from the MPI Forum BoF Session at ISC 19:
 * [Complete set of slides](bofs/2019-06-mpi-bof.pdf)
 
-
-## 2018 MPI Standard Draft
-
-Starting in 2018, the MPI Forum has decided to release draft specifications to allow users an
-implementors an early opportunity to see changes in upcoming versions of the MPI Standard. These
-draft specifications are not versions and are subject to change before published as an official
-version of the MPI Standard.
-
-[2018 Draft Specification](docs/drafts/mpi-2018-draft-report.pdf)
-
-## Updates
-
-#### BoF at SC 18, Nov. 14th, 2017
+#### BoF at SC 18, Nov. 14th, 2018
 
 Presentations from the MPI Forum BoF Session at SC 18:
 * [Introduction (including MPI 3.1 implentation update](bofs/2018-11-sc/intro.pdf)
