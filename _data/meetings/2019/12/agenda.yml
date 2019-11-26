@@ -179,7 +179,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Intro nonblocking: no serialization and no deadlocks
+      title: Intro nonblocking - no serialization and no deadlocks
       issue_number: 122
       presenter: Rolf
       done: 0
