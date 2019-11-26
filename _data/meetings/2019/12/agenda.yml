@@ -104,14 +104,32 @@ schedule:
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
-
 errata-votes:
+
+    - number: 152
+      description: "Make error code functions thread-safe"
 
 no-no-votes:
 
 first-votes:
+
+    - number: 79
+      description: "MPI_T Events"
+
+    - number: 121
+      description: "Clarify alignment of memory provided to applications"
+
+    - number: 125
+      description: "Add nonblocking and persistent versions of sendrecv"
+
+    - number: 146
+      description: "Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string"
+
+    - number: 133
+      description: "Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)"
+
+    - number: 147
+      description: "Deprecate MPI_Info_get and MPI_Info_get_valuelen"
 
 second-votes:
 
@@ -130,15 +148,82 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Update
-      title: Feedback from SC19 / MPI BoF
-      presenter: Martin
+    - type: Errata Reading
+      title: Make error code functions thread-safe
+      issue_number: 152
+      presenter: Wesley
       done: 0
 
     - type: Reading
-      title: Placeholder Reading
-      issue_number: tbd
-      presenter: Martin
+      title: Create MPI_INFO_ENV before MPI_INIT
+      issue_number: 143
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: MPI Sessions
+      issue_number: 103
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: BigCount
+      issue_number: 137
+      presenter: Tony
+      done: 0
+
+    - type: Reading
+      title: Partitioned Point-to-Point Communication
+      issue_number: 136
+      presenter: Ryan
+      done: 0
+
+    - type: Reading
+      title: Intro nonblocking: no serialization and no deadlocks
+      issue_number: 122
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: MPI_Cart_weighted_create / Topology aware Cartesian communicators
+      issue_number: 120
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: Hardware communicators, guided mode
+      issue_number: 132
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: Query routines for hardware resource types
+      issue_number: 154
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: Hardware communicators, unguided Mode
+      issue_number: 156
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: The terms chapter is missing many terms we would like to see added for MPI-4
+      issue_number: 96
+      presenter: Puri
+      done: 0
+
+    - type: Reading
+      title: Ticket 0 Changes to clean up Standard
+      issue_number: na
+      presenter: Bill
+      done: 0
+
+    - type: Reading
+      title: Python Script to Automate Binding Generation
+      issue_number: na
+      presenter: Jeff
       done: 0
 
     - type: Discussion
