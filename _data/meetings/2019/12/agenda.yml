@@ -161,6 +161,12 @@ plenaries:
       done: 0
 
     - type: Reading
+      title: Python Skript to Automate Binding Generation
+      issue_number: 158
+      presenter: Jeff
+      done: 0
+
+    - type: Reading
       title: MPI Sessions
       issue_number: 103
       presenter: Dan
@@ -211,7 +217,7 @@ plenaries:
     - type: Reading
       title: The terms chapter is missing many terms we would like to see added for MPI-4
       issue_number: 96
-      presenter: Puri
+      presenter: Rolf
       done: 0
 
     - type: Reading
@@ -220,16 +226,16 @@ plenaries:
       presenter: Bill
       done: 0
 
-    - type: Reading
-      title: Python Script to Automate Binding Generation
-      issue_number: na
-      presenter: Jeff
-      done: 0
-
     - type: Discussion
       title: Plans going forward / organizing MPI 4.0
       issue_number:
       presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: Errata for NEIGHBOR
+      issue_number: 153
+      presenter: Rolf
       done: 0
 
     - type: VM Discussion
