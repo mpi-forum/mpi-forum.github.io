@@ -134,7 +134,7 @@ first-votes:
 second-votes:
 
     - number: 134
-      description: "Add MPI_ERR_PROC_ABORTED (unconfirmed)"
+      description: "Add MPI_ERR_PROC_ABORTED"
 
 
 plenaries:
