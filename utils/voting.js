@@ -34,7 +34,7 @@ var aliases = {
     'HDF': ['HDF GROUP'],
     'KTH': ['KTH ROYAL INSTITUTE OF TECHNOLOGY'],
     'ETH Zurich': ['ETH', 'ETH ZURICH','ETH ZÜRICH'],
-    'ATOS/BULL': ['BULL','ATOS'],
+    'ATOS': ['BULL','ATOS'],
     'U Oregon': ['UNIVERSITY OF OREGON'],
     'TU Munich': ['TUM', 'TU MUNICH', 'TU-MUNICH', 'TECHNICAL UNIVERSITY OF MUNICH'],
     'U Innsbruck': ['UNIVERSITY OF INNSBRUCK'],
