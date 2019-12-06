@@ -1,27 +1,28 @@
 name,org,attend
-"Sudip Dosanjh","LBL",1
-"Dan Holmes","EPCC",1
-"Artem Polyakov","Mellanox",1
-"William Gropp","UIUC",1
-"Balazs Gerofi","RIKEN",1
-"Howard Pritchard","LANL",1
-"Martin Schulz","TU Munich",1
-"Ignacio Laguna","LLNL",1
-"Ryan Grant","Sandia",1
-"Hubert Ritzdorf","NEC",1
-"S. Mahdieh Ghazimirsaeed","OSU",1
-"Guillaume Mercier","INRIA",1
-"Rolf Rabenseifner","HLRS",1
-"Nicholas Radcliffe","Cray",1
-"brian smith","ORNL",1
-"Julien ADAM","Paratools",1
-"Hui Zhou","ANL",1
-"George Bosilca","UTK",1
-"Jeff Squyres","Cisco",1
-"Brandon Cook","LBL",1
-"David Solt","IBM",1
-"Wesley Bland","Intel",1
-"Thomas Naughton","ORNL",1
-"Claudia Blaas-Schenner","TU Wien",1
+"Ken Raffenetti","Argonne National Laboratory",1
 "Shinji Sumimoto","Fujitsu",1
-"Ken Raffenetti","ANL",1
+"Claudia Blaas-Schenner","TU Wien",1
+"Thomas Naughton","Oak Ridge National Laboratory",1
+"Wesley Bland","Intel",1
+"David Solt","IBM",1
+"Brandon Cook","Berkeley Lab",1
+"Jeff Squyres","Cisco Systems, Inc.",1
+"George Bosilca","The University of Tennessee, Knoxville",1
+"Hui Zhou","Argonne National Laboratory",1
+"Julien ADAM","Paratools SAS",1
+"brian smith","Oak Ridge National Labs",1
+"Nicholas Radcliffe","Cray, a Hewlett Packard Enterprise company",1
+"Rolf Rabenseifner","HLRS, University of Stuttgart",1
+"Guillaume Mercier","Bordeaux-INP",1
+"S. Mahdieh Ghazimirsaeed","The Ohio State University",1
+"Hubert Ritzdorf","NEC Deutschland GambH",1
+"Ryan Grant","Sandia National Laboratories",1
+"Ignacio Laguna","LLNL",1
+"Martin Schulz","Technical University of Munich",1
+"Howard Pritchard","LANL",1
+"William Gropp","University of Illinois at Urbana-Champaign",1
+"Balazs Gerofi","RIKEN",1
+"Dan Holmes","EPCC, The University of Edinburgh",1
+"Artem Polyakov","Mellanox Technologies",1
+"Sudip Dosanjh","LBNL",1
+"Max Katz","NVIDIA",1
