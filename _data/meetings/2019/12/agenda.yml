@@ -88,6 +88,10 @@ schedule:
     - day: Thursday, December 12
 
     - start: 8:30am
+      end: 9:00am
+      title: "Voting Block"
+
+    - start: 9:00am
       end: 10:30am
       title: "Plenary (see below)"
 
