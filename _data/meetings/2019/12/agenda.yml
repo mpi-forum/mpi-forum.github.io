@@ -88,6 +88,10 @@ schedule:
     - day: Thursday, December 12
 
     - start: 8:30am
+      end: 9:00am
+      title: "Voting Block"
+
+    - start: 9:00am
       end: 10:30am
       title: "Plenary (see below)"
 
@@ -110,6 +114,15 @@ errata-votes:
       description: "Make error code functions thread-safe"
 
 no-no-votes:
+
+    - number: 121
+      description: "Clarify alignment of memory provided to applications"
+
+    - number: 146
+      description: "Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string"
+
+    - number: 133
+      description: "Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)"
 
 first-votes:
 
