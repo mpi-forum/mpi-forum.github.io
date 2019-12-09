@@ -48,7 +48,9 @@ layout: default
              <tr>
                  <th>Time</th>
                  <th>Title</th>
+                 {% if item.extra != "nolink" %}
                  <th>Webex</th>
+                 {% endif %}
              </tr>
              {% assign laststart = 0 %}
              {% elsif item.endday.size > 0 %}
