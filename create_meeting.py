@@ -33,7 +33,7 @@ print >> file, "date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, 
 print >> file, "permalink: meetings/" + start_year + "/" + start_month + "/agenda";
 print >> file, 'year: "' + start_year + '"';
 print >> file, 'month: "' + start_month + '"';
-print >> file, 'webex: ""';
+print >> file, 'webex: "https://github.com/mpi-forum/mpi-standard/wiki/MPI-Forum-Webex-Information"';
 print >> file, "---\n";
 file.close();
 
