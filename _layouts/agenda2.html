@@ -77,7 +77,9 @@ layout: default
              </td>
              {% if item.title != "Lunch" %}
              {% if item.title != "Break" %}
+             {% if item.extra != "nolink" %}
              <td><a href="{{page.webex}}">Webex Info</a></td>
+             {% endif %}
              {% endif %}
              {% endif %}
          </tr>
