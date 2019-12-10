@@ -211,6 +211,7 @@ plenaries:
       presenter: Rolf
       done: 0
 
+    - type: Reading
       title: Partitioned Point-to-Point Communication
       issue_number: 136
       presenter: Ryan
