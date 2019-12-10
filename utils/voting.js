@@ -44,6 +44,7 @@ var aliases = {
     'TU Wien': [],
     'ARM': [],
     'BSC': ['BARCELONA SUPERCOMPUTING CENTER'],
+    'UNM': ['UNIVERSITY OF NEW MEXICO'],
 }
 
 var vote_types = {
