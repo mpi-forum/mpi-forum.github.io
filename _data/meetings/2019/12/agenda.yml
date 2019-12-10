@@ -141,30 +141,42 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: MPI Sessions
       issue_number: 103
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: Python Skript to Automate Binding Generation
       issue_number: 158
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Reading
       title: BigCount
       issue_number: 137
       presenter: Dan
-      done: 0
+      done: 1
+
+    - type: Errata Reading
+      title: Make error code functions thread-safe
+      issue_number: 152
+      presenter: Wesley
+      done: 1
+
+    - type: Reading
+      title: Create MPI_INFO_ENV before MPI_INIT
+      issue_number: 143
+      presenter: Wesley
+      done: 1
 
     - type: Reading
       title: Hardware communicators, guided mode
@@ -190,19 +202,6 @@ plenaries:
       presenter: Rolf
       done: 0
 
-    - type: Errata Reading
-      title: Make error code functions thread-safe
-      issue_number: 152
-      presenter: Wesley
-      done: 0
-
-    - type: Reading
-      title: Create MPI_INFO_ENV before MPI_INIT
-      issue_number: 143
-      presenter: Wesley
-      done: 0
-
-    - type: Reading
       title: Partitioned Point-to-Point Communication
       issue_number: 136
       presenter: Ryan
@@ -213,6 +212,12 @@ plenaries:
       issue_number: 122
       presenter: Rolf
       done: 0
+
+    - type: Reading ReRead
+      title: BigCount
+      issue_number: 137
+      presenter: Dan
+      done: 1
 
     - type: Reading
       title: The terms chapter is missing many terms we would like to see added for MPI-4
