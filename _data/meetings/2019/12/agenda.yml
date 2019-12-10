@@ -191,25 +191,25 @@ plenaries:
       title: Hardware communicators, guided mode
       issue_number: 132
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: Query routines for hardware resource types
       issue_number: 154
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: Hardware communicators, unguided Mode
       issue_number: 156
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: MPI_Cart_weighted_create / Topology aware Cartesian communicators
       issue_number: 120
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: Partitioned Point-to-Point Communication
@@ -222,12 +222,6 @@ plenaries:
       issue_number: 122
       presenter: Rolf
       done: 0
-
-    - type: Reading ReRead
-      title: BigCount
-      issue_number: 137
-      presenter: Dan
-      done: 1
 
     - type: Reading
       title: The terms chapter is missing many terms we would like to see added for MPI-4
@@ -253,10 +247,28 @@ plenaries:
       presenter: Bill
       done: 0
 
+    - type: Reading (ReRead)
+      title: BigCount
+      issue_number: 137
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: MPI_Cart_weighted_create / Topology aware Cartesian communicators (ReRead)
+      issue_number: 120
+      presenter: Rolf
+      done: 0
+
     - type: Discussion
       title: Plans going forward / organizing MPI 4.0
       issue_number:
       presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: HW topologies (ReDiscussion)
+      issue_number: n/a
+      presenter: Guillaume
       done: 0
 
     - type: Discussion
