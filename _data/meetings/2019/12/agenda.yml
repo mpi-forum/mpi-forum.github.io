@@ -272,6 +272,30 @@ plenaries:
       presenter: Bill
       done: 0
 
+    - type: NoNo Reading
+      title: Clarify alignment of memory provided to applications
+      issue_number: 121
+      presenter: Rolf
+      done: 1
+
+    - type: NoNo Reading
+      title: Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string
+      issue_number: 146
+      presenter: Ryan
+      done: 0
+
+    - type: NoNo Reading
+      title: Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)
+      issue_number: 133
+      presenter: Ryan
+      done: 0
+
+    - type: Reading (ReRead)
+      title: Create MPI_INFO_ENV before MPI_INIT
+      issue_number: 143
+      presenter: Wesley
+      done: 1
+
     - type: Reading (ReRead)
       title: BigCount
       issue_number: 137
@@ -296,16 +320,28 @@ plenaries:
       presenter: Wesley
       done: 0
 
+    - type: Reading (ReRead)
+      title: Hardware communicators, guided mode
+      issue_number: 132
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading (ReRead)
+      title: Query routines for hardware resource types
+      issue_number: 154
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading (ReRead)
+      title: Hardware communicators, unguided Mode
+      issue_number: 156
+      presenter: Guillaume
+      done: 0
+
     - type: Discussion
       title: Plans going forward / organizing MPI 4.0
       issue_number:
       presenter: Martin
-      done: 0
-
-    - type: Reading (ReDiscussion)
-      title: HW topologies 
-      issue_number: n/a
-      presenter: Guillaume
       done: 0
 
     - type: Discussion
