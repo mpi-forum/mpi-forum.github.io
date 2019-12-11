@@ -124,6 +124,27 @@ no-no-votes:
    - number: 133
      description: "Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)"
 
+   - number: 143
+     description: "Create MPI_INFO_ENV before MPI_INIT"
+
+   - number: 120
+     description: "MPI_Cart_weighted_create / Topology aware Cartesian communicators"
+
+   - number: 132
+     description: "Hardware communicators, guided mode"
+
+   - number: 154
+     description: "Query routines for hardware resource types"
+
+   - number: 156
+     description: "Hardware communicators, unguided Mode"
+
+   - number: 137
+     description: "BigCount"
+
+   - number: 136
+     description: "Partitioned Point-to-Point Communication"
+
 first-votes:
 
     - number: 79

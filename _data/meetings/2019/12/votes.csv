@@ -1,5 +1,15 @@
 topic,type,yes,no,abstain,missed
 "#152: Make error code functions thread-safe",errata,0,0,0,0
+"#121: Clarify alignment of memory provided to applications",no-no,0,0,0,0
+"#146: Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string",no-no,0,0,0,0
+"#133: Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)",no-no,0,0,0,0
+"#143: Create MPI_INFO_ENV before MPI_INIT",no-no,0,0,0,0
+"#120: MPI_Cart_weighted_create / Topology aware Cartesian communicators",no-no,0,0,0,0
+"#132: Hardware communicators, guided mode",no-no,0,0,0,0
+"#154: Query routines for hardware resource types",no-no,0,0,0,0
+"#156: Hardware communicators, unguided Mode",no-no,0,0,0,0
+"#137: BigCount",no-no,0,0,0,0
+"#136: Partitioned Point-to-Point Communication",no-no,0,0,0,0
 "#79: MPI_T Events",1st,0,0,0,0
 "#121: Clarify alignment of memory provided to applications",1st,0,0,0,0
 "#125: Add nonblocking and persistent versions of sendrecv",1st,0,0,0,0
