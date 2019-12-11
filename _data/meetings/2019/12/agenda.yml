@@ -300,7 +300,7 @@ plenaries:
       title: BigCount
       issue_number: 137
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading (ReRead)
       title: MPI_Cart_weighted_create / Topology aware Cartesian communicators 
@@ -312,12 +312,6 @@ plenaries:
       title: Partitioned Point-to-Point Communication
       issue_number: 136
       presenter: Ryan
-      done: 0
-
-    - type: Reading (ReRead)
-      title: Create MPI_INFO_ENV before MPI_INIT
-      issue_number: 143
-      presenter: Wesley
       done: 0
 
     - type: Reading (ReRead)
@@ -345,16 +339,16 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: Plans going forward / organizing MPI 4.0
-      issue_number:
-      presenter: Martin
-      done: 0
-
-    - type: Discussion
       title: Errata for NEIGHBOR
       issue_number: 153
       presenter: Rolf
       done: 1
+
+    - type: Discussion
+      title: Plans going forward / organizing MPI 4.0
+      issue_number:
+      presenter: Martin
+      done: 0
 
     - type: VM Discussion
       title: Virtual Meeting options
