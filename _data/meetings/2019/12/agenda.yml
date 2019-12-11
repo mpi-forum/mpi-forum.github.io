@@ -137,9 +137,6 @@ no-no-votes:
    - number: 132
      description: "Hardware communicators, guided mode"
 
-   - number: 154
-     description: "Query routines for hardware resource types"
-
    - number: 156
      description: "Hardware communicators, unguided Mode"
 
