@@ -269,6 +269,12 @@ plenaries:
       presenter: Ryan
       done: 0
 
+    - type: Reading (ReRead)
+      title: Create MPI_INFO_ENV before MPI_INIT
+      issue_number: 143
+      presenter: Wesley
+      done: 0
+
     - type: Discussion
       title: Plans going forward / organizing MPI 4.0
       issue_number:
