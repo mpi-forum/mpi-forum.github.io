@@ -252,19 +252,19 @@ plenaries:
       title: Ticket 0 Changes to clean up Standard (1/3)
       issue_number: 151
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Reading
       title: Ticket 0 Changes to clean up Standard (2/3)
       issue_number: 145
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Reading
       title: Ticket 0 Changes to clean up Standard (3/3)
       issue_number: na
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: NoNo Reading
       title: Clarify alignment of memory provided to applications
@@ -294,7 +294,7 @@ plenaries:
       title: Deprecate MPI_Info_get and MPI_Info_get_valuelen
       issue_number: 147
       presenter: Ryan
-      done: 0
+      done: 1
 
     - type: Reading (ReRead)
       title: BigCount
@@ -362,3 +362,8 @@ plenaries:
       presenter: Martin
       done: 0
 
+    - type: VM Topic
+      title: MPI 4x Clean-Up Steps
+      issue_number:
+      presenter:
+      done: 0
