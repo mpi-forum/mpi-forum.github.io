@@ -361,7 +361,7 @@ plenaries:
       title: Plans going forward / organizing MPI 4.0
       issue_number:
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: VM Discussion
       title: Virtual Meeting options
