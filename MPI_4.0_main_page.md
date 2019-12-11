@@ -129,7 +129,7 @@ In addition to the active working groups, several working groups exist that have
 |:---:|---|---|---|
 |  | Front Matter | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
 |1| Introduction | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
-|2| MPI Terms and Conventions| Rolf Rabenseifner | Bill Gropp, Tony Skjellum, Puri Bangalore, Claudia Blaas-Schenner, Guillaume Mercier, Dan Holmes |
+|2| MPI Terms and Conventions| Claudia Blaas-Schenner | Rolf Rabenseifner, Bill Gropp, Tony Skjellum, Puri Bangalore, Guillaume Mercier, Dan Holmes |
 |3|Point to Point Communcation| Dan Holmes | Ken Raffenetti, Ryan Grant, Bill Gropp, Brian Smith |
 |4|Datatypes| George Bosilca | Bill Gropp, Martin Ruefenacht, Dan Holmes | 
 |5|Collective Communication| Tony Skjellum | Torsten Höfler, Brian Smith, Wesley Bland, Martin Schulz |
