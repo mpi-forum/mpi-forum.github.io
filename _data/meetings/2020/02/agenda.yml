@@ -2,46 +2,114 @@ schedule:
 
     - day: Tuesday, February 18
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 2:00pm
+      end: 4:00pm
+      title: "WGs"
+
+    - start: 4:00pm
+      end: 4:30pm
+      title: Break
+
+    - start: 4:30pm
+      end: 6:30pm
+      title: "WGs"
 
     - endday: done
 
 
     - day: Wednesday, February 19
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:30am
+      end: 10:30am
+      title: "WGs"
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 1:00pm
+      title: "WGs"
+
+    - start: 1:00pm
+      end: 2:00pm
+      title: Lunch
+
+    - start: 2:00pm
+      end: 4:00pm
+      title: "WGs or Plenary (see below)"
+
+    - start: 4:00pm
+      end: 4:30pm
+      title: Break
+
+    - start: 4:30pm
+      end: 6:30pm
+      title: "WGs or Plenary (see below)"
 
     - endday: done
 
 
     - day: Thursday, February 20
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:30am
+      end: 10:30am
+      title: "Plenary (see below)"
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 1:00pm
+      title: "Plenary (see below)"
+
+    - start: 1:00pm
+      end: 2:00pm
+      title: Lunch
+
+    - start: 2:00pm
+      end: 4:00pm
+      title: "Plenary (see below)"
+
+    - start: 4:00pm
+      end: 4:30pm
+      title: Break
+
+    - start: 4:30pm
+      end: 6:30pm
+      title: "Plenary (see below)"
 
     - endday: done
 
 
     - day: Friday, February 21
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:30am
+      end: 9:00am
+      title: "Voting Block"
+
+    - start: 9:00am
+      end: 10:30am
+      title: "Plenary (see below)"
+
+    - start: 10:30am
+      end: 11:00am
+      title: Break
+
+    - start: 11:00am
+      end: 1:00pm
+      title: "Plenary (see below)"
 
     - endday: done
 
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
-
 errata-votes:
+
+    - number: 153
+      description: "Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL (TENTATIVE)"
 
 no-no-votes:
 
@@ -60,9 +128,14 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+    - type: Errata Reading
+      title: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL
+      issue_number: 153
+      presenter: Rolf
       done: 0
 
+    - type: VM Discussion
+      title: Virtual Meeting options
+      issue_number:
+      presenter: Martin
+      done: 0
