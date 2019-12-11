@@ -337,13 +337,13 @@ plenaries:
       title: Hardware communicators, guided mode
       issue_number: 132
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading (ReReRead)
       title: Hardware communicators, unguided Mode
       issue_number: 156
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: The terms chapter is missing many terms we would like to see added for MPI-4
@@ -369,8 +369,20 @@ plenaries:
       presenter: Martin
       done: 0
 
-    - type: VM Topic
+    - type: 
       title: MPI 4x Clean-Up Steps
+      issue_number:
+      presenter:
+      done: 0
+
+    - type: 
+      title: Terms and Conventions
+      issue_number:
+      presenter:
+      done: 0
+
+    - type: 
+      title: BigCount Bindings
       issue_number:
       presenter:
       done: 0
