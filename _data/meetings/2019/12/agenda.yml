@@ -290,6 +290,12 @@ plenaries:
       presenter: Wesley
       done: 1
 
+    - type: Reading (ReRead before Vote)
+      title: Deprecate MPI_Info_get and MPI_Info_get_valuelen
+      issue_number: 147
+      presenter: Ryan
+      done: 0
+
     - type: Reading (ReRead)
       title: BigCount
       issue_number: 137
