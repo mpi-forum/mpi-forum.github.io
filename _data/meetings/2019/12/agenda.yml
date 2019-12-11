@@ -246,13 +246,7 @@ plenaries:
       title: Intro nonblocking - no serialization and no deadlocks
       issue_number: 122
       presenter: Rolf
-      done: 0
-
-    - type: Reading
-      title: The terms chapter is missing many terms we would like to see added for MPI-4
-      issue_number: 96
-      presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: Ticket 0 Changes to clean up Standard (1/3)
@@ -338,6 +332,12 @@ plenaries:
       presenter: Guillaume
       done: 0
 
+    - type: Reading
+      title: The terms chapter is missing many terms we would like to see added for MPI-4
+      issue_number: 96
+      presenter: Rolf
+      done: 0
+
     - type: Discussion
       title: Plans going forward / organizing MPI 4.0
       issue_number:
@@ -348,7 +348,7 @@ plenaries:
       title: Errata for NEIGHBOR
       issue_number: 153
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: VM Discussion
       title: Virtual Meeting options
