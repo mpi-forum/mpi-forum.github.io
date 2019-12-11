@@ -121,8 +121,8 @@ no-no-votes:
    - number: 146
      description: "Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string"
 
-   - number: 133
-     description: "Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)"
+   - number: 147
+     description: "Deprecate MPI_Info_get and MPI_Info_get_valuelen"
 
    - number: 143
      description: "Create MPI_INFO_ENV before MPI_INIT"
