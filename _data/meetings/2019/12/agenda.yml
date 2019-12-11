@@ -82,6 +82,10 @@ schedule:
       end: 7:00pm
       title: "Plenary (see below)"
 
+    - start: 7:30pm
+      end: 9:00pm
+      title: "Dinner: Garduno's of Mexico, 2100 Louisiana Blvd NE, Albuquerque, NM 87110"
+
     - endday: done
 
 
