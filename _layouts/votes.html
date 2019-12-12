@@ -27,9 +27,9 @@ function ballot(rules, yes, no, abstain, missed, type, imove) {
             return "<font color=\"red\">Failed Vote</font>";
         }
     } else if (rules == 3152013) {
-        if ((yes + no) > (0.75 * imove)) {
+        if ((yes + no) >= (0.75 * imove)) {
             if (type != "no-no") {
-                if (yes > 0.75 * (yes + no)) {
+                if (yes >= 0.75 * (yes + no)) {
                     return "<font color=\"green\">Passed</font>";
                 } else {
                     return "<font color=\"red\">Failed Vote</font>";
