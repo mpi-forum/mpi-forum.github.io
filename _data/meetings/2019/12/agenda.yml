@@ -115,7 +115,7 @@ procedure-votes:
 errata-votes:
 
     - number: 152
-      description: "Make error code functions thread-safe
+      description: "Make error code functions thread-safe"
 
 no-no-votes:
 
