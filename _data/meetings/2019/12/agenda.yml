@@ -115,7 +115,7 @@ procedure-votes:
 errata-votes:
 
     - number: 152
-      description: "Make error code functions thread-safe"
+      description: "Make error code functions thread-safe
 
 no-no-votes:
 
@@ -164,7 +164,7 @@ first-votes:
       description: "Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string"
 
     - number: 133
-      description: "Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)"
+      description: "Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen"
 
     - number: 147
       description: "Deprecate MPI_Info_get and MPI_Info_get_valuelen"
@@ -352,7 +352,7 @@ plenaries:
       title: The terms chapter is missing many terms we would like to see added for MPI-4
       issue_number: 96
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Errata for NEIGHBOR
@@ -376,7 +376,7 @@ plenaries:
       title: MPI 4x Clean-Up Steps
       issue_number:
       presenter:
-      done: 0
+      done: 
 
     - type: 
       title: Terms and Conventions
