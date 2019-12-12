@@ -5,9 +5,9 @@ year: "2019"
 month: "12"
 rules: 3152013
 permalink: meetings/2019/12/votes
-registered:
-ooe:
-imove:
+registered: 27
+ooe: 25
+imove: 24
 ---
 
 As HPE completed its acquisition of Cray Inc. on September 25, 2019, this is the first meeting where

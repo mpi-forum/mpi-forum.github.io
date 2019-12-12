@@ -1,1 +1,25 @@
-org,"Vote 1"
+org,"#143: Create MPI_INFO_ENV before MPI_INIT","#120: MPI_Cart_weighted_create / Topology aware Cartesian communicators","#132: Hardware communicators, guided mode","#156: Hardware communicators, unguided Mode","#137: BigCount","#136: Partitioned Point-to-Point Communication","#152: Make error code functions thread-safe","#121: Clarify alignment of memory provided to applications","#121: Clarify alignment of memory provided to applications","#146: Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string","#146: Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string","#133: Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)","#147: Deprecate MPI_Info_get and MPI_Info_get_valuelen","#147: Deprecate MPI_Info_get and MPI_Info_get_valuelen","#125: Add nonblocking and persistent versions of sendrecv","#125: Add nonblocking and persistent versions of sendrecv","#79: MPI_T Events","#134: Add MPI_ERR_PROC_ABORTED"
+"Argonne",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,abstain,no,yes,no,yes,yes,yes,yes
+"Fujitsu",yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"TU Wien",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,abstain,yes,abstain,yes,yes,yes
+"Oak Ridge",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,abstain,yes,yes,yes,yes,yes,yes
+"Intel",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,abstain,abstain,yes,yes,yes,yes,yes,yes
+"Berkeley",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Cisco",abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain
+"UTK",yes,yes,yes,yes,no,abstain,yes,yes,yes,yes,abstain,no,yes,yes,abstain,abstain,yes,yes
+"Paratools",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes
+"HPE",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"HLRS",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,abstain,yes,yes,no,yes,yes,yes,yes
+"INRIA",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,abstain,yes,yes,yes,abstain,yes,yes
+"OSU",abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,yes,abstain,abstain,yes,yes,yes,yes,yes
+"NEC",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes
+"Sandia",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Livermore",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"TU Munich",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes
+"Los Alamos",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"RIKEN",abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain,abstain
+"Edinburgh",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes
+"Mellanox",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"NVIDIA",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes
+"UTC",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Microsoft",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes

@@ -1,19 +1,19 @@
 topic,type,yes,no,abstain,missed
-"#143: Create MPI_INFO_ENV before MPI_INIT",no-no,0,0,0,0
-"#120: MPI_Cart_weighted_create / Topology aware Cartesian communicators",no-no,0,0,0,0
-"#132: Hardware communicators, guided mode",no-no,0,0,0,0
-"#156: Hardware communicators, unguided Mode",no-no,0,0,0,0
-"#137: BigCount",no-no,0,0,0,0
-"#136: Partitioned Point-to-Point Communication",no-no,0,0,0,0
-"#152: Make error code functions thread-safe",errata,0,0,0,0
-"#121: Clarify alignment of memory provided to applications",no-no,0,0,0,0
-"#121: Clarify alignment of memory provided to applications",1st,0,0,0,0
-"#146: Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string",no-no,0,0,0,0
-"#146: Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string",1st,0,0,0,0
-"#133: Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)",1st,0,0,0,0
-"#147: Deprecate MPI_Info_get and MPI_Info_get_valuelen",no-no,0,0,0,0
-"#147: Deprecate MPI_Info_get and MPI_Info_get_valuelen",1st,0,0,0,0
-"#125: Add nonblocking and persistent versions of sendrecv",no-no,0,0,0,0
-"#125: Add nonblocking and persistent versions of sendrecv",1st,0,0,0,0
-"#79: MPI_T Events",1st,0,0,0,0
-"#134: Add MPI_ERR_PROC_ABORTED",2nd,0,0,0,0
+"#143: Create MPI_INFO_ENV before MPI_INIT",no-no,21,0,3,0
+"#120: MPI_Cart_weighted_create / Topology aware Cartesian communicators",no-no,20,1,3,0
+"#132: Hardware communicators, guided mode",no-no,21,0,3,0
+"#156: Hardware communicators, unguided Mode",no-no,21,0,3,0
+"#137: BigCount",no-no,20,1,3,0
+"#136: Partitioned Point-to-Point Communication",no-no,20,0,4,0
+"#152: Make error code functions thread-safe",errata,21,0,3,0
+"#121: Clarify alignment of memory provided to applications",no-no,21,0,3,0
+"#121: Clarify alignment of memory provided to applications",1st,21,0,3,0
+"#146: Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string",no-no,21,0,3,0
+"#146: Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string",1st,18,0,6,0
+"#133: Fix Security Issue with MPI_Info_get by introducing two replacement functions MPI_Info_get_string and MPI_Info_get_buflen (withdrawn if 146 passes)",1st,12,6,6,0
+"#147: Deprecate MPI_Info_get and MPI_Info_get_valuelen",no-no,20,0,4,0
+"#147: Deprecate MPI_Info_get and MPI_Info_get_valuelen",1st,19,3,2,0
+"#125: Add nonblocking and persistent versions of sendrecv",no-no,20,0,4,0
+"#125: Add nonblocking and persistent versions of sendrecv",1st,20,0,4,0
+"#79: MPI_T Events",1st,22,0,2,0
+"#134: Add MPI_ERR_PROC_ABORTED",2nd,22,0,2,0
