@@ -1,6 +1,6 @@
 ---
 layout: votes
-date: September 15, 2020 - September 18, 2020
+date: September 28, 2020 - September 30, 2020
 year: "2020"
 month: "09"
 rules: 3152013

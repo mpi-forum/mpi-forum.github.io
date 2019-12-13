@@ -295,7 +295,7 @@ physical:
   - start: 2020-02-18
     end: 2020-02-21
     title: "Portland, OR (Microsoft)"
-    links: "no"
+    links: "yes"
 
   - year: 2019
 

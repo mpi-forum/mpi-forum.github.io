@@ -1,24 +1,6 @@
 schedule:
 
-    - day: Monday, September 28
-
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
-
-    - endday: done
-
-
-    - day: Tuesday, September 29
-
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
-
-    - endday: done
-
-
-    - day: Wednesday, September 30
+    - day: Monday, November 16
 
     - start: 12:00am
       end: 11:59pm
