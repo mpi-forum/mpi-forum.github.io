@@ -73,10 +73,12 @@ virtual:
   - start: 2019-08-14T11:00
     end: 2019-08-14T12:00
     title: "Base Elements of Topology Ticket"
+    recording_url: "none"
 
   - start: 2019-08-14T10:00
     end: 2019-08-14T11:00
     title: "String Handling"
+    recording_url: "none"
 
   - start: 2019-07-24T10:00
     end: 2019-07-24T12:00
