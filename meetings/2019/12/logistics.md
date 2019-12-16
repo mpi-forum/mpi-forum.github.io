@@ -9,8 +9,10 @@ month: "12"
 
 ### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-albuquerque-nm-tickets-80928470233)
 
-Advanced registration is required for all meetings. The registration fee for this meeting will be
-posted when the registration web page is available.
+Advanced registration is required for all meetings. The registration fee for this meeting is $170 +
+fees. The registration fee covers snacks on all days, lunch on Tuesday and Wednesday, and breakfast
+on Tuesday, Wednesday, and Thursday.
+
 
 ### Meeting Location
 
