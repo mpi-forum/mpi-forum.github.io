@@ -23,8 +23,7 @@ virtual:
   - start: 2020-01-08T10:00
     end: 2020-01-08T12:00
     title: "Pythonization / Standard Cleanup Discussion and Q&A (Jeff & Bill)"
-    recording_url:
-    recording_password:
+    recording_url: https://intel.webex.com/recordingservice/sites/intel/recording/playback/5af4e2d38924498ea6b5e5eed82fa191
 
   - year: 2019
 

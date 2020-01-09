@@ -43,7 +43,11 @@ layout: default
                         {{ item.start | date: "%-d %B" }}, {{ item.start | date: "%R" }} - {{ item.end | date: "%R" }} - {{ item.title }}
                         {% if item.recording_url.size > 0 %}
                             {% if item.recording_url != "none" %}
-                                - <a href="{{ item.recording_url }}">Recording (Password: {{ item.recording_password }})</a>
+                            - <a href="{{ item.recording_url }}">Recording
+                                {% if item.recording_password %}
+                                (Password: {{ item.recording_password }})
+                                {% endif %}
+                            </a>
                             {% endif %}
                         {% else %}
                             - [<a href="https://time.is/{{ item.start | date: "%H%M%p_%-d_%B_%Y_in_Chicago" }}">Your Time</a>]
