@@ -142,7 +142,7 @@ In addition to the active working groups, several working groups exist that have
 |11|One-Sided Communication | Bill Gropp | Pavan Balaji, Joseph Schuchart, Nathan Hjelm, Artem Polyakov | 
 |12|External Interfaces | Martin Schulz | Pavan Balaji, Brian Smith, Tony Skjellum |
 |13|I/O| Tony Skjellum | Quincey Koziol, Shinji Sumimoto | 
-|14|Tool Support| Marc-Andre Hermanns | Martin Schulz, Jithin Jose, Kathryn Mohror | 
+|14|Tool Support| Marc-Andre Hermanns | Martin Schulz, Kathryn Mohror | 
 |15|Deprecated Functions | Rolf Rabenseifner | Martin Schulz, Wesley Bland | 
 |16|Removed Interfaces | Rolf Rabenseifner | Martin Schulz, Wesley Bland | 
 |17|Backward Incompatibilities | Wesley Bland | Martin Schulz |
