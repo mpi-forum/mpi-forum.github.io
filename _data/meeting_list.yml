@@ -14,12 +14,6 @@ virtual:
     recording_url:
     recording_password:
 
-  - start: 2020-01-15T10:00
-    end: 2020-01-15T12:00
-    title: "Big Count (Dan)"
-    recording_url:
-    recording_password:
-
   - start: 2020-01-08T10:00
     end: 2020-01-08T12:00
     title: "Pythonization / Standard Cleanup Discussion and Q&A (Jeff & Bill)"
