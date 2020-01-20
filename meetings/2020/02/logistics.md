@@ -20,7 +20,7 @@ which is on the 9th floor of 1414 NW Northrup Street.
 
 There is no room block.
 
-In the past, people have stayed at the Residence Inn - Downtown Portland; Pearl District.
+In the past, people have stayed at the Residence Inn - Downtown Portland; Pearl District. Other options are the Portland Marriott City Center or the AC Hotel Portland Downtown.
 
 ### Meeting Cost
 
