@@ -6,7 +6,7 @@ year: "2020"
 month: "02"
 ---
 
-### Meeting Registration
+### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-portland-tickets-90256259903)
 
 The registration covers snacks at the meeting on Tuesday, Wednesday, Thursday, and Friday, lunch on
 Wednesday and Thursday, and the meeting logistics. Advanced registration is always required per the MPI Forum rules.
