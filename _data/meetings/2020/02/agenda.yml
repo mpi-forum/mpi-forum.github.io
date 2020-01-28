@@ -4,7 +4,7 @@ schedule:
 
     - start: 2:00pm
       end: 4:00pm
-      title: "WGs"
+      title: "FT WG"
 
     - start: 4:00pm
       end: 4:30pm
@@ -12,7 +12,7 @@ schedule:
 
     - start: 4:30pm
       end: 6:30pm
-      title: "WGs"
+      title: "FT WG"
 
     - endday: done
 
@@ -114,6 +114,10 @@ errata-votes:
 no-no-votes:
 
 first-votes:
+
+- number: 143
+  description: "Creating an MPI_INFO_ENV object before MPI_INIT."
+
 
 second-votes:
 
