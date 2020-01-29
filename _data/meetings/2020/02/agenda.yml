@@ -115,8 +115,8 @@ no-no-votes:
 
 first-votes:
 
-- number: 143
-  description: "Creating an MPI_INFO_ENV object before MPI_INIT."
+     - number: 143
+       description: "Creating an MPI_INFO_ENV object before MPI_INIT."
 
 
 second-votes:
