@@ -120,7 +120,7 @@ first-votes:
 
 
 second-votes:
-	 - number: 125
+     - number: 125
        description: "Add nonblocking and persistent versions of sendrecv"
 
 plenaries:
