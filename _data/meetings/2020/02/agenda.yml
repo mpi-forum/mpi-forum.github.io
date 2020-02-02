@@ -53,6 +53,10 @@ schedule:
     - day: Thursday, February 20
 
     - start: 8:30am
+      end: 8:45am
+      title: "Voting Block for New NoNos (if needed)"
+
+    - start: 8:45am
       end: 10:30am
       title: "Plenary (see below)"
 
