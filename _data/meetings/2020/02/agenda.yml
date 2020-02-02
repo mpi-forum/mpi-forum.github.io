@@ -120,6 +120,8 @@ first-votes:
 
 
 second-votes:
+	 - number: 125
+       description: "Add nonblocking and persistent versions of sendrecv"
 
 plenaries:
     - type: Welcome
@@ -136,6 +138,12 @@ plenaries:
       title: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL
       issue_number: 153
       presenter: Rolf
+      done: 0
+
+    - type: Discussion
+      title: MPI 4.0 Timeline
+      issue_number:
+      presenter: Martin
       done: 0
 
     - type: VM Discussion
