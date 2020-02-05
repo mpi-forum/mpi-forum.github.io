@@ -8,8 +8,9 @@ month: "02"
 
 ### [Meeting Registration](https://www.eventbrite.com/e/mpi-forum-portland-tickets-90256259903)
 
-The registration covers snacks at the meeting on Tuesday, Wednesday, Thursday, and Friday, lunch on
-Wednesday and Thursday, and the meeting logistics. Advanced registration is always required per the MPI Forum rules.
+The registration fee for this meeting is $150 + fees. The registration covers snacks at the meeting
+on Tuesday, Wednesday, Thursday, and Friday, lunch on Wednesday and Thursday, and the meeting
+logistics. Advanced registration is always required per the MPI Forum rules.
 
 ### Meeting Location
 
@@ -22,6 +23,3 @@ There is no room block.
 
 In the past, people have stayed at the Residence Inn - Downtown Portland; Pearl District. Other options are the Portland Marriott City Center or the AC Hotel Portland Downtown.
 
-### Meeting Cost
-
-TBD
