@@ -29,7 +29,7 @@ schedule:
 
     - start: 8:30am
       end: 10:30am
-      title: "WGs"
+      title: "Plenary (see below)"
 
     - start: 10:30am
       end: 11:00am
@@ -37,7 +37,7 @@ schedule:
 
     - start: 11:00am
       end: 1:00pm
-      title: "WGs"
+      title: "Plenary (see below)"
 
     - start: 1:00pm
       end: 2:00pm
@@ -45,7 +45,7 @@ schedule:
 
     - start: 2:00pm
       end: 4:00pm
-      title: "WGs or Plenary (see below)"
+      title: "Plenary (see below)"
 
     - start: 4:00pm
       end: 4:30pm
@@ -53,7 +53,7 @@ schedule:
 
     - start: 4:30pm
       end: 6:30pm
-      title: "WGs or Plenary (see below)"
+      title: "Plenary (see below)"
 
     - endday: done
 
@@ -62,7 +62,7 @@ schedule:
 
     - start: 8:30am
       end: 8:45am
-      title: "Voting Block for New NoNos (if needed)"
+      title: "Voting Block (for NoNos ballots)"
 
     - start: 8:45am
       end: 10:30am
@@ -92,6 +92,10 @@ schedule:
       end: 6:30pm
       title: "Plenary (see below)"
 
+    - start: 7:00pm
+      end: 10:00pm
+      title: "Group Dinner (pay on your own)"
+
     - endday: done
 
 
@@ -99,7 +103,7 @@ schedule:
 
     - start: 8:30am
       end: 9:00am
-      title: "Voting Block"
+      title: "Voting Block (for all remaining and new NoNo ballots)"
 
     - start: 9:00am
       end: 10:30am
