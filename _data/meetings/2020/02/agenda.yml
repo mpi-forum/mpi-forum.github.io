@@ -186,6 +186,12 @@ second-votes:
      - number: 79
        description: "Callback-driven event interface for MPI_T"
 
+     - number: 146
+       description: "Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string "
+
+     - number: 147
+       description: "Deprecate MPI_Info_get and MPI_Info_get_valuelen"
+
 plenaries:
     - type: Welcome
       title: Introductions
