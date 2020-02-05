@@ -6,6 +6,10 @@ schedule:
       end: 4:00pm
       title: "FT WG"
 
+    - start: 2:00pm
+      end: 4:00pm
+      title: "Topology WG"
+
     - start: 4:00pm
       end: 4:30pm
       title: Break
@@ -13,6 +17,10 @@ schedule:
     - start: 4:30pm
       end: 6:30pm
       title: "FT WG"
+
+    - start: 4:30pm
+      end: 6:30pm
+      title: "Semantic Terms WG"
 
     - endday: done
 
@@ -112,20 +120,67 @@ procedure-votes:
 
 errata-votes:
 
+    - number: 158
+      description: "Formal approval of Ticket 0 Pythonization Changes"
+
     - number: 153
-      description: "Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL (TENTATIVE)"
+      description: "Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL"
+
+    - number: 160
+      description: "Clarify behavior for invalid MPI_T binding arguments"
 
 no-no-votes:
 
+    - number: 103
+      description: "Changes to the MPI Sessions proposal"
+
+    - number: 120
+      description: "MPI_Cart_create_weighted / Topology aware Cartesian Communicators"
+
+    - number: 96
+      description: "Semantic Terms"
+
+    - number: 122
+      description: "Intro nonblocking, no serialization and no deadlocks"
+
+
 first-votes:
+
+     - number: 103
+       description: "MPI Sessions"
 
      - number: 143
        description: "Creating an MPI_INFO_ENV object before MPI_INIT."
 
+     - number: 132
+       description: "Hardware split, guided mode."
+
+     - number: 156
+       description: "Hardware split, unguided mode."
+
+     - number: 136
+       description: "Partitioned Point-to-Point Communication"
+
+     - number: 120
+       description: "MPI_Cart_create_weighted / Topology aware Cartesian Communicators"
+       
+     - number: 96
+       description: "Semantic Terms"
+
+     - number: 122
+       description: "Intro nonblocking, no serialization and no deadlocks"
+
 
 second-votes:
+
      - number: 125
        description: "Add nonblocking and persistent versions of sendrecv"
+
+     - number: 121
+       description: "Clarify alignment of memory provided to applications"
+
+     - number: 79
+       description: "Callback-driven event interface for MPI_T"
 
 plenaries:
     - type: Welcome
@@ -138,9 +193,56 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: Discussion
+      title: Procedure of opening up the MPI Standard repository
+      presenter: Wesley
+      done: 0
+
     - type: Errata Reading
       title: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL
       issue_number: 153
+      presenter: Rolf
+      done: 0
+
+    - type: Errata Reading
+      title: Clarify behavior for invalid MPI_T binding arguments
+      issue_number: 160
+      presenter: Kathryn
+      done: 0
+
+    - type: Ticket 0 Reading
+      title: Pythonization Changes
+      issue_number: 158
+      presenter: Jeff
+      done: 0
+
+    - type: NoNo Reading
+      title: Changes to the MPI Session proposal
+      issue_number: 103
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: Embiggenment
+      issue_number: 137
+      presenter: Jeff
+      done: 0
+
+    - type: Reading or NoNo Update
+      title: MPI_Cart_create_weighted / Topology aware Cartesian Communicators
+      issue_number: 120
+      presenter: Rolf
+      done: 0
+
+    - type: Reading or NoNo Update
+      title: Semantic Terms
+      issue_number: 96
+      presenter: Rolf
+      done: 0
+
+    - type: Reading or NoNo Update
+      title: Intro nonblocking, no serialization and no deadlocks
+      issue_number: 122
       presenter: Rolf
       done: 0
 
@@ -148,6 +250,12 @@ plenaries:
       title: MPI 4.0 Timeline
       issue_number:
       presenter: Martin
+      done: 0
+
+    - type: Hackathon
+      title: Pythonization Help for newer PRs (timing can shift)
+      issue_number:
+      presenter: Jeff
       done: 0
 
     - type: VM Discussion
