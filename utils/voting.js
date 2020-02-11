@@ -221,14 +221,19 @@ function calculateVotes() {
 
 function buildVoteTable() {
     var html = "";
+    var printable_html = "";
     imove_orgs = 0;
     ooe_orgs = 0;
     var voting_orgs = [];
 
     meetings_calculated++;
 
-    if (votes.data.length)
+    if (votes.data.length) {
         html += '<table>\n';
+        printable_html += '<table border="1">\n';
+        printable_html += '<tr>\n';
+        printable_html += '<th> </th>\n';
+    }
     for (var i = 0; i < votes.data.length || (i == 0 && votes.data.length == 0); i++) {
         if (votes.data.length != 0) {
             html += '<tr>\n';
@@ -246,6 +251,11 @@ function buildVoteTable() {
 
             html += '<tr>\n';
             html += '<td><ol data-draggable="target" vote-type="yes" vote_num="' + i + '">\n';
+
+            var topic = votes.data[i]['topic'].split(":")[0];
+            var type = votes.data[i]['type'];
+
+            printable_html += '<th class="rotate"><div>' + topic + ' (' + type + ')</div></th>';
         }
         var shuffled_orgs = shuffle(Object.keys(orgs));
         for (key in shuffled_orgs) {
@@ -277,13 +287,17 @@ function buildVoteTable() {
             html += '</tr>\n';
         }
     }
+    printable_html += '</tr>\n';
     if (votes.data.length)
         html += '</table>\n';
+
+    sorted_orgs = uniq(voting_orgs);
 
     if ((meetings_calculated == 3) && (imove_orgs <= ((2 * ooe_orgs) / 3))) {
         $('#header').html('<h1>Meeting Quorum Not Met</h1><br>\n' + '<h3>' +
                           imove_orgs + ' of ' + Math.ceil((2 * ooe_orgs) / 3) + ' orgs needed</h3><br>\n');
         $('#votes').html("");
+        $('#printable_votes').html("");
         $('#results').html("");
     } else {
         $('#header').html('<h3>Meeting Quorum Met</h3>\n');
@@ -294,6 +308,19 @@ function buildVoteTable() {
             $('#header').html($('#header').html() + '<h2>No Votes Scheduled</h2>\n');
         }
         $('#votes').html(html);
+
+        for (var i = 0; i < sorted_orgs.length; i++) {
+            printable_html += '<tr>\n';
+            printable_html += '<td>' + sorted_orgs[i] + '</td>\n';
+            for (var j = 0; j < votes.data.length; j++) {
+                printable_html += '<td>    </td>\n';
+            }
+            printable_html += '</tr>\n';
+        }
+        printable_html += '</table>\n';
+        printable_html += '<P style="page-break-before: always">\n';
+
+        $('#printable_votes').html(printable_html);
     }
 
     var output = '<b>OOE ORGS (Registered/Present at 2 of 3 previous meetings):</b> ' + ooe_orgs + '<br>\n';
@@ -304,7 +331,6 @@ function buildVoteTable() {
     }
     $('#non_voting').html(output);
     output = "<h3>Voting Orgs</h3>\n";
-    sorted_orgs = uniq(voting_orgs);
     for (var i = 0; i < sorted_orgs.length; i++) {
         if (i == 0) {
             output += sorted_orgs[i];
@@ -391,8 +417,9 @@ function buildImoveMatrix(attendance, current) {
 }
 
 function handleVoteGeneration() {
-    document.getElementById("title").innerHTML =
-        month_names[parseInt(current_month-1)] + " " + current_year + " Voting";
+    if (document.getElementById("title") != null)
+        document.getElementById("title").innerHTML =
+            month_names[parseInt(current_month-1)] + " " + current_year + " Voting";
 
     filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
         +current_year+'/'+zeroFill(current_month,2)+'/attendance.csv'
