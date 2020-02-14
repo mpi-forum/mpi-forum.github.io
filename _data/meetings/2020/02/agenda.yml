@@ -208,6 +208,11 @@ plenaries:
       presenter: Wesley
       done: 0
 
+    - type: Discussion
+      title: Document Editor Changes
+      presenter: Wesley (on behalf of Bill)
+      done: 0
+
     - type: Errata Reading
       title: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL
       issue_number: 153
