@@ -142,7 +142,10 @@ no-no-votes:
       description: "Semantic Terms"
 
     - number: 122
-      description: "Intro nonblocking, no serialization and no deadlocks"
+      description: "Intro nonblocking, no serialization and no deadlocks - changelog"
+
+    - number: 122
+      description: "Intro nonblocking, no serialization and no deadlocks - can be used to avoid"
 
     - number: 79
       description: "Callback-driven event interface for MPI_T - remove extent"
