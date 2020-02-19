@@ -147,6 +147,10 @@ no-no-votes:
     - number: 122
       description: "Intro nonblocking, no serialization and no deadlocks"
 
+    - number: 79
+      description: "Callback-driven event interface for MPI_T"
+
+
 
 first-votes:
 
@@ -196,33 +200,33 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
-
-    - type: Discussion
-      title: Procedure of opening up the MPI Standard repository
-      presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Document Editor Changes
       presenter: Wesley (on behalf of Bill)
-      done: 0
+      done: 1
 
-    - type: Errata Reading
-      title: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL
-      issue_number: 153
-      presenter: Rolf
-      done: 0
+    - type: Discussion
+      title: Procedure of opening up the MPI Standard repository
+      presenter: Wesley
+      done: 1
 
     - type: Errata Reading
       title: Clarify behavior for invalid MPI_T binding arguments
       issue_number: 160
-      presenter: Kathryn
+      presenter: Marc-Andre
+      done: 0
+
+    - type: NoNo Reading
+      title: MPI_Events updates
+      issue_number: 79
+      presenter: Marc-Andre
       done: 0
 
     - type: Ticket 0 Reading
@@ -231,21 +235,15 @@ plenaries:
       presenter: Jeff
       done: 0
 
-    - type: NoNo Reading
-      title: Changes to the MPI Session proposal
-      issue_number: 103
-      presenter: Dan
-      done: 0
-
-    - type: Reading
-      title: Embiggenment
-      issue_number: 137
-      presenter: Jeff
+    - type: Errata Reading
+      title: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL
+      issue_number: 153
+      presenter: Rolf
       done: 0
 
     - type: Reading or NoNo Update
-      title: MPI_Cart_create_weighted / Topology aware Cartesian Communicators
-      issue_number: 120
+      title: Intro nonblocking, no serialization and no deadlocks
+      issue_number: 122
       presenter: Rolf
       done: 0
 
@@ -256,9 +254,21 @@ plenaries:
       done: 0
 
     - type: Reading or NoNo Update
-      title: Intro nonblocking, no serialization and no deadlocks
-      issue_number: 122
+      title: MPI_Cart_create_weighted / Topology aware Cartesian Communicators
+      issue_number: 120
       presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: Embiggenment
+      issue_number: 137
+      presenter: Jeff
+      done: 0
+
+    - type: NoNo Reading
+      title: Changes to the MPI Session proposal
+      issue_number: 103
+      presenter: Dan
       done: 0
 
     - type: Discussion
