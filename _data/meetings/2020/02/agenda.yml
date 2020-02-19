@@ -249,25 +249,25 @@ plenaries:
       title: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL
       issue_number: 153
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading or NoNo Update
       title: Intro nonblocking, no serialization and no deadlocks
       issue_number: 122
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading or NoNo Update
       title: Semantic Terms
       issue_number: 96
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading or NoNo Update
       title: MPI_Cart_create_weighted / Topology aware Cartesian Communicators
       issue_number: 120
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: Embiggenment
@@ -285,6 +285,12 @@ plenaries:
       title: Changes to the MPI Session proposal
       issue_number: 103
       presenter: Dan
+      done: 0
+
+    - type: Clean Reading
+      title: Semantic Terms
+      issue_number: 96
+      presenter: Rolf
       done: 0
 
     - type: Discussion
