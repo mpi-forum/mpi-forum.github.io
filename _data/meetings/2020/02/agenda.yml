@@ -130,9 +130,6 @@ errata-votes:
     - number: 153
       description: "Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL"
 
-    - number: 160
-      description: "Clarify behavior for invalid MPI_T binding arguments"
-
 no-no-votes:
 
     - number: 103
@@ -148,9 +145,10 @@ no-no-votes:
       description: "Intro nonblocking, no serialization and no deadlocks"
 
     - number: 79
-      description: "Callback-driven event interface for MPI_T"
+      description: "Callback-driven event interface for MPI_T - remove extent"
 
-
+    - number: 79
+      description: "Callback-driven event interface for MPI_T - timestamp as count"
 
 first-votes:
 
@@ -221,19 +219,25 @@ plenaries:
       title: Clarify behavior for invalid MPI_T binding arguments
       issue_number: 160
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
-    - type: NoNo Reading
+    - type: NoNo Reading - drop extent argument that was already removed
       title: MPI_Events updates
       issue_number: 79
       presenter: Marc-Andre
-      done: 0
+      done: 1
+
+    - type: NoNo Reading - timestamp as MPI_Count
+      title: MPI_Events updates
+      issue_number: 79
+      presenter: Marc-Andre
+      done: 1
 
     - type: Ticket 0 Reading
       title: Pythonization Changes
       issue_number: 158
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL
@@ -288,3 +292,10 @@ plenaries:
       issue_number:
       presenter: Martin
       done: 0
+      
+    - type: Topic
+      title: MPI_T Errata on binding to COMM_WORLD and SELF
+      issue_number:
+      presenter: Martin
+      done:
+
