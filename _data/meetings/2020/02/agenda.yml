@@ -150,6 +150,9 @@ no-no-votes:
     - number: 79
       description: "Callback-driven event interface for MPI_T - timestamp as count"
 
+    - number: 147
+      description: "Deprecate MPI_Info_get and MPI_Info_get_valuelen"
+
 first-votes:
 
      - number: 103
@@ -267,6 +270,12 @@ plenaries:
       title: Embiggenment
       issue_number: 137
       presenter: Jeff
+      done: 0
+
+    - type: NoNo Reading
+      title: Change log deprecate get info ...
+      issue_number: 147
+      presenter: Ryan
       done: 0
 
     - type: NoNo Reading
