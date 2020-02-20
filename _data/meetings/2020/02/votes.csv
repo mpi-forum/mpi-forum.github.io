@@ -15,7 +15,6 @@ topic,type,yes,no,abstain,missed
 "#132: Hardware split, guided mode.",1st,0,0,0,0
 "#156: Hardware split, unguided mode.",1st,0,0,0,0
 "#136: Partitioned Point-to-Point Communication",1st,0,0,0,0
-"#120: MPI_Cart_create_weighted / Topology aware Cartesian Communicators",1st,0,0,0,0
 "#96: Semantic Terms",1st,0,0,0,0
 "#122: Intro nonblocking, no serialization and no deadlocks",1st,0,0,0,0
 "#125: Add nonblocking and persistent versions of sendrecv",2nd,0,0,0,0

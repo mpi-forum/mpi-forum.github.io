@@ -130,6 +130,7 @@ errata-votes:
     - number: 153
       description: "Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL"
 
+
 no-no-votes:
 
     - number: 103
@@ -159,6 +160,7 @@ no-no-votes:
     - number: 153
       description: "Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL (Thu)"
 
+
 first-votes:
 
      - number: 103
@@ -176,9 +178,6 @@ first-votes:
      - number: 136
        description: "Partitioned Point-to-Point Communication"
 
-     - number: 120
-       description: "MPI_Cart_create_weighted / Topology aware Cartesian Communicators"
-       
      - number: 96
        description: "Semantic Terms"
 
@@ -202,6 +201,7 @@ second-votes:
 
      - number: 147
        description: "Deprecate MPI_Info_get and MPI_Info_get_valuelen"
+
 
 plenaries:
     - type: Welcome
