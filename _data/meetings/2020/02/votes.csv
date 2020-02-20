@@ -1,12 +1,13 @@
 topic,type,yes,no,abstain,missed
-"#103: Changes to the MPI Sessions proposal",no-no,0,0,0,0
-"#120: MPI_Cart_create_weighted / Topology aware Cartesian Communicators",no-no,0,0,0,0
-"#96: Semantic Terms",no-no,0,0,0,0
+"#153: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL",no-no,0,0,0,0
 "#122: Intro nonblocking, no serialization and no deadlocks - changelog",no-no,0,0,0,0
 "#122: Intro nonblocking, no serialization and no deadlocks - can be used to avoid",no-no,0,0,0,0
 "#79: Callback-driven event interface for MPI_T - remove extent",no-no,0,0,0,0
 "#79: Callback-driven event interface for MPI_T - timestamp as count",no-no,0,0,0,0
 "#147: Deprecate MPI_Info_get and MPI_Info_get_valuelen",no-no,0,0,0,0
+"#120: MPI_Cart_create_weighted / Topology aware Cartesian Communicators",no-no,0,0,0,0
+"#96: Semantic Terms",no-no,0,0,0,0
+"#103: Changes to the MPI Sessions proposal",no-no,0,0,0,0
 "#158: Formal approval of Ticket 0 Pythonization Changes",errata,0,0,0,0
 "#153: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL",errata,0,0,0,0
 "#103: MPI Sessions",1st,0,0,0,0
