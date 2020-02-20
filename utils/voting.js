@@ -67,6 +67,7 @@ current_month = 02;
 current_year = 2020;
 var orgs = {};
 var votes = {};
+var prev_ballot = {};
 var registered_orgs;
 var ooe_orgs;
 var imove_orgs;
@@ -160,7 +161,11 @@ function finishVote() {
 
     output += 'org';
     for (var i = 0; i < votes.data.length; i++) {
-        output += ',"' + votes.data[i]['topic'] + '"';
+        topic = votes.data[i]['topic'];
+        type = votes.data[i]['type'];
+        tmp_topic = "" + topic + " (" + type + ")"
+
+        output += ',"' + tmp_topic + '"';
     }
     output += '\n';
 
@@ -220,6 +225,14 @@ function calculateVotes() {
     finishVote();
 }
 
+function findPrevVote(org, topic) {
+    for (var i = 0; i < prev_ballot.data.length; i++) {
+        if (prev_ballot.data[i]['org'] == org) {
+            return prev_ballot.data[i][topic];
+        }
+    }
+}
+
 function buildVoteTable() {
     var html = "";
     var printable_html = "";
@@ -237,6 +250,9 @@ function buildVoteTable() {
             printable_html += '<th> </th>\n';
         }
         for (var i = 0; i < votes.data.length || (i == 0 && votes.data.length == 0); i++) {
+            var topic_num = "";
+            var topic = "";
+            var type = "";
             if (votes.data.length != 0) {
                 html += '<tr>\n';
                 html += '<th topic="true" colspan="3">\n';
@@ -254,12 +270,15 @@ function buildVoteTable() {
                 html += '<tr>\n';
                 html += '<td><ol data-draggable="target" vote-type="yes" vote_num="' + i + '">\n';
 
-                var topic = votes.data[i]['topic'].split(":")[0];
-                var type = votes.data[i]['type'];
+                topic_num = votes.data[i]['topic'].split(":")[0];
+                topic = votes.data[i]['topic'];
+                type = votes.data[i]['type'];
 
                 printable_html += '<th class="rotate"><div>' + topic + ' (' + type + ')</div></th>';
             }
             var shuffled_orgs = shuffle(Object.keys(orgs));
+            var abstain_html = "";
+            var no_html = "";
             for (key in shuffled_orgs) {
                 var org = shuffled_orgs[key];
                 if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
@@ -267,7 +286,15 @@ function buildVoteTable() {
                     if (orgs[org]['present']) {
                         if (i == 0) imove_orgs++;
                         if (votes.data.length)
+                            tmp_topic = topic + " (" + type + ")"
+                        org_vote = findPrevVote(org,tmp_topic);
+                        if (org_vote == "abstain") {
+                            abstain_html += '<li data-draggable="item" org="' + org + '" vote_num="' + i + '" vote-type="abstain">' + org + '</li>\n';
+                        } else if (org_vote == "no") {
+                            no_html += '<li data-draggable="item" org="' + org + '" vote_num="' + i + '" vote-type="no">' + org + '</li>\n';
+                        } else {
                             html += '<li data-draggable="item" org="' + org + '" vote_num="' + i + '" vote-type="yes">' + org + '</li>\n';
+                        }
                         voting_orgs.push(org);
                     } else {
                         non_voting_orgs[org] = {reason: 'Not present at current meeting'};
@@ -284,8 +311,12 @@ function buildVoteTable() {
             }
             if (votes.data.length) {
                 html += '</ol></td>\n';
-                html += '<td><ol data-draggable="target" vote-type="abstain" vote_num="' + i + '"></ol></td>\n';
-                html += '<td><ol data-draggable="target" vote-type="no" vote_num="' + i + '"></ol></td>\n';
+                html += '<td><ol data-draggable="target" vote-type="abstain" vote_num="' + i + '">\n';
+                html += abstain_html;
+                html += '\n</ol></td>\n';
+                html += '<td><ol data-draggable="target" vote-type="no" vote_num="' + i + '">\n';
+                html += no_html;
+                html += '\n</ol></td>\n';
                 html += '</tr>\n';
             }
         }
@@ -423,6 +454,21 @@ function handleVoteGeneration() {
     if (document.getElementById("title") != null)
         document.getElementById("title").innerHTML =
             month_names[parseInt(current_month-1)] + " " + current_year + " Voting";
+
+    filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
+        +current_year+'/'+zeroFill(current_month,2)+'/ballot.csv'
+
+    Papa.parse(filename, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+            prev_ballot = results;
+        },
+        error: function(error, file) {
+            console.error(error);
+        }
+    });
 
     filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
         +current_year+'/'+zeroFill(current_month,2)+'/attendance.csv'
