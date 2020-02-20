@@ -253,29 +253,36 @@ function buildVoteTable() {
             var topic_num = "";
             var topic = "";
             var type = "";
-            if (votes.data.length != 0) {
-                html += '<tr>\n';
-                html += '<th topic="true" colspan="3">\n';
-                html += votes.data[i]['topic'] + '<br>';
-                html += 'Type: ' + votes.data[i]['type'];
-                html += '</th>\n';
-                html += '</tr>\n';
 
-                html += '<tr>\n';
-                html += '<th type="results" vote-type="yes" vote_num='+ i +' win="no">YES</div></td>\n';
-                html += '<th type="results" vote-type="abstain" vote_num='+ i +' win="no">ABSTAIN</div>\n';
-                html += '<th type="results" vote-type="no" vote_num='+ i +' win="no">NO</div>\n';
-                html += '</tr>\n';
+            topic_num = votes.data[i]['topic'].split(":")[0];
+            topic = votes.data[i]['topic'];
+            type = votes.data[i]['type'];
 
-                html += '<tr>\n';
-                html += '<td><ol data-draggable="target" vote-type="yes" vote_num="' + i + '">\n';
-
-                topic_num = votes.data[i]['topic'].split(":")[0];
-                topic = votes.data[i]['topic'];
-                type = votes.data[i]['type'];
-
-                printable_html += '<th class="rotate"><div>' + topic + ' (' + type + ')</div></th>';
+            if (topic == "daybreak") {
+                html += '<tr><th> </th><th></th><th> </th></tr>\n';
+                html += '<tr><th> </th><th bgcolor="#FF8200">Begin New Voting Day</th><th> </th></tr>\n';
+                html += '<tr><th> </th><th></th><th> </th></tr>\n';
+                continue;
             }
+
+            html += '<tr>\n';
+            html += '<th topic="true" colspan="3">\n';
+            html += votes.data[i]['topic'] + '<br>';
+            html += 'Type: ' + votes.data[i]['type'];
+            html += '</th>\n';
+            html += '</tr>\n';
+
+            html += '<tr>\n';
+            html += '<th type="results" vote-type="yes" vote_num='+ i +' win="no">YES</div></td>\n';
+            html += '<th type="results" vote-type="abstain" vote_num='+ i +' win="no">ABSTAIN</div>\n';
+            html += '<th type="results" vote-type="no" vote_num='+ i +' win="no">NO</div>\n';
+            html += '</tr>\n';
+
+            html += '<tr>\n';
+            html += '<td><ol data-draggable="target" vote-type="yes" vote_num="' + i + '">\n';
+
+            printable_html += '<th class="rotate"><div>' + topic + ' (' + type + ')</div></th>';
+
             var shuffled_orgs = shuffle(Object.keys(orgs));
             var abstain_html = "";
             var no_html = "";
