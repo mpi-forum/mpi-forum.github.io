@@ -133,28 +133,31 @@ errata-votes:
 no-no-votes:
 
     - number: 103
-      description: "Changes to the MPI Sessions proposal"
+      description: "Changes to the MPI Sessions proposal (Fri)"
 
     - number: 120
-      description: "MPI_Cart_create_weighted / Topology aware Cartesian Communicators"
+      description: "MPI_Cart_create_weighted / Topology aware Cartesian Communicators (Fri)"
 
     - number: 96
-      description: "Semantic Terms"
+      description: "Semantic Terms (Fri)"
 
     - number: 122
-      description: "Intro nonblocking, no serialization and no deadlocks - changelog"
+      description: "Intro nonblocking, no serialization and no deadlocks - changelog (Thu)"
 
     - number: 122
-      description: "Intro nonblocking, no serialization and no deadlocks - can be used to avoid"
+      description: "Intro nonblocking, no serialization and no deadlocks - can be used to avoid (Thu)"
 
     - number: 79
-      description: "Callback-driven event interface for MPI_T - remove extent"
+      description: "Callback-driven event interface for MPI_T - remove extent (Thu)"
 
     - number: 79
-      description: "Callback-driven event interface for MPI_T - timestamp as count"
+      description: "Callback-driven event interface for MPI_T - timestamp as count (Thu)"
 
     - number: 147
-      description: "Deprecate MPI_Info_get and MPI_Info_get_valuelen"
+      description: "Deprecate MPI_Info_get and MPI_Info_get_valuelen (Thu)"
+
+    - number: 153
+      description: "Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL (Thu)"
 
 first-votes:
 
