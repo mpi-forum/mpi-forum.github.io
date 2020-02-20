@@ -229,153 +229,155 @@ function buildVoteTable() {
 
     meetings_calculated++;
 
-    if (votes.data.length) {
-        html += '<table>\n';
-        printable_html += '<table border="1">\n';
-        printable_html += '<tr>\n';
-        printable_html += '<th> </th>\n';
-    }
-    for (var i = 0; i < votes.data.length || (i == 0 && votes.data.length == 0); i++) {
-        if (votes.data.length != 0) {
-            html += '<tr>\n';
-            html += '<th topic="true" colspan="3">\n';
-            html += votes.data[i]['topic'] + '<br>';
+    if (meetings_calculated == 3) {
+        if (votes.data.length) {
+            html += '<table>\n';
+            printable_html += '<table border="1">\n';
+            printable_html += '<tr>\n';
+            printable_html += '<th> </th>\n';
+        }
+        for (var i = 0; i < votes.data.length || (i == 0 && votes.data.length == 0); i++) {
+            if (votes.data.length != 0) {
+                html += '<tr>\n';
+                html += '<th topic="true" colspan="3">\n';
+                html += votes.data[i]['topic'] + '<br>';
+                html += 'Type: ' + votes.data[i]['type'];
+                html += '</th>\n';
+                html += '</tr>\n';
+
+                html += '<tr>\n';
+                html += '<th type="results" vote-type="yes" vote_num='+ i +' win="no">YES</div></td>\n';
+                html += '<th type="results" vote-type="abstain" vote_num='+ i +' win="no">ABSTAIN</div>\n';
+                html += '<th type="results" vote-type="no" vote_num='+ i +' win="no">NO</div>\n';
+                html += '</tr>\n';
+
+                html += '<tr>\n';
+                html += '<td><ol data-draggable="target" vote-type="yes" vote_num="' + i + '">\n';
+
+                var topic = votes.data[i]['topic'].split(":")[0];
+                var type = votes.data[i]['type'];
+
+                printable_html += '<th class="rotate"><div>' + topic + ' (' + type + ')</div></th>';
+            }
+            var shuffled_orgs = shuffle(Object.keys(orgs));
+            for (key in shuffled_orgs) {
+                var org = shuffled_orgs[key];
+                if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
+                    if (i == 0) ooe_orgs++;
+                    if (orgs[org]['present']) {
+                        if (i == 0) imove_orgs++;
+                        if (votes.data.length)
+                            html += '<li data-draggable="item" org="' + org + '" vote_num="' + i + '" vote-type="yes">' + org + '</li>\n';
+                        voting_orgs.push(org);
+                    } else {
+                        non_voting_orgs[org] = {reason: 'Not present at current meeting'};
+                    }
+                } else {
+                    if (!orgs[org]['present']) {
+                        non_voting_orgs[org] = {reason: 'Not present at current meeting'};
+                    } else if (orgs[org]['registered'] < 2) {
+                        non_voting_orgs[org] = {reason: 'Registered for ' + orgs[org]['registered'] + ' of 3 previous meetings.'};
+                    } else {
+                        non_voting_orgs[org] = {reason: 'Attended ' + orgs[org]['attend'] + ' of 3 previous meetings'};
+                    }
+                }
+            }
+            if (votes.data.length) {
+                html += '</ol></td>\n';
+                html += '<td><ol data-draggable="target" vote-type="abstain" vote_num="' + i + '"></ol></td>\n';
+                html += '<td><ol data-draggable="target" vote-type="no" vote_num="' + i + '"></ol></td>\n';
+                html += '</tr>\n';
+            }
+        }
+        printable_html += '</tr>\n';
+        if (votes.data.length)
+            html += '</table>\n';
+
+        sorted_orgs = uniq(voting_orgs);
+
+        if (imove_orgs <= ((2 * ooe_orgs) / 3)) {
+            $('#header').html('<h1>Meeting Quorum Not Met</h1><br>\n' + '<h3>' +
+                              imove_orgs + ' of ' + Math.ceil((2 * ooe_orgs) / 3) + ' orgs needed</h3><br>\n');
+            $('#votes').html("");
+            $('#printable_votes').html("");
+            $('#results').html("");
+        } else {
+            $('#header').html('<h3>Meeting Quorum Met</h3>\n');
+            if (votes.data.length) {
+                $('#header').html($('#header').html() + '<h3>' + Math.ceil((3 * imove_orgs) / 4) + ' of ' +
+                                  imove_orgs + ' votes needed to meet ballot quorum</h3>');
+            } else {
+                $('#header').html($('#header').html() + '<h2>No Votes Scheduled</h2>\n');
+            }
+            $('#votes').html(html);
+
+            for (var i = 0; i < sorted_orgs.length; i++) {
+                printable_html += '<tr>\n';
+                printable_html += '<td>' + sorted_orgs[i] + '</td>\n';
+                for (var j = 0; j < votes.data.length; j++) {
+                    printable_html += '<td>    </td>\n';
+                }
+                printable_html += '</tr>\n';
+            }
+            printable_html += '</table>\n';
+            printable_html += '<P style="page-break-before: always">\n';
+
+            $('#printable_votes').html(printable_html);
+        }
+
+        var output = '<b>OOE ORGS (Registered/Present at 2 of 3 previous meetings):</b> ' + ooe_orgs + '<br>\n';
+        output += '<b>IMOVE ORGS: (Registered/Present at 2 of 3 previous meetings including this one)</b> ' + imove_orgs + ' (needed ' + Math.ceil((2 * ooe_orgs) / 3) + ')<br>\n';
+        output += "<h3>Non Voting Orgs</h3>";
+        for (org in non_voting_orgs) {
+            output += '<b>' + org + ':</b> ' + non_voting_orgs[org]['reason'] + '<br>\n';
+        }
+        $('#non_voting').html(output);
+        output = "<h3>Voting Orgs</h3>\n";
+        for (var i = 0; i < sorted_orgs.length; i++) {
+            if (i == 0) {
+                output += sorted_orgs[i];
+            } else {
+                output += ', ' + sorted_orgs[i];
+            }
+        }
+        output += '<br>\n';
+        $('#voting_orgs').html(output);
+
+        html = '<tr>\n';
+        html += '<th class="orgs"></th>\n';
+        for (var i = 0; i < votes.data.length; i++) {
+            html += '<th style="min-width: 240px;">';
+            html += votes.data[i]['topic'] + '<br><br>\n';
             html += 'Type: ' + votes.data[i]['type'];
             html += '</th>\n';
-            html += '</tr>\n';
-
-            html += '<tr>\n';
-            html += '<th type="results" vote-type="yes" vote_num='+ i +' win="no">YES</div></td>\n';
-            html += '<th type="results" vote-type="abstain" vote_num='+ i +' win="no">ABSTAIN</div>\n';
-            html += '<th type="results" vote-type="no" vote_num='+ i +' win="no">NO</div>\n';
-            html += '</tr>\n';
-
-            html += '<tr>\n';
-            html += '<td><ol data-draggable="target" vote-type="yes" vote_num="' + i + '">\n';
-
-            var topic = votes.data[i]['topic'].split(":")[0];
-            var type = votes.data[i]['type'];
-
-            printable_html += '<th class="rotate"><div>' + topic + ' (' + type + ')</div></th>';
         }
-        var shuffled_orgs = shuffle(Object.keys(orgs));
-        for (key in shuffled_orgs) {
-            var org = shuffled_orgs[key];
-            if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
-                if (i == 0) ooe_orgs++;
-                if (orgs[org]['present']) {
-                    if (i == 0) imove_orgs++;
-                    if (votes.data.length)
-                        html += '<li data-draggable="item" org="' + org + '" vote_num="' + i + '" vote-type="yes">' + org + '</li>\n';
-                    voting_orgs.push(org);
-                } else {
-                    non_voting_orgs[org] = {reason: 'Not present at current meeting'};
-                }
-            } else {
-                if (!orgs[org]['present']) {
-                    non_voting_orgs[org] = {reason: 'Not present at current meeting'};
-                } else if (orgs[org]['registered'] < 2) {
-                    non_voting_orgs[org] = {reason: 'Registered for ' + orgs[org]['registered'] + ' of 3 previous meetings.'};
-                } else {
-                    non_voting_orgs[org] = {reason: 'Attended ' + orgs[org]['attend'] + ' of 3 previous meetings'};
-                }
-            }
+        html += '</tr>\n';
+        html += '<tr>\n';
+        html += '<th class="orgs">Results</th>\n';
+        for (var i = 0; i < votes.data.length; i++) {
+            html += '<td id="vote ' + i + '"><br></td>\n';
         }
-        if (votes.data.length) {
-            html += '</ol></td>\n';
-            html += '<td><ol data-draggable="target" vote-type="abstain" vote_num="' + i + '"></ol></td>\n';
-            html += '<td><ol data-draggable="target" vote-type="no" vote_num="' + i + '"></ol></td>\n';
-            html += '</tr>\n';
+        html += '</tr>\n';
+
+        $('#results_table').html(html);
+
+        //get the collection of draggable items and add their draggable attributes
+        for(items = document.querySelectorAll('[data-draggable="item"]'),
+            len = items.length,
+            i = 0; i < len; i ++)
+        {
+            items[i].setAttribute('draggable', 'true');
+            items[i].setAttribute('aria-grabbed', 'false');
+            items[i].setAttribute('tabindex', '0');
         }
-    }
-    printable_html += '</tr>\n';
-    if (votes.data.length)
-        html += '</table>\n';
 
-    sorted_orgs = uniq(voting_orgs);
-
-    if ((meetings_calculated == 3) && (imove_orgs <= ((2 * ooe_orgs) / 3))) {
-        $('#header').html('<h1>Meeting Quorum Not Met</h1><br>\n' + '<h3>' +
-                          imove_orgs + ' of ' + Math.ceil((2 * ooe_orgs) / 3) + ' orgs needed</h3><br>\n');
-        $('#votes').html("");
-        $('#printable_votes').html("");
-        $('#results').html("");
-    } else {
-        $('#header').html('<h3>Meeting Quorum Met</h3>\n');
-        if (votes.data.length) {
-            $('#header').html($('#header').html() + '<h3>' + Math.ceil((3 * imove_orgs) / 4) + ' of ' +
-                              imove_orgs + ' votes needed to meet ballot quorum</h3>');
-        } else {
-            $('#header').html($('#header').html() + '<h2>No Votes Scheduled</h2>\n');
+        //get the collection of draggable targets and add their draggable attribute
+        for(targets = document.querySelectorAll('[data-draggable="target"]'),
+            len = targets.length,
+            i = 0; i < len; i ++)
+        {
+            targets[i].setAttribute('aria-dropeffect', 'none');
         }
-        $('#votes').html(html);
-
-        for (var i = 0; i < sorted_orgs.length; i++) {
-            printable_html += '<tr>\n';
-            printable_html += '<td>' + sorted_orgs[i] + '</td>\n';
-            for (var j = 0; j < votes.data.length; j++) {
-                printable_html += '<td>    </td>\n';
-            }
-            printable_html += '</tr>\n';
-        }
-        printable_html += '</table>\n';
-        printable_html += '<P style="page-break-before: always">\n';
-
-        $('#printable_votes').html(printable_html);
-    }
-
-    var output = '<b>OOE ORGS (Registered/Present at 2 of 3 previous meetings):</b> ' + ooe_orgs + '<br>\n';
-    output += '<b>IMOVE ORGS: (Registered/Present at 2 of 3 previous meetings including this one)</b> ' + imove_orgs + ' (needed ' + Math.ceil((2 * ooe_orgs) / 3) + ')<br>\n';
-    output += "<h3>Non Voting Orgs</h3>";
-    for (org in non_voting_orgs) {
-        output += '<b>' + org + ':</b> ' + non_voting_orgs[org]['reason'] + '<br>\n';
-    }
-    $('#non_voting').html(output);
-    output = "<h3>Voting Orgs</h3>\n";
-    for (var i = 0; i < sorted_orgs.length; i++) {
-        if (i == 0) {
-            output += sorted_orgs[i];
-        } else {
-            output += ', ' + sorted_orgs[i];
-        }
-    }
-    output += '<br>\n';
-    $('#voting_orgs').html(output);
-
-    html = '<tr>\n';
-    html += '<th class="orgs"></th>\n';
-    for (var i = 0; i < votes.data.length; i++) {
-        html += '<th style="min-width: 240px;">';
-        html += votes.data[i]['topic'] + '<br><br>\n';
-        html += 'Type: ' + votes.data[i]['type'];
-        html += '</th>\n';
-    }
-    html += '</tr>\n';
-    html += '<tr>\n';
-    html += '<th class="orgs">Results</th>\n';
-    for (var i = 0; i < votes.data.length; i++) {
-        html += '<td id="vote ' + i + '"><br></td>\n';
-    }
-    html += '</tr>\n';
-
-    $('#results_table').html(html);
-
-    //get the collection of draggable items and add their draggable attributes
-    for(items = document.querySelectorAll('[data-draggable="item"]'),
-        len = items.length,
-        i = 0; i < len; i ++)
-    {
-        items[i].setAttribute('draggable', 'true');
-        items[i].setAttribute('aria-grabbed', 'false');
-        items[i].setAttribute('tabindex', '0');
-    }
-
-    //get the collection of draggable targets and add their draggable attribute
-    for(targets = document.querySelectorAll('[data-draggable="target"]'),
-        len = targets.length,
-        i = 0; i < len; i ++)
-    {
-        targets[i].setAttribute('aria-dropeffect', 'none');
     }
 }
 
