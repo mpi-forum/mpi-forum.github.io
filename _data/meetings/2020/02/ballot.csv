@@ -1,1 +1,25 @@
-org,"Vote 1"
+org,"#153: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL","#122: Intro nonblocking, no serialization and no deadlocks - changelog","#122: Intro nonblocking, no serialization and no deadlocks - can be used to avoid","#79: Callback-driven event interface for MPI_T - remove extent","#79: Callback-driven event interface for MPI_T - timestamp as count","#147: Deprecate MPI_Info_get and MPI_Info_get_valuelen","#120: MPI_Cart_create_weighted / Topology aware Cartesian Communicators","#96: Semantic Terms","#103: Changes to the MPI Sessions proposal","#158: Formal approval of Ticket 0 Pythonization Changes","#153: Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL","#103: MPI Sessions","#143: Creating an MPI_INFO_ENV object before MPI_INIT.","#132: Hardware split, guided mode.","#156: Hardware split, unguided mode.","#136: Partitioned Point-to-Point Communication","#120: MPI_Cart_create_weighted / Topology aware Cartesian Communicators","#96: Semantic Terms","#122: Intro nonblocking, no serialization and no deadlocks","#125: Add nonblocking and persistent versions of sendrecv","#121: Clarify alignment of memory provided to applications","#79: Callback-driven event interface for MPI_T","#146: Fix Security Issue with MPI_Info_get by Introducing New Replacement Function MPI_Info_get_string","#147: Deprecate MPI_Info_get and MPI_Info_get_valuelen"
+"UTC",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Intel",yes,abstain,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Cisco",yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Berkeley",yes,abstain,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Livermore",yes,abstain,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Fujitsu",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Los Alamos",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Argonne",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"UAB",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Paratools",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"INRIA",yes,abstain,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"HPE",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Oak Ridge",yes,abstain,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"IBM",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"CEA",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"HLRS",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"OSU",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"UTK",abstain,abstain,abstain,abstain,abstain,abstain,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"TU Munich",yes,abstain,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"ATOS",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"NVIDIA",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Edinburgh",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Sandia",yes,abstain,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"Mellanox",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
