@@ -420,21 +420,37 @@ function buildVoteTable() {
 }
 
 function buildImoveMatrix(attendance, current) {
-    var meeting = [];
+    var meeting = {};
 
     for (var i = 0; i < attendance.data.length; i++) {
         alias = findAlias(attendance.data[i].org);
-        if (!meeting.includes(alias)) {
+        if (!(alias in meeting)) {
+            /* If this is the first time the org appears in this meeting */
             if (alias in orgs) {
+                /* The org has attendend previous meetings */
                 orgs[alias]['registered']++;
-                orgs[alias]['attend']++;
+                orgs[alias]['attend'] += parseInt(attendance.data[i]['attend']);
             } else {
+                /* If this is the first time the org appears at all */
                 orgs[alias] = {'registered':1, 'attend':parseInt(attendance.data[i]['attend'])};
             }
+
+            /* If this is the current meeting, check if they're actually present too. */
             if (current) {
                 orgs[alias]['present'] = parseInt(attendance.data[i]['attend']);
             }
-            meeting.push(alias);
+
+            if (parseInt(attendance.data[i]['attend'])) {
+                meeting[alias] = {'registered':1, 'attend':parseInt(attendance.data[i]['attend'])};
+            }
+        } else if (meeting[alias]['attend'] == 0 && attendance.data[i]['attend']) {
+            /* The org appeared in the meeting before. Check if they need to be updated. */
+            orgs[alias]['attend']++;
+            meeting[alias]['attend']++;
+
+            if (current) {
+                orgs[alias]['present'] = 1;
+            }
         }
     }
 
