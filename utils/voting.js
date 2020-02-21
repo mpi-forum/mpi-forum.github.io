@@ -143,6 +143,9 @@ function finishVote() {
     output += "topic,type,yes,no,abstain,missed\n";
 
     for (var i = 0; i < votes.data.length; i++) {
+        if (votes.data[i]['topic'] == "daybreak") {
+            continue;
+        }
         output += '"' + votes.data[i]['topic'] + '",' +
             votes.data[i]['type'] + ',' +
             votes.data[i]['yes'] + ',' +
@@ -163,6 +166,9 @@ function finishVote() {
     for (var i = 0; i < votes.data.length; i++) {
         topic = votes.data[i]['topic'];
         type = votes.data[i]['type'];
+        if (topic == "daybreak") {
+            continue;
+        }
         tmp_topic = "" + topic + " (" + type + ")"
 
         output += ',"' + tmp_topic + '"';
@@ -176,7 +182,9 @@ function finishVote() {
         if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2 && orgs[org]['present']) {
             output += "\"" + org + "\"";
             for (var i = 0; i < votes.data.length; i++) {
-                output += ',' + document.querySelector('[org="'+org+'"][vote_num="'+i+'"]').getAttribute('vote-type');
+                if (votes.data[i]['topic'] != "daybreak") {
+                    output += ',' + document.querySelector('[org="'+org+'"][vote_num="'+i+'"]').getAttribute('vote-type');
+                }
             }
             output += '\n'
         }
@@ -203,22 +211,24 @@ function calculateVotes() {
     }
 
     for (var i = 0; i < votes.data.length; i++) {
-        if (votes.data[i]['yes'] + votes.data[i]['no'] < ((3 * imove_orgs) / 4)) {
-            document.querySelector('[type="results"][vote-type="abstain"][vote_num="'+i+'"]').setAttribute('win', 'yes');
-            document.querySelector('[type="results"][vote-type="yes"][vote_num="'+i+'"]').setAttribute('win', 'no');
-            document.querySelector('[type="results"][vote-type="no"][vote_num="'+i+'"]').setAttribute('win', 'no');
-        } else if (votes.data[i]['type'] == "no-no" && votes.data[i]['no'] > 0) {
-            document.querySelector('[type="results"][vote-type="no"][vote_num="'+i+'"]').setAttribute('win', 'yes');
-            document.querySelector('[type="results"][vote-type="yes"][vote_num="'+i+'"]').setAttribute('win', 'no');
-            document.querySelector('[type="results"][vote-type="abstain"][vote_num="'+i+'"]').setAttribute('win', 'no');
-        } else if (votes.data[i]['type'] != "no-no" && votes.data[i]['yes'] <= (3 * (votes.data[i]['yes'] + votes.data[i]['no'])) / 4) {
-            document.querySelector('[type="results"][vote-type="no"][vote_num="'+i+'"]').setAttribute('win', 'yes');
-            document.querySelector('[type="results"][vote-type="yes"][vote_num="'+i+'"]').setAttribute('win', 'no');
-            document.querySelector('[type="results"][vote-type="abstain"][vote_num="'+i+'"]').setAttribute('win', 'no');
-        } else {
-            document.querySelector('[type="results"][vote-type="yes"][vote_num="'+i+'"]').setAttribute('win', 'yes');
-            document.querySelector('[type="results"][vote-type="no"][vote_num="'+i+'"]').setAttribute('win', 'no');
-            document.querySelector('[type="results"][vote-type="abstain"][vote_num="'+i+'"]').setAttribute('win', 'no');
+        if (votes.data[i]['topic'] != "daybreak") {
+            if (votes.data[i]['yes'] + votes.data[i]['no'] < ((3 * imove_orgs) / 4)) {
+                document.querySelector('[type="results"][vote-type="abstain"][vote_num="'+i+'"]').setAttribute('win', 'yes');
+                document.querySelector('[type="results"][vote-type="yes"][vote_num="'+i+'"]').setAttribute('win', 'no');
+                document.querySelector('[type="results"][vote-type="no"][vote_num="'+i+'"]').setAttribute('win', 'no');
+            } else if (votes.data[i]['type'] == "no-no" && votes.data[i]['no'] > 0) {
+                document.querySelector('[type="results"][vote-type="no"][vote_num="'+i+'"]').setAttribute('win', 'yes');
+                document.querySelector('[type="results"][vote-type="yes"][vote_num="'+i+'"]').setAttribute('win', 'no');
+                document.querySelector('[type="results"][vote-type="abstain"][vote_num="'+i+'"]').setAttribute('win', 'no');
+            } else if (votes.data[i]['type'] != "no-no" && votes.data[i]['yes'] <= (3 * (votes.data[i]['yes'] + votes.data[i]['no'])) / 4) {
+                document.querySelector('[type="results"][vote-type="no"][vote_num="'+i+'"]').setAttribute('win', 'yes');
+                document.querySelector('[type="results"][vote-type="yes"][vote_num="'+i+'"]').setAttribute('win', 'no');
+                document.querySelector('[type="results"][vote-type="abstain"][vote_num="'+i+'"]').setAttribute('win', 'no');
+            } else {
+                document.querySelector('[type="results"][vote-type="yes"][vote_num="'+i+'"]').setAttribute('win', 'yes');
+                document.querySelector('[type="results"][vote-type="no"][vote_num="'+i+'"]').setAttribute('win', 'no');
+                document.querySelector('[type="results"][vote-type="abstain"][vote_num="'+i+'"]').setAttribute('win', 'no');
+            }
         }
     }
 
