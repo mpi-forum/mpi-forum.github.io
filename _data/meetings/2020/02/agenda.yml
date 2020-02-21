@@ -133,14 +133,17 @@ errata-votes:
 
 no-no-votes:
 
-    - number: 103
-      description: "Changes to the MPI Sessions proposal (Fri)"
-
     - number: 120
       description: "MPI_Cart_create_weighted / Topology aware Cartesian Communicators (Fri)"
 
     - number: 96
       description: "Semantic Terms (Fri)"
+
+    - number: 103
+      description: "Changes to the MPI Sessions proposal - for 1st vote (Fri)"
+
+    - number: 137
+      description: "Changes to the MPI BigCount proposal - for reading (Fri)"
 
     - number: 122
       description: "Intro nonblocking, no serialization and no deadlocks - changelog (Thu)"
@@ -177,9 +180,6 @@ first-votes:
 
      - number: 136
        description: "Partitioned Point-to-Point Communication"
-
-     - number: 96
-       description: "Semantic Terms"
 
      - number: 122
        description: "Intro nonblocking, no serialization and no deadlocks"
