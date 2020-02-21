@@ -311,6 +311,17 @@ plenaries:
     - type: Topic
       title: MPI_T Errata on binding to COMM_WORLD and SELF
       issue_number:
-      presenter: Martin
+      presenter:
       done:
 
+    - type: Topic
+      title: Partitioned communication and GPUs
+      issue_number:
+      presenter:
+      done:
+
+    - type: Topic
+      title: T and C for RMA
+      issue_number:
+      presenter:
+      done:
