@@ -466,7 +466,7 @@ function buildImoveMatrix(attendance, current) {
         }
     }
 
-    if (current) registered_orgs = meeting.length;
+    if (current) registered_orgs = Object.keys(meeting).length;
 
     filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
         +current_year+'/'+zeroFill(current_month,2)+'/votes.csv'
