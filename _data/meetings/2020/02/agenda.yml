@@ -133,12 +133,6 @@ errata-votes:
 
 no-no-votes:
 
-    - number: 120
-      description: "MPI_Cart_create_weighted / Topology aware Cartesian Communicators (Fri)"
-
-    - number: 96
-      description: "Semantic Terms (Fri)"
-
     - number: 103
       description: "Changes to the MPI Sessions proposal - for 1st vote (Fri)"
 
