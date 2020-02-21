@@ -281,7 +281,7 @@ function buildVoteTable() {
             html += '<tr>\n';
             html += '<td><ol data-draggable="target" vote-type="yes" vote_num="' + i + '">\n';
 
-            printable_html += '<th class="rotate"><div>' + topic + ' (' + type + ')</div></th>';
+            printable_html += '<th class="rotate"><div>' + topic_num + ' (' + type + ')</div></th>';
 
             var shuffled_orgs = shuffle(Object.keys(orgs));
             var abstain_html = "";
@@ -351,9 +351,11 @@ function buildVoteTable() {
 
             for (var i = 0; i < sorted_orgs.length; i++) {
                 printable_html += '<tr>\n';
-                printable_html += '<td>' + sorted_orgs[i] + '</td>\n';
+                printable_html += '<th>' + sorted_orgs[i] + '</th>\n';
                 for (var j = 0; j < votes.data.length; j++) {
-                    printable_html += '<td>    </td>\n';
+                    if (votes.data[j]['topic'] != "daybreak") {
+                        printable_html += '<td>    </td>\n';
+                    }
                 }
                 printable_html += '</tr>\n';
             }
