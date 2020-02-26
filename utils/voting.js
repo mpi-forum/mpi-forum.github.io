@@ -70,6 +70,7 @@ var votes = {};
 var prev_ballot = {};
 var registered_orgs;
 var ooe_orgs;
+var prev_ooe_orgs = -1;
 var imove_orgs;
 var non_voting_orgs = {};
 var meetings_calculated = 0;
@@ -252,7 +253,7 @@ function buildVoteTable() {
 
     meetings_calculated++;
 
-    if (meetings_calculated == 3) {
+    if (meetings_calculated == 3 && prev_ooe_orgs != -1) {
         if (votes.data.length) {
             html += '<table>\n';
             printable_html += '<table border="1">\n';
@@ -264,23 +265,25 @@ function buildVoteTable() {
             var topic = "";
             var type = "";
 
-            topic_num = votes.data[i]['topic'].split(":")[0];
-            topic = votes.data[i]['topic'];
-            type = votes.data[i]['type'];
+            if (votes.data.length > 0) {
+                topic_num = votes.data[i]['topic'].split(":")[0];
+                topic = votes.data[i]['topic'];
+                type = votes.data[i]['type'];
 
-            if (topic == "daybreak") {
-                html += '<tr><th> </th><th></th><th> </th></tr>\n';
-                html += '<tr><th> </th><th bgcolor="#FF8200">Begin New Voting Day</th><th> </th></tr>\n';
-                html += '<tr><th> </th><th></th><th> </th></tr>\n';
-                continue;
+                if (topic == "daybreak") {
+                    html += '<tr><th> </th><th></th><th> </th></tr>\n';
+                    html += '<tr><th> </th><th bgcolor="#FF8200">Begin New Voting Day</th><th> </th></tr>\n';
+                    html += '<tr><th> </th><th></th><th> </th></tr>\n';
+                    continue;
+                }
+
+                html += '<tr>\n';
+                html += '<th topic="true" colspan="3">\n';
+                html += votes.data[i]['topic'] + '<br>';
+                html += 'Type: ' + votes.data[i]['type'];
+                html += '</th>\n';
+                html += '</tr>\n';
             }
-
-            html += '<tr>\n';
-            html += '<th topic="true" colspan="3">\n';
-            html += votes.data[i]['topic'] + '<br>';
-            html += 'Type: ' + votes.data[i]['type'];
-            html += '</th>\n';
-            html += '</tr>\n';
 
             html += '<tr>\n';
             html += '<th type="results" vote-type="yes" vote_num='+ i +' win="no">YES</div></td>\n';
@@ -343,9 +346,9 @@ function buildVoteTable() {
 
         sorted_orgs = uniq(voting_orgs);
 
-        if (imove_orgs <= ((2 * ooe_orgs) / 3)) {
+        if (imove_orgs <= ((2 * prev_ooe_orgs) / 3)) {
             $('#header').html('<h1>Meeting Quorum Not Met</h1><br>\n' + '<h3>' +
-                              imove_orgs + ' of ' + Math.ceil((2 * ooe_orgs) / 3) + ' orgs needed</h3><br>\n');
+                              imove_orgs + ' of ' + Math.ceil((2 * prev_ooe_orgs) / 3) + ' orgs needed</h3><br>\n');
             $('#votes').html("");
             $('#printable_votes').html("");
             $('#results').html("");
@@ -535,6 +538,23 @@ function handleVoteGeneration() {
         request.open('GET', filename, false);
         request.send();
     } while (request.status == 404);
+
+    /* Read the OOE number from the previous meeting to determine meeting quorum for the current meeting. */
+    var md_request = new XMLHttpRequest();
+    md_request.open('GET', 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/meetings/'
+                    +prev_year+'/'+zeroFill(prev_month,2)+'/votes.md', true);
+    md_request.responseType = 'blob';
+    md_request.onload = function() {
+        var reader = new FileReader();
+        reader.readAsText(md_request.response);
+        reader.onload = function(e) {
+            var regex = /.*^ooe: (\d+)$.*/m;
+            var match = regex.exec(e.target.result);
+            prev_ooe_orgs = match[1];
+            buildVoteTable();
+        }
+    }
+    md_request.send();
 
     Papa.parse(filename, {
         download: true,
