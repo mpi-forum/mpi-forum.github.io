@@ -379,7 +379,7 @@ function buildVoteTable() {
         }
 
         var output = '<b>OOE ORGS (Registered/Present at 2 of 3 previous meetings):</b> ' + ooe_orgs + '<br>\n';
-        output += '<b>IMOVE ORGS: (Registered/Present at 2 of 3 previous meetings including this one)</b> ' + imove_orgs + ' (needed ' + Math.ceil((2 * ooe_orgs) / 3) + ')<br>\n';
+        output += '<b>IMOVE ORGS: (Registered/Present at 2 of 3 previous meetings including this one)</b> ' + imove_orgs + ' (needed ' + Math.ceil((2 * prev_ooe_orgs) / 3) + ')<br>\n';
         output += "<h3>Non Voting Orgs</h3>";
         for (org in non_voting_orgs) {
             output += '<b>' + org + ':</b> ' + non_voting_orgs[org]['reason'] + '<br>\n';
