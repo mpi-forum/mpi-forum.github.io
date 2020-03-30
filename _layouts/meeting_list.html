@@ -50,7 +50,6 @@ layout: default
                             {% endif %}
                         {% else %}
                             - [<a href="https://time.is/{{ item.start | date: "%H%M%p_%-d_%B_%Y_in_Chicago" }}">Your Time</a>]
-                            [<a href="https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/ical_files/{{ item.start | date: "%Y-%m-%d-%H" }}.ics" download>iCAL Event</a>]
                         {% endif %}
                     </h4>
                 {% else %}
