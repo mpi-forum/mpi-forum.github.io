@@ -26,8 +26,8 @@ layout: default
     <div class="post-content">
         {{ content }}
 
-        {% if page.type == "physical" %}
-            {% assign meetings = site.data.meeting_list.physical %}
+        {% if page.type == "voting" %}
+            {% assign meetings = site.data.meeting_list.voting%}
         {% elsif page.type == "virtual" %}
             {% assign meetings = site.data.meeting_list.virtual %}
         {% endif %}
