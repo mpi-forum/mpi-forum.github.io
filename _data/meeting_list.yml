@@ -289,8 +289,8 @@ voting:
 
   - start: 2020-06-29
     end: 2020-07-01
-    title: "Munich, Germany (Technical University of Munich)"
-    links: "no"
+    title: "Exceptional Virtual Meeting (replaces Munich, Germany)"
+    links: "yes"
 
   - start: 2020-05-06
     end: 2020-05-06
