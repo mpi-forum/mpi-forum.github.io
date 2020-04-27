@@ -47,7 +47,7 @@ var aliases = {
     'UNM': ['UNIVERSITY OF NEW MEXICO'],
     'Basel': ['UNIVERSITY OF BASEL'],
     'PNNL': ['PACIFIC NORTHWEST NATIONAL LABORATORY'],
-    'Tennessee Tech': ['TENNESSEE TECH UNIVERSITY'],
+    'Tennessee Tech': ['TENNESSEE TECH UNIVERSITY','TENNESSEE TECHNOLOGICAL UNIVERSITY'],
 }
 
 var vote_types = {
