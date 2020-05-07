@@ -140,13 +140,22 @@ layout: default
                             </tr>
                         </table>
 
+                        <br />
+
                         {% if site.data.meetings[page.year][page.month].ballot.size > 0 %}
-                            <table style="font-size:80%">
+                            <table>
                                 <tr>
                                     {% assign vote_topic = vote.topic | append: " (" | append: vote.type | append: ")" %}
                                     {% assign sorted_orgs = site.data.meetings[page.year][page.month].ballot | sort: "org" | map: "org" %}
                                     {% assign sorted_votes = site.data.meetings[page.year][page.month].ballot | sort: "org" | map: vote_topic %}
+                                    {% assign i = 0 %}
                                     {% for org in sorted_orgs %}
+                                        {% assign i = i | plus:1 %}
+                                        {% if i > 10 %}
+                                            </tr><tr>
+                                            {% assign i = 1 %}
+                                        {% endif %}
+
                                         {% if sorted_votes[forloop.index0] == "yes" %}
                                             <th bgcolor="#55FF55">{{ org }}</th>
                                         {% elsif sorted_votes[forloop.index0] == "no" %}
