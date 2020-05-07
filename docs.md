@@ -118,3 +118,11 @@ Though not a part of the MPI standard, the MPI Message Queue Dumping Interface d
 *   MPI-2.0 Journal of Development in [compressed postscript](mpi-jd/mpi-20-jod.ps.Z) or [postscript](mpi-jd/mpi-20-jod.ps)
 *   [compressed tar file](mpi-jd/mpi-20-jod-dvi.tar.Z) or [tar file](mpi-jd/mpi-20-jod-dvi.tar) of the dvi files and figures needed to create the MPI-2.0 Journal of Development document. Intended for those who need to create special output for their printing device.
 
+## MPI Forum Procedures
+
+The MPI Forum uses these procedures as the way the MPI Forum operates.
+
+* [MPI Forum Procedures, Version 3.2](other/procedures-32.pdf)
+* [MPI Forum Procedures, Version 3.1](other/procedures-31.pdf)
+* [MPI Forum Procedures, Version 3.0](other/procedures-30.pdf)
+* [MPI Forum Procedures, Version 2.2](other/procedures-22.pdf)
