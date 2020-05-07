@@ -86,7 +86,7 @@ def main():
     service = authenticate()
 
     attenance_file="/Users/wbland/writing/mpi/meeting-details/2020-05-may/2020-05-06-registration.csv"
-    attenance_file="/Users/wbland/writing/mpi/mpi-forum.github.io/utils/test.csv"
+    #attenance_file="/Users/wbland/writing/mpi/mpi-forum.github.io/utils/test.csv"
 
     with open(attenance_file) as csvfile:
         attendees = csv.DictReader(csvfile)
