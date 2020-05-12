@@ -2,35 +2,36 @@ schedule:
 
     - day: Monday, June 29
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 09:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Tuesday, June 30
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 09:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Wednesday, July 01
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 09:00am
+      end: 09:30am
+      title: "Voting Block"
+
+    - start: 09:30am
+      end: 12:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
 procedure-votes:
-
-    - number: 1234
-      description: "Placeholder Procedure Vote"
 
 errata-votes:
 
@@ -49,11 +50,5 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
-
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
       done: 0
 
