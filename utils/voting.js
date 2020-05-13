@@ -62,7 +62,7 @@ var month_names = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"];
 
-current_month = 05;
+current_month = 06;
 current_year = 2020;
 var orgs = {};
 var votes = {};
