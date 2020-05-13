@@ -301,6 +301,7 @@ function buildVoteTable() {
             for (key in shuffled_orgs) {
                 var org = shuffled_orgs[key];
                 if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
+                    var tmp_topic = "";
                     if (i == 0) ooe_orgs++;
                     if (orgs[org]['present']) {
                         if (i == 0) imove_orgs++;
