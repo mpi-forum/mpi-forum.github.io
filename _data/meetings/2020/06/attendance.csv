@@ -1,4 +1,4 @@
-name,org,attend
+name,org,attend,1
 "Wesley Bland","Intel Corporation",1
 "Kenneth Raffenetti","Argonne National Laboratory",1
 "Guillaume Mercier","INRIA",1
@@ -17,3 +17,9 @@ name,org,attend
 "Julien Jaeger","CEA",1
 "Marc-André Hermanns","RWTH Aachen University",1
 "Martin Schulz","Technical University of Munich",1
+"Thomas Naughton","Oak Ridge National Laboratory",1
+"Shinji Sumimoto","Fujitsu",1
+"Ali Mohammed","University of Basel",1
+"Nick Radcliffe","HPE",1
+"Ignacio Laguna","Lawrence Livermore National Laboratory",1
+"Florina Ciorba ","University of Basel",1
