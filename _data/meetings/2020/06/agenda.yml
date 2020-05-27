@@ -21,10 +21,14 @@ schedule:
     - day: Wednesday, July 01
 
     - start: 09:00am
-      end: 09:30am
-      title: "Voting Block"
+      end: 09:30pm
+      title: "Plenary Sessions"
 
     - start: 09:30am
+      end: 10:00am
+      title: "Voting Block"
+
+    - start: 10:00am
       end: 12:00pm
       title: "Plenary Sessions"
 
