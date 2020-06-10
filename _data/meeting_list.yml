@@ -304,17 +304,12 @@ voting:
 
   - start: 2020-12-07
     end: 2020-12-10
-    title: "San Jose, CA (Cisco)"
-    links: "no"
-
-  - start: 2020-11-16
-    end: 2020-11-16
-    title: "Atlanta, GA (during SC, tentative)"
+    title: "Exceptional Virtual Meeting (relaces San Jose, CA)"
     links: "no"
 
   - start: 2020-09-28
     end: 2020-09-30
-    title: "Austin, TX (Texas Advanced Computing Center)"
+    title: "Exceptional Virtual Meeting (replaces Austin, TX)"
     links: "no"
 
   - start: 2020-06-29
