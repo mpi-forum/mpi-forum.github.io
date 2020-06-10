@@ -85,8 +85,8 @@ def send_message(service, user_id, message):
 def main():
     service = authenticate()
 
-    attenance_file="/Users/wbland/writing/mpi/meeting-details/2020-05-may/2020-05-06-registration.csv"
-    #attenance_file="/Users/wbland/writing/mpi/mpi-forum.github.io/utils/test.csv"
+    #attenance_file="/Users/wbland/writing/mpi/meeting-details/2020-06-may/2020-06-29-registration.csv"
+    attenance_file="/Users/wbland/writing/mpi/mpi-forum.github.io/utils/test.csv"
 
     with open(attenance_file) as csvfile:
         attendees = csv.DictReader(csvfile)
@@ -100,17 +100,26 @@ def main():
             message_text = """\
                     Hi {name},<br><br>
 
-                    Voting is now open for the May 6th, 2020 meeting. You may vote at
+                    Voting is now open for the June/July 2020 meeting. You may vote at
                     <a href=https://form.jotform.com/201253678123047?participantId={id}&name={safe_name}&org={org}>
                     this</a> link.<br><br>
 
-                    Voting will close at 10am US Central time on May 7th, 2020.<br><br>
+                    If multiple members of your organization registered, each will get their own
+                    voting link, but only the first ballot will be counted. Please coordinate with
+                    other members of your organization to avoid confusion.
+
+                    As per the MPI Forum rules, your organization must have attended the meeting in
+                    order to vote. If no one from your organization attended any portion of the
+                    meeting up to the point where voting opened, your organization's vote will not
+                    be counted.
+
+                    Voting will close at 10am US Central time on July 1st, 2020.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, safe_name=safe_name, id=uuid, org=org)
 
-            message = create_message('work@wesbland.com', email,'2020-05-06 MPI Forum Voting Link', message_text)
+            message = create_message('work@wesbland.com', email,'June/July 2020 MPI Forum Voting Link', message_text)
             message_id = send_message(service, "me", message)
 
             print("Sent to: ",email)
