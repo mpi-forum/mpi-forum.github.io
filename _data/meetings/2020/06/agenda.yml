@@ -1,9 +1,11 @@
+notes: This is a virtual voting meeting, which replaces the physical Munich/Garching MPI-Forum due to the COVID-19 restrictions. The meeting will consist of plenaries only, run via Webex, and be held on the three days June 29-July 1, 2020 from 4pm to 7pm German time, which equates to 9am to noon US Central time.
+
 schedule:
 
     - day: Monday, June 29
 
-    - start: 09:00am
-      end: 12:00pm
+    - start: 04:00pm
+      end: 7:00pm
       title: "Plenary Sessions"
 
     - endday: done
@@ -11,39 +13,132 @@ schedule:
 
     - day: Tuesday, June 30
 
-    - start: 09:00am
-      end: 12:00pm
+    - start: 04:00pm
+      end: 4:30pm
       title: "Plenary Sessions"
 
+    - start: 04:30pm
+      end: 5:00pm
+      title: "Voting Block 1"
+      
+    - start: 05:00pm
+      end: 7:00pm
+      title: "Plenary Sessions"
+      
     - endday: done
 
 
     - day: Wednesday, July 01
 
-    - start: 09:00am
-      end: 09:30pm
+    - start: 04:00pm
+      end: 4:30pm
       title: "Plenary Sessions"
-
-    - start: 09:30am
-      end: 10:00am
-      title: "Voting Block"
-
-    - start: 10:00am
-      end: 12:00pm
+      
+    - start: 04:30pm
+      end: 5:00pm
+      title: "Voting Block 2"
+      
+    - start: 05:00pm
+      end: 7:00pm
       title: "Plenary Sessions"
-
+      
     - endday: done
 
 
 procedure-votes:
 
+    - number: 6
+      link: "https://github.com/mpi-forum/procedures/pull/6"
+      description: "Update on Release Process to adjust to existing GitHub Workflow"
+
+    - number: 7
+      link: "https://github.com/mpi-forum/procedures/pull/7"
+      description: "Officer Election"
+
+
 errata-votes:
+
+    - number: 179
+      description: Joseph - Omission - p. 440 - WIN_DETATCH Binding Fix
+
+    - number: 178
+      description: Joseph - Omission - p. 439 - WIN_ATTACH_ Binding Fix
+
+    - number: 167
+      description: Dan - Error - Section 3.3.2 - p. 38 - Replace C process
+
+    - number: 252
+      description: Dan - Clarification - Section 3.2.2 - p. 27 - Datatype Footnote
+
+    - number: 189
+      description: Dan - Update - Section 3.7.5 - p. 60 - Replace C-bias with LIS
+
+    - number: 218
+      description: Wesley - Update - Section 17.1 - p. 635 - Update Backward Incompatibility Text
+
+    - number: 262
+      description: Wesley - Clarification - Section 11.3.5 - p. 458 - Error in Status Field Clarification
+
+    - number: 263
+      description: Wesley - Clarification - Section 11.7 - p. 482 - MPI Exception Clarification
+
+    - number: 168
+      description: Wesley - Error - Section 12.4.3 - p. 515 - MPI_INIT argc/argv values
+
+    - number: 171
+      description: George - Error in text - Section 4.1.1 - p. 87 - INTEGER*8 Extension
+
+    - number: 176
+      description: George - Omission - p. 387 - Initialized Binding Fix
+
+    - number: 181
+      description: George - Oversight - Section 8.7 - p. 383 - Escape Spaces in Arguments
+
+    - number: 254
+      description: George - Clarification - Example 4.17 - p. 128 - Example Comment
+
+    - number: 196
+      description: Guillaume - Update - Section 6.2.4 - p. 248 - Remove Host Process
+
+    - number: 268
+      description: Marc-Andre - Clarification - Section 14.3.7 - p. 615 - MPI_T Session Impact Clarifications
+
+    - number: 169
+      description: Martin - Error - Section 13.4.1 - p. 535 - MPI_FILE_READ Equivalency
+
+    - number: 257
+      description: Julien - Clarification - Section 5.1 - p. 144 - Collective Synchronization
+
+    - number: 182
+      description: Julien - Question - Section 5.12.4 - p. 206 - MPI_ISCATTERV sendcounts and displs Consistency
+
 
 no-no-votes:
 
 first-votes:
 
 second-votes:
+
+     - number: 103
+       description: "MPI Sessions"
+
+     - number: 143
+       description: "Creating an MPI_INFO_ENV object before MPI_INIT."
+
+     - number: 132
+       description: "Hardware split, guided mode."
+
+     - number: 156
+       description: "Hardware split, unguided mode."
+
+     - number: 136
+       description: "Partitioned Point-to-Point Communication"
+
+     - number: 122
+       description: "Intro nonblocking, no serialization and no deadlocks"
+
+
+
 
 plenaries:
     - type: Welcome
@@ -54,5 +149,27 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Errata Readings
+      title: Read all errata tickets up for vote in the order of above
+      presenter: see ballot list
+      done: 0
+      
+    - type: Reading
+      title: Clarification - Section 8.5 - p. 377 - Error Class and Code Advice to Implementors
+      issue_number: 259
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: MPI_Cart_create_weighted / Topology aware Cartesian communicators
+      issue_number: 120
+      presenter: Rolf
+      done: 0
+
+    - type: Discussion
+      title: Next Meeting(s) and Timeline
+      presenter: Martin
       done: 0
 

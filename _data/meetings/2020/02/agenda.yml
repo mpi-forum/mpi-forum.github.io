@@ -321,6 +321,12 @@ plenaries:
       done:
 
     - type: Topic
+      title: T and C changes
+      issue_number:
+      presenter:
+      done:
+      
+    - type: Topic
       title: T and C for RMA
       issue_number:
       presenter:
