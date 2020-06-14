@@ -1,53 +1,52 @@
 var aliases = {
-    'Intel': ['INTEL CORPORATION', 'INTEL CORP','INTEL CORP.'],
-    'UTK': ['UNIVERSITY OF TENNESSEE, KNOXVILLE', 'UNIVERSITY OF TENNESSEE', 'THE UNIVERSITY OF TENNESSEE', 'U TENNESSEE', 'THE UNIVERSITY OF TENNESSEE, KNOXVILLE'],
-    'UTC': ['UNIVERSITY OF TENNESSEE, CHATTANOOGA', 'UNIVERSITY OF TENNESSEE CHATTANOOGA', 'UNIVERSITY OF TENNESSEE AT CHATTANOOGA'],
+    'ARM': [],
+    'ATOS': ['BULL','ATOS'],
     'Argonne': ['ANL', 'ARGONNE NATIONAL LABORATORY', 'ARGONNE NATIONAL LAB'],
+    'Auburn': ['AUBURN U', 'AUBURN UNIVERSITY'],
+    'BSC': ['BARCELONA SUPERCOMPUTING CENTER'],
+    'Basel': ['UNIVERSITY OF BASEL'],
+    'Berkeley': ['LBL', 'LAWRENCE BERKELEY NATIONAL LABORATORY', 'LAWRENCE BERKELEY LAB', 'LBNL', 'LAWRENCE BERKELEY NATIONAL LAB', 'BERKELEY LAB'],
+    'CEA': [],
     'Cisco': ['CISCO SYSTEMS INC.', 'CISCO SYSTEMS, INC.', 'CISCO SYSTEMS'],
-    'Microsoft': ['MICROSOFT INC.'],
+    'ETH Zurich': ['ETH', 'ETH ZURICH','ETH ZÜRICH'],
+    'Edinburgh': ['EPCC', 'EPCC, THE UNIVERSITY OF EDINBURGH', 'UNIVERISTY OF EDINBURGH'],
+    'Forschungszentrum': ['FORSCHUNGSZENTRUM JÜLICH','FORSCHUNGSZENTRUM JÜLICH GMBH'],
+    'Fujitsu': [],
+    'HDF': ['HDF GROUP'],
+    'HLRS': ["UNIVERSITY OF STUTTGART, HLRS", "HLRS, UNIVERSITY OF STUTTGART", "STUTTGART UNIVERSITY", "HLRS, USTUTT", "HIGH PERFORMANCE COMPUTING CENTER STUTTGART (HLRS)"],
+    'HPE': ['Hewlett Packard Enterprise', 'CRAY INC', 'CRAY, A HEWLETT PACKARD ENTERPRISE COMPANY', 'CRAY'],
+    'IBM': [],
+    'INRIA': ['BORDEAUX INP/INRIA', "BORDEAUX INP", "BORDEAUX-INP", "INRIA BORDEAUX SUD OUEST"],
+    'Intel': ['INTEL CORPORATION', 'INTEL CORP','INTEL CORP.'],
+    'KTH': ['KTH ROYAL INSTITUTE OF TECHNOLOGY'],
+    'Kyushu': ['KYUSHU UNIVERSITY', 'KYUSHU U.', 'U. KYUSHU'],
+    'Lenovo': [],
     'Livermore': ['LLNL', 'LAWRENCE LIVERMORE NATIONAL LABORATORY', 'LAWRENCE LIVERMORE NATIONAL LAB', 'LAWRENCE LIVERMORE NATL.  LAB.','LAWRENCE LIVERMORE NATIONAL LAB.'],
     'Los Alamos': ['LANL', 'LOS ALAMOS NATIONAL LABORATORY', 'LOS ALAMOS NATIONAL LAB'],
-    'Berkeley': ['LBL', 'LAWRENCE BERKELEY NATIONAL LABORATORY', 'LAWRENCE BERKELEY LAB', 'LBNL', 'LAWRENCE BERKELEY NATIONAL LAB', 'BERKELEY LAB'],
-    'Sandia': ['SNL', 'SANDIA NATIONAL LABORATORY', 'SANDIA NATIONAL LAB', 'SANDIA NATIONAL LABORATORIES', 'SANDIA'],
-    'Oak Ridge': ['ORNL', 'OAK RIDGE NATIONAL LABORATORY', 'OAK RIDGE NATIONAL LAB', 'OAK RIDGE NATIONAL LABS'],
-    'Edinburgh': ['EPCC', 'EPCC, THE UNIVERSITY OF EDINBURGH', 'UNIVERISTY OF EDINBURGH'],
-    'Mellanox': ['MELLANOX TECHNOLOGIES', 'MELLANOX TECHNOLOGIES INC', 'MELLANOX TECHNOLOGIES, INC.'],
-    'Fujitsu': [],
-    'Radcliffe': [],
-    'NVIDIA': ['NVIDIA USA'],
-    'OSU': ['THE OHIO STATE U.', 'THE OHIO STATE UNIVERSITY', 'OHIO STATE UNIVERSITY'],
-    'IBM': [],
-    'Auburn': ['AUBURN U', 'AUBURN UNIVERSITY'],
-    'RIKEN': ['RIKEN AICS'],
-    'INRIA': ['BORDEAUX INP/INRIA', "BORDEAUX INP", "BORDEAUX-INP", "INRIA BORDEAUX SUD OUEST"],
-    'UIUC': ['UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN', 'UNIVERSITY OF ILLINOIS', 'NCSA/UIUC', 'NCSA', 'UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN'],
+    'Microsoft': ['MICROSOFT INC.'],
     'NEC': ['NEC COOPERATION', 'NEC DEUTSCHLAND GMBH', 'NEC DEUTSCHLAND GAMBH'],
-    'Paratools': ['PARATOOLS SAS', 'PARATOOLS, INC.'],
-    'CEA': [],
-    'Forschungszentrum': ['FORSCHUNGSZENTRUM JÜLICH','FORSCHUNGSZENTRUM JÜLICH GMBH'],
-    'HLRS': ["UNIVERSITY OF STUTTGART, HLRS", "HLRS, UNIVERSITY OF STUTTGART", "STUTTGART UNIVERSITY", "HLRS, USTUTT"],
-    'Kyushu': ['KYUSHU UNIVERSITY', 'KYUSHU U.', 'U. KYUSHU'],
-    'UTEP': ['THE UNIVERSITY OF TEXAS AT EL PASO'],
-    'TACC': ['THE TEXAS ADVANCED COMPUTING CENTER'],
-    'Lenovo': [],
-    'UAB': ['U ALABAMA BIRMINGHAM','UNIVERSITY OF ALABAMA AT BIRMINGHAM'],
-    'HDF': ['HDF GROUP'],
-    'KTH': ['KTH ROYAL INSTITUTE OF TECHNOLOGY'],
-    'ETH Zurich': ['ETH', 'ETH ZURICH','ETH ZÜRICH'],
-    'ATOS': ['BULL','ATOS'],
-    'U Oregon': ['UNIVERSITY OF OREGON'],
-    'TU Munich': ['TUM', 'TU MUNICH', 'TU-MUNICH', 'TECHNICAL UNIVERSITY OF MUNICH'],
-    'U Innsbruck': ['UNIVERSITY OF INNSBRUCK'],
-    'RWTH': ['RWTH AACHEN UNIVERSITY'],
+    'NVIDIA': ['NVIDIA USA', 'MELLANOX', 'MELLANOX TECHNOLOGIES', 'MELLANOX TECHNOLOGIES INC', 'MELLANOX TECHNOLOGIES, INC.'],
+    'OSU': ['THE OHIO STATE U.', 'THE OHIO STATE UNIVERSITY', 'OHIO STATE UNIVERSITY'],
+    'Oak Ridge': ['ORNL', 'OAK RIDGE NATIONAL LABORATORY', 'OAK RIDGE NATIONAL LAB', 'OAK RIDGE NATIONAL LABS'],
     'PAR-TEC': [],
-    'HPE': ['Hewlett Packard Enterprise', 'CRAY INC', 'CRAY, A HEWLETT PACKARD ENTERPRISE COMPANY', 'CRAY'],
-    'TU Wien': [],
-    'ARM': [],
-    'BSC': ['BARCELONA SUPERCOMPUTING CENTER'],
-    'UNM': ['UNIVERSITY OF NEW MEXICO'],
-    'Basel': ['UNIVERSITY OF BASEL'],
     'PNNL': ['PACIFIC NORTHWEST NATIONAL LABORATORY'],
-    'Tennessee Tech': ['TENNESSEE TECH UNIVERSITY'],
+    'Paratools': ['PARATOOLS SAS', 'PARATOOLS, INC.'],
+    'RIKEN': ['RIKEN AICS'],
+    'RWTH': ['RWTH AACHEN UNIVERSITY'],
+    'Radcliffe': [],
+    'Sandia': ['SNL', 'SANDIA NATIONAL LABORATORY', 'SANDIA NATIONAL LAB', 'SANDIA NATIONAL LABORATORIES', 'SANDIA'],
+    'TACC': ['THE TEXAS ADVANCED COMPUTING CENTER'],
+    'TU Munich': ['TUM', 'TU MUNICH', 'TU-MUNICH', 'TECHNICAL UNIVERSITY OF MUNICH'],
+    'TU Wien': ['VSC RESEARCH CENTER, TU WIEN'],
+    'Tennessee Tech': ['TENNESSEE TECH UNIVERSITY','TENNESSEE TECHNOLOGICAL UNIVERSITY'],
+    'U Innsbruck': ['UNIVERSITY OF INNSBRUCK'],
+    'U Oregon': ['UNIVERSITY OF OREGON'],
+    'UAB': ['U ALABAMA BIRMINGHAM','UNIVERSITY OF ALABAMA AT BIRMINGHAM'],
+    'UIUC': ['UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN', 'UNIVERSITY OF ILLINOIS', 'NCSA/UIUC', 'NCSA', 'UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN', 'UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN/NCSA'],
+    'UNM': ['UNIVERSITY OF NEW MEXICO'],
+    'UTC': ['UNIVERSITY OF TENNESSEE, CHATTANOOGA', 'UNIVERSITY OF TENNESSEE CHATTANOOGA', 'UNIVERSITY OF TENNESSEE AT CHATTANOOGA'],
+    'UTEP': ['THE UNIVERSITY OF TEXAS AT EL PASO'],
+    'UTK': ['UNIVERSITY OF TENNESSEE, KNOXVILLE', 'UNIVERSITY OF TENNESSEE', 'THE UNIVERSITY OF TENNESSEE', 'U TENNESSEE', 'THE UNIVERSITY OF TENNESSEE, KNOXVILLE'],
 }
 
 var vote_types = {
@@ -63,13 +62,14 @@ var month_names = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"];
 
-current_month = 02;
+current_month = 06;
 current_year = 2020;
 var orgs = {};
 var votes = {};
 var prev_ballot = {};
 var registered_orgs;
 var ooe_orgs;
+var prev_ooe_orgs = -1;
 var imove_orgs;
 var non_voting_orgs = {};
 var meetings_calculated = 0;
@@ -252,7 +252,7 @@ function buildVoteTable() {
 
     meetings_calculated++;
 
-    if (meetings_calculated == 3) {
+    if (meetings_calculated == 3 && prev_ooe_orgs != -1) {
         if (votes.data.length) {
             html += '<table>\n';
             printable_html += '<table border="1">\n';
@@ -264,23 +264,25 @@ function buildVoteTable() {
             var topic = "";
             var type = "";
 
-            topic_num = votes.data[i]['topic'].split(":")[0];
-            topic = votes.data[i]['topic'];
-            type = votes.data[i]['type'];
+            if (votes.data.length > 0) {
+                topic_num = votes.data[i]['topic'].split(":")[0];
+                topic = votes.data[i]['topic'];
+                type = votes.data[i]['type'];
 
-            if (topic == "daybreak") {
-                html += '<tr><th> </th><th></th><th> </th></tr>\n';
-                html += '<tr><th> </th><th bgcolor="#FF8200">Begin New Voting Day</th><th> </th></tr>\n';
-                html += '<tr><th> </th><th></th><th> </th></tr>\n';
-                continue;
+                if (topic == "daybreak") {
+                    html += '<tr><th> </th><th></th><th> </th></tr>\n';
+                    html += '<tr><th> </th><th bgcolor="#FF8200">Begin New Voting Day</th><th> </th></tr>\n';
+                    html += '<tr><th> </th><th></th><th> </th></tr>\n';
+                    continue;
+                }
+
+                html += '<tr>\n';
+                html += '<th topic="true" colspan="3">\n';
+                html += votes.data[i]['topic'] + '<br>';
+                html += 'Type: ' + votes.data[i]['type'];
+                html += '</th>\n';
+                html += '</tr>\n';
             }
-
-            html += '<tr>\n';
-            html += '<th topic="true" colspan="3">\n';
-            html += votes.data[i]['topic'] + '<br>';
-            html += 'Type: ' + votes.data[i]['type'];
-            html += '</th>\n';
-            html += '</tr>\n';
 
             html += '<tr>\n';
             html += '<th type="results" vote-type="yes" vote_num='+ i +' win="no">YES</div></td>\n';
@@ -299,6 +301,7 @@ function buildVoteTable() {
             for (key in shuffled_orgs) {
                 var org = shuffled_orgs[key];
                 if (orgs[org]['registered'] >= 2 && orgs[org]['attend'] >= 2) {
+                    var tmp_topic = "";
                     if (i == 0) ooe_orgs++;
                     if (orgs[org]['present']) {
                         if (i == 0) imove_orgs++;
@@ -343,9 +346,9 @@ function buildVoteTable() {
 
         sorted_orgs = uniq(voting_orgs);
 
-        if (imove_orgs <= ((2 * ooe_orgs) / 3)) {
+        if (imove_orgs <= ((2 * prev_ooe_orgs) / 3)) {
             $('#header').html('<h1>Meeting Quorum Not Met</h1><br>\n' + '<h3>' +
-                              imove_orgs + ' of ' + Math.ceil((2 * ooe_orgs) / 3) + ' orgs needed</h3><br>\n');
+                              imove_orgs + ' of ' + Math.ceil((2 * prev_ooe_orgs) / 3) + ' orgs needed</h3><br>\n');
             $('#votes').html("");
             $('#printable_votes').html("");
             $('#results').html("");
@@ -376,7 +379,7 @@ function buildVoteTable() {
         }
 
         var output = '<b>OOE ORGS (Registered/Present at 2 of 3 previous meetings):</b> ' + ooe_orgs + '<br>\n';
-        output += '<b>IMOVE ORGS: (Registered/Present at 2 of 3 previous meetings including this one)</b> ' + imove_orgs + ' (needed ' + Math.ceil((2 * ooe_orgs) / 3) + ')<br>\n';
+        output += '<b>IMOVE ORGS: (Registered/Present at 2 of 3 previous meetings including this one)</b> ' + imove_orgs + ' (needed ' + Math.ceil((2 * prev_ooe_orgs) / 3) + ')<br>\n';
         output += "<h3>Non Voting Orgs</h3>";
         for (org in non_voting_orgs) {
             output += '<b>' + org + ':</b> ' + non_voting_orgs[org]['reason'] + '<br>\n';
@@ -466,7 +469,7 @@ function buildImoveMatrix(attendance, current) {
         }
     }
 
-    if (current) registered_orgs = meeting.length;
+    if (current) registered_orgs = Object.keys(meeting).length;
 
     filename = 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/_data/meetings/'
         +current_year+'/'+zeroFill(current_month,2)+'/votes.csv'
@@ -535,6 +538,23 @@ function handleVoteGeneration() {
         request.open('GET', filename, false);
         request.send();
     } while (request.status == 404);
+
+    /* Read the OOE number from the previous meeting to determine meeting quorum for the current meeting. */
+    var md_request = new XMLHttpRequest();
+    md_request.open('GET', 'https://raw.githubusercontent.com/mpi-forum/mpi-forum.github.io/master/meetings/'
+                    +prev_year+'/'+zeroFill(prev_month,2)+'/votes.md', true);
+    md_request.responseType = 'blob';
+    md_request.onload = function() {
+        var reader = new FileReader();
+        reader.readAsText(md_request.response);
+        reader.onload = function(e) {
+            var regex = /.*^ooe: (\d+)$.*/m;
+            var match = regex.exec(e.target.result);
+            prev_ooe_orgs = match[1];
+            buildVoteTable();
+        }
+    }
+    md_request.send();
 
     Papa.parse(filename, {
         download: true,

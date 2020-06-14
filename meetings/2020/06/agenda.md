@@ -7,3 +7,4 @@ month: "06"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/MPI-Forum-Webex-Information"
 ---
 
+All times are US Central time.

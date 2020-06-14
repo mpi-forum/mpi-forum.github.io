@@ -3,148 +3,178 @@ layout: default
 ---
 
 <script>
-function ballot(rules, yes, no, abstain, missed, type, imove) {
-    if (yes == 0 && no == 0 && abstain == 0 && missed == 0) {
-        return "<font color=\"orange\">Votes not yet occurred</font>";
-    }
+    function ballot(rules, yes, no, abstain, missed, type, imove) {
+        if (yes == 0 && no == 0 && abstain == 0 && missed == 0) {
+            return "<font color=\"orange\">Votes not yet occurred</font>";
+        }
 
-    if (rules == 0000) {
-        if (yes > no) {
-            return "<font color=\"green\">Passed</font>";
-        } else {
-            return "<font color=\"red\">Failed Vote</font>";
-        }
-    } else if (rules == 52012) {
-        if (yes > (no + abstain + missed)) {
-            return "<font color=\"green\">Passed</font>";
-        } else {
-            return "<font color=\"red\">Failed Vote</font>";
-        }
-    } else if (rules == 72012) {
-        if (yes > (no + abstain)) {
-            return "<font color=\"green\">Passed</font>";
-        } else {
-            return "<font color=\"red\">Failed Vote</font>";
-        }
-    } else if (rules == 3152013) {
-        if ((yes + no) >= (0.75 * imove)) {
-            if (type != "no-no") {
-                if (yes >= 0.75 * (yes + no)) {
-                    return "<font color=\"green\">Passed</font>";
+        if (rules == 0000) {
+            if (yes > no) {
+                return "<font color=\"green\">Passed</font>";
+            } else {
+                return "<font color=\"red\">Failed Vote</font>";
+            }
+        } else if (rules == 52012) {
+            if (yes > (no + abstain + missed)) {
+                return "<font color=\"green\">Passed</font>";
+            } else {
+                return "<font color=\"red\">Failed Vote</font>";
+            }
+        } else if (rules == 72012) {
+            if (yes > (no + abstain)) {
+                return "<font color=\"green\">Passed</font>";
+            } else {
+                return "<font color=\"red\">Failed Vote</font>";
+            }
+        } else if (rules == 3152013) {
+            if ((yes + no) >= (0.75 * imove)) {
+                if (type != "no-no") {
+                    if (yes >= 0.75 * (yes + no)) {
+                        return "<font color=\"green\">Passed</font>";
+                    } else {
+                        return "<font color=\"red\">Failed Vote</font>";
+                    }
                 } else {
-                    return "<font color=\"red\">Failed Vote</font>";
+                    if (no > 0) {
+                        return "<font color=\"red\">Failed Vote</font>";
+                    } else {
+                        return "<font color=\"green\">Passed</font>";
+                    }
                 }
             } else {
-                if (no > 0) {
-                    return "<font color=\"red\">Failed Vote</font>";
-                } else {
-                    return "<font color=\"green\">Passed</font>";
-                }
+                return "<font color=\"red\">Failed Ballot Quorum</font>";
             }
         } else {
-            return "<font color=\"red\">Failed Ballot Quorum</font>";
+            return "<font color=\"orange\">Unknown Rules</font>";
         }
-    } else {
-        return "<font color=\"orange\">Unknown Rules</font>";
     }
-}
 </script>
 {% if page.imove.size > 0 %}
-    {% assign imove = page.imove %}
+{% assign imove = page.imove %}
 {% else %}
-    {% assign imove = 0 %}
+{% assign imove = 0 %}
 {% endif %}
 
 <article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">Meeting Votes</h1>
-    <h2>{{ page.date }}</h2>
-    <table>
-        <tr>
-            <td><a href="logistics">Logistics</a></td>
-            <td><a href="agenda">Agenda</a></td>
-            <td><a href="https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/{{ page.year }}/{{ page.month }}">Presentations</a></td>
-            <td><a href="attendance">Attendance</a></td>
-            <td><a href="votes">Votes</a></td>
-            <td><a href="notes">Notes</a></td>
-        </tr>
-    </table>
-  </header>
+    <header class="post-header">
+        <h1 class="post-title">Meeting Votes</h1>
+        <h2>{{ page.date }}</h2>
+        <table>
+            <tr>
+                <td><a href="logistics">Logistics</a></td>
+                <td><a href="agenda">Agenda</a></td>
+                <td><a href="https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/{{ page.year }}/{{ page.month }}">Presentations</a></td>
+                <td><a href="attendance">Attendance</a></td>
+                <td><a href="votes">Votes</a></td>
+                <td><a href="notes">Notes</a></td>
+            </tr>
+        </table>
+    </header>
 
-  <div class="post-content">
+    <div class="post-content">
 
-  {% if page.registered > 0 %}
-  <b>Registered:</b> {{ page.registered }}<br>
-  {% endif %}
-  {% if page.attended > 0 %}
-  <b>Attended:</b> {{ page.attended }}<br>
-  {% endif %}
-  {% if page.ooe > 0 %}
-  <b>OOE:</b> {{ page.ooe }}<br>
-  {% endif %}
-  {% if page.imove > 0 %}
-  <b>IMOVE:</b> {{ imove }}<br>
-  {% endif %}
-  {% if page.imove > 0 %}
-  <b>Votes needed for individual vote quorum:</b> <script> document.write((3/4) * {{imove}}); </script> <br>
-  {% endif %}
-  <br>
+        {% if page.registered > 0 %}
+        <b>Registered:</b> {{ page.registered }}<br>
+        {% endif %}
+        {% if page.attended > 0 %}
+        <b>Attended:</b> {{ page.attended }}<br>
+        {% endif %}
+        {% if page.ooe > 0 %}
+        <b>OOE:</b> {{ page.ooe }}<br>
+        {% endif %}
+        {% if page.imove > 0 %}
+        <b>IMOVE:</b> {{ imove }}<br>
+        {% endif %}
+        {% if page.imove > 0 %}
+        <b>Votes needed for individual vote quorum:</b> <script> document.write((3/4) * {{imove}}); </script> <br>
+        {% endif %}
+        <br>
 
-  <script>
-  if ({{ page.rules }} == 3152013) {
-      document.write("<b>Note:</b> \"Miss\" counts the same as \"abstain\"<br>");
-  }
-  </script>
-  <br>
-  <hr>
-  {{ content }}
-  {% if site.data.meetings[page.year][page.month].votes.size == 0 %}
-  <h2> No votes scheduled </h2>
-  {% else %}
-  <ol>
-      {% for vote in site.data.meetings[page.year][page.month].votes %}
-      {% if vote.topic == "daybreak" %}
-          <center><h3>Begin New Voting Day</h3></center>
-          <hr>
-      {% else %}
-          <li> Vote Topic: <b>{{ vote.topic }} ({{ vote.type }})</b><br>
-              {% assign yes_votes = vote.yes %}
-              {% assign no_votes = vote.no %}
-              {% if vote.abstain.size > 0 %}
-                  {% assign abstain_votes = vote.abstain %}
-              {% else %}
-                  {% assign abstain_votes = 0 %}
-              {% endif %}
-              {% if vote.missed.size > 0 %}
-                  {% assign missed_votes = vote.missed %}
-              {% else %}
-                  {% assign missed_votes = 0 %}
-              {% endif %}
-              <table>
-                  <tr>
-                      <th>Yes</th>
-                      <th>No</th>
-                      <th>Abstain</th>
-                      {% if vote.missed.size > 0 %}<th>Missed</th>{% endif %}
-                      <th>Result</th>
-                  </tr>
-                  <tr>
-                      <td>{{ yes_votes }}</td>
-                      <td>{{ no_votes }}</td>
-                      {% if vote.abstain.size > 0 %}<td>{{ abstain_votes }}</td>{% endif %}
-                      {% if vote.missed.size > 0 %}<td>{{ missed_votes }}</td>{% endif %}
-                      <td><script>
-                        document.write(ballot({{page.rules}},{{yes_votes}},{{no_votes}},{{abstain_votes}},{{missed_votes}},"{{ vote.type }}",{{imove}}));
-                      </script></td>
-                  </tr>
-              </table>
-          </li>
-      {% endif %}
-      {% endfor %}
-  </ol>
-  {% endif %}
+        <script>
+            if ({{ page.rules }} == 3152013) {
+                document.write("<b>Note:</b> \"Miss\" counts the same as \"abstain\"<br>");
+            }
+        </script>
+        <br>
+        <hr>
+        {{ content }}
+        {% if site.data.meetings[page.year][page.month].votes.size == 0 %}
+        <h2> No votes scheduled </h2>
+        {% else %}
+        <ol>
+            {% for vote in site.data.meetings[page.year][page.month].votes %}
+                {% if vote.topic == "daybreak" %}
+                    <center><h3>Begin New Voting Day</h3></center>
+                    <hr>
+                {% else %}
+                    <li> Vote Topic: <b>{{ vote.topic }} ({{ vote.type }})</b><br>
+                        {% assign yes_votes = vote.yes %}
+                        {% assign no_votes = vote.no %}
+                        {% if vote.abstain.size > 0 %}
+                            {% assign abstain_votes = vote.abstain %}
+                        {% else %}
+                            {% assign abstain_votes = 0 %}
+                        {% endif %}
+                        {% if vote.missed.size > 0 %}
+                            {% assign missed_votes = vote.missed %}
+                        {% else %}
+                            {% assign missed_votes = 0 %}
+                        {% endif %}
+                        <table>
+                            <tr>
+                                <th>Yes</th>
+                                <th>No</th>
+                                <th>Abstain</th>
+                                {% if vote.missed.size > 0 %}<th>Missed</th>{% endif %}
+                                <th>Result</th>
+                            </tr>
+                            <tr>
+                                <td>{{ yes_votes }}</td>
+                                <td>{{ no_votes }}</td>
+                                {% if vote.abstain.size > 0 %}<td>{{ abstain_votes }}</td>{% endif %}
+                                {% if vote.missed.size > 0 %}<td>{{ missed_votes }}</td>{% endif %}
+                                <td><script>
+                                        document.write(ballot({{page.rules}},{{yes_votes}},{{no_votes}},{{abstain_votes}},{{missed_votes}},"{{ vote.type }}",{{imove}}));
+                                </script></td>
+                            </tr>
+                        </table>
 
-  </div>
+                        <br />
+
+                        {% if site.data.meetings[page.year][page.month].ballot.size > 0 %}
+                            <table>
+                                <tr>
+                                    {% assign vote_topic = vote.topic | append: " (" | append: vote.type | append: ")" %}
+                                    {% assign sorted_orgs = site.data.meetings[page.year][page.month].ballot | sort: "org" | map: "org" %}
+                                    {% assign sorted_votes = site.data.meetings[page.year][page.month].ballot | sort: "org" | map: vote_topic %}
+                                    {% assign i = 0 %}
+                                    {% for org in sorted_orgs %}
+                                        {% assign i = i | plus:1 %}
+                                        {% if i > 10 %}
+                                            </tr><tr>
+                                            {% assign i = 1 %}
+                                        {% endif %}
+
+                                        {% if sorted_votes[forloop.index0] == "yes" %}
+                                            <th bgcolor="#55FF55">{{ org }}</th>
+                                        {% elsif sorted_votes[forloop.index0] == "no" %}
+                                            <th bgcolor="#FF9999">{{ org }}</th>
+                                        {% elsif sorted_votes[forloop.index0] == "abstain" %}
+                                            <th bgcolor="#FFFF55">{{ org }}</th>
+                                        {% else %}
+                                            <th bgcolor="#9999FF">{{ org }}</th>
+                                        {% endif %}
+                                    {% endfor %}
+                                </tr>
+                            </table>
+                        {% endif %}
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+        {% endif %}
+
+    </div>
 
 </article>

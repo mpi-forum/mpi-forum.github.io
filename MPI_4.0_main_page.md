@@ -41,7 +41,7 @@ The forum encourages that new items will be brought forward through the respecti
 
 ## Voting Rules
 
-On Dec 6th 2017, the MPI forum voted for [new voting rules](../docs/other/procedures-current.pdf) (effective Dec 6th, 2017).
+On May 7th 2020, the MPI forum voted for [these voting rules](../docs/other/procedures-current.pdf) (effective May 7th, 2020).
 
 ## Active Working Groups
 

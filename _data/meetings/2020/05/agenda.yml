@@ -1,0 +1,47 @@
+schedule:
+
+    - day: Wednesday, May 06
+
+    - start: 10:00am
+      end: 10:00am
+      title: "Voting opens for procedures"
+
+    - start: 10:00am
+      end: 12:00pm
+      title: "Plenaries"
+
+    - endday: done
+
+    - day: Thursday, May 07
+
+    - start: 10:00am
+      end: 10:00am
+      title: "Voting closes"
+
+procedure-votes:
+
+    - number: 5
+      link: "https://github.com/mpi-forum/procedures/pull/5"
+      description: "Emergency Virtual Meetings"
+
+errata-votes:
+
+no-no-votes:
+
+first-votes:
+
+second-votes:
+
+plenaries:
+    - type: Reading
+      title: "Emergency Virtual Meetings"
+      issue_number: 5
+      link: "https://github.com/mpi-forum/procedures/pull/5"
+      presenter: "Wes"
+      done: 0
+
+    - type: Discussion
+      title: "Editorial Changes Discussions"
+      issue_number:
+      presenter: "Wes"
+      done: 0

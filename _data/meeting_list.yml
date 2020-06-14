@@ -2,65 +2,118 @@ virtual:
 
   - year: 2020
 
+  - start: 2020-06-17T10:00
+    end: 2020-06-17T12:00
+    title: "Editorial Changes Discussions (Wes)"
+    recording_url: ""
+
+  - start: 2020-06-10T10:00
+    end: 2020-06-10T12:00
+    title: "RCM/FRM Procedures (Wes), Officer Elections (Wes), and Virtual Topologies (Rolf)"
+    recording_url: ""
+
+  - start: 2020-06-03T10:00
+    end: 2020-06-03T12:00
+    title: "Terms and Conventions (Puri / Tony)"
+    recording_url: "https://youtu.be/tIaGD_q3r5I"
+
+  - start: 2020-05-27T10:00
+    end: 2020-05-27T12:00
+    title: "Editorial Changes Discussions (Wes)"
+    recording_url: "https://youtu.be/mHwAXQ6CpH4"
+
+  - start: 2020-05-20T10:00
+    end: 2020-05-20T12:00
+    title: "Terms and Conventions (Rolf)"
+    recording_url: "https://youtu.be/iOAJ4_LBcIY"
+
+  - start: 2020-05-13T10:00
+    end: 2020-05-13T12:00
+    title: "Editorial Changes Discussions (Wes)"
+    recording_url: "https://youtu.be/cnNz9h_6nVU"
+
+  - start: 2020-05-06T10:00
+    end: 2020-05-06T12:00
+    title: "(Exceptional Virtual Meeting) Vote for Exceptional Virtual Meeting Rules / Editorial Changes Discussions (Wes)"
+    recording_url: "https://youtu.be/qacd_msPsQQ"
+
+  - start: 2020-04-29T10:00
+    end: 2020-04-29T12:00
+    title: "Editorial Changes Discussions (Wes)"
+    recording_url: "https://youtu.be/qe-q80KzLZw"
+
+  - start: 2020-04-22T10:00
+    end: 2020-04-22T12:00
+    title: " Exceptional Virtual Meeting Rules / Editorial Changes Discussions (Wes)"
+    recording_url: "https://youtu.be/-lzjquQhW9k"
+
+  - start: 2020-04-15T10:00
+    end: 2020-04-15T12:00
+    title: "Exceptional Virtual Meeting Rules / Sessions No-No Discussion (Howard / Dan) / Editorial Changes Discussions (Wes)"
+    recording_url: "https://youtu.be/lTVPqtfPvN0"
+
+  - start: 2020-04-08T10:00
+    end: 2020-04-08T12:00
+    title: "Exceptional Virtual Meeting Rules / Editorial Changes Discussions (Wes)"
+    recording_url: "https://youtu.be/P-GDEIpGlw4"
+
+  - start: 2020-04-01T10:00
+    end: 2020-04-01T12:00
+    title: "Exceptional Virtual Meeting Rules / MPI 4.0 Prep / Editorial Changes Discussions (Wes, Martin, Bill)"
+    recording_url: "https://youtu.be/cybWXA-Y-0I"
+    slides_url: "https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/2020/04"
+
   - start: 2020-01-29T10:00
     end: 2020-01-29T12:00
     title: "Big Count (Dan)"
-    recording_url:
-    recording_password:
+    recording_url: "https://youtu.be/sTgGK4-t4yI"
 
   - start: 2020-01-22T10:00
     end: 2020-01-22T12:00
     title: "Terms (Rolf & Claudia)"
-    recording_url: https://intel.webex.com/webappng/sites/intel/recording/play/78e222c797f144ada28951d8971ade71
+    recording_url: "https://youtu.be/3I4VAEfXkHY"
 
   - start: 2020-01-08T10:00
     end: 2020-01-08T12:00
     title: "Pythonization / Standard Cleanup Discussion and Q&A (Jeff & Bill)"
-    recording_url: https://intel.webex.com/recordingservice/sites/intel/recording/playback/5af4e2d38924498ea6b5e5eed82fa191
+    recording_url: "https://youtu.be/SXM5Y4GjH7Y"
 
   - year: 2019
 
   - start: 2019-11-13T10:00
     end: 2019-11-13T12:00
     title: "Large Counts"
-    recording_url: "https://cisco.webex.com/cisco/ldr.php?RCID=5d54d95ee2d04a79aa707868b4138cf7"
-    recording_password: jHAjkbD2
+    recording_url: "https://youtu.be/Ygyh2DZa5Uw"
 
   - start: 2019-10-30T10:00
     end: 2019-10-30T12:00
     title: "Partitioned Communication"
-    recording_url: "https://cisco.webex.com/cisco/ldr.php?RCID=5849f3b5dc3f43b98c513c1c79a32c29"
-    recording_password: mU3YBACB
+    recording_url: "https://youtu.be/aadRTKVwCag"
 
   - start: 2019-10-23T10:00
     end: 2019-10-23T12:00
     title: "Hardware Topologies"
-    recording_url: "https://cisco.webex.com/cisco/ldr.php?RCID=c9af9fdb67f643ab885fe6d7dd54b74b"
-    recording_password: 338332gP
+    recording_url: "https://youtu.be/6QKR6klgghs"
 
   - start: 2019-10-16T10:00
     end: 2019-10-16T12:00
-    title: "MPI Sessions  / final adjustments"
-    recording_url: "https://cisco.webex.com/cisco/ldr.php?RCID=1ee02fc6661947fa863ea894b56577ce"
-    recording_password: TjJpWyJ4
+    title: "MPI Sessions (final adjustments)"
+    recording_url: "https://youtu.be/BdmgumbRrqE"
 
   - start: 2019-09-18T10:00
     end: 2019-09-18T12:00
     title: "Sessions, MPI_INFO_ENV, and Tool UIDs"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=bb39969b0c5140c89c41927fb3aa6997"
-    recording_password: mJGpM5Gs
+    recording_url: "https://youtu.be/Yk2sF4uaZzE"
 
   - start: 2019-08-21T11:00
     end: 2019-08-21T12:00
     title: "Rules Update"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=0214b82117914f8cb2673c27571e319b"
-    recording_password: ZpPTnRj2
+    recording_url: "https://youtu.be/l_s7fLMyAz4"
 
   - start: 2019-08-21T10:00
     end: 2019-08-21T11:00
     title: "Course Grained Failure Recovery"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=0214b82117914f8cb2673c27571e319b"
-    recording_password: ZpPTnRj2
+    recording_url: "https://youtu.be/l_s7fLMyAz4"
 
   - start: 2019-08-14T11:00
     end: 2019-08-14T12:00
@@ -75,82 +128,70 @@ virtual:
   - start: 2019-07-24T10:00
     end: 2019-07-24T12:00
     title: "Big Count"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=d403177148de4a548b8db06a4d154764"
-    recording_password: yMCfhgq2
+    recording_url: "https://youtu.be/YNexPjj3iuM"
 
   - start: 2019-07-17T10:00
     end: 2019-07-17T12:00
     title: "Partitioned Communication"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=111cb417a6f747a6b8d52b83e09966c0"
+    recording_url: "https://youtu.be/hGueJqBicCQ"
     recording_password: fDMk42aP
 
   - start: 2019-07-10T11:00
     end: 2019-07-10T12:00
     title: "MPI_T Events"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=94d530e1254c4435a2b74c0a09e732ed"
-    recording_password: bFJsiMb3
+    recording_url: "https://youtu.be/9ZK-Ga7z4pY"
 
   - start: 2019-07-03T11:00
     end: 2019-07-03T12:00
     title: "RMA VM"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=072776d5e5ed42c38a53f22b2ad4400a"
-    recording_password: YzqGVnW2
+    recording_url: "https://youtu.be/Zgr41gHHh-g"
 
   - start: 2019-07-03T10:00
     end: 2019-07-03T11:00
     title: "Memory Allocation Alignment (for ALLOC_SHARED)"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=072776d5e5ed42c38a53f22b2ad4400a"
-    recording_password: YzqGVnW2
+    recording_url: "https://youtu.be/Zgr41gHHh-g"
 
   - start: 2019-06-26T10:00
     end: 2019-06-26T12:00
     title: "Semantic Terms"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=4da1175b2e17443ab92db4f2f9c227d3"
-    recording_password: KmM6hQSb
+    recording_url: "https://youtu.be/ECZ86DNHYvM"
 
   - start: 2019-06-12T10:00
     end: 2019-06-12T12:00
     title: "Sessions (non Chapter 10 Changes)"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=82f2fa3e6e9c44d6a14bf942e1830900"
-    recording_password: MbE7s3FN
+    recording_url: "https://youtu.be/kKFyBGT0B3M"
 
   - start: 2019-06-05T10:00
     end: 2019-06-05T12:00
     title: "Sessions (Chapter 10 Changes)"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=61c4edd51e6c4c03aab301f6e04dc839"
-    recording_password: 3Uw9TJyW
+    recording_url: "https://youtu.be/_m2ntFRIB7g"
 
   - blank: "yes"
 
   - start: 2019-04-24T10:00
     end: 2019-04-24T12:00
     title: "Cartesian Topologies / Sessions"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=595747dfd3fa40a599c980663d57cf42"
-    recording_password: NtNJvGj3
+    recording_url: "https://youtu.be/Rzmfda3MLjM"
 
   - start: 2019-04-17T10:00
     end: 2019-04-17T12:00
     title: "Finepoints"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=bd5846ead61240c4b8654fb6e4953040"
-    recording_password: GnpN8Muk
+    recording_url: "https://youtu.be/m6SqwOmMQHs"
 
   - start: 2019-04-10T10:00
     end: 2019-04-10T11:00
     title: "Fault Tolerance"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=225b20cb189e4eb08c59e263a8c5d524"
-    recording_password: sFBKYMU2
+    recording_url: "https://youtu.be/PgaCOcyGaf0"
 
   - start: 2019-04-03T10:00
     end: 2019-04-03T12:00
     title: "Split Types / Sessions"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a"
-    recording_password: yGPM4kmi
+    recording_url: "https://youtu.be/balsIhNyAg8"
 
   - start: 2019-03-27T10:00
     end: 2019-03-27T12:00
     title: "MPI_T Events / Terms and Conventions"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=8ed1369dca9144e88fc8decd4194891a"
-    recording_password: cNbXhyr5
+    recording_url: "https://youtu.be/gKdKVin1EGs"
 
   - blank: "yes"
 
@@ -162,14 +203,12 @@ virtual:
   - start: 2019-02-13T10:00
     end: 2019-02-13T11:00
     title: "Resilience Fundamentals"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=99d05348722547bb9061f16075ea0c1d"
-    recording_password: Ga2vK6tG
+    recording_url: "https://youtu.be/2XQWdK4fUuY"
 
   - start: 2019-01-30T10:00
     end: 2019-01-30T11:00
     title: "MPI Sessions"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=01816d83c07f4f348826eb5df6614d00"
-    recording_password: 5Ms4pv9e
+    recording_url: "https://youtu.be/XpqXU9_Sghg"
 
   - start: 2019-01-23T10:00
     end: 2019-01-23T11:00
@@ -184,8 +223,7 @@ virtual:
   - start: 2019-01-09T10:00
     end: 2019-01-09T11:00
     title: "MPI Sessions"
-    recording_url: "https://cisco.webex.com/cisco/lsr.php?RCID=a8cf1a68de304e5ba67c58b37af92584"
-    recording_password: mVERPxZ6
+    recording_url: "https://youtu.be/hnbxJ-xu1uc"
 
   - year: 2018
 
@@ -260,29 +298,29 @@ virtual:
     title: "Persistent Collectives"
     recording_url: "none"
 
-physical:
+voting:
 
   - year: "2020"
 
   - start: 2020-12-07
     end: 2020-12-10
-    title: "San Jose, CA (Cisco)"
-    links: "no"
-
-  - start: 2020-11-16
-    end: 2020-11-16
-    title: "Atlanta, GA (during SC, tentative)"
+    title: "Exceptional Virtual Meeting (relaces San Jose, CA)"
     links: "no"
 
   - start: 2020-09-28
     end: 2020-09-30
-    title: "Austin, TX (Texas Advanced Computing Center)"
+    title: "Exceptional Virtual Meeting (replaces Austin, TX)"
     links: "no"
 
   - start: 2020-06-29
     end: 2020-07-01
-    title: "Munich, Germany (Technical University of Munich)"
-    links: "no"
+    title: "Exceptional Virtual Meeting (replaces Munich, Germany)"
+    links: "yes"
+
+  - start: 2020-05-06
+    end: 2020-05-06
+    title: "Exceptional Virtual Meeting"
+    links: "yes"
 
   - start: 2020-02-18
     end: 2020-02-21

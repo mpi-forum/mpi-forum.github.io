@@ -5,4 +5,4 @@ title: "Virtual Meetings"
 type: virtual
 ---
 
-#### The virtual and physical meeting pages have split. If you're looking for the physical meetings, look [here](../meetings/).
+#### The virtual and voting meeting pages have split. If you're looking for the voting meetings, look [here](../meetings/).
