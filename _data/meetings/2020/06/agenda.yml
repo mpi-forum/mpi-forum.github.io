@@ -154,6 +154,12 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: Reading
+      title: Semantic Terms
+      issue_number: 96
+      presenter: Puri
+      done: 0
+
     - type: Errata Readings
       title: Read all errata tickets up for vote in the order of above
       presenter: see ballot list
