@@ -160,6 +160,12 @@ plenaries:
       done: 0
       
     - type: Reading
+      title: Deprecate MPI_HOST
+      issue_number: 57
+      presenter: Julien
+      done: 0
+
+    - type: Reading
       title: Clarification - Section 8.5 - p. 377 - Error Class and Code Advice to Implementors
       issue_number: 259
       presenter: Wesley
