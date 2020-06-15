@@ -112,13 +112,21 @@ errata-votes:
     - number: 182
       description: Julien - Question - Section 5.12.4 - p. 206 - MPI_ISCATTERV sendcounts and displs Consistency
 
+    - number: 160
+      description: Marc-Andre - Clarify behavior for invalid MPI_T binding arguments
 
 no-no-votes:
+
+     - number: 120
+       description: "MPI_Cart_create_weighted / Topology aware Cartesian communicators"
 
 first-votes:
 
      - number: 137
        description: "The Embiggenment (BigCount)"
+
+     - number: 120
+       description: "MPI_Cart_create_weighted / Topology aware Cartesian communicators"
 
 second-votes:
 
@@ -160,6 +168,12 @@ plenaries:
       presenter: Puri
       done: 0
 
+    - type: NoNo Reading
+      title: MPI_Cart_create_weighted / Topology aware Cartesian communicators
+      issue_number: 120
+      presenter: Rolf
+      done: 0
+
     - type: Errata Readings
       title: Read all errata tickets up for vote in the order of above
       presenter: see ballot list
@@ -175,12 +189,6 @@ plenaries:
       title: Clarification - Section 8.5 - p. 377 - Error Class and Code Advice to Implementors
       issue_number: 259
       presenter: Wesley
-      done: 0
-
-    - type: Reading
-      title: MPI_Cart_create_weighted / Topology aware Cartesian communicators
-      issue_number: 120
-      presenter: Rolf
       done: 0
 
     - type: Discussion
