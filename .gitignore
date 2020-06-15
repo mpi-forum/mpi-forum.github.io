@@ -5,3 +5,6 @@ _site/
 Gemfile.lock
 utils/credentials.json
 utils/token.pickle
+utils/ballot.csv
+utils/votes.csv
+
