@@ -70,7 +70,7 @@ errata-votes:
     - number: 252
       description: Dan - Clarification - Section 3.2.2 - p. 27 - Datatype Footnote
 
-    - number: 189
+    - number: 190
       description: Dan - Update - Section 3.7.5 - p. 60 - Replace C-bias with LIS
 
     - number: 218

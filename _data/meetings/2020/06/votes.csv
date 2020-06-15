@@ -1,2 +1,30 @@
 topic,type,yes,no,abstain,missed
-"Temp topic",1st,0,0,0,0
+"#6: Update on Release Process to adjust to existing GitHub Workflow","procedure",0,0,0,0
+"#7: Officer Election","procedure",0,0,0,0
+"#120 - MPI_Cart_create_weighted / Topology aware Cartesian communicators","no-no",0,0,0,0
+"#179: Joseph - Omission - p. 440 - WIN_DETATCH Binding Fix","errata",0,0,0,0
+"#178: Joseph - Omission - p. 439 - WIN_ATTACH_ Binding Fix","errata",0,0,0,0
+"#167: Dan - Error - Section 3.3.2 - p. 38 - Replace C process","errata",0,0,0,0
+"#252: Dan - Clarification - Section 3.2.2 - p. 27 - Datatype Footnote","errata",0,0,0,0
+"#190: Dan - Update - Section 3.7.5 - p. 60 - Replace C-bias with LIS","errata",0,0,0,0
+"#218: Wesley - Update - Section 17.1 - p. 635 - Update Backward Incompatibility Text","errata",0,0,0,0
+"#262: Wesley - Clarification - Section 11.3.5 - p. 458 - Error in Status Field Clarification","errata",0,0,0,0
+"#263: Wesley - Clarification - Section 11.7 - p. 482 - MPI Exception Clarification","errata",0,0,0,0
+"#168: Wesley - Error - Section 12.4.3 - p. 515 - MPI_INIT argc/argv values","errata",0,0,0,0
+"#171: George - Error in text - Section 4.1.1 - p. 87 - INTEGER*8 Extension","errata",0,0,0,0
+"#176: George - Omission - p. 387 - Initialized Binding Fix","errata",0,0,0,0
+"#181: George - Oversight - Section 8.7 - p. 383 - Escape Spaces in Arguments","errata",0,0,0,0
+"#254: George - Clarification - Example 4.17 - p. 128 - Example Comment","errata",0,0,0,0
+"#196: Guillaume - Update - Section 6.2.4 - p. 248 - Remove Host Process","errata",0,0,0,0
+"#268: Marc-Andre - Clarification - Section 14.3.7 - p. 615 - MPI_T Session Impact Clarifications","errata",0,0,0,0
+"#169: Martin - Error - Section 13.4.1 - p. 535 - MPI_FILE_READ Equivalency","errata",0,0,0,0
+"#257: Julien - Clarification - Section 5.1 - p. 144 - Collective Synchronization","errata",0,0,0,0
+"#182: Julien - Question - Section 5.12.4 - p. 206 - MPI_ISCATTERV sendcounts and displs Consistency","errata",0,0,0,0
+"#137: The Embiggenment (BigCount)","1st",0,0,0,0
+"(If no-no above passes) #120 - MPI_Cart_create_weighted / Topology aware Cartesian communicators","1st",0,0,0,0
+"#103: MPI Sessions","2nd",0,0,0,0
+"#143: Creating an MPI_INFO_ENV object before MPI_INIT.","2nd",0,0,0,0
+"#132: Hardware split, guided mode.","2nd",0,0,0,0
+"#156: Hardware split, unguided mode.","2nd",0,0,0,0
+"#136: Partitioned Point-to-Point Communication","2nd",0,0,0,0
+"#122: Intro nonblocking, no serialization and no deadlocks","2nd",0,0,0,0
