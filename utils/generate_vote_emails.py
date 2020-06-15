@@ -85,7 +85,7 @@ def send_message(service, user_id, message):
 def main():
     service = authenticate()
 
-    #attenance_file="/Users/wbland/writing/mpi/meeting-details/2020-06-may/2020-06-29-registration.csv"
+    #attenance_file="/Users/wbland/writing/mpi/meeting-details/2020-06-jun/2020-06-29-registration.csv"
     attenance_file="/Users/wbland/writing/mpi/mpi-forum.github.io/utils/test.csv"
 
     with open(attenance_file) as csvfile:
@@ -101,7 +101,7 @@ def main():
                     Hi {name},<br><br>
 
                     Voting is now open for the June/July 2020 meeting. You may vote at
-                    <a href=https://form.jotform.com/201253678123047?participantId={id}&name={safe_name}&org={org}>
+                    <a href=https://form.jotform.com/201614072992151?participantId={id}&name={safe_name}&org={org}>
                     this</a> link.<br><br>
 
                     If multiple members of your organization registered, each will get their own

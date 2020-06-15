@@ -295,7 +295,10 @@ function buildVoteTable() {
 
             printable_html += '<th class="rotate"><div>' + topic_num + ' (' + type + ')</div></th>';
 
-            var shuffled_orgs = shuffle(Object.keys(orgs));
+            //var shuffled_orgs = shuffle(Object.keys(orgs));
+            // Not shuffling the orgs since voting is all online now. Alphabetizing makes it easier
+            // to copy.
+            var shuffled_orgs = Object.keys(orgs).sort((a, b) => a.localeCompare(b));
             var abstain_html = "";
             var no_html = "";
             for (key in shuffled_orgs) {
