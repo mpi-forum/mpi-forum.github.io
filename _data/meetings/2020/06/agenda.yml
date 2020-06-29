@@ -117,6 +117,9 @@ errata-votes:
 
 no-no-votes:
 
+     - number: 96
+       description: "Semantic Terms"
+
      - number: 120
        description: "MPI_Cart_create_weighted / Topology aware Cartesian communicators"
 
@@ -160,6 +163,12 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: New Procedures (PR 6 and 7)
+      issue_number:
+      presenter: Wesley
       done: 0
 
     - type: Reading
