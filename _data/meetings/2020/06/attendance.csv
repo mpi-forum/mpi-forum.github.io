@@ -1,37 +1,49 @@
-name,org,attend,1
-"Wesley Bland","Intel Corporation",1
-"Kenneth Raffenetti","Argonne National Laboratory",1
-"Guillaume Mercier","INRIA",1
-"Jeff Hammond","Intel Corporation",1
-"Jeff Squyres","Cisco",1
-"Howard Pritchard","Los Alamos National Laboratory",1
-"Anthony Skjellum","University of Tennessee, Chattanooga",1
-"Hugo Taboada","CEA",1
-"Brandon Cook","Lawrence Berkeley National Laboratory",1
-"Ryan Grant","Sandia National Laboratory",1
-"Joseph Schuchart","HLRS, University of Stuttgart",1
-"george bosilca","University of Tennessee, Knoxville",1
-"Brian Smith","Oak Ridge National Laboratory",1
-"William Gropp","University of Illinois Urbana-Champaign",1
-"Christoph Niethammer","HLRS, University of Stuttgart",1
-"Julien Jaeger","CEA",1
-"Marc-André Hermanns","RWTH Aachen University",1
-"Martin Schulz","Technical University of Munich",1
-"Thomas Naughton","Oak Ridge National Laboratory",1
-"Shinji Sumimoto","Fujitsu",1
-"Ali Mohammed","University of Basel",1
-"Nick Radcliffe","HPE",1
-"Ignacio Laguna","Lawrence Livermore National Laboratory",1
-"Florina Ciorba ","University of Basel",1
-"Dan Holmes","EPCC, The University of Edinburgh",1
-"Purushotham Bangalore","University of Alabama at Birmingham",1
-"Marc-Andre Hermanns","RWTH Aachen University",1
-"Thomas Hines","Tennessee Tech University",1
-"Rolf Rabenseifner","HLRS, University of Stuttgart",1
-"Atsushi Hori","RIKEN",1
-"Joshua Hursey","IBM",1
-"Guillaume Papauré","Atos",1
-"Sudheer Chunduri","Argonne National Laboratory",1
-"Claudia Blaas-Schenner","VSC Research Center, TU Wien",1
-"James Dinan","NVIDIA",1
-"Derek Schafer","University of Tennessee, Chattanooga",1
+"name","org","attend"
+"Wesley Bland","Intel Corporation","1"
+"Kenneth Raffenetti","Argonne National Laboratory","1"
+"Guillaume Mercier","INRIA","1"
+"Jeff Hammond","Intel Corporation","1"
+"Jeff Squyres","Cisco","1"
+"Howard Pritchard","Los Alamos National Laboratory","1"
+"Anthony Skjellum","University of Tennessee, Chattanooga","1"
+"Hugo Taboada","CEA","1"
+"Brandon Cook","Lawrence Berkeley National Laboratory","1"
+"Ryan Grant","Sandia National Laboratory","1"
+"Joseph Schuchart","HLRS, University of Stuttgart","1"
+"george bosilca","University of Tennessee, Knoxville","1"
+"Brian Smith","Oak Ridge National Laboratory","1"
+"William Gropp","University of Illinois Urbana-Champaign","1"
+"Christoph Niethammer","HLRS, University of Stuttgart","1"
+"Julien Jaeger","CEA","1"
+"Marc-André Hermanns","RWTH Aachen University","1"
+"Martin Schulz","Technical University of Munich","1"
+"Thomas Naughton","Oak Ridge National Laboratory","1"
+"Shinji Sumimoto","Fujitsu","1"
+"Ali Mohammed","University of Basel","1"
+"Nick Radcliffe","HPE","1"
+"Ignacio Laguna","Lawrence Livermore National Laboratory","1"
+"Florina Ciorba ","University of Basel","1"
+"Kathryn Mohror","Lawrence Livermore National Laboratory","1"
+"Dan Holmes","EPCC, The University of Edinburgh","1"
+"Purushotham Bangalore","University of Alabama at Birmingham","1"
+"Thomas Hines","Tennessee Tech University","1"
+"Rolf Rabenseifner","HLRS, University of Stuttgart","1"
+"Atsushi Hori","RIKEN","1"
+"Joshua Hursey","IBM","1"
+"Guillaume Papauré","Atos","1"
+"Sudheer Chunduri","Argonne National Laboratory","1"
+"Claudia Blaas-Schenner","VSC Research Center, TU Wien","1"
+"James Dinan","NVIDIA","1"
+"Derek Schafer","University of Tennessee, Chattanooga","1"
+"Hari Subramoni","Ohio State University","1"
+"Hubert Ritzdorf","NEC Corporation","1"
+"Patrick Bridges","University of New Mexico","1"
+"W. Pepper Marts","University of New Mexico","1"
+"Matthew G. F. Dosanjh","Sandia National Laboratory","1"
+"Rich Graham","NVIDIA","1"
+"Sayan Ghosh","Pacific Northwest National Laboratory","1"
+"Bengisu Elis","Technical University of Munich","1"
+"Chulho Kim","Lenovo","1"
+"Aurelien Bouteiller","University of Tennessee, Knoxville","1"
+"Whit Schonbein","Sandia National Laboratory","1"
+"Robert Mijaković","Leibniz Supercomputing Centre","1"
