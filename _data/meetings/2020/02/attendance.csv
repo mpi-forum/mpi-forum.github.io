@@ -1,38 +1,38 @@
 name,org,attend
-"Anthony Skjellum","University of Tennessee at Chattanooga",1
-"Wesley Bland","Intel",1
-"Ali Mohammed","University of Basel",1
-"Jeff Squyres","Cisco",1
-"Brandon Cook","Berkeley Lab",1
-"Edgar Leon","LLNL",1
-"Shinji Sumimoto","Fujitsu",1
-"Kathryn Mohror","LLNL",1
-"Howard Pritchard","Los Alamos National Lab",1
-"Ken Raffenetti","Argonne National Laboratory",0
-"Purushotham Bangalore","University of Alabama at Birmingham",1
-"Nicholas Chaimov","ParaTools",1
-"Prema Soundararajan","University of Alabama at Birmingham",1
-"Brice Goglin","Inria Bordeaux Sud Ouest",1
-"Nick Radcliffe","HPE",1
-"Brian Smith","ORNL",1
-"Joshua Hursey","IBM",1
-"Thomas Naughton","ORNL",1
-"Julien JAEGER","CEA",1
-"Jeff Hammond","Intel",1
-"Rolf Rabenseifner","HLRS, University of Stuttgart",1
-"Austen Lauria","IBM",1
-"Mohammadreza Bayatpour","Ohio State University",1
-"George Bosilca","University of Tennessee",1
-"Yanfei Guo","Argonne National Laboratory",1
-"Sayantan Sur","Intel",1
-"Sayan Ghosh","Pacific Northwest National Laboratory",1
-"Martin Schulz","Technical University of Munich",1
-"Guillaume Papauré","Atos",1
-"Derek Schafer","University of Tennessee Chattanooga",1
-"akshay venkatesh","NVIDIA",1
-"Dan Holmes","EPCC, The University of Edinburgh",1
-"Ryan Grant","Sandia National Laboratories",1
-"Artem Polyakov","Mellanox Technologies Inc",1
-"Takafumi Nose","Fujitsu",1
-"Sheikh Ghafoor","Tennessee Tech University",1
-"Fab Tillier","Microsoft",1
+Anthony Skjellum,"University of Tennessee, Chattanooga",1
+Wesley Bland,Intel Corporation,1
+Ali Mohammed,University of Basel,1
+Jeff Squyres,Cisco,1
+Brandon Cook,Lawrence Berkeley National Laboratory,1
+Edgar Leon,Lawrence Livermore National Laboratory,1
+Shinji Sumimoto,Fujitsu,1
+Kathryn Mohror,Lawrence Livermore National Laboratory,1
+Howard Pritchard,Los Alamos National Laboratory,1
+Ken Raffenetti,Argonne National Laboratory,0
+Purushotham Bangalore,University of Alabama at Birmingham,1
+Nicholas Chaimov,ParaTools SAS,1
+Prema Soundararajan,University of Alabama at Birmingham,1
+Brice Goglin,Inria,1
+Nick Radcliffe,HPE,1
+Brian Smith,Oak Ridge National Laboratory,1
+Joshua Hursey,IBM,1
+Thomas Naughton,Oak Ridge National Laboratory,1
+Julien JAEGER,CEA,1
+Jeff Hammond,Intel Corporation,1
+Rolf Rabenseifner,"HLRS, University of Stuttgart",1
+Austen Lauria,IBM,1
+Mohammadreza Bayatpour,Ohio State University,1
+George Bosilca,"University of Tennessee, Knoxville",1
+Yanfei Guo,Argonne National Laboratory,1
+Sayantan Sur,Intel Corporation,1
+Sayan Ghosh,Pacific Northwest National Laboratory,1
+Martin Schulz,Technical University of Munich,1
+Guillaume Papaure,Atos,1
+Derek Schafer,"University of Tennessee, Chattanooga",1
+akshay venkatesh,NVIDIA,1
+Dan Holmes,"EPCC, The University of Edinburgh",1
+Ryan Grant,Sandia National Laboratory,1
+Artem Polyakov,Mellanox Technologies Inc.,1
+Takafumi Nose,Fujitsu,1
+Sheikh Ghafoor,Tennessee Tech University,1
+Fab Tillier,Microsoft,1

@@ -85,17 +85,85 @@ def send_message(service, user_id, message):
 def main():
     service = authenticate()
 
-    #attenance_file="/Users/wbland/writing/mpi/meeting-details/2020-06-jun/2020-06-29-registration.csv"
-    attenance_file="/Users/wbland/writing/mpi/mpi-forum.github.io/utils/test.csv"
+    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/02/attendance.csv"
+    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/05/attendance.csv"
+    curr_attendance_file =   "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/06/attendance.csv"
+    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2020-06-jun/2020-06-29-registration.csv"
 
-    with open(attenance_file) as csvfile:
-        attendees = csv.DictReader(csvfile)
-        for row in attendees:
+    prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
+    prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
+    curr_attendees = list(csv.DictReader(open(curr_attendance_file)));
+    curr_registration = list(csv.DictReader(open(curr_registration_file)));
+
+    orgs = {}
+
+    for row in iter(prev_attendees_1):
+        org = row['org'];
+        if org not in orgs:
+            #print("Prev 1 New Org: " + org);
+            orgs[org] = {'registered': 1, 'attended': int(row['attend']), 'prev_1': 1, 'prev_2': 0, 'curr': 0};
+    for row in iter(prev_attendees_2):
+        org = row['org'];
+        if org not in orgs:
+            #print("Prev 2 New Org: " + org);
+            orgs[org] = {'registered': 1, 'attended': int(row['attend']), 'prev_1': 0, 'prev_2': 1, 'curr': 0};
+        elif orgs[org]['prev_2'] == 0:
+            orgs[org]['registered'] = int(orgs[org]['registered']) + 1;
+            orgs[org]['attended'] = int(orgs[org]['attended']) + int(row['attend']);
+            orgs[org]['prev_2'] = 1;
+    for row in iter(curr_attendees):
+        org = row['org'];
+        if org not in orgs:
+            #print("Curr New Org: " + org);
+            orgs[org] = {'registered': 1, 'attended': int(row['attend']), 'prev_1': 0, 'prev_2': 0, 'curr': 1};
+        elif orgs[org]['curr'] == 0:
+            orgs[org]['registered'] = int(orgs[org]['registered']) + 1;
+            orgs[org]['attended'] = int(orgs[org]['attended']) + int(row['attend']);
+            orgs[org]['curr'] = int(row['attend']);
+
+    no_register = []
+    no_attend = []
+    no_curr = []
+    eligible = []
+    for org in orgs.keys():
+        if orgs[org]['registered'] < 2:
+            no_register.append(org);
+        elif orgs[org]['curr'] != 1:
+            no_curr.append(org);
+        elif orgs[org]['attended'] < 2:
+            no_attend.append(org);
+        else:
+            eligible.append(org);
+
+    no_register.sort();
+    no_attend.sort();
+    no_curr.sort();
+    eligible.sort();
+
+    print("\n=== Eligible to vote ===\n");
+    print(*eligible, sep = '\n');
+    print("\n=== Did not register for 2 of last 3 meetings ===\n");
+    print(*no_register, sep = '\n');
+    print("\n=== Not present at current meeting ===\n");
+    print(*no_curr, sep = '\n');
+    print("\n=== Did not attend 2 of last 3 meetings ===\n");
+    print(*no_attend, sep = '\n');
+    print("\n===\n");
+
+    for row in iter(curr_registration):
+        org = row['What organization will you be representing?'];
+        if orgs[org]['registered'] < 2:
+            print("" + org + " not registered for 2 of the last 3 meetings.");
+        elif orgs[org]['attended'] < 2:
+            print("" + org + " not attended 2 of the last 3 meetings.");
+        elif orgs[org]['curr'] != 1:
+            print("" + org + " not attending current meeting.");
+        else:
             email = row['Email Address']
             name = row['What is your name?']
             safe_name = urllib.parse.quote_plus(name)
-            org = urllib.parse.quote_plus(row['What organization will you be representing?'])
-            uuid = urllib.parse.quote_plus(row['UUID'])
+            safe_org = urllib.parse.quote_plus(org)
+            safe_uuid = urllib.parse.quote_plus(row['UUID'])
 
             message_text = """\
                     Hi {name},<br><br>
@@ -117,10 +185,10 @@ def main():
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
-                    """.format(name=name, safe_name=safe_name, id=uuid, org=org)
+                    """.format(name=name, safe_name=safe_name, id=safe_uuid, org=safe_org)
 
-            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'June/July 2020 MPI Forum Voting Link', message_text)
-            message_id = send_message(service, "me", message)
+            #message = create_message('"Wesley Bland" <work@wesbland.com>', email,'June/July 2020 MPI Forum Voting Link', message_text)
+            #message_id = send_message(service, "me", message)
 
             print("Sent to: ",email)
             #print("====")

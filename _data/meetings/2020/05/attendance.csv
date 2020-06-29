@@ -1,41 +1,41 @@
 name,org,attend
-"Wesley Bland","Intel",1
-"Guillaume Mercier","Inria",1
-"Joseph Schuchart","HLRS",1
-"George Bosilca","University of Tennessee",1
-"Ryan Grant","Sandia National Laboratories",1
-"Howard Pritchard","LANL",1
-"Martin Schulz","Technical University of Munich",1
-"Brian Smith","ORNL",1
-"Jeff 'The Great' Squyres","Cisco Systems, Inc.",1
-"Purushotham Bangalore","University of Alabama at Birmingham",1
-"Hugo Taboada","CEA",1
-"Kathryn Mohror","Lawrence Livermore National Laboratory",1
-"William Gropp","University of Illinois at Urbana-Champaign/NCSA",1
-"Brice Goglin","Inria",1
-"Anthony Skjellum","UTC",1
-"Christoph Niethammer","High Performance Computing Center Stuttgart (HLRS)",1
-"Dan Holmes","EPCC, The University of Edinburgh",1
-"Thomas Hines","Tennessee Technological University",1
-"Derek Schafer","University of Tennessee at Chattanooga",1
-"Jeff Hammond","Intel Corporation",1
-"Jim Dinan","NVIDIA",1
-"Nick Radcliffe","HPE",1
-"Shinji Sumimoto","Fujitsu",1
-"Ali Mohammed","University of Basel",1
-"Thomas Naughton","ORNL",1
-"Julien Jaeger","CEA",1
-"Aurelien Bouteiller","UTK",1
-"Richard Graham","Mellanox",1
-"Jean-Baptiste Besnard","ParaTools SAS",1
-"Claudia Blaas-Schenner","TU Wien",1
-"Kenneth Raffenetti","Argonne National Laboratory",1
-"Hari Subramoni","The Ohio State University",1
-"Patrick Bridges","University of New Mexico",1
-"Matthew G. F. Dosanjh","Sandia National Laboratories",1
-"Marc-André Hermanns","RWTH Aachen University",1
-"Artem Polyakov","NVIDIA",1
-"Rolf Rabenseifner","HLRS, University of Stuttgart",1
-"Atsushi Hori","Riken",1
-"Guillaume Papauré","Atos",1
-"Julien Adam","Paratools SAS",1
+Wesley Bland,Intel Corporation,1
+Guillaume Mercier,Inria,1
+Joseph Schuchart,"HLRS, University of Stuttgart",1
+George Bosilca,"University of Tennessee, Knoxville",1
+Ryan Grant,Sandia National Laboratory,1
+Howard Pritchard,Los Alamos National Laboratory,1
+Martin Schulz,Technical University of Munich,1
+Brian Smith,Oak Ridge National Laboratory,1
+Jeff 'The Great' Squyres,Cisco,1
+Purushotham Bangalore,University of Alabama at Birmingham,1
+Hugo Taboada,CEA,1
+Kathryn Mohror,Lawrence Livermore National Laboratory,1
+William Gropp,University of Illinois Urbana-Champaign,1
+Brice Goglin,Inria,1
+Anthony Skjellum,"University of Tennessee, Chattanooga",1
+Christoph Niethammer,"HLRS, University of Stuttgart",1
+Dan Holmes,"EPCC, The University of Edinburgh",1
+Thomas Hines,Tennessee Tech University,1
+Derek Schafer,"University of Tennessee, Chattanooga",1
+Jeff Hammond,Intel Corporation,1
+Jim Dinan,NVIDIA,1
+Nick Radcliffe,HPE,1
+Shinji Sumimoto,Fujitsu,1
+Ali Mohammed,University of Basel,1
+Thomas Naughton,Oak Ridge National Laboratory,1
+Julien Jaeger,CEA,1
+Aurelien Bouteiller,"University of Tennessee, Knoxville",1
+Richard Graham,NVIDIA,1
+Jean-Baptiste Besnard,ParaTools SAS,1
+Claudia Blaas-Schenner,"VSC Research Center, TU Wien",1
+Kenneth Raffenetti,Argonne National Laboratory,1
+Hari Subramoni,Ohio State University,1
+Patrick Bridges,University of New Mexico,1
+Matthew G. F. Dosanjh,Sandia National Laboratory,1
+Marc-André Hermanns,RWTH Aachen University,1
+Artem Polyakov,NVIDIA,1
+Rolf Rabenseifner,"HLRS, University of Stuttgart",1
+Atsushi Hori,RIKEN,1
+Guillaume Papaure,Atos,1
+Julien Adam,Paratools SAS,1
