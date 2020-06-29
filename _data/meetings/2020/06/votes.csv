@@ -21,6 +21,7 @@ topic,type,yes,no,abstain,missed
 "#169: Martin - Error - Section 13.4.1 - p. 535 - MPI_FILE_READ Equivalency","errata",0,0,0,0
 "#257: Julien - Clarification - Section 5.1 - p. 144 - Collective Synchronization","errata",0,0,0,0
 "#182: Julien - Question - Section 5.12.4 - p. 206 - MPI_ISCATTERV sendcounts and displs Consistency","errata",0,0,0,0
+"#160: Marc-Andre - Clarify behavior for invalid MPI_T binding arguments","errata",0,0,0,0
 "#137: The Embiggenment (BigCount)","1st",0,0,0,0
 "(If no-no above passes) #120 - MPI_Cart_create_weighted / Topology aware Cartesian communicators","1st",0,0,0,0
 "#103: MPI Sessions","2nd",0,0,0,0
