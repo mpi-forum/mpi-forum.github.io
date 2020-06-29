@@ -1,6 +1,7 @@
 topic,type,yes,no,abstain,missed
 "#6: Update on Release Process to adjust to existing GitHub Workflow","procedure",0,0,0,0
 "#7: Officer Election","procedure",0,0,0,0
+"#96: Semantic Terms","no-no",0,0,0,0
 "#120 - MPI_Cart_create_weighted / Topology aware Cartesian communicators","no-no",0,0,0,0
 "#179: Joseph - Omission - p. 440 - WIN_DETATCH Binding Fix","errata",0,0,0,0
 "#178: Joseph - Omission - p. 439 - WIN_ATTACH_ Binding Fix","errata",0,0,0,0
