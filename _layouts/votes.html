@@ -143,6 +143,7 @@ layout: default
                         <br />
 
                         {% if site.data.meetings[page.year][page.month].ballot.size > 0 %}
+                            <font size="2">
                             <table>
                                 <tr>
                                     {% assign vote_topic = vote.topic | append: " (" | append: vote.type | append: ")" %}
@@ -156,11 +157,11 @@ layout: default
                                             {% assign i = 1 %}
                                         {% endif %}
 
-                                        {% if sorted_votes[forloop.index0] == "yes" %}
+                                        {% if sorted_votes[forloop.index0] == "Yes" or sorted_votes[forloop.index0] == "yes" %}
                                             <th bgcolor="#55FF55">{{ org }}</th>
-                                        {% elsif sorted_votes[forloop.index0] == "no" %}
+                                        {% elsif sorted_votes[forloop.index0] == "No" or sorted_votes[forloop.index0] == "no" %}
                                             <th bgcolor="#FF9999">{{ org }}</th>
-                                        {% elsif sorted_votes[forloop.index0] == "abstain" %}
+                                        {% elsif sorted_votes[forloop.index0] == "Abstain" or sorted_votes[forloop.index0] == "abstain" %}
                                             <th bgcolor="#FFFF55">{{ org }}</th>
                                         {% else %}
                                             <th bgcolor="#9999FF">{{ org }}</th>
@@ -168,6 +169,7 @@ layout: default
                                     {% endfor %}
                                 </tr>
                             </table>
+                            </font>
                         {% endif %}
                     </li>
                 {% endif %}
