@@ -82,14 +82,8 @@ errata-votes:
     - number: 263
       description: Wesley - Clarification - Section 11.7 - p. 482 - MPI Exception Clarification
 
-    - number: 168
-      description: Wesley - Error - Section 12.4.3 - p. 515 - MPI_INIT argc/argv values
-
     - number: 171
       description: George - Error in text - Section 4.1.1 - p. 87 - INTEGER*8 Extension
-
-    - number: 176
-      description: George - Omission - p. 387 - Initialized Binding Fix
 
     - number: 181
       description: George - Oversight - Section 8.7 - p. 383 - Escape Spaces in Arguments
@@ -97,39 +91,39 @@ errata-votes:
     - number: 254
       description: George - Clarification - Example 4.17 - p. 128 - Example Comment
 
-    - number: 196
-      description: Guillaume - Update - Section 6.2.4 - p. 248 - Remove Host Process
-
-    - number: 268
-      description: Marc-Andre - Clarification - Section 14.3.7 - p. 615 - MPI_T Session Impact Clarifications
-
-    - number: 169
-      description: Martin - Error - Section 13.4.1 - p. 535 - MPI_FILE_READ Equivalency
-
     - number: 257
       description: Julien - Clarification - Section 5.1 - p. 144 - Collective Synchronization
 
     - number: 182
       description: Julien - Question - Section 5.12.4 - p. 206 - MPI_ISCATTERV sendcounts and displs Consistency
 
-    - number: 160
-      description: Marc-Andre - Clarify behavior for invalid MPI_T binding arguments
-
 no-no-votes:
 
      - number: 96
        description: "Semantic Terms"
 
-     - number: 120
-       description: "MPI_Cart_create_weighted / Topology aware Cartesian communicators"
+     - number: 167
+       description: Dan - Error - Section 3.3.2 - p. 38 - Replace C process
+
+     - number: 252
+       description: Dan - Clarification - Section 3.2.2 - p. 27 - Datatype Footnote
+
+     - number: 190
+       description: Dan - Update - Section 3.7.5 - p. 60 - Replace C-bias with LIS
+
+     - number: 263
+       description: Wesley - Clarification - Section 11.7 - p. 482 - MPI Exception Clarification
+
+     - number: 181
+       description: George - Oversight - Section 8.7 - p. 383 - Escape Spaces in Arguments
+
+     - number: 254
+       description: George - Clarification - Example 4.17 - p. 128 - Example Comment
 
 first-votes:
 
      - number: 137
        description: "The Embiggenment (BigCount)"
-
-     - number: 120
-       description: "MPI_Cart_create_weighted / Topology aware Cartesian communicators"
 
 second-votes:
 
@@ -158,26 +152,26 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: New Procedures (PR 6 and 7)
       issue_number:
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Reading
       title: Semantic Terms
       issue_number: 96
       presenter: Puri
-      done: 0
+      done: 1
 
-    - type: NoNo Reading
+    - type: Reading
       title: MPI_Cart_create_weighted / Topology aware Cartesian communicators
       issue_number: 120
       presenter: Rolf
