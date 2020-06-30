@@ -2,7 +2,6 @@ topic,type,yes,no,abstain,missed
 "#6: Update on Release Process to adjust to existing GitHub Workflow","procedure",0,0,0,0
 "#7: Officer Election","procedure",0,0,0,0
 "#96: Semantic Terms","no-no",0,0,0,0
-"#120 - MPI_Cart_create_weighted / Topology aware Cartesian communicators","no-no",0,0,0,0
 "#179: Joseph - Omission - p. 440 - WIN_DETATCH Binding Fix","errata",0,0,0,0
 "#178: Joseph - Omission - p. 439 - WIN_ATTACH_ Binding Fix","errata",0,0,0,0
 "#167: Dan - Error - Section 3.3.2 - p. 38 - Replace C process","errata",0,0,0,0
@@ -23,7 +22,6 @@ topic,type,yes,no,abstain,missed
 "#182: Julien - Question - Section 5.12.4 - p. 206 - MPI_ISCATTERV sendcounts and displs Consistency","errata",0,0,0,0
 "#160: Marc-Andre - Clarify behavior for invalid MPI_T binding arguments","errata",0,0,0,0
 "#137: The Embiggenment (BigCount)","1st",0,0,0,0
-"(If no-no above passes) #120 - MPI_Cart_create_weighted / Topology aware Cartesian communicators","1st",0,0,0,0
 "#103: MPI Sessions","2nd",0,0,0,0
 "#143: Creating an MPI_INFO_ENV object before MPI_INIT.","2nd",0,0,0,0
 "#132: Hardware split, guided mode.","2nd",0,0,0,0
