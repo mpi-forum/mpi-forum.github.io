@@ -120,6 +120,9 @@ no-no-votes:
      - number: 254
        description: George - Clarification - Example 4.17 - p. 128 - Example Comment
 
+     - number: 96
+       description: "Semantic Terms 2"
+
 first-votes:
 
      - number: 137
