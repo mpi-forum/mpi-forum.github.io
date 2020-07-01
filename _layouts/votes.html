@@ -48,7 +48,67 @@ layout: default
             return "<font color=\"orange\">Unknown Rules</font>";
         }
     }
+
+    function short_name(name) {
+        name_map = {
+            "ARM": "ARM",
+            "Atos": "Atos",
+            "Argonne National Laboratory": "ANL",
+            "Auburn University": "Auburn",
+            "Barcelona Supercomputer Center": "BSC",
+            "University of Basel": "U Basel",
+            "CEA": "CEA",
+            "Cisco": "Cisco",
+            "ETH Zurich": "ETH Zurich",
+            "EPCC, The University of Edinburgh": "EPCC",
+            "Forschungszentrum Julich": "Julich",
+            "Fujitsu": "Fujitsu",
+            "HDF Group": "HDF",
+            "HLRS, University of Stuttgart": "HLRS",
+            "HPE": "HPE",
+            "IBM": "IBM",
+            "INRIA": "INRIA",
+            "Intel Corporation": "Intel",
+            "KTH": "KTH",
+            "Kyushu University": "U Kyushu",
+            "Lenovo": "Lenovo",
+            "Lawrence Berkeley National Laboratory": "LBL",
+            "Lawrence Livermore National Laboratory": "LLNL",
+            "Leibniz Supercomputing Centre": "Leibniz",
+            "Los Alamos National Laboratory": "LANL",
+            "Microsoft Inc.": "Microsoft",
+            "NEC Corporation": "NEC",
+            "NVIDIA": "NVIDIA",
+            "Oak Ridge National Laboratory": "ORNL",
+            "Ohio State University": "OSU",
+            "PAR-TEC": "PAR-TEC",
+            "Pacific Northwest National Laboratory": "PNNL",
+            "ParaTools SAS": "ParaTools",
+            "RIKEN": "RIKEN",
+            "RWTH Aachen University": "RWTH",
+            "Sandia National Laboratory": "SNL",
+            "Technical University of Munich": "TUM",
+            "The Texas Advanced Computing Center": "TACC",
+            "The University of Texas at El Paso": "UTEP",
+            "Tennessee Tech University": "TN Tech",
+            "University of Innsbruck": "U Innsbruck",
+            "University of Oregon": "U Oregon",
+            "University of Alabama at Birmingham": "UAB",
+            "University of Illinois Urbana-Champaign": "UIUC",
+            "University of New Mexico": "UNM",
+            "University of Tennessee, Chattanooga": "UTC",
+            "University of Tennessee, Knoxville": "UTK",
+            "VSC Research Center, TU Wien": "TU Wien",
+        };
+
+        if (name in name_map) {
+            return name_map[name];
+        } else {
+            return name;
+        }
+    }
 </script>
+
 {% if page.imove.size > 0 %}
 {% assign imove = page.imove %}
 {% else %}
@@ -158,13 +218,21 @@ layout: default
                                         {% endif %}
 
                                         {% if sorted_votes[forloop.index0] == "Yes" or sorted_votes[forloop.index0] == "yes" %}
-                                            <th bgcolor="#55FF55">{{ org }}</th>
+                                            <th bgcolor="#55FF55"><script>
+                                                    document.write(short_name("{{ org }}"));
+                                            </script></th>
                                         {% elsif sorted_votes[forloop.index0] == "No" or sorted_votes[forloop.index0] == "no" %}
-                                            <th bgcolor="#FF9999">{{ org }}</th>
+                                            <th bgcolor="#FF9999"><script>
+                                                    document.write(short_name("{{ org }}"));
+                                            </script></th>
                                         {% elsif sorted_votes[forloop.index0] == "Abstain" or sorted_votes[forloop.index0] == "abstain" %}
-                                            <th bgcolor="#FFFF55">{{ org }}</th>
+                                            <th bgcolor="#FFFF55"><script>
+                                                    document.write(short_name("{{ org }}"));
+                                            </script></th>
                                         {% else %}
-                                            <th bgcolor="#9999FF">{{ org }}</th>
+                                            <th bgcolor="#9999FF"><script>
+                                                    document.write(short_name("{{ org }}"));
+                                            </script></th>
                                         {% endif %}
                                     {% endfor %}
                                 </tr>
