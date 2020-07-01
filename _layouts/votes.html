@@ -157,6 +157,16 @@ layout: default
             }
         </script>
         <br>
+
+        <b>Individual organization's votes are show as colored blocks as follows:</b>
+        <table><tr>
+            <th bgcolor="#55FF55">Yes</th>
+            <th bgcolor="#FF9999">No</th>
+            <th bgcolor="#FFFF55">Abstain</th>
+            <th bgcolor="#9999FF">No Vote</th>
+        </tr></table>
+
+        <br>
         <hr>
         {{ content }}
         {% if site.data.meetings[page.year][page.month].votes.size == 0 %}

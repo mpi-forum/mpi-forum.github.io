@@ -24,7 +24,7 @@ daybreak
 "#190: Dan - Update - Section 3.7.5 - p. 60 - Replace C-bias with LIS","errata","31","0","0","0"
 "#218: Wesley - Update - Section 17.1 - p. 635 - Update Backward Incompatibility Text","errata","31","0","0","0"
 "#262: Wesley - Clarification - Section 11.3.5 - p. 458 - Error in Status Field Clarification","errata","31","0","0","0"
-"(WITHDRAWN) #263: Wesley - Clarification - Section 11.7 - p. 482 - MPI Exception Clarification","errata","30","1","0","0"
+"(WITHDRAWN) #263: Wesley - Clarification - Section 11.7 - p. 482 - MPI Exception Clarification","errata","0","0","0","0"
 "#171: George - Error in text - Section 4.1.1 - p. 87 - INTEGER*8 Extension","errata","27","2","2","0"
 "#181: George - Oversight - Section 8.7 - p. 383 - Escape Spaces in Arguments","errata","30","0","1","0"
 "#254: George - Clarification - Example 4.17 - p. 128 - Example Comment","errata","31","0","0","0"
