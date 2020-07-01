@@ -39,8 +39,12 @@ def main():
     if prev_ballots_file != "":
         prev_ballot_list = list(csv.DictReader(open(prev_ballots_file)));
         for ballot in prev_ballot_list:
+            if ballot['topic'] == "daybreak" or (int(ballot['yes']) == 0 and int(ballot['no']) == 0
+                    and int(ballot['abstain']) == 0 and int(ballot['missed']) == 0):
+                continue;
             ballot_dict["" + ballot['topic'] + " (" + ballot['type'] + ")"] = ballot;
             previous_topics.append("" + ballot['topic'] + " (" + ballot['type'] + ")");
+            ballots.append("" + ballot['topic'] + " (" + ballot['type'] + ")");
     if prev_votes_file != "":
         prev_votes_list = list(csv.DictReader(open(prev_votes_file)));
         for vote in prev_votes_list:
@@ -50,6 +54,8 @@ def main():
 
     # Create dictionary for CSV key line
     for ballot in iter(ballot_list):
+        if ballot['topic'] == "daybreak":
+            continue;
         ballots.append("" + ballot['topic'] + " (" + ballot['type'] + ")");
         if "" + ballot['topic'] + " (" + ballot['type'] + ")" not in ballot_dict:
             ballot_dict["" + ballot['topic'] + " (" + ballot['type'] + ")"] = {
@@ -90,8 +96,8 @@ def main():
         for ballot in ballots:
             if ballot == "org":
                 continue;
-            if ballot in previous_topics:
-                continue;
+            #if ballot in previous_topics:
+            #    continue;
 
             if ballot in vote:
                 votes[org][ballot] = vote[ballot];
@@ -100,7 +106,7 @@ def main():
     print("Writing ballot.csv...");
 
     with open('ballot.csv', 'w', newline='') as csvfile:
-        writer = csv.DictWriter(csvfile, header, quoting = csv.QUOTE_ALL);
+        writer = csv.DictWriter(csvfile, header, quoting = csv.QUOTE_ALL, extrasaction='ignore');
 
         writer.writeheader()
         for org in votes.keys():
