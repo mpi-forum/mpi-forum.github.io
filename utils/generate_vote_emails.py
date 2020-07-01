@@ -85,6 +85,10 @@ def send_message(service, user_id, message):
 def main():
     service = authenticate()
 
+    ooe = 0;
+    imove = 0;
+    registered = 0;
+
     prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/02/attendance.csv"
     prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/05/attendance.csv"
     curr_attendance_file =   "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/06/attendance.csv"
@@ -126,19 +130,27 @@ def main():
     no_curr = []
     eligible = []
     for org in orgs.keys():
+        registered = registered + 1;
         if orgs[org]['registered'] < 2:
             no_register.append(org);
-        elif orgs[org]['curr'] != 1:
-            no_curr.append(org);
         elif orgs[org]['attended'] < 2:
             no_attend.append(org);
+        elif orgs[org]['curr'] != 1:
+            no_curr.append(org);
+            ooe = ooe + 1;
         else:
             eligible.append(org);
+            ooe = ooe + 1;
+            imove = imove + 1;
 
     no_register.sort();
     no_attend.sort();
     no_curr.sort();
     eligible.sort();
+
+    print("REGISTERED: " + str(registered));
+    print("OOE: " + str(ooe));
+    print("IMOVE: " + str(imove));
 
     print("\n=== Eligible to vote ===\n");
     print(*eligible, sep = '\n');
@@ -149,6 +161,9 @@ def main():
     print("\n=== Did not attend 2 of last 3 meetings ===\n");
     print(*no_attend, sep = '\n');
     print("\n===\n");
+
+    if (imove < (ooe * 2.0 / 3.0)):
+        print("Did not meet meeting quorum. IMOVE required: " + str(ooe * 2.0 / 3.0) + "\n");
 
     for row in iter(curr_registration):
         org = row['What organization will you be representing?'];
