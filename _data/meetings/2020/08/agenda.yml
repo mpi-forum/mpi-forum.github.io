@@ -1,44 +1,69 @@
+notes: This is a virtual voting meeting, which was added to allow us to keep the timeline for MPI 4.0. The meeting will consist of plenaries only, run via Webex, and be held on the three days August 17-19, 2020 from 9am to noon US Central time, which equates to 4pm to 7pm Central European time. If we end up not needing the entire time, it may also be shorter.
+
 schedule:
 
     - day: Monday, August 17
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 11:30am
+      title: "Plenary Sessions"
 
+    - start: 11:30am
+      end: 12:00pm
+      title: "Voting Block 1"
+      
     - endday: done
 
 
     - day: Tuesday, August 18
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 10:00am
+      title: "Plenary Sessions"
+
+    - start: 10:00am
+      end: 10:30am
+      title: "Voting Block 2"
+      
+    - start: 10:30am
+      end: 12:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Wednesday, August 19
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 10:00am
+      title: "Plenary Sessions"
+
+    - start: 10:00am
+      end: 10:30am
+      title: "Voting Block 3"
+      
+    - start: 10:30am
+      end: 12:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
-
 errata-votes:
 
+    - number: 169
+      description: Martin - Remove comparison with POSIX calls
+      
 no-no-votes:
 
 first-votes:
 
 second-votes:
+
+     - number: 137
+       description: "The Embiggenment (BigCount)"
 
 plenaries:
     - type: Welcome
@@ -51,9 +76,14 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+    - type: Reminder Reading
+      title: Remove comparison with POSIX calls
+      issue_number: 169
+      presenter: Martin
+      done: 0
+
+    - type: Wrap-Up
+      title: Next Steps and Plans for September
+      presenter: Martin
       done: 0
 
