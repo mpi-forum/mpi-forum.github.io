@@ -4,13 +4,13 @@ virtual:
 
   - start: 2020-07-29T10:00
     end: 2020-07-29T12:00
-    title: "Topic TBD"
-    recording_url:
+    title: "Terms and Partitioned Communication"
+    recording_url: https://youtu.be/__y9yLCVN98
 
   - start: 2020-07-22T10:00
     end: 2020-07-22T12:00
-    title: "Topic TBD"
-    recording_url:
+    title: "MPI_T / RMA"
+    recording_url: https://youtu.be/GouAT18b6YI
 
   - start: 2020-07-15T10:00
     end: 2020-07-15T12:00
