@@ -54,11 +54,33 @@ procedure-votes:
 errata-votes:
 
     - number: 169
-      description: Martin - Remove comparison with POSIX calls
-      
+      description: Remove comparison with POSIX calls
+
+    - number: 268
+      description: MPI_T Sessions Scope
+
+    - number: 263
+      description: MPI Exception Clarification
+
+    - number: 298
+      description: Fortran errata: Clarify where TYPE(MPI_Status) type must be defined
+
 no-no-votes:
 
+    - number: 96
+      description: Update to Semantic Terms Section
+
 first-votes:
+
+    - number: 259
+      description: Error Class and Code Advice to Implementors
+
+    - number: 120
+      description: MPI_Cart_create_weighted / Topology aware Cartesian communicators
+
+    - number: 96
+      description: Update to Semantic Terms Section
+
 
 second-votes:
 
@@ -76,10 +98,51 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Reminder Reading
+    - type:  NoNo Reading
+      title: Update to Semantic Terms Section
+      issue_number: 96
+      presenter: Puri
+      done: 0
+
+    - type: Reminder Errata Reading
       title: Remove comparison with POSIX calls
       issue_number: 169
       presenter: Martin
+      done: 0
+
+    - type: Errata Reading
+      title: Remove comparison with POSIX calls
+      issue_number: 268
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Errata Reading
+      title: MPI Exception Clarification
+      issue_number: 263
+      presenter: Wesley
+      done: 0
+
+    - type: Errata Reading
+      title: Fortran errata: Clarify where TYPE(MPI_Status) type must be defined
+      issue_number: 298
+      presenter: Jeff
+      done: 0
+
+    - type: Discussion
+      title:  Reminder of pending votes
+      presenter: Wesley, Rolf, Puri
+      done: 0
+
+    - type: Reading
+      title: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string
+      issue_number: 283
+      presenter: Wesley
+      done: 0
+
+    - type: Reading
+      title: Synchronization on Partitioned Communication for Accelerator Optimization
+      issue_number: 302
+      presenter: Ryan
       done: 0
 
     - type: Wrap-Up
