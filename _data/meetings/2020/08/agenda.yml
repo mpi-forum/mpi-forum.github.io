@@ -63,7 +63,7 @@ errata-votes:
       description: MPI Exception Clarification
 
     - number: 298
-      description: Fortran errata: Clarify where TYPE(MPI_Status) type must be defined
+      description: Fortran errata: Clarify where TYPE-MPI_Status type must be defined
 
 no-no-votes:
 
