@@ -65,6 +65,9 @@ errata-votes:
     - number: 298
       description: Clarify where TYPE-MPI_Status type must be defined
 
+    - number: 301
+      description: MPI_Comm_split_type
+
 no-no-votes:
 
     - number: 96
@@ -126,6 +129,12 @@ plenaries:
       title: Clarify where TYPE-MPI_Status type must be defined
       issue_number: 298
       presenter: Jeff
+      done: 0
+
+    - type: Errata Reading
+      title: MPI_Comm_split_type
+      issue_number: 301
+      presenter: Guillaume
       done: 0
 
     - type: Discussion
