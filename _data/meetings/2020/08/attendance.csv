@@ -1,12 +1,21 @@
-name,org,attend
-"Wesley Bland","Intel Corporation",1
-"Jeff Squyres","Cisco",1
-"Artem Polyakov","NVIDIA",1
-"Ryan Grant","Sandia National Laboratory",1
-"Howard Pritchard","Los Alamos National Laboratory",1
-"Kathryn Mohror","Lawrence Livermore National Laboratory",1
-"Rich Graham","NVIDIA",1
-"Martin Schulz","Technical University of Munich",1
-"Michael Knobloch","Forschungszentrum Julich",1
-"Thomas Naughton","Oak Ridge National Laboratory",1
-"Purushotham Bangalore","University of Alabama at Birmingham",1
+"name","org","attend"
+"Wesley Bland","Intel Corporation","1"
+"Jeff Squyres","Cisco","1"
+"Artem Polyakov","NVIDIA","1"
+"Ryan Grant","Sandia National Laboratory","1"
+"Howard Pritchard","Los Alamos National Laboratory","1"
+"Kathryn Mohror","Lawrence Livermore National Laboratory","1"
+"Rich Graham","NVIDIA","1"
+"Martin Schulz","Technical University of Munich","1"
+"Michael Knobloch","Forschungszentrum Julich","1"
+"Thomas Naughton","Oak Ridge National Laboratory","1"
+"Purushotham Bangalore","University of Alabama at Birmingham","1"
+"Ken Raffenetti","Argonne National Laboratory","1"
+"Brian Smith","Oak Ridge National Laboratory","1"
+"Jeff Hammond","Intel Corporation","1"
+"Guillaume Mercier","INRIA","1"
+"Shinji Sumimoto","Fujitsu","1"
+"Jean-Baptiste Besnard","ParaTools SAS","1"
+"Ali Mohammed","University of Basel","1"
+"Hubert Ritzdorf","NEC Corporation","1"
+"Hugo Taboada","CEA","1"
