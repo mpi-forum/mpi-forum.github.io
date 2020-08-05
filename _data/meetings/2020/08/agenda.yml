@@ -101,6 +101,11 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type:  WG Issues
+      title: Restart/Rename Hybrid WG
+      presenter: Jim
+      done: 0
+
     - type:  NoNo Reading
       title: Update to Semantic Terms Section
       issue_number: 96
