@@ -89,10 +89,11 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/02/attendance.csv"
-    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/05/attendance.csv"
-    curr_attendance_file =   "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/06/attendance.csv"
-    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2020-06-jun/2020-06-29-registration.csv"
+    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/05/attendance.csv"
+    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/06/attendance.csv"
+    curr_attendance_file =   "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/08/attendance.csv"
+    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2020-08-aug/2020-08-17-registration.csv"
+    prev_ooe = 31
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
@@ -130,7 +131,9 @@ def main():
     no_curr = []
     eligible = []
     for org in orgs.keys():
-        registered = registered + 1;
+        if orgs[org]['curr'] == 1:
+            registered = registered + 1;
+
         if orgs[org]['registered'] < 2:
             no_register.append(org);
         elif orgs[org]['attended'] < 2:
@@ -148,9 +151,9 @@ def main():
     no_curr.sort();
     eligible.sort();
 
-    print("REGISTERED: " + str(registered));
-    print("OOE: " + str(ooe));
-    print("IMOVE: " + str(imove));
+    print("REGISTERED ORGS: " + str(registered));
+    print("OOE ORGS: " + str(ooe));
+    print("IMOVE ORGS: " + str(imove));
 
     print("\n=== Eligible to vote ===\n");
     print(*eligible, sep = '\n');
@@ -163,7 +166,7 @@ def main():
     print("\n===\n");
 
     if (imove < (ooe * 2.0 / 3.0)):
-        print("Did not meet meeting quorum. IMOVE required: " + str(ooe * 2.0 / 3.0) + "\n");
+        print("Did not meet meeting quorum. IMOVE required: " + str(prev_ooe * 2.0 / 3.0) + "\n");
 
     for row in iter(curr_registration):
         org = row['What organization will you be representing?'];
@@ -183,7 +186,7 @@ def main():
             message_text = """\
                     Hi {name},<br><br>
 
-                    Voting is now open for the June/July 2020 meeting. You may vote at
+                    Voting is now open for the August 2020 meeting. You may vote at
                     <a href=https://form.jotform.com/201804215921143?participantId={id}&name={safe_name}&org={org}>
                     this</a> link.<br><br>
 
@@ -196,13 +199,13 @@ def main():
                     meeting up to the point where first ballot opened, your organization's vote will
                     not be counted.
 
-                    Voting will close at 10am US Central time on June 30th, 2020.<br><br>
+                    Voting will close at 12pm US Central time on August 17th, 2020.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, safe_name=safe_name, id=safe_uuid, org=safe_org)
 
-            #message = create_message('"Wesley Bland" <work@wesbland.com>', email,'June/July 2020 MPI Forum Voting Link', message_text)
+            #message = create_message('"Wesley Bland" <work@wesbland.com>', email,'August 2020 MPI Forum Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
             print("Sent to: ",email)
