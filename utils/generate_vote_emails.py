@@ -60,6 +60,10 @@ def create_message(sender, to, subject, message_text):
   message['to'] = to
   message['from'] = sender
   message['subject'] = subject
+  print("Created message for: ",to)
+  print("====")
+  print(message_text)
+  print("====")
   return {'raw': base64.urlsafe_b64encode(message.as_bytes()).decode()}
 
 def send_message(service, user_id, message):
@@ -75,8 +79,7 @@ def send_message(service, user_id, message):
     Sent Message.
   """
   try:
-      message = (service.users().messages().send(userId=user_id, body=message)
-              .execute())
+      message = (service.users().messages().send(userId=user_id, body=message).execute())
       print('Message Id: %s' % message['id'])
       return message
   except urllib.error.HTTPError as error:
@@ -187,7 +190,7 @@ def main():
                     Hi {name},<br><br>
 
                     Voting is now open for the August 2020 meeting. You may vote at
-                    <a href=https://form.jotform.com/201804215921143?participantId={id}&name={safe_name}&org={org}>
+                    <a href=https://form.jotform.com/202166600116139?participantId={id}&name={safe_name}&org={org}>
                     this</a> link.<br><br>
 
                     If multiple members of your organization registered, each will get their own
@@ -207,11 +210,6 @@ def main():
 
             #message = create_message('"Wesley Bland" <work@wesbland.com>', email,'August 2020 MPI Forum Voting Link', message_text)
             #message_id = send_message(service, "me", message)
-
-            print("Sent to: ",email)
-            #print("====")
-            #print(message_text)
-            #print("====")
 
 if __name__ == '__main__':
     main()

@@ -120,9 +120,6 @@ def main():
 
         writer.writeheader()
         for key in ballot_dict.keys():
-            if ballot_dict[key]['yes'] == 0 and ballot_dict[key]['no'] == 0 and ballot_dict[key]['abstain'] == 0 and ballot_dict[key]['missed'] == 0:
-                continue;
-
             writer.writerow(ballot_dict[key]);
 
     print("\n=====\n");
