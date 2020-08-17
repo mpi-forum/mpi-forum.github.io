@@ -76,6 +76,9 @@ no-no-votes:
     - number: 263
       description: MPI Exception Clarification
 
+    - number: 120
+      description: MPI_Cart_create_weighted / Topology aware Cartesian communicators
+
 first-votes:
 
     - number: 259
@@ -113,6 +116,12 @@ plenaries:
       title: Update to Semantic Terms Section
       issue_number: 96
       presenter: Puri
+      done: 0
+
+    - type:  NoNo Reading
+      title: MPI_Cart_create_weighted / Topology aware Cartesian communicators
+      issue_number: 120
+      presenter: Rolf
       done: 0
 
     - type: Reminder Errata Reading
