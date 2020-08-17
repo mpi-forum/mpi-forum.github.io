@@ -1,5 +1,7 @@
 topic,type,yes,no,abstain,missed
 "#96: Update to Semantic Terms Section",no-no,0,0,0,0
+"#263: MPI Exception Clarification",no-no,0,0,0,0
+"#120: MPI_Cart_create_weighted / Topology aware Cartesian communicators",no-no,0,0,0,0
 "#169: Remove comparison with POSIX calls",errata,0,0,0,0
 "#268: MPI_T Sessions Scope",errata,0,0,0,0
 "#263: MPI Exception Clarification",errata,0,0,0,0
