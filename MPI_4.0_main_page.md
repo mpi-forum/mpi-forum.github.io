@@ -37,7 +37,7 @@ Note, though, that all of these efforts or new concepts are currently only being
 
 The forum encourages that new items will be brought forward through the respective working group. All working groups are listed below. The working group will the place for discussion, the creation of a preliminary proposal as well as drive the socialization of the idea in the forum once a certain level of maturity has been reached. Once the idea is mature enough, the working group will help to develop a formal proposal, which includes the proposed text as well as entry in the MPI ticket management system linked of the Wiki. Once complete and deemed ready by the working group, the proposal goes through the MPI forum voting process, which is detailed in the next section.
 
-[Link to the MPI-Forum GitHub Issue/Ticket System](https://github.com/mpi-forum/mpi-issues/issues) 
+[Link to the MPI-Forum GitHub Issue/Ticket System](https://github.com/mpi-forum/mpi-issues/issues)
 
 ## Voting Rules
 
@@ -62,7 +62,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 *   Lead: Guillaume Mercier
 *   Scope: Address questions like how can hardware resources (I/O, cores, caches, I/O proxies, etc.) be discovered, queried upon and distributed between execution flows? Define portable primitives inside MPI to explore and take advantage of the hardware topology either at the node or the process level.
 
-#### [Hybrid](https://github.com/mpiwg-hybrid/hybrid-issues/wiki)
+#### [Hybrid & Accelerator](https://github.com/mpiwg-hybrid/hybrid-issues/wiki)
 
 *   Lead: Pavan Balaji and Jim Dinan
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
