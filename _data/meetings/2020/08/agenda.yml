@@ -73,6 +73,9 @@ no-no-votes:
     - number: 96
       description: Update to Semantic Terms Section
 
+    - number: 263
+      description: MPI Exception Clarification
+
 first-votes:
 
     - number: 259
@@ -124,7 +127,7 @@ plenaries:
       presenter: Marc-Andre
       done: 0
 
-    - type: Errata Reading
+    - type: Errata (and no-no) Reading
       title: MPI Exception Clarification
       issue_number: 263
       presenter: Wesley
