@@ -122,7 +122,7 @@ plenaries:
       done: 0
 
     - type: Errata Reading
-      title: Remove comparison with POSIX calls
+      title: MPI_T Sessions Scope
       issue_number: 268
       presenter: Marc-Andre
       done: 0
