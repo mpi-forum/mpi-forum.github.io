@@ -10,8 +10,8 @@ schedule:
 
     - start: 11:30am
       end: 12:00pm
-      title: "Voting Block 1"
-      
+      title: "[CANCELED] Voting Block 1"
+
     - endday: done
 
 
@@ -23,8 +23,8 @@ schedule:
 
     - start: 10:00am
       end: 10:30am
-      title: "Voting Block 2"
-      
+      title: "[CANCELED] Voting Block 2"
+
     - start: 10:30am
       end: 12:00pm
       title: "Plenary Sessions"
@@ -41,7 +41,7 @@ schedule:
     - start: 10:00am
       end: 10:30am
       title: "Voting Block 3"
-      
+
     - start: 10:30am
       end: 12:00pm
       title: "Plenary Sessions"
@@ -94,70 +94,70 @@ first-votes:
 second-votes:
 
      - number: 137
-       description: "The Embiggenment (BigCount)"
+       description: "[DELAYED TO SEPTEMBER] The Embiggenment (BigCount)"
 
 plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type:  WG Issues
       title: Restart/Rename Hybrid WG
       presenter: Jim
-      done: 0
+      done: 1
 
     - type:  NoNo Reading
       title: Update to Semantic Terms Section
       issue_number: 96
       presenter: Puri
-      done: 0
+      done: 1
 
     - type:  NoNo Reading
       title: MPI_Cart_create_weighted / Topology aware Cartesian communicators
       issue_number: 120
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reminder Errata Reading
       title: Remove comparison with POSIX calls
       issue_number: 169
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: MPI_T Sessions Scope
       issue_number: 268
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Errata (and no-no) Reading
       title: MPI Exception Clarification
       issue_number: 263
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Clarify where TYPE-MPI_Status type must be defined
       issue_number: 298
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: MPI_Comm_split_type
       issue_number: 301
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Discussion
       title:  Reminder of pending votes
       presenter: Wesley, Rolf, Puri
-      done: 0
+      done: 1
 
     - type: Reading
       title: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string
