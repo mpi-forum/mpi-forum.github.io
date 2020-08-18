@@ -6,7 +6,6 @@ topic,type,yes,no,abstain,missed
 "#268: MPI_T Sessions Scope",errata,0,0,0,0
 "#263: MPI Exception Clarification",errata,0,0,0,0
 "#298: Clarify where TYPE-MPI_Status type must be defined",errata,0,0,0,0
-"#301: MPI_Comm_split_type",errata,0,0,0,0
 "#259: Error Class and Code Advice to Implementors",1st,0,0,0,0
 "#120: MPI_Cart_create_weighted / Topology aware Cartesian communicators",1st,0,0,0,0
 "#96: Update to Semantic Terms Section",1st,0,0,0,0
