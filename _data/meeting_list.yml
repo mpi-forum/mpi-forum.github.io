@@ -10,7 +10,7 @@ virtual:
   - start: 2020-08-18T09:00
     end: 2020-08-18T12:00
     title: "Exceptional Virtual Meeting (Day 2)"
-    recording_url:
+    recording_url: "https://youtu.be/lvpZpMOyEiw"
 
   - start: 2020-08-17T09:00
     end: 2020-08-17T12:00
