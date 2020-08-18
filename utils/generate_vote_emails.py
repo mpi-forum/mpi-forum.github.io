@@ -190,7 +190,7 @@ def main():
                     Hi {name},<br><br>
 
                     Voting is now open for the August 2020 meeting. You may vote at
-                    <a href=https://form.jotform.com/202166600116139?participantId={id}&name={safe_name}&org={org}>
+                    <a href=https://form.jotform.com/202304108176142?participantId={id}&name={safe_name}&org={org}>
                     this</a> link.<br><br>
 
                     If multiple members of your organization registered, each will get their own
@@ -208,7 +208,7 @@ def main():
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, safe_name=safe_name, id=safe_uuid, org=safe_org)
 
-            #message = create_message('"Wesley Bland" <work@wesbland.com>', email,'August 2020 MPI Forum Voting Link', message_text)
+            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'August 2020 MPI Forum Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
 if __name__ == '__main__':
