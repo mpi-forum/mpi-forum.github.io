@@ -12,7 +12,7 @@ Some [translations of MPI documents](translations.html) are available.
 
 ## Draft Specification
 
-Starting in 2018, the MPI Forum has decided to release draft specifications to allow users an
+Starting in 2018, the MPI Forum has decided to release draft specifications to allow users and
 implementors an early opportunity to see changes in upcoming versions of the MPI Standard. These
 draft specifications are not versions and are subject to change before published as an official
 version of the MPI Standard.
