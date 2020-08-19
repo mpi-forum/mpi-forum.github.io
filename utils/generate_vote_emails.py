@@ -60,10 +60,10 @@ def create_message(sender, to, subject, message_text):
   message['to'] = to
   message['from'] = sender
   message['subject'] = subject
-  print("Created message for: ",to)
-  print("====")
-  print(message_text)
-  print("====")
+  #print("Created message for: ",to)
+  #print("====")
+  #print(message_text)
+  #print("====")
   return {'raw': base64.urlsafe_b64encode(message.as_bytes()).decode()}
 
 def send_message(service, user_id, message):

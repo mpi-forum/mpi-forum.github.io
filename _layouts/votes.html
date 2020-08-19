@@ -147,7 +147,7 @@ layout: default
         <b>IMOVE:</b> {{ imove }}<br>
         {% endif %}
         {% if page.imove > 0 %}
-        <b>Votes needed for individual vote quorum:</b> <script> document.write((3/4) * {{imove}}); </script> <br>
+        <b>Votes needed for individual vote quorum:</b> <script> document.write(Math.ceil((3/4) * {{imove}})); </script> <br>
         {% endif %}
         <br>
 
@@ -163,7 +163,7 @@ layout: default
             <th bgcolor="#55FF55">Yes</th>
             <th bgcolor="#FF9999">No</th>
             <th bgcolor="#FFFF55">Abstain</th>
-            <th bgcolor="#9999FF">No Vote</th>
+            <th bgcolor="#9999FF">Miss</th>
         </tr></table>
 
         <br>
