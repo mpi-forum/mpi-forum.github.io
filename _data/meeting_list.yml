@@ -340,7 +340,19 @@ virtual:
 
 voting:
 
-  - year: "2020"
+  - year: "2021 (Tentative)"
+
+  - start: 2021-06-07
+    end: 2021-06-09
+    title: "Exceptional Virtual Meeting"
+    links: "no"
+
+  - start: 2021-02-22
+    end: 2021-02-24
+    title: "Exceptional Virtual Meeting"
+    links: "no"
+
+  - year: 2020
 
   - start: 2020-12-07
     end: 2020-12-10
