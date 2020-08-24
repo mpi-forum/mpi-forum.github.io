@@ -362,7 +362,7 @@ voting:
   - start: 2020-09-28
     end: 2020-09-30
     title: "Exceptional Virtual Meeting (replaces Austin, TX)"
-    links: "no"
+    links: "yes"
 
   - start: 2020-08-17
     end: 2020-08-19
