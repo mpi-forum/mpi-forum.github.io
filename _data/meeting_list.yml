@@ -8,7 +8,8 @@ virtual:
 
   - start: 2020-09-02T10:00
     end: 2020-09-02T12:00
-    title: "MPI_TYPE_SHARED (#301)"
+    title: "Terms, Large Counts, MPI_TYPE_SHARED (#301)"
+    recording_url: "https://youtu.be/XcII_nwgIKQ"
 
   - start: 2020-08-26T10:00
     end: 2020-08-26T12:00
