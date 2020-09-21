@@ -60,7 +60,7 @@ errata-votes:
       description: Improve text for MPI_Comm_split_type
 
     - number: 308
-      description: Add MPI_INFO argument to PSEND_INIT/PRECV_INIT calls for Partitioned Communication Chapter
+      description: Add MPI_INFO argument to PSEND_INIT and PRECV_INIT calls for Partitioned Communication Chapter
 
     - number: 309
       description: Clarify when to return info objects in MPI_T events chapter
@@ -89,7 +89,7 @@ second-votes:
       description: The terms chapter is missing many terms we would like to see added for MPI-4
 
     - number: 137
-      description: The Embiggenment (BigCount)
+      description: The Embiggenment aka BigCount
 
 
 plenaries:
@@ -109,7 +109,7 @@ plenaries:
       done: 0
 
     - type:  Plenary
-      title: Refresh on Voting Tickets (259, 283, 96, 137)
+      title: Refresh on Voting Tickets 259, 283, 96, 137
       presenter: All Proposers
       done: 0
 
@@ -126,7 +126,7 @@ plenaries:
       done: 0
 
    - type: Errata Reading
-      title: Add MPI_INFO argument to PSEND_INIT/PRECV_INIT calls for Partitioned Communication Chapter
+      title: Add MPI_INFO argument to PSEND_INIT and PRECV_INIT calls for Partitioned Communication Chapter
       issue_number: 308
       presenter: Ryan
       done: 0
@@ -158,7 +158,7 @@ plenaries:
    - type: SC 2020 BoF
       title: Panel Recording, stay tuned
       issue_number:
-      presenter: Martin + All
+      presenter: All
       done: 0
 
    - type:  Reading
@@ -174,7 +174,7 @@ plenaries:
       done: 0
 
     - type: Wrap-Up
-      title: Next Steps and Plans for November/December
+      title: Next Steps and Plans for November and December
       presenter: Martin
       done: 0
 
