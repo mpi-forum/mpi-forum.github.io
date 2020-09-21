@@ -53,11 +53,44 @@ procedure-votes:
 
 errata-votes:
 
+    - number: 307
+      description: C bindings for MPI_STATUS_F082F and MPI_STATUS_F2F08 are missing const
+
+    - number: 301
+      description: Improve text for MPI_Comm_split_type
+
+    - number: 308
+      description: Add MPI_INFO argument to PSEND_INIT/PRECV_INIT calls for Partitioned Communication Chapter
+
+    - number: 309
+      description: Clarify when to return info objects in MPI_T events chapter
+
+    - number: 148
+      description: Changes to MPI_T Events if info objects were available before MPI initialization
+
+    - number: 310
+      description: Clarify MPI object isolation description in Chapter 10.3
+
+
 no-no-votes:
 
 first-votes:
 
+    - number: 283
+      description: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string
+
+
 second-votes:
+
+    - number: 259
+      description: Error Class and Code Advice to Implementors
+
+    - number: 96
+      description: The terms chapter is missing many terms we would like to see added for MPI-4
+
+    - number: 137
+      description: The Embiggenment (BigCount)
+
 
 plenaries:
     - type: Welcome
@@ -75,8 +108,73 @@ plenaries:
       presenter: Martin
       done: 0
 
+    - type:  Plenary
+      title: Refresh on Voting Tickets (259, 283, 96, 137)
+      presenter: All Proposers
+      done: 0
+      
+   - type: Errata Reading
+      title: C bindings for MPI_STATUS_F082F and MPI_STATUS_F2F08 are missing const
+      issue_number: 307
+      presenter: Jeff
+      done: 0
+
+   - type: Errata Reading
+      title: Improve text for MPI_Comm_split_type
+      issue_number: 301
+      presenter: Guillaume
+      done: 0
+
+   - type: Errata Reading
+      title: Add MPI_INFO argument to PSEND_INIT/PRECV_INIT calls for Partitioned Communication Chapter
+      issue_number: 308
+      presenter: Ryan
+      done: 0
+
+   - type: Errata Reading
+      title: Clarify when to return info objects in MPI_T events chapter
+      issue_number: 309
+      presenter: Marc-Andre
+      done: 0
+
+   - type: Errata Reading
+      title: Changes to MPI_T Events if info objects were available before MPI initialization
+      issue_number: 148
+      presenter: Marc-Andre
+      done: 0
+
+   - type: Errata Reading
+      title: Clarify MPI object isolation description in Chapter 10.3
+      issue_number: 310
+      presenter: Dan
+      done: 0
+
+   - type: Discussion
+      title: Final MPI Timeline / RC Decision
+      issue_number:
+      presenter: Martin
+      done: 0
+
+   - type: SC 2020 BoF
+      title: Panel Recording - stay tuned
+      issue_number:
+      presenter: Martin + All
+      done: 0
+
+   - type:  Reading
+      title: Synchronization on Partitioned Communication for Accelerator Optimization
+      issue_number: 302
+      presenter: Ryan
+      done: 0
+
+   - type:  Reading
+      title: Create a standalone document for the summary of the semantics of all operation-related MPI procedures
+      issue_number: 304
+      presenter: Puri
+      done: 0
+
     - type: Wrap-Up
-      title: Next Steps and Plans for December
+      title: Next Steps and Plans for November/December
       presenter: Martin
       done: 0
 
