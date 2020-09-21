@@ -93,6 +93,7 @@ second-votes:
 
 
 plenaries:
+
     - type: Welcome
       title: Introductions
       presenter: All
@@ -103,12 +104,12 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type:  Plenary
+    - type: Plenary
       title: Working Group Revalidation
       presenter: Martin
       done: 0
 
-    - type:  Plenary
+    - type: Plenary
       title: Refresh on Voting Tickets 259, 283, 96, 137
       presenter: All Proposers
       done: 0
@@ -161,13 +162,13 @@ plenaries:
       presenter: All
       done: 0
 
-   - type:  Reading
+   - type: Reading
       title: Synchronization on Partitioned Communication for Accelerator Optimization
       issue_number: 302
       presenter: Ryan
       done: 0
 
-   - type:  Reading
+   - type: Reading
       title: Create a standalone document for the summary of the semantics of all operation-related MPI procedures
       issue_number: 304
       presenter: Puri
