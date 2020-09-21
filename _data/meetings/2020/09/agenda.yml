@@ -24,7 +24,7 @@ schedule:
     - start: 10:00am
       end: 10:30am
       title: "Voting Block 2"
-      
+
     - start: 10:30am
       end: 12:00pm
       title: "Plenary Sessions"
@@ -41,7 +41,7 @@ schedule:
     - start: 10:00am
       end: 10:30am
       title: "Voting Block 3"
-      
+
     - start: 10:30am
       end: 12:00pm
       title: "Plenary Sessions"
@@ -112,7 +112,7 @@ plenaries:
       title: Refresh on Voting Tickets (259, 283, 96, 137)
       presenter: All Proposers
       done: 0
-      
+
    - type: Errata Reading
       title: C bindings for MPI_STATUS_F082F and MPI_STATUS_F2F08 are missing const
       issue_number: 307
