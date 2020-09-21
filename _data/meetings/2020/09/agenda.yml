@@ -11,7 +11,7 @@ schedule:
     - start: 11:30am
       end: 12:00pm
       title: "Voting Block 1"
-      
+
     - endday: done
 
 
