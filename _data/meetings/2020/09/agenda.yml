@@ -1,3 +1,5 @@
+notes: This is a virtual voting meeting, which replaces the physical Austin MPI-Forum due to the COVID-19 restrictions. The meeting will consist of plenaries only, run via Webex, and be held on the three days Sep 28-30, 2020 from 9am to noon US Central time.
+
 schedule:
 
     - day: Monday, September 28
@@ -154,7 +156,7 @@ plenaries:
       done: 0
 
    - type: SC 2020 BoF
-      title: Panel Recording - stay tuned
+      title: Panel Recording, stay tuned
       issue_number:
       presenter: Martin + All
       done: 0
