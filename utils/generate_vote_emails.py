@@ -92,11 +92,11 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/05/attendance.csv"
-    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/06/attendance.csv"
-    curr_attendance_file =   "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/08/attendance.csv"
-    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2020-08-aug/2020-08-17-registration.csv"
-    prev_ooe = 31
+    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/06/attendance.csv"
+    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/08/attendance.csv"
+    curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/09/attendance.csv"
+    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2020-09-sep/2020-09-28-registration.csv"
+    prev_ooe = 32
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
@@ -189,9 +189,11 @@ def main():
             message_text = """\
                     Hi {name},<br><br>
 
-                    Voting is now open for the August 2020 meeting. You may vote at
-                    <a href=https://form.jotform.com/202304108176142?participantId={id}&name={safe_name}&org={org}>
-                    this</a> link.<br><br>
+                    Voting is now open for the September 2020 meeting. You may vote at this link:<br><br>
+
+                    <a href=https://form.jotform.com/202696093762160?participantId={id}&name={safe_name}&org={org}>
+                    https://form.jotform.com/202696093762160?participantId={id}&name={safe_name}&org={org}
+                    </a><br><br>
 
                     If multiple members of your organization registered, each will get their own
                     voting link, but only the first ballot will be counted. Please coordinate with
@@ -202,13 +204,13 @@ def main():
                     meeting up to the point where first ballot opened, your organization's vote will
                     not be counted.
 
-                    Voting will close at 12pm US Central time on August 17th, 2020.<br><br>
+                    Voting will close at 12pm US Central time on September 28th, 2020.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, safe_name=safe_name, id=safe_uuid, org=safe_org)
 
-            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'August 2020 MPI Forum Voting Link', message_text)
+            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'September 2020 MPI Forum Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
 if __name__ == '__main__':
