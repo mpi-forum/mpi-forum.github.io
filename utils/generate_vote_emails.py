@@ -6,6 +6,7 @@ import pickle
 import os.path
 import email.mime.text
 import base64
+import math
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -157,6 +158,7 @@ def main():
     print("REGISTERED ORGS: " + str(registered));
     print("OOE ORGS: " + str(ooe));
     print("IMOVE ORGS: " + str(imove));
+    print("INDIVIDUAL BALLOT QUORUM: " + str(math.ceil(imove * 0.75)));
 
     print("\n=== Eligible to vote ===\n");
     print(*eligible, sep = '\n');
