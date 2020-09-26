@@ -74,6 +74,9 @@ errata-votes:
 
 no-no-votes:
 
+    - number: 137
+      description: The Embiggenment aka BigCount
+
 first-votes:
 
     - number: 283
