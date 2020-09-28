@@ -50,7 +50,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 #### [Collective, Communicators, Context, Persistent, Partitioned, Groups, Topologies](https://github.com/mpiwg-coll/coll-issues)
 
 *   Lead: Torsten Hoefler, Andrew Lumsdaine, Anthony Skjellum
-*   Scope: The main goals of the working group are to discuss the modernization of the collective communication interface to reflect the changed environment and improve the capability of MPI to run efficiently on large-scale computing systems. Our efforts also affect communicator management MPI topologies.
+*   Scope: This working group considers cross-cutting issues of groups, context, communicators, and collective operations as well as features such as persistence, partitioning, topologies, and operational semantics (e.g., blocking, nonblocking, local, synchronizing) thereof.
 
 #### [Fault Tolerance](https://github.com/mpiwg-ft/ft-issues)
 
