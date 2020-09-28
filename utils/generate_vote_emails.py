@@ -159,6 +159,7 @@ def main():
     print("OOE ORGS: " + str(ooe));
     print("IMOVE ORGS: " + str(imove));
     print("INDIVIDUAL BALLOT QUORUM: " + str(math.ceil(imove * 0.75)));
+    print("NEEDED FOR MEETING QUORUM: " + str(math.ceil(ooe * 2.0/3.0)));
 
     print("\n=== Eligible to vote ===\n");
     print(*eligible, sep = '\n');
