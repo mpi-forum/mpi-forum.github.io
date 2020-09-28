@@ -47,7 +47,7 @@ On June 30 2020, the MPI forum voted for version 3.3 of [these voting rules](../
 
 The following working groups are currently participating in the MPI 4.0 efforts. For more information on each working group, current topics, and meeting schedules, please follow the links to the respective Wiki pages.
 
-#### [Collective Communication, Topology, Communicators, Groups](https://github.com/mpiwg-coll/coll-issues)
+#### [Collective, Communicators, Context, Persistent, Partitioned, Groups, Topologies](https://github.com/mpiwg-coll/coll-issues)
 
 *   Lead: Torsten Hoefler, Andrew Lumsdaine, Anthony Skjellum
 *   Scope: The main goals of the working group are to discuss the modernization of the collective communication interface to reflect the changed environment and improve the capability of MPI to run efficiently on large-scale computing systems. Our efforts also affect communicator management MPI topologies.
@@ -66,21 +66,6 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 *   Lead: Pavan Balaji and Jim Dinan
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
-
-#### [Large Counts](https://github.com/mpiwg-large-count/large-count-issues)
-
-*   Lead: Jeff Hammond
-*   Scope: Understanding and fixing the issues associated with integer counts and displacements.
-
-#### [Persistence](https://github.com/mpiwg-persistence/persistence-issues)
-
-*   Lead: Anthony Skjellum
-*   Scope: Work on definitions and specifications of operations that support higher performance forms of existing MPI operations when there is an ability to "plan once" and "amortize costs". Current work focuses on collective operations and neighborhood collectives.
-
-#### [Point to Point Communication](https://github.com/mpiwg-p2p/p2p-issues/wiki)
-
-*   Lead: Rich Graham and Dan Holmes
-*   Scope: To re-examine the MPI peer communication semantics and interface, and consider additions and/or changes needed to better support point-to-point data movement within MPI.
 
 #### [Remote Memory Access](https://github.com/mpiwg-rma/rma-issues/wiki/RMA-Working-Group-Wiki)
 
@@ -118,6 +103,17 @@ In addition to the active working groups, several working groups exist that have
 
 *   Scope: Definition of API extensions for I/O operations
 
+#### [Point to Point Communication](https://github.com/mpiwg-p2p/p2p-issues/wiki)
+
+*   Scope: To re-examine the MPI peer communication semantics and interface, and consider additions and/or changes needed to better support point-to-point data movement within MPI.
+
+#### [Persistence](https://github.com/mpiwg-persistence/persistence-issues)
+
+*   Scope: Work on definitions and specifications of operations that support higher performance forms of existing MPI operations when there is an ability to "plan once" and "amortize costs". Current work focuses on collective operations and neighborhood collectives.
+
+#### [Large Counts](https://github.com/mpiwg-large-count/large-count-issues)
+
+*   Scope: Understanding and fixing the issues associated with integer counts and displacements.
 
 
 ## Chapter Committees
