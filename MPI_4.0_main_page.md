@@ -108,17 +108,14 @@ In addition to the active working groups, several working groups exist that have
 
 #### [Fortran](https://github.com/mpiwg-fortran/fortran-issues)
 
-*   Lead: Geoffroy Vallee and Rolf Rabenseifner
 *   Scope: To investigate a modernisation of the Fortran language bindings beyond Fortran 2008.
 
 #### Generalized Requests
 
-*   Lead: Fab Tillier
 *   Scope: Redefine the generalized requests interface. A more flexible interface between the user defined requests and the MPI library is required in order to allow the provider of the generalized request to integrate a progress function inside the MPI library. The ultimate goal is to allow the generalized requests progress to be done without a special test or wait function.
 
 #### [I/O](https://github.com/mpiwg-io/io-issues)
 
-*   Lead: Quincey Koziol, Mohamad Chaarawi, and Tony Skjellum
 *   Scope: Definition of API extensions for I/O operations
 
 
