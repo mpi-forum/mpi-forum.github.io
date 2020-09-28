@@ -83,6 +83,9 @@ no-no-votes:
     - number: 308
       description: Add MPI_INFO argument to PSEND_INIT and PRECV_INIT calls for Partitioned Communication Chapter
 
+    - number: 310
+      description: Clarify MPI object isolation description in Chapter 10.3
+
 first-votes:
 
     - number: 283
@@ -151,23 +154,29 @@ plenaries:
       title: Clarify when to return info objects in MPI_T events chapter
       issue_number: 309
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Changes to MPI_T Events if info objects were available before MPI initialization
       issue_number: 148
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Clarify MPI object isolation description in Chapter 10.3
       issue_number: 310
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Plenary
       title: Refresh on Voting Tickets 308
       presenter: Ryan
+      done: 0
+
+    - type: No-no Reading
+      title: Clarify MPI object isolation description in Chapter 10.3
+      issue_number: 310
+      presenter: Dan
       done: 0
 
     - type: Discussion
