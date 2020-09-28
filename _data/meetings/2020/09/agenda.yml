@@ -168,6 +168,12 @@ plenaries:
       presenter: Dan
       done: 1
 
+    - type: Reading
+      title: Create a standalone document for the summary of the semantics of all operation-related MPI procedures
+      issue_number: 304
+      presenter: Puri
+      done: 1
+
     - type: Plenary
       title: Refresh on Voting Tickets 308
       presenter: Ryan
@@ -197,10 +203,16 @@ plenaries:
       presenter: Ryan
       done: 0
 
-    - type: Reading
-      title: Create a standalone document for the summary of the semantics of all operation-related MPI procedures
-      issue_number: 304
-      presenter: Puri
+    - type: Discussion
+      title: "Consistency: replace 'task' with 'rank' or 'MPI process' where appropriate"
+      issue_number: 300
+      presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: "Consistency: use multi-threaded instead of multithreaded throughout the document"
+      issue_number:
+      presenter: Joseph
       done: 0
 
     - type: Wrap-Up
