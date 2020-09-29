@@ -218,19 +218,19 @@ plenaries:
     - type: Discussion
       title: "Fix wrong term 'process group with Cartesian structure' in section 7.5.5"
       issue_number: 311
-      presenter: Joseph
+      presenter: Christoph
       done: 0
 
     - type: Discussion
       title: "Fix not precisely defined topology information for `MPI_Cart_sub`"
       issue_number: 315
-      presenter: Joseph
+      presenter: Christoph
       done: 0
 
     - type: Discussion
       title: "Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls"
       issue_number: 314
-      presenter: Joseph
+      presenter: Christoph
       done: 0
 
     - type: Wrap-Up
