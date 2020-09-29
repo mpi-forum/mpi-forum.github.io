@@ -2,6 +2,21 @@ virtual:
 
   - year: 2020
 
+  - start: 2020-09-30T09:00
+    end: 2020-09-30T12:00
+    title: "Exceptional Virtual Meeting (Day 3)"
+    recording_url:
+
+  - start: 2020-09-29T09:00
+    end: 2020-09-29T12:00
+    title: "Exceptional Virtual Meeting (Day 2)"
+    recording_url: "https://youtu.be/mBLGkQMY-74"
+
+  - start: 2020-09-28T09:00
+    end: 2020-09-28T12:00
+    title: "Exceptional Virtual Meeting (Day 1)"
+    recording_url: "https://youtu.be/D4kNe1O47WU"
+
   - start: 2020-09-09T10:00
     end: 2020-09-09T12:00
     title: "Info Handling before Init / After Finalize (#tbd)"
