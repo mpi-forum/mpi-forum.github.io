@@ -177,13 +177,31 @@ plenaries:
     - type: Plenary
       title: Refresh on Voting Tickets 308
       presenter: Ryan
-      done: 0
+      done: 1
 
     - type: No-no Reading
       title: Clarify MPI object isolation description in Chapter 10.3
       issue_number: 310
       presenter: Dan
-      done: 0
+      done: 1
+
+    - type: Reading
+      title: Synchronization on Partitioned Communication for Accelerator Optimization
+      issue_number: 302
+      presenter: Ryan
+      done: 1
+
+    - type: Discussion
+      title: "Consistency: replace 'task' with 'rank' or 'MPI process' where appropriate"
+      issue_number: 300
+      presenter: Joseph
+      done: 1
+
+    - type: Discussion
+      title: "Consistency: use multi-threaded instead of multithreaded throughout the document"
+      issue_number:
+      presenter: Joseph
+      done: 1
 
     - type: Discussion
       title: Final MPI Timeline / RC Decision
@@ -197,21 +215,21 @@ plenaries:
       presenter: All
       done: 0
 
-    - type: Reading
-      title: Synchronization on Partitioned Communication for Accelerator Optimization
-      issue_number: 302
-      presenter: Ryan
-      done: 0
-
     - type: Discussion
-      title: "Consistency: replace 'task' with 'rank' or 'MPI process' where appropriate"
-      issue_number: 300
+      title: "Fix wrong term 'process group with Cartesian structure' in section 7.5.5"
+      issue_number: 311
       presenter: Joseph
       done: 0
 
     - type: Discussion
-      title: "Consistency: use multi-threaded instead of multithreaded throughout the document"
-      issue_number:
+      title: "Fix not precisely defined topology information for `MPI_Cart_sub`"
+      issue_number: 315
+      presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: "Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls"
+      issue_number: 314
       presenter: Joseph
       done: 0
 

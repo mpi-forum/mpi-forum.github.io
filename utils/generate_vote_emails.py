@@ -194,8 +194,8 @@ def main():
 
                     Voting is now open for the September 2020 meeting. You may vote at this link:<br><br>
 
-                    <a href=https://form.jotform.com/202696093762160?participantId={id}&name={safe_name}&org={org}>
-                    https://form.jotform.com/202696093762160?participantId={id}&name={safe_name}&org={org}
+                    <a href=https://form.jotform.com/202724836055152?participantId={id}&name={safe_name}&org={org}>
+                    https://form.jotform.com/202724836055152?participantId={id}&name={safe_name}&org={org}
                     </a><br><br>
 
                     If multiple members of your organization registered, each will get their own
