@@ -124,22 +124,22 @@ In addition to the active working groups, several working groups exist that have
 |1| Introduction | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
 |2| MPI Terms and Conventions| Claudia Blaas-Schenner | Rolf Rabenseifner, Bill Gropp, Tony Skjellum, Puri Bangalore, Guillaume Mercier, Dan Holmes, Julien Jaeger |
 |3|Point to Point Communcation| Dan Holmes | Ken Raffenetti, Ryan Grant, Bill Gropp, Brian Smith |
-|4|Datatypes| George Bosilca | Bill Gropp, Martin Ruefenacht, Dan Holmes | 
-|5|Collective Communication| Tony Skjellum | Torsten Höfler, Brian Smith, Wesley Bland, Martin Schulz, Julien Jaeger |
-|6|Groups, Contexts, Communicators, Caching| Guillaume Mercier | Bill Gropp, Tony Skjellum, Pavan Balaji | 
-|7|Process Topologies | Rolf Rabenseifner | Guillaume Mercier, Claudia Blaas-Schenner, Torsten Höfler, Tony Skjellum, Mahdieh Ghazimirsaeed | 
-|-|Partitioned Communication | Ryan Grant | Tony Skjellum, Puri Bangalore, Dan Holmes, Matthew Dosanjh |
-|8|MPI Environmental Management | George Bosilca | Ken Raffenetti, Wesley Bland, Thomas Naughton | 
-|9|The Info Object | Martin Schulz | Ryan Grant, Guillaume Mercier, Wesley Bland | 
-|10|Process Creation and Mangement | Howard Pritchard | Ken Raffenetti, Dan Holmes, Martin Schulz, Thomas Naughton | 
-|11|One-Sided Communication | Bill Gropp | Pavan Balaji, Joseph Schuchart, Nathan Hjelm, Artem Polyakov | 
-|12|External Interfaces | Martin Schulz | Pavan Balaji, Brian Smith, Tony Skjellum |
-|13|I/O| Tony Skjellum | Quincey Koziol, Shinji Sumimoto | 
-|14|Tool Support| Marc-Andre Hermanns | Martin Schulz, Kathryn Mohror | 
-|15|Deprecated Functions | Rolf Rabenseifner | Martin Schulz, Wesley Bland | 
-|16|Removed Interfaces | Rolf Rabenseifner | Martin Schulz, Wesley Bland | 
-|17|Backward Incompatibilities | Wesley Bland | Martin Schulz |
-|18|Language Bindings | Puri Bangalore | Tony Skjellum, Rolf Rabenseifner | 
+|4|Partitioned Communication | Ryan Grant | Tony Skjellum, Puri Bangalore, Dan Holmes, Matthew Dosanjh |
+|5|Datatypes| George Bosilca | Bill Gropp, Martin Ruefenacht, Dan Holmes |
+|6|Collective Communication| Tony Skjellum | Torsten Höfler, Brian Smith, Wesley Bland, Martin Schulz, Julien Jaeger |
+|7|Groups, Contexts, Communicators, Caching| Guillaume Mercier | Bill Gropp, Tony Skjellum, Pavan Balaji |
+|8|Process Topologies | Rolf Rabenseifner | Guillaume Mercier, Claudia Blaas-Schenner, Torsten Höfler, Tony Skjellum, Mahdieh Ghazimirsaeed, Christoph Niethammer |
+|9|MPI Environmental Management | George Bosilca | Ken Raffenetti, Wesley Bland, Thomas Naughton |
+|10|The Info Object | Martin Schulz | Ryan Grant, Guillaume Mercier, Wesley Bland |
+|11|Process Creation and Mangement | Howard Pritchard | Ken Raffenetti, Dan Holmes, Martin Schulz, Thomas Naughton |
+|12|One-Sided Communication | Bill Gropp | Pavan Balaji, Joseph Schuchart, Nathan Hjelm, Artem Polyakov |
+|14|External Interfaces | Martin Schulz | Pavan Balaji, Brian Smith, Tony Skjellum |
+|14|I/O| Tony Skjellum | Quincey Koziol, Shinji Sumimoto |
+|15|Tool Support| Marc-Andre Hermanns | Martin Schulz, Kathryn Mohror |
+|16|Deprecated Functions | Rolf Rabenseifner | Martin Schulz, Wesley Bland |
+|17|Removed Interfaces | Rolf Rabenseifner | Martin Schulz, Wesley Bland |
+|18|Backward Incompatibilities | Wesley Bland | Martin Schulz |
+|19|Language Bindings | Puri Bangalore | Tony Skjellum, Rolf Rabenseifner |
 |A|Language Bindings Summary | Rolf Rabenseifner | Puri Bangalore, Tony Skjellum, Hubert Ritzdorf | 
 |B|Change-Log | Rolf Rabenseifner | Marc-Andre Hermanns, Hubert Ritzdorf | 
 
