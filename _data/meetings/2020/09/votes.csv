@@ -12,6 +12,6 @@
 daybreak
 "#310: Clarify MPI object isolation description in Chapter 10.3","no-no","31","0","0","0"
 daybreak
-"#308: Add MPI_INFO argument to PSEND_INIT and PRECV_INIT calls for Partitioned Communication Chapter","errata","0","0","0","0"
-"#310: Clarify MPI object isolation description in Chapter 10.3","errata","0","0","0","0"
-"#137: The Embiggenment aka BigCount","2nd","0","0","0","0"
+"#308: Add MPI_INFO argument to PSEND_INIT and PRECV_INIT calls for Partitioned Communication Chapter","errata","31","0","0","0"
+"#310: Clarify MPI object isolation description in Chapter 10.3","errata","31","0","0","0"
+"#137: The Embiggenment aka BigCount","2nd","30","0","1","0"
