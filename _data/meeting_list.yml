@@ -432,7 +432,7 @@ voting:
   - start: 2020-12-07
     end: 2020-12-10
     title: "Exceptional Virtual Meeting (replaces San Jose, CA)"
-    links: "no"
+    links: "yes"
 
   - start: 2020-09-28
     end: 2020-09-30
