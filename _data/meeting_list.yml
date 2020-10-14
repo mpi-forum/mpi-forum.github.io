@@ -39,13 +39,8 @@ virtual:
 
   - start: 2020-10-14T10:00
     end: 2020-10-14T12:00
-    title: "MPI 4.0 Review Topics"
-    recording_url:
-
-  - start: 2020-10-07T10:00
-    end: 2020-10-07T12:00
-    title: "MPI 4.0 Review Topics"
-    recording_url:
+    title: "MPI 4.0 Chapter Committee Workflow"
+    recording_url: "https://youtu.be/TUyZvWMuzd8"
 
   - start: 2020-09-30T09:00
     end: 2020-09-30T12:00
