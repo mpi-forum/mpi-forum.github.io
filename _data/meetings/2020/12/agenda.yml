@@ -1,47 +1,99 @@
+notes: This meeting is the Release Candidate Meeting (RCM) for the MPI 4.0 Standaerd. It is a virtual voting meeting, which replaces the physical San Jose MPI-Forum due to the COVID-19 restrictions. The meeting will consist of plenaries only, run via Webex, and be held on the four days Dec 7-10, 2020 from 9am to 1pm US Central time.
+
 schedule:
 
     - day: Monday, December 07
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
+
+    - start: 12:00pm
+      end: 12:15pm
+      title: "Voting Block with Parallel Plenary Sessions"
+
+    - start: 12:15pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Tuesday, December 08
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
+
+    - start: 12:00pm
+      end: 12:15pm
+      title: "Voting Block with Parallel Plenary Sessions"
+
+    - start: 12:15pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Wednesday, December 09
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
+
+    - start: 12:00pm
+      end: 12:15pm
+      title: "Voting Block with Parallel Plenary Sessions"
+
+    - start: 12:15pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
-
     - day: Thursday, December 10
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 8:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
+
+    - start: 12:00pm
+      end: 12:15pm
+      title: "Voting Block with Parallel Plenary Sessions"
+
+    - start: 12:15pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
-
 errata-votes:
+
+    - number: 327
+      description: Errata, Large Count Fixes
+
+    - number: 168
+      description: Errata, MPI_INIT argc/argv values
+
+    - number: 313
+      description: Errata, Catastrophic errors can cause MPI returning wrong outputs
+
+    - number: 311
+      description: Errata, Fix wrong term process group with Cartesian structure in section 7.5.5
+
+    - number: 314
+      description: Errata, Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls
+
+    - number: 315
+      description: Errata, Fix not precisely defined topology information for MPI_Cart_sub
+
+    - number: 320
+      description: Errata, Improper placement of figures and use of colors for text in MPI-4.0 Section 8.6.2 Example 8.10
+
 
 no-no-votes:
 
@@ -60,9 +112,163 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+    - type: Errata Reading
+      title: Errata, Large Count Fixes
+      issue_number: 327
+      presenter: Tony
       done: 0
+
+    - type: Errata Reading
+      title: Errata, MPI_INIT argc/argv values
+      issue_number: 168
+      presenter: Wesley
+      done: 0
+
+    - type: Errata Reading
+      title: Errata, Catastrophic errors can cause MPI returning wrong outputs
+      issue_number: 313
+      presenter: Aurelien
+      done: 0
+
+    - type: Errata Reading
+      title: Errata, Fix wrong term process group with Cartesian structure in section 7.5.5
+      issue_number: 311
+      presenter: Christoph
+      done: 0
+
+    - type: Errata Reading
+      title: Errata, Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls
+      issue_number: 314
+      presenter: Christoph
+      done: 0
+
+    - type: Errata Reading
+      title: Errata, Fix not precisely defined topology information for MPI_Cart_sub
+      issue_number: 315
+      presenter: Christoph
+      done: 0
+
+    - type: Errata Reading
+      title: Errata, Improper placement of figures and use of colors for text in MPI-4.0 Section 8.6.2 Example 8.10
+      issue_number: 320
+      presenter: Rolf
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Frontmatter
+      presenter: Bill
+      done: 0
+      
+    - type: Chapter Diff Reading
+      title: Chapter 1, Introduction to MPI
+      presenter: Bill
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 2, MPI Terms and Conventions
+      presenter: Claudia
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 3, Point-to-Point Communication
+      presenter: Dan
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 4, Partitioned Point-to-Point Communication
+      presenter: Ryan
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 5, Datatypes
+      presenter: George
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 6, Collective Communication
+      presenter: Tony
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 7, Groups, Contexts, Communicators, and Caching
+      presenter: Guillaume
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 8, Process Topologies
+      presenter: Rolf
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 9, MPI Environmental Management
+      presenter: George
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 10, The Info Object
+      presenter: Martin
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 11, Process Initialization, Creation, and Management
+      presenter: Howard
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 12, One-Sided Communications
+      presenter: Bill
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 13, External Interfaces
+      presenter: Martin
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 14, I/O
+      presenter: Tony
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 15, Tool Support
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 16, Deprecated Interfaces
+      presenter: Rolf
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 17, Removed Interfaces
+      presenter: Rolf
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 18, Backward Incompatibilities
+      presenter: Wesley
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Chapter 19, Language Bindings
+      presenter: Puri
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Appendix A, Language Bindings Summary
+      presenter: Rolf
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: Appendix B, Change-Log
+      presenter: Rolf
+      done: 0
+
+    - type: Discussion
+      title: Review of Open Items List
+      presenter: Martin
+      done: 0
+
+
+
 
