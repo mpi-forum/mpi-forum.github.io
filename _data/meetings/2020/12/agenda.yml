@@ -96,7 +96,7 @@ errata-votes:
 
 whole-document-vote:
 
-    - number: 320
+    - number: X
       description: Ballot to approve release candidate
 
 no-no-votes:
