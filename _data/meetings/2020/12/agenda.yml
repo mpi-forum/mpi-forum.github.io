@@ -94,6 +94,9 @@ errata-votes:
     - number: 320
       description: Errata, Improper placement of figures and use of colors for text in MPI-4.0 Section 8.6.2 Example 8.10
 
+whole-document-vote:
+
+    - description: Ballot to approve release candidate
 
 no-no-votes:
 
