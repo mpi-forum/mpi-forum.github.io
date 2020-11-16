@@ -9,18 +9,29 @@ You may find standard documents, information about the activities of the MPI for
 
 [Link to the central MPI-Forum GitHub Presence](https://github.com/mpi-forum/) 
 
-## 2019 MPI Standard Draft
+## 2020 MPI Standard Draft / MPI 4.0 Release Candidate
 
-The MPI Forum has published a draft version of the MPI Standard to give users and implementors a
+The MPI Forum has published a draft version of the MPI 4.0 Standard to give users and implementors a
 chance to see the current status of all proposals that have been merged into the next version of the
-MPI Standard. The 2019 draft was published at SC 19 and is available here:
+MPI Standard. This draft is the release candidate for the MPI 4.0 Specification and will be
+considered for ratification at the December 2020 and February 2021 meetings. The draft is available
+here:
 
-[2019 Draft Specification](docs/drafts/mpi-2019-draft-report.pdf)
+[2020 Draft Specification](docs/drafts/mpi-2020-draft-report.pdf)
 
-These draft specifications are not versions and are subject to change before published as an
-official version of the MPI Standard.
+Comments on the MPI 4.0 RC should be sent to the [MPI Comments mailing list](/comments).
+
+This draft specification is not an official standard version and is subject to change before being
+published as an official version of the MPI Standard.
 
 ## Updates
+
+#### BoF at SC 20, Nov. 18, 2020
+
+The MPI Forum will conduct a BoF at SC 20. Registration to attend BoFs is free and a recording will
+be available for 6 months after the event if registration is done by mid-December.
+
+* [Event](https://sc20.supercomputing.org/presentation/?id=bof126&sess=sess309)
 
 #### BoF at ISC 19, Jun. 19th, 2019
 
