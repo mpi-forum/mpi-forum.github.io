@@ -28,10 +28,14 @@ published as an official version of the MPI Standard.
 
 #### BoF at SC 20, Nov. 18, 2020
 
-The MPI Forum will conduct a BoF at SC 20. Registration to attend BoFs is free and a recording will
-be available for 6 months after the event if registration is done by mid-December.
+The MPI Forum BoF will take place on Wednesday November 18th, 2020 at 10am Eastern US time.
 
 * [Event](https://sc20.supercomputing.org/presentation/?id=bof126&sess=sess309)
+
+* [Complete set of slides](bofs/2020-11-mpi-bof.pdf)
+* [Video from the BoF covering MPI 4.0 Features ](https://youtu.be/XIc0YrTJqWE)
+
+Registration to attend BoFs is free and a recording of the session including Q&A will be available for 6 months after the event if registration is done by mid-December.
 
 #### BoF at ISC 19, Jun. 19th, 2019
 
