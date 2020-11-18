@@ -4,7 +4,7 @@ schedule:
 
     - day: Monday, December 07
 
-    - start: 8:00am
+    - start: 9:00am
       end: 12:00pm
       title: "Plenary Sessions"
 
@@ -21,7 +21,7 @@ schedule:
 
     - day: Tuesday, December 08
 
-    - start: 8:00am
+    - start: 9:00am
       end: 12:00pm
       title: "Plenary Sessions"
 
@@ -38,7 +38,7 @@ schedule:
 
     - day: Wednesday, December 09
 
-    - start: 8:00am
+    - start: 9:00am
       end: 12:00pm
       title: "Plenary Sessions"
 
@@ -54,7 +54,7 @@ schedule:
 
     - day: Thursday, December 10
 
-    - start: 8:00am
+    - start: 9:00am
       end: 12:00pm
       title: "Plenary Sessions"
 
@@ -90,9 +90,6 @@ errata-votes:
 
     - number: 315
       description: Errata, Fix not precisely defined topology information for MPI_Cart_sub
-
-    - number: 320
-      description: Errata, Improper placement of figures and use of colors for text in MPI-4.0 Section 8.6.2 Example 8.10
 
 whole-document-vote:
 
@@ -150,12 +147,6 @@ plenaries:
       title: Errata, Fix not precisely defined topology information for MPI_Cart_sub
       issue_number: 315
       presenter: Christoph
-      done: 0
-
-    - type: Errata Reading
-      title: Errata, Improper placement of figures and use of colors for text in MPI-4.0 Section 8.6.2 Example 8.10
-      issue_number: 320
-      presenter: Rolf
       done: 0
 
     - type: Chapter Diff Reading
