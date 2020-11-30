@@ -6,4 +6,5 @@ topic,type,yes,no,abstain,missed
 "#314: Errata, Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls","errata",0,0,0,0
 "#315: Errata, Fix not precisely defined topology information for MPI_Cart_sub","errata",0,0,0,0
 "#283: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string","2nd",0,0,0,0
+"#283: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string","no-no",0,0,0,0
 "Ballot to approve release candidate","1st",0,0,0,0

@@ -98,6 +98,9 @@ whole-document-vote:
 
 no-no-votes:
 
+    - number: 283
+      description: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string
+
 first-votes:
 
 second-votes:
