@@ -102,6 +102,9 @@ first-votes:
 
 second-votes:
 
+    - number: 283
+      description: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string
+
 plenaries:
     - type: Welcome
       title: Introductions
