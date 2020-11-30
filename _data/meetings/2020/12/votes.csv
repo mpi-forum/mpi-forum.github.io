@@ -1,1 +1,8 @@
 topic,type,yes,no,abstain,missed
+"#327: Errata, Large Count Fixes","errata",0,0,0,0
+"#168: Errata, MPI_INIT argc/argv values","errata",0,0,0,0
+"#313: Errata, Catastrophic errors can cause MPI returning wrong outputs","errata",0,0,0,0
+"#311: Errata, Fix wrong term process group with Cartesian structure in section 7.5.5","errata",0,0,0,0
+"#314: Errata, Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls","errata",0,0,0,0
+"#315: Errata, Fix not precisely defined topology information for MPI_Cart_sub","errata",0,0,0,0
+"Ballot to approve release candidate","1st",0,0,0,0
