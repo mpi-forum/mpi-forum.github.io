@@ -7,20 +7,10 @@ virtual:
     title: "MPI 4.0 Review Topics"
     recording_url:
 
-  - start: 2020-11-25T10:00
-    end: 2020-11-25T12:00
-    title: "MPI 4.0 Review Topics"
-    recording_url:
-
   - start: 2020-11-18T10:00
     end: 2020-11-18T12:00
     title: "MPI 4.0 Review Topics"
-    recording_url:
-
-  - start: 2020-11-11T10:00
-    end: 2020-11-11T12:00
-    title: "MPI 4.0 Review Topics"
-    recording_url:
+    recording_url: "https://youtu.be/8v2JlfVayzE"
 
   - start: 2020-11-04T10:00
     end: 2020-11-04T12:00
