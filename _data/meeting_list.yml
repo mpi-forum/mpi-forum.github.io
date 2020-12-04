@@ -410,7 +410,7 @@ voting:
   - start: 2021-02-22
     end: 2021-02-24
     title: "Exceptional Virtual Meeting (best case hybrid meeting)"
-    links: "no"
+    links: "yes"
 
   - year: 2020
 

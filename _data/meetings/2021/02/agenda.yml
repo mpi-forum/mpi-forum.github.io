@@ -1,0 +1,59 @@
+schedule:
+
+    - day: Monday, February 22
+
+    - start: 12:00am
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Tuesday, February 23
+
+    - start: 12:00am
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Wednesday, February 24
+
+    - start: 12:00am
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+procedure-votes:
+
+    - number: 1234
+      description: "Placeholder Procedure Vote"
+
+errata-votes:
+
+no-no-votes:
+
+first-votes:
+
+second-votes:
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: Placeholder Reading
+      issue_number: 1234
+      presenter: Placeholder Presenter
+      done: 0
+
