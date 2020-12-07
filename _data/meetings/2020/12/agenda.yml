@@ -120,11 +120,6 @@ plenaries:
       presenter: All
       done: 1
 
-    - type: Update
-      title: WG Status
-      presenter: All WG chairs or their proxies
-      done: 0
-
     - type: Errata Reading
       title: Errata, Large Count Fixes
       issue_number: 327
