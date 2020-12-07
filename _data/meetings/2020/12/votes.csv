@@ -1,4 +1,6 @@
 topic,type,yes,no,abstain,missed
+"#327: Errata, Large Count Fixes","no-no",0,0,0,0
+"#283: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string","no-no",0,0,0,0
 "#327: Errata, Large Count Fixes","errata",0,0,0,0
 "#168: Errata, MPI_INIT argc/argv values","errata",0,0,0,0
 "#313: Errata, Catastrophic errors can cause MPI returning wrong outputs","errata",0,0,0,0
@@ -6,6 +8,5 @@ topic,type,yes,no,abstain,missed
 "#314: Errata, Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls","errata",0,0,0,0
 "#315: Errata, Fix not precisely defined topology information for MPI_Cart_sub","errata",0,0,0,0
 "#283: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string","2nd",0,0,0,0
-"#283: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string","no-no",0,0,0,0
 "Ballot to approve release candidate","1st",0,0,0,0
 "#304: Create a standalone document for the summary of the semantics of all operation-related MPI procedures","1st",0,0,0,0
