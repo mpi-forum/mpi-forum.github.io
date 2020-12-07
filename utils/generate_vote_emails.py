@@ -192,10 +192,10 @@ def main():
             message_text = """\
                     Hi {name},<br><br>
 
-                    Voting is now open for the September 2020 meeting. You may vote at this link:<br><br>
+                    Voting is now open for the December 2020 meeting. You may vote at this link:<br><br>
 
-                    <a href=https://form.jotform.com/202724836055152?participantId={id}&name={safe_name}&org={org}>
-                    https://form.jotform.com/202724836055152?participantId={id}&name={safe_name}&org={org}
+                    <a href=https://form.jotform.com/203414144272142?participantId={id}&name={safe_name}&org={org}>
+                    https://form.jotform.com/203414144272142?participantId={id}&name={safe_name}&org={org}
                     </a><br><br>
 
                     If multiple members of your organization registered, each will get their own
@@ -207,13 +207,13 @@ def main():
                     meeting up to the point where first ballot opened, your organization's vote will
                     not be counted.
 
-                    Voting will close at 12pm US Central time on September 28th, 2020.<br><br>
+                    Voting will close at 12pm US Central time on December 7th, 2020.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, safe_name=safe_name, id=safe_uuid, org=safe_org)
 
-            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'September 2020 MPI Forum Voting Link', message_text)
+            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'December 2020 MPI Forum Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
 if __name__ == '__main__':
