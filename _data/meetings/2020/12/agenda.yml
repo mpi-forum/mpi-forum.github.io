@@ -125,8 +125,8 @@ plenaries:
     - type: Errata Reading
       title: Errata, Large Count Fixes
       issue_number: 327
-      presenter: Tony
-      done: 0
+      presenter: Puri
+      done: 1
 
     - type: Errata Reading
       title: Errata, MPI_INIT argc/argv values
