@@ -115,7 +115,7 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
@@ -132,37 +132,37 @@ plenaries:
       title: Errata, MPI_INIT argc/argv values
       issue_number: 168
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Errata, Catastrophic errors can cause MPI returning wrong outputs
       issue_number: 313
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Errata, Fix wrong term process group with Cartesian structure in section 7.5.5
       issue_number: 311
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Errata, Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls
       issue_number: 314
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Errata, Fix not precisely defined topology information for MPI_Cart_sub
       issue_number: 315
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Frontmatter
       presenter: Bill
       done: 0
-      
+
     - type: Chapter Diff Reading
       title: Chapter 1, Introduction to MPI
       presenter: Bill
