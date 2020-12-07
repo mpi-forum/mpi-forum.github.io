@@ -103,6 +103,9 @@ no-no-votes:
 
 first-votes:
 
+    - number: 304
+      description: Create a standalone document for the summary of the semantics of all operation-related MPI procedures
+
 second-votes:
 
     - number: 283
