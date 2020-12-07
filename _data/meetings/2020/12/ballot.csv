@@ -1,4 +1,6 @@
 "org","#327: Errata, Large Count Fixes (no-no)","#327: Errata, Large Count Fixes (errata)","#168: Errata, MPI_INIT argc/argv values (errata)","#313: Errata, Catastrophic errors can cause MPI returning wrong outputs (errata)","#311: Errata, Fix wrong term process group with Cartesian structure in section 7.5.5 (errata)","#314: Errata, Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls (errata)","#315: Errata, Fix not precisely defined topology information for MPI_Cart_sub (errata)","Ballot to approve release candidate (1st)","#304: Create a standalone document for the summary of the semantics of all operation-related MPI procedures (1st)"
+"Technical University of Munich","","","Yes","Yes","Yes","Yes","Yes","",""
+"Los Alamos National Laboratory","","","Yes","Yes","Yes","Yes","Yes","",""
 "IBM","","","Yes","Yes","Yes","Yes","Yes","",""
 "University of Basel","","","Yes","Yes","Yes","Yes","Yes","",""
 "ParaTools SAS","","","Yes","Yes","Yes","Yes","Yes","",""
