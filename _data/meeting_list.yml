@@ -2,13 +2,33 @@ virtual:
 
   - year: 2020
 
+  - start: 2020-12-10T09:00
+    end: 2020-12-10T13:00
+    title: "Exceptional Virtual Meeting (Day 4)"
+    recording_url: ""
+
+  - start: 2020-12-09T09:00
+    end: 2020-12-09T13:00
+    title: "Exceptional Virtual Meeting (Day 3)"
+    recording_url: ""
+
+  - start: 2020-12-08T09:00
+    end: 2020-12-08T13:00
+    title: "Exceptional Virtual Meeting (Day 2)"
+    recording_url: ""
+
+  - start: 2020-12-07T09:00
+    end: 2020-12-07T13:00
+    title: "Exceptional Virtual Meeting (Day 1)"
+    recording_url: "https://youtu.be/ZF5HcVsmzlg"
+
   - start: 2020-12-02T10:00
     end: 2020-12-02T12:00
     title: "MPI 4.0 Review Topics"
-    recording_url:
+    recording_url: "https://youtu.be/K0jtyqKrdYQ"
 
-  - start: 2020-11-18T10:00
-    end: 2020-11-18T12:00
+  - start: 2020-11-30T10:00
+    end: 2020-11-30T12:00
     title: "MPI 4.0 Review Topics"
     recording_url: "https://youtu.be/Tfn8MFU6MwQ"
 
