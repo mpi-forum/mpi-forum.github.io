@@ -168,12 +168,12 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 3, Point-to-Point Communication
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 4, Partitioned Point-to-Point Communication
       presenter: Ryan
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 5, Datatypes
@@ -188,7 +188,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 7, Groups, Contexts, Communicators, and Caching
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 8, Process Topologies
