@@ -101,18 +101,12 @@ no-no-votes:
     - number: 327
       description: Errata, Large Count Fixes
 
-    - number: 283
-      description: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string
-
 first-votes:
 
     - number: 304
       description: Create a standalone document for the summary of the semantics of all operation-related MPI procedures
 
 second-votes:
-
-    - number: 283
-      description: Add MPI_Remove_error_class, MPI_Remove_error_code, MPI_Remove_error_string
 
 plenaries:
     - type: Welcome
@@ -159,17 +153,17 @@ plenaries:
     - type: Chapter Diff Reading
       title: Frontmatter
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 1, Introduction to MPI
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 2, MPI Terms and Conventions
       presenter: Claudia
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 3, Point-to-Point Communication
