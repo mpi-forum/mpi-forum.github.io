@@ -178,7 +178,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 5, Datatypes
       presenter: George
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 6, Collective Communication
@@ -193,12 +193,12 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 8, Process Topologies
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 9, MPI Environmental Management
       presenter: George
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 10, The Info Object
@@ -213,7 +213,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 12, One-Sided Communications
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 13, External Interfaces
@@ -248,7 +248,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 19, Language Bindings
       presenter: Puri
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Appendix A, Language Bindings Summary
@@ -258,6 +258,11 @@ plenaries:
     - type: Chapter Diff Reading
       title: Appendix B, Change-Log
       presenter: Rolf
+      done: 0
+
+    - type: Discussion
+      title: "Formatting: vertical spacing after example environment"
+      presenter: Joseph Schuchart
       done: 0
 
     - type: Discussion
