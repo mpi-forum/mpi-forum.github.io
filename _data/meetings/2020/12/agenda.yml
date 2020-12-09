@@ -233,12 +233,12 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 16, Deprecated Interfaces
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 17, Removed Interfaces
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 18, Backward Incompatibilities
@@ -253,7 +253,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: Appendix A, Language Bindings Summary
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Appendix B, Change-Log
