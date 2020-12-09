@@ -262,6 +262,7 @@ plenaries:
 
     - type: Discussion
       title: "Formatting: vertical spacing after example environment"
+      issue_number: 285
       presenter: Joseph Schuchart
       done: 0
 
