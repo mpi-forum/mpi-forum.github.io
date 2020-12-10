@@ -203,12 +203,12 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 10, The Info Object
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 11, Process Initialization, Creation, and Management
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 12, One-Sided Communications
@@ -218,7 +218,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 13, External Interfaces
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 14, I/O
