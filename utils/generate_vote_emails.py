@@ -14,6 +14,12 @@ from google.auth.transport.requests import Request
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
+def normalize_attendance(val):
+    if val == 1:
+        return val
+    else:
+        return 0
+
 def authenticate():
     if not os.path.exists('credentials.json'):
         print("Make sure to run this script with credentials.json in the current directory.")
@@ -110,39 +116,42 @@ def main():
         org = row['org'];
         if org not in orgs:
             #print("Prev 1 New Org: " + org);
-            orgs[org] = {'registered': 1, 'attended': int(row['attend']), 'prev_1': 1, 'prev_2': 0, 'curr': 0};
+            orgs[org] = {'registered': 1, 'attended': normalize_attendance(int(row['attend'])), 'prev_1': 1, 'prev_2': 0,
+                    'register_curr': 0, 'attend_curr': 0};
     for row in iter(prev_attendees_2):
         org = row['org'];
         if org not in orgs:
             #print("Prev 2 New Org: " + org);
-            orgs[org] = {'registered': 1, 'attended': int(row['attend']), 'prev_1': 0, 'prev_2': 1, 'curr': 0};
+            orgs[org] = {'registered': 1, 'attended': normalize_attendance(int(row['attend'])), 'prev_1': 1, 'prev_2': 0,
+                    'register_curr': 0, 'attend_curr': 0};
         elif orgs[org]['prev_2'] == 0:
             orgs[org]['registered'] = int(orgs[org]['registered']) + 1;
-            orgs[org]['attended'] = int(orgs[org]['attended']) + int(row['attend']);
+            orgs[org]['attended'] = int(orgs[org]['attended']) + normalize_attendance(int(row['attend']));
             orgs[org]['prev_2'] = 1;
     for row in iter(curr_attendees):
         org = row['org'];
         if org not in orgs:
             #print("Curr New Org: " + org);
-            orgs[org] = {'registered': 1, 'attended': int(row['attend']), 'prev_1': 0, 'prev_2': 0, 'curr': 1};
-        elif orgs[org]['curr'] == 0:
+            registered = registered + 1;
+            orgs[org] = {'registered': 1, 'attended': normalize_attendance(int(row['attend'])), 'prev_1': 0, 'prev_2': 0,
+                    'attend_curr': int(row['attend']), 'register_curr': 1};
+        elif (orgs[org]['register_curr'] == 0 or orgs[org]['attend_curr'] == 0):
+            registered = registered + 1;
             orgs[org]['registered'] = int(orgs[org]['registered']) + 1;
-            orgs[org]['attended'] = int(orgs[org]['attended']) + int(row['attend']);
-            orgs[org]['curr'] = int(row['attend']);
+            orgs[org]['attended'] = int(orgs[org]['attended']) + normalize_attendance(int(row['attend']));
+            orgs[org]['attend_curr'] = normalize_attendance(int(row['attend']));
+            orgs[org]['register_curr'] = 1;
 
     no_register = []
     no_attend = []
     no_curr = []
     eligible = []
     for org in orgs.keys():
-        if orgs[org]['curr'] == 1:
-            registered = registered + 1;
-
         if orgs[org]['registered'] < 2:
             no_register.append(org);
         elif orgs[org]['attended'] < 2:
             no_attend.append(org);
-        elif orgs[org]['curr'] != 1:
+        elif orgs[org]['attend_curr'] != 1:
             no_curr.append(org);
             ooe = ooe + 1;
         else:
@@ -180,7 +189,7 @@ def main():
             print("" + org + " not registered for 2 of the last 3 meetings.");
         elif orgs[org]['attended'] < 2:
             print("" + org + " not attended 2 of the last 3 meetings.");
-        elif orgs[org]['curr'] != 1:
+        elif orgs[org]['attend_curr'] != 1:
             print("" + org + " not attending current meeting.");
         else:
             email = row['Email Address']
@@ -194,8 +203,8 @@ def main():
 
                     Voting is now open for the December 2020 meeting. You may vote at this link:<br><br>
 
-                    <a href=https://form.jotform.com/203414144272142?participantId={id}&name={safe_name}&org={org}>
-                    https://form.jotform.com/203414144272142?participantId={id}&name={safe_name}&org={org}
+                    <a href=https://form.jotform.com/203425065450144?participantId={id}&name={safe_name}&org={org}>
+                    https://form.jotform.com/203425065450144?participantId={id}&name={safe_name}&org={org}
                     </a><br><br>
 
                     If multiple members of your organization registered, each will get their own
@@ -207,7 +216,7 @@ def main():
                     meeting up to the point where first ballot opened, your organization's vote will
                     not be counted.
 
-                    Voting will close at 12pm US Central time on December 7th, 2020.<br><br>
+                    Voting will be open until 12:30pm US Central time on December 10th, 2020.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
