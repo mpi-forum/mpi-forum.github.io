@@ -183,7 +183,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 6, Collective Communication
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 7, Groups, Contexts, Communicators, and Caching
@@ -223,12 +223,12 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 14, I/O
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 15, Tool Support
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 16, Deprecated Interfaces
@@ -243,7 +243,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: Chapter 18, Backward Incompatibilities
       presenter: Wesley
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 19, Language Bindings
@@ -258,7 +258,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: Appendix B, Change-Log
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Formatting: vertical spacing after example environment"
