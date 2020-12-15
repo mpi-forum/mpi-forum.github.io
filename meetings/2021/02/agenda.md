@@ -16,6 +16,7 @@ the RCM (December, 2020) and close two weeks before the RCM (February 8, 2021).
 ### MPI Forum Chair
 
 * Anthony Skjellum, University of Tennessee, Chattanooga
+* Martin Schulz, Technical University of Munich
 
 ### MPI Forum Secretary
 
@@ -23,4 +24,8 @@ the RCM (December, 2020) and close two weeks before the RCM (February 8, 2021).
 
 ### MPI Forum Treasurer
 
+* Brian Smith, ORNL
+
 ### MPI Standard Document Editor
+
+* Bill Gropp, University of Illinois Urbana-Champaign
