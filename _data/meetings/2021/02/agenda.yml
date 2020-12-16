@@ -27,6 +27,15 @@ schedule:
     - endday: done
 
 
+    - day: Thursday, February 25
+
+    - start: 12:00am
+      end: 11:59pm
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
 procedure-votes:
 
     - number: 1234
