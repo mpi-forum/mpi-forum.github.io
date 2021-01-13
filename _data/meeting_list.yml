@@ -30,7 +30,7 @@ virtual:
   - start: 2021-01-13T10:00
     end: 2021-01-13T12:00
     title: "MPI 4.0 Review Topics"
-    recording_url: ""
+    recording_url: "https://youtu.be/-BN30CbwoAg"
 
   - start: 2021-01-08T09:00
     end: 2021-01-08T11:00
