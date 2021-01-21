@@ -1,1 +1,72 @@
 topic,type,yes,no,abstain,missed
+"#410: Use example environment for hello world example in pt2pt (errata)",errata,0,0,0,0
+"#411: Removing deprecated error class MPI_T_ERR_INVALID_ITEM from list of valid MPI_T return codes (errata)",errata,0,0,0,0
+"#368: Replace inline code for MPI_STARTALL text (errata)",errata,0,0,0,0
+"#381: Review issues from the datatype chapter (errata)",errata,0,0,0,0
+"#416: dynamic: update example to use MPI_Info_get_string (errata)",errata,0,0,0,0
+"#398: Fix some issues found during 4.0 RC review (errata)",errata,0,0,0,0
+"#402: Remove Usage of MPI 3.2 (errata)",errata,0,0,0,0
+"#428: dynamic: update example to use MPI_Info_get_string (errata)",errata,0,0,0,0
+"#427: Sort 4.0 change-log according to sections and pages (errata)",errata,0,0,0,0
+"#433: Terms Chapter RC Review (issue 335) (errata)",errata,0,0,0,0
+"#432: Drop MPI identifiers are limited to 30 characters (issue 403) (errata)",errata,0,0,0,0
+"#434: Changes for RC 40 (issue 405) - here for the change-log, binding and backward… (errata)",errata,0,0,0,0
+"#435: Typo correction in binding-2.tex (errata)",errata,0,0,0,0
+"#437: Terms Chapter RC Review (partly Dec 18; second try) (errata)",errata,0,0,0,0
+"#439: Updates of topol.tex for issue #405 (errata)",errata,0,0,0,0
+"#441: Updates to removed.tex for issue #405 (errata)",errata,0,0,0,0
+"#443: Removal of MPI_Info_get and _MPI_Info_get_valuelen Chap. 10 Info (misc-2.tex) (errata)",errata,0,0,0,0
+"#431: Hack MAKE-APPLANG for mpibindbcindex->MPIbindindex (errata)",errata,0,0,0,0
+"#444: Updates to appLang-Const.tex for issue #405 (errata)",errata,0,0,0,0
+"#422: Fix index entries for new types of MPI_T events (errata)",errata,0,0,0,0
+"#417: Add a grey frame around examples (errata)",errata,0,0,0,0
+"#414: Bug fix: suppress INTENT(IN) for callback parameters (errata)",errata,0,0,0,0
+"#423: Remove index entries for PMPI versions of MPI_T events procedures (errata)",errata,0,0,0,0
+"#395: Some more items addressed for issue #352 (errata)",errata,0,0,0,0
+"#412: Updates to Language Bindings Chapter (errata)",errata,0,0,0,0
+"#375: Issue 378 (errata)",errata,0,0,0,0
+"#400: Fix up MPI_MAX_FROM_GROUP_TAG issues (errata)",errata,0,0,0,0
+"#452: Fixes from issue 345 for intro (errata)",errata,0,0,0,0
+"#453: Fixes for issue 348 (errata)",errata,0,0,0,0
+"#456: Add treasurer (errata)",errata,0,0,0,0
+"#268: The Embiggening (errata)",errata,0,0,0,0
+"#219: implements issue 291, changes boolean to logical for flag objects on … (errata)",errata,0,0,0,0
+"#454: Move Marc Gamell Balmana to alphabetize by Gamell (errata)",errata,0,0,0,0
+"#445: Add backcompat intro paragraph (errata)",errata,0,0,0,0
+"#458: Note potentially erroneous result (errata)",errata,0,0,0,0
+"#409: Fix use bindingtool for event callbacks (errata)",errata,0,0,0,0
+"#377: implemented chapter 9 portion of issue 280 (errata)",errata,0,0,0,0
+"#448: Generate interface blocks for f90 index overloads (errata)",errata,0,0,0,0
+"#442: Updates to deprecated.tex for issue #405 (errata)",errata,0,0,0,0
+"#467: Remove space in integer (kind=…) (errata)",errata,0,0,0,0
+"#415: Remove gender-specific pronouns (errata)",errata,0,0,0,0
+"#470: Fix for Julien's last items in issue 352 (errata)",errata,0,0,0,0
+"#469: Remove use of himself/herself (errata)",errata,0,0,0,0
+"#465: Clarification: Section 2.10 - Example Clarification (errata)",errata,0,0,0,0
+"#473: Fix for bindinglinks (errata)",errata,0,0,0,0
+"#471: Addressing plurality issues (errata)",errata,0,0,0,0
+"#468: Fix Example Environment for chapter 7 (issue 229) (errata)",errata,0,0,0,0
+"#449: Better references in the Indexes, mainly in the Callback Index, see Issue 405 (errata)",errata,0,0,0,0
+"#367: dynamic: minor corrections per RC feedback (errata)",errata,0,0,0,0
+"#457: Address RC Issues for Info Chapter (errata)",errata,0,0,0,0
+"#461: Better referencing of new APIs in the Change-log, see Issue 405 (errata)",errata,0,0,0,0
+"#258: Replace “task” with “MPI rank” or “MPI process” where appropriate (errata)",errata,0,0,0,0
+"#487: presented naive MPI_Reduce implementation is only valid for intra-communicators (errata)",errata,0,0,0,0
+"#485: Mark examples as erroneous in collective chapter (errata)",errata,0,0,0,0
+"#488: Add persistent collectives to the list in the introduction of collective chapter (6.1) (errata)",errata,0,0,0,0
+"#495: RC fix history in intro (errata)",errata,0,0,0,0
+"#497: Additional changes to appLang-Const.tex according to Issue #375 (errata)",errata,0,0,0,0
+"#429: Fix clarify category changed (errata)",errata,0,0,0,0
+"#499: Adding “ !(_c)” postfix to embiggened mpi_f08 bindings, see Issue #364 (errata)",errata,0,0,0,0
+"#424: Clarify wording of concurrent collective initialisation ordering (errata)",errata,0,0,0,0
+"#498: Additional changes to deprecated.tex according to Issue #366 (errata)",errata,0,0,0,0
+"#472: Use MPI_Count for count in dropped handler (errata)",errata,0,0,0,0
+"#475: Detailed indexing pass on point-to-point chapter (errata)",errata,0,0,0,0
+"#420: More credits updates (no-no)",no-no,0,0,0,0
+"#418: dynamic: switch to using thread_level (no-no)",no-no,0,0,0,0
+"#482: fixes issue 427 (no-no)",no-no,0,0,0,0
+"#494: No interfaces were deleted in MPI 4.0 (no-no)",no-no,0,0,0,0
+"#484: Fix for Christoph’s last items for issue 352 in chapter 7 (no-no)",no-no,0,0,0,0
+"#464: Refer to MPI_WAIT and MPI_TEST as procedures rather than as operations (no-no)",no-no,0,0,0,0
+"#462: RC fix receive-complete erratum (no-no)",no-no,0,0,0,0
+"#501: MPI_CONVERSION_FN_NULL_C embiggening (no-no)",no-no,0,0,0,0

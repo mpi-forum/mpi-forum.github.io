@@ -1,49 +1,366 @@
+notes: This meeting is the Final Ratification Meeting (FRM) for the MPI 4.0 Standaerd. It is an exceptional virtual meeting, due to the COVID-19 restrictions. The meeting will consist of plenaries only, run via Webex, and be held on the four days Feb 22-25, 2021 from 9am to 1pm US Central time.
+
 schedule:
 
     - day: Monday, February 22
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
+
+    - start: 12:00pm
+      end: 12:15pm
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 12:15pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Tuesday, February 23
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
+
+    - start: 12:00pm
+      end: 12:15pm
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 12:15pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Wednesday, February 24
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
+
+    - start: 12:00pm
+      end: 12:15pm
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 12:15pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Thursday, February 25
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 12:00pm
+      title: "Plenary Sessions"
+
+    - start: 12:00pm
+      end: 12:15pm
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 12:15pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
-
 errata-votes:
 
+    - number: 410
+      type: "pr"
+      description: "Use example environment for hello world example in pt2pt"
+
+    - number: 411
+      type: "pr"
+      description: "Removing deprecated error class MPI_T_ERR_INVALID_ITEM from list of valid MPI_T return codes"
+
+    - number: 368
+      type: "pr"
+      description: "Replace inline code for MPI_STARTALL text"
+
+    - number: 381
+      type: "pr"
+      description: "Review issues from the datatype chapter"
+
+    - number: 416
+      type: "pr"
+      description: "dynamic: update example to use MPI_Info_get_string"
+
+    - number: 398
+      type: "pr"
+      description: "Fix some issues found during 4.0 RC review"
+
+    - number: 402
+      type: "pr"
+      description: "Remove Usage of MPI 3.2"
+
+    - number: 428
+      type: "pr"
+      description: "dynamic: update example to use MPI_Info_get_string"
+
+    - number: 427
+      type: "pr"
+      description: "Sort 4.0 change-log according to sections and pages"
+
+    - number: 433
+      type: "pr"
+      description: "Terms Chapter RC Review (issue 335)"
+
+    - number: 432
+      type: "pr"
+      description: "Drop MPI identifiers are limited to 30 characters (issue 403)"
+
+    - number: 434
+      type: "pr"
+      description: "Changes for RC 40 (issue 405) - here for the change-log, binding and backward…"
+
+    - number: 435
+      type: "pr"
+      description: "Typo correction in binding-2.tex"
+
+    - number: 437
+      type: "pr"
+      description: "Terms Chapter RC Review (partly Dec 18; second try)"
+
+    - number: 439
+      type: "pr"
+      description: "Updates of topol.tex for issue #405"
+
+    - number: 441
+      type: "pr"
+      description: "Updates to removed.tex for issue #405"
+
+    - number: 443
+      type: "pr"
+      description: "Removal of MPI_Info_get and _MPI_Info_get_valuelen Chap. 10 Info (misc-2.tex)"
+
+    - number: 431
+      type: "pr"
+      description: "Hack MAKE-APPLANG for mpibindbcindex->MPIbindindex"
+
+    - number: 444
+      type: "pr"
+      description: "Updates to appLang-Const.tex for issue #405"
+
+    - number: 422
+      type: "pr"
+      description: "Fix index entries for new types of MPI_T events"
+
+    - number: 417
+      type: "pr"
+      description: "Add a grey frame around examples"
+
+    - number: 414
+      type: "pr"
+      description: "Bug fix: suppress INTENT(IN) for callback parameters"
+
+    - number: 423
+      type: "pr"
+      description: "Remove index entries for PMPI versions of MPI_T events procedures"
+
+    - number: 395
+      type: "pr"
+      description: "Some more items addressed for issue #352"
+
+    - number: 412
+      type: "pr"
+      description: "Updates to Language Bindings Chapter"
+
+    - number: 375
+      type: "pr"
+      description: "Issue 378"
+
+    - number: 400
+      type: "pr"
+      description: "Fix up MPI_MAX_FROM_GROUP_TAG issues"
+
+    - number: 452
+      type: "pr"
+      description: "Fixes from issue 345 for intro"
+
+    - number: 453
+      type: "pr"
+      description: "Fixes for issue 348"
+
+    - number: 456
+      type: "pr"
+      description: "Add treasurer"
+
+    - number: 268
+      type: "pr"
+      description: "The Embiggening"
+
+    - number: 219
+      type: "pr"
+      description: "implements issue 291, changes boolean to logical for flag objects on …"
+
+    - number: 454
+      type: "pr"
+      description: "Move Marc Gamell Balmana to alphabetize by Gamell"
+
+    - number: 445
+      type: "pr"
+      description: "Add backcompat intro paragraph"
+
+    - number: 458
+      type: "pr"
+      description: "Note potentially erroneous result"
+
+    - number: 409
+      type: "pr"
+      description: "Fix use bindingtool for event callbacks"
+
+    - number: 377
+      type: "pr"
+      description: "implemented chapter 9 portion of issue 280"
+
+    - number: 448
+      type: "pr"
+      description: "Generate interface blocks for f90 index overloads"
+
+    - number: 442
+      type: "pr"
+      description: "Updates to deprecated.tex for issue #405"
+
+    - number: 467
+      type: "pr"
+      description: "Remove space in integer (kind=…)"
+
+    - number: 415
+      type: "pr"
+      description: "Remove gender-specific pronouns"
+
+    - number: 470
+      type: "pr"
+      description: "Fix for Julien's last items in issue 352"
+
+    - number: 469
+      type: "pr"
+      description: "Remove use of himself/herself"
+
+    - number: 465
+      type: "pr"
+      description: "Clarification: Section 2.10 - Example Clarification"
+
+    - number: 473
+      type: "pr"
+      description: "Fix for bindinglinks"
+
+    - number: 471
+      type: "pr"
+      description: "Addressing plurality issues"
+
+    - number: 468
+      type: "pr"
+      description: "Fix Example Environment for chapter 7 (issue 229)"
+
+    - number: 449
+      type: "pr"
+      description: "Better references in the Indexes, mainly in the Callback Index, see Issue 405"
+
+    - number: 367
+      type: "pr"
+      description: "dynamic: minor corrections per RC feedback"
+
+    - number: 457
+      type: "pr"
+      description: "Address RC Issues for Info Chapter"
+
+    - number: 461
+      type: "pr"
+      description: "Better referencing of new APIs in the Change-log, see Issue 405"
+
+    - number: 258
+      type: "pr"
+      description: "Replace “task” with “MPI rank” or “MPI process” where appropriate"
+
+    - number: 487
+      type: "pr"
+      description: "presented naive MPI_Reduce implementation is only valid for intra-communicators"
+
+    - number: 485
+      type: "pr"
+      description: "Mark examples as erroneous in collective chapter"
+
+    - number: 488
+      type: "pr"
+      description: "Add persistent collectives to the list in the introduction of collective chapter (6.1)"
+
+    - number: 495
+      type: "pr"
+      description: "RC fix history in intro"
+
+    - number: 497
+      type: "pr"
+      description: "Additional changes to appLang-Const.tex according to Issue #375"
+
+    - number: 429
+      type: "pr"
+      description: "Fix clarify category changed"
+
+    - number: 499
+      type: "pr"
+      description: "Adding “ !(_c)” postfix to embiggened mpi_f08 bindings, see Issue #364"
+
+    - number: 424
+      type: "pr"
+      description: "Clarify wording of concurrent collective initialisation ordering"
+
+    - number: 498
+      type: "pr"
+      description: "Additional changes to deprecated.tex according to Issue #366"
+
+    - number: 472
+      type: "pr"
+      description: "Use MPI_Count for count in dropped handler"
+
+    - number: 475
+      type: "pr"
+      description: "Detailed indexing pass on point-to-point chapter"
+
+
 no-no-votes:
+
+    - number: 420
+      type: "pr"
+      description: "More credits updates"
+
+    - number: 418
+      type: "pr"
+      description: "dynamic: switch to using thread_level"
+
+    - number: 482
+      type: "pr"
+      description: "fixes issue 427"
+
+    - number: 494
+      type: "pr"
+      description: "No interfaces were deleted in MPI 4.0"
+
+    - number: 484
+      type: "pr"
+      description: "Fix for Christoph’s last items for issue 352 in chapter 7"
+
+    - number: 464
+      type: "pr"
+      description: "Refer to MPI_WAIT and MPI_TEST as procedures rather than as operations"
+
+    - number: 462
+      type: "pr"
+      description: "RC fix receive-complete erratum"
+
+    - number: 501
+      type: "pr"
+      description: "MPI_CONVERSION_FN_NULL_C embiggening"
+
 
 first-votes:
 
@@ -58,11 +375,5 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
-
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
       done: 0
 
