@@ -62,6 +62,7 @@ topic,type,yes,no,abstain,missed
 "#498: Additional changes to deprecated.tex according to Issue #366 (errata)",errata,0,0,0,0
 "#472: Use MPI_Count for count in dropped handler (errata)",errata,0,0,0,0
 "#475: Detailed indexing pass on point-to-point chapter (errata)",errata,0,0,0,0
+"#504: Update appLang-Const.tex according to Issue #332 (errata)",errata,0,0,0,0
 "#420: More credits updates (no-no)",no-no,0,0,0,0
 "#418: dynamic: switch to using thread_level (no-no)",no-no,0,0,0,0
 "#482: fixes issue 427 (no-no)",no-no,0,0,0,0
@@ -70,3 +71,4 @@ topic,type,yes,no,abstain,missed
 "#464: Refer to MPI_WAIT and MPI_TEST as procedures rather than as operations (no-no)",no-no,0,0,0,0
 "#462: RC fix receive-complete erratum (no-no)",no-no,0,0,0,0
 "#501: MPI_CONVERSION_FN_NULL_C embiggening (no-no)",no-no,0,0,0,0
+"#483: Added ‘status’ to F90_STATUS and F08_STATUS kinds (no-no)",no-no,0,0,0,0

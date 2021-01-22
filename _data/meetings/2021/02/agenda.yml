@@ -326,6 +326,10 @@ errata-votes:
       type: "pr"
       description: "Detailed indexing pass on point-to-point chapter"
 
+    - number: 504
+      type: "pr"
+      description: "Update appLang-Const.tex according to Issue #332"
+
 
 no-no-votes:
 
@@ -361,6 +365,9 @@ no-no-votes:
       type: "pr"
       description: "MPI_CONVERSION_FN_NULL_C embiggening"
 
+    - number: 483
+      type: "pr"
+      description: "Added ‘status’ to F90_STATUS and F08_STATUS kinds"
 
 first-votes:
 
