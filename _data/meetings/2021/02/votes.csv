@@ -63,6 +63,9 @@ topic,type,yes,no,abstain,missed
 "#472: Use MPI_Count for count in dropped handler (errata)",errata,0,0,0,0
 "#475: Detailed indexing pass on point-to-point chapter (errata)",errata,0,0,0,0
 "#504: Update appLang-Const.tex according to Issue #332 (errata)",errata,0,0,0,0
+"#506: Correct listing of defined strings in A.1 and Constant Index - Issue #332 (errata)",errata,0,0,0,0
+"#508: Update to intro.tex - MPI-4.0 part of Issue #349 (errata)",errata,0,0,0,0
+"#455: Mpi 4 rc IO Chapter changes Issue #350 (some part not included), #264, #213, #217, #265, #266 (errata)",errata,0,0,0,0
 "#420: More credits updates (no-no)",no-no,0,0,0,0
 "#418: dynamic: switch to using thread_level (no-no)",no-no,0,0,0,0
 "#482: fixes issue 427 (no-no)",no-no,0,0,0,0

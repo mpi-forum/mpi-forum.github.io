@@ -330,6 +330,17 @@ errata-votes:
       type: "pr"
       description: "Update appLang-Const.tex according to Issue #332"
 
+    - number: 506
+      type: "pr"
+      description: "Correct listing of defined strings in A.1 and Constant Index - Issue #332"
+
+    - number: 508
+      type: "pr"
+      description: "Update to intro.tex - MPI-4.0 part of Issue #349"
+
+    - number: 455
+      type: "pr"
+      description: "Mpi 4 rc IO Chapter changes Issue #350 (some part not included), #264, #213, #217, #265, #266"
 
 no-no-votes:
 
