@@ -395,3 +395,9 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: Reading
+      title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
+      issue_number: 283
+      presenter: Wes
+      done: 0
+
