@@ -383,6 +383,9 @@ no-no-votes:
 first-votes:
 
 second-votes:
+    - number: 304
+      type: "issue"
+      description: "Create a standalone document for the summary of the semantics of all operation-related MPI procedures"
 
 plenaries:
     - type: Welcome

@@ -75,3 +75,4 @@ topic,type,yes,no,abstain,missed
 "#462: RC fix receive-complete erratum (no-no)",no-no,0,0,0,0
 "#501: MPI_CONVERSION_FN_NULL_C embiggening (no-no)",no-no,0,0,0,0
 "#483: Added ‘status’ to F90_STATUS and F08_STATUS kinds (no-no)",no-no,0,0,0,0
+"#304: Create a standalone document for the summary of the semantics of all operation-related MPI procedures",2nd,0,0,0,0
