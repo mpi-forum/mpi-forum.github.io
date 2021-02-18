@@ -4,13 +4,13 @@ virtual:
 
   - start: 2021-02-17T10:00
     end: 2021-02-17T12:00
-    title: "Officer Candidate Presentation / MPI 4.0 Release Discussions"
-    recording_url: ""
+    title: "MPI 4.0 Release Discussions"
+    recording_url: "https://youtu.be/PZnW6c-XJzE"
 
   - start: 2021-02-03T10:00
     end: 2021-02-03T12:00
     title: "MPI 4.0 Review Topics"
-    recording_url: ""
+    recording_url: "https://youtu.be/3r40LymiRyk"
 
   - start: 2021-01-20T10:00
     end: 2021-01-20T12:00
