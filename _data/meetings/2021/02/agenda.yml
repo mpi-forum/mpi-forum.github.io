@@ -380,6 +380,10 @@ no-no-votes:
       type: "pr"
       description: "Added ‘status’ to F90_STATUS and F08_STATUS kinds"
 
+    - number: 440
+      type: "pr"
+      description: "More for issue 335"
+
 first-votes:
 
 second-votes:
