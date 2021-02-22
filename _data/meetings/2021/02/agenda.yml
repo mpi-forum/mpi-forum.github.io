@@ -396,16 +396,71 @@ plenaries:
     - type: Readings
       title: Reading of all MPI 4.0 releated items listed above
       presenter: Owners, Martin, Wesley
+      done: 1
+
+    - type: Deep Discussion
+      title: Fix for Christoph’s last items for issue 352 in chapter 7 (I 352/PR 484) - cleanup language on no handle being passed
+      presenter: Guillaume
+      done: 0
+
+    - type: Deep Discussion
+      title: Replace “task” with “MPI rank” or “MPI process” where appropriate (I 300/PR 258) - clarify that rank is in the context of COMM_WORLD
+      presenter: Howard
+      done: 0
+
+    - type: Deep Discussion
+      title: Changes for RC 40 (issue 405) - here for the change-log, binding and backward… (I 405/PR 434) - clarify what is backwards compatible
+      presenter: Jeff
+      done: 0
+
+    - type: Deep Discussion
+      title: Add backcompat intro paragraph (I 389/PR 445) - clarify what is backwards compatible
+      presenter: Jeff
+      done: 0
+
+    - type: Deep Discussion
+      title: Updates to appLang-Const.tex for issue 405 (I 405/PR 444) - delete non-standard pset names from appendix
+      presenter: Rolf
+      done: 0
+
+    - type: Deep Discussion
+      title: Remove index entries for PMPI versions of MPI_T events procedures (I 405/PR 423) - replace must with shall
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Deep Discussion
+      title: Some more items addressed for issue 352 (I 352/PR 395) - missing bracket in example and discussion on passing (void*) 0
+      presenter: Jim
+      done: 0
+
+    - type: Deep Discussion
+      title: Fix up MPI_MAX_FROM_GROUP_TAG issues (I 382/PR 400) - order of text on line 1686
+      presenter: Dan
+      done: 0
+
+    - type: Deep Discussion
+      title:  (I 418/PR 462) - fix paragraph, which is confusing, likely in 4.1
+      presenter: Dan
+      done: 0
+
+    - type: Deep Discussion
+      title: dynamic: minor corrections per RC feedback (I 338/PR 367) - add comma into 10,000
+      presenter: Howard
+      done: 0
+
+    - type: Deep Discussion
+      title: Address RC Issues for Info Chapter (I 373/PR 457) - small typo
+      presenter: Martin
+      done: 0
+
+    - type: Readings/Discussion
+      title: Changes to API in File I/O Chapter (PR 455 and PR 425)
+      presenter: Rolf, Bill, Tony
       done: 0
 
     - type: Readings/Discussion
       title: Changes to API in Partioned Communication
       presenter: Ryan
-      done: 0
-
-    - type: Readings/Discussion
-      title: Changes to API in File I/O Chapter
-      presenter: Bill
       done: 0
 
     - type: Readings/Discussion
