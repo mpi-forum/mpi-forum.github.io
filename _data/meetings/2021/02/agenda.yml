@@ -393,9 +393,34 @@ plenaries:
       presenter: All
       done: 0
 
-    - type: Update
-      title: WG Status
-      presenter: All WG chairs or their proxies
+    - type: Readings
+      title: Reading of all MPI 4.0 releated items listed above
+      presenter: Owners, Martin, Wesley
+      done: 0
+
+    - type: Readings/Discussion
+      title: Changes to API in Partioned Communication
+      presenter: Ryan
+      done: 0
+
+    - type: Readings/Discussion
+      title: Changes to API in File I/O Chapter
+      presenter: Bill
+      done: 0
+
+    - type: Readings/Discussion
+      title: Changes to behavior of MPI Session Finalize
+      presenter: Howard
+      done: 0
+
+    - type: Readings/Discussion
+      title: Changes to  MPI_T
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Summaries
+      title: Chapter Summaries
+      presenter: CC chairs
       done: 0
 
     - type: Reading
