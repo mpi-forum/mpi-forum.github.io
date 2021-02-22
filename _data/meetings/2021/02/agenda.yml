@@ -148,7 +148,7 @@ errata-votes:
 
     - number: 444
       type: "pr"
-      description: "Updates to appLang-Const.tex for issue #405"
+      description: "WITHDRAWN: Updates to appLang-Const.tex for issue #405"
 
     - number: 422
       type: "pr"
@@ -208,7 +208,7 @@ errata-votes:
 
     - number: 445
       type: "pr"
-      description: "Add backcompat intro paragraph"
+      description: "WITHDRAWN: Add backcompat intro paragraph"
 
     - number: 458
       type: "pr"
