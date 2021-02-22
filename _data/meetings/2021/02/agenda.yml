@@ -278,10 +278,6 @@ errata-votes:
       type: "pr"
       description: "Better referencing of new APIs in the Change-log, see Issue 405"
 
-    - number: 258
-      type: "pr"
-      description: "Replace “task” with “MPI rank” or “MPI process” where appropriate"
-
     - number: 487
       type: "pr"
       description: "presented naive MPI_Reduce implementation is only valid for intra-communicators"
@@ -342,6 +338,10 @@ errata-votes:
       type: "pr"
       description: "Mpi 4 rc IO Chapter changes Issue #350 (some part not included), #264, #213, #217, #265, #266"
 
+    - number: 440
+      type: "pr"
+      description: "More for issue 335"
+
 no-no-votes:
 
     - number: 420
@@ -379,6 +379,10 @@ no-no-votes:
     - number: 483
       type: "pr"
       description: "Added ‘status’ to F90_STATUS and F08_STATUS kinds"
+
+    - number: 258
+      type: "pr"
+      description: "Replace “task” with “MPI rank” or “MPI process” where appropriate"
 
 first-votes:
 

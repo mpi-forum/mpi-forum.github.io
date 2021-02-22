@@ -99,10 +99,10 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/08/attendance.csv"
-    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/09/attendance.csv"
-    curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/12/attendance.csv"
-    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2020-12-dec/2020-12-07-registration.csv"
+    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/09/attendance.csv"
+    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/12/attendance.csv"
+    curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/02/attendance.csv"
+    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2021-02-feb/2021-02-22-registration.csv"
     prev_ooe = 32
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
@@ -201,10 +201,10 @@ def main():
             message_text = """\
                     Hi {name},<br><br>
 
-                    Voting is now open for the December 2020 meeting. You may vote at this link:<br><br>
+                    Voting is now open for the February 2021 meeting. You may vote at this link:<br><br>
 
-                    <a href=https://form.jotform.com/203425065450144?participantId={id}&name={safe_name}&org={org}>
-                    https://form.jotform.com/203425065450144?participantId={id}&name={safe_name}&org={org}
+                    <a href=https://form.jotform.com/210204144986149?participantId={id}&name={safe_name}&org={org}>
+                    https://form.jotform.com/210204144986149?participantId={id}&name={safe_name}&org={org}
                     </a><br><br>
 
                     If multiple members of your organization registered, each will get their own
@@ -216,13 +216,13 @@ def main():
                     meeting up to the point where first ballot opened, your organization's vote will
                     not be counted.
 
-                    Voting will be open until 12:30pm US Central time on December 10th, 2020.<br><br>
+                    Voting will be open until 12:30pm US Central time on February 22nd, 2021.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, safe_name=safe_name, id=safe_uuid, org=safe_org)
 
-            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'December 2020 MPI Forum Voting Link', message_text)
+            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'February 2021 MPI Forum Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
 if __name__ == '__main__':
