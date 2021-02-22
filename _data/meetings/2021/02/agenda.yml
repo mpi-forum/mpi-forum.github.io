@@ -448,7 +448,7 @@ plenaries:
       done: 0
 
     - type: Deep Discussion
-      title: dynamic: minor corrections per RC feedback (I 338/PR 367) - add comma into 10,000
+      title: dynamic - minor corrections per RC feedback (I 338/PR 367) - add comma into 10,000
       presenter: Howard
       done: 0
 
