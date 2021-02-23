@@ -3,7 +3,6 @@ topic,type,yes,no,abstain,missed
 "#418: dynamic: switch to using thread_level",no-no,0,0,0,0
 "#482: fixes issue 427",no-no,0,0,0,0
 "#494: No interfaces were deleted in MPI 4.0",no-no,0,0,0,0
-"#484: Fix for Christoph’s last items for issue 352 in chapter 7",no-no,0,0,0,0
 "#464: Refer to MPI_WAIT and MPI_TEST as procedures rather than as operations",no-no,0,0,0,0
 "#462: RC fix receive-complete erratum",no-no,0,0,0,0
 "#501: MPI_CONVERSION_FN_NULL_C embiggening",no-no,0,0,0,0

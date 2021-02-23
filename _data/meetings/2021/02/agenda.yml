@@ -96,7 +96,7 @@ no-no-votes:
 
     - number: 484
       type: "pr"
-      description: "Fix for Christoph’s last items for issue 352 in chapter 7"
+      description: "WITHDRAWN: Fix for Christoph’s last items for issue 352 in chapter 7"
 
     - number: 464
       type: "pr"
