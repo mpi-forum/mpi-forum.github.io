@@ -414,22 +414,22 @@ plenaries:
     - type: Deep Discussion
       title: Replace “task” with “MPI rank” or “MPI process” where appropriate (I 300/PR 258) - clarify that rank is in the context of COMM_WORLD
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Deep Discussion
       title: Changes for RC 40 (issue 405) - here for the change-log, binding and backward… (I 405/PR 434) - clarify what is backwards compatible
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Deep Discussion
       title: Add backcompat intro paragraph (I 389/PR 445) - clarify what is backwards compatible
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Deep Discussion
       title: Updates to appLang-Const.tex for issue 405 (I 405/PR 444) - delete non-standard pset names from appendix
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Deep Discussion
       title: Remove index entries for PMPI versions of MPI_T events procedures (I 405/PR 423) - replace must with shall
