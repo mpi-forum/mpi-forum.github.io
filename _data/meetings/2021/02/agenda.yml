@@ -403,64 +403,64 @@ plenaries:
       done: 1
 
     - type: Deep Discussion
-      title: Fix for Christoph’s last items for issue 352 in chapter 7 (I 352/PR 484) - cleanup language on no handle being passed
+      title: Fix for Christoph’s last items for issue 352 in chapter 7 (I 352/PR 484) - cleanup language on no handle being passed - decision: No info handle is provided is replaced with MPI_INFO_NULL is provided, ballot pulled, will be fixed in PR533
       presenter: Guillaume
       done: 0
 
     - type: Deep Discussion
-      title: Replace “task” with “MPI rank” or “MPI process” where appropriate (I 300/PR 258) - clarify that rank is in the context of COMM_WORLD
-      presenter: Howard
-      done: 0
+      title: Replace “task” with “MPI rank” or “MPI process” where appropriate (I 300/PR 258) - clarify that rank is in the context of COMM_WORLD - fixed by PR 534, decision: ballot pulled and to be split into two PRs (by Joseph)
+      presenter: Howard/Dan/Jeff
+      done: 1
 
     - type: Deep Discussion
-      title: Changes for RC 40 (issue 405) - here for the change-log, binding and backward… (I 405/PR 434) - clarify what is backwards compatible
+      title: Changes for RC 40 (issue 405) - here for the change-log, binding and backward… (I 405/PR 434) - clarify what is backwards compatible - decision: add advice to users to limit impact, ballot pulled
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Deep Discussion
-      title: Add backcompat intro paragraph (I 389/PR 445) - clarify what is backwards compatible
+      title: Add backcompat intro paragraph (I 389/PR 445) - clarify what is backwards compatible - decision: Wesley to propose, ballot pulled
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Deep Discussion
-      title: Updates to appLang-Const.tex for issue 405 (I 405/PR 444) - delete non-standard pset names from appendix
+      title: Updates to appLang-Const.tex for issue 405 (I 405/PR 444) - delete non-standard pset names from annex A - decision: removed by PR 528, ballot pulled, two PRs will be merged for next meeting
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Deep Discussion
-      title: Remove index entries for PMPI versions of MPI_T events procedures (I 405/PR 423) - replace must with shall
+      title: Remove index entries for PMPI versions of MPI_T events procedures (I 405/PR 423) - replace must with shall - decision: additional PR 523 to fix this one word, will be merged as editor change, ballot remains
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Deep Discussion
-      title: Some more items addressed for issue 352 (I 352/PR 395) - missing bracket in example and discussion on passing (void*) 0
+      title: Some more items addressed for issue 352 (I 352/PR 395) - missing bracket in example and discussion on passing (void*) 0 - decision: discussion resolved, PR stays on the ballot as is
       presenter: Jim
-      done: 0
+      done: 1
 
     - type: Deep Discussion
-      title: Fix up MPI_MAX_FROM_GROUP_TAG issues (I 382/PR 400) - order of text on line 1686
+      title: Fix up MPI_MAX_FROM_GROUP_TAG issues (I 382/PR 400) - order of text on line 1686, decision is to fix the order, Howard did that in PR 524, we will vote this on as is, additional PR next time
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Deep Discussion
-      title:  (I 418/PR 462) - fix paragraph, which is confusing, likely in 4.1
+      title:  (I 418/PR 462) - fix paragraph, which is confusing, likely in 4.1 - decision: ballot will be as is, additional changes in 4.1 to clarify meaning
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Deep Discussion
-      title: dynamic - minor corrections per RC feedback (I 338/PR 367) - add comma into 10,000
+      title: dynamic - minor corrections per RC feedback (I 338/PR 367) - add comma into 10,000, - decision: stays on ballot as is editor change to add comma, will be done in PR538
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Deep Discussion
-      title: Address RC Issues for Info Chapter (I 373/PR 457) - small typo
+      title: Address RC Issues for Info Chapter (I 373/PR 457) - small typo - will be fixed by new PR (Martin), ballot will stay as is
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Deep Discussion
       title: Fix clarify category changed (I 392/PR 429) - correct classification as errata or FRM change
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Problems in Example 5.22
