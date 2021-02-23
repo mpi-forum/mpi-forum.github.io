@@ -382,7 +382,7 @@ errata-votes:
 
     - number: 455
       type: "pr"
-      description: "Mpi 4 rc IO Chapter changes Issue #350 (some part not included), #264, #213, #217, #265, #266"
+      description: "WITHDRAWN: Mpi 4 rc IO Chapter changes Issue #350 (some part not included), #264, #213, #217, #265, #266"
 
     - number: 440
       type: "pr"

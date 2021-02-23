@@ -69,7 +69,6 @@ topic,type,yes,no,abstain,missed
 "#504: Update appLang-Const.tex according to Issue #332",errata,0,0,0,0
 "#506: Correct listing of defined strings in A.1 and Constant Index - Issue #332",errata,0,0,0,0
 "#508: Update to intro.tex - MPI-4.0 part of Issue #349",errata,0,0,0,0
-"#455: Mpi 4 rc IO Chapter changes Issue #350 (some part not included), #264, #213, #217, #265, #266",errata,0,0,0,0
 "#440: More for issue 335",errata,0,0,0,0
 "#304: Create a standalone document for the summary of the semantics of all operation-related MPI procedures",2nd,0,0,0,0
 "Delay ratification based on the list of remaining issues",procedure,0,0,0,0
