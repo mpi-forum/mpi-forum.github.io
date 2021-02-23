@@ -19,7 +19,6 @@ topic,type,yes,no,abstain,missed
 "#427: Sort 4.0 change-log according to sections and pages",errata,0,0,0,0
 "#433: Terms Chapter RC Review (issue 335)",errata,0,0,0,0
 "#432: Drop MPI identifiers are limited to 30 characters (issue 403)",errata,0,0,0,0
-"#434: Changes for RC 40 (issue 405) - here for the change-log, binding and backward…",errata,0,0,0,0
 "#435: Typo correction in binding-2.tex",errata,0,0,0,0
 "#437: Terms Chapter RC Review (partly Dec 18; second try)",errata,0,0,0,0
 "#439: Updates of topol.tex for issue #405",errata,0,0,0,0

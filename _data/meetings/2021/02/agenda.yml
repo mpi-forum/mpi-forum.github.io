@@ -166,7 +166,7 @@ errata-votes:
 
     - number: 434
       type: "pr"
-      description: "Changes for RC 40 (issue 405) - here for the change-log, binding and backward…"
+      description: "WITHDRAWN: Changes for RC 40 (issue 405) - here for the change-log, binding and backward…"
 
     - number: 435
       type: "pr"
