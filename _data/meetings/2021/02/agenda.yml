@@ -457,6 +457,16 @@ plenaries:
       presenter: Martin
       done: 0
 
+    - type: Deep Discussion
+      title: Fix clarify category changed (I 392/PR 429) - correct classification as errata or FRM change
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Discussion
+      title: Problems in Example 5.22
+      presenter: Rolf
+      done: 0
+
     - type: Readings/Discussion
       title: Changes to API in File I/O Chapter (PR 455 and PR 425)
       presenter: Rolf, Bill, Tony
