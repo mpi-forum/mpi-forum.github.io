@@ -8,7 +8,6 @@ topic,type,yes,no,abstain,missed
 "#462: RC fix receive-complete erratum",no-no,0,0,0,0
 "#501: MPI_CONVERSION_FN_NULL_C embiggening",no-no,0,0,0,0
 "#483: Added ‘status’ to F90_STATUS and F08_STATUS kinds",no-no,0,0,0,0
-"#258: Replace “task” with “MPI rank” or “MPI process” where appropriate",no-no,0,0,0,0
 "#410: Use example environment for hello world example in pt2pt",errata,0,0,0,0
 "#411: Removing deprecated error class MPI_T_ERR_INVALID_ITEM from list of valid MPI_T return codes",errata,0,0,0,0
 "#368: Replace inline code for MPI_STARTALL text",errata,0,0,0,0

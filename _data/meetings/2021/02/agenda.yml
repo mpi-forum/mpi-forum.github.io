@@ -116,7 +116,7 @@ no-no-votes:
 
     - number: 258
       type: "pr"
-      description: "Replace “task” with “MPI rank” or “MPI process” where appropriate"
+      description: "WITHDRAWN: Replace “task” with “MPI rank” or “MPI process” where appropriate"
 
 errata-votes:
 
