@@ -72,6 +72,52 @@ schedule:
 
 procedure-votes:
 
+    - description: "Delay ratification based on the list of remaining issues"
+
+    - description: "Final ballot on MPI 4.0"
+
+no-no-votes:
+
+    - number: 420
+      type: "pr"
+      description: "More credits updates"
+
+    - number: 418
+      type: "pr"
+      description: "dynamic: switch to using thread_level"
+
+    - number: 482
+      type: "pr"
+      description: "fixes issue 427"
+
+    - number: 494
+      type: "pr"
+      description: "No interfaces were deleted in MPI 4.0"
+
+    - number: 484
+      type: "pr"
+      description: "Fix for Christoph’s last items for issue 352 in chapter 7"
+
+    - number: 464
+      type: "pr"
+      description: "Refer to MPI_WAIT and MPI_TEST as procedures rather than as operations"
+
+    - number: 462
+      type: "pr"
+      description: "RC fix receive-complete erratum"
+
+    - number: 501
+      type: "pr"
+      description: "MPI_CONVERSION_FN_NULL_C embiggening"
+
+    - number: 483
+      type: "pr"
+      description: "Added ‘status’ to F90_STATUS and F08_STATUS kinds"
+
+    - number: 258
+      type: "pr"
+      description: "Replace “task” with “MPI rank” or “MPI process” where appropriate"
+
 errata-votes:
 
     - number: 410
@@ -341,48 +387,6 @@ errata-votes:
     - number: 440
       type: "pr"
       description: "More for issue 335"
-
-no-no-votes:
-
-    - number: 420
-      type: "pr"
-      description: "More credits updates"
-
-    - number: 418
-      type: "pr"
-      description: "dynamic: switch to using thread_level"
-
-    - number: 482
-      type: "pr"
-      description: "fixes issue 427"
-
-    - number: 494
-      type: "pr"
-      description: "No interfaces were deleted in MPI 4.0"
-
-    - number: 484
-      type: "pr"
-      description: "Fix for Christoph’s last items for issue 352 in chapter 7"
-
-    - number: 464
-      type: "pr"
-      description: "Refer to MPI_WAIT and MPI_TEST as procedures rather than as operations"
-
-    - number: 462
-      type: "pr"
-      description: "RC fix receive-complete erratum"
-
-    - number: 501
-      type: "pr"
-      description: "MPI_CONVERSION_FN_NULL_C embiggening"
-
-    - number: 483
-      type: "pr"
-      description: "Added ‘status’ to F90_STATUS and F08_STATUS kinds"
-
-    - number: 258
-      type: "pr"
-      description: "Replace “task” with “MPI rank” or “MPI process” where appropriate"
 
 first-votes:
 
