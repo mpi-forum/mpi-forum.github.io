@@ -409,7 +409,7 @@ plenaries:
     - type: Deep Discussion
       title: Fix for Christoph’s last items for issue 352 in chapter 7 (I 352/PR 484) - cleanup language on no handle being passed - decision - No info handle is provided is replaced with MPI_INFO_NULL is provided, ballot pulled, will be fixed in PR533
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Deep Discussion
       title: Replace “task” with “MPI rank” or “MPI process” where appropriate (I 300/PR 258) - clarify that rank is in the context of COMM_WORLD - fixed by PR 534, decision - ballot pulled and to be split into two PRs (by Joseph)
