@@ -27,7 +27,6 @@ topic,type,yes,no,abstain,missed
 "#441: Updates to removed.tex for issue #405",errata,0,0,0,0
 "#443: Removal of MPI_Info_get and _MPI_Info_get_valuelen Chap. 10 Info (misc-2.tex)",errata,0,0,0,0
 "#431: Hack MAKE-APPLANG for mpibindbcindex->MPIbindindex",errata,0,0,0,0
-"#444: Updates to appLang-Const.tex for issue #405",errata,0,0,0,0
 "#422: Fix index entries for new types of MPI_T events",errata,0,0,0,0
 "#417: Add a grey frame around examples",errata,0,0,0,0
 "#414: Bug fix: suppress INTENT(IN) for callback parameters",errata,0,0,0,0
@@ -42,7 +41,6 @@ topic,type,yes,no,abstain,missed
 "#268: The Embiggening",errata,0,0,0,0
 "#219: implements issue 291, changes boolean to logical for flag objects on …",errata,0,0,0,0
 "#454: Move Marc Gamell Balmana to alphabetize by Gamell",errata,0,0,0,0
-"#445: Add backcompat intro paragraph",errata,0,0,0,0
 "#458: Note potentially erroneous result",errata,0,0,0,0
 "#409: Fix use bindingtool for event callbacks",errata,0,0,0,0
 "#377: implemented chapter 9 portion of issue 280",errata,0,0,0,0
