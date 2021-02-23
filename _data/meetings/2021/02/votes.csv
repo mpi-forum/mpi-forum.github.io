@@ -3,12 +3,10 @@ topic,type,yes,no,abstain,missed
 "#418: dynamic: switch to using thread_level",no-no,0,0,0,0
 "#482: fixes issue 427",no-no,0,0,0,0
 "#494: No interfaces were deleted in MPI 4.0",no-no,0,0,0,0
-"#484: Fix for Christoph’s last items for issue 352 in chapter 7",no-no,0,0,0,0
 "#464: Refer to MPI_WAIT and MPI_TEST as procedures rather than as operations",no-no,0,0,0,0
 "#462: RC fix receive-complete erratum",no-no,0,0,0,0
 "#501: MPI_CONVERSION_FN_NULL_C embiggening",no-no,0,0,0,0
 "#483: Added ‘status’ to F90_STATUS and F08_STATUS kinds",no-no,0,0,0,0
-"#258: Replace “task” with “MPI rank” or “MPI process” where appropriate",no-no,0,0,0,0
 "#410: Use example environment for hello world example in pt2pt",errata,0,0,0,0
 "#411: Removing deprecated error class MPI_T_ERR_INVALID_ITEM from list of valid MPI_T return codes",errata,0,0,0,0
 "#368: Replace inline code for MPI_STARTALL text",errata,0,0,0,0
@@ -20,7 +18,6 @@ topic,type,yes,no,abstain,missed
 "#427: Sort 4.0 change-log according to sections and pages",errata,0,0,0,0
 "#433: Terms Chapter RC Review (issue 335)",errata,0,0,0,0
 "#432: Drop MPI identifiers are limited to 30 characters (issue 403)",errata,0,0,0,0
-"#434: Changes for RC 40 (issue 405) - here for the change-log, binding and backward…",errata,0,0,0,0
 "#435: Typo correction in binding-2.tex",errata,0,0,0,0
 "#437: Terms Chapter RC Review (partly Dec 18; second try)",errata,0,0,0,0
 "#439: Updates of topol.tex for issue #405",errata,0,0,0,0
@@ -75,3 +72,5 @@ topic,type,yes,no,abstain,missed
 "#455: Mpi 4 rc IO Chapter changes Issue #350 (some part not included), #264, #213, #217, #265, #266",errata,0,0,0,0
 "#440: More for issue 335",errata,0,0,0,0
 "#304: Create a standalone document for the summary of the semantics of all operation-related MPI procedures",2nd,0,0,0,0
+"Delay ratification based on the list of remaining issues",procedure,0,0,0,0
+"Final ballot on MPI 4.0",procedure,0,0,0,0
