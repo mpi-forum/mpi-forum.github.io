@@ -216,7 +216,7 @@ def main():
                     meeting up to the point where first ballot opened, your organization's vote will
                     not be counted.
 
-                    Voting will be open until 12:30pm US Central time on February 22nd, 2021.<br><br>
+                    Voting will be open until 15:00pm US Central time on February 23rd, 2021.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
