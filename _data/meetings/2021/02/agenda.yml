@@ -434,12 +434,12 @@ plenaries:
     - type: Deep Discussion
       title: Remove index entries for PMPI versions of MPI_T events procedures (I 405/PR 423) - replace must with shall
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Deep Discussion
       title: Some more items addressed for issue 352 (I 352/PR 395) - missing bracket in example and discussion on passing (void*) 0
       presenter: Jim
-      done: 0
+      done: 1
 
     - type: Deep Discussion
       title: Fix up MPI_MAX_FROM_GROUP_TAG issues (I 382/PR 400) - order of text on line 1686
