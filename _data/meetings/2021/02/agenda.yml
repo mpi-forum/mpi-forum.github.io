@@ -74,7 +74,7 @@ procedure-votes:
 
     - description: "Delay ratification based on the list of remaining issues"
 
-    - description: "Final ballot on MPI 4.0"
+    - description: "WITHDRAWN: Final ballot on MPI 4.0"
 
 no-no-votes:
 
@@ -479,7 +479,7 @@ plenaries:
     - type: Readings/Discussion
       title: Changes to API in Partioned Communication
       presenter: Ryan
-      done: 0
+      done: 1
 
     - type: Readings/Discussion
       title: Changes to behavior of MPI Session Finalize
@@ -489,7 +489,7 @@ plenaries:
     - type: Readings/Discussion
       title: Changes to  MPI_T
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Summaries
       title: Chapter Summaries
