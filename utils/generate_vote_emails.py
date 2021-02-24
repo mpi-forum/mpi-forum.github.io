@@ -203,8 +203,8 @@ def main():
 
                     Voting is now open for the February 2021 meeting. You may vote at this link:<br><br>
 
-                    <a href=https://form.jotform.com/210204144986149?participantId={id}&name={safe_name}&org={org}>
-                    https://form.jotform.com/210204144986149?participantId={id}&name={safe_name}&org={org}
+                    <a href=https://form.jotform.com/210543604685152?participantId={id}&name={safe_name}&org={org}>
+                    https://form.jotform.com/210543604685152?participantId={id}&name={safe_name}&org={org}
                     </a><br><br>
 
                     If multiple members of your organization registered, each will get their own
@@ -216,7 +216,7 @@ def main():
                     meeting up to the point where first ballot opened, your organization's vote will
                     not be counted.
 
-                    Voting will be open until 12:30pm US Central time on February 22nd, 2021.<br><br>
+                    Voting will be open until 12:30pm US Central time on February 24th, 2021.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
