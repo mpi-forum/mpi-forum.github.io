@@ -469,12 +469,12 @@ plenaries:
     - type: Discussion
       title: Problems in Example 5.22
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Readings/Discussion
       title: Changes to API in File I/O Chapter (PR 455 and PR 425)
       presenter: Rolf, Bill, Tony
-      done: 0
+      done: 1
 
     - type: Readings/Discussion
       title: Changes to API in Partioned Communication
