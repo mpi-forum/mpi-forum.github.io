@@ -462,19 +462,19 @@ plenaries:
       done: 1
 
     - type: Deep Discussion
-      title: Fix clarify category changed (I 392/PR 429) - correct classification as errata or FRM change
+      title: Fix clarify category changed (I 392/PR 429) - correct classification as errata or FRM chang - decision - after straw poll, keeping ballot as is
       presenter: Marc-Andre
       done: 1
 
     - type: Discussion
-      title: Problems in Example 5.22
+      title: Problems in Example 5.22 - decision - new PR 531 by Rolf to remove the comment (that has been added since RC1) and replace it with something new, to be discussed at a virtual meeting
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Readings/Discussion
-      title: Changes to API in File I/O Chapter (PR 455 and PR 425)
+      title: Changes to API in File I/O Chapter (PR 455 and PR 425) - decision - pulled ballot for PR 455, combined with PR 425 for next meeting, rest of the reading done, line 386 needs an ...an..., line 775-777 is unclear and should be rediscussed (collective I/O instead of target nodes), remove ...and... from line 2243, 2097 drop communicator before group, line 3498 call to procedure, line 3438 and 3439 add code macros, line 4135 fix wording to state real purpose of the table /// additonal new PR 540 - one fix regarding comms group
       presenter: Rolf, Bill, Tony
-      done: 0
+      done: 1
 
     - type: Readings/Discussion
       title: Changes to API in Partioned Communication
