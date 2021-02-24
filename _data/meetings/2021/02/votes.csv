@@ -71,5 +71,6 @@
 "#508: Update to intro.tex - MPI-4.0 part of Issue #349","errata","32","0","1","0"
 "#440: More for issue 335","errata","32","0","1","0"
 "#304: Create a standalone document for the summary of the semantics of all operation-related MPI procedures","2nd","31","1","1","0"
+daybreak
 "Delay ratification based on the list of remaining issues","procedure","0","0","0","0"
 "Final ballot on MPI 4.0","procedure","0","0","0","0"
