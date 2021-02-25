@@ -404,118 +404,118 @@ plenaries:
     - type: Readings
       title: Reading of all MPI 4.0 releated items listed above
       presenter: Owners, Martin, Wesley
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Fix for Christoph’s last items for issue 352 in chapter 7 (I 352/PR 484) - cleanup language on no handle being passed - decision - No info handle is provided is replaced with MPI_INFO_NULL is provided, ballot pulled, will be fixed in PR533
       presenter: Guillaume
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Replace “task” with “MPI rank” or “MPI process” where appropriate (I 300/PR 258) - clarify that rank is in the context of COMM_WORLD - fixed by PR 534, decision - ballot pulled and to be split into two PRs (by Joseph)
       presenter: Howard/Dan/Jeff
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Changes for RC 40 (issue 405) - here for the change-log, binding and backward… (I 405/PR 434) - clarify what is backwards compatible - decision - add advice to users to limit impact, ballot pulled
       presenter: Jeff
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Add backcompat intro paragraph (I 389/PR 445) - clarify what is backwards compatible - decision - Wesley to propose, ballot pulled
       presenter: Jeff
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Updates to appLang-Const.tex for issue 405 (I 405/PR 444) - delete non-standard pset names from annex A - decision - removed by PR 528, ballot pulled, two PRs will be merged for next meeting
       presenter: Rolf
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Remove index entries for PMPI versions of MPI_T events procedures (I 405/PR 423) - replace must with shall - decision - additional PR 523 to fix this one word, will be merged as editor change, ballot remains
       presenter: Marc-Andre
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Some more items addressed for issue 352 (I 352/PR 395) - missing bracket in example and discussion on passing (void*) 0 - decision - discussion resolved, PR stays on the ballot as is
       presenter: Jim
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Fix up MPI_MAX_FROM_GROUP_TAG issues (I 382/PR 400) - order of text on line 1686, decision is to fix the order, Howard did that in PR 524, we will vote this on as is, additional PR next time
       presenter: Dan
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title:  (I 418/PR 462) - fix paragraph, which is confusing, likely in 4.1 - decision - ballot will be as is, additional changes in 4.1 to clarify meaning
       presenter: Dan
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: dynamic - minor corrections per RC feedback (I 338/PR 367) - add comma into 10,000, - decision - stays on ballot as is editor change to add comma, will be done in PR538
       presenter: Howard
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Address RC Issues for Info Chapter (I 373/PR 457) - small typo - will be fixed by new PR (Martin), ballot will stay as is
       presenter: Martin
-      done: 1
+      done: 0
 
     - type: Deep Discussion
       title: Fix clarify category changed (I 392/PR 429) - correct classification as errata or FRM chang - decision - after straw poll, keeping ballot as is
       presenter: Marc-Andre
-      done: 1
+      done: 0
 
     - type: Discussion
       title: Problems in Example 5.22 - decision - new PR 531 by Rolf to remove the comment (that has been added since RC1) and replace it with something new, to be discussed at a virtual meeting
       presenter: Rolf
-      done: 1
+      done: 0
 
     - type: Readings/Discussion
       title: Changes to API in File I/O Chapter (PR 455 and PR 425) - decision - pulled ballot for PR 455, combined with PR 425 for next meeting, rest of the reading done, line 386 needs an ...an..., line 775-777 is unclear and should be rediscussed (collective I/O instead of target nodes), remove ...and... from line 2243, 2097 drop communicator before group, line 3498 call to procedure, line 3438 and 3439 add code macros, line 4135 fix wording to state real purpose of the table /// additonal new PR 540 - one fix regarding comms group
       presenter: Rolf, Bill, Tony
-      done: 1
+      done: 0
 
     - type: Readings/Discussion
       title: Changes to API in Partioned Communication I437 - decision - agreed on, additional problem with progress, Dan will open new PR for advice to implementors, see also issue 405 for Rolfs comments
       presenter: Ryan
-      done: 1
+      done: 0
 
     - type: Readings/Discussion
       title: Changes to  MPI_T - decision - PR 518 on NULL pointer agreed on, PR 515 agreed on, new issue on LIS INOUT 443, discussion on INOUT decided to be deferred to 4.1 (or later), PR 523 is editorial change
       presenter: Marc-Andre
-      done: 1
+      done: 0
 
     - type: Readings/Discussion
       title: Changes to behavior of MPI Session Finalize - decision - need to change LIS in finalize to INOUT, PR 547 cleans up language for finalize, but needs more examples, which may be added in MPI 4.1
       presenter: Howard
-      done: 1
+      done: 0
 
     - type: Discussion for 4.0
       title: Fix undefined behaviour of MPI_Info_get_string caused by binding to MPI_Info_set - decision - agreed upon, should be fixed for new function in MPI 4.0, additionally would need an errata going back to 2.x to fix the old, now deprecated function - how to handle that will be decided offline
       issue_number: 444
       presenter: Christoph
-      done: 1
+      done: 0
 
     - type: Discussion
       title: Backwards compatibility chapter intro - decision - PR 544 has been updated after online discussion
       presenter: Wesley
-      done: 1
+      done: 0
 
     - type: Discussion
       title: Progress in Parrived and request_get_status - decision - two separate PRs that add the TEST progress rule, change Parrived to Ptest with progress semantics - text to be drafted in the WG
       presenter: Rolf
-      done: 1
+      done: 0
 
     - type: Discussion
       title: Next Steps, Timelines - deadline for all changes 4/26
       presenter: Wesley
-      done: 1
+      done: 0
 
     - type: Discussion
       title: Virtual Meetings - deadline for all changes 4/26 - Parrived to Ptest change (in two weeks) - session finalize examples (in three weeks) - process rank fixes (next week) - I424/PR519 error handler for sessions, which has some duplicated and already implemented issues
       presenter: Martin
-      done: 1
+      done: 0
 
     - type: Reading
       title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
