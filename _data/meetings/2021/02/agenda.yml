@@ -477,23 +477,29 @@ plenaries:
       done: 1
 
     - type: Readings/Discussion
-      title: Changes to API in Partioned Communication
+      title: Changes to API in Partioned Communication I437 - decision - agreed on, additional problem with progress, Dan will open new PR for advice to implementors, see also issue 405 for Rolfs comments
       presenter: Ryan
-      done: 0
+      done: 1
+
+    - type: Readings/Discussion
+      title: Changes to  MPI_T - decision - PR 518 on NULL pointer agreed on, PR 515 agreed on, new issue on LIS INOUT 443, discussion on INOUT decided to be deferred to 4.1 (or later), PR 523 is editorial change
+      presenter: Marc-Andre
+      done: 1
 
     - type: Readings/Discussion
       title: Changes to behavior of MPI Session Finalize
       presenter: Howard
       done: 0
 
-    - type: Readings/Discussion
-      title: Changes to  MPI_T
-      presenter: Marc-Andre
+    - type: Discussion for 4.0
+      title: Fix undefined behaviour of MPI_Info_get_string caused by binding to MPI_Info_set
+      issue_number: 444
+      presenter: Christoph
       done: 0
 
-    - type: Summaries
-      title: Chapter Summaries
-      presenter: CC chairs
+    - type: Discussion
+      title: Next Steps, Timelines, Virtual Meetings
+      presenter: Martin, Wesley, Bill
       done: 0
 
     - type: Reading
