@@ -487,20 +487,30 @@ plenaries:
       done: 1
 
     - type: Readings/Discussion
-      title: Changes to behavior of MPI Session Finalize
+      title: Changes to behavior of MPI Session Finalize - decision - need to change LIS in finalize to INOUT, PR 547 cleans up language for finalize, but needs more examples, which may be added in MPI 4.1
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Discussion for 4.0
-      title: Fix undefined behaviour of MPI_Info_get_string caused by binding to MPI_Info_set
+      title: Fix undefined behaviour of MPI_Info_get_string caused by binding to MPI_Info_set - decision - agreed upon, should be fixed for new function in MPI 4.0, additionally would need an errata going back to 2.x to fix the old, now deprecated function - how to handle that will be decided offline
       issue_number: 444
       presenter: Christoph
-      done: 0
+      done: 1
+
+    - type: Discussion
+      title: Backwards compatibility chapter intro - decision - PR 544 has been updated after online discussion
+      presenter: Wesley
+      done: 1
+
+    - type: Discussion
+      title: Progress in Parrived and request_get_status - decision - two separate PRs that add the TEST progress rule, change Parrived to Ptest with progress semantics - text to be drafted in the WG
+      presenter: Rolf
+      done: 1
 
     - type: Discussion
       title: Next Steps, Timelines, Virtual Meetings
       presenter: Martin, Wesley, Bill
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
