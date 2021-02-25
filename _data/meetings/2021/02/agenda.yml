@@ -74,7 +74,7 @@ procedure-votes:
 
     - description: "Delay ratification based on the list of remaining issues"
 
-    - description: "Final ballot on MPI 4.0"
+    - description: "WITHDRAWN: Final ballot on MPI 4.0"
 
 no-no-votes:
 
