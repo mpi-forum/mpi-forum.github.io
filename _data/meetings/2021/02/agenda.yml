@@ -508,8 +508,13 @@ plenaries:
       done: 1
 
     - type: Discussion
-      title: Next Steps, Timelines, Virtual Meetings
-      presenter: Martin, Wesley, Bill
+      title: Next Steps, Timelines - deadline for all changes 4/26
+      presenter: Wesley
+      done: 1
+
+    - type: Discussion
+      title: Virtual Meetings - deadline for all changes 4/26 - Parrived to Ptest change, session finalize examples, process rank fixes
+      presenter: Martin
       done: 1
 
     - type: Reading
