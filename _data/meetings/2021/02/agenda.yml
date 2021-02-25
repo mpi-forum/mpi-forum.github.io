@@ -513,7 +513,7 @@ plenaries:
       done: 1
 
     - type: Discussion
-      title: Virtual Meetings - deadline for all changes 4/26 - Parrived to Ptest change, session finalize examples, process rank fixes
+      title: Virtual Meetings - deadline for all changes 4/26 - Parrived to Ptest change (in two weeks) - session finalize examples (in three weeks) - process rank fixes (next week) - I424/PR519 error handler for sessions, which has some duplicated and already implemented issues
       presenter: Martin
       done: 1
 
