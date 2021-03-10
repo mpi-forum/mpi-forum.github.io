@@ -64,8 +64,8 @@ virtual:
 
   - start: 2021-03-10T10:00
     end: 2021-03-10T12:00
-    title: "MPI 4.0 Review Topics"
-    recording_url: ""
+    title: "MPI_PARRIVED Discussion"
+    recording_url: "https://youtu.be/I0G7fPkhruA"
 
   - start: 2021-03-03T10:00
     end: 2021-03-03T12:00
