@@ -54,7 +54,7 @@ virtual:
 
   - start: 2021-03-24T10:00
     end: 2021-03-24T12:00
-    title: "MPI 4.0 Review Topics"
+    title: "MPI 4.0 Review Topics: Partitioned Communciation"
     recording_url: ""
 
   - start: 2021-03-17T10:00
