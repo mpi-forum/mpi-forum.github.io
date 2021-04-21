@@ -544,9 +544,14 @@ voting:
 
   - year: 2021
 
+  - start: 2021-12-06
+    end: 2021-12-09
+    title: "(Exceptional Virtual) Meeting (Dates tentative) (Location TBD)"
+    links: "no"
+
   - start: 2021-09-08
     end: 2021-09-10
-    title: "Exceptional Virtual Meeting"
+    title: "(Exceptional Virtual) Meeting (Leibniz Supercomputing Centre, Garching, Germany)"
     links: "no"
 
   - start: 2021-06-07
