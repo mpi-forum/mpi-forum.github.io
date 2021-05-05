@@ -24,17 +24,12 @@ virtual:
 
   - start: 2021-05-05T10:00
     end: 2021-05-05T12:00
-    title: "MPI 4.0 Review Topics"
-    recording_url: ""
-
-  - start: 2021-04-28T10:00
-    end: 2021-04-28T12:00
-    title: "MPI 4.0 Review Topics"
-    recording_url: ""
+    title: "Organizational Discussion"
+    recording_url: "https://youtu.be/IzGSeMr2LJk"
 
   - start: 2021-04-21T10:00
     end: 2021-04-21T12:00
-    title: "Officer Election Q&A"
+    title: "Officer Election Q&A / Progress Discussion"
     recording_url: "https://youtu.be/0aZAnKVOZ5A"
 
   - start: 2021-04-14T10:00
