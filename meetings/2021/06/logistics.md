@@ -16,4 +16,4 @@ not been granted access to that repository in the past, email Wesley Bland to ge
 Registration is still required to track attendance, meeting quorum, and voting eligibility. Please
 click the following link to register:
 
-[https://forms.gle/ACFkW6oGy1bgT7pD9](https://forms.gle/e8K1jYDAFGRPv1jc6)
+[Registration Link](https://forms.gle/QNQ4LNZsktXai8uHA)
