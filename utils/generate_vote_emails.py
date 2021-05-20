@@ -99,11 +99,11 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/09/attendance.csv"
-    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/12/attendance.csv"
-    curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/02/attendance.csv"
-    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2021-02-feb/2021-02-22-registration.csv"
-    prev_ooe = 32
+    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/12/attendance.csv"
+    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/02/attendance.csv"
+    curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/06/attendance.csv"
+    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2021-06-jun/2021-06-07-registration.csv"
+    prev_ooe = 34
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
@@ -192,7 +192,7 @@ def main():
         elif orgs[org]['attend_curr'] != 1:
             print("" + org + " not attending current meeting.");
         else:
-            email = row['Email Address']
+            email = row['Email']
             name = row['What is your name?']
             safe_name = urllib.parse.quote_plus(name)
             safe_org = urllib.parse.quote_plus(org)
