@@ -110,6 +110,9 @@ no-no-votes:
 
 first-votes:
 
+    - number: 283
+      description: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
+
 second-votes:
 
 plenaries:

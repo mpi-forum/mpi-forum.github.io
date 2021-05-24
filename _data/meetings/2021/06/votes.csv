@@ -1,4 +1,5 @@
 topic,type,yes,no,abstain,missed
+"#283: Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string",1st,0,0,0,0
 "#456: Fix list of functions that are callable at any time",errata,0,0,0,0
 "#500: Fix LIS for MPI_T events functions",errata,0,0,0,0
 "#495: Remove LIS Changes in I/O Chapter",errata,0,0,0,0
