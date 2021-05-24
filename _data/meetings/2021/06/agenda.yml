@@ -34,7 +34,79 @@ procedure-votes:
 
 errata-votes:
 
+    - number: 456
+      description: "Fix list of functions that are callable at any time"
+
+    - number: 500
+      description: "Fix LIS for MPI_T events functions"
+
+    - number: 495
+      description: "Remove LIS Changes in I/O Chapter"
+
+    - number: 458
+      description: "Issue A 'applang' - PR444 + PR528 applied to RC-4-June"
+
+    - number: 459
+      description: "Issue B 'change-log' - PR434(change-log part) + PR529 applied to RC-4-June"
+
+    - number: 460
+      description: "Issue C 'bindings' - PR434(bindings part) + PR530 applied to RC-4-June"
+
+    - number: 461
+      description: "Issue D 'contexts' - PR484 + PR533 applied to RC-4-June"
+
+    - number: 462
+      description: "Issue E 'dynamics' - the first change of PR258 applied to RC-4-June"
+
+    - number: 463
+      description: "Issue F 'terms' - the second change of PR258 + PR534 applied to RC-4-June"
+
+    - number: 464
+      description: "Issue G 'datatypes' - PR531 applied to RC-4-June"
+
+    - number: 465
+      description: "Issue H 'coll' - PR532 applied to RC-4-June"
+
+    - number: 435
+      description: "Issue I - Is definition of local Session_init + collective Session_finalize pair broken?"
+
+    - number: 491
+      description: "Issue L - Progress references in General Index - for RC-4-June"
+
+    - number: 453
+      description: "Clarifications of PR#423 uses wrong language"
+
+    - number: 433
+      description: "Handling of extra state in dropped event handler for MPI_T"
+
+    - number: 444
+      description: "Fix undefined behaviour of MPI_Info_get_string caused by binding to MPI_Info_set"
+
+    - number: 424
+      description: "Sessions: need to update sections of standard describing initial error handler"
+
+    - number: 437
+      description: "LIS inout and C&Fortran IN fix for Partitioned Communication"
+
+    - number: 446
+      description: "Fix to the Partitioned Communication Chapter for the rank/process/group/file/win/communicator nomenclature"
+
+    - number: 438
+      description: "Handling of enum argument on MPI_T_event_get_info"
+
+    - number: 454
+      description: "Add progress of partitioned communication sentence"
+
 no-no-votes:
+
+    - number: 488
+      description: "Issue W 'backward/semantic changes' - PR434 + PR445 + PR544 applied to RC-4-June"
+
+    - number: 489
+      description: "Incomplete listing of communicator duplication functions"
+
+    - number: 501
+      description: "Add xref in 4.0 ChangeLog for LargeCount"
 
 first-votes:
 
@@ -52,8 +124,145 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+      title: "Errata: Fix list of functions that are callable at any time"
+      issue_number: 456
+      presenter: Wes
       done: 0
 
+    - type: Reading
+      title: "Errata: Fix LIS for MPI_T events functions"
+      issue_number: 500
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Remove LIS Changes in I/O Chapter"
+      issue_number: 495
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue A 'applang' - PR444 + PR528 applied to RC-4-June"
+      issue_number: 458
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue B 'change-log' - PR434(change-log part) + PR529 applied to RC-4-June"
+      issue_number: 459
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue C 'bindings' - PR434(bindings part) + PR530 applied to RC-4-June"
+      issue_number: 460
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue D 'contexts' - PR484 + PR533 applied to RC-4-June"
+      issue_number: 461
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue E 'dynamics' - the first change of PR258 applied to RC-4-June"
+      issue_number: 462
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue F 'terms' - the second change of PR258 + PR534 applied to RC-4-June"
+      issue_number: 463
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue G 'datatypes' - PR531 applied to RC-4-June"
+      issue_number: 464
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue H 'coll' - PR532 applied to RC-4-June"
+      issue_number: 465
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue I - Is definition of local Session_init + collective Session_finalize pair broken?"
+      issue_number: 435
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Issue L - Progress references in General Index - for RC-4-June"
+      issue_number: 491
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Clarifications of PR#423 uses wrong language"
+      issue_number: 453
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Handling of extra state in dropped event handler for MPI_T"
+      issue_number: 433
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Fix undefined behaviour of MPI_Info_get_string caused by binding to MPI_Info_set"
+      issue_number: 444
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Sessions: need to update sections of standard describing initial error handler"
+      issue_number: 424
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: LIS inout and C&Fortran IN fix for Partitioned Communication"
+      issue_number: 437
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Fix to the Partitioned Communication Chapter for the rank/process/group/file/win/communicator nomenclature"
+      issue_number: 446
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Handling of enum argument on MPI_T_event_get_info"
+      issue_number: 438
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Errata: Add progress of partitioned communication sentence"
+      issue_number: 454
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "No-No: Issue W 'backward/semantic changes' - PR434 + PR445 + PR544 applied to RC-4-June"
+      issue_number: 488
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "No-No: Incomplete listing of communicator duplication functions"
+      issue_number: 489
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "No-No: Add xref in 4.0 ChangeLog for LargeCount"
+      issue_number: 501
+      presenter: Wes
+      done: 0
