@@ -24,3 +24,9 @@ topic,type,yes,no,abstain,missed
 "#488: Issue W 'backward/semantic changes' - PR434 + PR445 + PR544 applied to RC-4-June",no-no,0,0,0,0
 "#489: Incomplete listing of communicator duplication functions",no-no,0,0,0,0
 "#501: Add xref in 4.0 ChangeLog for LargeCount",no-no,0,0,0,0
+"Vote to delay MPI 4.0 for unresolved issues",procedure,0,0,0,0
+"Vote to ratify MPI 4.0",procedure,0,0,0,0
+"Elect MPI Forum Chair",procedure,0,0,0,0
+"Elect MPI Forum Secretary",procedure,0,0,0,0
+"Elect MPI Forum Treasurer",procedure,0,0,0,0
+"Elect MPI Forum Document Editor",procedure,0,0,0,0
