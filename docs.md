@@ -17,7 +17,9 @@ implementors an early opportunity to see changes in upcoming versions of the MPI
 draft specifications are not versions and are subject to change before published as an official
 version of the MPI Standard.
 
-* [2020 Draft Specification / MPI 4.0 RC](docs/drafts/mpi-2020-draft-report.pdf)
+* [MPI 4.0 RC 3 (June 2021)](docs/mpi-4.0/mpi40-rc-jun-21.pdf)
+* [MPI 4.0 RC 2 (Feb 2021)](docs/mpi-4.0/mpi40-rc-feb-21.pdf)
+* [2020 Draft Specification / MPI 4.0 RC 1](docs/drafts/mpi-2020-draft-report.pdf)
 * [2019 Draft Specification](docs/drafts/mpi-2019-draft-report.pdf)
 * [2018 Draft Specification](docs/drafts/mpi-2018-draft-report.pdf)
 
