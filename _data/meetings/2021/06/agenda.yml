@@ -2,27 +2,51 @@ schedule:
 
     - day: Monday, June 07
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 12:30pm
+      title: "Plenary Sessions"
+
+    - start: 12:30pm
+      end: 12:45pm
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 12:45pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Tuesday, June 08
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 12:30pm
+      title: "Plenary Sessions"
+
+    - start: 12:30pm
+      end: 12:45pm
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 12:45pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Wednesday, June 09
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 12:30pm
+      title: "Plenary Sessions"
+
+    - start: 12:30pm
+      end: 12:45pm
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 12:45pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
@@ -399,3 +423,15 @@ plenaries:
       title: "Discuss Unresolved Items List"
       presenter: Martin
       done: 0
+
+    - type: Discussion
+      title: "Next Meetings"
+      presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: "Terms WG Update (issue numbers tbd.)"
+      presenter: Rolf
+      done: 0
+
+
