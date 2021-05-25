@@ -429,8 +429,15 @@ plenaries:
       presenter: Martin
       done: 0
 
+    - type: Reading
+      title: "Progress Rules in MPI"
+      issue_number: 468
+      presenter: Rolf
+      done: 0
+
     - type: Discussion
-      title: "Terms WG Update (issue numbers tbd.)"
+      title: "Progress Rules in MPI"
+      issue_number: 499
       presenter: Rolf
       done: 0
 
