@@ -14,9 +14,15 @@ from google.auth.transport.requests import Request
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
-def normalize_attendance(val):
+def normalize_curr_attendance(val):
     if val == 1:
-        return val
+        return 1
+    else:
+        return 0
+
+def normalize_prev_attendance(val):
+    if val != 0:
+        return 1
     else:
         return 0
 
@@ -118,20 +124,27 @@ def main():
             continue
         elif org not in orgs:
             #print("Prev 1 New Org: " + org);
-            orgs[org] = {'registered': 1, 'attended': normalize_attendance(int(row['attend'])), 'prev_1': 1, 'prev_2': 0,
-                    'register_curr': 0, 'attend_curr': 0};
+            orgs[org] = {'registered': 1, 'attended': normalize_prev_attendance(int(row['attend'])),
+                    'prev_1': 1, 'prev_2': 0, 'register_curr': 0, 'attend_prev': 0, 'attend_curr': 0};
+        elif orgs[org]['prev_1'] == 1 and orgs[org]['attended'] == 0:
+            orgs[org]['attended'] = normalize_prev_attendance(int(row['attend']));
     for row in iter(prev_attendees_2):
         org = row['org'];
         if org == "Self (Non-voting participant)":
             continue
         elif org not in orgs:
             #print("Prev 2 New Org: " + org);
-            orgs[org] = {'registered': 1, 'attended': normalize_attendance(int(row['attend'])), 'prev_1': 1, 'prev_2': 0,
-                    'register_curr': 0, 'attend_curr': 0};
+            orgs[org] = {'registered': 1, 'attended': normalize_prev_attendance(int(row['attend'])),
+                    'prev_1': 1, 'prev_2': 0, 'register_curr': 0, 'attend_prev':
+                    normalize_prev_attendance(int(row['attend'])), 'attend_curr': 0};
         elif orgs[org]['prev_2'] == 0:
             orgs[org]['registered'] = int(orgs[org]['registered']) + 1;
-            orgs[org]['attended'] = int(orgs[org]['attended']) + normalize_attendance(int(row['attend']));
+            orgs[org]['attended_prev'] = normalize_prev_attendance(int(row['attend']));
+            orgs[org]['attended'] = int(orgs[org]['attended']) + normalize_prev_attendance(int(row['attend']));
             orgs[org]['prev_2'] = 1;
+        elif orgs[org]['prev_2'] == 1 and orgs[org]['attended_prev'] == 0:
+            orgs[org]['attended_prev'] = normalize_prev_attendance(int(row['attend']));
+            orgs[org]['attended'] = int(orgs[org]['attended']) + normalize_prev_attendance(int(row['attend']));
     for row in iter(curr_attendees):
         org = row['org'];
         if org == "Self (Non-voting participant)":
@@ -139,13 +152,13 @@ def main():
         elif org not in orgs:
             #print("Curr New Org: " + org);
             registered = registered + 1;
-            orgs[org] = {'registered': 1, 'attended': normalize_attendance(int(row['attend'])), 'prev_1': 0, 'prev_2': 0,
+            orgs[org] = {'registered': 1, 'attended': normalize_curr_attendance(int(row['attend'])), 'prev_1': 0, 'prev_2': 0,
                     'attend_curr': int(row['attend']), 'register_curr': 1};
         elif (orgs[org]['register_curr'] == 0 or orgs[org]['attend_curr'] == 0):
             registered = registered + 1;
             orgs[org]['registered'] = int(orgs[org]['registered']) + 1;
-            orgs[org]['attended'] = int(orgs[org]['attended']) + normalize_attendance(int(row['attend']));
-            orgs[org]['attend_curr'] = normalize_attendance(int(row['attend']));
+            orgs[org]['attended'] = int(orgs[org]['attended']) + normalize_curr_attendance(int(row['attend']));
+            orgs[org]['attend_curr'] = normalize_curr_attendance(int(row['attend']));
             orgs[org]['register_curr'] = 1;
 
     no_register = []
