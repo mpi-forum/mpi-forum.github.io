@@ -114,13 +114,17 @@ def main():
 
     for row in iter(prev_attendees_1):
         org = row['org'];
-        if org not in orgs:
+        if org == "Self (Non-voting participant)":
+            continue
+        elif org not in orgs:
             #print("Prev 1 New Org: " + org);
             orgs[org] = {'registered': 1, 'attended': normalize_attendance(int(row['attend'])), 'prev_1': 1, 'prev_2': 0,
                     'register_curr': 0, 'attend_curr': 0};
     for row in iter(prev_attendees_2):
         org = row['org'];
-        if org not in orgs:
+        if org == "Self (Non-voting participant)":
+            continue
+        elif org not in orgs:
             #print("Prev 2 New Org: " + org);
             orgs[org] = {'registered': 1, 'attended': normalize_attendance(int(row['attend'])), 'prev_1': 1, 'prev_2': 0,
                     'register_curr': 0, 'attend_curr': 0};
@@ -130,7 +134,9 @@ def main():
             orgs[org]['prev_2'] = 1;
     for row in iter(curr_attendees):
         org = row['org'];
-        if org not in orgs:
+        if org == "Self (Non-voting participant)":
+            continue
+        elif org not in orgs:
             #print("Curr New Org: " + org);
             registered = registered + 1;
             orgs[org] = {'registered': 1, 'attended': normalize_attendance(int(row['attend'])), 'prev_1': 0, 'prev_2': 0,
@@ -185,14 +191,16 @@ def main():
 
     for row in iter(curr_registration):
         org = row['What organization will you be representing?'];
-        if orgs[org]['registered'] < 2:
+        if org == "Self (Non-voting participant)":
+            continue
+        elif orgs[org]['registered'] < 2:
             print("" + org + " not registered for 2 of the last 3 meetings.");
         elif orgs[org]['attended'] < 2:
             print("" + org + " not attended 2 of the last 3 meetings.");
         elif orgs[org]['attend_curr'] != 1:
             print("" + org + " not attending current meeting.");
         else:
-            email = row['Email']
+            email = row['Email Address']
             name = row['What is your name?']
             safe_name = urllib.parse.quote_plus(name)
             safe_org = urllib.parse.quote_plus(org)
