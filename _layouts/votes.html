@@ -153,13 +153,6 @@ layout: default
         {% endif %}
         <br>
 
-        <script>
-            if ({{ page.rules }} == 3152013) {
-                document.write("<b>Note:</b> \"Miss\" counts the same as \"abstain\"<br>");
-            }
-        </script>
-        <br>
-
         <b>Individual organization's votes are show as colored blocks as follows:</b>
         <table><tr>
             <th bgcolor="#55FF55">Yes</th>
@@ -198,14 +191,18 @@ layout: default
                                 <th>Yes</th>
                                 <th>No</th>
                                 <th>Abstain</th>
-                                {% if vote.missed.size > 0 %}<th>Missed</th>{% endif %}
+                                {% if page.rules == 52012 %}
+                                    {% if vote.missed.size > 0 %}<th>Missed</th>{% endif %}
+                                {% endif %}
                                 <th>Result</th>
                             </tr>
                             <tr>
                                 <td>{{ yes_votes }}</td>
                                 <td>{{ no_votes }}</td>
                                 {% if vote.abstain.size > 0 %}<td>{{ abstain_votes }}</td>{% endif %}
-                                {% if vote.missed.size > 0 %}<td>{{ missed_votes }}</td>{% endif %}
+                                {% if page.rules == 52012 %}
+                                    {% if vote.missed.size > 0 %}<td>{{ missed_votes }}</td>{% endif %}
+                                {% endif %}
                                 <td><script>
                                         document.write(ballot({{page.rules}},{{yes_votes}},{{no_votes}},{{abstain_votes}},{{missed_votes}},"{{ vote.type }}",{{imove}}));
                                 </script></td>
