@@ -19,11 +19,11 @@ def confirm_id(id, name, org, attendance_list):
 def main():
     attendance_file=sys.argv[1]; # File with UUIDs for each attendee
     ballot_file=sys.argv[2]; # File with list of ballots on which to be voted
-    votes_file=sys.argv[3]; # File with votes captured from JotForm
-    prev_ballots_file="old_votes.csv"
-    prev_votes_file="old_ballot.csv"
-    #prev_ballots_file=""
-    #prev_votes_file=""
+    votes_file=sys.argv[3]; # File with votes captured from Google Forms
+    #prev_ballots_file="old_votes.csv"
+    #prev_votes_file="old_ballot.csv"
+    prev_ballots_file=""
+    prev_votes_file=""
 
     ballots=[];
     ballot_dict = {};
@@ -71,9 +71,9 @@ def main():
         # To count the vote, the field names in the CSV file need to exactly match what is typed
         # below. Otherwise the votes won't be found properly and something weird will happen here
         # (probably a crash).
-        id = vote['Participant ID'];
-        name = vote['Name'];
-        org = vote['Org'];
+        id = vote['ID (Pre-filled - Do not edit)'];
+        name = vote['Name (Pre-filled - Do not edit)'];
+        org = vote['Organization (Pre-filled - Do not edit)'];
 
         # Validate that the entry matches the original ID
         if (not confirm_id(id, name, org, attendance_list)):

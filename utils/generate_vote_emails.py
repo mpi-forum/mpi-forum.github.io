@@ -109,6 +109,7 @@ def main():
     prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/02/attendance.csv"
     curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/06/attendance.csv"
     curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2021-06-jun/2021-06-07-registration.csv"
+    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLSe0Km3r2GKOFJchg2IzBJ9dR_NfG860VU3k92yEL740eAbAPA/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
     prev_ooe = 34
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
@@ -218,14 +219,15 @@ def main():
             safe_name = urllib.parse.quote_plus(name)
             safe_org = urllib.parse.quote_plus(org)
             safe_uuid = urllib.parse.quote_plus(row['UUID'])
+            text_link = registration_link.format(name=safe_name, org=safe_org, id=safe_uuid)
 
             message_text = """\
                     Hi {name},<br><br>
 
                     Voting is now open for the February 2021 meeting. You may vote at this link:<br><br>
 
-                    <a href=https://form.jotform.com/210543604685152?participantId={id}&name={safe_name}&org={org}>
-                    https://form.jotform.com/210543604685152?participantId={id}&name={safe_name}&org={org}
+                    <a href={link}>
+                    {link}
                     </a><br><br>
 
                     If multiple members of your organization registered, each will get their own
@@ -237,13 +239,13 @@ def main():
                     meeting up to the point where first ballot opened, your organization's vote will
                     not be counted.
 
-                    Voting will be open until 12:30pm US Central time on February 24th, 2021.<br><br>
+                    Voting will be open until 12:45pm US Central time on June 7th, 2021.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
-                    """.format(name=name, safe_name=safe_name, id=safe_uuid, org=safe_org)
+                    """.format(name=name, link=text_link)
 
-            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'February 2021 MPI Forum Voting Link', message_text)
+            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'June 2021 MPI Forum Day 1 Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
 if __name__ == '__main__':
