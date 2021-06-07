@@ -109,7 +109,8 @@ def main():
     prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/02/attendance.csv"
     curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/06/attendance.csv"
     curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2021-06-jun/2021-06-07-registration.csv"
-    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLSe0Km3r2GKOFJchg2IzBJ9dR_NfG860VU3k92yEL740eAbAPA/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
+    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScc6pRKv_j4wfZus89b8ZAqbN_XqzUwTdX4OQp3mDUS9OZ5rQ/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
+
     prev_ooe = 34
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
@@ -224,7 +225,7 @@ def main():
             message_text = """\
                     Hi {name},<br><br>
 
-                    Voting is now open for the February 2021 meeting. You may vote at this link:<br><br>
+                    Voting is now open for the June 2021 Day 2 meeting. You may vote at this link:<br><br>
 
                     <a href={link}>
                     {link}
@@ -239,13 +240,13 @@ def main():
                     meeting up to the point where first ballot opened, your organization's vote will
                     not be counted.
 
-                    Voting will be open until 12:45pm US Central time on June 7th, 2021.<br><br>
+                    Voting will be open until 12:45pm US Central time on June 8th, 2021.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, link=text_link)
 
-            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'June 2021 MPI Forum Day 1 Voting Link', message_text)
+            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'June 2021 MPI Forum Day 2 Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
 if __name__ == '__main__':
