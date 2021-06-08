@@ -433,12 +433,12 @@ plenaries:
       title: "Progress Rules in MPI"
       issue_number: 468
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Progress Rules in MPI"
       issue_number: 499
       presenter: Rolf
-      done: 0
+      done: 1
 
 
