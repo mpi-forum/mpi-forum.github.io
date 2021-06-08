@@ -312,112 +312,112 @@ plenaries:
     - type: Chapter Diff Reading
       title: Frontmatter
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 1, Introduction to MPI
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 2, MPI Terms and Conventions
       presenter: Claudia
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 3, Point-to-Point Communication
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 4, Partitioned Point-to-Point Communication
       presenter: Ryan
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 5, Datatypes
       presenter: George
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 6, Collective Communication
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 7, Groups, Contexts, Communicators, and Caching
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 8, Process Topologies
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 9, MPI Environmental Management
       presenter: George
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 10, The Info Object
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 11, Process Initialization, Creation, and Management
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 12, One-Sided Communications
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 13, External Interfaces
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 14, I/O
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 15, Tool Support
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 16, Deprecated Interfaces
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 17, Removed Interfaces
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
-      title: Chapter 18, Backward Incompatibilities
-      presenter: Wesley
-      done: 0
+      title: Chapter 18, Semantic Changes and Warnings
+      presenter: Wes
+      done: 1
 
     - type: Chapter Diff Reading
       title: Chapter 19, Language Bindings
       presenter: Puri
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Appendix A, Language Bindings Summary
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: Appendix B, Change-Log
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Discuss Unresolved Items List"
