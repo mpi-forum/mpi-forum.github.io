@@ -67,6 +67,11 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 *   Lead: Pavan Balaji and Jim Dinan
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
 
+#### [Languages](https://github.com/mpiwg-languages/languges-issues/wiki)
+
+*   Lead: Martin Ruefenacht, Tony Skjellum
+*   Scope: Ensure MPI has robust support for present and future language expressions and to introduce new languages encapsulating the MPI concepts.
+
 #### [Remote Memory Access](https://github.com/mpiwg-rma/rma-issues/wiki/RMA-Working-Group-Wiki)
 
 *   Lead: Bill Gropp and Rajeev Thakur
