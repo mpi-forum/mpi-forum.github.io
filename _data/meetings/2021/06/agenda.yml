@@ -37,14 +37,14 @@ schedule:
     - day: Wednesday, June 09
 
     - start: 9:00am
-      end: 12:30pm
+      end: 9:30am
       title: "Plenary Sessions"
 
-    - start: 12:30pm
-      end: 12:45pm
+    - start: 9:30am
+      end: 9:45am
       title: "Voting Block with Parallel Plenary Sessions (could start later)"
 
-    - start: 12:45pm
+    - start: 9:45am
       end: 1:00pm
       title: "Plenary Sessions"
 
