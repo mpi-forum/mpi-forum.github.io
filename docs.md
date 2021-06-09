@@ -10,18 +10,17 @@ Those who prefer to get the documents via anonymous ftp may do so at ftp.mpi-for
 
 Some [translations of MPI documents](translations.html) are available.
 
-## Draft Specification
+## MPI 4.0
 
-Starting in 2018, the MPI Forum has decided to release draft specifications to allow users and
-implementors an early opportunity to see changes in upcoming versions of the MPI Standard. These
-draft specifications are not versions and are subject to change before published as an official
-version of the MPI Standard.
+MPI-4.0 was approved by the MPI Forum on June 9, 2021.
 
-* [MPI 4.0 RC 3 (June 2021)](docs/mpi-4.0/mpi40-rc-jun-21.pdf)
-* [MPI 4.0 RC 2 (Feb 2021)](docs/mpi-4.0/mpi40-rc-feb-21.pdf)
-* [2020 Draft Specification / MPI 4.0 RC 1](docs/drafts/mpi-2020-draft-report.pdf)
-* [2019 Draft Specification](docs/drafts/mpi-2019-draft-report.pdf)
-* [2018 Draft Specification](docs/drafts/mpi-2018-draft-report.pdf)
+*   [MPI 4.0 document as PDF](mpi-4.0/mpi40-report.pdf)
+
+Because of the size, this version does not have a book version. An HTML version
+is under development. However, the PDF version above is the only official
+version.
+
+## Previous Versions of the MPI Standard
 
 ## MPI-3.1
 
@@ -34,8 +33,6 @@ version of the MPI Standard.
 *   [Unofficial HTML version of MPI 3.1](mpi-3.1/mpi31-report/mpi31-report.htm). This version was produced with tohtml.
 
 The complete, official MPI-3.1 Standard (June 2015) is available in **one book** (hardcover, 868 pages, sewn binding). For all MPI programmers, the standard can be used as a complete MPI **reference manual** with many **examples** and **advices to users**. With MPI-3.1, a **general index was added** that supplements the other indices. It was printed and is **sold at cost by HLRS**; see [http://www.hlrs.de/mpi/mpi31/](http://www.hlrs.de/mpi/mpi31/).
-
-## Previous Versions of the MPI Standard
 
 ### MPI-3.0
 
