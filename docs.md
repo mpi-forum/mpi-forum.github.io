@@ -20,6 +20,11 @@ Because of the size, this version does not have a book version. An HTML version
 is under development. However, the PDF version above is the only official
 version.
 
+A supplementary document that provides the list of MPI procedures that are
+associated with an MPI operation, or inquiry procedures providing information
+about an operation, was produced and is available (see below for
+"Summary of the Semantics of all Operation-Related MPI Proceduresi")
+
 ## Previous Versions of the MPI Standard
 
 ## MPI-3.1
@@ -100,25 +105,41 @@ The MPI-1.0 document is made available for archival purposes. It has been supers
 *   MPI-1.0 document in [compressed postscript](mpi-1.0/mpi-10.ps.Z) or [postscript](mpi-1.0/mpi-10.ps)
 *   MPI-1.0 errata in [compressed postscript](mpi-1.0/errata-10.ps.Z) or [postscript](mpi-1.0/errata-10.ps)
 
-## MPIR Process Acquisition Interface
+## Associated Documents
+
+The following documents are not part of the MPI Standard.
+Several (e.g., MPI Journal of Development and Summary of the Semantics of
+all Operation-Related MPI Procedures) were developed by the Forum during its
+deliberations.
+
+### Summary of the Semantics of all Operation-Related MPI Procedures
+
+This is a supplementary document for the MPI Standard Version 4.0 that
+provides the list of MPI procedures that are associated with an MPI operation,
+or inquiry procedures providing information about an operation.
+
+* [Summary of the Semantics of all Operation-Related MPI Procedures](mpi-4.0/addendum-Semantics.pdf)
+
+
+### MPIR Process Acquisition Interface
 
 Though not part of the MPI standard, the MPIR Process Acquisition Interface details a commonly implemented interface primarily used by debuggers to interface to MPI parallel programs.
 
 * [MPIR Process Acquisition Interface, Version 1.1](mpir-specification-03-01-2018.pdf) 
 * [MPIR Process Acquisition Interface, Version 1.0](mpir-specification-10-11-2010.pdf) 
 
-## MPI Message Queue Interface
+### MPI Message Queue Interface
 
 Though not a part of the MPI standard, the MPI Message Queue Dumping Interface details a commonly implemented interface primarily used by debuggers to inspect the message queues within an MPI program.
 
 * [MPI Message Queue Dumping Interface, Version 1.0](msgq.5.pdf) 
 
-## MPI Journal of Development
+### MPI Journal of Development
 
 *   MPI-2.0 Journal of Development in [compressed postscript](mpi-jd/mpi-20-jod.ps.Z) or [postscript](mpi-jd/mpi-20-jod.ps)
 *   [compressed tar file](mpi-jd/mpi-20-jod-dvi.tar.Z) or [tar file](mpi-jd/mpi-20-jod-dvi.tar) of the dvi files and figures needed to create the MPI-2.0 Journal of Development document. Intended for those who need to create special output for their printing device.
 
-## Instructions for Preparing the MPI Standard Document
+### Instructions for Preparing the MPI Standard Document
 
 A document to help editors of the MPI Standard is kept in the same repository as the MPI Standard itself, but we also publish a copy here to be easy to access.
 
