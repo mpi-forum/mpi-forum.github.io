@@ -7,22 +7,16 @@ permalink: /
 This website contains information about the activities of the MPI Forum, which is the standardization forum for the Message Passing Interface (MPI).
 You may find standard documents, information about the activities of the MPI forum, and links to comment on the MPI Document using the navigation at the top of the page.
 
-[Link to the central MPI-Forum GitHub Presence](https://github.com/mpi-forum/) 
+[Link to the central MPI-Forum GitHub Presence](https://github.com/mpi-forum/)
 
-## 2020 MPI Standard Draft / MPI 4.0 Release Candidate
+## MPI 4.0 Standard
 
-The MPI Forum has published a draft version of the MPI 4.0 Standard to give users and implementors a
-chance to see the current status of all proposals that have been merged into the next version of the
-MPI Standard. This draft is the release candidate for the MPI 4.0 Specification and will be
-considered for ratification at the December 2020 and February 2021 meetings. The draft is available
-here:
+The MPI Forum has released a new version of MPI on June 9, 2021.
+This version is available here:
 
-[2020 Draft Specification](docs/drafts/mpi-2020-draft-report.pdf)
+[MPI 4.0 Standard](docs/mpi-4.0/mpi40-report.pdf)
 
-Comments on the MPI 4.0 RC should be sent to the [MPI Comments mailing list](/comments).
-
-This draft specification is not an official standard version and is subject to change before being
-published as an official version of the MPI Standard.
+Comments on the MPI 4.0 should be sent to the [MPI Comments mailing list](/comments).
 
 ## Updates
 
