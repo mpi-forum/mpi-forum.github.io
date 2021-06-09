@@ -10,3 +10,23 @@ ooe:
 imove:
 ---
 
+## Officer Election Results
+
+### MPI Forum Chair
+
+* Anthony Skjellum, University of Tennessee, Chattanooga - 9
+* **Martin Schulz, Technical University of Munich - 25**
+
+### MPI Forum Secretary
+
+* **Wesley Bland, Intel - 37**
+
+### MPI Forum Treasurer
+
+* **Brian Smith, ORNL - 37**
+
+### MPI Forum Document Editor
+
+* **Bill Gropp, University of Illinois Urbana-Champaign - 37**
+
+<hr>
