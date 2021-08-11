@@ -2,6 +2,11 @@ virtual:
 
   - year: 2021
 
+  - start: 2021-08-25JHHH00
+    end: 2021-08-25T12:00
+    title: "Document Editor Discussions"
+    recording_url: ""
+
   - start: 2021-08-11T10:00
     end: 2021-08-11T12:00
     title: "Point-to-Point Chapter of Rank/Task/etc."
