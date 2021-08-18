@@ -1,38 +1,45 @@
 schedule:
 
-    - day: Wednesday, September 08
-
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
-
-    - endday: done
-
-
     - day: Thursday, September 09
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 09:00am
+      end: 12:30pm
+      title: "Plenary Sessions"
+
+    - start: 12:30pm
+      end: 12:45pm
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 12:45pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Friday, September 10
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 9:00am
+      end: 12:30pm
+      title: "Plenary Sessions"
+
+    - start: 12:30pm
+      end: 12:45pm
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 12:45pm
+      end: 1:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
-
 errata-votes:
+
+    - number: 511
+      description: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
 
 no-no-votes:
 
@@ -52,8 +59,8 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+      title: "Errata: MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
+      issue_number: 511
+      presenter: Howard
       done: 0
 
