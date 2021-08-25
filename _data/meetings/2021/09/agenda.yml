@@ -41,9 +41,30 @@ errata-votes:
     - number: 511
       description: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
 
+    - number: 498
+      description: "Emend the point-to-point progress rule \"on two processes\""
+
+    - number: 270
+      description: "Consistent use: Section 3.8.4 and 3.9. - p. 79 - Rationale for Start and Cancel"
+
+    - number: 472
+      description: "Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
+
+    - number: 434
+      description: "Sessions: need to clarify limitations when mixing the sessions model with dynamic process model"
+
+    - number: 510
+      description: "C Binding for MPI_CREATE_INFO_ENV"
+
 no-no-votes:
 
+    - number: 283
+      description: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
+
 first-votes:
+
+    - number: 283
+      description: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
 
 second-votes:
 
@@ -61,6 +82,41 @@ plenaries:
     - type: Reading
       title: "Errata: MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
       issue_number: 511
-      presenter: Howard
+      presenter: Dan
       done: 0
+
+    - type: Reading
+      title: "Errata: Emend the point-to-point progress rule \"on two processes\""
+      issue_number: 498
+      presenter: Dan
+
+    - type: Reading
+      title: "Update: Section 3.5 - p. 45 - Comment Erroneous Example"
+      issue_number: 188
+      presenter: Dan
+
+    - type: Reading
+      title: "Errata: Consistent use: Section 3.8.4 and 3.9. - p. 79 - Rationale for Start and Cancel"
+      issue_number: 270
+      presenter: Dan
+
+    - type: Reading
+      title: "Errata: Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
+      issue_number: 472
+      presenter: Dan
+
+    - type: Reading
+      title: "Errata: Sessions: need to clarify limitations when mixing the sessions model with dynamic process model"
+      issue_number: 434
+      presenter: Dan
+
+    - type: Reading
+      title: "Errata: C Binding for MPI_CREATE_INFO_ENV"
+      issue_number: 510
+      presenter: Ken
+
+    - type: (No-No) Reading
+      title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
+      issue_number: 283
+      presenter: Wes
 
