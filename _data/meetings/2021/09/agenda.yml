@@ -56,6 +56,9 @@ errata-votes:
     - number: 510
       description: "C Binding for MPI_CREATE_INFO_ENV"
 
+    - number: 517
+      description: "Forgotten MPI_Status_set_elements_c"
+
 no-no-votes:
 
     - number: 283
@@ -78,6 +81,11 @@ plenaries:
       title: WG Status
       presenter: All WG chairs or their proxies
       done: 0
+
+    - type: (No-No) Reading
+      title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
+      issue_number: 283
+      presenter: Wes
 
     - type: Reading
       title: "Errata: MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
@@ -115,8 +123,22 @@ plenaries:
       issue_number: 510
       presenter: Ken
 
-    - type: (No-No) Reading
-      title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
-      issue_number: 283
+    - type: Reading
+      title: "Errata: Forgotten MPI_Status_set_elements_c"
+      issue_number: 517
+      presenter: Martin R
+
+    - type: Reading
+      title: "Deprecate all _x procedures"
+      issue_number: 518
+      presenter: Martin R
+
+    - type: Reading
+      title: "Errata: Fix Wrong Examples in Partitioned Communications Chapter"
+      issue_number: 509
+      presenter: Guillaume M
+
+    - type: Plenary
+      title: "Fault Tolerance Working Group Update"
       presenter: Wes
 
