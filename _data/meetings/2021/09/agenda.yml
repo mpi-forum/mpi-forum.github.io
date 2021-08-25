@@ -42,7 +42,7 @@ errata-votes:
       description: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
 
     - number: 498
-      description: "Emend the point-to-point progress rule \"on two processes\""
+      description: "Emend the point-to-point progress rule 'on two processes'"
 
     - number: 270
       description: "Consistent use: Section 3.8.4 and 3.9. - p. 79 - Rationale for Start and Cancel"
@@ -86,7 +86,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Errata: Emend the point-to-point progress rule \"on two processes\""
+      title: "Errata: Emend the point-to-point progress rule 'on two processes'"
       issue_number: 498
       presenter: Dan
 
