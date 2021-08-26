@@ -138,6 +138,11 @@ plenaries:
       issue_number: 509
       presenter: Guillaume M
 
+    - type: Reading
+      title: "Synchronization on Partitioned Communication for Accelerator Optimization"
+      issue_number: 302
+      presenter: Ryan
+
     - type: Plenary
       title: "Fault Tolerance Working Group Update"
       presenter: Wes
