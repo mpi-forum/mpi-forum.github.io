@@ -8,3 +8,4 @@ topic,type,yes,no,abstain,missed
 "#283: Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string","no-no","0","0","0","0"
 "#283: Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string","1st","0","0","0","0"
 "#517: Forgotten MPI_Status_set_elements_c","errata","0","0","0","0"
+"#509: Fix Wrong Examples in Partitioned Communications Chapter","errata","0","0","0","0"
