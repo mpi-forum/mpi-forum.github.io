@@ -5,9 +5,9 @@ year: "2021"
 month: "06"
 rules: 3152013
 permalink: meetings/2021/06/votes
-registered:
-ooe:
-imove:
+registered: 37
+ooe: 37
+imove: 36
 ---
 
 ## Officer Election Results
