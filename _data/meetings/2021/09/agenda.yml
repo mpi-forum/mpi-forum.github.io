@@ -147,3 +147,17 @@ plenaries:
       title: "Fault Tolerance Working Group Update"
       presenter: Wes
 
+    - type: Plenary
+      title: "Function Pointer Interception (QMPI)"
+      presenter: Marc-Andre / Wes
+
+    - type: Reading
+      title: "Add functions to check multiple request statuses at once"
+      issue_number: 519
+      presenter: Marc-Andre
+
+    - type: Reading
+      title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
+      issue_number: 520
+      presenter: Marc-Andre
+
