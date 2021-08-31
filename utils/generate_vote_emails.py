@@ -105,13 +105,13 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2020/12/attendance.csv"
-    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/02/attendance.csv"
-    curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/06/attendance.csv"
-    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2021-06-jun/2021-06-07-registration.csv"
-    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScc6pRKv_j4wfZus89b8ZAqbN_XqzUwTdX4OQp3mDUS9OZ5rQ/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
+    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/02/attendance.csv"
+    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/06/attendance.csv"
+    curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/09/attendance.csv"
+    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2021-09-sep/2021-09-09-registration.csv"
+    registration_link = "https://forms.gle/ACmHYmWe3aZXhmdv5"
 
-    prev_ooe = 34
+    prev_ooe = 37
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
@@ -225,28 +225,28 @@ def main():
             message_text = """\
                     Hi {name},<br><br>
 
-                    Voting is now open for the June 2021 Day 2 meeting. You may vote at this link:<br><br>
+                    Voting is now open for the September 2021 Day 1 meeting. You may vote at this link:<br><br>
 
                     <a href={link}>
                     {link}
                     </a><br><br>
 
                     If multiple members of your organization registered, each will get their own
-                    voting link, but only the first ballot will be counted. Please coordinate with
-                    other members of your organization to avoid confusion.
+                    voting link but only one of the ballots will be counted (no guarantees which).
+                    Please coordinate with other members of your organization to avoid confusion.
 
                     As per the MPI Forum rules, your organization must have attended the meeting in
                     order to vote. If no one from your organization attended any portion of the
-                    meeting up to the point where first ballot opened, your organization's vote will
-                    not be counted.
+                    meeting up to the point where first voting block opened, your organization's
+                    vote will not be counted.
 
-                    Voting will be open until 12:45pm US Central time on June 8th, 2021.<br><br>
+                    Voting will be open until 12:45pm US Central time on September 9th, 2021.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, link=text_link)
 
-            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'June 2021 MPI Forum Day 2 Voting Link', message_text)
+            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'September 2021 MPI Forum Day 1 Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
 if __name__ == '__main__':
