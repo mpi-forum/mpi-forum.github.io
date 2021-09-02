@@ -14,11 +14,11 @@ schedule:
       end: 10:25am
       title: "Paper: Doodi et al., High Radix Collective Algorithms"
 
-    - start:10:25am
+    - start: 10:25am
       end: 10:50am
       title: "Paper: Zhou et al., Generating Bindings in MPICH"
 
-    - start:10:50am
+    - start: 10:50am
       end: 11:00am
       title: "Break"
 
