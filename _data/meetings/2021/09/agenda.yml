@@ -22,11 +22,11 @@ schedule:
       end: 11:00am
       title: "Break"
 
-    - start:11:00am
+    - start: 11:00am
       end: 12:30pm
       title: "Virtual Poster Session"
 
-    - start:12:30pm
+    - start: 12:30pm
       end: 2:30pm
       title: "Virtual Social Hour"
 
@@ -55,11 +55,11 @@ schedule:
       end: 10:10am
       title: "Paper: Schuchar et al., Quo Vadis MPI RMA? Towards A More Efficient Use Of One-Sided Communication in MPI"
 
-    - start:10:10am
+    - start: 10:10am
       end: 10:50am
       title: "Panel: The Future of RMA in the MPI Standard"
 
-    - start:10:50am
+    - start: 10:50am
       end: 11:00am
       title: "Break"
 
@@ -83,11 +83,11 @@ schedule:
       end: 12:10pm
       title: "Paper: Skjellum et al., MPI Sessions and Fault Tolerance: A Position Paper"
 
-    - start:12:10pm
+    - start: 12:10pm
       end: 12:50pm
       title: "Panel: The Future of MPI Sessions in the MPI Standard"
 
-    - start:12:50pm
+    - start: 12:50pm
       end: 1:00pm
       title: "EuroMPI 2021 Closing"
 
