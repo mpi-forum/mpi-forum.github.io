@@ -1,5 +1,99 @@
 schedule:
 
+    - day: Tuesday, September 07, EuroMPI 2021
+
+    - start: 09:00am
+      end: 9:10am
+      title: "Welcome to EuroMPI 2021, Please register at https://www.eurompi21.lrz.de/"
+
+    - start: 9:10am
+      end: 9:50am
+      title: "Keynote: Olga Pearce, MPI & Accelerators: So you thought you were waiting for data to transfer?"
+
+    - start: 9:50am
+      end: 10:25am
+      title: "Paper: Doodi et al., High Radix Collective Algorithms"
+
+    - start:10:25am
+      end: 10:50am
+      title: "Paper: Zhou et al., Generating Bindings in MPICH"
+
+    - start:10:50am
+      end: 11:00am
+      title: "Break"
+
+    - start:11:00am
+      end: 12:30pm
+      title: "Virtual Poster Session"
+
+    - start:12:30pm
+      end: 2:30pm
+      title: "Virtual Social Hour"
+
+    - endday: done
+
+
+    - day: Tuesday, September 08, EuroMPI 2021
+
+    - start: 09:00am
+      end: 10:50am
+      title: "EuroMPI 2021, Topic Session on RMA, Please register at https://www.eurompi21.lrz.de/"
+
+    - start: 9:00am
+      end: 9:10am
+      title: "William D. Gropp, A Vision for RMA in MPI 5.0"
+
+    - start: 9:10am
+      end: 9:30am
+      title: "Paper: Aitkaci et al., Dynamic Data Race Detection for MPI-RMA Programs"
+
+    - start: 9:30am
+      end: 9:50am
+      title: "Paper: Kumar et al., SmartInterrupts: A Node-Wide Asynchronous Message Progression Technique"
+
+    - start: 9:50am
+      end: 10:10am
+      title: "Paper: Schuchar et al., Quo Vadis MPI RMA? Towards A More Efficient Use Of One-Sided Communication in MPI"
+
+    - start:10:10am
+      end: 10:50am
+      title: "Panel: The Future of RMA in the MPI Standard"
+
+    - start:10:50am
+      end: 11:00am
+      title: "Break"
+
+    - start: 11:00am
+      end: 12:50pm
+      title: "EuroMPI 2021, Topic Session on Sessions, Please register at https://www.eurompi21.lrz.de/"
+
+    - start: 11:00am
+      end: 11:10am
+      title: "Dan Holmes, A Vision for MPI Sessions in MPI 5.0"
+
+    - start: 11:10am
+      end: 11:30am
+      title: "Paper: Herschberg et al., Integrating MPI Sessions with Topological Connection Building and Collective Communication"
+
+    - start: 11:30am
+      end: 11:50am
+      title: "Paper: Moraru et al., Benefits of MPI Sessions for GPU MPI applications"
+
+    - start: 11:50am
+      end: 12:10pm
+      title: "Paper: Skjellum et al., MPI Sessions and Fault Tolerance: A Position Paper"
+
+    - start:12:10pm
+      end: 12:50pm
+      title: "Panel: The Future of MPI Sessions in the MPI Standard"
+
+    - start:12:50pm
+      end: 1:00pm
+      title: "EuroMPI 2021 Closing"
+
+    - endday: done
+
+
     - day: Thursday, September 09
 
     - start: 09:00am
