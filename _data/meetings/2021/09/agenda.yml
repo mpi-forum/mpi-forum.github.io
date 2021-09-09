@@ -102,7 +102,7 @@ schedule:
 
     - start: 12:30pm
       end: 12:45pm
-      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+      title: "(CANCELED) Voting Block with Parallel Plenary Sessions (could start later)"
 
     - start: 12:45pm
       end: 1:00pm
@@ -132,9 +132,6 @@ procedure-votes:
 
 errata-votes:
 
-    - number: 511
-      description: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
-
     - number: 498
       description: "Emend the point-to-point progress rule 'on two processes'"
 
@@ -159,12 +156,12 @@ errata-votes:
 no-no-votes:
 
     - number: 283
-      description: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
+      description: "(WITHDRAWN) Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
 
 first-votes:
 
     - number: 283
-      description: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
+      description: "(WITHDRAWN) Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
 
 second-votes:
 
@@ -172,89 +169,104 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: (No-No) Reading
       title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
       issue_number: 283
       presenter: Wes
+      done: 1
 
     - type: Reading
       title: "Errata: MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
       issue_number: 511
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: Emend the point-to-point progress rule 'on two processes'"
       issue_number: 498
       presenter: Dan
+      done: 1
 
     - type: Reading
       title: "Update: Section 3.5 - p. 45 - Comment Erroneous Example"
       issue_number: 188
       presenter: Dan
+      done: 1
 
     - type: Reading
       title: "Errata: Consistent use: Section 3.8.4 and 3.9. - p. 79 - Rationale for Start and Cancel"
       issue_number: 270
       presenter: Dan
+      done: 1
 
     - type: Reading
       title: "Errata: Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
       issue_number: 472
       presenter: Dan
+      done: 0
 
     - type: Reading
       title: "Errata: Sessions: need to clarify limitations when mixing the sessions model with dynamic process model"
       issue_number: 434
       presenter: Dan
+      done: 0
 
     - type: Reading
       title: "Errata: C Binding for MPI_CREATE_INFO_ENV"
       issue_number: 510
       presenter: Ken
+      done: 0
 
     - type: Reading
       title: "Errata: Forgotten MPI_Status_set_elements_c"
       issue_number: 517
       presenter: Martin R
+      done: 0
 
     - type: Reading
       title: "Deprecate all _x procedures"
       issue_number: 518
       presenter: Martin R
+      done: 0
 
     - type: Reading
       title: "Errata: Fix Wrong Examples in Partitioned Communications Chapter"
       issue_number: 509
       presenter: Guillaume M
+      done: 0
 
     - type: Reading
       title: "Synchronization on Partitioned Communication for Accelerator Optimization"
       issue_number: 302
       presenter: Ryan
+      done: 0
 
     - type: Plenary
       title: "Fault Tolerance Working Group Update"
       presenter: Wes
+      done: 0
 
     - type: Plenary
       title: "Function Pointer Interception (QMPI)"
       presenter: Marc-Andre / Wes
+      done: 0
 
     - type: Reading
       title: "Add functions to check multiple request statuses at once"
       issue_number: 519
       presenter: Marc-Andre
+      done: 0
 
     - type: Reading
       title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
       issue_number: 520
       presenter: Marc-Andre
+      done: 0
 

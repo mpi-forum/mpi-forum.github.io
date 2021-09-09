@@ -1,11 +1,8 @@
 topic,type,yes,no,abstain,missed
-"#511: MPI_Comm_create_from_group and friend - need clarification of errhandler argument","errata","0","0","0","0"
 "#498: Emend the point-to-point progress rule 'on two processes'","errata","0","0","0","0"
 "#270: Consistent use: Section 3.8.4 and 3.9. - p. 79 - Rationale for Start and Cancel","errata","0","0","0","0"
 "#472: Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter","errata","0","0","0","0"
 "#434: Sessions: need to clarify limitations when mixing the sessions model with dynamic process model","errata","0","0","0","0"
 "#510: C Binding for MPI_CREATE_INFO_ENV","errata","0","0","0","0"
-"#283: Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string","no-no","0","0","0","0"
-"#283: Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string","1st","0","0","0","0"
 "#517: Forgotten MPI_Status_set_elements_c","errata","0","0","0","0"
 "#509: Fix Wrong Examples in Partitioned Communications Chapter","errata","0","0","0","0"
