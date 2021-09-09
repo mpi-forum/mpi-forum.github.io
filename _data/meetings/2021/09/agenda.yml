@@ -210,13 +210,13 @@ plenaries:
       title: "Errata: Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
       issue_number: 472
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: Sessions: need to clarify limitations when mixing the sessions model with dynamic process model"
       issue_number: 434
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: C Binding for MPI_CREATE_INFO_ENV"
@@ -242,12 +242,6 @@ plenaries:
       presenter: Guillaume M
       done: 1
 
-    - type: Reading
-      title: "Synchronization on Partitioned Communication for Accelerator Optimization"
-      issue_number: 302
-      presenter: Ryan
-      done: 0
-
     - type: Plenary
       title: "Fault Tolerance Working Group Update"
       presenter: Wes
@@ -256,6 +250,12 @@ plenaries:
     - type: Plenary
       title: "Function Pointer Interception (QMPI)"
       presenter: Marc-Andre / Wes
+      done: 0
+
+    - type: Reading
+      title: "Synchronization on Partitioned Communication for Accelerator Optimization"
+      issue_number: 302
+      presenter: Ryan
       done: 0
 
     - type: Reading
