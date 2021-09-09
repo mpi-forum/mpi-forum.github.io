@@ -240,7 +240,7 @@ plenaries:
       title: "Errata: Fix Wrong Examples in Partitioned Communications Chapter"
       issue_number: 509
       presenter: Guillaume M
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Synchronization on Partitioned Communication for Accelerator Optimization"
