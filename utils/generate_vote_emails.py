@@ -157,10 +157,11 @@ def main():
             orgs[org] = {'registered': 1, 'attended': normalize_curr_attendance(int(row['attend'])), 'prev_1': 0, 'prev_2': 0,
                     'attend_curr': int(row['attend']), 'register_curr': 1};
         elif (orgs[org]['register_curr'] == 0 or orgs[org]['attend_curr'] == 0):
-            registered = registered + 1;
-            orgs[org]['registered'] = int(orgs[org]['registered']) + 1;
+            if orgs[org]['register_curr'] == 0:
+                registered = registered + 1;
+                orgs[org]['registered'] = int(orgs[org]['registered']) + 1;
             orgs[org]['attended'] = int(orgs[org]['attended']) + normalize_curr_attendance(int(row['attend']));
-            orgs[org]['attend_curr'] = normalize_curr_attendance(int(row['attend']));
+            orgs[org]['attend_curr'] = normalize_curr_attendance(int(row['attend'])) or orgs[org]['attend_curr'];
             orgs[org]['register_curr'] = 1;
 
     no_register = []
