@@ -222,19 +222,19 @@ plenaries:
       title: "Errata: C Binding for MPI_CREATE_INFO_ENV"
       issue_number: 510
       presenter: Ken
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: Forgotten MPI_Status_set_elements_c"
       issue_number: 517
       presenter: Martin R
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Deprecate all _x procedures"
       issue_number: 518
       presenter: Martin R
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Errata: Fix Wrong Examples in Partitioned Communications Chapter"
