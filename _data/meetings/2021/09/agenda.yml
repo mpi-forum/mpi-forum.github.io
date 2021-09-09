@@ -153,6 +153,9 @@ errata-votes:
     - number: 517
       description: "Forgotten MPI_Status_set_elements_c"
 
+    - number: 509
+      description: "Errata: Fix Wrong Examples in Partitioned Communications Chapter"
+
 no-no-votes:
 
     - number: 283
