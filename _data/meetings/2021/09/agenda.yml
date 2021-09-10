@@ -139,10 +139,10 @@ errata-votes:
       description: "Emend the point-to-point progress rule 'on two processes'"
 
     - number: 270
-      description: "Consistent use: Section 3.8.4 and 3.9. - p. 79 - Rationale for Start and Cancel"
+      description: "(WITHDRAWN) Consistent use: Section 3.8.4 and 3.9. - p. 79 - Rationale for Start and Cancel"
 
     - number: 472
-      description: "Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
+      description: "(WITHDRAWN) Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
 
     - number: 434
       description: "Sessions: need to clarify limitations when mixing the sessions model with dynamic process model"
