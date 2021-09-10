@@ -1,6 +1,6 @@
-topic,type,yes,no,abstain,missed
-"#498: Emend the point-to-point progress rule 'on two processes'","errata","0","0","0","0"
-"#434: Sessions: need to clarify limitations when mixing the sessions model with dynamic process model","errata","0","0","0","0"
-"#510: C Binding for MPI_CREATE_INFO_ENV","errata","0","0","0","0"
-"#517: Forgotten MPI_Status_set_elements_c","errata","0","0","0","0"
-"#509: Fix Wrong Examples in Partitioned Communications Chapter","errata","0","0","0","0"
+"topic","type","yes","no","abstain","missed"
+"#498: Emend the point-to-point progress rule 'on two processes'","errata","28","0","2","0"
+"#434: Sessions: need to clarify limitations when mixing the sessions model with dynamic process model","errata","29","0","1","0"
+"#510: C Binding for MPI_CREATE_INFO_ENV","errata","29","0","1","0"
+"#517: Forgotten MPI_Status_set_elements_c","errata","29","0","1","0"
+"#509: Fix Wrong Examples in Partitioned Communications Chapter","errata","29","0","1","0"
