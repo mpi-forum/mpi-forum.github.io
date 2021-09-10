@@ -132,6 +132,9 @@ procedure-votes:
 
 errata-votes:
 
+    - number: 511
+      description: "(WITHDRAWN) MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
+
     - number: 498
       description: "Emend the point-to-point progress rule 'on two processes'"
 
