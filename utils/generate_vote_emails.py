@@ -109,7 +109,8 @@ def main():
     prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/06/attendance.csv"
     curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/09/attendance.csv"
     curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2021-09-sep/2021-09-09-registration.csv"
-    registration_link = "https://forms.gle/ACmHYmWe3aZXhmdv5"
+    # Make sure to use a pre-filled link here so it gets email out correctly
+    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScc6pRKv_j4wfZus89b8ZAqbN_XqzUwTdX4OQp3mDUS9OZ5rQ/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
 
     prev_ooe = 37
 
