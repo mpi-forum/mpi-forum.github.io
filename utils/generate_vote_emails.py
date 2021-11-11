@@ -105,14 +105,14 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/02/attendance.csv"
-    prev_attendance_file_2 = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/06/attendance.csv"
-    curr_attendance_file   = "/Users/wbland/writing/mpi/mpi-forum.github.io/_data/meetings/2021/09/attendance.csv"
-    curr_registration_file = "/Users/wbland/writing/mpi/meeting-details/2021-09-sep/2021-09-09-registration.csv"
+    prev_attendance_file_1 = "/Users/wbland/excl/writing/mpi/mpi-forum.github.io/_data/meetings/2021/06/attendance.csv"
+    prev_attendance_file_2 = "/Users/wbland/excl/writing/mpi/mpi-forum.github.io/_data/meetings/2021/09/attendance.csv"
+    curr_attendance_file   = "/Users/wbland/excl/writing/mpi/mpi-forum.github.io/_data/meetings/2021/12/attendance.csv"
+    curr_registration_file = "/Users/wbland/excl/writing/mpi/meeting-details/2021-12-dec/2021-12-06-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
     registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScc6pRKv_j4wfZus89b8ZAqbN_XqzUwTdX4OQp3mDUS9OZ5rQ/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
 
-    prev_ooe = 37
+    prev_ooe = 30
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
@@ -207,7 +207,7 @@ def main():
         print("Did not meet meeting quorum. IMOVE required: " + str(prev_ooe * 2.0 / 3.0) + "\n");
 
     for row in iter(curr_registration):
-        org = row['What organization will you be representing?'];
+        org = row['What organization will you be representing for the MPI Forum?'];
         if org == "Self (Non-voting participant)":
             continue
         elif orgs[org]['registered'] < 2:
@@ -218,7 +218,7 @@ def main():
             print("" + org + " not attending current meeting.");
         else:
             email = row['Email Address']
-            name = row['What is your name?']
+            name = row['What is your full name?']
             safe_name = urllib.parse.quote_plus(name)
             safe_org = urllib.parse.quote_plus(org)
             safe_uuid = urllib.parse.quote_plus(row['UUID'])
@@ -227,7 +227,7 @@ def main():
             message_text = """\
                     Hi {name},<br><br>
 
-                    Voting is now open for the September 2021 Day 1 meeting. You may vote at this link:<br><br>
+                    Voting is now open for the December 2021 Day 1 meeting. You may vote at this link:<br><br>
 
                     <a href={link}>
                     {link}
@@ -242,13 +242,13 @@ def main():
                     meeting up to the point where first voting block opened, your organization's
                     vote will not be counted.
 
-                    Voting will be open until 12:45pm US Central time on September 9th, 2021.<br><br>
+                    Voting will be open until 12:45pm US Central time on December 6th, 2021.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, link=text_link)
 
-            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'September 2021 MPI Forum Day 1 Voting Link', message_text)
+            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'Decmeber 2021 MPI Forum Day 1 Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
 if __name__ == '__main__':
