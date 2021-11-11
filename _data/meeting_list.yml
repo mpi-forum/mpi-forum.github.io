@@ -576,8 +576,8 @@ voting:
 
   - start: 2021-12-06
     end: 2021-12-09
-    title: "(Exceptional Virtual) Meeting (Dates tentative) (Location TBD)"
-    links: "no"
+    title: "Exceptional Virtual Meeting"
+    links: "yes"
 
   - start: 2021-09-08
     end: 2021-09-10
