@@ -12,7 +12,7 @@ The MPI 4.1 standardization efforts aim at adding minor additions and correction
 * MPI Standard formatting
 * Textual changes around terms like ranks and processes
 * Errata
-* ...#
+* ...
 
 Major changes will go into the MPI 5.0 efforts.
 
