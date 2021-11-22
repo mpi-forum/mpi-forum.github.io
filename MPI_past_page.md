@@ -6,12 +6,12 @@ permalink: /mpi-past/
 
 The following MPI Standardizations efforts have been completed. 
 
-* [MPI 4.0](mpi-40)
-* [MPI 3.1](mpi-31)
-* [MPI 3.0](mpi-30)
-* [MPI 2.2](mpi-22)
-* [MPI 2.1](mpi-21)
-* [MPI 2.0](mpi-20)
+* [MPI 4.0](/mpi-40)
+* [MPI 3.1](/mpi-31)
+* [MPI 3.0](/mpi-30)
+* [MPI 2.2](/mpi-22)
+* [MPI 2.1](/mpi-21)
+* [MPI 2.0](/mpi-20)
 * MPI 1.1
 * MPI 1.0
 
