@@ -2,46 +2,78 @@ schedule:
 
     - day: Monday, December 06
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+  - start: 09:00am
+      end: 11:00am
+      title: "Plenary Sessions"
+
+    - start: 11:00am
+      end: 11:15am
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 11:15am
+      end: 12:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Tuesday, December 07
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 09:00am
+      end: 11:00am
+      title: "Plenary Sessions"
+
+    - start: 11:00am
+      end: 11:15am
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 11:15am
+      end: 12:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Wednesday, December 08
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 09:00am
+      end: 11:00am
+      title: "Plenary Sessions"
+
+    - start: 11:00am
+      end: 11:15am
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 11:15am
+      end: 12:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
     - day: Thursday, December 09
 
-    - start: 12:00am
-      end: 11:59pm
-      title: "Placeholder Agenda Item"
+    - start: 09:00am
+      end: 11:00am
+      title: "Plenary Sessions"
+
+    - start: 11:00am
+      end: 11:15am
+      title: "Voting Block with Parallel Plenary Sessions (could start later)"
+
+    - start: 11:15am
+      end: 12:00pm
+      title: "Plenary Sessions"
 
     - endday: done
 
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
-
 errata-votes:
+
+    - number: 449
+      description: "wrong wording in the topology chapter"
 
 no-no-votes:
 
@@ -60,9 +92,30 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+    - type: Errata
+      title: "wrong wording in the topology chapter"
+      issue_number: 449
+      presenter: Christoph
       done: 0
+
+    - type: Reading
+      title: "add a new error class MPI_ERR_ERRHANDLER"
+      issue_number: 525
+      presenter: Christoph
+      done: 0
+
+    - type: Reading
+      title: "clarify the error handler argument to MPI_Comm_create_from_group and MPI_Intercomm_create_from_groups"
+      issue_number: 511
+      presenter: Martin/Dan
+      done: 0
+
+    - type: Discussion
+      title: "feedback on my proposed changes to the appearance of the code and examples"
+      issue_number:
+      presenter: Bill
+      done: 0
+
+
+
 
