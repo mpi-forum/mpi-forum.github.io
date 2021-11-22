@@ -26,8 +26,8 @@ description: This website contains information about the activities of the MPI F
 navbar-links:
     Docs: "docs/"
     Current MPI Efforts:
-        - MPI 5.0: "mpi-50/"
         - MPI 4.1: "mpi-41/"
+        - MPI 5.0: "mpi-50/"
     Meetings:
         - Voting Meetings: "meetings"
         - Virtual Meetings: "virtual_meetings"
