@@ -9,6 +9,13 @@ You may find standard documents, information about the activities of the MPI for
 
 [Link to the central MPI-Forum GitHub Presence](https://github.com/mpi-forum/)
 
+## Current Efforts
+
+The MPI Forum is currently pursuing two future versions of the MPI Standard:
+* MPI 4.1: A minor update focusing on document cleanup and minor additions
+* MPI 5.0: A standard update following MPI 4.1 with major new features
+More details can be found in the respective sections.
+
 ## MPI 4.0 Standard
 
 The MPI Forum has released a new version of MPI on June 9, 2021.
@@ -19,6 +26,16 @@ This version is available here:
 Comments on the MPI 4.0 should be sent to the [MPI Comments mailing list](/comments).
 
 ## Updates
+
+#### BoF at SC 21, Nov. 17, 2020
+
+* [Complete set of slides:](bofs/2021-11-mpi-bof.pdf)
+* Video Available via the [SC21 HUBB](http://sc21.hubb.me)
+* [Link to the SC20 Event:](https://sc20.supercomputing.org/presentation/?id=bof126&sess=sess309)
+
+#### BoF at ISC 21, June, 2021
+
+* [Complete set of slides:](bofs/2021-06-mpi-bof.pdf)
 
 #### BoF at SC 20, Nov. 18, 2020
 
@@ -46,15 +63,16 @@ Presentations from the MPI Forum BoF Session at SC 18:
 * [MPI Sessions (based on a presentation for the PMIx BoF)](bofs/2018-11-sc/sessions.pdf)
 
 
-## Meeting Coordinators
+## MPI Forum Officers
 
-*   Martin Schulz, Meeting Chair
-*   Richard Graham, Convener
-*   Wesley Bland, Meeting Secretary
-*   Bill Gropp, Editor
+*   Chair: Martin Schulz, TUM/LRZ, Germany
+*   Secretary: Wesley Bland, Intel, USA
+*   Treasurer: Brian Smith, ORNL, USA
+*   Document Editor: Bill Gropp, NCSA/UIUC
 
 ## Previous Efforts
 
+*   Martin Schulz, MPI 4.0
 *   Martin Schulz, MPI 3.1
 *   Richard Graham, MPI 3.0
 *   Bill Gropp, MPI 2.2

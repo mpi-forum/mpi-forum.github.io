@@ -25,7 +25,10 @@ description: This website contains information about the activities of the MPI F
 # List of links in the navigation bar
 navbar-links:
     Docs: "docs/"
-    MPI Standard Efforts:
+    Current MPI Efforts:
+        - MPI 5.0: "mpi-50/"
+        - MPI 4.1: "mpi-41/"
+    Past MPI Standard Efforts:
         - MPI 4.0: "mpi-40/"
         - MPI 3.1: "mpi-31/"
         - MPI 3.0: "mpi-30/"
