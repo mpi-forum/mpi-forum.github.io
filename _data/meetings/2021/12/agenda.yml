@@ -2,7 +2,7 @@ schedule:
 
     - day: Monday, December 06
 
-  - start: 09:00am
+    - start: 09:00am
       end: 11:00am
       title: "Plenary Sessions"
 
@@ -115,7 +115,6 @@ plenaries:
       issue_number:
       presenter: Bill
       done: 0
-
 
 
 
