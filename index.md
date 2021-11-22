@@ -12,8 +12,8 @@ You may find standard documents, information about the activities of the MPI for
 ## Current Efforts
 
 The MPI Forum is currently pursuing two future versions of the MPI Standard:
-* MPI 4.1: A minor update focusing on document cleanup and minor additions
-* MPI 5.0: A standard update following MPI 4.1 with major new features
+* [MPI 4.1](mpi-4.1/): A minor update focusing on document cleanup and minor additions
+* [MPI 5.0](mpi-5.0/): A standard update following MPI 4.1 with major new features
 More details can be found in the respective sections.
 
 ## MPI 4.0 Standard

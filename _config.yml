@@ -35,6 +35,7 @@ navbar-links:
         - GitHub: "https://www.github.com/mpi-forum/"
         - Mailing Lists: "http://lists.mpi-forum.org"
         - Make Comments: "comments/"
+        - Past Efforts: "mpi-past/"
     Completed Efforts:
         - MPI 4.0: "mpi-40/"
         - MPI 3.1: "mpi-31/"
