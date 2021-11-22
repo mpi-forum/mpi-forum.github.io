@@ -36,13 +36,7 @@ navbar-links:
         - Mailing Lists: "http://lists.mpi-forum.org"
         - Make Comments: "comments/"
         - Past Efforts: "mpi-past/"
-    Completed Efforts:
-        - MPI 4.0: "mpi-40/"
-        - MPI 3.1: "mpi-31/"
-        - MPI 3.0: "mpi-30/"
-        - MPI 2.2: "mpi-22/"
-        - MPI 2.1: "mpi-21/"
-        - MPI 2.0: "mpi-20/"
+
 
 
 # Image to show in the navigation bar - image must be a square (width = height)
