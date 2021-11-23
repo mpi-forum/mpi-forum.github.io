@@ -110,6 +110,30 @@ plenaries:
       presenter: Martin/Dan
       done: 0
 
+    - type: Reading
+      title: "Remove/modify text in Section 7.7.1 (Functionality)"
+      issue_number: 496
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "Context Chapter Fix for Issue #474 + PR#590 redone (process -> MPI process)"
+      issue_number: 474
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "RMA: Replace 'operation' with 'operator' where appropriate"
+      issue_number: 429
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Fix semantic terms in RMA chapter"
+      issue_number: 407
+      presenter: Joseph
+      done: 0
+
     - type: Discussion
       title: "feedback on my proposed changes to the appearance of the code and examples"
       issue_number:
