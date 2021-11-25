@@ -107,7 +107,7 @@ plenaries:
     - type: Reading
       title: "clarify the error handler argument to MPI_Comm_create_from_group and MPI_Intercomm_create_from_groups"
       issue_number: 511
-      presenter: Martin/Dan
+      presenter: Martin S./Dan
       done: 0
 
     - type: Reading
@@ -143,7 +143,7 @@ plenaries:
     - type: Discussion
       title: "Current and potentially future Pythonization infrastructure"
       issue_number:
-      presenter: Martin
+      presenter: Martin R.
       done: 0
 
 
