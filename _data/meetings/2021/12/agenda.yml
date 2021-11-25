@@ -140,5 +140,11 @@ plenaries:
       presenter: Bill
       done: 0
 
+    - type: Discussion
+      title: "Current and potentially future Pythonization infrastructure"
+      issue_number:
+      presenter: Martin
+      done: 0
+
 
 
