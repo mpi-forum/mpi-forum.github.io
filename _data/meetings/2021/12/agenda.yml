@@ -72,8 +72,11 @@ procedure-votes:
 
 errata-votes:
 
+    - number: 511
+      description: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
+
     - number: 449
-      description: "wrong wording in the topology chapter"
+      description: "Fix wrong term 'Cartesian process group' in section 8.5.6"
 
 no-no-votes:
 
@@ -92,22 +95,22 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Errata
-      title: "wrong wording in the topology chapter"
+    - type: Errata Reading
+      title: "Fix wrong term 'Cartesian process group' in section 8.5.6"
       issue_number: 449
       presenter: Christoph
       done: 0
 
-    - type: Reading
-      title: "add a new error class MPI_ERR_ERRHANDLER"
-      issue_number: 525
-      presenter: Christoph
+    - type: Errata Reading
+      title: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
+      issue_number: 511
+      presenter: Martin S./Dan
       done: 0
 
     - type: Reading
-      title: "clarify the error handler argument to MPI_Comm_create_from_group and MPI_Intercomm_create_from_groups"
-      issue_number: 511
-      presenter: Martin S./Dan
+      title: "Add new error class MPI_ERR_ERRHANDLER"
+      issue_number: 525
+      presenter: Christoph
       done: 0
 
     - type: Reading
@@ -117,25 +120,25 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Context Chapter Fix for Issue #474 + PR#590 redone (process -> MPI process)"
+      title: "Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter"
       issue_number: 474
       presenter: Guillaume
       done: 0
 
     - type: Reading
-      title: "RMA: Replace 'operation' with 'operator' where appropriate"
+      title: "Change 'operation' to 'operator' for op argument in One-Sided chapter"
       issue_number: 429
       presenter: Joseph
       done: 0
 
     - type: Reading
-      title: "Fix semantic terms in RMA chapter"
+      title: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
       issue_number: 407
       presenter: Joseph
       done: 0
 
     - type: Discussion
-      title: "feedback on my proposed changes to the appearance of the code and examples"
+      title: "Feedback on proposed changes to the appearance of the code and examples"
       issue_number:
       presenter: Bill
       done: 0

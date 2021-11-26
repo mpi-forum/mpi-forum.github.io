@@ -112,7 +112,7 @@ def main():
     # Make sure to use a pre-filled link here so it gets email out correctly
     registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScc6pRKv_j4wfZus89b8ZAqbN_XqzUwTdX4OQp3mDUS9OZ5rQ/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
 
-    prev_ooe = 30
+    prev_ooe = 37
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
@@ -207,7 +207,7 @@ def main():
         print("Did not meet meeting quorum. IMOVE required: " + str(prev_ooe * 2.0 / 3.0) + "\n");
 
     for row in iter(curr_registration):
-        org = row['What organization will you be representing for the MPI Forum?'];
+        org = row['What organization will you be representing?'];
         if org == "Self (Non-voting participant)":
             continue
         elif orgs[org]['registered'] < 2:
