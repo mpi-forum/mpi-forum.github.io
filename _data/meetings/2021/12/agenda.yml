@@ -158,12 +158,14 @@ plenaries:
     - type: Discussion
       title: "Accelerator Bindings"
       issue_number: 4
+      link: "https://github.com/mpiwg-hybrid/hybrid-issues/issues/4"
       presenter: Jim
       done: 0
 
     - type: Discussion
       title: "Introductions into the Continuations Proposal"
       issue_number: 6
+      link: "https://github.com/mpiwg-hybrid/hybrid-issues/issues/6"
       presenter: Joseph
       done: 0
 
