@@ -151,13 +151,19 @@ plenaries:
 
     - type: Discussion
       title: "Update on the Issues areound Logical Concurrency"
-      issue_number:
+      issue_number: 117
       presenter: Dan
       done: 0
 
     - type: Discussion
+      title: "Accelerator Bindings"
+      issue_number: 4
+      presenter: Jim
+      done: 0
+
+    - type: Discussion
       title: "Introductions into the Continuations Proposal"
-      issue_number:
+      issue_number: 6
       presenter: Joseph
       done: 0
 
