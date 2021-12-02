@@ -149,5 +149,17 @@ plenaries:
       presenter: Martin R.
       done: 0
 
+    - type: Discussion
+      title: "Update on the Issues areound Logical Concurrency"
+      issue_number:
+      presenter: Dan
+      done: 0
+
+    - type: Discussion
+      title: "Introductions into the Continuations Proposal"
+      issue_number:
+      presenter: Joseph
+      done: 0
+
 
 
