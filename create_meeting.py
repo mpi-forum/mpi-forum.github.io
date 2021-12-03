@@ -89,8 +89,8 @@ file = open('_data/meetings/' + start_year + '/' + start_month + '/agenda.yml', 
 print >> file, 'schedule:\n';
 for day in daterange(start, end):
     print >> file, '    - day: ' + day.strftime("%A, %B %d") + '\n'
-    print >> file, '    - start: 12:00am'
-    print >> file, '      end: 11:59pm'
+    print >> file, '    - start: ' + day.strftime("%Y-%m-%dT%00:00")
+    print >> file, '      end: ' + day.strftime("%Y-%m-%dT%23:59")
     print >> file, '      title: "Placeholder Agenda Item"\n'
     print >> file, '    - endday: done\n\n'
 
