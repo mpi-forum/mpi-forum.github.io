@@ -49,7 +49,8 @@ layout: default
                                 {% endif %}
                             {% endif %}
                         {% else %}
-                            - [<a href="https://time.is/{{ item.start | date: "%H%M%p_%-d_%B_%Y_in_Chicago" }}">Your Time</a>]
+                            - [<a href="https://time.is/{{ item.start | date:
+                                "%H%M%p_%-d_%B_%Y_in_CT" }}">Your Time</a>]
                         {% endif %}
                         {% if item.slides_url.size > 0 %}
                             {% if item.slides_url != "none" %}
