@@ -128,19 +128,19 @@ plenaries:
       title: "Remove/modify text in Section 7.7.1 (Functionality)"
       issue_number: 496
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter"
       issue_number: 474
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Change 'operation' to 'operator' for op argument in One-Sided chapter"
       issue_number: 429
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
@@ -167,11 +167,11 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: "Accelerator Bindings"
+      title: "Accelerator Bindings (Delayed to Virtual Meeting)"
       issue_number: 4
       link: "https://github.com/mpiwg-hybrid/hybrid-issues/issues/4"
       presenter: Jim
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Introductions into the Continuations Proposal"
