@@ -110,7 +110,7 @@ def main():
     curr_attendance_file   = "/Users/wbland/excl/writing/mpi/mpi-forum.github.io/_data/meetings/2021/12/attendance.csv"
     curr_registration_file = "/Users/wbland/excl/writing/mpi/meeting-details/2021-12-dec/2021-12-06-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
-    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScc6pRKv_j4wfZus89b8ZAqbN_XqzUwTdX4OQp3mDUS9OZ5rQ/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
+    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLSemNEtdmccpYXq0DqDvxTjHcLxJPTipjExekCfGUYlMiB12xA/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
 
     prev_ooe = 37
 
@@ -242,7 +242,7 @@ def main():
                     meeting up to the point where first voting block opened, your organization's
                     vote will not be counted.
 
-                    Voting will be open until 12:45pm US Central time on December 6th, 2021.<br><br>
+                    Voting will be open until 11:15pm US Central time on December 6th, 2021.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\

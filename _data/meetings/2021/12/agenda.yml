@@ -88,18 +88,18 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Fix wrong term 'Cartesian process group' in section 8.5.6"
       issue_number: 449
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
@@ -111,7 +111,7 @@ plenaries:
       title: "Add new error class MPI_ERR_ERRHANDLER"
       issue_number: 525
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Remove/modify text in Section 7.7.1 (Functionality)"
