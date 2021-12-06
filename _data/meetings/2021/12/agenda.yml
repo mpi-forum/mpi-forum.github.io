@@ -74,11 +74,17 @@ errata-votes:
 
     - number: 511
       description: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
+      withdrawn: 1
 
     - number: 449
       description: "Fix wrong term 'Cartesian process group' in section 8.5.6"
+      withdrawn: 0
 
 no-no-votes:
+
+    - number: 525
+      description: "Add new error class MPI_ERR_ERRHANDLER"
+      withdrawn: 0
 
 first-votes:
 
@@ -105,7 +111,7 @@ plenaries:
       title: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
       issue_number: 511
       presenter: Martin S./Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Add new error class MPI_ERR_ERRHANDLER"
@@ -169,5 +175,10 @@ plenaries:
       presenter: Joseph
       done: 0
 
+    - type: No-No Reading
+      title: "Add new error class MPI_ERR_ERRHANDLER"
+      issue_number: 525
+      presenter: Christoph
+      done: 0
 
 
