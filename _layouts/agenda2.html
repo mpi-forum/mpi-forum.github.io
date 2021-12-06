@@ -140,6 +140,9 @@ layout: default
          <ul>
              {% for item in input.no-no-votes %}
              <li>
+                 {% if item.withdrawn == 1 %}
+                     <del>
+                 {% endif %}
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
@@ -149,7 +152,13 @@ layout: default
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
                  {% endif %}
+                 {% if item.withdrawn == 1 %}
+                    (WITHDRAWN)
+                 {% endif %}
                  {{item.description}}
+                 {% if item.withdrawn == 1 %}
+                     </del>
+                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -159,6 +168,9 @@ layout: default
          <ul>
              {% for item in input.errata-votes %}
              <li>
+                 {% if item.withdrawn == 1 %}
+                     <del>
+                 {% endif %}
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
@@ -168,7 +180,13 @@ layout: default
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
                  {% endif %}
+                 {% if item.withdrawn == 1 %}
+                    (WITHDRAWN)
+                 {% endif %}
                  {{item.description}}
+                 {% if item.withdrawn == 1 %}
+                     </del>
+                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -178,6 +196,9 @@ layout: default
          <ul>
              {% for item in input.first-and-only-votes %}
              <li>
+                 {% if item.withdrawn == 1 %}
+                     <del>
+                 {% endif %}
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
@@ -187,7 +208,13 @@ layout: default
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
                  {% endif %}
+                 {% if item.withdrawn == 1 %}
+                    (WITHDRAWN)
+                 {% endif %}
                  {{item.description}}
+                 {% if item.withdrawn == 1 %}
+                     </del>
+                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -197,6 +224,9 @@ layout: default
          <ul>
              {% for item in input.first-votes %}
              <li>
+                 {% if item.withdrawn == 1 %}
+                     <del>
+                 {% endif %}
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
@@ -206,7 +236,13 @@ layout: default
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
                  {% endif %}
+                 {% if item.withdrawn == 1 %}
+                    (WITHDRAWN)
+                 {% endif %}
                  {{item.description}}
+                 {% if item.withdrawn == 1 %}
+                     </del>
+                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -216,6 +252,9 @@ layout: default
          <ul>
              {% for item in input.second-votes %}
              <li>
+                 {% if item.withdrawn == 1 %}
+                     <del>
+                 {% endif %}
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
@@ -225,7 +264,13 @@ layout: default
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
                  {% endif %}
+                 {% if item.withdrawn == 1 %}
+                    (WITHDRAWN)
+                 {% endif %}
                  {{item.description}}
+                 {% if item.withdrawn == 1 %}
+                     </del>
+                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -235,6 +280,9 @@ layout: default
          <ul>
              {% for item in input.chapter-votes %}
              <li>
+                 {% if item.withdrawn == 1 %}
+                     <del>
+                 {% endif %}
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
@@ -244,7 +292,13 @@ layout: default
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
                  {% endif %}
+                 {% if item.withdrawn == 1 %}
+                    (WITHDRAWN)
+                 {% endif %}
                  {{item.description}}
+                 {% if item.withdrawn == 1 %}
+                     </del>
+                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -254,6 +308,9 @@ layout: default
          <ul>
              {% for item in input.whole-document-vote %}
              <li>
+                 {% if item.withdrawn == 1 %}
+                     <del>
+                 {% endif %}
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
@@ -263,7 +320,13 @@ layout: default
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
                  {% endif %}
+                 {% if item.withdrawn == 1 %}
+                    (WITHDRAWN)
+                 {% endif %}
                  {{item.description}}
+                 {% if item.withdrawn == 1 %}
+                     </del>
+                 {% endif %}
              </li>
              {% endfor %}
          </ul>
