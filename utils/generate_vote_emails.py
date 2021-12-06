@@ -227,7 +227,7 @@ def main():
             message_text = """\
                     Hi {name},<br><br>
 
-                    Voting is now open for the December 2021 Day 1 meeting. You may vote at this link:<br><br>
+                    Voting is now open for the December 2021 Day 2 meeting. You may vote at this link:<br><br>
 
                     <a href={link}>
                     {link}
@@ -242,13 +242,13 @@ def main():
                     meeting up to the point where first voting block opened, your organization's
                     vote will not be counted.
 
-                    Voting will be open until 11:15pm US Central time on December 6th, 2021.<br><br>
+                    Voting will be open until 11:15pm US Central time on December 7th, 2021.<br><br>
 
                     Thanks,<br>
                     Wesley Bland (MPI Forum Secretary)\
                     """.format(name=name, link=text_link)
 
-            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'Decmeber 2021 MPI Forum Day 1 Voting Link', message_text)
+            message = create_message('"Wesley Bland" <work@wesbland.com>', email,'Decmeber 2021 MPI Forum Day 2 Voting Link', message_text)
             #message_id = send_message(service, "me", message)
 
 if __name__ == '__main__':
