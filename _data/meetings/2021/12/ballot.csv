@@ -1,1 +1,32 @@
-org,"Vote 1"
+org,#525: Add new error class MPI_ERR_ERRHANDLER (no-no),#449: Fix wrong term 'Cartesian process group' in section 8.5.6 (errata)
+Intel Corporation,Yes,Yes
+Argonne National Laboratory,Yes,Yes
+Collis-Holmes Innovations Limited,Yes,Yes
+University of Basel,Yes,Yes
+Fujitsu,Yes,Yes
+Forschungszentrum Julich,Yes,Yes
+ParaTools SAS,Yes,Yes
+"ZIH, TU Dresden",Yes,Yes
+The Texas Advanced Computing Center,Yes,Yes
+Queen's University,Yes,Yes
+Leibniz Supercomputing Centre,Yes,Yes
+CEA,Yes,Yes
+RWTH Aachen University,Yes,Yes
+"University of Tennessee, Knoxville",Yes,Yes
+Lawrence Livermore National Laboratory,Yes,Yes
+University of Alabama,Yes,Yes
+Los Alamos National Laboratory,Yes,Yes
+Oak Ridge National Laboratory,Yes,Yes
+AMD,Yes,Yes
+Sandia National Laboratory,Yes,Yes
+Technical University of Munich,Yes,Yes
+IBM,Yes,Yes
+University of New Mexico,Abstain,Yes
+Kichakato Kizito,Yes,Yes
+"VSC Research Center, TU Wien",Yes,Yes
+HPE,Yes,Yes
+"HLRS, University of Stuttgart",Yes,Yes
+Tennessee Tech University,Yes,Yes
+"University of Tennessee, Chattanooga",Yes,Yes
+NVIDIA,Yes,Yes
+INRIA,Abstain,Abstain
