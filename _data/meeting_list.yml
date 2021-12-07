@@ -592,6 +592,18 @@ virtual:
 
 voting:
 
+  - year: 2022
+
+  - start: 2022-05-23
+    end: 2022-05-27
+    title: "TENTATIVE DATES - Meeting (Location/Hybrid TBD)"
+    links: "no"
+
+  - start: 2022-02-28
+    end: 2022-03-04
+    title: "TENTATIVE DATES - Meeting (Location/Hybrid TBD)"
+    links: "no"
+
   - year: 2021
 
   - start: 2021-12-06
