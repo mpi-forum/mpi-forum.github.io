@@ -4,18 +4,13 @@ virtual:
 
   - start: 2021-12-09T09:00
     end: 2021-12-09T12:00
-    title: "Exceptional Virtual Meeting - Decmeber 2021 - Day 4"
-    recording_url: ""
-
-  - start: 2021-12-08T09:00
-    end: 2021-12-08T12:00
     title: "Exceptional Virtual Meeting - Decmeber 2021 - Day 3"
     recording_url: ""
 
   - start: 2021-12-07T09:00
     end: 2021-12-07T12:00
     title: "Exceptional Virtual Meeting - Decmeber 2021 - Day 2"
-    recording_url: ""
+    recording_url: "https://youtu.be/-aAsHQCZUBI"
 
   - start: 2021-12-06T09:00
     end: 2021-12-06T12:00
