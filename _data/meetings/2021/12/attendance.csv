@@ -1,6 +1,6 @@
 "name","org","attend"
 "Wes Bland","Intel Corporation","1"
-"Brian Smith","Oak Ridge National Laboratory","-1"
+"Brian Smith","Oak Ridge National Laboratory","1"
 "Sayan Ghosh","Pacific Northwest National Laboratory","-1"
 "Bill Williams","ZIH, TU Dresden","1"
 "Maria Garzaran","Intel Corporation","-1"
@@ -49,3 +49,4 @@
 "Tobias Haas","HLRS, University of Stuttgart","1"
 "Aurelien Bouteiller","University of Tennessee, Knoxville","1"
 "Thomas Hines","Tennessee Tech University","1"
+"Hui Zhou","Argonne National Laboratory","1"

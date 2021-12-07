@@ -158,7 +158,7 @@ plenaries:
       title: "Current and potentially future Pythonization infrastructure"
       issue_number: 431
       presenter: Martin R.
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Update on the Issues areound Logical Concurrency"
@@ -184,6 +184,6 @@ plenaries:
       title: "Add new error class MPI_ERR_ERRHANDLER"
       issue_number: 525
       presenter: Christoph
-      done: 0
+      done: 1
 
 

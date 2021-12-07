@@ -11,7 +11,7 @@ def confirm_id(id, name, org, attendance_list):
     for entry in iter(attendance_list):
         #print(entry);
         if (id == entry['UUID'] and
-                name == entry['What is your name?'] and
+                name == entry['What is your full name?'] and
                 org == entry['What organization will you be representing?']):
             return 1;
     return 0;
