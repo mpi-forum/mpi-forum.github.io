@@ -34,19 +34,7 @@ schedule:
     - endday: done
 
 
-    - day: Wednesday, December 08
-
-    - start: 2021-12-08T09:00
-      end: 2021-12-08T11:00
-      title: "Plenary Sessions"
-
-    - start: 2021-12-08T11:00
-      end: 2021-12-08T11:15
-      title: "Voting Block with Parallel Plenary Sessions (could start later)"
-
-    - start: 2021-12-08T11:15
-      end: 2021-12-08T12:00
-      title: "Plenary Sessions"
+    - day: Wednesday, December 08 - MEETING CANCELLED
 
     - endday: done
 
