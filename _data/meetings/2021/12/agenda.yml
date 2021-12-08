@@ -174,4 +174,9 @@ plenaries:
       presenter: Christoph
       done: 1
 
+    - type: Discussion
+      title: "MPI Forum Organization (Virtual Meeting Topics and Future Meeting Dates/Locations)"
+      presenter: Martin S
+      done: 0
+
 
