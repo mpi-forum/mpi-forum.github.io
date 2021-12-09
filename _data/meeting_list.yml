@@ -1,5 +1,42 @@
 virtual:
 
+  - year: 2022
+
+  - start: 2022-02-23T10:00
+    end: 2022-02-23T12:00
+    title: "Logical Concurrency (Dan H)"
+    recording_url: ""
+
+  - start: 2022-02-16T10:00
+    end: 2022-02-16T12:00
+    title: "Hybrid / Accelerators Discussions (Jim D)"
+    recording_url: ""
+
+  - start: 2022-02-09T10:00
+    end: 2022-02-09T12:00
+    title: "Continuations (Joseph S)"
+    recording_url: ""
+
+  - start: 2022-02-02T10:00
+    end: 2022-02-02T12:00
+    title: "Tools WG Topics (Marc-Andre H)"
+    recording_url: ""
+
+  - start: 2022-01-26T10:00
+    end: 2022-01-26T12:00
+    title: "HW Topologies (Guillaume M)"
+    recording_url: ""
+
+  - start: 2022-01-19T10:00
+    end: 2022-01-19T12:00
+    title: "Logical Concurrency (Dan H)"
+    recording_url: ""
+
+  - start: 2022-01-12T10:00
+    end: 2022-01-12T12:00
+    title: "RMA Terms (Joseph S)"
+    recording_url: ""
+
   - year: 2021
 
   - start: 2021-12-09T09:00
@@ -591,12 +628,12 @@ voting:
 
   - start: 2022-05-23
     end: 2022-05-27
-    title: "TENTATIVE DATES - Meeting (Location/Hybrid TBD)"
+    title: "Exceptional Virtual Meeting"
     links: "no"
 
   - start: 2022-02-28
     end: 2022-03-04
-    title: "TENTATIVE DATES - Meeting (Location/Hybrid TBD)"
+    title: "Meeting (Location/Hybrid TBD)"
     links: "no"
 
   - year: 2021
