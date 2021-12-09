@@ -140,7 +140,7 @@ plenaries:
       title: "Feedback on proposed changes to the appearance of the code and examples"
       issue_number:
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Current and potentially future Pythonization infrastructure"
@@ -166,7 +166,7 @@ plenaries:
       issue_number: 6
       link: "https://github.com/mpiwg-hybrid/hybrid-issues/issues/6"
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Add new error class MPI_ERR_ERRHANDLER"
