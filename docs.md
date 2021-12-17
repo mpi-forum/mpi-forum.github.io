@@ -6,8 +6,6 @@ permalink: docs/
 
 The official version of the MPI documents are the English Postscript versions (for MPI 1.0 and 1.1) and PDF (for the other versions). In several cases, a translation or HTML version is also available for convenience. The HTML version was made with automated tools. In case of a difference between these two sources, the Postscript or PDF version of MPI standard documents are always considered the official version. In the case of multiple PDF versions, only the one described as the "MPI x.y document as PDF" is the official version; the versions provided with alternate formatting are provided as a convenience and are not official (every effort has been taken to make them "the same", but no guarantee is made).
 
-Those who prefer to get the documents via anonymous ftp may do so at ftp.mpi-forum.org in pub/docs/.
-
 Some [translations of MPI documents](translations.html) are available.
 
 ## MPI 4.0
