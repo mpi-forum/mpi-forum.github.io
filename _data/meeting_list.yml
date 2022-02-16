@@ -4,7 +4,7 @@ virtual:
 
   - start: 2022-02-23T10:00
     end: 2022-02-23T12:00
-    title: "Logical Concurrency (Dan H)"
+    title: "Sessions (Howard / Aurelien)"
     recording_url: ""
 
   - start: 2022-02-16T10:00
