@@ -17,7 +17,7 @@ schedule:
 
     - start: 2022-03-01T9:00
       end: 2022-03-01T13:00
-      title: "Working Group Time / Track 1"
+      title: "RMA Working Group Time (lead: Joseph)"
 
     - start: 2022-03-01T9:00
       end: 2022-03-01T13:00
@@ -61,9 +61,6 @@ schedule:
 
 
 procedure-votes:
-
-    - number: 1234
-      description: "Placeholder Procedure Vote"
 
 errata-votes:
 
