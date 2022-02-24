@@ -39,7 +39,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 #### [Fault Tolerance](https://github.com/mpiwg-ft/ft-issues)
 
-*   Leads: Wesley Bland, Aurélien Bouteiller and Rich Graham
+*   Leads: Aurélien Bouteiller and Rich Graham
 *   Scope: To define any additional support needed in the MPI standard to enable implementation of portable Fault Tolerant solutions for MPI based applications.
 
 #### [Hardware-Topologies](https://github.com/mpiwg-hw-topology/hw-topology-issues)
