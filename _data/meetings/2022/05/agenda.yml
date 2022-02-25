@@ -1,0 +1,77 @@
+schedule:
+
+    - day: Monday, May 23
+
+    - start: 2022-05-23T0:00
+      end: 2022-05-23T23:59
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Tuesday, May 24
+
+    - start: 2022-05-24T0:00
+      end: 2022-05-24T23:59
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Wednesday, May 25
+
+    - start: 2022-05-25T0:00
+      end: 2022-05-25T23:59
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Thursday, May 26
+
+    - start: 2022-05-26T0:00
+      end: 2022-05-26T23:59
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Friday, May 27
+
+    - start: 2022-05-27T0:00
+      end: 2022-05-27T23:59
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+procedure-votes:
+
+    - number: 1234
+      description: "Placeholder Procedure Vote"
+
+errata-votes:
+
+no-no-votes:
+
+first-votes:
+
+second-votes:
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: "Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles"
+      issue_number: 544
+      presenter: Howard
+      done: 0
+

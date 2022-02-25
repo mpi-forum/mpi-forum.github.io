@@ -629,7 +629,7 @@ voting:
   - start: 2022-05-23
     end: 2022-05-27
     title: "Meeting (Location/Hybrid TBD)"
-    links: "no"
+    links: "yes"
 
   - start: 2022-02-28
     end: 2022-03-04
