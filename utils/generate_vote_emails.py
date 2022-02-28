@@ -295,7 +295,7 @@ Wes Bland (MPI Forum Secretary)\
 
             message = service.create_message(from_addr='"Wes Bland" <work@wesbland.com>',
                     to_addr=email, msg=message_text, subject='February 2022 MPI Forum Day 1 Voting Link')
-            message_id = service.send_message(message=message)
+            #message_id = service.send_message(message=message)
 
 if __name__ == '__main__':
     main()
