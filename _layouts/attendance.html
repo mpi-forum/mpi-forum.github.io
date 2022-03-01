@@ -3,34 +3,35 @@ layout: default
 ---
 <article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">Meeting Attendance</h1>
-    <h2>{{ page.date }}</h2>
-    <table>
-        <tr>
-            <td><a href="logistics">Logistics</a></td>
-            <td><a href="agenda">Agenda</a></td>
-            <td><a href="https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/{{ page.year }}/{{ page.month }}">Presentations</a></td>
-            <td><a href="attendance">Attendance</a></td>
-            <td><a href="votes">Votes</a></td>
-            <td><a href="notes">Notes</a></td>
-        </tr>
-    </table>
-  </header>
+    <header class="post-header">
+        <h1 class="post-title">Meeting Attendance</h1>
+        <h2>{{ page.date }}</h2>
+        <table>
+            <tr>
+                <td><a href="logistics">Logistics</a></td>
+                <td><a href="agenda">Agenda</a></td>
+                <td><a href="https://github.com/mpi-forum/mpi-forum.github.io/tree/master/slides/{{ page.year }}/{{ page.month }}">Presentations</a></td>
+                <td><a href="attendance">Attendance</a></td>
+                <td><a href="votes">Votes</a></td>
+                <td><a href="notes">Notes</a></td>
+            </tr>
+        </table>
+    </header>
 
-  <div class="post-content">
-    {{ content }}
+    <div class="post-content">
+        {{ content }}
 
-  Registration List:
-  <ol>
-      {% for person in site.data.meetings[page.year][page.month].attendance %}
-      <li> {{ person.name }} ({{ person.org }})
-          {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
-          {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
-      </li>
-      {% endfor %}
-  </ol>
+        <h4>This list is updated manually and may not contain the most recent registrations.</h4>
 
-  </div>
+        <ol>
+            {% for person in site.data.meetings[page.year][page.month].attendance %}
+            <li> {{ person.name }} ({{ person.org }})
+                {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
+                {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
+            </li>
+            {% endfor %}
+        </ol>
+
+    </div>
 
 </article>
