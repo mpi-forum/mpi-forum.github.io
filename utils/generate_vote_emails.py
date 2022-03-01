@@ -50,9 +50,9 @@ class FastMailSMTP(smtplib.SMTP_SSL):
                 msg_root.attach(prt)
 
         print("Created message for: ",to_addr)
-        print("====")
-        print(msg)
-        print("====")
+        #print("====")
+        #print(msg)
+        #print("====")
 
         return msg_root
 
