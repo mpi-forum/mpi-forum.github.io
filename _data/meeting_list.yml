@@ -2,6 +2,31 @@ virtual:
 
   - year: 2022
 
+  - start: 2022-03-03T09:00
+    end: 2022-03-03T13:00
+    title: "Exceptional Virtual Meeting - February 2022 - Plenary Day 2"
+    recording_url: ""
+
+  - start: 2022-03-02T09:00
+    end: 2022-03-02T13:00
+    title: "Exceptional Virtual Meeting - February 2022 - Plenary Day 1"
+    recording_url: ""
+
+  - start: 2022-03-01T09:00
+    end: 2022-03-01T13:00
+    title: "Exceptional Virtual Meeting - February 2022 - Fault Tolerance WG"
+    recording_url: "https://youtu.be/8FqUFl6VRVU"
+
+  - start: 2022-03-01T09:00
+    end: 2022-03-01T13:00
+    title: "Exceptional Virtual Meeting - February 2022 - RMA WG"
+    recording_url: "https://youtu.be/Z07Tmifd7EQ"
+
+  - start: 2022-02-28T09:00
+    end: 2022-02-28T13:00
+    title: "Exceptional Virtual Meeting - February 2022 - Sessions WG"
+    recording_url: "https://youtu.be/COETnRBOxm0"
+
   - start: 2022-02-23T10:00
     end: 2022-02-23T12:00
     title: "Sessions (Howard / Aurelien)"
