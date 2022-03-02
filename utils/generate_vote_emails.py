@@ -274,7 +274,7 @@ def main():
             message_text = """\
 Hi {name},
 
-Voting is now open for the February 2022 Day 1 meeting. You may vote at this link:
+Voting is now open for the February 2022 Plenary Day 1 meeting. You may vote at this link:
 
 {link}
 
@@ -294,7 +294,7 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"Wes Bland" <work@wesbland.com>',
-                    to_addr=email, msg=message_text, subject='February 2022 MPI Forum Day 1 Voting Link')
+                    to_addr=email, msg=message_text, subject='February 2022 MPI Forum Plenary Day 1 Voting Link')
             #message_id = service.send_message(message=message)
 
 if __name__ == '__main__':

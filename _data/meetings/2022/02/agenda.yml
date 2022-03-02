@@ -119,7 +119,7 @@ plenaries:
       title: Deprecate MPI_COMM_TYPE_HW_GUIDED
       issue_number: 539
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Virtual Meeting Schedule
