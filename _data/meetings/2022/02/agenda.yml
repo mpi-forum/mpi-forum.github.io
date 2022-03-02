@@ -110,8 +110,8 @@ plenaries:
       done: 0
 
     - type: Straw-Poll
-      title: Allow pset names to guide splitting in MPI_Comm_split_type
-      issue_number: 538
+      title: Deprecate MPI_COMM_TYPE_HW_GUIDED
+      issue_number: 539
       presenter: Guillaume
       done: 0
 
