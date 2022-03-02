@@ -66,6 +66,10 @@ no-no-votes:
       description: "Add new error class MPI_ERR_ERRHANDLER"
       withdrawn: 0
 
+    - number: 541
+      description: "Minor updates to the info chapter for MPI 4.1"
+      withdrawn: 0
+
 first-votes:
 
     - number: 525
@@ -78,24 +82,30 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status / Update from last 2 days
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
+
+    - type: No-no Reading
+      title: Add new error class MPI_ERR_ERRHANDLER
+      issue_number: 525
+      presenter: Christoph
+      done: 1
 
     - type: Reading
       title: Minor updates to the info chapter for MPI 4.1
       issue_number: 541
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: Correct usage of the terms error and return codes in the tools chapter
       issue_number: 542
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: Add compound datatypes for large integers for MPI_(MIN|MAX)LOC
