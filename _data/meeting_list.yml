@@ -47,11 +47,6 @@ virtual:
     title: "Reserved Namespaces"
     recording_url: ""
 
-  - start: 2022-03-16T10:00
-    end: 2022-03-16T12:00
-    title: "Partitioned Communication (Tony)"
-    recording_url: ""
-
   - start: 2022-03-02T09:00
     end: 2022-03-02T13:00
     title: "Exceptional Virtual Meeting - February 2022 - Plenary Day 1"
