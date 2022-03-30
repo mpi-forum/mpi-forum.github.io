@@ -152,10 +152,10 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wesbland/mpi/mpi-forum.github.io/_data/meetings/2021/09/attendance.csv"
-    prev_attendance_file_2 = "/Users/wesbland/mpi/mpi-forum.github.io/_data/meetings/2021/12/attendance.csv"
-    curr_attendance_file   = "/Users/wesbland/mpi/mpi-forum.github.io/_data/meetings/2022/02/attendance.csv"
-    curr_registration_file = "/Users/wesbland/mpi/meeting-details/2022-02-feb/2022-02-28-registration.csv"
+    prev_attendance_file_1 = "/Users/wesbland/mpi/mpi-forum.github.io/_data/meetings/2021/12/attendance.csv"
+    prev_attendance_file_2 = "/Users/wesbland/mpi/mpi-forum.github.io/_data/meetings/2022/02/attendance.csv"
+    curr_attendance_file   = "/Users/wesbland/mpi/mpi-forum.github.io/_data/meetings/2022/05/attendance.csv"
+    curr_registration_file = "/Users/wesbland/mpi/meeting-details/2022-05-may/2022-05-23-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
     registration_link = "https://docs.google.com/forms/d/e/1FAIpQLSfcQNgvQPjS-QqtEAyGMwq9Tw266FeyfKDKD_Eu4C6A08esgA/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
 
@@ -274,7 +274,7 @@ def main():
             message_text = """\
 Hi {name},
 
-Voting is now open for the February 2022 Plenary Day 1 meeting. You may vote at this link:
+Voting is now open for the May 2022 Plenary Day 1 meeting. You may vote at this link:
 
 {link}
 
@@ -294,7 +294,7 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"Wes Bland" <work@wesbland.com>',
-                    to_addr=email, msg=message_text, subject='February 2022 MPI Forum Plenary Day 1 Voting Link')
+                    to_addr=email, msg=message_text, subject='May 2022 MPI Forum Plenary Day 1 Voting Link')
             #message_id = service.send_message(message=message)
 
 if __name__ == '__main__':
