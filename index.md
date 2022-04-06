@@ -75,8 +75,8 @@ Presentations from the MPI Forum BoF Session at SC 18:
 ## MPI Forum Officers
 
 *   Chair: Martin Schulz, TUM/LRZ, Germany
-*   Secretary: Wesley Bland, Intel, USA
-*   Treasurer: Brian Smith, ORNL, USA
+*   Secretary: Wes Bland, Meta, USA
+*   Treasurer: Brian Smith, Cornelis Networks, USA
 *   Document Editor: Bill Gropp, NCSA/UIUC
 
 ## Previous Efforts
