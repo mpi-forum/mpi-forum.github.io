@@ -25,7 +25,7 @@ virtual:
   - start: 2022-04-20T10:00
     end: 2022-04-20T12:00
     title: "Fine-Grained Fault Tolerance"
-    recording_url: ""
+    recording_url: "https://youtu.be/GpHWTUG-sT4"
 
   - start: 2022-04-13T10:00
     end: 2022-04-13T12:00
