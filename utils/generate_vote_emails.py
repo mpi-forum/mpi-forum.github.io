@@ -287,7 +287,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 
-Voting will be open until 12:45pm US Central time on March 2nd, 2022.
+Voting will be open until 12:45pm US Central time on May 23rd, 2022.
 
 Thanks,
 Wes Bland (MPI Forum Secretary)\
