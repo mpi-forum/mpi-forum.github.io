@@ -1,6 +1,6 @@
 schedule:
 
-    - day: Wednesday, September 21
+    - day: Wednesday, September xx
 
     - start: 2022-09-21T0:00
       end: 2022-09-21T23:59
@@ -9,7 +9,7 @@ schedule:
     - endday: done
 
 
-    - day: Thursday, September 22
+    - day: Thursday, September xx
 
     - start: 2022-09-22T0:00
       end: 2022-09-22T23:59
@@ -18,7 +18,7 @@ schedule:
     - endday: done
 
 
-    - day: Friday, September 23
+    - day: Friday, September xx
 
     - start: 2022-09-23T0:00
       end: 2022-09-23T23:59

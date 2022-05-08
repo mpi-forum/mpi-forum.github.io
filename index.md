@@ -27,7 +27,7 @@ Comments on the MPI 4.0 should be sent to the [MPI Comments mailing list](/comme
 
 ## Updates
 
-#### EuroMPI will be held September 19-21, 2022 in Chattanooga, Tennessee
+#### EuroMPI will be held in September 2022 in Chattanooga, Tennessee
 
 * More information at [https://sites.google.com/view/eurompiusa2022](https://sites.google.com/view/eurompiusa2022)
 * Abstracts Submission Deadline: May 16, 2022 (AOE)
