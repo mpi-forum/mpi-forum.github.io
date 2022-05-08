@@ -2,53 +2,57 @@ schedule:
 
     - day: Monday, May 23
 
-    - start: 2022-05-23T0:00
-      end: 2022-05-23T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2022-05-23T9:00
+      end: 2022-05-23T13:00
+      title: "Working Group Time"
 
     - endday: done
 
 
     - day: Tuesday, May 24
 
-    - start: 2022-05-24T0:00
-      end: 2022-05-24T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2022-05-24T9:00
+      end: 2022-05-24T13:00
+      title: "Working Group Time"
 
     - endday: done
 
 
     - day: Wednesday, May 25
 
-    - start: 2022-05-25T0:00
-      end: 2022-05-25T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2022-05-25T9:00
+      end: 2022-05-25T12:30
+      title: "Plenary (Agenda, see below)"
+
+    - start: 2022-05-25T12:30
+      end: 2022-05-25T12:45
+      title: "Plenary (Agenda, see below)"
+
+    - start: 2022-05-25T12:45
+      end: 2022-05-25T13:00
+      title: "Plenary (Agenda, see below)"
 
     - endday: done
 
 
     - day: Thursday, May 26
 
-    - start: 2022-05-26T0:00
-      end: 2022-05-26T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2022-05-26T9:00
+      end: 2022-05-26T12:30
+      title: "Plenary (Agenda, see below)"
 
-    - endday: done
+    - start: 2022-05-26T12:30
+      end: 2022-05-26T12:45
+      title: "Plenary (Agenda, see below)"
 
-
-    - day: Friday, May 27
-
-    - start: 2022-05-27T0:00
-      end: 2022-05-27T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2022-05-26T12:45
+      end: 2022-05-26T13:00
+      title: "Plenary (Agenda, see below)"
 
     - endday: done
 
 
 procedure-votes:
-
-    - number: 1234
-      description: "Placeholder Procedure Vote"
 
 errata-votes:
 
@@ -57,6 +61,10 @@ no-no-votes:
 first-votes:
 
 second-votes:
+
+    - number: 525
+      description: "Add new error class MPI_ERR_ERRHANDLER"
+      withdrawn: 0
 
 plenaries:
     - type: Welcome
