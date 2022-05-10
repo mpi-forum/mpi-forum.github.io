@@ -3,8 +3,12 @@ schedule:
     - day: Monday, May 23
 
     - start: 2022-05-23T9:00
+      end: 2022-05-23T11:00
+      title: "HW Topology WG Working Group Time"
+
+    - start: 2022-05-23T11:00
       end: 2022-05-23T13:00
-      title: "Working Group Time"
+      title: "Sessions WG Working Group Time"
 
     - endday: done
 
@@ -12,8 +16,16 @@ schedule:
     - day: Tuesday, May 24
 
     - start: 2022-05-24T9:00
+      end: 2022-05-24T12:30
+      title: "Plenary (Agenda, see below)"
+
+    - start: 2022-05-24T12:30
+      end: 2022-05-24T12:45
+      title: "Voting Block"
+
+    - start: 2022-05-24T12:45
       end: 2022-05-24T13:00
-      title: "Working Group Time"
+      title: "Plenary (Agenda, see below)"
 
     - endday: done
 
@@ -80,6 +92,64 @@ plenaries:
     - type: Reading
       title: "Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles"
       issue_number: 544
+      presenter: Howard/Josef
+      done: 0
+
+    - type: Reading
+      title: "Language bindings chapter needs updating for Sessions model"
+      issue_number: 535
       presenter: Howard
       done: 0
+
+    - type: Reading
+      title: "MPI_LASTUSEDCODE not covered in the sessions model"
+      issue_number: 545
+      presenter: Howard
+      done: 0
+
+    - type: Reading
+      title: "Clarify/fix description and usage of MPI_GROUP_NULL"
+      issue_number: 534
+      presenter: Howard
+      done: 0
+
+    - type: Reading
+      title: "expansion of error handler association to cover sessions (and clarifications)"
+      issue_number: 511
+      presenter: Aurelien
+      done: 0
+
+    - type: Reading
+      title: "fine-grain recovery (slice 1) (aka ULFM v2)"
+      issue_number: 20
+      presenter: Aurelien
+      done: 0
+      
+    - type: Reading
+      title: "both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate (RMA)"
+      issue_number: 554
+      presenter: Josef
+      done: 0
+
+
+    - type: Reading
+      title: "Add missing win-sync calls to Example 12.21 (RMA)"
+      issue_number: 407
+      presenter: Josef
+      done: 0
+      
+    - type: Reading
+      title: "MPI_Win_free is synchronizing, except when it isn't (RMA)"
+      issue_number: 553
+      presenter: Josef
+      done: 0
+      
+    - type: Reading
+      title: "Replace 'operation' with 'operator' where appropriate (RMA)"
+      issue_number: 551
+      presenter: Josef
+      done: 0
+      
+      
+
 
