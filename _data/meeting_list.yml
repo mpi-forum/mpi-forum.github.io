@@ -7,16 +7,6 @@ virtual:
     title: "Logical Concurrency"
     recording_url: ""
 
-  - start: 2022-05-11T10:00
-    end: 2022-05-11T12:00
-    title: "Pythonization"
-    recording_url: ""
-
-  - start: 2022-05-04T10:00
-    end: 2022-05-04T12:00
-    title: "Compound Types and MPI_T Return Codes"
-    recording_url: ""
-
   - start: 2022-04-27T10:00
     end: 2022-04-27T12:00
     title: "Hardware Topologies / Split Types"
