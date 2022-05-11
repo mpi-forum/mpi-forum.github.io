@@ -70,6 +70,10 @@ errata-votes:
 
 no-no-votes:
 
+    - number: 544
+      description: "MPI_*_GET_NAME functions accept MPI_*_NULL handles"
+      withdrawn: 0
+
 first-votes:
 
 second-votes:
@@ -92,7 +96,7 @@ plenaries:
     - type: Reading
       title: "Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles"
       issue_number: 544
-      presenter: Howard/Josef
+      presenter: Howard/Joseph
       done: 0
 
     - type: Reading
@@ -124,38 +128,40 @@ plenaries:
       issue_number: 20
       presenter: Aurelien
       done: 0
-      
-    - type: Reading
-      title: "both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate (RMA)"
-      issue_number: 554
-      presenter: Josef
-      done: 0
 
+    - type: Reading
+      title: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
+      issue_number: 407
+      presenter: Joseph
+      done: 0
 
     - type: Reading
       title: "Add missing win-sync calls to Example 12.21 (RMA)"
-      issue_number: 407
-      presenter: Josef
+      issue_number: 553
+      presenter: Joseph
       done: 0
-      
+
     - type: Reading
       title: "MPI_Win_free is synchronizing, except when it isn't (RMA)"
-      issue_number: 553
-      presenter: Josef
+      issue_number: 551
+      presenter: Joseph
       done: 0
-      
+
     - type: Reading
       title: "Replace 'operation' with 'operator' where appropriate (RMA)"
-      issue_number: 551
-      presenter: Josef
+      issue_number: 429
+      presenter: Joseph
       done: 0
-      
+
+    - type: Reading
+      title: "both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate (RMA)"
+      issue_number: 554
+      presenter: Joseph
+      done: 0
+
     - type: Discussion
       title: "Tools Topics"
       issue_number:
       presenter: Marc-Andre
       done: 0
-      
-
-
 

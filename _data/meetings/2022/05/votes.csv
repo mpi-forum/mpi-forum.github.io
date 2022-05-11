@@ -1,1 +1,3 @@
 topic,type,yes,no,abstain,missed
+"544: MPI_*_GET_NAME functions accept MPI_*_NULL handles",no-no
+"525: Add new error class MPI_ERR_ERRHANDLER",2nd
