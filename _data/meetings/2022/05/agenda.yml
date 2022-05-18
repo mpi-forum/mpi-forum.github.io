@@ -3,8 +3,12 @@ schedule:
     - day: Monday, May 23
 
     - start: 2022-05-23T9:00
-      end: 2022-05-23T11:00
+      end: 2022-05-23T10:00
       title: "HW Topology WG Working Group Time"
+
+    - start: 2022-05-23T10:00
+      end: 2022-05-23T11:00
+      title: "HACC WG Working Group Time"
 
     - start: 2022-05-23T11:00
       end: 2022-05-23T13:00
