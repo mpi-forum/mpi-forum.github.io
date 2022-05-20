@@ -61,8 +61,8 @@ layout: default
          <tr>
              {% if item.start.size>0 %}
              {% if item.start contains "T" %}
-                 <td><a href="https://time.is/{{ item.start | date: "%H%M%p_%-d_%B_%Y_in_CT" }}">
-                         {{ item.start | date: "%H:%M %p" }} - {{ item.end | date: "%H:%M %p" }}
+                 <td><a href="https://time.is/{{ item.start | date: "%H%M_%-d_%B_%Y_in_CT" }}">
+                         {{ item.start | date: "%H:%M" }} - {{ item.end | date: "%H:%M" }}
                  </a> </td>
              {% else %}
                  <td>{{ item.start }} - {{ item.end }}</td>
