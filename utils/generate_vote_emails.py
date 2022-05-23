@@ -221,6 +221,12 @@ def main():
     print("NEEDED FOR MEETING QUORUM: " + str(math.ceil(ooe * 2.0/3.0)));
 
     print("\n=== Eligible to vote ===\n");
+    with open('ooe_orgs.csv', 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=['org_name']);
+        writer.writeheader();
+        for org in eligible:
+            writer.writerow({'org_name': org});
+
     print(*eligible, sep = '\n');
     print("\n=== Did not register for 2 of last 3 meetings ===\n");
     print(*no_register, sep = '\n');
