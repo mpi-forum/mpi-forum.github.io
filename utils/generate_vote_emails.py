@@ -56,16 +56,20 @@ class FastMailSMTP(smtplib.SMTP_SSL):
 
         return msg_root
 
-    def send_message(service, *, message):
-        service.sendmail(message['From'], [message['To'],message['Bcc']], message.as_string())
+    def send_message(self, *, message):
+        self.service.sendmail(message['From'], [message['To'],message['Bcc']], message.as_string())
+        print('Sent message ID: %s' % message['id'])
 
 class GmailSMTP():
-    def __init__():
+    def __init__(self):
         if not os.path.exists('credentials.json'):
             print("Make sure to run this script with credentials.json in the current directory.")
             print("If you don't have that file, you can set one up and download it here:")
             print()
             print("https://console.developers.google.com/apis/credentials")
+            print("Make sure to be logged in as mpiforumbot@gmail.com and")
+            print("download the GMail API key as a JSON file. Put it in this")
+            print("directory and name it credentials.json")
             exit(1)
 
         creds = None
@@ -87,45 +91,23 @@ class GmailSMTP():
             with open('token.pickle', 'wb') as token:
                 pickle.dump(creds, token)
 
-        service = build('gmail', 'v1', credentials=creds)
+        self.service = build('gmail', 'v1', credentials=creds)
 
-        return service
-
-    def create_message(self, * sender, to, message_text, subject, attachments=None):
-        """Create a message for an email.
-
-        Args:
-          sender: Email address of the sender.
-          to: Email address of the receiver.
-          subject: The subject of the email message.
-          message_text: The text of the email message.
-
-        Returns:
-          An object containing a base64url encoded email object.
-        """
-        message = email.mime.text.MIMEText(message_text, 'html')
-        message['to'] = to
-        message['from'] = sender
+    def create_message(self, *, from_addr, to_addr, msg, subject, attachments=None):
+        message = email.mime.text.MIMEText(msg, 'html')
+        message['to'] = to_addr
+        message['from'] = from_addr
         message['subject'] = subject
-        #print("Created message for: ",to)
+        print("Created message for: ",to_addr)
         #print("====")
         #print(message_text)
         #print("====")
         return {'raw': base64.urlsafe_b64encode(message.as_bytes()).decode()}
 
-    def send_message(service, *, message):
-        """Send an email message.
-
-        Args:
-          service: Authorized Gmail API service instance.
-          message: Message to be sent.
-
-        Returns:
-          Sent Message.
-        """
+    def send_message(self, *, message):
         try:
-            message = (service.users().messages().send(userId="me", body=message).execute())
-            print('Message Id: %s' % message['id'])
+            message = (self.service.users().messages().send(userId="me", body=message).execute())
+            print('Sent message ID: %s' % message['id'])
             return message
         except urllib.error.HTTPError as error:
             print('An error occurred: %s' % error)
@@ -144,9 +126,7 @@ def normalize_prev_attendance(val):
 
 def main():
     keyring.get_keyring()
-    username = 'wesley@wesbland.com'
-    password = keyring.get_password("fastmail_mpi_forum", username)
-    service = FastMailSMTP(username, password)
+    service = GmailSMTP()
 
     ooe = 0;
     imove = 0;
@@ -274,26 +254,28 @@ def main():
             message_text = """\
 Hi {name},
 
-Voting is now open for the May 2022 Plenary Day 1 meeting. You may vote at this link:
-
+Voting is now open for the May 2022 Plenary Day 1 meeting. You may vote at this
+link:
+<br><br>
 {link}
-
+<br><br>
 If multiple members of your organization registered, each will get their own
 voting link but only one of the ballots will be counted (no guarantees which).
 Please coordinate with other members of your organization to avoid confusion.
-
+<br><br>
 As per the MPI Forum rules, your organization must have attended the meeting in
 order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
-
-Voting will be open until 12:45pm US Central time on May 23rd, 2022.
-
+<br><br>
+Voting will be open until 12:45pm US Central time on May 24th, 2022.
+<br><br>
 Thanks,
+<br>
 Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
-            message = service.create_message(from_addr='"Wes Bland" <work@wesbland.com>',
+            message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
                     to_addr=email, msg=message_text, subject='May 2022 MPI Forum Plenary Day 1 Voting Link')
             #message_id = service.send_message(message=message)
 
