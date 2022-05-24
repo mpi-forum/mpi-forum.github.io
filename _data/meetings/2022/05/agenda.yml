@@ -125,7 +125,7 @@ plenaries:
       title: "expansion of error handler association to cover sessions (and clarifications)"
       issue_number: 511
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "fine-grain recovery (slice 1) (aka ULFM v2)"
@@ -167,5 +167,17 @@ plenaries:
       title: "Tools Topics"
       issue_number:
       presenter: Marc-Andre
+      done: 0
+
+    - type: Discussion
+      title: "Software in the Public Interest"
+      issue_number:
+      presenter: Brian/Martin/Wes
+      done: 0
+
+    - type: Discussion
+      title: "Virtual Meeting Topics and Future Meeting Arrangements"
+      issue_number:
+      presenter: Martin
       done: 0
 
