@@ -90,36 +90,36 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles"
       issue_number: 544
-      presenter: Howard/Joseph
-      done: 0
+      presenter: Joseph
+      done: 1
 
     - type: Reading
       title: "Language bindings chapter needs updating for Sessions model"
       issue_number: 535
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI_LASTUSEDCODE not covered in the sessions model"
       issue_number: 545
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Clarify/fix description and usage of MPI_GROUP_NULL"
       issue_number: 534
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "expansion of error handler association to cover sessions (and clarifications)"
