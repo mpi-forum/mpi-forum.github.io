@@ -131,7 +131,7 @@ plenaries:
       title: "fine-grain recovery (slice 1) (aka ULFM v2)"
       issue_number: 20
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
