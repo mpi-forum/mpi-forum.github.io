@@ -20,14 +20,6 @@ schedule:
     - day: Tuesday, May 24
 
     - start: 2022-05-24T9:00
-      end: 2022-05-24T12:30
-      title: "Plenary (Agenda, see below)"
-
-    - start: 2022-05-24T12:30
-      end: 2022-05-24T12:45
-      title: "Voting Block"
-
-    - start: 2022-05-24T12:45
       end: 2022-05-24T13:00
       title: "Plenary (Agenda, see below)"
 
@@ -37,14 +29,6 @@ schedule:
     - day: Wednesday, May 25
 
     - start: 2022-05-25T9:00
-      end: 2022-05-25T12:30
-      title: "Plenary (Agenda, see below)"
-
-    - start: 2022-05-25T12:30
-      end: 2022-05-25T12:45
-      title: "Voting Block"
-
-    - start: 2022-05-25T12:45
       end: 2022-05-25T13:00
       title: "Plenary (Agenda, see below)"
 
@@ -173,7 +157,7 @@ plenaries:
       title: "Software in the Public Interest"
       issue_number:
       presenter: Brian/Martin/Wes
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Virtual Meeting Topics and Future Meeting Arrangements"
