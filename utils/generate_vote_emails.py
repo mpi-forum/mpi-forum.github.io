@@ -119,7 +119,7 @@ def normalize_curr_attendance(val):
         return 0
 
 def normalize_prev_attendance(val):
-    if val != 0:
+    if val == 1:
         return 1
     else:
         return 0
@@ -163,7 +163,6 @@ def main():
         if org == "Self (Non-voting participant)":
             continue
         elif org not in orgs:
-            #print("Prev 2 New Org: " + org);
             orgs[org] = {'registered': 1, 'attended': normalize_prev_attendance(int(row['attend'])),
                     'prev_1': 1, 'prev_2': 0, 'register_curr': 0, 'attend_prev':
                     normalize_prev_attendance(int(row['attend'])), 'attend_curr': 0};
