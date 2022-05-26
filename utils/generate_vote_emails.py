@@ -100,7 +100,7 @@ class GmailSMTP():
         message['subject'] = subject
         print("Created message for: ",to_addr)
         #print("====")
-        #print(message_text)
+        #print(msg)
         #print("====")
         return {'raw': base64.urlsafe_b64encode(message.as_bytes()).decode()}
 
@@ -273,7 +273,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 12:45pm US Central time on May 24th, 2022.
+Voting will be open until 12:45pm US Central time on May 26th, 2022.
 <br><br>
 Thanks,
 <br>
