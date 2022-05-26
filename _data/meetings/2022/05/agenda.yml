@@ -121,7 +121,7 @@ plenaries:
       title: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
       issue_number: 407
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Add missing win-sync calls to Example 12.21 (RMA)"
@@ -145,12 +145,6 @@ plenaries:
       title: "both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate (RMA)"
       issue_number: 554
       presenter: Joseph
-      done: 0
-
-    - type: Discussion
-      title: "Tools Topics"
-      issue_number:
-      presenter: Marc-Andre
       done: 0
 
     - type: Discussion
