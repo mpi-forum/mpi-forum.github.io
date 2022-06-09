@@ -27,6 +27,11 @@ Comments on the MPI 4.0 should be sent to the [MPI Comments mailing list](/comme
 
 ## Updates
 
+#### BoF at ISC 22, May 31st, 2022
+
+* [Complete set of slides:](bofs/2022-05-mpi-bof.pdf)
+
+
 #### EuroMPI will be held in September 2022 in Chattanooga, Tennessee
 
 * More information at [https://sites.google.com/view/eurompiusa2022](https://sites.google.com/view/eurompiusa2022) (NOTE, NEW DATES)

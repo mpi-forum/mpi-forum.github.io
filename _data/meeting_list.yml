@@ -2,6 +2,81 @@ virtual:
 
   - year: 2022
 
+  - start: 2022-09-21T10:00
+    end: 2022-09-21T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-09-14T10:00
+    end: 2022-09-14T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-09-07T10:00
+    end: 2022-09-07T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-08-31T10:00
+    end: 2022-08-31T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-08-24T10:00
+    end: 2022-08-24T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-08-17T10:00
+    end: 2022-08-17T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-08-10T10:00
+    end: 2022-08-10T12:00
+    title: "Discussion and Pre-Reading of Re-Init (Ignacio)"
+    recording_url: ""
+
+  - start: 2022-08-03T10:00
+    end: 2022-08-03T12:00
+    title: "Tools Topics (Marc-Andre)"
+    recording_url: ""
+
+  - start: 2022-07-27T10:00
+    end: 2022-07-27T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-07-20T10:00
+    end: 2022-07-20T12:00
+    title: "Discussion on time line and gating issues for MPI 4.1 (Martin)"
+    recording_url: ""
+
+  - start: 2022-07-13T10:00
+    end: 2022-07-13T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-07-06T10:00
+    end: 2022-07-06T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-06-29T10:00
+    end: 2022-06-29T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-06-22T10:00
+    end: 2022-06-22T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
+  - start: 2022-06-15T10:00
+    end: 2022-06-15T12:00
+    title: "Topic to be decided / Open slot"
+    recording_url: ""
+
   - start: 2022-04-27T10:00
     end: 2022-04-27T12:00
     title: "Hardware Topologies / Split Types"
