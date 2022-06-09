@@ -16,6 +16,11 @@ def confirm_id(id, name, org, attendance_list):
             return 1;
     return 0;
 
+def delete_from_list(org, ooe_list):
+    for entry in iter(ooe_list):
+        if (org == entry['org_name']):
+            ooe_list.remove(entry)
+
 def main():
     attendance_file=sys.argv[1]; # File with UUIDs for each attendee
     ballot_file=sys.argv[2]; # File with list of ballots on which to be voted
@@ -36,6 +41,7 @@ def main():
     attendance_list = list(csv.DictReader(open(attendance_file)));
     ballot_list = list(csv.DictReader(open(ballot_file)));
     votes_list = list(csv.DictReader(open(votes_file)));
+    ooe_list = list(csv.DictReader(open('ooe_orgs.csv')));
     if prev_ballots_file != "":
         prev_ballot_list = list(csv.DictReader(open(prev_ballots_file)));
         for ballot in prev_ballot_list:
@@ -102,6 +108,23 @@ def main():
             if ballot in vote:
                 votes[org][ballot] = vote[ballot];
                 ballot_dict[ballot][vote[ballot].lower()] = int(ballot_dict[ballot][vote[ballot].lower()]) + 1;
+
+        # Delete the org from the list of orgs that haven't voted yet
+        delete_from_list(org, ooe_list)
+
+    print("\n=====\n");
+    print("Orgs not voted...")
+    for org in ooe_list:
+        name = org['org_name'];
+        print(name);
+        votes[name] = {};
+        votes[name]['org'] = name;
+        for ballot in ballots:
+            if ballot == "org":
+                continue;
+            votes[name][ballot] = 'abstain';
+            ballot_dict[ballot]['abstain'] = int(ballot_dict[ballot]['abstain']) + 1;
+    print("\n=====\n");
 
     print("Writing ballot.csv...");
 

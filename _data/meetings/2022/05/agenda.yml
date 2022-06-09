@@ -20,14 +20,6 @@ schedule:
     - day: Tuesday, May 24
 
     - start: 2022-05-24T9:00
-      end: 2022-05-24T12:30
-      title: "Plenary (Agenda, see below)"
-
-    - start: 2022-05-24T12:30
-      end: 2022-05-24T12:45
-      title: "Voting Block"
-
-    - start: 2022-05-24T12:45
       end: 2022-05-24T13:00
       title: "Plenary (Agenda, see below)"
 
@@ -37,14 +29,6 @@ schedule:
     - day: Wednesday, May 25
 
     - start: 2022-05-25T9:00
-      end: 2022-05-25T12:30
-      title: "Plenary (Agenda, see below)"
-
-    - start: 2022-05-25T12:30
-      end: 2022-05-25T12:45
-      title: "Voting Block"
-
-    - start: 2022-05-25T12:45
       end: 2022-05-25T13:00
       title: "Plenary (Agenda, see below)"
 
@@ -90,54 +74,54 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles"
       issue_number: 544
-      presenter: Howard/Joseph
-      done: 0
+      presenter: Joseph
+      done: 1
 
     - type: Reading
       title: "Language bindings chapter needs updating for Sessions model"
       issue_number: 535
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI_LASTUSEDCODE not covered in the sessions model"
       issue_number: 545
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Clarify/fix description and usage of MPI_GROUP_NULL"
       issue_number: 534
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "expansion of error handler association to cover sessions (and clarifications)"
       issue_number: 511
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "fine-grain recovery (slice 1) (aka ULFM v2)"
       issue_number: 20
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
       issue_number: 407
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Add missing win-sync calls to Example 12.21 (RMA)"
@@ -149,7 +133,7 @@ plenaries:
       title: "MPI_Win_free is synchronizing, except when it isn't (RMA)"
       issue_number: 551
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Replace 'operation' with 'operator' where appropriate (RMA)"
@@ -161,11 +145,17 @@ plenaries:
       title: "both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate (RMA)"
       issue_number: 554
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Discussion
-      title: "Tools Topics"
+      title: "Software in the Public Interest"
       issue_number:
-      presenter: Marc-Andre
+      presenter: Brian/Martin/Wes
+      done: 1
+
+    - type: Discussion
+      title: "Virtual Meeting Topics and Future Meeting Arrangements"
+      issue_number:
+      presenter: Martin
       done: 0
 

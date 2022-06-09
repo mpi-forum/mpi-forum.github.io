@@ -77,6 +77,27 @@ virtual:
     title: "Topic to be decided / Open slot"
     recording_url: ""
 
+  - start: 2022-05-26T09:00
+    end: 2022-05-26T13:00
+    title: "Exceptional Virtual Meeting - May 2022 - Plenary Day 4"
+    recording_url: "https://youtu.be/VTQc31pdb4U"
+
+  - start: 2022-05-25T09:00
+    end: 2022-05-25T13:00
+    title: "Exceptional Virtual Meeting - May 2022 - Plenary Day 3"
+    recording_url: "https://youtu.be/bcVJUsK7m1I"
+
+  - start: 2022-05-24T09:00
+    end: 2022-05-24T13:00
+    title: "Exceptional Virtual Meeting - May 2022 - Plenary Day 2"
+    recording_url: "https://youtu.be/Fm67NVh9Eb4"
+
+  - start: 2022-05-23T09:00
+    end: 2022-05-23T13:00
+    title: "Exceptional Virtual Meeting - May 2022 - Plenary Day 1"
+    recording_url: "https://youtu.be/Ixf6gcxOtEU"
+
+
   - start: 2022-04-27T10:00
     end: 2022-04-27T12:00
     title: "Hardware Topologies / Split Types"
