@@ -14,6 +14,7 @@ MPI-4.0 was approved by the MPI Forum on June 9, 2021.
 
 *   [MPI 4.0 document as PDF](mpi-4.0/mpi40-report.pdf)
 *   [Errata for MPI 4.0](mpi-4.0/errata-40.pdf)
+*   [BibTeX file for citing MPI 4.0](mpi-4.0/citation.bib)
 
 Because of the size, this version does not have a book version. An HTML version
 is under development. However, the PDF version above is the only official
