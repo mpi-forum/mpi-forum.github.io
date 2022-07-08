@@ -25,6 +25,8 @@ This version is available here:
 
 Comments on the MPI 4.0 should be sent to the [MPI Comments mailing list](/comments).
 
+Use [this BiBTeX File](docs/mpi-4.0/citation.bib) to cite the MPI 4.0 Standard. 
+
 ## Updates
 
 #### BoF at ISC 22, May 31st, 2022
