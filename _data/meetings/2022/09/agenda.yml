@@ -52,8 +52,8 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+      title: Fix Incorrect Usage of Rank/Task/etc. in Environment Chapter
+      issue_number: 476
+      presenter: Wes
       done: 0
 
