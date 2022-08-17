@@ -732,6 +732,11 @@ voting:
 
   - year: 2022
 
+  - start: 2022-12-05
+    end: 2022-12-09
+    title: "Exceptional Virtual Meeting"
+    links: "yes"
+
   - start: 2022-09-28
     end: 2022-09-30
     title: "Chattagooga, TN (in conjuction with EuroMPI/USA 2022)"
