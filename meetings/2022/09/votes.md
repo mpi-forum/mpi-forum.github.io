@@ -1,6 +1,6 @@
 ---
 layout: votes
-date: September 21, 2022 - September 23, 2022
+date: September 28, 2022 - September 30, 2022
 year: "2022"
 month: "09"
 rules: 3152013
