@@ -27,11 +27,6 @@ virtual:
     title: "RMA Discussions (Joseph)"
     recording_url: ""
 
-  - start: 2022-08-17T10:00
-    end: 2022-08-17T12:00
-    title: "Topic to be decided / Open slot"
-    recording_url: ""
-
   - start: 2022-07-20T10:00
     end: 2022-07-20T12:00
     title: "Discussion on time line and gating issues for MPI 4.1 (Martin)"
