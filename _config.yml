@@ -32,6 +32,7 @@ navbar-links:
         - Voting Meetings: "meetings"
         - Virtual Meetings: "virtual_meetings"
     Resources:
+        - New to the MPI Forum: "new/"
         - GitHub: "https://www.github.com/mpi-forum/"
         - Mailing Lists: "http://lists.mpi-forum.org"
         - Make Comments: "comments/"

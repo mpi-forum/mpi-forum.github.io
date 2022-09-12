@@ -115,3 +115,9 @@ plenaries:
       issue_number: 496
       presenter: Guillaume
       done: 0
+
+    - type: Reading
+      title: "Memory Allocation Kind Info"
+      issue_number: 580
+      presenter: Guillaume
+      done: 0
