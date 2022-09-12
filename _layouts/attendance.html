@@ -26,6 +26,7 @@ layout: default
         <ol>
             {% for person in site.data.meetings[page.year][page.month].attendance %}
             <li> {{ person.name }} ({{ person.org }})
+                {% if person.remote == "1" %} - Remote{% endif %}
                 {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
                 {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
             </li>

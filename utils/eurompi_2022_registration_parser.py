@@ -15,7 +15,7 @@ def main():
 
     registration_list = list(csv.DictReader(open(registration_file)));
 
-    attend_writer = csv.DictWriter(open('attendance.csv', 'w', newline=''), ['name','org','attend'], quoting = csv.QUOTE_ALL);
+    attend_writer = csv.DictWriter(open('attendance.csv', 'w', newline=''), ['name','org','attend','remote'], quoting = csv.QUOTE_ALL);
     attend_writer.writeheader();
     registration_writer = csv.DictWriter(open('2022-09-28-registration.csv', 'w', newline=''), ['Email Address','What is your full name?','What organization will you be representing?','UUID'], quoting = csv.QUOTE_ALL);
     registration_writer.writeheader();
@@ -28,10 +28,14 @@ def main():
         first_name = registration['First Name'];
         last_name = registration['Last Name'];
         name = first_name + " " + last_name
+        remote = 0
 
         if registration['For the MPI Forum - What organization will you be representing?'] == "":
             print("Omitting non-attendee: " + name);
             continue
+
+        if 'Online Only' in registration['Ticket Type']:
+            remote = 1
 
         email = registration['Email']
         org = registration['For the MPI Forum - What organization will you be representing?']
@@ -45,7 +49,7 @@ def main():
         else:
             names[name] = 1;
 
-        attend_writer.writerow({'name': name, 'org': org, 'attend': '1'});
+        attend_writer.writerow({'name': name, 'org': org, 'attend': '1', 'remote': remote});
         registration_writer.writerow({'Email Address': email, 'What is your full name?': name, 'What organization will you be representing?': org,'UUID': reg_uuid})
 
     print("\n=====\n");
