@@ -1,27 +1,27 @@
 schedule:
 
-    - day: Wednesday, September xx
+    - day: Wednesday, September 21
 
-    - start: 2022-09-21T0:00
-      end: 2022-09-21T23:59
+    - start: 2022-09-21T14:00
+      end: 2022-09-21T19:00
       title: "Placeholder Agenda Item"
 
     - endday: done
 
 
-    - day: Thursday, September xx
+    - day: Thursday, September 22
 
-    - start: 2022-09-22T0:00
-      end: 2022-09-22T23:59
+    - start: 2022-09-22T8:30
+      end: 2022-09-22T19:00
       title: "Placeholder Agenda Item"
 
     - endday: done
 
 
-    - day: Friday, September xx
+    - day: Friday, September 23
 
-    - start: 2022-09-23T0:00
-      end: 2022-09-23T23:59
+    - start: 2022-09-23T8:30
+      end: 2022-09-23T19:00
       title: "Placeholder Agenda Item"
 
     - endday: done
@@ -31,12 +31,24 @@ procedure-votes:
 
 errata-votes:
 
+    - number: 511
+      description: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
+
 no-no-votes:
 
 first-votes:
 
     - number: 544
       description: "Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles"
+
+    - number: 535
+      description: "Language bindings chapter needs updating for Sessions model"
+
+    - number: 545
+      description: "MPI_LASTUSEDCODE not covered in the sessions model"
+
+    - number: 534
+      description: "Clarify/fix description and usage of MPI_GROUP_NULL"
 
 second-votes:
 
@@ -103,4 +115,3 @@ plenaries:
       issue_number: 496
       presenter: Guillaume
       done: 0
-
