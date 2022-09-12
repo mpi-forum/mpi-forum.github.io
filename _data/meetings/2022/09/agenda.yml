@@ -29,9 +29,6 @@ schedule:
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
-
 errata-votes:
 
 no-no-votes:
@@ -52,8 +49,55 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Fix Incorrect Usage of Rank/Task/etc. in Environment Chapter
+      title: "Fix Incorrect Usage of Rank/Task/etc. in Environment Chapter"
       issue_number: 476
       presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
+      issue_number: 23
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "MPI_Win_free is synchronizing, except when it isn't"
+      issue_number: 551
+      presenter: Joseph
+
+    - type: Reading
+      title: "RMA: Add missing win-sync calls to Example 12.21"
+      issue_number: 553
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Example 12.4: RMA communication calls may not block in PSCW"
+      issue_number: 555
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "RMA: Replace 'operation' with 'operator' where appropriate"
+      issue_number: 429
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Deprecate MPI_PROD"
+      issue_number: 567
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter"
+      issue_number: 474
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "Remove/modify text in Section 7.7.1 (Functionality)"
+      issue_number: 496
+      presenter: Guillaume
       done: 0
 
