@@ -35,6 +35,9 @@ no-no-votes:
 
 first-votes:
 
+    - number: 544
+      description: "Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles"
+
 second-votes:
 
 plenaries:

@@ -1,1 +1,2 @@
 topic,type,yes,no,abstain,missed
+"Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles",1st,0,0,0,0
