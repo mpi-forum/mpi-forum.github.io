@@ -1,6 +1,7 @@
 topic,type,yes,no,abstain,missed
+"#581: ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)",no-no
+"#545: MPI_LASTUSEDCODE not covered in the sessions model",errata
+"#511: MPI_Comm_create_from_group and friend - need clarification of errhandler argument",errata
 "#544: Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles",1st
 "#535: Language bindings chapter needs updating for Sessions model",1st
-"#545: MPI_LASTUSEDCODE not covered in the sessions model",1st
 "#534: Clarify/fix description and usage of MPI_GROUP_NULL",1st
-"#511: MPI_Comm_create_from_group and friend - need clarification of errhandler argument",errata

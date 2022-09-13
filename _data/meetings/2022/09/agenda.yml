@@ -34,7 +34,13 @@ errata-votes:
     - number: 511
       description: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
 
+    - number: 545
+      description: "MPI_LASTUSEDCODE not covered in the sessions model"
+
 no-no-votes:
+
+    - number: 581
+      description: "ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)"
 
 first-votes:
 
@@ -43,9 +49,6 @@ first-votes:
 
     - number: 535
       description: "Language bindings chapter needs updating for Sessions model"
-
-    - number: 545
-      description: "MPI_LASTUSEDCODE not covered in the sessions model"
 
     - number: 534
       description: "Clarify/fix description and usage of MPI_GROUP_NULL"
@@ -61,6 +64,12 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: No-No Reading
+      title: "ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)"
+      issue_number: 581
+      presenter: Aurelien
       done: 0
 
     - type: Reading
@@ -120,4 +129,10 @@ plenaries:
       title: "Memory Allocation Kind Info"
       issue_number: 580
       presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "ULFM Fault Tolerance (slice 2: agree)"
+      issue_number: 582
+      presenter: Aurelien
       done: 0
