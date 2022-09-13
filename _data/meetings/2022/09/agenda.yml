@@ -1,27 +1,27 @@
 schedule:
 
-    - day: Wednesday, September 21
+    - day: Wednesday, September 28
 
-    - start: 2022-09-21T14:00
-      end: 2022-09-21T19:00
+    - start: 2022-09-28T14:00
+      end: 2022-09-28T19:00
       title: "Placeholder Agenda Item"
 
     - endday: done
 
 
-    - day: Thursday, September 22
+    - day: Thursday, September 29
 
-    - start: 2022-09-22T8:30
-      end: 2022-09-22T19:00
+    - start: 2022-09-29T8:30
+      end: 2022-09-29T19:00
       title: "Placeholder Agenda Item"
 
     - endday: done
 
 
-    - day: Friday, September 23
+    - day: Friday, September 30
 
-    - start: 2022-09-23T8:30
-      end: 2022-09-23T19:00
+    - start: 2022-09-30T8:30
+      end: 2022-09-30T19:00
       title: "Placeholder Agenda Item"
 
     - endday: done
