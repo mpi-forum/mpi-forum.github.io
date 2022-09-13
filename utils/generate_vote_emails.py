@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.8
 
 import urllib.parse
 import csv
@@ -132,10 +132,10 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2021/12/attendance.csv"
-    prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/02/attendance.csv"
-    curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/05/attendance.csv"
-    curr_registration_file = "/Users/wbland/mpi/meeting-details/2022-05-may/2022-05-23-registration.csv"
+    prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/02/attendance.csv"
+    prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/05/attendance.csv"
+    curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/09/attendance.csv"
+    curr_registration_file = "/Users/wbland/mpi/meeting-details/2022-09-sep/2022-09-28-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
     registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScGKq2F_XX72i1-ZTuW5tjDNPp3dTu9pFPVavAk14RxlkjWdw/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
 
