@@ -5,14 +5,17 @@ schedule:
     - start: 9:00am
       end: 12:30pm
       title: "Plenary Sessions"
+      recording_url: "https://youtu.be/T6FQQL7rd8Q"
 
     - start: 12:30pm
       end: 12:45pm
       title: "Voting Block with Parallel Plenary Sessions (could start later)"
+      recording_url: "https://youtu.be/T6FQQL7rd8Q"
 
     - start: 12:45pm
       end: 1:00pm
       title: "Plenary Sessions"
+      recording_url: "https://youtu.be/T6FQQL7rd8Q"
 
     - endday: done
 
@@ -22,14 +25,17 @@ schedule:
     - start: 9:00am
       end: 12:30pm
       title: "Plenary Sessions"
+      recording_url: "https://youtu.be/MdBcHde7894"
 
     - start: 12:30pm
       end: 12:45pm
       title: "Voting Block with Parallel Plenary Sessions (could start later)"
+      recording_url: "https://youtu.be/MdBcHde7894"
 
     - start: 12:45pm
       end: 1:00pm
       title: "Plenary Sessions"
+      recording_url: "https://youtu.be/MdBcHde7894"
 
     - endday: done
 
@@ -39,14 +45,17 @@ schedule:
     - start: 9:00am
       end: 9:30am
       title: "Plenary Sessions"
+      recording_url: "https://youtu.be/6p4Zg0v3ItE"
 
     - start: 9:30am
       end: 9:45am
       title: "Voting Block with Parallel Plenary Sessions (could start later)"
+      recording_url: "https://youtu.be/6p4Zg0v3ItE"
 
     - start: 9:45am
       end: 1:00pm
       title: "Plenary Sessions"
+      recording_url: "https://youtu.be/6p4Zg0v3ItE"
 
     - endday: done
 

@@ -22,27 +22,6 @@ virtual:
     title: "Discussion on time line and gating issues for MPI 4.1 (Martin)"
     recording_url: "https://youtu.be/yhDGyu7EYgo"
 
-  - start: 2022-05-26T09:00
-    end: 2022-05-26T13:00
-    title: "Exceptional Virtual Meeting - May 2022 - Plenary Day 4"
-    recording_url: "https://youtu.be/VTQc31pdb4U"
-
-  - start: 2022-05-25T09:00
-    end: 2022-05-25T13:00
-    title: "Exceptional Virtual Meeting - May 2022 - Plenary Day 3"
-    recording_url: "https://youtu.be/bcVJUsK7m1I"
-
-  - start: 2022-05-24T09:00
-    end: 2022-05-24T13:00
-    title: "Exceptional Virtual Meeting - May 2022 - Plenary Day 2"
-    recording_url: "https://youtu.be/Fm67NVh9Eb4"
-
-  - start: 2022-05-23T09:00
-    end: 2022-05-23T13:00
-    title: "Exceptional Virtual Meeting - May 2022 - Plenary Day 1"
-    recording_url: "https://youtu.be/Ixf6gcxOtEU"
-
-
   - start: 2022-04-27T10:00
     end: 2022-04-27T12:00
     title: "Hardware Topologies / Split Types"
@@ -73,40 +52,20 @@ virtual:
     title: "Reserved Namespaces"
     recording_url: "https://youtu.be/IWnPn4lQhi0"
 
-  - start: 2022-03-02T09:00
-    end: 2022-03-02T13:00
-    title: "Exceptional Virtual Meeting - February 2022 - Plenary Day 1"
-    recording_url: "https://youtu.be/xdFMw9J1Uzs"
-
-  - start: 2022-03-01T09:00
-    end: 2022-03-01T13:00
-    title: "Exceptional Virtual Meeting - February 2022 - Fault Tolerance WG"
-    recording_url: "https://youtu.be/8FqUFl6VRVU"
-
-  - start: 2022-03-01T09:00
-    end: 2022-03-01T13:00
-    title: "Exceptional Virtual Meeting - February 2022 - RMA WG"
-    recording_url: "https://youtu.be/Z07Tmifd7EQ"
-
-  - start: 2022-02-28T09:00
-    end: 2022-02-28T13:00
-    title: "Exceptional Virtual Meeting - February 2022 - Sessions WG"
-    recording_url: "https://youtu.be/COETnRBOxm0"
-
   - start: 2022-02-23T10:00
     end: 2022-02-23T12:00
     title: "Sessions (Howard / Aurelien)"
-    recording_url: ""
+    recording_url: "none"
 
   - start: 2022-02-16T10:00
     end: 2022-02-16T12:00
     title: "Hybrid / Accelerators Discussions (Jim D)"
-    recording_url: ""
+    recording_url: "none"
 
   - start: 2022-02-09T10:00
     end: 2022-02-09T12:00
     title: "HW Topologies (Guillaume M)"
-    recording_url: ""
+    recording_url: "none"
 
   - start: 2022-02-02T10:00
     end: 2022-02-02T12:00
@@ -130,35 +89,10 @@ virtual:
 
   - year: 2021
 
-  - start: 2021-12-09T09:00
-    end: 2021-12-09T12:00
-    title: "Exceptional Virtual Meeting - Decmeber 2021 - Day 3"
-    recording_url: "https://youtu.be/Avb_eLMB5KY"
-
-  - start: 2021-12-07T09:00
-    end: 2021-12-07T12:00
-    title: "Exceptional Virtual Meeting - Decmeber 2021 - Day 2"
-    recording_url: "https://youtu.be/-aAsHQCZUBI"
-
-  - start: 2021-12-06T09:00
-    end: 2021-12-06T12:00
-    title: "Exceptional Virtual Meeting - Decmeber 2021 - Day 1"
-    recording_url: "https://youtu.be/DWt9vgkW3s0"
-
   - start: 2021-10-21T10:00
     end: 2021-10-21T12:00
     title: "Seessions Error Handling"
     recording_url: "https://youtu.be/6lGbawqC02c"
-
-  - start: 2021-09-10T09:00
-    end: 2021-09-10T13:00
-    title: "Exceptional Virtual Meeting - September 2021 - Day 2"
-    recording_url: "https://youtu.be/B4QfHKtL9nc"
-
-  - start: 2021-09-09T09:00
-    end: 2021-09-09T13:00
-    title: "Exceptional Virtual Meeting - September 2021 - Day 1"
-    recording_url: "https://youtu.be/JA6Y0SUj6Q4"
 
   - start: 2021-08-25T10:00
     end: 2021-08-25T12:00
@@ -178,22 +112,7 @@ virtual:
   - start: 2021-07-21T10:00
     end: 2021-07-21T12:00
     title: "MPI 4.1 Planning"
-    recording_url: ""
-
-  - start: 2021-06-09T09:00
-    end: 2021-06-09T13:00
-    title: "Exceptional Virtual Meeting - June 2021 - Day 3"
-    recording_url: "https://youtu.be/6p4Zg0v3ItE"
-
-  - start: 2021-06-08T09:00
-    end: 2021-06-08T13:00
-    title: "Exceptional Virtual Meeting - June 2021 - Day 2"
-    recording_url: "https://youtu.be/MdBcHde7894"
-
-  - start: 2021-06-07T09:00
-    end: 2021-06-07T13:00
-    title: "Exceptional Virtual Meeting - June 2021 - Day 1"
-    recording_url: "https://youtu.be/T6FQQL7rd8Q"
+    recording_url: "none"
 
   - start: 2021-06-02T10:00
     end: 2021-06-02T12:00
@@ -245,26 +164,6 @@ virtual:
     title: "MPI Processes"
     recording_url: "https://youtu.be/NcQVL0LeLMM"
 
-  - start: 2021-02-22T09:00
-    end: 2021-02-22T13:00
-    title: "Exceptional Virtual Meeting (Day 4)"
-    recording_url: "https://youtu.be/woTNuYEj64k"
-
-  - start: 2021-02-22T09:00
-    end: 2021-02-22T13:00
-    title: "Exceptional Virtual Meeting (Day 3)"
-    recording_url: "https://youtu.be/T3ZoegAoBDw"
-
-  - start: 2021-02-22T09:00
-    end: 2021-02-22T13:00
-    title: "Exceptional Virtual Meeting (Day 2)"
-    recording_url: "https://youtu.be/6XZ2X1AQGSI"
-
-  - start: 2021-02-22T09:00
-    end: 2021-02-22T13:00
-    title: "Exceptional Virtual Meeting (Day 1)"
-    recording_url: "https://youtu.be/Pl9VqR_j4t4"
-
   - start: 2021-02-17T10:00
     end: 2021-02-17T12:00
     title: "MPI 4.0 Release Discussions"
@@ -297,26 +196,6 @@ virtual:
     title: "MPI 4.0 Review Topics"
     recording_url: "https://youtu.be/xanGrN1aKkY"
 
-  - start: 2020-12-10T09:00
-    end: 2020-12-10T13:00
-    title: "Exceptional Virtual Meeting (Day 4)"
-    recording_url: "https://youtu.be/cTtwiQcflnU"
-
-  - start: 2020-12-09T09:00
-    end: 2020-12-09T13:00
-    title: "Exceptional Virtual Meeting (Day 3)"
-    recording_url: "https://youtu.be/Ih8FELKaiJQ"
-
-  - start: 2020-12-08T09:00
-    end: 2020-12-08T13:00
-    title: "Exceptional Virtual Meeting (Day 2)"
-    recording_url: "https://youtu.be/qw4L9TKjfxo"
-
-  - start: 2020-12-07T09:00
-    end: 2020-12-07T13:00
-    title: "Exceptional Virtual Meeting (Day 1)"
-    recording_url: "https://youtu.be/ZF5HcVsmzlg"
-
   - start: 2020-12-02T10:00
     end: 2020-12-02T12:00
     title: "MPI 4.0 Review Topics"
@@ -347,21 +226,6 @@ virtual:
     title: "MPI 4.0 Chapter Committee Workflow"
     recording_url: "https://youtu.be/TUyZvWMuzd8"
 
-  - start: 2020-09-30T09:00
-    end: 2020-09-30T12:00
-    title: "Exceptional Virtual Meeting (Day 3)"
-    recording_url: "https://youtu.be/zX1XneiVTUg"
-
-  - start: 2020-09-29T09:00
-    end: 2020-09-29T12:00
-    title: "Exceptional Virtual Meeting (Day 2)"
-    recording_url: "https://youtu.be/mBLGkQMY-74"
-
-  - start: 2020-09-28T09:00
-    end: 2020-09-28T12:00
-    title: "Exceptional Virtual Meeting (Day 1)"
-    recording_url: "https://youtu.be/D4kNe1O47WU"
-
   - start: 2020-09-09T10:00
     end: 2020-09-09T12:00
     title: "Info Handling before Init / After Finalize (#tbd)"
@@ -377,21 +241,6 @@ virtual:
     title: "Terms Table (#96) and Big Count Changes (#137)"
     recording_url: "https://youtu.be/fZXYtuGba44"
 
-  - start: 2020-08-19T09:00
-    end: 2020-08-19T12:00
-    title: "Exceptional Virtual Meeting (Day 3)"
-    recording_url: "https://youtu.be/qJtjWkfv-_4"
-
-  - start: 2020-08-18T09:00
-    end: 2020-08-18T12:00
-    title: "Exceptional Virtual Meeting (Day 2)"
-    recording_url: "https://youtu.be/lvpZpMOyEiw"
-
-  - start: 2020-08-17T09:00
-    end: 2020-08-17T12:00
-    title: "Exceptional Virtual Meeting (Day 1)"
-    recording_url: "https://youtu.be/AuYulzhzDeI"
-
   - start: 2020-07-29T10:00
     end: 2020-07-29T12:00
     title: "Terms and Partitioned Communication"
@@ -401,21 +250,6 @@ virtual:
     end: 2020-07-15T12:00
     title: "MPI_T / RMA"
     recording_url: "https://youtu.be/GouAT18b6YI"
-
-  - start: 2020-07-01T12:00
-    end: 2020-07-01T12:00
-    title: "Exceptional Virtual Meeting (Day 3)"
-    recording_url: "https://youtu.be/w96NyzgGKQk"
-
-  - start: 2020-06-30T09:00
-    end: 2020-06-30T12:00
-    title: "Exceptional Virtual Meeting (Day 2)"
-    recording_url: "https://youtu.be/4SPeWMEz8Uw"
-
-  - start: 2020-06-29T09:00
-    end: 2020-06-29T12:00
-    title: "Exceptional Virtual Meeting (Day 1)"
-    recording_url: "https://youtu.be/k6lMdhnc8u8"
 
   - start: 2020-06-17T10:00
     end: 2020-06-17T12:00
@@ -549,7 +383,6 @@ virtual:
     end: 2019-07-17T12:00
     title: "Partitioned Communication"
     recording_url: "https://youtu.be/hGueJqBicCQ"
-    recording_password: fDMk42aP
 
   - start: 2019-07-10T11:00
     end: 2019-07-10T12:00
@@ -724,7 +557,7 @@ voting:
 
   - start: 2022-09-28
     end: 2022-09-30
-    title: "Chattagooga, TN (in conjuction with EuroMPI/USA 2022)"
+    title: "Chattagooga, TN (in conjuction with EuroMPI/USA 2022) - Run with Exceptional Virtual Meeting rules"
     links: "yes"
 
   - start: 2022-05-23

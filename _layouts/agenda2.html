@@ -53,6 +53,7 @@ layout: default
                  {% if item.extra != "nolink" %}
                  <th>Call Info</th>
                  {% endif %}
+                 <th>Recording</th>
              </tr>
              {% assign laststart = 0 %}
              {% elsif item.endday.size > 0 %}
@@ -85,13 +86,20 @@ layout: default
                  </A>
                  {% endif %}
              </td>
+             <td>
              {% if item.title != "Lunch" %}
              {% if item.title != "Break" %}
              {% if item.extra != "nolink" %}
-             <td><a href="{{page.webex}}">Zoom Info</a></td>
+             <a href="{{page.webex}}">Zoom Info</a>
              {% endif %}
              {% endif %}
              {% endif %}
+             </td>
+             <td>
+             {% if item.recording_url.size > 0 %}
+             <a href="{{item.recording_url}}">Recording</a>
+             {% endif %}
+             </td>
          </tr>
          {% endif %}
          {% endfor %}

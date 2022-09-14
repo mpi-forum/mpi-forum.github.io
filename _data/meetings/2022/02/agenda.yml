@@ -5,6 +5,7 @@ schedule:
     - start: 2022-02-28T9:00
       end: 2022-02-28T13:00
       title: "Sessions Working Group Time (lead: Howard/Dan)"
+      recording_url: "https://youtu.be/COETnRBOxm0"
 
     - endday: done
 
@@ -14,10 +15,12 @@ schedule:
     - start: 2022-03-01T9:00
       end: 2022-03-01T13:00
       title: "RMA Working Group Time (lead: Joseph)"
+      recording_url: "https://youtu.be/Z07Tmifd7EQ"
 
     - start: 2022-03-01T9:00
       end: 2022-03-01T13:00
       title: "FT Working Group Time (lead: Aurelien)"
+      recording_url: "https://youtu.be/8FqUFl6VRVU"
 
     - endday: done
 
@@ -27,14 +30,17 @@ schedule:
     - start: 2022-03-02T9:00
       end: 2022-03-02T12:30
       title: "Plenary (Agenda, see below)"
+      recording_url: "https://youtu.be/xdFMw9J1Uzs"
 
     - start: 2022-03-02T12:30
       end: 2022-03-02T12:45
       title: "Voting Block"
+      recording_url: "https://youtu.be/xdFMw9J1Uzs"
 
     - start: 2022-03-02T12:45
       end: 2022-03-02T13:00
       title: "Plenary (Agenda, see below)"
+      recording_url: "https://youtu.be/xdFMw9J1Uzs"
 
     - endday: done
 

@@ -5,10 +5,12 @@ schedule:
     - start: 10:00am
       end: 10:00am
       title: "Voting opens for procedures"
+      recording_url: "https://youtu.be/qacd_msPsQQ"
 
     - start: 10:00am
       end: 12:00pm
       title: "Plenaries"
+      recording_url: "https://youtu.be/qacd_msPsQQ"
 
     - endday: done
 

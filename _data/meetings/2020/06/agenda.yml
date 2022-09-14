@@ -7,6 +7,7 @@ schedule:
     - start: 9:00am
       end: 12:00pm
       title: "Plenary Sessions"
+      recording_url: "https://youtu.be/k6lMdhnc8u8"
 
     - endday: done
 
@@ -16,15 +17,18 @@ schedule:
     - start: 9:00am
       end: 9:30am
       title: "Plenary Sessions"
+      recording_url: "https://youtu.be/4SPeWMEz8Uw"
 
     - start: 9:30am
       end: 10:00am
       title: "Voting Block 1"
-      
+      recording_url: "https://youtu.be/4SPeWMEz8Uw"
+
     - start: 10:00am
       end: 12:00pm
       title: "Plenary Sessions"
-      
+      recording_url: "https://youtu.be/4SPeWMEz8Uw"
+
     - endday: done
 
 
@@ -33,15 +37,18 @@ schedule:
     - start: 9:00am
       end: 9:30am
       title: "Plenary Sessions"
+      recording_url: "https://youtu.be/w96NyzgGKQk"
 
     - start: 9:30am
       end: 10:00am
       title: "Voting Block 2"
-      
+      recording_url: "https://youtu.be/w96NyzgGKQk"
+
     - start: 10:00am
       end: 12:00pm
       title: "Plenary Sessions"
-      
+      recording_url: "https://youtu.be/w96NyzgGKQk"
+
     - endday: done
 
 

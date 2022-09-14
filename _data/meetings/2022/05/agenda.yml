@@ -9,10 +9,12 @@ schedule:
     - start: 2022-05-23T10:00
       end: 2022-05-23T11:00
       title: "HACC WG Working Group Time"
+      recording_url: "https://youtu.be/Ixf6gcxOtEU"
 
     - start: 2022-05-23T11:00
       end: 2022-05-23T13:00
       title: "Sessions WG Working Group Time"
+      recording_url: "https://youtu.be/Ixf6gcxOtEU?t=4661"
 
     - endday: done
 
@@ -22,6 +24,7 @@ schedule:
     - start: 2022-05-24T9:00
       end: 2022-05-24T13:00
       title: "Plenary (Agenda, see below)"
+      recording_url: "https://youtu.be/Fm67NVh9Eb4"
 
     - endday: done
 
@@ -31,6 +34,7 @@ schedule:
     - start: 2022-05-25T9:00
       end: 2022-05-25T13:00
       title: "Plenary (Agenda, see below)"
+      recording_url: "https://youtu.be/bcVJUsK7m1I"
 
     - endday: done
 
@@ -40,14 +44,17 @@ schedule:
     - start: 2022-05-26T9:00
       end: 2022-05-26T12:30
       title: "Plenary (Agenda, see below)"
+      recording_url: "https://youtu.be/VTQc31pdb4U"
 
     - start: 2022-05-26T12:30
       end: 2022-05-26T12:45
       title: "Voting Block"
+      recording_url: "https://youtu.be/VTQc31pdb4U"
 
     - start: 2022-05-26T12:45
       end: 2022-05-26T13:00
       title: "Plenary (Agenda, see below)"
+      recording_url: "https://youtu.be/VTQc31pdb4U"
 
     - endday: done
 
