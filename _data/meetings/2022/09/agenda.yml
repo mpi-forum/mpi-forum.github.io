@@ -136,3 +136,9 @@ plenaries:
       issue_number: 582
       presenter: Aurelien
       done: 0
+
+    - type: Reading
+      title: "MPI_Parrived_any API as an addition for Partititioned Communication"
+      issue_number: 537
+      presenter: Ryan
+      done: 0
