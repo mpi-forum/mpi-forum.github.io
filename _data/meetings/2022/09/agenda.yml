@@ -143,6 +143,12 @@ plenaries:
       presenter: Ryan
       done: 0
 
+    - type: Reading
+      title: "Synchronization on Partitioned Communication for Accelerator Optimization"
+      issue_number: 302
+      presenter: Ryan
+      done: 0
+
     - type: Plenary
       title: "MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0"
       issue_number: 556
