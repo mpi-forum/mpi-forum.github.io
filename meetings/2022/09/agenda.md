@@ -1,5 +1,5 @@
 ---
-layout: agenda2
+layout: agenda-et
 date: September 28, 2022 - September 30, 2022
 permalink: meetings/2022/09/agenda
 year: "2022"
