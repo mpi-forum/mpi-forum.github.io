@@ -154,3 +154,9 @@ plenaries:
       issue_number: 556
       presenter: Christoph
       done: 0
+
+    - type: Plenary
+      title: "Introduce the concept of side documents"
+      issue_number: 562
+      presenter: Dan
+      done: 0
