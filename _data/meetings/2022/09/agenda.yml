@@ -27,7 +27,7 @@ schedule:
       title: Break with IWomp
 
     - start: 2022-09-28T15:30
-      end: 2022-09-28T18:00
+      end: 2022-09-28T17:00
       title: "Plenary (see below)"
 
     - endday: done
@@ -64,7 +64,7 @@ schedule:
       title: Break with IWomp
 
     - start: 2022-09-29T15:30
-      end: 2022-09-29T18:00
+      end: 2022-09-29T17:00
       title: "Plenary (see below) and MPI 4.1 Discussion"
     - endday: done
 
@@ -100,7 +100,7 @@ schedule:
       title: Break with IWomp
 
     - start: 2022-09-30T15:30
-      end: 2022-09-30T18:00
+      end: 2022-09-30T17:00
       title: "Plenary (see below)"
 
     - endday: done
