@@ -39,9 +39,13 @@ schedule:
       end: 2022-09-29T10:00
       title: "Plenary (see below)"
       
+    - start: 2022-09-29T9:50
+      end: 2022-09-29T10:00
+      title: Voting Announcements
+
     - start: 2022-09-29T10:00
       end: 2022-09-29T10:30
-      title: Break with IWomp
+      title: Break with IWomp and Voting Time (until 10:35)
 
     - start: 2022-09-29T10:30
       end: 2022-09-29T12:00
@@ -71,9 +75,13 @@ schedule:
       end: 2022-09-30T10:00
       title: "Plenary (see below)"
       
+    - start: 2022-09-30T9:50
+      end: 2022-09-30T10:00
+      title: Voting Announcements
+
     - start: 2022-09-30T10:00
       end: 2022-09-30T10:30
-      title: Break with IWomp
+      title: Break with IWomp and Voting Time (until 10:35)
 
     - start: 2022-09-30T10:30
       end: 2022-09-30T12:00
