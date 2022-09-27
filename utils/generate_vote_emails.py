@@ -137,9 +137,9 @@ def main():
     curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/09/attendance.csv"
     curr_registration_file = "/Users/wbland/mpi/meeting-details/2022-09-sep/2022-09-28-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
-    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScGKq2F_XX72i1-ZTuW5tjDNPp3dTu9pFPVavAk14RxlkjWdw/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
+    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScGarK1_CK2sEiIpL5tPTTf4k5nOA8CCVzyjYNzHFUJoLjmzA/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
 
-    prev_ooe = 35
+    prev_ooe = 34
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
