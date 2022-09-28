@@ -222,7 +222,7 @@ plenaries:
     - type: Reading
       title: "Memory Allocation Kind Info"
       issue_number: 580
-      presenter: Guillaume
+      presenter: Jim
       done: 0
 
     - type: Reading
