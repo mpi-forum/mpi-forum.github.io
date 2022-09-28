@@ -1,54 +1,65 @@
-"name","org","attend","remote"
-"Yanfei Guo","Argonne National Laboratory","1","0"
-"Wes Bland","Meta","1","0"
-"Ron Lieberman","AMD","1","1"
-"Bronis de Supinski","Lawrence Livermore National Laboratory","1","0"
-"Dominik Huber","Technical University of Munich","1","0"
-"Claudia Blaas-Schenner","VSC Research Center, TU Wien","1","1"
-"Ignacio Laguna","Lawrence Livermore National Laboratory","1","0"
-"Patrick Bridges","University of New Mexico","1","0"
-"Derek Schafer","University of New Mexico","1","0"
-"Amanda Bienz","University of New Mexico","1","0"
-"Shinji Sumimoto","The University of Tokyo","1","0"
-"Julien Jaeger","CEA","1","0"
-"Maria  Garzaran","Intel Corporation","1","1"
-"Aristotle Martin","Self (Non-voting participant)","1","0"
-"brian smith","Cornelis Networks","1","0"
-"Guillaume  Mercier","INRIA","1","1"
-"Howard Pritchard","Los Alamos National Laboratory","1","0"
-"Martin Schulz","Technical University of Munich","1","0"
-"Rolf Rabenseifner","HLRS, University of Stuttgart","1","1"
-"Jan Ciesko","Sandia National Laboratory","1","0"
-"Evan Suggs","University of Tennessee, Chattanooga","1","0"
-"Matthew Dosanjh","Sandia National Laboratory","1","1"
-"Christoph Niethammer","HLRS, University of Stuttgart","1","1"
-"Tobias Haas","HLRS, University of Stuttgart","1","1"
-"William Gropp","University of Illinois Urbana-Champaign","1","1"
-"sidharth kumar","University of Alabama at Birmingham","1","0"
-"Thomas Naughton","Oak Ridge National Laboratory","1","1"
-"Quincey Koziol","Amazon","1","0"
-"Anton Rydahl","Technical University of Denmark","1","0"
-"Nathaniel Shineman","Ohio State University","1","0"
-"Michael Klemm","AMD","1","1"
-"Purushotham Bangalore","University of Alabama","1","0"
-"Edgar Gabriel","AMD","1","1"
-"Joseph Schuchart","University of Tennessee, Knoxville","1","0"
-"Rylan Yancey","University of Tennessee, Chattanooga","1","0"
-"Edgar Leon","Lawrence Livermore National Laboratory","1","0"
-"Vivek Kale","Sandia National Laboratory","1","0"
-"Anthony Skjellum","University of Tennessee, Chattanooga","1","0"
-"Daniel Holmes","Intel Corporation","1","1"
-"Jean-Baptiste Besnard","ParaTools SAS","1","1"
-"Aurelien Bouteiller","University of Tennessee, Knoxville","1","1"
-"Ahmed Eleliemy","University of Basel","1","1"
-"Al Geist","Self (Non-voting participant)","1","0"
-"James Dinan","NVIDIA","1","1"
-"Masumi Sugiyama","University of Tennessee, Chattanooga","1","0"
-"shubbhi taneja","Self (Non-voting participant)","1","1"
-"Juan Salamanca","São Paulo State University","1","0"
-"Md. Aman Ullah Al Amin","University of Tennessee, Chattanooga","1","0"
-"Asaf Varol","University of Tennessee, Chattanooga","1","0"
-"Georgiana Mania","Self (Non-voting participant)","1","1"
-"Matthew Whitlock","Sandia National Laboratory","1","1"
-"Pierre Lemarinier","Atos","1","1"
-"Ryan Grant","Queen's University","1","1"
+name,org,attend,remote
+Quincey Koziol,Amazon,1,0
+Edgar Gabriel,AMD,1,1
+Michael Klemm,AMD,1,1
+Yanfei Guo,Argonne National Laboratory,1,0
+Pierre Lemarinier,Atos,1,1
+Julien Jaeger,CEA,1,0
+Brian Smith,Cornelis Networks,1,0
+Rolf Rabenseifner,"HLRS, University of Stuttgart",1,1
+Christoph Niethammer,"HLRS, University of Stuttgart",1,1
+Tobias Haas,"HLRS, University of Stuttgart",1,1
+Naveen Ravichandrasekaran,HPE,1,1
+Martin Schreiber,INRIA,1,1
+Guillaume Mercier,INRIA,1,1
+Daniel Holmes,Intel Corporation,1,1
+Maria Garzaran,Intel Corporation,1,1
+Alex Brooks,Intel Corporation,1,1
+Ignacio Laguna,Lawrence Livermore National Laboratory,1,0
+Howard Pritchard,Los Alamos National Laboratory,1,0
+Wes Bland,Meta,1,0
+James Dinan,NVIDIA,1,1
+Thomas Naughton,Oak Ridge National Laboratory,1,1
+Nathaniel Shineman,Ohio State University,1,0
+Jean-Baptiste Besnard,ParaTools SAS,1,1
+Marc-Andre Hermanns,RWTH Aachen University,1,1
+Vivek Kale,Sandia National Laboratory,1,0
+Dominik Huber,Technical University of Munich,1,0
+Martin Schulz,Technical University of Munich,1,0
+Shinji Sumimoto,The University of Tokyo,1,0
+Purushotham Bangalore,University of Alabama,1,0
+Ahmed Eleliemy,University of Basel,1,1
+Patrick Bridges,University of New Mexico,1,0
+Derek Schafer,University of New Mexico,1,0
+Anthony Skjellum,"University of Tennessee, Chattanooga",1,0
+Grace Nansamba,"University of Tennessee, Chattanooga",1,0
+Evelyn Namugwanya,"University of Tennessee, Chattanooga",1,0
+Joseph Schuchart,"University of Tennessee, Knoxville",1,0
+Aurelien Bouteiller,"University of Tennessee, Knoxville",1,1
+Claudia Blaas-Schenner,"VSC Research Center, TU Wien",1,1
+Ron Lieberman,AMD,-1,1
+Bronis de Supinski,Lawrence Livermore National Laboratory,-1,0
+Edgar Leon,Lawrence Livermore National Laboratory,-1,0
+Ryan Grant,Queen's University,-1,1
+Benjamin Kitor,Queen's University,-1,1
+Jannis Klinkenberg,RWTH Aachen University,-1,1
+Jan Ciesko,Sandia National Laboratory,-1,0
+Matthew Dosanjh,Sandia National Laboratory,-1,1
+Matthew Whitlock,Sandia National Laboratory,-1,1
+Juan Salamanca,Sao Paulo State University,-1,0
+Tim Jammer,Technical University of Darmstadt,-1,0
+Anton Rydahl,Technical University of Denmark,-1,0
+Andrew Worley,Tennessee Technological University,-1,0
+Rajat Bhattarai,Tennessee Technological University,-1,0
+Muzakhir Amanzholov,Tennessee Technological University,-1,0
+Victor Eijkhout,The Texas Advanced Computing Center,-1,1
+Nick Netterville,University of Alabama at Birmingham,-1,1
+Brandon Neth,University of Arizona,-1,0
+William Gropp,University of Illinois Urbana-Champaign,-1,1
+Amanda Bienz,University of New Mexico,-1,0
+Evan Suggs,"University of Tennessee, Chattanooga",-1,0
+Rylan Yancey,"University of Tennessee, Chattanooga",-1,0
+Masumi Sugiyama,"University of Tennessee, Chattanooga",-1,0
+Md. Aman Ullah Al Amin,"University of Tennessee, Chattanooga",-1,0
+Asaf Varol,"University of Tennessee, Chattanooga",-1,0
+Adriel Poo Armas,"University of Tennessee, Chattanooga",-1,0
