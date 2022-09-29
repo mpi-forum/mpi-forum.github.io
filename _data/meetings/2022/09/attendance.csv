@@ -16,12 +16,14 @@ Daniel Holmes,Intel Corporation,1,1
 Maria Garzaran,Intel Corporation,1,1
 Alex Brooks,Intel Corporation,1,1
 Ignacio Laguna,Lawrence Livermore National Laboratory,1,0
+Bronis de Supinski,Lawrence Livermore National Laboratory,1,0
 Howard Pritchard,Los Alamos National Laboratory,1,0
 Wes Bland,Meta,1,0
 James Dinan,NVIDIA,1,1
 Thomas Naughton,Oak Ridge National Laboratory,1,1
 Nathaniel Shineman,Ohio State University,1,0
 Jean-Baptiste Besnard,ParaTools SAS,1,1
+Ryan Grant,Queen's University,1,1
 Marc-Andre Hermanns,RWTH Aachen University,1,1
 Vivek Kale,Sandia National Laboratory,1,0
 Dominik Huber,Technical University of Munich,1,0
@@ -30,6 +32,7 @@ Victor Eijkhout,The Texas Advanced Computing Center,1,1
 Shinji Sumimoto,The University of Tokyo,1,0
 Purushotham Bangalore,University of Alabama,1,0
 Ahmed Eleliemy,University of Basel,1,1
+William Gropp,University of Illinois Urbana-Champaign,1,1
 Patrick Bridges,University of New Mexico,1,0
 Derek Schafer,University of New Mexico,1,0
 Anthony Skjellum,"University of Tennessee, Chattanooga",1,0
@@ -39,9 +42,7 @@ Joseph Schuchart,"University of Tennessee, Knoxville",1,0
 Aurelien Bouteiller,"University of Tennessee, Knoxville",1,1
 Claudia Blaas-Schenner,"VSC Research Center, TU Wien",1,1
 Ron Lieberman,AMD,-1,1
-Bronis de Supinski,Lawrence Livermore National Laboratory,-1,0
 Edgar Leon,Lawrence Livermore National Laboratory,-1,0
-Ryan Grant,Queen's University,-1,1
 Benjamin Kitor,Queen's University,-1,1
 Jannis Klinkenberg,RWTH Aachen University,-1,1
 Jan Ciesko,Sandia National Laboratory,-1,0
@@ -55,7 +56,6 @@ Rajat Bhattarai,Tennessee Technological University,-1,0
 Muzakhir Amanzholov,Tennessee Technological University,-1,0
 Nick Netterville,University of Alabama at Birmingham,-1,1
 Brandon Neth,University of Arizona,-1,0
-William Gropp,University of Illinois Urbana-Champaign,-1,1
 Amanda Bienz,University of New Mexico,-1,0
 Evan Suggs,"University of Tennessee, Chattanooga",-1,0
 Rylan Yancey,"University of Tennessee, Chattanooga",-1,0
