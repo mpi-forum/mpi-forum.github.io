@@ -194,7 +194,7 @@ plenaries:
       title: "Example 12.4: RMA communication calls may not block in PSCW"
       issue_number: 555
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA: Replace 'operation' with 'operator' where appropriate"
@@ -212,13 +212,13 @@ plenaries:
       title: "Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter"
       issue_number: 474
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Remove/modify text in Section 7.7.1 (Functionality)"
       issue_number: 496
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Memory Allocation Kind Info"
