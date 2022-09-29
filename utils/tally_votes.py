@@ -2,6 +2,7 @@
 
 import csv
 import sys
+import os.path
 
 # For this function to work, the attendance list needs to include the exact fields as described
 # below. Otherwise this function won't be able to confirm that the ballot came from the correct
@@ -25,15 +26,18 @@ def main():
     attendance_file=sys.argv[1]; # File with UUIDs for each attendee
     ballot_file=sys.argv[2]; # File with list of ballots on which to be voted
     votes_file=sys.argv[3]; # File with votes captured from Google Forms
-    #prev_ballots_file="old_votes.csv"
-    #prev_votes_file="old_ballot.csv"
-    prev_ballots_file=""
-    prev_votes_file=""
+    prev_votes_file="old_votes.csv"
+    prev_ballots_file="old_ballot.csv"
+    if not os.path.isfile(prev_votes_file):
+        prev_votes_file=""
+    if not os.path.isfile(prev_ballots_file):
+        prev_ballots_file=""
 
     ballots=[];
     ballot_dict = {};
     votes = {};
-    votes_in_this_file = {};
+    orgs_in_this_file = [];
+    votes_in_this_file = []
     previous_topics = []
 
     print("Opening files...");
@@ -42,17 +46,18 @@ def main():
     ballot_list = list(csv.DictReader(open(ballot_file)));
     votes_list = list(csv.DictReader(open(votes_file)));
     ooe_list = list(csv.DictReader(open('ooe_orgs.csv')));
-    if prev_ballots_file != "":
-        prev_ballot_list = list(csv.DictReader(open(prev_ballots_file)));
+    if prev_votes_file != "":
+        prev_ballot_list = list(csv.DictReader(open(prev_votes_file)));
         for ballot in prev_ballot_list:
+            topic = ballot['topic'] + " (" + ballot['type'] + ")"
             if ballot['topic'] == "daybreak" or (int(ballot['yes']) == 0 and int(ballot['no']) == 0
                     and int(ballot['abstain']) == 0 and int(ballot['missed']) == 0):
                 continue;
-            ballot_dict["" + ballot['topic'] + " (" + ballot['type'] + ")"] = ballot;
-            previous_topics.append("" + ballot['topic'] + " (" + ballot['type'] + ")");
-            ballots.append("" + ballot['topic'] + " (" + ballot['type'] + ")");
-    if prev_votes_file != "":
-        prev_votes_list = list(csv.DictReader(open(prev_votes_file)));
+            ballot_dict[topic] = ballot;
+            previous_topics.append(topic);
+            ballots.append(topic);
+    if prev_ballots_file != "":
+        prev_votes_list = list(csv.DictReader(open(prev_ballots_file)));
         for vote in prev_votes_list:
             votes[vote['org']] = vote;
 
@@ -60,13 +65,13 @@ def main():
 
     # Create dictionary for CSV key line
     for ballot in iter(ballot_list):
-        if ballot['topic'] == "daybreak":
+        topic = ballot['topic'] + " (" + ballot['type'] + ")"
+        if ballot['topic'] == "daybreak" or topic in ballots:
             continue;
-        ballots.append("" + ballot['topic'] + " (" + ballot['type'] + ")");
-        if "" + ballot['topic'] + " (" + ballot['type'] + ")" not in ballot_dict:
-            ballot_dict["" + ballot['topic'] + " (" + ballot['type'] + ")"] = {
-                    "topic" : ballot['topic'], "type" : ballot['type'], "yes" : 0, "no" : 0,
-                    "abstain" : 0, "missed" : 0};
+        ballots.append(topic);
+        ballot_dict[topic] = {
+                "topic" : ballot['topic'], "type" : ballot['type'], "yes" : 0,
+                "no" : 0, "abstain" : 0, "missed" : 0};
 
     header = ballots;
     header.insert(0, "org");
@@ -87,12 +92,11 @@ def main():
             return 1;
 
         # Check that the org has not yet voted already
-        if org in votes_in_this_file:
+        if org in orgs_in_this_file:
             print("" + org + " has already votes. Discarding ballot from " + name);
             continue;
         else:
-            votes_in_this_file[org] = {};
-            votes_in_this_file[org]['org'] = org;
+            orgs_in_this_file.append(org);
 
         # Create ballot entry for org
         if org not in votes:
@@ -100,12 +104,14 @@ def main():
             votes[org]['org'] = org;
 
         for ballot in ballots:
-            if ballot == "org":
+            if ballot == "org" or ballot in previous_topics:
                 continue;
-            #if ballot in previous_topics:
-            #    continue;
 
-            if ballot in vote and vote[ballot] != "":
+            # Add to the list of topics in this file
+            if ballot not in votes_in_this_file and ballot in vote:
+                votes_in_this_file.append(ballot)
+
+            if ballot in vote and vote[ballot]:
                 votes[org][ballot] = vote[ballot];
                 ballot_dict[ballot][vote[ballot].lower()] = int(ballot_dict[ballot][vote[ballot].lower()]) + 1;
 
@@ -117,10 +123,11 @@ def main():
     for org in ooe_list:
         name = org['org_name'];
         print(name);
-        votes[name] = {};
-        votes[name]['org'] = name;
+        if name not in votes:
+            votes[name] = {};
+            votes[name]['org'] = name;
         for ballot in ballots:
-            if ballot == "org":
+            if ballot == "org" or ballot not in votes_in_this_file:
                 continue;
             votes[name][ballot] = 'abstain';
             ballot_dict[ballot]['abstain'] = int(ballot_dict[ballot]['abstain']) + 1;
