@@ -73,7 +73,7 @@ schedule:
 
     - start: 2022-09-30T8:30
       end: 2022-09-30T9:50
-      title: "Plenary (see below)"
+      title: "Plenary (see below) and MPI 4.1 Discussion"
       
     - start: 2022-09-30T9:50
       end: 2022-09-30T10:00
@@ -123,6 +123,9 @@ no-no-votes:
 
     - number: 581
       description: "ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)"
+      
+    - number: 474
+      description: "Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter"
 
 first-votes:
 
