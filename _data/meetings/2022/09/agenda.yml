@@ -176,12 +176,13 @@ plenaries:
       title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
       issue_number: 23
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI_Win_free is synchronizing, except when it isn't"
       issue_number: 551
       presenter: Joseph
+      done: 1
 
     - type: Reading
       title: "RMA: Add missing win-sync calls to Example 12.21"
@@ -199,7 +200,7 @@ plenaries:
       title: "RMA: Replace 'operation' with 'operator' where appropriate"
       issue_number: 429
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Deprecate MPI_PROD"
