@@ -99,9 +99,10 @@ class GmailSMTP():
         message['from'] = from_addr
         message['subject'] = subject
         print("Created message for: ",to_addr)
-        #print("====")
-        #print(msg)
-        #print("====")
+        if to_addr == "work@wesbland.com":
+            print("====")
+            print(msg)
+            print("====")
         return {'raw': base64.urlsafe_b64encode(message.as_bytes()).decode()}
 
     def send_message(self, *, message):
@@ -137,7 +138,7 @@ def main():
     curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/09/attendance.csv"
     curr_registration_file = "/Users/wbland/mpi/meeting-details/2022-09-sep/2022-09-28-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
-    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScGarK1_CK2sEiIpL5tPTTf4k5nOA8CCVzyjYNzHFUJoLjmzA/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
+    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLSeHqkVeuUXWko2Hpk81bs3mqLhlVqjT4ii-fW0u0rm1DJ3N_g/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
 
     prev_ooe = 34
 
