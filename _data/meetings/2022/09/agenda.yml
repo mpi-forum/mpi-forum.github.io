@@ -141,36 +141,36 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "MPI_LASTUSEDCODE not covered in the sessions model"
       issue_number: 545
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "MPI_Comm_create_from_group and friend - need clarification of errhandler argument"
       issue_number: 511
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)"
       issue_number: 581
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fix Incorrect Usage of Rank/Task/etc. in Environment Chapter"
       issue_number: 476
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
