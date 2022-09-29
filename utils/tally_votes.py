@@ -105,7 +105,7 @@ def main():
             #if ballot in previous_topics:
             #    continue;
 
-            if ballot in vote:
+            if ballot in vote and vote[ballot] != "":
                 votes[org][ballot] = vote[ballot];
                 ballot_dict[ballot][vote[ballot].lower()] = int(ballot_dict[ballot][vote[ballot].lower()]) + 1;
 
