@@ -32,17 +32,17 @@ On June 30 2020, the MPI forum voted for version 3.3 of [these voting rules](../
 
 The following working groups are currently participating in the MPI 4.0 efforts. For more information on each working group, current topics, and meeting schedules, please follow the links to the respective Wiki pages.
 
-#### [Collective, Communicators, Context, Persistent, Partitioned, Groups, Topologies](https://github.com/mpiwg-coll/coll-issues)
+#### [Collective, Communicators, Context, Persistent, Partitioned, Groups](https://github.com/mpiwg-coll/coll-issues)
 
 *   Lead: Torsten Hoefler, Andrew Lumsdaine, Anthony Skjellum
 *   Scope: This working group considers cross-cutting issues of groups, context, communicators, and collective operations as well as features such as persistence, partitioning, topologies, and operational semantics (e.g., blocking, nonblocking, local, synchronizing) thereof.
 
 #### [Fault Tolerance](https://github.com/mpiwg-ft/ft-issues)
 
-*   Leads: Aurélien Bouteiller and Rich Graham
+*   Leads: Aurélien Bouteiller and Ignacio Laguna
 *   Scope: To define any additional support needed in the MPI standard to enable implementation of portable Fault Tolerant solutions for MPI based applications.
 
-#### [Hardware-Topologies](https://github.com/mpiwg-hw-topology/hw-topology-issues)
+#### [Hardware & Virtual Topologies](https://github.com/mpiwg-hw-topology/hw-topology-issues)
 
 *   Lead: Guillaume Mercier
 *   Scope: Address questions like how can hardware resources (I/O, cores, caches, I/O proxies, etc.) be discovered, queried upon and distributed between execution flows? Define portable primitives inside MPI to explore and take advantage of the hardware topology either at the node or the process level.
@@ -54,7 +54,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 #### [Languages](https://github.com/mpiwg-languages/languages-issues/wiki)
 
-*   Lead: Martin Ruefenacht, Tony Skjellum
+*   Lead: Martin Ruefenacht and Tony Skjellum
 *   Scope: Ensure MPI has robust support for present and future language expressions and to introduce new languages encapsulating the MPI concepts.
 
 #### [Remote Memory Access](https://github.com/mpiwg-rma/rma-issues/wiki/RMA-Working-Group-Wiki)
@@ -110,27 +110,26 @@ In addition to the active working groups, several working groups exist that have
 
 | # | Chapter | Chair | Members |
 |:---:|---|---|---|
-|  | Front Matter | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
+| | Front Matter | Bill Gropp | Rolf Rabenseifner, Martin Schulz, Wes Bland |
 |1| Introduction | Bill Gropp | Rolf Rabenseifner, Martin Schulz |
-|2| MPI Terms and Conventions| Claudia Blaas-Schenner | Rolf Rabenseifner, Bill Gropp, Tony Skjellum, Puri Bangalore, Guillaume Mercier, Dan Holmes, Julien Jaeger |
-|3|Point to Point Communcation| Dan Holmes | Ken Raffenetti, Ryan Grant, Bill Gropp, Brian Smith |
-|4|Partitioned Communication | Ryan Grant | Tony Skjellum, Puri Bangalore, Dan Holmes, Matthew Dosanjh |
-|5|Datatypes| George Bosilca | Bill Gropp, Martin Ruefenacht, Dan Holmes |
-|6|Collective Communication| Tony Skjellum | Torsten Höfler, Brian Smith, Wesley Bland, Martin Schulz, Julien Jaeger |
-|7|Groups, Contexts, Communicators, Caching| Guillaume Mercier | Bill Gropp, Tony Skjellum, Pavan Balaji |
-|8|Process Topologies | Rolf Rabenseifner | Guillaume Mercier, Claudia Blaas-Schenner, Torsten Höfler, Tony Skjellum, Mahdieh Ghazimirsaeed, Christoph Niethammer |
-|9|MPI Environmental Management | George Bosilca | Ken Raffenetti, Wesley Bland, Thomas Naughton |
-|10|The Info Object | Martin Schulz | Ryan Grant, Guillaume Mercier, Wesley Bland |
-|11|Process Creation and Mangement | Howard Pritchard | Ken Raffenetti, Dan Holmes, Martin Schulz, Thomas Naughton |
-|12|One-Sided Communication | Bill Gropp | Pavan Balaji, Joseph Schuchart, Nathan Hjelm, Artem Polyakov |
-|14|External Interfaces | Martin Schulz | Pavan Balaji, Brian Smith, Tony Skjellum |
-|14|I/O| Tony Skjellum | Quincey Koziol, Shinji Sumimoto |
-|15|Tool Support| Marc-Andre Hermanns | Martin Schulz, Kathryn Mohror |
-|16|Deprecated Functions | Rolf Rabenseifner | Martin Schulz, Wesley Bland |
-|17|Removed Interfaces | Rolf Rabenseifner | Martin Schulz, Wesley Bland |
-|18|Backward Incompatibilities | Wesley Bland | Martin Schulz |
-|19|Language Bindings | Puri Bangalore | Tony Skjellum, Rolf Rabenseifner |
-|A|Language Bindings Summary | Rolf Rabenseifner | Puri Bangalore, Tony Skjellum, Hubert Ritzdorf | 
-|B|Change-Log | Rolf Rabenseifner | Marc-Andre Hermanns, Hubert Ritzdorf | 
-
+|2| MPI Terms and Conventions | Claudia Blaas-Schenner | Rolf Rabenseifner, Bill Gropp, Tony Skjellum, Puri Bangalore, Guillaume Mercier, Dan Holmes, Julien Jaeger |
+|3| Point to Point Communcation| Dan Holmes | Ken Raffenetti, Ryan Grant, Bill Gropp, Brian Smith |
+|4| Partitioned Communication | Ryan Grant | Tony Skjellum, Puri Bangalore, Dan Holmes, Matthew Dosanjh |
+|5| Datatypes| George Bosilca | Bill Gropp, Martin Ruefenacht, Dan Holmes |
+|6| Collective Communication| Tony Skjellum | Torsten Höfler, Brian Smith, Martin Schulz, Julien Jaeger |
+|7| Groups, Contexts, Communicators, Caching | Guillaume Mercier | Bill Gropp, Tony Skjellum, Pavan Balaji |
+|8| Process Topologies | Rolf Rabenseifner | Guillaume Mercier, Claudia Blaas-Schenner, Torsten Höfler, Tony Skjellum, Mahdieh Ghazimirsaeed, Christoph Niethammer |
+|9| MPI Environmental Management | George Bosilca | Ken Raffenetti, Wes Bland, Thomas Naughton |
+|10| The Info Object | Martin Schulz | Ryan Grant, Guillaume Mercier, Wes Bland |
+|11| Process Creation and Mangement | Howard Pritchard | Ken Raffenetti, Dan Holmes, Martin Schulz, Thomas Naughton |
+|12| One-Sided Communication | Bill Gropp | Pavan Balaji, Joseph Schuchart, Nathan Hjelm, Artem Polyakov |
+|14| External Interfaces | Martin Schulz | Pavan Balaji, Brian Smith, Tony Skjellum |
+|14| I/O| Tony Skjellum | Quincey Koziol, Shinji Sumimoto |
+|15| Tool Support | Marc-Andre Hermanns | Martin Schulz, Kathryn Mohror |
+|16| Deprecated Functions | Rolf Rabenseifner | Martin Schulz, Wes Bland |
+|17| Removed Interfaces | Rolf Rabenseifner | Martin Schulz, Wes Bland |
+|18| Backward Incompatibilities | Wes Bland | Martin Schulz |
+|19| Language Bindings | Puri Bangalore | Tony Skjellum, Rolf Rabenseifner, Victor Eijkhout |
+|A| Language Bindings Summary | Rolf Rabenseifner | Puri Bangalore, Tony Skjellum, Hubert Ritzdorf | 
+|B| Change-Log | Rolf Rabenseifner | Marc-Andre Hermanns, Hubert Ritzdorf | 
 
