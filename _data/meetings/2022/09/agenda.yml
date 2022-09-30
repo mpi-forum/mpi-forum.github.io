@@ -209,7 +209,7 @@ plenaries:
       title: "Deprecate MPI_PROD"
       issue_number: 567
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter"
@@ -227,13 +227,13 @@ plenaries:
       title: "Memory Allocation Kind Info"
       issue_number: 580
       presenter: Jim
-      done: 0
+      done: 1
 
     - type: Reading
-      title: "ULFM Fault Tolerance (slice 2: agree)"
+      title: "ULFM Fault Tolerance (slice 2: agree) - moved to VM"
       issue_number: 582
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI_Parrived_any API as an addition for Partititioned Communication"
@@ -258,3 +258,10 @@ plenaries:
       issue_number: 562
       presenter: Dan
       done: 0
+      
+    - type: Plenary
+      title: "Virtual Meetings"
+      issue_number: 562
+      presenter: Dan
+      done: 0
+
