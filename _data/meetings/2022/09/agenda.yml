@@ -191,7 +191,7 @@ plenaries:
       title: "RMA: Add missing win-sync calls to Example 12.21"
       issue_number: 553
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Example 12.4: RMA communication calls may not block in PSCW"
@@ -239,29 +239,29 @@ plenaries:
       title: "MPI_Parrived_any API as an addition for Partititioned Communication"
       issue_number: 537
       presenter: Ryan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Synchronization on Partitioned Communication for Accelerator Optimization"
       issue_number: 302
       presenter: Ryan
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0"
       issue_number: 556
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Introduce the concept of side documents"
       issue_number: 562
       presenter: Dan
-      done: 0
+      done: 1
       
     - type: Plenary
       title: "Virtual Meetings"
       issue_number: 562
       presenter: Dan
-      done: 0
+      done: 1
 
