@@ -9,12 +9,12 @@ virtual:
 
   - start: 2022-11-23T10:00
     end: 2022-11-23T12:00
-    title: "Canceled - before Thanksgiving"
+    title: "Cancelled - before Thanksgiving"
     recording_url: ""
 
   - start: 2022-11-16T10:00
     end: 2022-11-16T12:00
-    title: "Canceled - SC22"
+    title: "Cancelled - SC22"
     recording_url: ""
 
   - start: 2022-11-09T10:00
@@ -44,7 +44,7 @@ virtual:
 
   - start: 2022-10-05T10:00
     end: 2022-10-05T12:00
-    title: "Canceled"
+    title: "Cancelled (everyone needs a break)"
     recording_url: ""
 
   - start: 2022-09-21T10:00
