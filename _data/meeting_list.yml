@@ -7,16 +7,6 @@ virtual:
     title: "ULFM Slice 2 and FT general (Aurelien)"
     recording_url: ""
 
-  - start: 2022-11-23T10:00
-    end: 2022-11-23T12:00
-    title: "Cancelled - before Thanksgiving"
-    recording_url: ""
-
-  - start: 2022-11-16T10:00
-    end: 2022-11-16T12:00
-    title: "Cancelled - SC22"
-    recording_url: ""
-
   - start: 2022-11-09T10:00
     end: 2022-11-09T12:00
     title: "Integration of semantics side document / Annex A2"
@@ -40,11 +30,6 @@ virtual:
   - start: 2022-10-12T10:00
     end: 2022-10-12T12:00
     title: "Discuss new state diagram for terms (Dan)"
-    recording_url: ""
-
-  - start: 2022-10-05T10:00
-    end: 2022-10-05T12:00
-    title: "Cancelled (everyone needs a break)"
     recording_url: ""
 
   - start: 2022-09-21T10:00
