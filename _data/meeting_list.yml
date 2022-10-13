@@ -30,12 +30,7 @@ virtual:
   - start: 2022-10-12T10:00
     end: 2022-10-12T12:00
     title: "Discuss new state diagram for terms (Dan)"
-    recording_url: ""
-
-  - start: 2022-09-21T10:00
-    end: 2022-09-21T12:00
-    title: "Topic to be decided / Open slot"
-    recording_url: ""
+    recording_url: "https://youtu.be/YuFlu-n6N_w"
 
   - start: 2022-08-31T10:00
     end: 2022-08-31T12:00
