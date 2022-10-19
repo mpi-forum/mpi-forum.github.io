@@ -86,8 +86,8 @@ schedule:
 
 procedure-votes:
 
-    - number: 1234
-      description: "Placeholder Procedure Vote"
+    - number: 590
+      description: "Remove Physical Requirement from Voting Meetings"
 
 errata-votes:
 
@@ -109,9 +109,9 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+      title: "Remove Physical Requirement from Voting Meetings"
+      issue_number: 590
+      presenter: Wes
       done: 0
 
     - type: Discussion
