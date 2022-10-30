@@ -115,6 +115,11 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: Print Option for MPI 4.1
+      presenter: Martin
+      done: 0
+      
+    - type: Discussion
       title: Virtual Meetings
       presenter: Martin
       done: 0
