@@ -1,2 +1,9 @@
 topic,type,yes,no,abstain,missed
 "#590: Remove Physical Requirement from Voting Meetings","procedure"
+"#499: Errata Issue O - MPI_WIN_TEST with same progress as MPI_TEST","errata"
+"#556: MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0","errata"
+"#443: LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter","errata"
+"#160: ERRATA: Clarify behavior for invalid MPI_T binding arguments","errata"
+"#468: Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST","1st"
+"#535: Language bindings chapter needs updating for Sessions model","2nd"
+"#534: Clarify/fix description and usage of MPI_GROUP_NULL","2nd"

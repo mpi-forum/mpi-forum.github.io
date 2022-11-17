@@ -91,11 +91,32 @@ procedure-votes:
 
 errata-votes:
 
+    - number: 499
+      description: "Errata Issue O - MPI_WIN_TEST with same progress as MPI_TEST"
+
+    - number: 556
+      description: "MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0"
+
+    - number: 468
+      description: "Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST"
+
+    - number: 443
+      description: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
+
+    - number: 160
+      description: "ERRATA: Clarify behavior for invalid MPI_T binding arguments"
+
 no-no-votes:
 
 first-votes:
 
 second-votes:
+
+    - number: 535
+      description: "Language bindings chapter needs updating for Sessions model"
+
+    - number: 534
+      description: "Clarify/fix description and usage of MPI_GROUP_NULL"
 
 plenaries:
     - type: Welcome
@@ -114,11 +135,131 @@ plenaries:
       presenter: Wes
       done: 0
 
+    - type: Reading
+      title: "Issue N - Progress-Section in terms-2.tex - for RC-4-June"
+      issue_number: 493
+      presenter: Rolf
+      done: 0
+
+    - type: Errata Reading
+      title: "Errata Issue O - MPI_WIN_TEST with same progress as MPI_TEST"
+      issue_number: 499
+      presenter: Rolf
+      done: 0
+
+    - type: Reminder Reading
+      title: "Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST"
+      issue_number: 468
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "Including Annex A.2 back into the standard"
+      issue_number: 641
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "Refer to Fortran 2018 instead of 2008+TS"
+      issue_number: 565
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "Fix Incorrect Usage of Rank/Task/etc. in Terms Chapter"
+      issue_number: 471
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "Topologies - Add Example Titles"
+      issue_number: 605
+      presenter: Rolf
+      done: 0
+
+    - type: Errata Reading
+      title: "MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0"
+      issue_number: 556
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "Update topology examples 8.8 and 8.10"
+      issue_number: 412
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "Clean up Separation of items in Deprecated, Deleted and Backwards compatibility chapters"
+      issue_number: 420
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "Issue M - progression->progress in coll.tex"
+      issue_number: 492
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "what does 'equivalent to Fortran' mean"
+      issue_number: 560
+      presenter: Rolf
+      done: 0
+
+    - type: Plenary
+      title: "Coarse-grained fault-tolerance interface (Reinit)"
+      issue_number: 578
+      presenter: Ignacio
+      done: 0
+
+    - type: Reading
+      title: "Mention behavior with potential overflow"
+      issue_number: 414
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Errata Reading
+      title: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
+      issue_number: 443
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Errata Reading
+      title: "ERRATA: Clarify behavior for invalid MPI_T binding arguments"
+      issue_number: 160
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Fixes to distinguish MPI error codes and MPI_T return codes"
+      issue_number: 542
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
+      issue_number: 520
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Rename Name-Shifted Profiling Interface (PMPI) to Interception Interface"
+      issue_number: 584
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Tools - Index Operation Semantics"
+      issue_number: 613
+      presenter: Marc-Andre
+      done: 0
+
     - type: Discussion
       title: Print Option for MPI 4.1
       presenter: Martin
       done: 0
-      
+
     - type: Discussion
       title: Virtual Meetings
       presenter: Martin
