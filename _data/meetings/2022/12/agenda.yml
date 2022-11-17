@@ -3,7 +3,7 @@ schedule:
     - day: Monday, December 05
 
     - start: 2022-12-05T9:00
-      end: 2022-12-0510:00
+      end: 2022-12-05T10:00
       title: "Plenary, see below"
 
     - start: 2022-12-05T10:00
@@ -15,7 +15,7 @@ schedule:
       title: "Voting Block"
 
     - start: 2022-12-05T10:10
-      end: 2022-12-0513:00
+      end: 2022-12-05T13:00
       title: "Plenary, see below"
 
     - endday: done
