@@ -223,13 +223,13 @@ plenaries:
       issue_number: 499
       presenter: Rolf
       done: 0
-      
+
     - type: Errata Reading
       title: "MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0"
       issue_number: 556
       presenter: Rolf
       done: 0
-      
+
     - type: Errata Reading
       title: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
       issue_number: 443
@@ -253,7 +253,7 @@ plenaries:
       issue_number: 634
       presenter: Joseph
       done: 0
-      
+
     - type: Part 3
       title: Updating Side Document Function Table (SDFT)
       presenter: all
@@ -264,37 +264,37 @@ plenaries:
       link: https://github.com/mpi-forum/function-table/issues/17
       presenter: Rolf
       done: 0
-      
+
     - type: Reading
       title: SDFT - MPI_Comm_set_info is missing from function table
       link: https://github.com/mpi-forum/function-table/issues/5
       presenter: Rolf
       done: 0
-      
+
     - type: Reading
       title: SDFT - Why are MPI_COMM_CREATE, MPI_COMM_DUP etc not freeing?
       link: https://github.com/mpi-forum/function-table/issues/7
       presenter: Rolf
       done: 0
-      
+
     - type: Reading
       title: SDFT - Superfluous remark 4 on process topology functions
       link: https://github.com/mpi-forum/function-table/issues/8
       presenter: Rolf
       done: 0
-      
+
     - type: Reading
       title: SDFT - Handle special case of MPI_WAIT on a cancelled request
       link: https://github.com/mpi-forum/function-table/issues/10
       presenter: Rolf
       done: 0
-      
+
     - type: Reading
       title: SDFT - The column Procedure should be "Procedure Call"
       link: https://github.com/mpi-forum/function-table/issues/11
       presenter: Rolf
       done: 0
-      
+
     - type: Part 4
       title: Readings related to MPI 4.1
       presenter: all
@@ -359,7 +359,7 @@ plenaries:
       issue_number: 560
       presenter: Rolf
       done: 0
-      
+
     - type: Reading
       title: "Mention behavior with potential overflow"
       issue_number: 414
@@ -395,8 +395,8 @@ plenaries:
       issue_number: 640
       presenter: Joseph
       done: 0
-      
-   - type: Reading
+
+    - type: Reading
       title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
       issue_number: 23
       presenter: Joseph
@@ -580,7 +580,7 @@ plenaries:
       title: Plenaries needed for MPI 4.1
       presenter: all
       done: 0
-      
+
     - type: Discussion
       title: Print Option for MPI 4.1
       presenter: Martin
