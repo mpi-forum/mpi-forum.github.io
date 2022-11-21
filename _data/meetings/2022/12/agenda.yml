@@ -469,7 +469,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Topology - use of \MPI process where necessary"
+      title: "Topology - use of MPI process where necessary"
       issue_number: 649
       presenter: Christoph
       done: 0
