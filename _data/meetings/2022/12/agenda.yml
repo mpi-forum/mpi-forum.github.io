@@ -179,9 +179,9 @@ plenaries:
       presenter: Wes
       done: 0
 
-    - type: Part 1
-      title: Prepare for Ballots
-      presenter: all
+    - type: ==================
+      title: Part 1 - Prepare for Ballots
+      presenter: ==============
       done: 0
 
     - type: Update
@@ -213,9 +213,9 @@ plenaries:
       presenter: Joseph
       done: 0
 
-    - type: Part 2
-      title: Errata Readings
-      presenter: all
+    - type: ==================
+      title: Part 2 - Errata Readings
+      presenter: ==============
       done: 0
 
     - type: Errata Reading
@@ -254,9 +254,9 @@ plenaries:
       presenter: Joseph
       done: 0
 
-    - type: Part 3
-      title: Updating Side Document Function Table (SDFT)
-      presenter: all
+    - type: ==================
+      title: Part 3 - Updating Side Document Function Table (SDFT)
+      presenter: ==============
       done: 0
 
     - type: Reading
@@ -295,9 +295,9 @@ plenaries:
       presenter: Rolf
       done: 0
 
-    - type: Part 4
-      title: Readings related to MPI 4.1
-      presenter: all
+    - type: ==================
+      title: Part 4 - Readings related to MPI 4.1
+      presenter: ==============
       done: 0
 
     - type: Reading
@@ -576,9 +576,9 @@ plenaries:
       presenter: Martin
       done: 0
 
-    - type: Part 5
-      title: Plenaries needed for MPI 4.1
-      presenter: all
+    - type: ==================
+      title: Part 5 - Plenaries needed for MPI 4.1
+      presenter: ==============
       done: 0
 
     - type: Discussion
@@ -586,14 +586,14 @@ plenaries:
       presenter: Martin
       done: 0
 
-    - type: Part 6
-      title: Readings related to MPI 5.0
-      presenter: all
+    - type: ==================
+      title: Part 6 - Readings related to MPI 5.0
+      presenter: ==============
       done: 0
 
-    - type: Part 7
-      title: Other plenaries
-      presenter: all
+    - type: ==================
+      title: Part 7 - Other plenaries
+      presenter: ==============
       done: 0
 
     - type: Plenary
@@ -602,9 +602,9 @@ plenaries:
       presenter: Ignacio
       done: 0
 
-    - type: Part 8
-      title: Wrap-Up
-      presenter: all
+    - type: ==================
+      title: Part 8 - Wrap-Up
+      presenter: ==============
       done: 0
 
     - type: Discussion
