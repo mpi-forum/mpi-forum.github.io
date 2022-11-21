@@ -106,9 +106,39 @@ errata-votes:
     - number: 160
       description: "ERRATA: Clarify behavior for invalid MPI_T binding arguments"
 
+    - number: 634
+      description: "Fix MPI_WIN_SYNC text"
+
+    - number: 589
+      description: "Issues with Partitioned Communication Example-4.4"
+
 no-no-votes:
 
+    - number: 553
+      description: "RMA: Add missing win-sync calls to Example 12.21"
+
+    - number: 551
+      description: "MPI_Win_free is synchronizing, except when it isn't"
+
+    - number: 407
+      description: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
+
 first-votes:
+
+    - number: 407
+      description: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
+
+    - number: 553
+      description: "RMA: Add missing win-sync calls to Example 12.21"
+
+    - number: 551
+      description: "MPI_Win_free is synchronizing, except when it isn't"
+
+    - number: 429
+      description: "RMA: Replace 'operation' with 'operator' where appropriate"
+
+    - number: 554
+      description: "RMA: both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate memory"
 
 second-votes:
 
@@ -117,6 +147,12 @@ second-votes:
 
     - number: 534
       description: "Clarify/fix description and usage of MPI_GROUP_NULL"
+
+    - number: 429
+      description: "RMA: Replace 'operation' with 'operator' where appropriate"
+
+    - number: 544
+      description: "Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles"
 
 plenaries:
     - type: Welcome
@@ -255,6 +291,96 @@ plenaries:
       presenter: Marc-Andre
       done: 0
 
+    - type: Reading
+      title: "RMA accumulate operations don't distinguish between throughput and latency sensitive applications"
+      issue_number: 640
+      presenter: Joseph
+      done: 0
+
+    - type: Errata Reading
+      title: "Fix MPI_WIN_SYNC text"
+      issue_number: 634
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "RMA: Add missing win-sync calls to Example 12.21"
+      issue_number: 553
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "MPI_Win_free is synchronizing, except when it isn't"
+      issue_number: 551
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "RMA: Replace 'operation' with 'operator' where appropriate"
+      issue_number: 429
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
+      issue_number: 407
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
+      issue_number: 23
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Deprecate mpif.h"
+      issue_number: 561
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Enabled is a special meaning term that requires a definition"
+      issue_number: 421
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: "Update: Section 3.5 - p. 45 - Comment Erroneous Example"
+      issue_number: 188
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: "Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
+      issue_number: 472
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: "Info key(s) for Start Ordering Persistent Collective Communication"
+      issue_number: 83
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: "'Logically concurrent' isn't"
+      issue_number: 117
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: "MPI_WAIT is nonlocal, except when it isn't"
+      issue_number: 639
+      presenter: Dan
+      done: 0
+
+    - type: Errata Reading
+      title: "Issues with Partitioned Communication Example-4.4"
+      issue_number: 589
+      presenter: Christoph
+      done: 0
+
     - type: Discussion
       title: Print Option for MPI 4.1
       presenter: Martin
@@ -264,4 +390,3 @@ plenaries:
       title: Virtual Meetings
       presenter: Martin
       done: 0
-
