@@ -168,6 +168,11 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: New WG
+      title: Vote for creation of new WG on ABI
+      presenter: Jeff H.
+      done: 0
+
     - type: Reading
       title: "Remove Physical Requirement from Voting Meetings"
       issue_number: 590
@@ -250,8 +255,55 @@ plenaries:
       done: 0
       
     - type: Part 3
+      title: Updating Side Document Function Table (SDFT)
+      presenter: all
+      done: 0
+
+    - type: Reading
+      title: SDFT - RMA section in Annex A.2 to be added
+      link: https://github.com/mpi-forum/function-table/issues/17
+      presenter: Rolf
+      done: 0
+      
+    - type: Reading
+      title: SDFT - MPI_Comm_set_info is missing from function table
+      link: https://github.com/mpi-forum/function-table/issues/5
+      presenter: Rolf
+      done: 0
+      
+    - type: Reading
+      title: SDFT - Why are MPI_COMM_CREATE, MPI_COMM_DUP etc not freeing?
+      link: https://github.com/mpi-forum/function-table/issues/7
+      presenter: Rolf
+      done: 0
+      
+    - type: Reading
+      title: SDFT - Superfluous remark 4 on process topology functions
+      link: https://github.com/mpi-forum/function-table/issues/8
+      presenter: Rolf
+      done: 0
+      
+    - type: Reading
+      title: SDFT - Handle special case of MPI_WAIT on a cancelled request
+      link: https://github.com/mpi-forum/function-table/issues/10
+      presenter: Rolf
+      done: 0
+      
+    - type: Reading
+      title: SDFT - The column Procedure should be "Procedure Call"
+      link: https://github.com/mpi-forum/function-table/issues/11
+      presenter: Rolf
+      done: 0
+      
+    - type: Part 4
       title: Readings related to MPI 4.1
       presenter: all
+      done: 0
+
+    - type: Reading
+      title: "Including Annex A.2 back into the standard"
+      issue_number: 641
+      presenter: Rolf
       done: 0
 
     - type: Reading
@@ -263,12 +315,6 @@ plenaries:
     - type: Reminder Reading
       title: "Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST"
       issue_number: 468
-      presenter: Rolf
-      done: 0
-
-    - type: Reading
-      title: "Including Annex A.2 back into the standard"
-      issue_number: 641
       presenter: Rolf
       done: 0
 
@@ -494,7 +540,43 @@ plenaries:
       presenter: Howard
       done: 0
 
-    - type: Part 4
+    - type: Reading
+      title: "Rework Intro of External Interfaces Chapter / Possibly Rename"
+      issue_number: 379
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Merge or Cross-Reference that Hints must be obeyed by Application in RMA and Info Chapters"
+      issue_number: 408
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Fix comment on Info object in incomplete functions"
+      issue_number: 411
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter"
+      issue_number: 480
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Consistency Updates for MPI_Info Chapter for MPI 4.1"
+      issue_number: 541
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "MPI_Buffer_attach and Sessions"
+      issue_number: 586
+      presenter: Martin
+      done: 0
+
+    - type: Part 5
       title: Plenaries needed for MPI 4.1
       presenter: all
       done: 0
@@ -504,12 +586,12 @@ plenaries:
       presenter: Martin
       done: 0
 
-    - type: Part 5
+    - type: Part 6
       title: Readings related to MPI 5.0
       presenter: all
       done: 0
 
-    - type: Part 6
+    - type: Part 7
       title: Other plenaries
       presenter: all
       done: 0
@@ -520,9 +602,14 @@ plenaries:
       presenter: Ignacio
       done: 0
 
-    - type: Part 7
+    - type: Part 8
       title: Wrap-Up
       presenter: all
+      done: 0
+
+    - type: Discussion
+      title: Meeting Schedule and Locations
+      presenter: Martin
       done: 0
 
     - type: Discussion
