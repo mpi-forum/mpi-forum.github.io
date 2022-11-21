@@ -381,6 +381,18 @@ plenaries:
       presenter: Christoph
       done: 0
 
+    - type: Reading
+      title: "Allow pset names to guide splitting in MPI_Comm_split_type"
+      issue_number: 538
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "A new function to query hardware resource names"
+      issue_number: 154
+      presenter: Guillaume
+      done: 0
+
     - type: Discussion
       title: Print Option for MPI 4.1
       presenter: Martin
