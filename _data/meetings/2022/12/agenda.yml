@@ -140,6 +140,9 @@ first-votes:
     - number: 554
       description: "RMA: both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate memory"
 
+    - number: 581
+      description: "ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)"
+
 second-votes:
 
     - number: 535
@@ -439,6 +442,30 @@ plenaries:
       title: "RMA: Examples 12.4 and 12.5 contain advice to implementors"
       issue_number: 652
       presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "API to access and update MPI_Status public fields"
+      issue_number: 645
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Handle conversions should be symbols"
+      issue_number: 647
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "WTIME and WTICK should be symbols"
+      issue_number: 646
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Clarification of errhandler fallback with Sessions"
+      issue_number: 588
+      presenter: Aurelien
       done: 0
 
     - type: Discussion

@@ -16,6 +16,7 @@ topic,type,yes,no,abstain,missed
 "#429: RMA: Replace 'operation' with 'operator' where appropriate","1st"
 "#407: Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)","1st"
 "#554: RMA: both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate memory","1st"
+"#581: ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)","1st"
 "#535: Language bindings chapter needs updating for Sessions model","2nd"
 "#534: Clarify/fix description and usage of MPI_GROUP_NULL","2nd"
 "#544: Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles","2nd"
