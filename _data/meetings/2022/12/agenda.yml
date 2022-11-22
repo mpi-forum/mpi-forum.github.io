@@ -151,9 +151,6 @@ second-votes:
     - number: 534
       description: "Clarify/fix description and usage of MPI_GROUP_NULL"
 
-    - number: 429
-      description: "RMA: Replace 'operation' with 'operator' where appropriate"
-
     - number: 544
       description: "Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles"
 
@@ -345,12 +342,6 @@ plenaries:
     - type: Reading
       title: "Clean up Separation of items in Deprecated, Deleted and Backwards compatibility chapters"
       issue_number: 420
-      presenter: Rolf
-      done: 0
-
-    - type: Reading
-      title: "Issue M - progression->progress in coll.tex"
-      issue_number: 492
       presenter: Rolf
       done: 0
 
