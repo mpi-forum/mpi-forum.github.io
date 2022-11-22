@@ -123,6 +123,9 @@ no-no-votes:
     - number: 407
       description: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
 
+    - number: 429
+      description: "RMA: Replace 'operation' with 'operator' where appropriate"
+
 first-votes:
 
     - number: 407
@@ -142,6 +145,9 @@ first-votes:
 
     - number: 581
       description: "ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)"
+
+    - number: 474
+      description: "Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter"
 
 second-votes:
 
