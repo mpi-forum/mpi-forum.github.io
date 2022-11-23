@@ -588,6 +588,12 @@ plenaries:
       presenter: Aurelien
       done: 0
 
+    - type: Plenary
+      title: "Memory Allocation Kind Info"
+      issue_number: 580
+      presenter: Jim
+      done: 0
+
     - type: ==================
       title: Part 5 - Plenaries needed for MPI 4.1
       presenter: ==============
