@@ -1,8 +1,9 @@
 topic,type,yes,no,abstain,missed
 "#553: RMA: Add missing win-sync calls to Example 12.21","no-no"
 "#551: MPI_Win_free is synchronizing, except when it isn't","no-no"
-"#429: RMA: Replace 'operation' with 'operator' where appropriate","no-no"
 "#407: Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)","no-no"
+"#429: RMA: Replace 'operation' with 'operator' where appropriate","no-no"
+"#590: Remove Physical Requirement from Voting Meetings","no-no"
 "#590: Remove Physical Requirement from Voting Meetings","procedure"
 "#499: Errata Issue O - MPI_WIN_TEST with same progress as MPI_TEST","errata"
 "#556: MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0","errata"

@@ -126,6 +126,9 @@ no-no-votes:
     - number: 429
       description: "RMA: Replace 'operation' with 'operator' where appropriate"
 
+    - number: 590
+      description: "Remove Physical Requirement from Voting Meetings"
+
 first-votes:
 
     - number: 407
