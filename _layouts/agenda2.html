@@ -41,7 +41,13 @@ layout: default
          {% endif %}
 
          <h2>Agenda</h2>
-         <h4>All times US Central</h4>
+         <h4>All times
+            {% if page.timezone.size > 0 %}
+                {{ page.timezone }}
+            {% else %}
+                US Central
+            {% endif %}
+         </h4>
 
          {% for item in input.schedule %}
          {% if item.day.size > 0 %}
