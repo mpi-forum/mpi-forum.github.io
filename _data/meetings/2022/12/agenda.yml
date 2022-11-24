@@ -598,6 +598,12 @@ plenaries:
       presenter: Martin
       done: 0
 
+    - type: Discussion
+      title: deprecate MPI HOST
+      issue_number: 57
+      presenter: Julien
+      done: 0
+
     - type: ==================
       title: Part 6 - Readings related to MPI 5.0
       presenter: ==============
