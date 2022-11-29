@@ -573,11 +573,43 @@ virtual:
 
 voting:
 
+  - year: 2024
+
+  - start: 2024-02-26
+    end: 2024-03-01
+    title: "(Proposed) Chicago, IL (Big Ten Center)"
+    links: "no"
+
   - year: 2023
+
+  - start: 2023-12-04
+    end: 2023-12-07
+    title: "(Proposed) Virtual Voting Meeting"
+    links: "no"
+
+  - start: 2023-10-31
+    end: 2023-11-03
+    title: "(Proposed) Virtual Voting Meeting"
+    links: "no"
+
+  - start: 2023-09-13
+    end: 2023-09-15
+    title: "(Proposed) Briston, UK (in conjunction with EuroMPI 2023)"
+    links: "no"
+
+  - start: 2023-07-10
+    end: 2023-07-13
+    title: "(Proposed) Virtual Voting Meeting"
+    links: "no"
+
+  - start: 2023-05-01
+    end: 2023-05-04
+    title: "(Proposed) Virtual Voting Meeting"
+    links: "no"
 
   - start: 2023-03-13
     end: 2023-03-16
-    title: "Hybrid Voting Meeting (Location TBD)"
+    title: "Boston, MA (Amazon)"
     links: "no"
 
   - year: 2022
