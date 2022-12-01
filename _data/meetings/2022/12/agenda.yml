@@ -129,6 +129,9 @@ no-no-votes:
     - number: 590
       description: "Remove Physical Requirement from Voting Meetings"
 
+    - number: 520
+      description: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
+
 first-votes:
 
     - number: 407
