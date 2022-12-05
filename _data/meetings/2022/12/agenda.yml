@@ -226,7 +226,7 @@ plenaries:
     - type: No-No Reading
       issue_number: 520
       title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
-      presenter:
+      presenter: Marc-Andre
       done: 1
 
     - type: ==================
