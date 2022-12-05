@@ -97,9 +97,6 @@ errata-votes:
     - number: 556
       description: "MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0"
 
-    - number: 443
-      description: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
-
     - number: 160
       description: "ERRATA: Clarify behavior for invalid MPI_T binding arguments"
 
@@ -253,13 +250,13 @@ plenaries:
       title: "ERRATA: Clarify behavior for invalid MPI_T binding arguments"
       issue_number: 160
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Issues with Partitioned Communication Example-4.4"
       issue_number: 589
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Fix MPI_WIN_SYNC text"
