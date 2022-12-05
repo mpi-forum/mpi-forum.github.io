@@ -191,7 +191,7 @@ plenaries:
     - type: Update
       title: QUICK reminder of all ballots
       presenter: all proposers
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "RMA: Add missing win-sync calls to Example 12.21"
@@ -215,7 +215,7 @@ plenaries:
       title: "RMA: Replace 'operation' with 'operator' where appropriate"
       issue_number: 429
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: No-No Reading
       issue_number: 590
@@ -227,7 +227,7 @@ plenaries:
       issue_number: 520
       title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
       presenter:
-      done: 0
+      done: 1
 
     - type: ==================
       title: Part 2 - Errata Readings
