@@ -172,11 +172,6 @@ plenaries:
       presenter: All
       done: 1
 
-    - type: Update
-      title: WG Status
-      presenter: All WG chairs or their proxies
-      done: 1
-
     - type: New WG
       title: Vote for creation of new WG on ABI
       presenter: Jeff H.
@@ -220,7 +215,7 @@ plenaries:
       title: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
       issue_number: 407
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "RMA: Replace 'operation' with 'operator' where appropriate"
@@ -234,6 +229,18 @@ plenaries:
       presenter: Marc-Andre
       done: 0
 
+    - type: No-No Reading
+      issue_number: 590
+      title: "Remove Physical Requirement from Voting Meetings"
+      presenter: Wes
+      done: 1
+
+    - type: No-No Reading
+      issue_number: 520
+      title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
+      presenter:
+      done: 0
+      
     - type: ==================
       title: Part 2 - Errata Readings
       presenter: ==============
