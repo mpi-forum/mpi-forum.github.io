@@ -269,7 +269,7 @@ plenaries:
       title: "Fix MPI_WIN_SYNC text"
       issue_number: 634
       presenter: Joseph
-      done: 1
+      done: 0
 
     - type: ==================
       title: Part 3 - Updating Side Document Function Table (SDFT)
