@@ -97,9 +97,6 @@ errata-votes:
     - number: 556
       description: "MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0"
 
-    - number: 468
-      description: "Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST"
-
     - number: 443
       description: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
 
@@ -133,6 +130,9 @@ no-no-votes:
       description: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
 
 first-votes:
+
+    - number: 468
+      description: "Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST"
 
     - number: 407
       description: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
@@ -183,12 +183,6 @@ plenaries:
       presenter: Wes
       done: 1
 
-    - type: No-No Reading
-      title: "Remove Physical Requirement from Voting Meetings"
-      issue_number: 590
-      presenter: Wes
-      done: 1
-
     - type: ==================
       title: Part 1 - Prepare for Ballots
       presenter: ==============
@@ -224,12 +218,6 @@ plenaries:
       done: 0
 
     - type: No-No Reading
-      title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
-      issue_number: 520
-      presenter: Marc-Andre
-      done: 0
-
-    - type: No-No Reading
       issue_number: 590
       title: "Remove Physical Requirement from Voting Meetings"
       presenter: Wes
@@ -240,7 +228,7 @@ plenaries:
       title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
       presenter:
       done: 0
-      
+
     - type: ==================
       title: Part 2 - Errata Readings
       presenter: ==============
