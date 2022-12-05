@@ -123,6 +123,13 @@ no-no-votes:
     - number: 590
       description: "Remove Physical Requirement from Voting Meetings"
 
+    - number: 589
+      description: "Errata: Issues with Partitioned Communication Example-4.4"
+
+    - number: 634
+      description: "Fix MPI_WIN_SYNC text"
+
+
 first-votes:
 
     - number: 468
@@ -256,13 +263,13 @@ plenaries:
       title: "Issues with Partitioned Communication Example-4.4"
       issue_number: 589
       presenter: Christoph
-      done: 1
+      done: 0
 
     - type: Errata Reading
       title: "Fix MPI_WIN_SYNC text"
       issue_number: 634
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: ==================
       title: Part 3 - Updating Side Document Function Table (SDFT)
