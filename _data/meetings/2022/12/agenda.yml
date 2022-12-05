@@ -126,28 +126,25 @@ no-no-votes:
     - number: 590
       description: "Remove Physical Requirement from Voting Meetings"
 
-    - number: 520
-      description: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
-
 first-votes:
 
     - number: 468
-      description: "Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST"
+      description: "Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST (reminder done)"
 
     - number: 407
-      description: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
+      description: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement) (reminder done)"
 
     - number: 553
-      description: "RMA: Add missing win-sync calls to Example 12.21"
+      description: "RMA: Add missing win-sync calls to Example 12.21 (reminder done)"
 
     - number: 551
-      description: "MPI_Win_free is synchronizing, except when it isn't"
+      description: "MPI_Win_free is synchronizing, except when it isn't (reminder done)"
 
     - number: 429
-      description: "RMA: Replace 'operation' with 'operator' where appropriate"
+      description: "RMA: Replace 'operation' with 'operator' where appropriate (reminder done)"
 
     - number: 554
-      description: "RMA: both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate memory"
+      description: "RMA: both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate memory (reminder done)"
 
     - number: 581
       description: "ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)"
@@ -175,7 +172,7 @@ plenaries:
     - type: New WG
       title: Vote for creation of new WG on ABI
       presenter: Jeff H.
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Remove Physical Requirement from Voting Meetings"
@@ -186,7 +183,7 @@ plenaries:
     - type: ==================
       title: Part 1 - Prepare for Ballots
       presenter: ==============
-      done: 0
+      done: 1
 
     - type: Update
       title: QUICK reminder of all ballots
@@ -385,12 +382,6 @@ plenaries:
     - type: Reading
       title: "Fixes to distinguish MPI error codes and MPI_T return codes"
       issue_number: 542
-      presenter: Marc-Andre
-      done: 0
-
-    - type: Reading
-      title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
-      issue_number: 520
       presenter: Marc-Andre
       done: 0
 
