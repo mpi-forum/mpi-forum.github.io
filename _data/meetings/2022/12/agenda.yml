@@ -335,12 +335,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Refer to Fortran 2018 instead of 2008+TS"
-      issue_number: 565
-      presenter: Rolf
-      done: 0
-
-    - type: Reading
       title: "Fix Incorrect Usage of Rank/Task/etc. in Terms Chapter"
       issue_number: 471
       presenter: Rolf
@@ -392,24 +386,6 @@ plenaries:
       title: "Tools - Index Operation Semantics"
       issue_number: 613
       presenter: Marc-Andre
-      done: 0
-
-    - type: Reading
-      title: "RMA accumulate operations don't distinguish between throughput and latency sensitive applications"
-      issue_number: 640
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
-      issue_number: 23
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "Deprecate mpif.h"
-      issue_number: 561
-      presenter: Joseph
       done: 0
 
     - type: Reading
@@ -499,6 +475,30 @@ plenaries:
     - type: Reading
       title: "RMA: Examples 12.4 and 12.5 contain advice to implementors"
       issue_number: 652
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Refer to Fortran 2018 instead of 2008+TS"
+      issue_number: 565
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "RMA accumulate operations don't distinguish between throughput and latency sensitive applications"
+      issue_number: 640
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
+      issue_number: 23
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Deprecate mpif.h"
+      issue_number: 561
       presenter: Joseph
       done: 0
 
