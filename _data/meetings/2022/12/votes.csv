@@ -4,7 +4,6 @@ topic,type,yes,no,abstain,missed
 "#407: Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)","no-no"
 "#429: RMA: Replace 'operation' with 'operator' where appropriate","no-no"
 "#590: Remove Physical Requirement from Voting Meetings","no-no"
-"#520: Add compound datatypes for large integers for MPI_(MIN|MAX)LOC","no-no"
 "#590: Remove Physical Requirement from Voting Meetings","procedure"
 "#499: Errata Issue O - MPI_WIN_TEST with same progress as MPI_TEST","errata"
 "#556: MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0","errata"
