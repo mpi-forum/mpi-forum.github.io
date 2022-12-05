@@ -333,7 +333,7 @@ plenaries:
       title: "Issue N - Progress-Section in terms-2.tex - for RC-4-June"
       issue_number: 493
       presenter: Rolf
-      done: 1
+      done: 0
 
     - type: Reminder Reading
       title: "Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST"
