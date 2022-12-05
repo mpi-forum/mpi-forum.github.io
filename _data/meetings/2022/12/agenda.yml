@@ -235,19 +235,19 @@ plenaries:
       title: "Errata Issue O - MPI_WIN_TEST with same progress as MPI_TEST"
       issue_number: 499
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "MPI_Cart_Coords maxdims/ndims mixup missing from MPI 3.1 to MPI 4.0"
       issue_number: 556
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
       issue_number: 443
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "ERRATA: Clarify behavior for invalid MPI_T binding arguments"
