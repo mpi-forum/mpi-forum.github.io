@@ -1,46 +1,45 @@
-"name","org","attend"
-"Wes Bland","Meta","1"
-"William Gropp","University of Illinois Urbana-Champaign","1"
-"Guillaume Mercier","INRIA","1"
-"Joseph Schuchart ","University of Tennessee, Knoxville","1"
-"Rolf Rabenseifner","HLRS, University of Stuttgart","1"
-"Jeff Hammond ","NVIDIA","1"
-"Nat Shineman","Ohio State University","1"
-"Maria Garzaran","Intel Corporation","1"
-"Joshua Hursey","IBM","1"
-"Michael Klemm","AMD","1"
-"Quincey Koziol","Amazon","1"
-"Edgar Gabriel","AMD","1"
-"William Williams","ZIH, TU Dresden","1"
-"Purushotham V. Bangalore","University of Alabama","1"
-"Martin Schreiber","Université Grenoble Alpes","1"
-"Vivek Kale","Sandia National Laboratory","1"
-"Ryan Grant","Queen's University","1"
-"Tobias Haas","HLRS, University of Stuttgart","1"
-"Martin Schulz","Technical University of Munich","1"
-"Michael Knobloch","Forschungszentrum Julich","1"
-"Dan Holmes","Intel Corporation","1"
-"Keita Teranishi","Oak Ridge National Laboratory","1"
-"Ignacio Laguna","Lawrence Livermore National Laboratory","1"
-"Shinji Sumimoto","The University of Tokyo","1"
-"Aurelien Bouteiller","University of Tennessee, Knoxville","1"
-"Marc-Andre Hermanns","RWTH Aachen University","1"
-"Jean-Baptiste BESNARD","ParaTools SAS","1"
-"Christoph Niethammer","HLRS, University of Stuttgart","1"
-"Jeff Hammond","NVIDIA","1"
-"Nysal Jan K A","IBM","1"
-"Julien Jaeger","CEA","1"
-"Howard Pritchard","Los Alamos National Laboratory","1"
-"Yanfei Guo","Argonne National Laboratory","1"
-"Ken Raffenetti","Argonne National Laboratory","1"
-"Ali Mohammed","HPE","1"
-"Ben Lynam","Cornelis Networks","1"
-"Brian Smith","Cornelis Networks","1"
-"Pierre Lemarinier","Atos","1"
-"Martin Ruefenacht","Leibniz Supercomputing Centre","1"
-"Samuel K. Gutierrez","Los Alamos National Laboratory","1"
-"Thomas Naughton","Oak Ridge National Laboratory","1"
-"Anthony Skjellum","University of Tennessee, Chattanooga","1"
-"Claudia Blaas-Schenner","VSC Research Center, TU Wien","1"
-"Benson Muite","Kichakato Kizito","1"
-"Riley Shipley","University of Tennessee, Chattanooga","1"
+name,org,attend
+Wes Bland,Meta,1
+William Gropp,University of Illinois Urbana-Champaign,1
+Guillaume Mercier,INRIA,1
+Joseph Schuchart ,"University of Tennessee, Knoxville",1
+Rolf Rabenseifner,"HLRS, University of Stuttgart",1
+Jeff Hammond ,NVIDIA,-1
+Nat Shineman,Ohio State University,-1
+Maria Garzaran,Intel Corporation,-1
+Joshua Hursey,IBM,1
+Michael Klemm,AMD,1
+Quincey Koziol,Amazon,-1
+Edgar Gabriel,AMD,1
+William Williams,"ZIH, TU Dresden",1
+Purushotham V. Bangalore,University of Alabama,1
+Martin Schreiber,Université Grenoble Alpes,1
+Vivek Kale,Sandia National Laboratory,-1
+Ryan Grant,Queen's University,-1
+Tobias Haas,"HLRS, University of Stuttgart",-1
+Martin Schulz,Technical University of Munich,1
+Michael Knobloch,Forschungszentrum Julich,-1
+Dan Holmes,Intel Corporation,1
+Keita Teranishi,Oak Ridge National Laboratory,-1
+Ignacio Laguna,Lawrence Livermore National Laboratory,1
+Shinji Sumimoto,The University of Tokyo,1
+Aurelien Bouteiller,"University of Tennessee, Knoxville",1
+Marc-Andre Hermanns,RWTH Aachen University,1
+Jean-Baptiste BESNARD,ParaTools SAS,1
+Christoph Niethammer,"HLRS, University of Stuttgart",1
+Nysal Jan K A,IBM,1
+Julien Jaeger,CEA,-1
+Howard Pritchard,Los Alamos National Laboratory,-1
+Yanfei Guo,Argonne National Laboratory,-1
+Ken Raffenetti,Argonne National Laboratory,-1
+Ali Mohammed,HPE,1
+Ben Lynam,Cornelis Networks,1
+Brian Smith,Cornelis Networks,-1
+Pierre Lemarinier,Atos,1
+Martin Ruefenacht,Leibniz Supercomputing Centre,-1
+Samuel K. Gutierrez,Los Alamos National Laboratory,1
+Thomas Naughton,Oak Ridge National Laboratory,1
+Anthony Skjellum,"University of Tennessee, Chattanooga",-1
+Claudia Blaas-Schenner,"VSC Research Center, TU Wien",1
+Benson Muite,Kichakato Kizito,1
+Riley Shipley,"University of Tennessee, Chattanooga",1
