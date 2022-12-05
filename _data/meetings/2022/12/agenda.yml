@@ -260,13 +260,13 @@ plenaries:
       done: 1
 
     - type: Errata Reading
-      title: "Issues with Partitioned Communication Example-4.4"
+      title: "Issues with Partitioned Communication Example-4.4 (reread with No No)"
       issue_number: 589
       presenter: Christoph
       done: 0
 
     - type: Errata Reading
-      title: "Fix MPI_WIN_SYNC text"
+      title: "Fix MPI_WIN_SYNC text (reread with No No)"
       issue_number: 634
       presenter: Joseph
       done: 0
@@ -330,7 +330,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Issue N - Progress-Section in terms-2.tex - for RC-4-June"
+      title: "Issue N - Progress-Section in terms-2.tex - for RC-4-June (reread with possible No No)"
       issue_number: 493
       presenter: Rolf
       done: 0
