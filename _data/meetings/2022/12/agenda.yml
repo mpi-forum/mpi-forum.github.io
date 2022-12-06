@@ -265,13 +265,13 @@ plenaries:
       title: "Issues with Partitioned Communication Example-4.4 (reread with No No)"
       issue_number: 589
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Fix MPI_WIN_SYNC text (reread with No No)"
       issue_number: 634
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: ==================
       title: Part 3 - Updating Side Document Function Table (SDFT)
