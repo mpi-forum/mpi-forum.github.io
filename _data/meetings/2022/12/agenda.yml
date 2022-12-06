@@ -131,6 +131,8 @@ no-no-votes:
     - number: 634
       description: "Fix MPI_WIN_SYNC text"
 
+    - number: 493
+      description: "Issue N - Progress-Section in terms-2.tex - for RC-4-June (reread with possible No No)"
 
 first-votes:
 
@@ -335,19 +337,19 @@ plenaries:
       title: "Issue N - Progress-Section in terms-2.tex - for RC-4-June (reread with possible No No)"
       issue_number: 493
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reminder Reading
       title: "Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST"
       issue_number: 468
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fix Incorrect Usage of Rank/Task/etc. in Terms Chapter"
       issue_number: 471
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Topologies - Add Example Titles"

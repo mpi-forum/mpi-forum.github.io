@@ -283,7 +283,7 @@ Wes Bland (MPI Forum Secretary)\
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
                     to_addr=email, msg=message_text, subject='December 2022 MPI Forum Plenary Day 2 Voting Link')
-            message_id = service.send_message(message=message)
+            #message_id = service.send_message(message=message)
 
 if __name__ == '__main__':
     main()
