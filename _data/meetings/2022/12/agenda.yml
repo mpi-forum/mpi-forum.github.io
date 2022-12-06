@@ -137,6 +137,9 @@ no-no-votes:
     - number: 414
       description: "Mention behavior with potential overflow"
 
+    - number: 641
+      description: "Including Annex A.2 back into the standard"
+
 first-votes:
 
     - number: 468
