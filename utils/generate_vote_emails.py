@@ -260,7 +260,7 @@ def main():
             message_text = """\
 Hi {name},
 
-Voting is now open for the September 2022 Plenary Day 2 meeting. You may vote at this
+Voting is now open for the December 2022 Plenary Day 2 meeting. You may vote at this
 link:
 <br><br>
 {link}
@@ -274,7 +274,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 10:35pm US Central time on September 30th, 2022.
+Voting will be open until 10:35pm US Central time on December 6th, 2022.
 <br><br>
 Thanks,
 <br>
@@ -282,8 +282,8 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
-                    to_addr=email, msg=message_text, subject='September 2022 MPI Forum Plenary Day 2 Voting Link')
-            #message_id = service.send_message(message=message)
+                    to_addr=email, msg=message_text, subject='December 2022 MPI Forum Plenary Day 2 Voting Link')
+            message_id = service.send_message(message=message)
 
 if __name__ == '__main__':
     main()
