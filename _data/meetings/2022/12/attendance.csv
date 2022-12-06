@@ -18,7 +18,7 @@ Vivek Kale,Sandia National Laboratory,-1
 Ryan Grant,Queen's University,1
 Tobias Haas,"HLRS, University of Stuttgart",1
 Martin Schulz,Technical University of Munich,1
-Michael Knobloch,Forschungszentrum Julich,-1
+Michael Knobloch,Forschungszentrum Julich,0
 Dan Holmes,Intel Corporation,1
 Keita Teranishi,Oak Ridge National Laboratory,1
 Ignacio Laguna,Lawrence Livermore National Laboratory,1
@@ -29,7 +29,7 @@ Jean-Baptiste BESNARD,ParaTools SAS,1
 Christoph Niethammer,"HLRS, University of Stuttgart",1
 Nysal Jan K A,IBM,1
 Julien Jaeger,CEA,1
-Howard Pritchard,Los Alamos National Laboratory,-1
+Howard Pritchard,Los Alamos National Laboratory,0
 Yanfei Guo,Argonne National Laboratory,1
 Ken Raffenetti,Argonne National Laboratory,1
 Ali Mohammed,HPE,1
@@ -47,3 +47,4 @@ Sam White,Intel Corporation,-1
 Matthew Dosanjh,Sandia National Laboratory,1
 Derek Schafer,University of New Mexico,1
 Amit Ruhela,The Texas Advanced Computing Center,1
+James Dinan,NVIDIA,1

@@ -394,13 +394,13 @@ plenaries:
       title: "Rename Name-Shifted Profiling Interface (PMPI) to Interception Interface"
       issue_number: 584
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Tools - Index Operation Semantics"
       issue_number: 613
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Enabled is a special meaning term that requires a definition"
@@ -436,7 +436,7 @@ plenaries:
       title: "MPI_WAIT is nonlocal, except when it isn't"
       issue_number: 639
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Allow pset names to guide splitting in MPI_Comm_split_type"
