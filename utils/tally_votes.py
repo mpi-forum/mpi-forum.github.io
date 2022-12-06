@@ -108,7 +108,7 @@ def main():
                 continue;
 
             # Add to the list of topics in this file
-            if ballot not in votes_in_this_file and ballot in vote:
+            if ballot not in votes_in_this_file and ballot in vote and vote[ballot] != "":
                 votes_in_this_file.append(ballot)
 
             if ballot in vote and vote[ballot]:
