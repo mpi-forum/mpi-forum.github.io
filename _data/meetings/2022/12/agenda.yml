@@ -235,7 +235,7 @@ plenaries:
     - type: ==================
       title: Part 2 - Errata Readings
       presenter: ==============
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Errata Issue O - MPI_WIN_TEST with same progress as MPI_TEST"
@@ -276,49 +276,49 @@ plenaries:
     - type: ==================
       title: Part 3 - Updating Side Document Function Table (SDFT)
       presenter: ==============
-      done: 0
+      done: 1
 
     - type: Reading
       title: SDFT - RMA section in Annex A.2 to be added
       link: https://github.com/mpi-forum/function-table/issues/17
       issue_number: SDFT-17
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: SDFT - MPI_Comm_set_info is missing from function table
       link: https://github.com/mpi-forum/function-table/issues/5
       issue_number: SDFT-5
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: SDFT - Why are MPI_COMM_CREATE, MPI_COMM_DUP etc not freeing?
       link: https://github.com/mpi-forum/function-table/issues/7
       issue_number: SDFT-7
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: SDFT - Superfluous remark 4 on process topology functions
       link: https://github.com/mpi-forum/function-table/issues/8
       issue_number: SDFT-8
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: SDFT - Handle special case of MPI_WAIT on a cancelled request
       link: https://github.com/mpi-forum/function-table/issues/10
       issue_number: SDFT-10
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: SDFT - The column Procedure should be "Procedure Call"
       link: https://github.com/mpi-forum/function-table/issues/11
       issue_number: SDFT-11
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: ==================
       title: Part 4 - Readings related to MPI 4.1
@@ -329,7 +329,7 @@ plenaries:
       title: "Including Annex A.2 back into the standard"
       issue_number: 641
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Issue N - Progress-Section in terms-2.tex - for RC-4-June (reread with possible No No)"
