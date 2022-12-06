@@ -134,6 +134,9 @@ no-no-votes:
     - number: 493
       description: "Issue N - Progress-Section in terms-2.tex - for RC-4-June (reread with possible No No)"
 
+    - number: 414
+      description: "Mention behavior with potential overflow"
+
 first-votes:
 
     - number: 468
@@ -379,13 +382,13 @@ plenaries:
       title: "Mention behavior with potential overflow"
       issue_number: 414
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fixes to distinguish MPI error codes and MPI_T return codes"
       issue_number: 542
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Rename Name-Shifted Profiling Interface (PMPI) to Interception Interface"
