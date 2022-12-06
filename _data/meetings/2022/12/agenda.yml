@@ -355,25 +355,25 @@ plenaries:
       title: "Topologies - Add Example Titles"
       issue_number: 605
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Update topology examples 8.8 and 8.10"
       issue_number: 412
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Clean up Separation of items in Deprecated, Deleted and Backwards compatibility chapters"
       issue_number: 420
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: "what does 'equivalent to Fortran' mean"
       issue_number: 560
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Mention behavior with potential overflow"
