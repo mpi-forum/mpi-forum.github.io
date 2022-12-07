@@ -421,7 +421,7 @@ plenaries:
       title: "Update: Section 3.5 - p. 45 - Comment Erroneous Example"
       issue_number: 188
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
