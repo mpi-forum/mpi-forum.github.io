@@ -105,6 +105,9 @@ errata-votes:
     - number: 634
       description: "Fix MPI_WIN_SYNC text"
 
+    - number: 160
+      description: "ERRATA: Clarify behavior for invalid MPI_T binding arguments"
+
     - number: 589
       description: "Issues with Partitioned Communication Example-4.4"
 
@@ -430,13 +433,13 @@ plenaries:
       title: "Info key(s) for Start Ordering Persistent Collective Communication"
       issue_number: 83
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "'Logically concurrent' isn't"
       issue_number: 117
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI_WAIT is nonlocal, except when it isn't"
