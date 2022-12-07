@@ -415,7 +415,7 @@ plenaries:
       title: "Enabled is a special meaning term that requires a definition"
       issue_number: 421
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Update: Section 3.5 - p. 45 - Comment Erroneous Example"
@@ -427,7 +427,7 @@ plenaries:
       title: "Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
       issue_number: 472
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Info key(s) for Start Ordering Persistent Collective Communication"
@@ -451,7 +451,7 @@ plenaries:
       title: "Allow pset names to guide splitting in MPI_Comm_split_type"
       issue_number: 538
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Update 'Process Topology' chapter title to use 'MPI process'"
