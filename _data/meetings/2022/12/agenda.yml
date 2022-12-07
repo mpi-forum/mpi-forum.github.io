@@ -140,6 +140,9 @@ no-no-votes:
     - number: 641
       description: "Including Annex A.2 back into the standard"
 
+    - number: 605
+      description: "Topologies - Add Example Titles"
+
 first-votes:
 
     - number: 468
