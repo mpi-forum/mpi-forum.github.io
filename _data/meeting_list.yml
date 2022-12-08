@@ -1,7 +1,33 @@
 virtual:
 
+  - year: 2023
+
+  - start: 2023-03-01T10:00
+    end: 2023-03-01T12:00
+    title: "Continuations (Joseph)"
+    
+  - start: 2023-02-22T10:00
+    end: 2023-02-22T12:00
+    title: "Terms Discussion (Rolf)"
+    
+  - start: 2023-02-15T10:00
+    end: 2023-02-15T12:00
+    title: "Tools Issues, MPI_(MIN|MAX)LOC and LIS (Marc-Andre)"
+    
+  - start: 2023-01-25T10:00
+    end: 2023-01-25T12:00
+    title: "Terms Discussion (Rolf)"
+    
+  - start: 2023-01-11T10:00
+    end: 2023-01-11T12:00
+    title: "MPI_Host deprecation (Julien), Topology Query (Guillaume)"
+    
   - year: 2022
 
+  - start: 2022-12-14T10:00
+    end: 2022-12-14T12:00
+    title: "Allocator kind info (Jim)"
+    
   - start: 2022-11-30T10:00
     end: 2022-11-30T12:00
     title: "ULFM Slice 2 and FT general (Aurelien)"
@@ -584,32 +610,37 @@ voting:
 
   - start: 2023-12-04
     end: 2023-12-07
-    title: "(Proposed) Virtual Voting Meeting"
+    title: "Virtual Voting Meeting"
     links: "no"
 
   - start: 2023-10-31
     end: 2023-11-03
-    title: "(Proposed) Virtual Voting Meeting"
+    title: "Virtual Voting Meeting"
     links: "no"
 
   - start: 2023-09-13
     end: 2023-09-15
-    title: "(Proposed) Briston, UK (in conjunction with EuroMPI 2023)"
+    title: "Briston, UK (in conjunction with EuroMPI 2023) - exact dates may be still adjusted"
     links: "no"
 
   - start: 2023-07-10
     end: 2023-07-13
-    title: "(Proposed) Virtual Voting Meeting"
+    title: "Virtual Voting Meeting"
     links: "no"
 
-  - start: 2023-05-01
-    end: 2023-05-04
-    title: "(Proposed) Virtual Voting Meeting"
+  - start: 2023-05-02
+    end: 2023-05-05
+    title: "Virtual Voting Meeting"
     links: "no"
 
   - start: 2023-03-13
     end: 2023-03-16
     title: "Boston, MA (Amazon)"
+    links: "no"
+
+  - start: 2023-02-1
+    end: 2023-02-8
+    title: "Virtual Voting Meeting - only 2/1 and 2/8"
     links: "no"
 
   - year: 2022

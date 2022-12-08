@@ -549,7 +549,7 @@ plenaries:
       title: "Rework Intro of External Interfaces Chapter / Possibly Rename"
       issue_number: 379
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Merge or Cross-Reference that Hints must be obeyed by Application in RMA and Info Chapters"
@@ -579,7 +579,7 @@ plenaries:
       title: "MPI_Buffer_attach and Sessions"
       issue_number: 586
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
