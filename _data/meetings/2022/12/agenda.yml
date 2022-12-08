@@ -475,37 +475,13 @@ plenaries:
       title: "Topology typos and smaller text improvements"
       issue_number: 651
       presenter: Christoph
-      done: 0
-
-    - type: Reading
-      title: "RMA communication procedures should have local semantics"
-      issue_number: 653
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "Example 12.4: RMA communication calls may not block in PSCW"
-      issue_number: 555
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "RMA: Examples 12.4 and 12.5 contain advice to implementors"
-      issue_number: 652
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "Refer to Fortran 2018 instead of 2008+TS"
-      issue_number: 565
-      presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA accumulate operations don't distinguish between throughput and latency sensitive applications"
       issue_number: 640
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
@@ -535,6 +511,12 @@ plenaries:
       title: "WTIME and WTICK should be symbols"
       issue_number: 646
       presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Refer to Fortran 2018 instead of 2008+TS"
+      issue_number: 565
+      presenter: Rolf
       done: 0
 
     - type: Reading
@@ -597,15 +579,33 @@ plenaries:
       presenter: Aurelien
       done: 0
 
-    - type: Plenary
-      title: "Memory Allocation Kind Info"
-      issue_number: 580
-      presenter: Jim
+    - type: Reading
+      title: "RMA communication procedures should have local semantics"
+      issue_number: 653
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Example 12.4: RMA communication calls may not block in PSCW"
+      issue_number: 555
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "RMA: Examples 12.4 and 12.5 contain advice to implementors"
+      issue_number: 652
+      presenter: Joseph
       done: 0
 
     - type: ==================
       title: Part 5 - Plenaries needed for MPI 4.1
       presenter: ==============
+      done: 0
+
+    - type: Plenary
+      title: "Memory Allocation Kind Info"
+      issue_number: 580
+      presenter: Jim
       done: 0
 
     - type: Discussion
