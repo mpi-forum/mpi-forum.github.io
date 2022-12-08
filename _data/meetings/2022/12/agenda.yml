@@ -457,19 +457,19 @@ plenaries:
       title: "Update 'Process Topology' chapter title to use 'MPI process'"
       issue_number: 644
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Topology - use of MPI process where necessary"
       issue_number: 649
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Topology improvement around the term virtual topology"
       issue_number: 650
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Topology typos and smaller text improvements"
