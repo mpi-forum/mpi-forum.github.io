@@ -525,25 +525,25 @@ plenaries:
       title: "Refer to Fortran 2018 instead of 2008+TS"
       issue_number: 565
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Clarification of errhandler fallback with Sessions"
       issue_number: 588
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Process management chapter changes for 4.1"
       issue_number: 514
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fix Incorrect Usage of Rank/Task/etc. in Process Management Chapter"
       issue_number: 478
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Rework Intro of External Interfaces Chapter / Possibly Rename"
