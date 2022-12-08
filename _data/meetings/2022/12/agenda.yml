@@ -507,19 +507,19 @@ plenaries:
       title: "API to access and update MPI_Status public fields"
       issue_number: 645
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Handle conversions should be symbols"
       issue_number: 647
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "WTIME and WTICK should be symbols"
       issue_number: 646
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Refer to Fortran 2018 instead of 2008+TS"
