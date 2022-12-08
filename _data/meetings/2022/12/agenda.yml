@@ -487,13 +487,13 @@ plenaries:
       title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
       issue_number: 23
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Deprecate mpif.h"
       issue_number: 561
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "API to access and update MPI_Status public fields"
