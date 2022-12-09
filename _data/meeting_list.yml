@@ -638,8 +638,8 @@ voting:
     title: "Boston, MA (Amazon)"
     links: "no"
 
-  - start: 2023-02-1
-    end: 2023-02-8
+  - start: 2023-02-01
+    end: 2023-02-08
     title: "Virtual Voting Meeting - only 2/1 and 2/8"
     links: "no"
 
