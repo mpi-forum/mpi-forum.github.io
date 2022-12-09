@@ -32,6 +32,11 @@ On June 30 2020, the MPI forum voted for version 3.3 of [these voting rules](../
 
 The following working groups are currently participating in the MPI 4.0 efforts. For more information on each working group, current topics, and meeting schedules, please follow the links to the respective Wiki pages.
 
+#### [Application Binary Interface (ABI)](https://github.com/mpiwg-abi/abi-issues)
+
+*   Lead: Jeff Hammond
+*   Scope: The purpose of the MPI ABI Working Group is to discuss and implement the features required for MPI binaries - applications and libraries - to work with any implementation of MPI on compatible platforms.
+
 #### [Collective, Communicators, Context, Persistent, Partitioned, Groups](https://github.com/mpiwg-coll/coll-issues)
 
 *   Lead: Torsten Hoefler, Andrew Lumsdaine, Anthony Skjellum
