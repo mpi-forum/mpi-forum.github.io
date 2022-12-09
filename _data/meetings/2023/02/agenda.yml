@@ -1,0 +1,191 @@
+schedule:
+
+    - day: Wednesday, February 01
+
+    - start: 2023-02-01T9:00
+      end: 2023-02-01T12:00
+      title: "Plenary, see below"
+
+    - start: 2022-02-01T12:00
+      end: 2022-02-01T12:30
+      title: "Voting Block"
+
+    - start: 2022-02-01T12:30
+      end: 2022-02-01T13:00
+      title: "Plenary, see below"
+
+    - endday: done
+
+    - day: Wednesday, February 08
+
+    - start: 2023-02-08T9:00
+      end: 2023-02-08T12:00
+      title: "Plenary, see below"
+
+    - start: 2022-02-08T12:00
+      end: 2022-02-08T12:30
+      title: "Voting Block"
+
+    - start: 2022-02-08T12:30
+      end: 2022-02-08T13:00
+      title: "Plenary, see below"
+
+    - endday: done
+
+
+
+
+procedure-votes:
+
+errata-votes:
+
+no-no-votes:
+
+    - number: 586
+      description: "MPI_Buffer_attach and Sessions"
+
+first-votes:
+
+    - number: 379
+      description: "Rename External Interfaces Chapter"
+
+    - number: 586
+      description: "MPI_Buffer_attach and Sessions"
+
+second-votes:
+
+    - number: 407
+      description: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement) (reminder done)"
+
+    - number: 553
+      description: "RMA: Add missing win-sync calls to Example 12.21 (reminder done)"
+
+    - number: 551
+      description: "MPI_Win_free is synchronizing, except when it isn't (reminder done)"
+
+    - number: 429
+      description: "RMA: Replace 'operation' with 'operator' where appropriate (reminder done)"
+
+    - number: 554
+      description: "RMA: both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate memory (reminder done)"
+
+    - number: 474
+      description: "Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter"
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+      
+    - type: Discussion
+      title: Print Option for MPI 4.1
+      presenter: Martin
+      done: 0
+
+    - type: ==================
+      title: Part 1 -  No No Readings for Ballots
+      presenter: ==============
+      done: 0
+
+    - type: No-No Reading
+      title: "MPI_Buffer_attach and Sessions"
+      issue_number: 586
+      presenter: Martin
+      done: 0
+
+    - type: ==================
+      title: Part 2 - Errata Readings
+      presenter: ==============
+      done: 0
+
+
+    - type: ==================
+      title: Part 3 - Readings related to MPI 4.1
+      presenter: ==============
+      done: 0
+
+    - type: Reading
+      title: "Merge or Cross-Reference that Hints must be obeyed by Application in RMA and Info Chapters"
+      issue_number: 408
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Fix comment on Info object in incomplete functions"
+      issue_number: 411
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter"
+      issue_number: 480
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Consistency Updates for MPI_Info Chapter for MPI 4.1"
+      issue_number: 541
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
+      issue_number: 283
+      presenter: Aurelien
+      done: 0
+
+    - type: Reading
+      title: "RMA communication procedures should have local semantics"
+      issue_number: 653
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Example 12.4: RMA communication calls may not block in PSCW"
+      issue_number: 555
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "RMA: Examples 12.4 and 12.5 contain advice to implementors"
+      issue_number: 652
+      presenter: Joseph
+      done: 0
+
+    - type: ==================
+      title: Part 5 - Plenaries needed for MPI 4.1
+      presenter: ==============
+      done: 0
+
+    - type: Discussion
+      title: deprecate MPI HOST
+      issue_number: 57
+      presenter: Julien
+      done: 0
+
+    - type: ==================
+      title: Part 6 - Readings related to MPI 5.0
+      presenter: ==============
+      done: 0
+
+    - type: ==================
+      title: Part 7 - Other plenaries
+      presenter: ==============
+      done: 0
+
+    - type: Plenary
+      title: "Coarse-grained fault-tolerance interface (Reinit)"
+      issue_number: 578
+      presenter: Ignacio
+      done: 0
+
+    - type: ==================
+      title: Part 8 - Wrap-Up
+      presenter: ==============
+      done: 0
+
+    - type: Discussion
+      title: Virtual Meetings
+      presenter: Martin
+      done: 0
