@@ -78,18 +78,22 @@ schedule:
     - start: 2022-12-08T9:00
       end: 2022-12-08T10:00
       title: "Plenary, see below"
+      recording_url: "https://youtu.be/QYOrNm-7d-4"
 
     - start: 2022-12-08T10:00
       end: 2022-12-08T10:10
       title: "Introduction of Ballots"
+      recording_url: "https://youtu.be/QYOrNm-7d-4"
 
     - start: 2022-12-08T10:10
       end: 2022-12-08T10:30
       title: "Voting Block"
+      recording_url: "https://youtu.be/QYOrNm-7d-4"
 
     - start: 2022-12-08T10:10
       end: 2022-12-08T13:00
       title: "Plenary, see below"
+      recording_url: "https://youtu.be/QYOrNm-7d-4"
 
     - endday: done
 
