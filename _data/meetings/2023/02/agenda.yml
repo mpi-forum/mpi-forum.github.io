@@ -55,6 +55,9 @@ first-votes:
     - number: 586
       description: "MPI_Buffer_attach and Sessions"
 
+    - number: 538
+      description: "Allow pset names to guide splitting in MPI_Comm_split_type"
+
 second-votes:
 
     - number: 407
