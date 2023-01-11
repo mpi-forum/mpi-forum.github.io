@@ -44,6 +44,9 @@ no-no-votes:
     - number: 586
       description: "MPI_Buffer_attach and Sessions"
 
+    - number: 538
+      description: "Allow pset names to guide splitting in MPI_Comm_split_type"
+
 first-votes:
 
     - number: 379
@@ -55,19 +58,19 @@ first-votes:
 second-votes:
 
     - number: 407
-      description: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement) (reminder done)"
+      description: "Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)"
 
     - number: 553
-      description: "RMA: Add missing win-sync calls to Example 12.21 (reminder done)"
+      description: "RMA: Add missing win-sync calls to Example 12.21"
 
     - number: 551
-      description: "MPI_Win_free is synchronizing, except when it isn't (reminder done)"
+      description: "MPI_Win_free is synchronizing, except when it isn't"
 
     - number: 429
-      description: "RMA: Replace 'operation' with 'operator' where appropriate (reminder done)"
+      description: "RMA: Replace 'operation' with 'operator' where appropriate"
 
     - number: 554
-      description: "RMA: both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate memory (reminder done)"
+      description: "RMA: both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate memory"
 
     - number: 474
       description: "Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter"
