@@ -1,0 +1,68 @@
+schedule:
+
+    - day: Monday, March 13
+
+    - start: 2023-03-13T0:00
+      end: 2023-03-13T23:59
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Tuesday, March 14
+
+    - start: 2023-03-14T0:00
+      end: 2023-03-14T23:59
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Wednesday, March 15
+
+    - start: 2023-03-15T0:00
+      end: 2023-03-15T23:59
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+    - day: Thursday, March 16
+
+    - start: 2023-03-16T0:00
+      end: 2023-03-16T23:59
+      title: "Placeholder Agenda Item"
+
+    - endday: done
+
+
+procedure-votes:
+
+    - number: 1234
+      description: "Placeholder Procedure Vote"
+
+errata-votes:
+
+no-no-votes:
+
+first-votes:
+
+second-votes:
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: Placeholder Reading
+      issue_number: 1234
+      presenter: Placeholder Presenter
+      done: 0
+

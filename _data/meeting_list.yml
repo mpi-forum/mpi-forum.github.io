@@ -27,7 +27,7 @@ virtual:
   - start: 2022-12-14T10:00
     end: 2022-12-14T12:00
     title: "Allocator kind info (Jim)"
-    
+
   - start: 2022-11-30T10:00
     end: 2022-11-30T12:00
     title: "ULFM Slice 2 and FT general (Aurelien)"
@@ -636,7 +636,7 @@ voting:
   - start: 2023-03-13
     end: 2023-03-16
     title: "Boston, MA (Amazon)"
-    links: "no"
+    links: "yes"
 
   - start: 2023-02-01
     end: 2023-02-08

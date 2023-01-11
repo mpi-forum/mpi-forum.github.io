@@ -1,6 +1,6 @@
 ---
 layout: votes
-date: February 01, 2023 - February 08, 2023
+date: February 01, 2023 and February 08, 2023
 year: "2023"
 month: "02"
 rules: 3152013
