@@ -165,6 +165,12 @@ plenaries:
       presenter: Joseph
       done: 0
 
+    - type: Reading
+      title: "Process management chapter changes for 4.1"
+      issue_number: 514
+      presenter: Howard
+      done: 0
+
     - type: ==================
       title: Part 5 - Plenaries needed for MPI 4.1
       presenter: ==============
