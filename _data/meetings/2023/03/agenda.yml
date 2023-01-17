@@ -35,20 +35,6 @@ schedule:
 
     - endday: done
 
-
-procedure-votes:
-
-    - number: 1234
-      description: "Placeholder Procedure Vote"
-
-errata-votes:
-
-no-no-votes:
-
-first-votes:
-
-second-votes:
-
 plenaries:
     - type: Welcome
       title: Introductions
