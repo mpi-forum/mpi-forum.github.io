@@ -1,3 +1,3 @@
-topic,yes,no,abstain,missed
-"#52: COMM_DUP info (1st of two votes)",17,0,0,1
-"#53: COMM_DUP_WITH_INFO (1st of two votes)",17,0,0,1
+number,topic,yes,no,abstain,missed
+52,"COMM_DUP info (1st of two votes)",17,0,0,1
+53,"COMM_DUP_WITH_INFO (1st of two votes)",17,0,0,1

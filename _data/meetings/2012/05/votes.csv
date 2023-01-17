@@ -1,26 +1,26 @@
-topic,yes,no,abstain,missed
-"#187: Grouping MPI_AINT, MPI_OFFSET, MPI_COUNT as Multi-language types (1st vote)",15,0,1,0
-"#192: C++ binding for Dist_graph_neighbors_count is badly broken (1st vote)",14,1,1,0
-"#195: Topology awareness in MPI_Dims_create (1st vote)",2,10,4,0
-"#217: MPI3 Hybrid Programming: Proposal for Helper Threads (1st vote)",7,8,1,0
-"#256: MPI_PROC_NULL behavior for MPI_PROBE and MPI_IPROBE not directly defined (1st vote)",15,0,1,0
-"#271: Functions to query MPI_Info object attached to windows and communicators (1st vote)",14,1,1,0
-"#273: Add Immediate versions of nonblocking collective I/O routines (1st vote)",8,2,6,0
-"#278: Update examples to not use deprecated constructs (where possible) (1st vote)",10,0,6,0
-"#281: Remove C++ Bindings (1st vote)",11,5,0,0
-"#294: MPI_UNWEIGHTED should not be NULL (1st vote)",16,0,0,0
-"#300: Fix issue with definition of nonblocking in One Sided Chapter (1st vote)",14,0,2,0
-"#303: Move MPI-1 deprecated functions to new 'Removed Interfaces' chapter (1st vote)",9,5,2,0
-"#313: MPI_INIT & MPI_FINALIZE (1st vote)",11,1,4,0
-"#310: clarify MPI behavior when multiple MPI processes run in the same address space (1st vote)",3,7,6,0
-"#317: correct error related to MPI_REQUEST_FREE (1st vote)",15,0,1,0
-"#323: User-Level Failure Mitigation (1st vote)",7,5,4,0
-"#328: fix MPI_PROC_NULL behavior for mprobe/improbe/mrecv/imrecv (1st vote)",16,0,0,0
-"#308: RMA - Remove sentence on offset in datatypes (2nd vote)",16,0,0,0
-"#309: RMA - Clarify usage of status for request-based RMA operations (2nd vote)",16,0,0,0
-"#284: Allocate a shared memory window (2nd vote)",13,0,3,0
-"#280: Add a new datatype creation routine - MPI_Type_create_hindexed_block (2nd vote)",16,0,0,0
-"#168: Nonblocking Communicator Duplication (2nd vote)",13,1,2,0
-"#272: Remove non-blocking collective C++ bindings (2nd vote)",13,1,2,0
-"#286: Noncollective Communicator Creation (2nd vote)",15,0,1,0
-"#305: Update MPI_Intercomm_create to use collective tag space (2nd vote)",14,1,1,0
+number,topic,yes,no,abstain,missed
+187,"Grouping MPI_AINT, MPI_OFFSET, MPI_COUNT as Multi-language types (1st vote)",15,0,1,0
+192,"C++ binding for Dist_graph_neighbors_count is badly broken (1st vote)",14,1,1,0
+195,"Topology awareness in MPI_Dims_create (1st vote)",2,10,4,0
+217,"MPI3 Hybrid Programming: Proposal for Helper Threads (1st vote)",7,8,1,0
+256,"MPI_PROC_NULL behavior for MPI_PROBE and MPI_IPROBE not directly defined (1st vote)",15,0,1,0
+271,"Functions to query MPI_Info object attached to windows and communicators (1st vote)",14,1,1,0
+273,"Add Immediate versions of nonblocking collective I/O routines (1st vote)",8,2,6,0
+278,"Update examples to not use deprecated constructs (where possible) (1st vote)",10,0,6,0
+281,"Remove C++ Bindings (1st vote)",11,5,0,0
+294,"MPI_UNWEIGHTED should not be NULL (1st vote)",16,0,0,0
+300,"Fix issue with definition of nonblocking in One Sided Chapter (1st vote)",14,0,2,0
+303,"Move MPI-1 deprecated functions to new 'Removed Interfaces' chapter (1st vote)",9,5,2,0
+313,"MPI_INIT & MPI_FINALIZE (1st vote)",11,1,4,0
+310,"clarify MPI behavior when multiple MPI processes run in the same address space (1st vote)",3,7,6,0
+317,"correct error related to MPI_REQUEST_FREE (1st vote)",15,0,1,0
+323,"User-Level Failure Mitigation (1st vote)",7,5,4,0
+328,"fix MPI_PROC_NULL behavior for mprobe/improbe/mrecv/imrecv (1st vote)",16,0,0,0
+308,"RMA - Remove sentence on offset in datatypes (2nd vote)",16,0,0,0
+309,"RMA - Clarify usage of status for request-based RMA operations (2nd vote)",16,0,0,0
+284,"Allocate a shared memory window (2nd vote)",13,0,3,0
+280,"Add a new datatype creation routine - MPI_Type_create_hindexed_block (2nd vote)",16,0,0,0
+168,"Nonblocking Communicator Duplication (2nd vote)",13,1,2,0
+272,"Remove non-blocking collective C++ bindings (2nd vote)",13,1,2,0
+286,"Noncollective Communicator Creation (2nd vote)",15,0,1,0
+305,"Update MPI_Intercomm_create to use collective tag space (2nd vote)",14,1,1,0

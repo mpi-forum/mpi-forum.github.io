@@ -1,9 +1,9 @@
-topic,type,yes,no,abstain,missed
-"#145: Scheduling of No-No-Votes",procedure,19,0,2,undefined
-"#134: Add MPI_ERR_PROC_ABORTED",no-no,19,0,2,undefined
-"#79: Callback-driven event interface for MPI_T",no-no,19,0,2,undefined
-"#69: Definition and Explanation of External32",errata,19,0,2,undefined
-"#144: Errata - Clarify ordering of accumulate operations with origin == target",errata,19,0,2,undefined
-"#134: Add MPI_ERR_PROC_ABORTED",1st,19,0,2,undefined
-"#119: Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens",2nd,19,0,2,undefined
-"#102: Define error/failure behavior in MPI_INIT/FINALIZE",2nd,18,0,3,undefined
+number,topic,type,yes,no,abstain,missed
+145,"Scheduling of No-No-Votes",procedure,19,0,2,undefined
+134,"Add MPI_ERR_PROC_ABORTED",no-no,19,0,2,undefined
+79,"Callback-driven event interface for MPI_T",no-no,19,0,2,undefined
+69,"Definition and Explanation of External32",errata,19,0,2,undefined
+144,"Errata - Clarify ordering of accumulate operations with origin == target",errata,19,0,2,undefined
+134,"Add MPI_ERR_PROC_ABORTED",1st,19,0,2,undefined
+119,"Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens",2nd,19,0,2,undefined
+102,"Define error/failure behavior in MPI_INIT/FINALIZE",2nd,18,0,3,undefined

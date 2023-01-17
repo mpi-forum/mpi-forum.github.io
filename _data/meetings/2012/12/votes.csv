@@ -1,3 +1,3 @@
-topic,yes,no,abstain
-"Motion to adjourn the MPI Forum indefinitely (Procedure Vote)",2,13,3
-"#345: MPI-3.0 Errata: Corrections to the Fortran interface (1st vote)",15,0,3
+number,topic,yes,no,abstain
+,"Motion to adjourn the MPI Forum indefinitely (Procedure Vote)",2,13,3
+345,"MPI-3.0 Errata: Corrections to the Fortran interface (1st vote)",15,0,3

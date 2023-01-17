@@ -1,4 +1,4 @@
-topic,type,yes,no,abstain,missed
-"CHANGE SINCE 2-WEEK WINDOW: #26 Deprecate point-to-point send cancel (no no vote)","no-no",13,0,2,0
-"#11 Comm info key asserts (1st of 2 votes)","1st",15,0,0,0
-"#26 Deprecate point-to-point send cancel (2nd of 2 votes)","2nd",15,0,0,0
+number,topic,type,yes,no,abstain,missed
+,"CHANGE SINCE 2-WEEK WINDOW: #26 Deprecate point-to-point send cancel (no no vote)","no-no",13,0,2,0
+,"#11 Comm info key asserts (1st of 2 votes)","1st",15,0,0,0
+,"#26 Deprecate point-to-point send cancel (2nd of 2 votes)","2nd",15,0,0,0
