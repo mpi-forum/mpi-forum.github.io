@@ -1,22 +1,22 @@
-number,topic,yes,no,abstain,missed
-CHANGE SINCE 2-WEEK DEADLINE: Add Immediate versions of nonblocking collective I/O routines (1st-and-only vote),21,0,0,0
-CHANGE SINCE 2-WEEK DEADLINE: Add same_disp_unit info key for RMA window creation (1st-and-only vote),21,0,0,0
-CHANGE SINCE 2-WEEK DEADLINE: Errata: MPI_Aint addressing arithmetic (1st-and-only vote),21,0,0,0
-CHANGE SINCE 2-WEEK DEADLINE: Errata: Missing in C in wording about handle-comparison (1st-and-only vote),21,0,0,0
-#383: Consistency of tools information interface variable information (1st vote),20,0,1,0
-#394: MPI_T: Clarify values of watermark variables between and during stopped and started periods (1st vote),21,0,0,0
-#433: Errata: MPI_WIN_ATTACH must only be for simply contiguous buffers (1st vote),21,0,0,0
-#441: Errata: Missing text for Fortran MPI_SUBARRAYS_SUPPORTED equals .FALSE. (1st vote),20,1,0,0
-#444: Errata: Fortran and Persistent Requests (1st vote),21,0,0,0
-#431: Errata: MPI Address Errata (1st vote),20,0,0,1
-#421: Errata: MPI_Aint addressing arithmetic (on top of 349/402/404) (1st vote),20,0,0,1
-#447: Errata: Tools section is an exception: no Fortran interface (1st vote),19,1,0,1
-#449: Errata: Missing in C in wording about handle-comparison (1st vote),20,0,0,1
-#451: Errata: Correcting description of nonblocking (1st vote),21,0,0,0
-#453: Errata: Avoidance of mpi_ / pmpi_ in C due to Fortran reasons (1st vote),21,0,0,0
-#273: Add Immediate versions of nonblocking collective I/O routines (2nd vote),20,0,1,0
-#349: MPI_Aint addressing arithmetic (2nd vote),21,0,0,0
-#402: Update dynamic window example to use MPI_Aint_add (2nd vote),21,0,0,0
-#404: MPI_Aint diff arithmetic (2nd vote),21,0,0,0
-#369: Add same_disp_unit info key for RMA window creation (2nd vote),21,0,0,0
-357,"thread-safety of MPI_INITIALIZED,MPI_FINALIZED,MPI_QUERY_THREAD and MPI_IS_THREAD_MAIN in all uses for library correctness (2nd vote)",21,0,0,0
+number,topic,type,yes,no,abstain,missed
+CHANGE SINCE 2-WEEK DEADLINE: Add Immediate versions of nonblocking collective I/O routines,1st-and-only,21,0,0,0
+CHANGE SINCE 2-WEEK DEADLINE: Add same_disp_unit info key for RMA window creation,1st-and-only,21,0,0,0
+CHANGE SINCE 2-WEEK DEADLINE: Errata: MPI_Aint addressing arithmetic,1st-and-only,21,0,0,0
+CHANGE SINCE 2-WEEK DEADLINE: Errata: Missing in C in wording about handle-comparison,1st-and-only,21,0,0,0
+#383: Consistency of tools information interface variable information,1st,20,0,1,0
+#394: MPI_T: Clarify values of watermark variables between and during stopped and started periods,1st,21,0,0,0
+#433: Errata: MPI_WIN_ATTACH must only be for simply contiguous buffers,1st,21,0,0,0
+#441: Errata: Missing text for Fortran MPI_SUBARRAYS_SUPPORTED equals .FALSE.,1st,20,1,0,0
+#444: Errata: Fortran and Persistent Requests,1st,21,0,0,0
+#431: Errata: MPI Address Errata,1st,20,0,0,1
+#421: Errata: MPI_Aint addressing arithmetic (on top of 349/402/404),1st,20,0,0,1
+#447: Errata: Tools section is an exception: no Fortran interface,1st,19,1,0,1
+#449: Errata: Missing in C in wording about handle-comparison,1st,20,0,0,1
+#451: Errata: Correcting description of nonblocking,1st,21,0,0,0
+#453: Errata: Avoidance of mpi_ / pmpi_ in C due to Fortran reasons,1st,21,0,0,0
+#273: Add Immediate versions of nonblocking collective I/O routines,2nd,20,0,1,0
+#349: MPI_Aint addressing arithmetic,2nd,21,0,0,0
+#402: Update dynamic window example to use MPI_Aint_add,2nd,21,0,0,0
+#404: MPI_Aint diff arithmetic,2nd,21,0,0,0
+#369: Add same_disp_unit info key for RMA window creation,2nd,21,0,0,0
+357,"thread-safety of MPI_INITIALIZED,MPI_FINALIZED,MPI_QUERY_THREAD and MPI_IS_THREAD_MAIN in all uses for library correctness",2nd,21,0,0,0

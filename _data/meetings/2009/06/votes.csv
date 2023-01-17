@@ -1,77 +1,77 @@
-number,topic,yes,no,abstain,missed
-7,"Function pointer typedefs: '_function' vs. '_fn' (1st vote)",11,1,4,1
-13,"Small clarifications in chapter 10 (1st vote)",14,0,0,3
-18,"New Predefined Datatypes (1st vote)",12,1,3,1
-19,"Inconsistent comments about intercommunicators (1st vote)",16,0,0,1
-24,"Add a local Reduction Function (1st vote)",11,1,4,1
-27,"Regular (non-vector) version of MPI_Reduce_scatter (1st vote)",13,0,2,2
-31,"Add MPI_IN_PLACE option to Alltoall (1st vote)",15,0,1,1
-33,"Fix Scalability Issues in Graph Topology Interface (1st vote)",9,3,5,0
-37,"Clarify semantics of one-sided semantics when changing synchronization mode (1st vote)",14,0,2,1
-50,"Ibsend and Irsend Advice to Users misleading (1st vote)",15,0,1,1
-51,"Inconsistent use of MPI_ANY_SOURCE in argument description (1st vote)",16,0,0,1
-55,"MPI-2.1 Cross-language attribute example is wrong (1st vote)",15,1,0,1
-57,"Fortran specific length types are not consistently listed (1st vote)",16,0,0,1
-59,"Clarification on MPI::FILE_NULL, MPI::WIN_NULL and MPI::COMM_NULL (1st vote)",16,0,0,1
-64,"Parameterized and optional named predefined datatypes in reduction operations (1st vote)",16,0,1,0
-65,"Predefined handles before MPI_Init and constants in general, Clarification Solution 1 (1st vote)",14,0,3,0
-66,"Extending MPI_COMM_CREATE to create several disjoint sub-communicators from an intracommunicator (1st vote)",16,0,0,1
-70,"Misleading rationale for MPI_Test (and MPI_Win_test) (1st vote)",15,0,0,2
-71,"Specify order of atribute delete callbacks on MPI_COMM_SELF at MPI_FINALIZE (1st vote)",15,1,0,1
-72,"Convenience function: MPI_CART_SHIFT_VECTOR (1st vote)",0,12,4,1
-77,"Version 2.2 intro and text (1st vote)",15,0,0,2
-80,"Misleading discussion of thread ordering (1st vote)",16,0,0,1
-94,"Add MPI_IN_PLACE option to Exscan (1st vote)",13,0,3,1
-98,"Additional change requried for changes to Send Buffer restriction (#45) (1st vote)",15,1,0,1
-99,"Change-Log is also used for important clarifications for the MPI users. (1st vote)",15,0,0,2
-100,"Change-Log from Version 2.1 to Version 2.2 (1st vote)",15,0,0,2
-103,"Fortran in this document refers to Fortran 90 (1st vote)",16,0,0,1
-105,"Matching arguments and collective routines. (1st vote)",16,0,0,1
-107,"Types of predefined constants in Appendix A (1st vote)",16,0,0,1
-116,"Data type chapter example corrections (1st vote)",16,0,0,1
-121,"Filling out list of CHAR types in Section 5.9.3 (1st vote)",15,0,0,2
-122,"Typo in MPI_CART_SHIFT example 7.4 (1st vote)",16,0,0,1
-124,"Slightly changed description of MPI_REDUCE_SCATTER, explanation on 'in place' (1st vote)",15,0,0,2
-127,"Add C++ versions of Fortran COMPLEX8 etc. (1st vote)",13,0,3,1
-128,"Verify and correct example 'Building Name Service for Intercommunications' (1st vote)",16,0,0,1
-132,"Change 'a data item' to 'data' in allgather on intercommunicators (1st vote)",16,0,0,1
-135,"Define matching semantics of collective operations in threaded environments (1st vote)",16,0,0,1
-136,"Advice to users about associativity in reduction operations (1st vote)",16,0,0,1
-137,"MPI_REQUEST_GET_STATUS should allow inactive and NULL request arguments (1st vote)",16,0,0,1
-141,"MPI_Aint/MPI_ADDRESS_KIND and MPI_Offset/MPI_OFFSET_KIND equality (1st vote)",16,0,0,1
-142,"Fix incorrect mentions of 3 routines (1st vote)",16,0,0,1
-143,"MPI_Request_free bad advice to users (1st vote)",15,1,1,0
-146,"Fix MPI_INIT description text (1st vote)",16,0,0,1
-148,"Missing entries in the Index pages. (1st vote)",16,0,0,1
-149,"Obsolete reference to deprecated function MPI_Attr_get (1st vote)",16,0,0,1
-150,"Deprecate the C++ bindings (1st vote)",16,1,0,0
-151,"Predefined handles before MPI_Init and constants in general, Enhancment Solution 2 (1st vote)",0,12,5,0
-109,"MPI-3: Nonblocking Collective Operations (2nd vote)",16,0,0,1
-1,"Fortran MPI_*_ERRHANDLER callback functions are varargs (2nd vote)",15,0,1,1
-3,"Repeating a Neighbor in a Graph Communicator Ambiguity with MPI_GRAPH_NEIGHBOR[_COUNT] (2nd vote)",16,0,0,1
-4,"Remove MPI-2.1 A.1.1 p494:31-32 table (2nd vote)",16,0,0,1
-8,"Text Updates to Language Bindings Chapter (2nd vote)",16,0,0,1
-30,"Clarification to intercomm MPI_Barrier (2nd vote)",16,0,0,1
-40,"MPI-2.1 Errata MPI::F_DOUBLE_COMPLEX (page 495 line 11) (2nd vote)",16,0,0,1
-43,"MPI_REPLACE in MPI_Accumulate (2nd vote)",16,0,0,1
-44,"Non blocking versus non-blocking versus nonblocking (2nd vote)",16,0,0,1
-53,"Explicitly encourage routines for 'good' one-sided memory for all memory types (2nd vote)",16,0,0,1
-60,"Modernize example on p 279 (2nd vote)",16,0,0,1
-61,"MPI-2.1 Change-Log: Version number modified to 2.1 (2nd vote)",14,1,1,1
-63,"MPI_CHAR for printable characters - C & C++ consisteny (2nd vote)",16,0,0,1
-67,"MPI-2.1 Errata: Error in name of participating institution for MPI 2.1 (2nd vote)",16,0,0,1
-74,"Nonnegative vs. non-negative (2nd vote)",16,0,0,1
-87,"Wording changes to collective chapter for consistency (2nd vote)",16,0,0,1
-89,"Philosophical difference with current classification of barriers (2nd vote)",10,2,4,1
-90,"Minor grammar corrections for collectives chapter (2nd vote)",16,0,0,1
-91,"Undefined term in description of Reduce-Scatter (2nd vote)",16,0,0,1
-92,"Need to fix MPI_EXSCAN advice to users (2nd vote)",16,0,0,1
-93,"Inconsistent description of arrays in collective operations (2nd vote)",16,0,0,1
-97,"Small bug in RMA example (2nd vote)",16,0,0,1
-101,"Version number changed to (2,2) (2nd vote)",16,0,0,1
-104,"MPI_ARGV_NULL and MPI_ARGVS_NULL missing on p465:13-15. (2nd vote)",16,0,0,1
-113,"Minor typo in MPI_ALLTOALLV (2nd vote)",16,0,0,1
-115,"Corrections to point-to-point chapter examples (2nd vote)",16,0,0,1
-118,"Corrections to collectives chapter: fix examples and remove deprecated functions (2nd vote)",16,0,0,1
-120,"Typos in Collectives Chapter (2nd vote)",16,0,0,1
-123,"Fix errors in example in profiling chapter (2nd vote)",16,0,0,1
+number,topic,type,yes,no,abstain,missed
+7,"Function pointer typedefs: '_function' vs. '_fn'",1st,11,1,4,1
+13,"Small clarifications in chapter 10",1st,14,0,0,3
+18,"New Predefined Datatypes",1st,12,1,3,1
+19,"Inconsistent comments about intercommunicators",1st,16,0,0,1
+24,"Add a local Reduction Function",1st,11,1,4,1
+27,"Regular (non-vector) version of MPI_Reduce_scatter",1st,13,0,2,2
+31,"Add MPI_IN_PLACE option to Alltoall",1st,15,0,1,1
+33,"Fix Scalability Issues in Graph Topology Interface",1st,9,3,5,0
+37,"Clarify semantics of one-sided semantics when changing synchronization mode",1st,14,0,2,1
+50,"Ibsend and Irsend Advice to Users misleading",1st,15,0,1,1
+51,"Inconsistent use of MPI_ANY_SOURCE in argument description",1st,16,0,0,1
+55,"MPI-2.1 Cross-language attribute example is wrong",1st,15,1,0,1
+57,"Fortran specific length types are not consistently listed",1st,16,0,0,1
+59,"Clarification on MPI::FILE_NULL, MPI::WIN_NULL and MPI::COMM_NULL",1st,16,0,0,1
+64,"Parameterized and optional named predefined datatypes in reduction operations",1st,16,0,1,0
+65,"Predefined handles before MPI_Init and constants in general, Clarification Solution 1",1st,14,0,3,0
+66,"Extending MPI_COMM_CREATE to create several disjoint sub-communicators from an intracommunicator",1st,16,0,0,1
+70,"Misleading rationale for MPI_Test (and MPI_Win_test)",1st,15,0,0,2
+71,"Specify order of atribute delete callbacks on MPI_COMM_SELF at MPI_FINALIZE",1st,15,1,0,1
+72,"Convenience function: MPI_CART_SHIFT_VECTOR",1st,0,12,4,1
+77,"Version 2.2 intro and text",1st,15,0,0,2
+80,"Misleading discussion of thread ordering",1st,16,0,0,1
+94,"Add MPI_IN_PLACE option to Exscan",1st,13,0,3,1
+98,"Additional change requried for changes to Send Buffer restriction (#45)",1st,15,1,0,1
+99,"Change-Log is also used for important clarifications for the MPI users.",1st,15,0,0,2
+100,"Change-Log from Version 2.1 to Version 2.2",1st,15,0,0,2
+103,"Fortran in this document refers to Fortran 90",1st,16,0,0,1
+105,"Matching arguments and collective routines.",1st,16,0,0,1
+107,"Types of predefined constants in Appendix A",1st,16,0,0,1
+116,"Data type chapter example corrections",1st,16,0,0,1
+121,"Filling out list of CHAR types in Section 5.9.3",1st,15,0,0,2
+122,"Typo in MPI_CART_SHIFT example 7.4",1st,16,0,0,1
+124,"Slightly changed description of MPI_REDUCE_SCATTER, explanation on 'in place'",1st,15,0,0,2
+127,"Add C++ versions of Fortran COMPLEX8 etc.",1st,13,0,3,1
+128,"Verify and correct example 'Building Name Service for Intercommunications'",1st,16,0,0,1
+132,"Change 'a data item' to 'data' in allgather on intercommunicators",1st,16,0,0,1
+135,"Define matching semantics of collective operations in threaded environments",1st,16,0,0,1
+136,"Advice to users about associativity in reduction operations",1st,16,0,0,1
+137,"MPI_REQUEST_GET_STATUS should allow inactive and NULL request arguments",1st,16,0,0,1
+141,"MPI_Aint/MPI_ADDRESS_KIND and MPI_Offset/MPI_OFFSET_KIND equality",1st,16,0,0,1
+142,"Fix incorrect mentions of 3 routines",1st,16,0,0,1
+143,"MPI_Request_free bad advice to users",1st,15,1,1,0
+146,"Fix MPI_INIT description text",1st,16,0,0,1
+148,"Missing entries in the Index pages.",1st,16,0,0,1
+149,"Obsolete reference to deprecated function MPI_Attr_get",1st,16,0,0,1
+150,"Deprecate the C++ bindings",1st,16,1,0,0
+151,"Predefined handles before MPI_Init and constants in general, Enhancment Solution 2",1st,0,12,5,0
+109,"MPI-3: Nonblocking Collective Operations",2nd,16,0,0,1
+1,"Fortran MPI_*_ERRHANDLER callback functions are varargs",2nd,15,0,1,1
+3,"Repeating a Neighbor in a Graph Communicator Ambiguity with MPI_GRAPH_NEIGHBOR[_COUNT]",2nd,16,0,0,1
+4,"Remove MPI-2.1 A.1.1 p494:31-32 table",2nd,16,0,0,1
+8,"Text Updates to Language Bindings Chapter",2nd,16,0,0,1
+30,"Clarification to intercomm MPI_Barrier",2nd,16,0,0,1
+40,"MPI-2.1 Errata MPI::F_DOUBLE_COMPLEX (page 495 line 11)",2nd,16,0,0,1
+43,"MPI_REPLACE in MPI_Accumulate",2nd,16,0,0,1
+44,"Non blocking versus non-blocking versus nonblocking",2nd,16,0,0,1
+53,"Explicitly encourage routines for 'good' one-sided memory for all memory types",2nd,16,0,0,1
+60,"Modernize example on p 279",2nd,16,0,0,1
+61,"MPI-2.1 Change-Log: Version number modified to 2.1",2nd,14,1,1,1
+63,"MPI_CHAR for printable characters - C & C++ consisteny",2nd,16,0,0,1
+67,"MPI-2.1 Errata: Error in name of participating institution for MPI 2.1",2nd,16,0,0,1
+74,"Nonnegative vs. non-negative",2nd,16,0,0,1
+87,"Wording changes to collective chapter for consistency",2nd,16,0,0,1
+89,"Philosophical difference with current classification of barriers",2nd,10,2,4,1
+90,"Minor grammar corrections for collectives chapter",2nd,16,0,0,1
+91,"Undefined term in description of Reduce-Scatter",2nd,16,0,0,1
+92,"Need to fix MPI_EXSCAN advice to users",2nd,16,0,0,1
+93,"Inconsistent description of arrays in collective operations",2nd,16,0,0,1
+97,"Small bug in RMA example",2nd,16,0,0,1
+101,"Version number changed to (2,2)",2nd,16,0,0,1
+104,"MPI_ARGV_NULL and MPI_ARGVS_NULL missing on p465:13-15.",2nd,16,0,0,1
+113,"Minor typo in MPI_ALLTOALLV",2nd,16,0,0,1
+115,"Corrections to point-to-point chapter examples",2nd,16,0,0,1
+118,"Corrections to collectives chapter: fix examples and remove deprecated functions",2nd,16,0,0,1
+120,"Typos in Collectives Chapter",2nd,16,0,0,1
+123,"Fix errors in example in profiling chapter",2nd,16,0,0,1

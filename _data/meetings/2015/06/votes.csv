@@ -1,7 +1,7 @@
-number,topic,yes,no,abstain,missed
-CHANGE SINCE LAST MEETING: Procedures document (no no vote),20,0,0,3
-Procedures document (1st-and-only vote),20,0,0,3
-CHANGE SINCE LAST MEETING: Tools chapter (1st-and-only vote),20,0,0,3
-CHANGE SINCE LAST MEETING: RMA chapter (1st-and-only vote),20,0,0,3
-CHANGE SINCE 4-WEEK WINDOW/NOT ON LIST: Changelog (no no vote),20,0,0,3
-CHANGE SINCE LAST MEETING/NOT ON LIST: Minor editorial changes (no no vote),20,0,0,3
+number,topic,type,yes,no,abstain,missed
+CHANGE SINCE LAST MEETING: Procedures document,no-no,20,0,0,3
+Procedures document,1st-and-only,20,0,0,3
+CHANGE SINCE LAST MEETING: Tools chapter,1st-and-only,20,0,0,3
+CHANGE SINCE LAST MEETING: RMA chapter,1st-and-only,20,0,0,3
+CHANGE SINCE 4-WEEK WINDOW/NOT ON LIST: Changelog,no-no,20,0,0,3
+CHANGE SINCE LAST MEETING/NOT ON LIST: Minor editorial changes,no-no,20,0,0,3
