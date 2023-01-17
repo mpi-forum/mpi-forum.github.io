@@ -145,119 +145,119 @@ layout: default
          {% endfor %}
 
          <h2>Votes</h2>
-         {% if input.procedure-votes.size > 0 %}
+         {% if procedure_votes.size > 0 %}
          <h3>Procedure</h3>
          <ul>
-             {% for item in input.procedure-votes %}
+             {% for item in procedure_votes %}
              <li>
                  {% if item.number.size > 0 %}
                        <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
-                 {{item.description}}
+                 {{item.topic}}
              </li>
              {% endfor %}
          </ul>
          {% endif %}
-         {% if input.ticket-zero-votes.size > 0 %}
+         {% if ticket_zero_votes.size > 0 %}
          <h3>Ticket Zero Votes</h3>
          <ul>
-             {% for item in input.ticket-zero-votes %}
+             {% for item in ticket_zero_votes %}
              <li>
                  {% if item.number.size > 0 %}
                        <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
-                 {{item.description}}
+                 {{item.topic}}
              </li>
              {% endfor %}
          </ul>
          {% endif %}
-         {% if input.no-no-votes.size > 0 %}
+         {% if no_no_votes.size > 0 %}
          <h3>No "No Votes"</h3>
          <ul>
-             {% for item in input.no-no-votes %}
+             {% for item in no_no_votes %}
              <li>
                  {% if item.number.size > 0 %}
                        <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
-                 {{item.description}}
+                 {{item.topic}}
              </li>
              {% endfor %}
          </ul>
          {% endif %}
-         {% if input.errata-votes.size > 0 %}
+         {% if errata_votes.size > 0 %}
          <h3>Errata Votes</h3>
          <ul>
-             {% for item in input.errata-votes %}
+             {% for item in errata_votes %}
              <li>
                  {% if item.number.size > 0 %}
                        <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
-                 {{item.description}}
+                 {{item.topic}}
              </li>
              {% endfor %}
          </ul>
          {% endif %}
-         {% if input.first-and-only-votes.size > 0 %}
+         {% if first_and_only_votes.size > 0 %}
          <h3>First and Only Votes</h3>
          <ul>
-             {% for item in input.first-and-only-votes %}
+             {% for item in first_and_only_votes %}
              <li>
                  {% if item.number.size > 0 %}
                        <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
-                 {{item.description}}
+                 {{item.topic}}
              </li>
              {% endfor %}
          </ul>
          {% endif %}
-         {% if input.first-votes.size > 0 %}
+         {% if first_votes.size > 0 %}
          <h3>First Vote</h3>
          <ul>
-             {% for item in input.first-votes %}
+             {% for item in first_votes %}
              <li>
                  {% if item.number.size > 0 %}
                        <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
-                 {{item.description}}
+                 {{item.topic}}
              </li>
              {% endfor %}
          </ul>
          {% endif %}
-         {% if input.second-votes.size > 0 %}
+         {% if second_votes.size > 0 %}
          <h3>Second Vote</h3>
          <ul>
-             {% for item in input.second-votes %}
+             {% for item in second_votes %}
              <li>
                  {% if item.number.size > 0 %}
                        <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
-                 {{item.description}}
+                 {{item.topic}}
              </li>
              {% endfor %}
          </ul>
          {% endif %}
-         {% if input.chapter-votes.size > 0 %}
+         {% if chapter_votes.size > 0 %}
          <h3>Chapter Vote</h3>
          <ul>
-             {% for item in input.chapter-votes %}
+             {% for item in chapter_votes %}
              <li>
                  {% if item.number.size > 0 %}
                        <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
-                 {{item.description}}
+                 {{item.topic}}
              </li>
              {% endfor %}
          </ul>
          {% endif %}
-         {% if input.whole-document-vote.size > 0 %}
+         {% if whole_document_vote.size > 0 %}
          <h3>Whole Document Vote</h3>
          <ul>
-             {% for item in input.whole-document-vote %}
+             {% for item in whole_document_vote %}
              <li>
                  {% if item.number.size > 0 %}
                        <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
-                 {{item.description}}
+                 {{item.topic}}
              </li>
              {% endfor %}
          </ul>
