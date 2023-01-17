@@ -24,7 +24,6 @@ layout: default
 
         {% assign url = "https://github.com/mpi-forum/mpi-issues/issues/" %}
         {% assign trac_url = "https://github.com/mpi-forum/mpi-forum-historic/issues/" %}
-        {% assign pr_url = "https://github.com/mpi-forum/mpi-standard/pull/" %}
         {% assign year = page.year | plus: 0 %}
         {% assign month = page.month | plus: 0 %}
 
@@ -35,6 +34,7 @@ layout: default
         {% endif %}
 
          {% assign input = site.data.meetings[page.year][page.month].agenda %}
+         {% assign votes = site.data.meetings[page.year][page.month].votes %}
 
          {% if input.notes %}
          <UL><h4>Note:</h4> {{ input.notes }}</UL>
@@ -119,8 +119,6 @@ layout: default
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% elsif item.type == "pr" %}
-                         <a href="{{pr_url}}{{item.number}}">#{{item.number}}</a>:
                      {% else %}
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
@@ -138,8 +136,6 @@ layout: default
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% elsif item.type == "pr" %}
-                         <a href="{{pr_url}}{{item.number}}">#{{item.number}}</a>:
                      {% else %}
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
@@ -160,8 +156,6 @@ layout: default
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% elsif item.type == "pr" %}
-                         <a href="{{pr_url}}{{item.number}}">#{{item.number}}</a>:
                      {% else %}
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
@@ -188,8 +182,6 @@ layout: default
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% elsif item.type == "pr" %}
-                         <a href="{{pr_url}}{{item.number}}">#{{item.number}}</a>:
                      {% else %}
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
@@ -216,8 +208,6 @@ layout: default
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% elsif item.type == "pr" %}
-                         <a href="{{pr_url}}{{item.number}}">#{{item.number}}</a>:
                      {% else %}
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
@@ -244,8 +234,6 @@ layout: default
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% elsif item.type == "pr" %}
-                         <a href="{{pr_url}}{{item.number}}">#{{item.number}}</a>:
                      {% else %}
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
@@ -272,8 +260,6 @@ layout: default
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% elsif item.type == "pr" %}
-                         <a href="{{pr_url}}{{item.number}}">#{{item.number}}</a>:
                      {% else %}
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
@@ -300,8 +286,6 @@ layout: default
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% elsif item.type == "pr" %}
-                         <a href="{{pr_url}}{{item.number}}">#{{item.number}}</a>:
                      {% else %}
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
@@ -328,8 +312,6 @@ layout: default
                  {% if item.number.size > 0 %}
                      {% if item.link.size > 0 %}
                          <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% elsif item.type == "pr" %}
-                         <a href="{{pr_url}}{{item.number}}">#{{item.number}}</a>:
                      {% else %}
                          <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                      {% endif %}
