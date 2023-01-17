@@ -60,6 +60,36 @@ plenaries:
       presenter: Guillaume
       done: 0
 
+    - type: No-No Reading
+      title: "Mention behavior with potential overflow"
+      issue_number: 414
+      presenter: Marc-Andre
+      done: 0
+
+    - type: No-No Reading
+      title: "Correct usage of the terms error and return codes in the tools chapter"
+      issue_number: 542
+      presenter: Marc-Andre
+      done: 0
+
+    - type: No-No Reading
+      title: "Update: Section 3.5 - p. 45 - Comment Erroneous Example"
+      issue_number: 188
+      presenter: Dan
+      done: 0
+
+    - type: No-No Reading
+      title: "Info key(s) for Start Ordering Persistent Collective Communication"
+      issue_number: 83
+      presenter: Dan
+      done: 0
+
+    - type: No-No Reading
+      title: "Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
+      issue_number: 472
+      presenter: Dan
+      done: 0
+
     - type: ==================
       title: Part 2 - Errata Readings
       presenter: ==============
@@ -125,15 +155,39 @@ plenaries:
       presenter: Howard
       done: 0
 
+    - type: Reading
+      title: "Deprecate MPI_HOST"
+      issue_number: 57
+      presenter: Julien
+      done: 0
+
+    - type: Reading
+      title: "A new function to query hardware resource names"
+      issue_number: 154
+      presenter: Julien
+      done: 0
+
+    - type: Reading
+      title: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
+      issue_number: 443
+      presenter: Marc-Andre
+      done: 0
+
     - type: ==================
       title: Part 5 - Plenaries needed for MPI 4.1
       presenter: ==============
       done: 0
 
-    - type: Discussion
-      title: deprecate MPI HOST
-      issue_number: 57
-      presenter: Julien
+    - type: Reading
+      title: "Rename Name-Shifted Profiling Interface (PMPI) to Interception Interface"
+      issue_number: 584
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
+      issue_number: 520
+      presenter: Marc-Andre
       done: 0
 
     - type: ==================
