@@ -1,5 +1,5 @@
-number,topic,yes,no,abstain,missed
-287,"Shared Memory Interoperability for MPI (1st vote)",16,0,0,2
-266,"MPIT Tool Interface / Reorganization of the Profiling Chapter (1st vote)",15,0,1,2
-204,"Query minor/implementation specific versions (1st vote)",15,0,1,2
-279,"Make C++ bindings optional (1st vote)",12,3,3,0
+number,topic,type,yes,no,abstain,missed
+287,"Shared Memory Interoperability for MPI",1st,16,0,0,2
+266,"MPIT Tool Interface / Reorganization of the Profiling Chapter",1st,15,0,1,2
+204,"Query minor/implementation specific versions",1st,15,0,1,2
+279,"Make C++ bindings optional",1st,12,3,3,0

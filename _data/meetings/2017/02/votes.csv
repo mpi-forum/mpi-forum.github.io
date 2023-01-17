@@ -1,6 +1,5 @@
-number,topic,yes,no,abstain,missed
-50,"MPI_T errata reinit - NOT VOTED",0,0,0,0
-,"Combined #11, #52, #53",20,0,0,0
-11,"Comm info keys and assertions (COMBINED ABOVE)",0,0,0,0
-52,"Remove info key propagation (COMBINED ABOVE)",0,0,0,0
-53,"Add MPI_Comm_idup_with_info (COMBINED ABOVE)",0,0,0,0
+number,topic,type,yes,no,abstain,missed
+,"Combined #11, #52, #53",1st,20,0,0,0
+11,"Comm info keys and assertions (COMBINED ABOVE)",1st,0,0,0,0
+52,"Remove info key propagation (COMBINED ABOVE)",1st,0,0,0,0
+53,"Add MPI_Comm_idup_with_info (COMBINED ABOVE)",1st,0,0,0,0

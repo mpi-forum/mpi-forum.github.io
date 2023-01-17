@@ -1,7 +1,7 @@
-number,topic,yes,no,abstain,missed
-,"Ok to vote on #270 even though there is no implementation yet (procedure vote)",15,0,3,1
-270,"Updated RMA chapter (1st vote)",13,0,5,1
-265,"Support for large counts using derived datatypes (1st vote)",14,1,1,3
-140,"Add const Keyword to the C bindings (1st vote)",16,1,1,1
-274,"Matched probe Language Bindings / Language Bindings Support addition (1st vote)",18,0,0,1
-258,"Sparse Collectives on Process Topologies (1st vote)",15,0,1,3
+number,topic,type,yes,no,abstain,missed
+,"Ok to vote on #270 even though there is no implementation yet",procedure,15,0,3,1
+270,"Updated RMA chapter",1st,13,0,5,1
+265,"Support for large counts using derived datatypes",1st,14,1,1,3
+140,"Add const Keyword to the C bindings",1st,16,1,1,1
+274,"Matched probe Language Bindings / Language Bindings Support addition",1st,18,0,0,1
+258,"Sparse Collectives on Process Topologies",1st,15,0,1,3

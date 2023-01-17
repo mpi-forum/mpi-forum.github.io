@@ -1,6 +1,6 @@
-number,topic,yes,no,abstain,missed
-Procedure Changes: #35 Allow move of voting block as an exception (1st and only vote),17,0,0,2
-CHANGE SINCE 2-WEEK WINDOW: #26 Deprecate point-to-point send cancel (no no vote),18,0,0,1
-#26 Deprecate point-to-point send cancel (1st of 2 votes),17,0,1,1
-#5 MPIR_Being_debugged (2nd of 2 votes),17,0,1,1
-#7 MPI_COMM_FREE advice to implementers (2nd of 2 votes),17,0,1,1
+number,topic,type,yes,no,abstain,missed
+Procedure Changes: #35 Allow move of voting block as an exception,1st-and-only,17,0,0,2
+CHANGE SINCE 2-WEEK WINDOW: #26 Deprecate point-to-point send cancel,no-no,18,0,0,1
+#26 Deprecate point-to-point send cancel,1st,17,0,1,1
+#5 MPIR_Being_debugged,2nd,17,0,1,1
+#7 MPI_COMM_FREE advice to implementers,2nd,17,0,1,1
