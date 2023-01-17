@@ -1,22 +1,22 @@
-topic,yes,no,abstain,missed
-"MPI v2.2 Frontmatter",15,0,0,0
-"MPI v2.1 Chapter 1",15,0,0,0
-"MPI v2.1 Chapter 2",15,0,0,0
-"MPI v2.1 Chapter 3",14,0,1,0
-"MPI v2.1 Chapter 4",14,0,1,0
-"MPI v2.1 Chapter 5",14,1,0,0
-"MPI v2.1 Chapter 6",14,1,0,0
-"MPI v2.1 Chapter 7",14,1,0,0
-"MPI v2.1 Chapter 8",15,0,0,0
-"MPI v2.1 Chapter 9",15,0,0,0
-"MPI v2.1 Chapter 10",15,0,0,0
-"MPI v2.1 Chapter 11",15,0,0,0
-"MPI v2.1 Chapter 12",15,0,0,0
-"MPI v2.1 Chapter 13",14,1,0,0
-"MPI v2.1 Chapter 14",15,0,0,0
-"MPI v2.1 Chapter 15",15,0,0,0
-"MPI v2.1 Chapter 16",15,0,0,0
-"MPI v2.2 Appendix",14,1,0,0
-"MPI v2.2 Changelog",14,1,0,0
-"MPI v2.2 (entire document)",14,1,0,0
-"#171: change MPI_C_BOOL external32 size to 1 byte (1st vote)",14,0,1,0
+number,topic,yes,no,abstain,missed
+,"MPI v2.2 Frontmatter",15,0,0,0
+,"MPI v2.1 Chapter 1",15,0,0,0
+,"MPI v2.1 Chapter 2",15,0,0,0
+,"MPI v2.1 Chapter 3",14,0,1,0
+,"MPI v2.1 Chapter 4",14,0,1,0
+,"MPI v2.1 Chapter 5",14,1,0,0
+,"MPI v2.1 Chapter 6",14,1,0,0
+,"MPI v2.1 Chapter 7",14,1,0,0
+,"MPI v2.1 Chapter 8",15,0,0,0
+,"MPI v2.1 Chapter 9",15,0,0,0
+,"MPI v2.1 Chapter 10",15,0,0,0
+,"MPI v2.1 Chapter 11",15,0,0,0
+,"MPI v2.1 Chapter 12",15,0,0,0
+,"MPI v2.1 Chapter 13",14,1,0,0
+,"MPI v2.1 Chapter 14",15,0,0,0
+,"MPI v2.1 Chapter 15",15,0,0,0
+,"MPI v2.1 Chapter 16",15,0,0,0
+,"MPI v2.2 Appendix",14,1,0,0
+,"MPI v2.2 Changelog",14,1,0,0
+,"MPI v2.2 (entire document)",14,1,0,0
+171,"change MPI_C_BOOL external32 size to 1 byte (1st vote)",14,0,1,0

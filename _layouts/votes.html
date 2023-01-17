@@ -178,7 +178,7 @@ layout: default
                     <center><h3>Begin New Voting Day</h3></center>
                     <hr>
                 {% else %}
-                    <li> Vote Topic: <b>{{ vote.topic }} ({{ vote.type }})</b><br>
+                  <li> Vote Topic: <b>#{{ vote.number }}: {{ vote.topic }} ({{ vote.type }})</b><br>
                         {% assign yes_votes = vote.yes %}
                         {% assign no_votes = vote.no %}
                         {% if vote.abstain.size > 0 %}

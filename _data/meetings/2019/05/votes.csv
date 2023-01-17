@@ -1,8 +1,8 @@
-topic,type,yes,no,abstain,missed
-"#119: Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens",no-no,22,0,2,0
-"#102: Define error/failure behavior in MPI_INIT/FINALIZE",no-no,22,0,2,0
-"#123: Add missing info keys to language bindings",no-no,22,0,2,0
-"#123: Add missing info keys to language bindings",errata,22,0,2,0
-"#61: Passive Target RMA on shared memory",errata,22,0,2,0
-"#119: Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens",1st,22,0,2,0
-"#102: Define error/failure behavior in MPI_INIT/FINALIZE",1st,22,0,2,0
+number,topic,type,yes,no,abstain,missed
+119,"Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens",no-no,22,0,2,0
+102,"Define error/failure behavior in MPI_INIT/FINALIZE",no-no,22,0,2,0
+123,"Add missing info keys to language bindings",no-no,22,0,2,0
+123,"Add missing info keys to language bindings",errata,22,0,2,0
+61,"Passive Target RMA on shared memory",errata,22,0,2,0
+119,"Clarify what MPI_SUCCESS guarantees, and what is left undefined when MPI_ERR_XXX happens",1st,22,0,2,0
+102,"Define error/failure behavior in MPI_INIT/FINALIZE",1st,22,0,2,0

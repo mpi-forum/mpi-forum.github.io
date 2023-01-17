@@ -1,4 +1,4 @@
-topic,yes,no,abstain,missed
+number,topic,yes,no,abstain,missed
 CHANGE SINCE 2-WEEK DEADLINE: Add Immediate versions of nonblocking collective I/O routines (1st-and-only vote),21,0,0,0
 CHANGE SINCE 2-WEEK DEADLINE: Add same_disp_unit info key for RMA window creation (1st-and-only vote),21,0,0,0
 CHANGE SINCE 2-WEEK DEADLINE: Errata: MPI_Aint addressing arithmetic (1st-and-only vote),21,0,0,0
@@ -19,4 +19,4 @@ CHANGE SINCE 2-WEEK DEADLINE: Errata: Missing in C in wording about handle-compa
 #402: Update dynamic window example to use MPI_Aint_add (2nd vote),21,0,0,0
 #404: MPI_Aint diff arithmetic (2nd vote),21,0,0,0
 #369: Add same_disp_unit info key for RMA window creation (2nd vote),21,0,0,0
-"#357: thread-safety of MPI_INITIALIZED,MPI_FINALIZED,MPI_QUERY_THREAD and MPI_IS_THREAD_MAIN in all uses for library correctness (2nd vote)",21,0,0,0
+357,"thread-safety of MPI_INITIALIZED,MPI_FINALIZED,MPI_QUERY_THREAD and MPI_IS_THREAD_MAIN in all uses for library correctness (2nd vote)",21,0,0,0

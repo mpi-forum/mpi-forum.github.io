@@ -1,11 +1,11 @@
-topic,yes,no,abstain,missed
-"385: MPI 3.0 Errata: Tools interface: MPI_T_PVAR_CLASS_SIZE description (Errata vote)",12,0,2,0
-"386: MPI 3.0 Errata: Tools interface: Clarify error code for perf var routines if bad handle given (Errata vote)",13,0,1,0
-"387: MPI_T Errata: control -> categories (Errata vote)",14,0,0,0
-"391: MPI_T: Clarify return code for start/stop/reset of perf vars (Errata vote)",14,0,0,0
-"Accept changes to #388 since it was posted 2 weeks ago (No-no vote)",13,0,1,0
-"388: MPI-3.0 errata: Solving the FORTRAN LOGICAL and BIND(C) problem (Errata vote)",13,0,1,0
-"389: MPI-3.0 errata: MPI_CONVERSION_FN_NULL is missing in annexes A.2, A.3, and A.4 (Errata vote)",14,0,0,0
-"390: MPI-3.0 errata: Correcting Fortran _CPTR interface descriptions (Errata vote)",14,0,0,0
-"Accept changes since the MQD document was read last meeting (No-no vote)",13,0,1,0
-"#375: Message Queue Support For Debugger Side Document (1st vote)",13,0,1,0
+number,topic,yes,no,abstain,missed
+,"385: MPI 3.0 Errata: Tools interface: MPI_T_PVAR_CLASS_SIZE description (Errata vote)",12,0,2,0
+,"386: MPI 3.0 Errata: Tools interface: Clarify error code for perf var routines if bad handle given (Errata vote)",13,0,1,0
+,"387: MPI_T Errata: control -> categories (Errata vote)",14,0,0,0
+,"391: MPI_T: Clarify return code for start/stop/reset of perf vars (Errata vote)",14,0,0,0
+,"Accept changes to #388 since it was posted 2 weeks ago (No-no vote)",13,0,1,0
+,"388: MPI-3.0 errata: Solving the FORTRAN LOGICAL and BIND(C) problem (Errata vote)",13,0,1,0
+,"389: MPI-3.0 errata: MPI_CONVERSION_FN_NULL is missing in annexes A.2, A.3, and A.4 (Errata vote)",14,0,0,0
+,"390: MPI-3.0 errata: Correcting Fortran _CPTR interface descriptions (Errata vote)",14,0,0,0
+,"Accept changes since the MQD document was read last meeting (No-no vote)",13,0,1,0
+375,"Message Queue Support For Debugger Side Document (1st vote)",13,0,1,0

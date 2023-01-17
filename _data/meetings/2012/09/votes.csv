@@ -1,25 +1,25 @@
-topic,yes,no,abstain
-"RMA chapter trivial text fix #1 (displacement types) (1st-and-only vote)",15,0,2
-"RMA chapter trivial text fix #2 (MPI_ERR_RMA_[WRONG_]FLAVOR) (1st-and-only vote)",16,0,1
-"Chapter vote: Frontmatter",17,0,0
-"Chapter vote: Chapter 1 / Introduction to MPI",17,0,0
-"Chapter vote: Chapter 2 / MPI Terms and Conventions",17,0,0
-"Chapter vote: Chapter 3 / Point-to-Point Communication",17,0,0
-"Chapter vote: Chapter 4 / Datatypes",17,0,0
-"Chapter vote: Chapter 5 / Collective Communication",17,0,0
-"Chapter vote: Chapter 6 / Groups, Contexts, Communicators, and Caching",17,0,0
-"Chapter vote: Chapter 7 / Process Topologies",17,0,0
-"Chapter vote: Chapter 8 / MPI Environmental Management",17,0,0
-"Chapter vote: Chapter 9 / The Info Object",17,0,0
-"Chapter vote: Chapter 10 / Process Creation and Management",17,0,0
-"Chapter vote: Chapter 11 / One-Sided Communication",17,0,0
-"Chapter vote: Chapter 12 / External Interfaces",17,0,0
-"Chapter vote: Chapter 13 / I/O",17,0,0
-"Chapter vote: Chapter 14 / Tool Support",17,0,0
-"Chapter vote: Chapter 15 / Deprecated Functions",17,0,0
-"Chapter vote: Chapter 16 / Removed Interfaces",15,0,2
-"Chapter vote: Chapter 17 / Language Bindings",17,0,0
-"Chapter vote: Annex A / Language Bindings Summary",17,0,0
-"Chapter vote: Annex B / Change-Log",17,0,0
-"Chapter vote: Bibliography + Indexes",17,0,0
-"Overall MPI-3.0 document",17,0,0
+number,topic,yes,no,abstain
+,"RMA chapter trivial text fix #1 (displacement types) (1st-and-only vote)",15,0,2
+,"RMA chapter trivial text fix #2 (MPI_ERR_RMA_[WRONG_]FLAVOR) (1st-and-only vote)",16,0,1
+,"Chapter vote: Frontmatter",17,0,0
+,"Chapter vote: Chapter 1 / Introduction to MPI",17,0,0
+,"Chapter vote: Chapter 2 / MPI Terms and Conventions",17,0,0
+,"Chapter vote: Chapter 3 / Point-to-Point Communication",17,0,0
+,"Chapter vote: Chapter 4 / Datatypes",17,0,0
+,"Chapter vote: Chapter 5 / Collective Communication",17,0,0
+,"Chapter vote: Chapter 6 / Groups, Contexts, Communicators, and Caching",17,0,0
+,"Chapter vote: Chapter 7 / Process Topologies",17,0,0
+,"Chapter vote: Chapter 8 / MPI Environmental Management",17,0,0
+,"Chapter vote: Chapter 9 / The Info Object",17,0,0
+,"Chapter vote: Chapter 10 / Process Creation and Management",17,0,0
+,"Chapter vote: Chapter 11 / One-Sided Communication",17,0,0
+,"Chapter vote: Chapter 12 / External Interfaces",17,0,0
+,"Chapter vote: Chapter 13 / I/O",17,0,0
+,"Chapter vote: Chapter 14 / Tool Support",17,0,0
+,"Chapter vote: Chapter 15 / Deprecated Functions",17,0,0
+,"Chapter vote: Chapter 16 / Removed Interfaces",15,0,2
+,"Chapter vote: Chapter 17 / Language Bindings",17,0,0
+,"Chapter vote: Annex A / Language Bindings Summary",17,0,0
+,"Chapter vote: Annex B / Change-Log",17,0,0
+,"Chapter vote: Bibliography + Indexes",17,0,0
+,"Overall MPI-3.0 document",17,0,0

@@ -1,12 +1,12 @@
-"topic","type","yes","no","abstain","missed"
-"#168: Errata, MPI_INIT argc/argv values","errata","29","0","0","0"
-"#313: Errata, Catastrophic errors can cause MPI returning wrong outputs","errata","29","0","0","0"
-"#311: Errata, Fix wrong term process group with Cartesian structure in section 7.5.5","errata","29","0","0","0"
-"#314: Errata, Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls","errata","29","0","0","0"
-"#315: Errata, Fix not precisely defined topology information for MPI_Cart_sub","errata","28","0","1","0"
-daybreak
-"#327: Errata, Large Count Fixes","no-no","28","0","1","0"
-"#304: Create a standalone document for the summary of the semantics of all operation-related MPI procedures","1st","29","0","0","0"
-daybreak
-"#327: Errata, Large Count Fixes","errata","28","0","1","0"
-"Ballot to approve release candidate","1st","27","0","2","0"
+"number","topic","type","yes","no","abstain","missed"
+168,"Errata, MPI_INIT argc/argv values","errata","29","0","0","0"
+313,"Errata, Catastrophic errors can cause MPI returning wrong outputs","errata","29","0","0","0"
+311,"Errata, Fix wrong term process group with Cartesian structure in section 7.5.5","errata","29","0","0","0"
+314,"Errata, Fix undefined behaviour of MPI_Cart/Graph*_get caused by binding to specific communicator creation calls","errata","29","0","0","0"
+315,"Errata, Fix not precisely defined topology information for MPI_Cart_sub","errata","28","0","1","0"
+,daybreak
+327,"Errata, Large Count Fixes","no-no","28","0","1","0"
+304,"Create a standalone document for the summary of the semantics of all operation-related MPI procedures","1st","29","0","0","0"
+,daybreak
+327,"Errata, Large Count Fixes","errata","28","0","1","0"
+,"Ballot to approve release candidate","1st","27","0","2","0"

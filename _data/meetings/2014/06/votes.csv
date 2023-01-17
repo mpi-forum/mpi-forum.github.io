@@ -1,19 +1,19 @@
-topic,yes,no,abstain,missed
-"Accept changes to #403 since it was read last meeting (1st-and-only vote)",18,0,0,1
-"Accept changes to #419 since it was read last meeting (1st-and-only vote)",18,0,0,1
-"#374: Comm_free/Type_free/Win_free: clarify attribute destructor semantics (Errata Vote)",5,5,8,1
-"#393: Fortran module CONTAINS - Advice to implementors (Errata Vote)",18,0,0,1
-"#403: Error in description of size-specific types (Errata Vote)",18,0,0,1
-"#413: Add example for use of shared memory (Errata Vote)",16,1,1,1
-"#415: Errata: mpi_f08 MPI_Status must use INTEGER fields (Errata Vote)",18,0,0,1
-"#419: Neighborhood collectives not for non-symmetric general graphs. (Errata Vote)",18,0,0,1
-"#422: Chap. 2 Terms & Conventions consistency updates (errata) (Errata Vote)",0,15,3,1
-"#424: Incorrect Fortran type for flag in IMPROBE (Errata Vote)",18,0,0,1
-"#427: Fortran cross-reference update (ticket-0) (Errata Vote)",0,13,5,1
-"#273: Add Immediate versions of nonblocking collective I/O routines (1st Vote)",17,0,1,1
-"#349: MPI_Aint addressing arithmetic (1st Vote)",16,0,2,1
-"#402: Update dynamic window example to use MPI_Aint_add (1st Vote)",16,0,2,1
-"#404: MPI_Aint diff arithmetic (1st Vote)",16,0,2,1
-"#369: Add same_disp_unit info key for RMA window creation (1st Vote)",17,0,1,1
-"#357: thread-safety of MPI_INITIALIZED, MPI_FINALIZED, MPI_QUERY_THREAD and MPI_IS_THREAD_MAIN in all uses for library correctness (1st Vote)",18,0,0,1
-"#400: MPI_T: new return code to catch invalid use of interface (2nd Vote)",18,0,0,1
+number,topic,yes,no,abstain,missed
+,"Accept changes to #403 since it was read last meeting (1st-and-only vote)",18,0,0,1
+,"Accept changes to #419 since it was read last meeting (1st-and-only vote)",18,0,0,1
+374,"Comm_free/Type_free/Win_free: clarify attribute destructor semantics (Errata Vote)",5,5,8,1
+393,"Fortran module CONTAINS - Advice to implementors (Errata Vote)",18,0,0,1
+403,"Error in description of size-specific types (Errata Vote)",18,0,0,1
+413,"Add example for use of shared memory (Errata Vote)",16,1,1,1
+415,"Errata: mpi_f08 MPI_Status must use INTEGER fields (Errata Vote)",18,0,0,1
+419,"Neighborhood collectives not for non-symmetric general graphs. (Errata Vote)",18,0,0,1
+422,"Chap. 2 Terms & Conventions consistency updates (errata) (Errata Vote)",0,15,3,1
+424,"Incorrect Fortran type for flag in IMPROBE (Errata Vote)",18,0,0,1
+427,"Fortran cross-reference update (ticket-0) (Errata Vote)",0,13,5,1
+273,"Add Immediate versions of nonblocking collective I/O routines (1st Vote)",17,0,1,1
+349,"MPI_Aint addressing arithmetic (1st Vote)",16,0,2,1
+402,"Update dynamic window example to use MPI_Aint_add (1st Vote)",16,0,2,1
+404,"MPI_Aint diff arithmetic (1st Vote)",16,0,2,1
+369,"Add same_disp_unit info key for RMA window creation (1st Vote)",17,0,1,1
+357,"thread-safety of MPI_INITIALIZED, MPI_FINALIZED, MPI_QUERY_THREAD and MPI_IS_THREAD_MAIN in all uses for library correctness (1st Vote)",18,0,0,1
+400,"MPI_T: new return code to catch invalid use of interface (2nd Vote)",18,0,0,1
