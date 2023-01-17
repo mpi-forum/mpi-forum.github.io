@@ -67,7 +67,6 @@ no-no-votes:
 
     - number: 544
       description: "MPI_*_GET_NAME functions accept MPI_*_NULL handles"
-      withdrawn: 0
 
 first-votes:
 
@@ -75,7 +74,6 @@ second-votes:
 
     - number: 525
       description: "Add new error class MPI_ERR_ERRHANDLER"
-      withdrawn: 0
 
 plenaries:
     - type: Welcome

@@ -70,13 +70,11 @@ no-no-votes:
 
     - number: 525
       description: "Add new error class MPI_ERR_ERRHANDLER"
-      withdrawn: 0
 
 first-votes:
 
     - number: 525
       description: "Add new error class MPI_ERR_ERRHANDLER"
-      withdrawn: 0
 
 second-votes:
 

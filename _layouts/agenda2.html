@@ -36,6 +36,40 @@ layout: default
          {% assign input = site.data.meetings[page.year][page.month].agenda %}
          {% assign votes = site.data.meetings[page.year][page.month].votes %}
 
+         {% assign procedure_votes = '' | split: '' %}
+         {% assign ticket_zero_votes = '' | split: '' %}
+         {% assign no_no_votes = '' | split: '' %}
+         {% assign errata_votes = '' | split: '' %}
+         {% assign first_and_only_votes = '' | split: '' %}
+         {% assign first_votes = '' | split: '' %}
+         {% assign second_votes = '' | split: '' %}
+         {% assign chapter_votes = '' | split: '' %}
+         {% assign whole_document_votes = '' | split: '' %}
+
+         {% for vote in votes %}
+           {% if vote.type == "procedure" %}
+             {% assign procedure_votes = procedure_votes | push: vote %}
+           {% elsif vote.type == "ticket_zero" %}
+             {% assign ticket_zero_votes = ticket_zero_votes | push: vote %}
+           {% elsif vote.type == "no-no" %}
+             {% assign no_no_votes = no_no_votes | push: vote %}
+           {% elsif vote.type == "errata" %}
+             {% assign errata_votes = errata_votes | push: vote %}
+           {% elsif vote.type == "1st-and-only" %}
+             {% assign first_and_only_votes = first_and_only_votes | push: vote %}
+           {% elsif vote.type == "1st" %}
+             {% assign first_votes = first_votes | push: vote %}
+           {% elsif vote.type == "2nd" %}
+             {% assign second_votes = second_votes | push: vote %}
+           {% elsif vote.type == "chapter" %}
+             {% assign chapter_votes = chapter_votes | push: vote %}
+           {% elsif vote.type == "whole_document" %}
+             {% assign whole_document_votes = whole_document_votes | push: vote %}
+           {% else %}
+             {% assign first_and_only_votes = first_and_only_votes | push: vote %}
+           {% endif %}
+         {% endfor %}
+
          {% if input.notes %}
          <UL><h4>Note:</h4> {{ input.notes }}</UL>
          {% endif %}
@@ -117,11 +151,7 @@ layout: default
              {% for item in input.procedure-votes %}
              <li>
                  {% if item.number.size > 0 %}
-                     {% if item.link.size > 0 %}
-                         <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% else %}
-                         <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
-                     {% endif %}
+                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
                  {{item.description}}
              </li>
@@ -134,11 +164,7 @@ layout: default
              {% for item in input.ticket-zero-votes %}
              <li>
                  {% if item.number.size > 0 %}
-                     {% if item.link.size > 0 %}
-                         <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% else %}
-                         <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
-                     {% endif %}
+                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
                  {{item.description}}
              </li>
@@ -150,23 +176,10 @@ layout: default
          <ul>
              {% for item in input.no-no-votes %}
              <li>
-                 {% if item.withdrawn == 1 %}
-                     <del>
-                 {% endif %}
                  {% if item.number.size > 0 %}
-                     {% if item.link.size > 0 %}
-                         <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% else %}
-                         <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
-                     {% endif %}
-                 {% endif %}
-                 {% if item.withdrawn == 1 %}
-                    (WITHDRAWN)
+                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
                  {{item.description}}
-                 {% if item.withdrawn == 1 %}
-                     </del>
-                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -176,23 +189,10 @@ layout: default
          <ul>
              {% for item in input.errata-votes %}
              <li>
-                 {% if item.withdrawn == 1 %}
-                     <del>
-                 {% endif %}
                  {% if item.number.size > 0 %}
-                     {% if item.link.size > 0 %}
-                         <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% else %}
-                         <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
-                     {% endif %}
-                 {% endif %}
-                 {% if item.withdrawn == 1 %}
-                    (WITHDRAWN)
+                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
                  {{item.description}}
-                 {% if item.withdrawn == 1 %}
-                     </del>
-                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -202,23 +202,10 @@ layout: default
          <ul>
              {% for item in input.first-and-only-votes %}
              <li>
-                 {% if item.withdrawn == 1 %}
-                     <del>
-                 {% endif %}
                  {% if item.number.size > 0 %}
-                     {% if item.link.size > 0 %}
-                         <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% else %}
-                         <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
-                     {% endif %}
-                 {% endif %}
-                 {% if item.withdrawn == 1 %}
-                    (WITHDRAWN)
+                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
                  {{item.description}}
-                 {% if item.withdrawn == 1 %}
-                     </del>
-                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -228,23 +215,10 @@ layout: default
          <ul>
              {% for item in input.first-votes %}
              <li>
-                 {% if item.withdrawn == 1 %}
-                     <del>
-                 {% endif %}
                  {% if item.number.size > 0 %}
-                     {% if item.link.size > 0 %}
-                         <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% else %}
-                         <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
-                     {% endif %}
-                 {% endif %}
-                 {% if item.withdrawn == 1 %}
-                    (WITHDRAWN)
+                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
                  {{item.description}}
-                 {% if item.withdrawn == 1 %}
-                     </del>
-                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -254,23 +228,10 @@ layout: default
          <ul>
              {% for item in input.second-votes %}
              <li>
-                 {% if item.withdrawn == 1 %}
-                     <del>
-                 {% endif %}
                  {% if item.number.size > 0 %}
-                     {% if item.link.size > 0 %}
-                         <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% else %}
-                         <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
-                     {% endif %}
-                 {% endif %}
-                 {% if item.withdrawn == 1 %}
-                    (WITHDRAWN)
+                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
                  {{item.description}}
-                 {% if item.withdrawn == 1 %}
-                     </del>
-                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -280,23 +241,10 @@ layout: default
          <ul>
              {% for item in input.chapter-votes %}
              <li>
-                 {% if item.withdrawn == 1 %}
-                     <del>
-                 {% endif %}
                  {% if item.number.size > 0 %}
-                     {% if item.link.size > 0 %}
-                         <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% else %}
-                         <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
-                     {% endif %}
-                 {% endif %}
-                 {% if item.withdrawn == 1 %}
-                    (WITHDRAWN)
+                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
                  {{item.description}}
-                 {% if item.withdrawn == 1 %}
-                     </del>
-                 {% endif %}
              </li>
              {% endfor %}
          </ul>
@@ -306,23 +254,10 @@ layout: default
          <ul>
              {% for item in input.whole-document-vote %}
              <li>
-                 {% if item.withdrawn == 1 %}
-                     <del>
-                 {% endif %}
                  {% if item.number.size > 0 %}
-                     {% if item.link.size > 0 %}
-                         <a href="{{item.link}}">#{{item.number}}</a>:
-                     {% else %}
-                         <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
-                     {% endif %}
-                 {% endif %}
-                 {% if item.withdrawn == 1 %}
-                    (WITHDRAWN)
+                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
                  {% endif %}
                  {{item.description}}
-                 {% if item.withdrawn == 1 %}
-                     </del>
-                 {% endif %}
              </li>
              {% endfor %}
          </ul>
