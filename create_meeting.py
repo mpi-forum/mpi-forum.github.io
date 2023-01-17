@@ -94,13 +94,6 @@ for day in daterange(start, end):
     print >> file, '      title: "Placeholder Agenda Item"\n'
     print >> file, '    - endday: done\n\n'
 
-print >> file, 'procedure-votes:\n';
-print >> file, '    - number: 1234'
-print >> file, '      description: "Placeholder Procedure Vote"\n'
-print >> file, 'errata-votes:\n';
-print >> file, 'no-no-votes:\n';
-print >> file, 'first-votes:\n';
-print >> file, 'second-votes:\n';
 print >> file, 'plenaries:';
 print >> file, '    - type: Welcome'
 print >> file, '      title: Introductions'
@@ -126,7 +119,7 @@ print >> file, 'org,"Vote 1"';
 file.close();
 
 file = open('_data/meetings/' + start_year + '/' + start_month + '/votes.csv', 'w');
-print >> file, 'topic,type,yes,no,abstain,missed';
+print >> file, 'number,topic,type,yes,no,abstain,missed';
 file.close();
 
 print "This doesn't add links to the main meetings page."
