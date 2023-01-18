@@ -90,6 +90,24 @@ plenaries:
       presenter: Dan
       done: 0
 
+    - type: No-No Reading
+      title: "API to access and update MPI_Status public fields"
+      issue_number: 645
+      presenter: Jeff H / Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "WTIME and WTICK should be symbols"
+      issue_number: 646
+      presenter: Jeff H / Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "Handle conversions should be symbols"
+      issue_number: 647
+      presenter: Jeff H / Joseph
+      done: 0
+
     - type: ==================
       title: Part 2 - Errata Readings
       presenter: ==============
@@ -171,6 +189,12 @@ plenaries:
       title: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
       issue_number: 443
       presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Memory Allocation Kind Info"
+      issue_number: 580
+      presenter: Jim
       done: 0
 
     - type: ==================
