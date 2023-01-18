@@ -233,6 +233,12 @@ plenaries:
       presenter: Joseph
       done: 0
 
+    - type: Reading
+      title: "'Pending operation' not defined, pending proper definition"
+      issue_number: 543
+      presenter: Rolf
+      done: 0
+
     - type: ==================
       title: Part 5 - Plenaries needed for MPI 4.1
       presenter: ==============
