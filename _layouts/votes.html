@@ -220,7 +220,7 @@ layout: default
                             <font size="2">
                             <table>
                                 <tr>
-                                    {% assign vote_topic = vote.topic | append: " (" | append: vote.type | append: ")" %}
+                                    {% assign vote_topic = "#" | append: vote.number | append: ": " | append: vote.topic | append: " (" | append: vote.type | append: ")" %}
                                     {% assign sorted_orgs = site.data.meetings[page.year][page.month].ballot | sort: "org" | map: "org" %}
                                     {% assign sorted_votes = site.data.meetings[page.year][page.month].ballot | sort: "org" | map: vote_topic %}
                                     {% assign i = 0 %}
