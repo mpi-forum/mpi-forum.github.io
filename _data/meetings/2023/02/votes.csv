@@ -10,6 +10,7 @@ number,topic,type,yes,no,abstain,missed
 646,"WTIME and WTICK should be symbols",no-no,0,0,0,0
 647,"Handle conversions should be symbols",no-no,0,0,0,0
 561,"Deprecate mpif.h",no-no,0,0,0,0
+23,"Allow MPI_WIN_SHARED_QUERY on created and allocated windows",no-no,0,0,0,0
 379,"Rename External Interfaces Chapter",1st,0,0,0,0
 586,"MPI_Buffer_attach and Sessions",1st,0,0,0,0
 538,"Allow pset names to guide splitting in MPI_Comm_split_type",1st,0,0,0,0
@@ -28,6 +29,7 @@ number,topic,type,yes,no,abstain,missed
 646,"WTIME and WTICK should be symbols",1st,0,0,0,0
 647,"Handle conversions should be symbols",1st,0,0,0,0
 561,"Deprecate mpif.h",1st,0,0,0,0
+23,"Allow MPI_WIN_SHARED_QUERY on created and allocated windows",1st,0,0,0,0
 407,"Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)",2nd,0,0,0,0
 553,"RMA: Add missing win-sync calls to Example 12.21",2nd,0,0,0,0
 551,"MPI_Win_free is synchronizing, except when it isn't",2nd,0,0,0,0

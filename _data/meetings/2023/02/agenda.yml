@@ -114,6 +114,12 @@ plenaries:
       presenter: Joseph
       done: 0
 
+    - type: No-No Reading
+      title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
+      issue_number: 23
+      presenter: Joseph
+      done: 0
+
     - type: ==================
       title: Part 2 - Errata Readings
       presenter: ==============
@@ -201,6 +207,30 @@ plenaries:
       title: "Memory Allocation Kind Info"
       issue_number: 580
       presenter: Jim
+      done: 0
+
+    - type: Reading
+      title: "Add operation state 'enabled' and 'local calls' into Terms"
+      issue_number: 669
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: "RMA communication procedures should have local semantics"
+      issue_number: 653
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Example 12.4: RMA communication calls may not block in PSCW"
+      issue_number: 555
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "RMA: Examples 12.4 and 12.5 contain advice to implementors"
+      issue_number: 652
+      presenter: Joseph
       done: 0
 
     - type: ==================
