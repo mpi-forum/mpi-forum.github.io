@@ -256,13 +256,13 @@ plenaries:
       presenter: ==============
       done: 0
 
-    - type: Reading
+    - type: Plenary
       title: "Rename Name-Shifted Profiling Interface (PMPI) to Interception Interface"
       issue_number: 584
       presenter: Marc-Andre
       done: 0
 
-    - type: Reading
+    - type: Plenary
       title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
       issue_number: 520
       presenter: Marc-Andre
