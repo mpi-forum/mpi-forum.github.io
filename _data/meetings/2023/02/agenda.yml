@@ -108,6 +108,12 @@ plenaries:
       presenter: Jeff H / Joseph
       done: 0
 
+    - type: No-No Reading
+      title: "Deprecate mpif.h"
+      issue_number: 561
+      presenter: Joseph
+      done: 0
+
     - type: ==================
       title: Part 2 - Errata Readings
       presenter: ==============
