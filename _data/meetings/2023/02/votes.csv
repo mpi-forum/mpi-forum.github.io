@@ -30,6 +30,7 @@ number,topic,type,yes,no,abstain,missed
 647,"Handle conversions should be symbols",1st,0,0,0,0
 561,"Deprecate mpif.h",1st,0,0,0,0
 23,"Allow MPI_WIN_SHARED_QUERY on created and allocated windows",1st,0,0,0,0
+588,"Clarification of errhandler fallback with Sessions",1st,0,0,0,0
 407,"Adjust RMA Chapter to New Terms or vice versa (and remove interims statement)",2nd,0,0,0,0
 553,"RMA: Add missing win-sync calls to Example 12.21",2nd,0,0,0,0
 551,"MPI_Win_free is synchronizing, except when it isn't",2nd,0,0,0,0
@@ -37,3 +38,4 @@ number,topic,type,yes,no,abstain,missed
 554,"RMA: both MPI_WIN_ALLOCATE and MPI_WIN_ALLOCATE_SHARED allocate memory",2nd,0,0,0,0
 474,"Fix Incorrect Usage of Rank/Task/etc. in Contexts Chapter",2nd,0,0,0,0
 468,"Issue K - MPI_REQUEST_GET_STATUS with same progress as MPI_TEST",2nd
+581,"ULFM Fault Tolerance (slice 1: ack_failed, get_failed, revoke)",2nd
