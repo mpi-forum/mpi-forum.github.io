@@ -133,14 +133,14 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/05/attendance.csv"
-    prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/09/attendance.csv"
-    curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/12/attendance.csv"
-    curr_registration_file = "/Users/wbland/mpi/meeting-details/2022-12-dec/2022-12-05-registration.csv"
+    prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/09/attendance.csv"
+    prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/12/attendance.csv"
+    curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/02/attendance.csv"
+    curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-02-feb/2023-02-01-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
-    registration_link = "https://docs.google.com/forms/d/e/1FAIpQLSeSvLTEGr-yKd2Nr19iKmG_atUHDfM1c16O0HaAAAJPVMS7nw/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
+    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSeSvLTEGr-yKd2Nr19iKmG_atUHDfM1c16O0HaAAAJPVMS7nw/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
 
-    prev_ooe = 35
+    prev_ooe = 34
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
@@ -255,12 +255,12 @@ def main():
             safe_name = urllib.parse.quote_plus(name)
             safe_org = urllib.parse.quote_plus(org)
             safe_uuid = urllib.parse.quote_plus(row['UUID'])
-            text_link = registration_link.format(name=safe_name, org=safe_org, id=safe_uuid)
+            text_link = voting_link.format(name=safe_name, org=safe_org, id=safe_uuid)
 
             message_text = """\
 Hi {name},
 
-Voting is now open for the December 2022 Plenary Day 4 meeting. You may vote at this
+Voting is now open for the February 2023 Plenary Day 1 meeting. You may vote at this
 link:
 <br><br>
 {link}
@@ -274,7 +274,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 10:35pm US Central time on December 8th, 2022.
+Voting will be open until 1:00pm US Central time on February 1st, 2023.
 <br><br>
 Thanks,
 <br>
@@ -282,7 +282,7 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
-                    to_addr=email, msg=message_text, subject='December 2022 MPI Forum Plenary Day 4 Voting Link')
+                    to_addr=email, msg=message_text, subject='February 2023 MPI Forum Plenary Day 1 Voting Link')
             #message_id = service.send_message(message=message)
 
 if __name__ == '__main__':
