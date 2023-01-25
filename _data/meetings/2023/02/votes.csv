@@ -11,6 +11,8 @@ number,topic,type,yes,no,abstain,missed
 647,"Handle conversions should be symbols",no-no,0,0,0,0
 561,"Deprecate mpif.h",no-no,0,0,0,0
 23,"Allow MPI_WIN_SHARED_QUERY on created and allocated windows",no-no,0,0,0,0
+669,"Add operation state 'enabled' and 'local calls' into Terms",no-no,0,0,0,0
+543,"'Pending operation' not defined, pending proper definition",no-no,0,0,0,0
 443,"LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter",errata,0,0,0,0
 379,"Rename External Interfaces Chapter",1st,0,0,0,0
 586,"MPI_Buffer_attach and Sessions",1st,0,0,0,0
