@@ -6,7 +6,7 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 utils/credentials.json
-utils/token.pickle
+utils/token.*
 utils/ballot.csv
 utils/votes.csv
 utils/ooe_orgs.csv
