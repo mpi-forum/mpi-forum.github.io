@@ -3,6 +3,7 @@
 import os
 import sys
 import csv
+import calendar
 
 from apiclient import discovery
 from httplib2 import Http
@@ -21,6 +22,18 @@ def main():
 
     votes = {'procedure': [], 'no-no': [], 'errata': [], '1st': [], '2nd': []}
     for vote in iter(votes_list):
+        # Have an easy way to pick the types of votes to include
+        if vote['type'] == "no-no":
+            pass
+        elif vote['type'] == "errata":
+            pass
+        elif vote['type'] == "procedure":
+            pass
+        elif vote['type'] == "1st":
+            pass
+        elif vote['type'] == "2nd":
+            pass
+
         if (vote['yes'] == None or vote['yes'] == "0") and (vote['no'] == None or vote['no'] == "0") and (vote['abstain'] == None or vote['abstain'] == "0"):
             votes[vote['type']].append(vote)
 
@@ -46,14 +59,15 @@ def main():
 
     form = {
         "info": {
-            "title": "MPI Forum <month> <year> MPI Forum Voting Day <number>"
+            "title": "MPI Forum <month> <year> MPI Forum Voting Day <number>",
+            "documentTitle": year + "-" + month + " Vote Day <number>",
         }
     }
 
     # Creates the initial Form
     createResult = form_service.forms().create(body=form).execute()
 
-    # Request body to add a video item to a Form
+    # Request body to add an item to a Form
     update = {
         "requests": [{
             "createItem": {
@@ -68,10 +82,10 @@ def main():
         }]
     }
 
-    # Add the item to the form
-    question_setting = form_service.forms().batchUpdate(
+    # Update the form description
+    result = form_service.forms().batchUpdate(
         formId=createResult["formId"], body=update).execute()
-    print(question_setting)
+    print(result)
 
     update = {
         "requests": [{
@@ -88,9 +102,26 @@ def main():
     }
 
     # Add the item to the form
-    question_setting = form_service.forms().batchUpdate(
+    result = form_service.forms().batchUpdate(
         formId=createResult["formId"], body=update).execute()
-    print(question_setting)
+    print(result)
+
+    update = {
+        "requests": [{
+            "updateFormInfo": {
+                "info": {
+                    "title": "MPI Forum " + calendar.month_name[int(month)] + " " + year + " MPI Forum Voting Day <number>",
+                    "description": "As ballots in the MPI Forum have never been secret, the individual ballots cast here will also be made public on the website (https://www.mpi-forum.org/meetings/" + year + "/" + month + "/votes) after voting has concluded.",
+                },
+                "updateMask": "*",
+            },
+        }]
+    }
+
+    # Add the item to the form
+    result = form_service.forms().batchUpdate(
+        formId=createResult["formId"], body=update).execute()
+    print(result)
 
     update = {
         "requests": [{
@@ -107,9 +138,9 @@ def main():
     }
 
     # Add the item to the form
-    question_setting = form_service.forms().batchUpdate(
+    result = form_service.forms().batchUpdate(
         formId=createResult["formId"], body=update).execute()
-    print(question_setting)
+    print(result)
 
     item_counter = 3
     for vote_type in votes.keys():
@@ -128,9 +159,9 @@ def main():
                 }]
             }
             item_counter = item_counter + 1
-            question_setting = form_service.forms().batchUpdate(
+            result = form_service.forms().batchUpdate(
                 formId=createResult["formId"], body=update).execute()
-            print(question_setting)
+            print(result)
 
             for vote in votes[vote_type]:
                 update = {
@@ -151,9 +182,9 @@ def main():
                     }]
                 }
                 item_counter = item_counter + 1
-                question_setting = form_service.forms().batchUpdate(
+                result = form_service.forms().batchUpdate(
                     formId=createResult["formId"], body=update).execute()
-                print(question_setting)
+                print(result)
 
 
 if __name__ == '__main__':
