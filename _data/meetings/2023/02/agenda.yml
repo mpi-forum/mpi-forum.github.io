@@ -70,7 +70,7 @@ plenaries:
       title: "Update: Section 3.5 - p. 45 - Comment Erroneous Example"
       issue_number: 188
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Info key(s) for Start Ordering Persistent Collective Communication"
