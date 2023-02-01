@@ -137,30 +137,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Merge or Cross-Reference that Hints must be obeyed by Application in RMA and Info Chapters"
-      issue_number: 408
-      presenter: Martin
-      done: 0
-
-    - type: Reading
-      title: "Fix comment on Info object in incomplete functions"
-      issue_number: 411
-      presenter: Martin
-      done: 0
-
-    - type: Reading
-      title: "Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter"
-      issue_number: 480
-      presenter: Martin
-      done: 0
-
-    - type: Reading
-      title: "Consistency Updates for MPI_Info Chapter for MPI 4.1"
-      issue_number: 541
-      presenter: Martin
-      done: 0
-
-    - type: Reading
       title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
       issue_number: 283
       presenter: Aurelien
@@ -248,6 +224,30 @@ plenaries:
       title: "Deprecate all _x procedures"
       issue_number: 518
       presenter: Martin R.
+      done: 0
+
+    - type: Reading
+      title: "Merge or Cross-Reference that Hints must be obeyed by Application in RMA and Info Chapters"
+      issue_number: 408
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Fix comment on Info object in incomplete functions"
+      issue_number: 411
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter"
+      issue_number: 480
+      presenter: Martin
+      done: 0
+
+    - type: Reading
+      title: "Consistency Updates for MPI_Info Chapter for MPI 4.1"
+      issue_number: 541
+      presenter: Martin
       done: 0
 
     - type: ==================
