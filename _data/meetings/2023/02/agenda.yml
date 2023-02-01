@@ -106,7 +106,7 @@ plenaries:
       title: "Deprecate mpif.h"
       issue_number: 561
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
