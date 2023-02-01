@@ -140,19 +140,19 @@ plenaries:
       title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
       issue_number: 283
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA communication procedures should have local semantics"
       issue_number: 653
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Example 12.4: RMA communication calls may not block in PSCW"
       issue_number: 555
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA: Examples 12.4 and 12.5 contain advice to implementors"
