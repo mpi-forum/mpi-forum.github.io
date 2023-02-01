@@ -37,7 +37,7 @@ def main():
         if (vote['yes'] == None or vote['yes'] == "0") and (vote['no'] == None or vote['no'] == "0") and (vote['abstain'] == None or vote['abstain'] == "0"):
             votes[vote['type']].append(vote)
 
-    SCOPES = "https://www.googleapis.com/auth/forms.body"
+    SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
     DISCOVERY_DOC = "https://forms.googleapis.com/$discovery/rest?version=v1"
 
     creds = None

@@ -13,7 +13,7 @@ from google.auth.transport.requests import Request
 import keyring
 
 # If modifying these scopes, delete the file token.pickle.
-SCOPES = ['https://www.googleapis.com/auth/gmail.send']
+SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
 
 from email import encoders
 from email.mime.base import MIMEBase
@@ -138,7 +138,7 @@ def main():
     curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/02/attendance.csv"
     curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-02-feb/2023-02-01-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
-    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSfJR0oE1pz2A10K0DEjUT0jaHfr7BL36UvfTpxtHT_cKjW6WA/viewform?usp=pp_url&entry.885046213={name}&entry.2074582431={org}&entry.2056718855={id}"
+    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSczXGeaK68nAGet3gQ8UlkTKpdlEyl89jAVDatc3qt10JJBJw/viewform?usp=pp_url&entry.46590352={name}&entry.1539353202={org}&entry.1090732946={id}"
 
     prev_ooe = 34
 

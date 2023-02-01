@@ -58,13 +58,13 @@ plenaries:
       title: "Mention behavior with potential overflow"
       issue_number: 414
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Correct usage of the terms error and return codes in the tools chapter"
       issue_number: 542
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Update: Section 3.5 - p. 45 - Comment Erroneous Example"
