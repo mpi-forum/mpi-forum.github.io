@@ -100,7 +100,7 @@ plenaries:
       title: "Handle conversions should be symbols"
       issue_number: 647
       presenter: Jeff H / Joseph
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Deprecate mpif.h"
