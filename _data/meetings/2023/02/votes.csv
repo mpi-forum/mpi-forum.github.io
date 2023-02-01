@@ -1,7 +1,6 @@
 number,topic,type,yes,no,abstain,missed
 538,Allow pset names to guide splitting in MPI_Comm_split_type,no-no,0,0,0,0
 414,Mention behavior with potential overflow,no-no,0,0,0,0
-542,Correct usage of the terms error and return codes in the tools chapter,no-no,0,0,0,0
 188,Update: Section 3.5 - p. 45 - Comment Erroneous Example,no-no,0,0,0,0
 83,Info key(s) for Start Ordering Persistent Collective Communication,no-no,0,0,0,0
 472,Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter,no-no,0,0,0,0
