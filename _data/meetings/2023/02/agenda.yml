@@ -94,7 +94,7 @@ plenaries:
       title: "WTIME and WTICK should be symbols"
       issue_number: 646
       presenter: Jeff H / Joseph
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Handle conversions should be symbols"
