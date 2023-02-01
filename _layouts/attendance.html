@@ -36,8 +36,8 @@ layout: default
 
         {% if page.prev_year != nil %}
           {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
-          {% assign prev_orgs = site.data.meetings[page.prev_year][page.prev_month].attendance | sort: "org" | map: "org" %}
-          {% assign prev_prev_orgs = site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance | sort: "org" | map: "org" %}
+          {% assign prev_orgs = site.data.meetings[page.prev_year][page.prev_month].attendance | sort: "org" | map: "org" | uniq %}
+          {% assign prev_prev_orgs = site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance | sort: "org" | map: "org" | uniq %}
           {% assign imove_orgs = "" | split: ',' %}
           {% assign ooe_orgs = "" | split: ',' %}
           {% assign ineligible_orgs = "" | split: ',' %}
@@ -45,12 +45,12 @@ layout: default
           {% for person in cur_attend %}
             {% if prev_orgs contains person.org or prev_prev_orgs contains person.org %}
               {% if person.attend == "1" %}
-                {% unless imove_orgs contains person.org %}
-                  {% assign imove_orgs = imove_orgs | push: person.org %}
+                {% unless person.org == "Self (Non-voting participant)" %}
+                  {% assign imove_orgs = imove_orgs | push: person.org | uniq%}
                 {% endunless %}
               {% else %}
-                {% unless ooe_orgs contains person.org or imove_orgs contains person.org %}
-                  {% assign ooe_orgs = ooe_orgs | push: person.org %}
+                {% unless imove_orgs contains person.org %}
+                  {% assign ooe_orgs = ooe_orgs | push: person.org | uniq %}
                 {% endunless %}
               {% endif %}
             {% else %}
@@ -86,17 +86,23 @@ layout: default
           <h4> Did Not Attend 2 of 3 Recent Meetings </h4>
             {% assign ineligible_orgs = ineligible_orgs | sort %}
             {% for org in ineligible_orgs %}
-              <li> {{ org }}</li>
+              {% unless org == "Self (Non-voting participant)" %}
+                <li> {{ org }}</li>
+              {% endunless %}
             {% endfor %}
           <h4> Did Not Register for Current Meeting </h4>
             {% for org in prev_orgs %}
               {% unless imove_orgs contains org or ooe_orgs contains org %}
-                <li> {{ org }}</li>
+                {% unless org == "Self (Non-voting participant)" %}
+                  <li> {{ org }}</li>
+                {% endunless %}
               {% endunless %}
             {% endfor %}
             {% for org in prev_prev_orgs %}
               {% unless imove_orgs contains org or ooe_orgs contains org or prev_orgs contains org %}
-                <li> {{ org }}</li>
+                {% unless org == "Self (Non-voting participant)" %}
+                  <li> {{ org }}</li>
+                {% endunless %}
               {% endunless %}
             {% endfor %}
         {% endif %}
