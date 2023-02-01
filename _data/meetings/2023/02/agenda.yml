@@ -158,7 +158,7 @@ plenaries:
       title: "RMA: Examples 12.4 and 12.5 contain advice to implementors"
       issue_number: 652
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Process management chapter changes for 4.1"
@@ -188,24 +188,6 @@ plenaries:
       title: "Add operation state 'enabled' and 'local calls' into Terms"
       issue_number: 669
       presenter: Rolf
-      done: 0
-
-    - type: Reading
-      title: "RMA communication procedures should have local semantics"
-      issue_number: 653
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "Example 12.4: RMA communication calls may not block in PSCW"
-      issue_number: 555
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "RMA: Examples 12.4 and 12.5 contain advice to implementors"
-      issue_number: 652
-      presenter: Joseph
       done: 0
 
     - type: Reading
