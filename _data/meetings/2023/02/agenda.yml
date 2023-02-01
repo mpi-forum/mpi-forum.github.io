@@ -76,19 +76,19 @@ plenaries:
       title: "Info key(s) for Start Ordering Persistent Collective Communication"
       issue_number: 83
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter"
       issue_number: 472
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "API to access and update MPI_Status public fields"
       issue_number: 645
       presenter: Jeff H / Joseph
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "WTIME and WTICK should be symbols"
@@ -175,7 +175,7 @@ plenaries:
     - type: Reading
       title: "A new function to query hardware resource names"
       issue_number: 154
-      presenter: Julien
+      presenter: Guillaume
       done: 0
 
     - type: Reading

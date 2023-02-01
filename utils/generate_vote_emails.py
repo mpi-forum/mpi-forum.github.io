@@ -138,7 +138,7 @@ def main():
     curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/02/attendance.csv"
     curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-02-feb/2023-02-01-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
-    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSeSvLTEGr-yKd2Nr19iKmG_atUHDfM1c16O0HaAAAJPVMS7nw/viewform?usp=pp_url&entry.1569039753={name}&entry.1678977275={org}&entry.1823932772={id}"
+    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSfJR0oE1pz2A10K0DEjUT0jaHfr7BL36UvfTpxtHT_cKjW6WA/viewform?usp=pp_url&entry.885046213={name}&entry.2074582431={org}&entry.2056718855={id}"
 
     prev_ooe = 34
 
@@ -274,7 +274,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 1:00pm US Central time on February 1st, 2023.
+Voting will be open until 12:30pm US Central time on February 1st, 2023.
 <br><br>
 Thanks,
 <br>
