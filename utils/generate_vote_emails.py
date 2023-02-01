@@ -218,7 +218,7 @@ def main():
     print("OOE ORGS: " + str(ooe));
     print("IMOVE ORGS: " + str(imove));
     print("INDIVIDUAL BALLOT QUORUM: " + str(math.ceil(imove * 0.75)));
-    print("NEEDED FOR MEETING QUORUM: " + str(math.ceil(ooe * 2.0/3.0)));
+    print("NEEDED FOR MEETING QUORUM: " + str(math.ceil(prev_ooe * 2.0/3.0)));
 
     print("\n=== Eligible to vote ===\n");
     with open('ooe_orgs.csv', 'w', newline='') as csvfile:
@@ -236,7 +236,7 @@ def main():
     print(*no_attend, sep = '\n');
     print("\n===\n");
 
-    if (imove < (ooe * 2.0 / 3.0)):
+    if (imove < (prev_ooe * 2.0 / 3.0)):
         print("Did not meet meeting quorum. IMOVE required: " + str(prev_ooe * 2.0 / 3.0) + "\n");
 
     for row in iter(curr_registration):

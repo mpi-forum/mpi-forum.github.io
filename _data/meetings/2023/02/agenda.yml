@@ -112,13 +112,13 @@ plenaries:
       title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
       issue_number: 23
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "MPI_Buffer_attach and Sessions"
       issue_number: 586
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: ==================
       title: Part 2 - Errata Readings

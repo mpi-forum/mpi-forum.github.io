@@ -61,23 +61,41 @@ layout: default
           {% endfor %}
 
           {% assign ooe = ooe_orgs.size | plus: imove_orgs.size %}
+          {% assign prev_ooe = 0 %}
 
-          <h3> IMOVE Orgs </h3>
+          {% for p in site.pages %}
+            {% if p.year == page.prev_year and p.month == page.prev_month %}
+              {% assign prev_ooe = p.ooe %}
+            {% endif %}
+          {% endfor %}
+
+          <h3> IMOVE Orgs ({{imove_orgs.size}} of {{ prev_ooe | times: 0.66 | ceil }} needed) </h3>
           {% assign imove_orgs = imove_orgs | sort %}
           {% for org in imove_orgs %}
             <li> {{ org }}</li>
           {% endfor %}
 
           <h3> Ineligible Orgs </h3>
-          <h4> Not Attended 2 of 3 Recent Meetings </h4>
-            {% assign ineligible_orgs = ineligible_orgs | sort %}
-            {% for org in ineligible_orgs %}
-              <li> {{ org }}</li>
-            {% endfor %}
           <h4> Not Present at Current Meeting </h4>
             {% assign ooe_orgs = ooe_orgs | sort %}
             {% for org in ooe_orgs %}
               {% unless imove_orgs contains org %}
+                <li> {{ org }}</li>
+              {% endunless %}
+            {% endfor %}
+          <h4> Did Not Attend 2 of 3 Recent Meetings </h4>
+            {% assign ineligible_orgs = ineligible_orgs | sort %}
+            {% for org in ineligible_orgs %}
+              <li> {{ org }}</li>
+            {% endfor %}
+          <h4> Did Not Register for Current Meeting </h4>
+            {% for org in prev_orgs %}
+              {% unless imove_orgs contains org or ooe_orgs contains org %}
+                <li> {{ org }}</li>
+              {% endunless %}
+            {% endfor %}
+            {% for org in prev_prev_orgs %}
+              {% unless imove_orgs contains org or ooe_orgs contains org or prev_orgs contains org %}
                 <li> {{ org }}</li>
               {% endunless %}
             {% endfor %}
