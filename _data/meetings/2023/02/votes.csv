@@ -1,5 +1,4 @@
 number,topic,type,yes,no,abstain,missed
-586,MPI_Buffer_attach and Sessions,no-no,0,0,0,0
 538,Allow pset names to guide splitting in MPI_Comm_split_type,no-no,0,0,0,0
 414,Mention behavior with potential overflow,no-no,0,0,0,0
 542,Correct usage of the terms error and return codes in the tools chapter,no-no,0,0,0,0
@@ -14,7 +13,6 @@ number,topic,type,yes,no,abstain,missed
 543,"'Pending operation' not defined, pending proper definition",no-no,0,0,0,0
 443,LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter,errata,0,0,0,0
 379,Rename External Interfaces Chapter,1st,0,0,0,0
-586,MPI_Buffer_attach and Sessions,1st,0,0,0,0
 538,Allow pset names to guide splitting in MPI_Comm_split_type,1st,0,0,0,0
 641,Including Annex A.2 back into the standard,1st,0,0,0,0
 493,Issue N - Progress-Section in terms-2.tex,1st,0,0,0,0
