@@ -36,12 +36,12 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Print Option for MPI 4.1
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: ==================
       title: Part 1 -  No No Readings for Ballots
@@ -52,7 +52,7 @@ plenaries:
       title: "Allow pset names to guide splitting in MPI_Comm_split_type"
       issue_number: 538
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Mention behavior with potential overflow"
