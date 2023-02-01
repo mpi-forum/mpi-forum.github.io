@@ -5,7 +5,7 @@ year: "2023"
 month: "02"
 rules: 3152013
 permalink: meetings/2023/02/votes
-registered: 32
+registered: 33
 ooe: 34
-imove: 30
+imove: 31
 ---
