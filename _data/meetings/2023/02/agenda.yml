@@ -46,7 +46,7 @@ plenaries:
     - type: ==================
       title: Part 1 -  No No Readings for Ballots
       presenter: ==============
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Allow pset names to guide splitting in MPI_Comm_split_type"
@@ -123,13 +123,13 @@ plenaries:
     - type: ==================
       title: Part 2 - Errata Readings
       presenter: ==============
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
       issue_number: 443
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: ==================
       title: Part 3 - Readings related to MPI 4.1
