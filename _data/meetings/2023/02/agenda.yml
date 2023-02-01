@@ -49,12 +49,6 @@ plenaries:
       done: 0
 
     - type: No-No Reading
-      title: "MPI_Buffer_attach and Sessions"
-      issue_number: 586
-      presenter: Martin
-      done: 0
-
-    - type: No-No Reading
       title: "Allow pset names to guide splitting in MPI_Comm_split_type"
       issue_number: 538
       presenter: Guillaume
@@ -118,6 +112,12 @@ plenaries:
       title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
       issue_number: 23
       presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "MPI_Buffer_attach and Sessions"
+      issue_number: 586
+      presenter: Martin
       done: 0
 
     - type: ==================
