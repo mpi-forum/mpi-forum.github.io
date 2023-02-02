@@ -8,11 +8,11 @@ layout: default
         <h1 class="post-title">{{ page.title }}</h1>
         <h4>
             All Times Central US
-            {% if page.type == "virtual" %}
+            {% if page.type == "non_voting" %}
              - Conversion Links Beside Each Event
             {% endif %}
         </h4>
-        {% if page.type == "virtual" %}
+        {% if page.type == "non_voting" %}
         <table><tr>
             <td><a href="https://github.com/mpi-forum/mpi-standard/wiki/">Meeting Information</a></td>
             <td><a href="https://github.com/mpi-forum/mpi-issues/wiki/Access-to-the-MPI-Forum-private-repository">Registration</a></td>
@@ -28,8 +28,8 @@ layout: default
 
         {% if page.type == "voting" %}
             {% assign meetings = site.data.meeting_list.voting%}
-        {% elsif page.type == "virtual" %}
-            {% assign meetings = site.data.meeting_list.virtual %}
+        {% elsif page.type == "non_voting" %}
+            {% assign meetings = site.data.meeting_list.non_voting%}
         {% endif %}
 
         {% for item in meetings %}
@@ -38,7 +38,7 @@ layout: default
             {% elsif item.blank.size > 0 %}
                 <br />
             {% else %}
-                {% if page.type == "virtual" %}
+                {% if page.type == "non_voting" %}
                     <h4>
                         <a href="https://time.is/{{ item.start | date: "%H%M%p_%-d_%B_%Y_in_CT" }}">
                         {{ item.start | date: "%-d %B" }}, {{ item.start | date: "%R" }} - {{ item.end | date: "%R" }}</a>

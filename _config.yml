@@ -30,7 +30,7 @@ navbar-links:
         - MPI 5.0: "mpi-50/"
     Meetings:
         - Voting Meetings: "meetings"
-        - Virtual Meetings: "virtual_meetings"
+        - Non-Voting Meetings: "non_voting_meetings"
     Resources:
         - New to the MPI Forum: "new/"
         - GitHub: "https://www.github.com/mpi-forum/"
@@ -119,6 +119,14 @@ defaults:
     values:
       layout: "page"
       show-avatar: false
+
+safe: true
+
+whitelist:
+  - jekyll-redirect-from
+
+plugins:
+  - jekyll-redirect-from
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
