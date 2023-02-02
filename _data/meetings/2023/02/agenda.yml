@@ -179,12 +179,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Memory Allocation Kind Info"
-      issue_number: 580
-      presenter: Jim
-      done: 0
-
-    - type: Reading
       title: "Add operation state 'enabled' and 'local calls' into Terms"
       issue_number: 669
       presenter: Rolf
@@ -247,6 +241,12 @@ plenaries:
       title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
       issue_number: 520
       presenter: Marc-Andre
+      done: 0
+
+    - type: Plenary
+      title: "Memory Allocation Kind Info"
+      issue_number: 580
+      presenter: Jim
       done: 0
 
     - type: ==================
