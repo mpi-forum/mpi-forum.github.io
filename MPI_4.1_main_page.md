@@ -34,7 +34,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 #### [Application Binary Interface (ABI)](https://github.com/mpiwg-abi/abi-issues)
 
-*   Lead: Jeff Hammond
+*   Lead: Jeff Hammond and Quincey Koziol
 *   Scope: The purpose of the MPI ABI Working Group is to discuss and implement the features required for MPI binaries - applications and libraries - to work with any implementation of MPI on compatible platforms.
 
 #### [Collective, Communicators, Context, Persistent, Partitioned, Groups](https://github.com/mpiwg-coll/coll-issues)
