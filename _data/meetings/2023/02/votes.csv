@@ -10,6 +10,7 @@
 "561","Deprecate mpif.h","no-no","29","0","2","0"
 "669","Add operation state 'enabled' and 'local calls' into Terms","no-no","0","0","0","0"
 "543","'Pending operation' not defined, pending proper definition","no-no","0","0","0","0"
+"283","Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string","no-no","0","0","0","0"
 "443","LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter","errata","0","0","0","0"
 "379","Rename External Interfaces Chapter","1st","0","0","0","0"
 "538","Allow pset names to guide splitting in MPI_Comm_split_type","1st","0","0","0","0"
