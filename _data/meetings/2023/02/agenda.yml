@@ -237,6 +237,12 @@ plenaries:
       presenter: ==============
       done: 0
 
+    - type: Pre-Reading
+      title: "MPI_Buffer_attach and Sessions"
+      issue_number: 586
+      presenter: Martin
+      done: 0
+
     - type: Plenary
       title: "Rename Name-Shifted Profiling Interface (PMPI) to Interception Interface"
       issue_number: 584
