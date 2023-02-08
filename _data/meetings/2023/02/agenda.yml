@@ -196,13 +196,13 @@ plenaries:
       presenter: Rolf
       done: 0
 
-    - type: Reading
+    - type: Reading and No-No Reading
       title: "Introduce the concept of side documents"
       issue_number: 562
       presenter: Martin R.
       done: 0
 
-    - type: Reading
+    - type: Reading and No-No Reading
       title: "Deprecate all _x procedures"
       issue_number: 518
       presenter: Martin R.
