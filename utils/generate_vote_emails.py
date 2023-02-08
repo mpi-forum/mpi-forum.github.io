@@ -138,7 +138,7 @@ def main():
     curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/02/attendance.csv"
     curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-02-feb/2023-02-01-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
-    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLScSFD0F6dUfulNTbeMms97ngwXbfeUMTob5Yu_Z9SlRj3TeUw/viewform?usp=pp_url&entry.335058449={name}&entry.1888915321={org}&entry.1301213687=[id}"
+    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLScSFD0F6dUfulNTbeMms97ngwXbfeUMTob5Yu_Z9SlRj3TeUw/viewform?usp=pp_url&entry.335058449={name}&entry.1888915321={org}&entry.1301213687={id}"
 
     prev_ooe = 34
 

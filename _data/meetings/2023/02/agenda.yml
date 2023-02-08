@@ -124,7 +124,7 @@ plenaries:
       title: "Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string"
       issue_number: 283
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: ==================
       title: Part 2 - Errata Readings
@@ -246,12 +246,6 @@ plenaries:
     - type: Plenary
       title: "Rename Name-Shifted Profiling Interface (PMPI) to Interception Interface"
       issue_number: 584
-      presenter: Marc-Andre
-      done: 0
-
-    - type: Plenary
-      title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
-      issue_number: 520
       presenter: Marc-Andre
       done: 0
 
