@@ -194,7 +194,7 @@ plenaries:
       title: "'Pending operation' not defined, pending proper definition"
       issue_number: 543
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading and No-No Reading
       title: "Introduce the concept of side documents"
