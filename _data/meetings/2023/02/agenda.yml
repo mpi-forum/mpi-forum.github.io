@@ -214,7 +214,7 @@ plenaries:
       presenter: Martin
       done: 1
 
-    - type: Reading
+    - type: Reading and No-No Reading
       title: "Fix comment on Info object in incomplete functions"
       issue_number: 411
       presenter: Martin

@@ -13,6 +13,7 @@
 "283","Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string","no-no","0","0","0","0"
 "562","Introduce the concept of side documents","no-no","0","0","0","0"
 "518","Deprecate all _x procedures","no-no","0","0","0","0"
+"411","Fix comment on Info object in incomplete functions","no-no","0","0","0","0"
 "443","LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter","errata","0","0","0","0"
 "379","Rename External Interfaces Chapter","1st","0","0","0","0"
 "538","Allow pset names to guide splitting in MPI_Comm_split_type","1st","0","0","0","0"
