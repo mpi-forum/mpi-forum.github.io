@@ -170,7 +170,7 @@ plenaries:
       title: "Process management chapter changes for 4.1"
       issue_number: 514
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Deprecate MPI_HOST"
