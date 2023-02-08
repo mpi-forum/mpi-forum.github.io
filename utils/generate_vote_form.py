@@ -17,6 +17,7 @@ from googleapiclient.errors import HttpError
 def main():
     year = "2023"
     month = "02"
+    day = "2"
     filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     votes_list = list(csv.DictReader(open(filename)));
 
@@ -59,8 +60,8 @@ def main():
 
     form = {
         "info": {
-            "title": "MPI Forum <month> <year> MPI Forum Voting Day <number>",
-            "documentTitle": year + "-" + month + " Vote Day <number>",
+            "title": "MPI Forum " + calendar.month_name[int(month)] + " " + year + " MPI Forum Voting Day " + day,
+            "documentTitle": year + "-" + month + " Vote Day " + day,
         }
     }
 
@@ -110,7 +111,7 @@ def main():
         "requests": [{
             "updateFormInfo": {
                 "info": {
-                    "title": "MPI Forum " + calendar.month_name[int(month)] + " " + year + " MPI Forum Voting Day <number>",
+                    "title": "MPI Forum " + calendar.month_name[int(month)] + " " + year + " MPI Forum Voting Day " + day,
                     "description": "As ballots in the MPI Forum have never been secret, the individual ballots cast here will also be made public on the website (https://www.mpi-forum.org/meetings/" + year + "/" + month + "/votes) after voting has concluded.",
                 },
                 "updateMask": "*",
