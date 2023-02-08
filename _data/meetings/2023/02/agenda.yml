@@ -176,19 +176,19 @@ plenaries:
       title: "Deprecate MPI_HOST"
       issue_number: 57
       presenter: Julien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "A new function to query hardware resource names"
       issue_number: 154
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading and No-No Reading
       title: "Add operation state 'enabled' and 'local calls' into Terms"
       issue_number: 669
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Reading and No-No Reading
       title: "'Pending operation' not defined, pending proper definition"
