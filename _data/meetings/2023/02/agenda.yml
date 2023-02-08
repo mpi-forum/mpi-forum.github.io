@@ -224,13 +224,13 @@ plenaries:
       title: "Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter"
       issue_number: 480
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Consistency Updates for MPI_Info Chapter for MPI 4.1"
       issue_number: 541
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: ==================
       title: Part 5 - Plenaries needed for MPI 4.1
