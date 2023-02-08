@@ -200,25 +200,25 @@ plenaries:
       title: "Introduce the concept of side documents"
       issue_number: 562
       presenter: Martin R.
-      done: 0
+      done: 1
 
     - type: Reading and No-No Reading
       title: "Deprecate all _x procedures"
       issue_number: 518
       presenter: Martin R.
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Merge or Cross-Reference that Hints must be obeyed by Application in RMA and Info Chapters"
       issue_number: 408
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fix comment on Info object in incomplete functions"
       issue_number: 411
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter"
