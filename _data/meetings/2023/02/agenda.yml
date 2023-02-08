@@ -250,12 +250,6 @@ plenaries:
       done: 0
 
     - type: Plenary
-      title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
-      issue_number: 520
-      presenter: Marc-Andre
-      done: 0
-
-    - type: Plenary
       title: "Memory Allocation Kind Info"
       issue_number: 580
       presenter: Jim
