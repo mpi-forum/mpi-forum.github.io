@@ -10,4 +10,6 @@ utils/token.*
 utils/ballot.csv
 utils/votes.csv
 utils/ooe_orgs.csv
+utils/attendance.csv
+utils/registration.csv
 utils/client_secrets.json
