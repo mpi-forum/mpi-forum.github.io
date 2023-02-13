@@ -8,12 +8,20 @@ month: "03"
 
 ### Meeting Registration
 
-Advanced registration for this meeting will be required for food and space
-planning. **Registration is required regardless of whether attending in-person
-or remote.** The fees are lower if attending remote-only, so be sure to choose
-the correct type of registration(s).
+**Registration is required regardless of whether attending in-person or remote.**
+There are two registrations necessary for this event.
+
+#### Food / Security
+In-person attendance will cost $200 + fees. This registration is required to
+pay for food and ensure that the building security has you registered to attend
+the event.
 
 Registration will be done through Eventbrite at this link: []()
+
+#### Meeting Registration and Voting
+**All attendees (in-person or remote)** must complete this form to be eligible to attend the meeting and vote.
+
+Meeting restration is [here](https://forms.gle/X2YJZ1xCmVrN2EWG6): [https://forms.gle/X2YJZ1xCmVrN2EWG6](https://forms.gle/X2YJZ1xCmVrN2EWG6)
 
 ### Meeting Location
 
