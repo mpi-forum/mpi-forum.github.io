@@ -24,6 +24,14 @@ BOS21 - Amazon
 Boston, MA 02210
 [Google Maps](https://www.google.com/maps/place/BOS21+-+Amazon/@42.3501737,-71.0447714,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37b21a0d5cc89:0x7bf05aadf19b7d13!8m2!3d42.35017!4d-71.0447632)
 
+### Hotels
+
+The MPI Forum does not reserve a room block, but here are some hotels that are near the meeting site.
+
+* [The Westin Boston Seaport District](https://www.marriott.com/en-us/hotels/bosow-the-westin-boston-seaport-district/overview/)
+* [Homewood Suites by Hilton Boston Seaport District](https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=BOSSYHW)
+* [InterContinental Boston](https://www.ihg.com/intercontinental/hotels/us/en/boston/bosha/hoteldetail)
+
 ### Remote Participation
 
 As is true with all hybrid meetings, the meeting times will be during business hours in the local time zone (Eastern US). Remote participation will also be available via Zoom. The appropriate links to the meeting will be posted before the meeting.
