@@ -16,7 +16,7 @@ In-person attendance will cost $200 + fees. This registration is required to
 pay for food and ensure that the building security has you registered to attend
 the event.
 
-Registration will be done through Eventbrite at this link: []()
+Registration will be done through Eventbrite at this link: [https://www.eventbrite.com/e/mpi-forum-meeting-boston-tickets-546901455977](https://www.eventbrite.com/e/mpi-forum-meeting-boston-tickets-546901455977)
 
 #### Meeting Registration and Voting
 **All attendees (in-person or remote)** must complete this form to be eligible to attend the meeting and vote.
