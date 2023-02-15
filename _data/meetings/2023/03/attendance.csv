@@ -1,1 +1,12 @@
-name,org,attend
+"name","org","remote","attend"
+"Wes Bland","Meta","0","1"
+"Maria Garzaran","Intel Corporation","1","1"
+"Ken Raffenetti","Argonne National Laboratory","1","1"
+"Michael Klemm","AMD","1","1"
+"Dan Holmes","Intel Corporation","1","1"
+"Maec-André Hermanns","RWTH Aachen University","1","1"
+"Claudia Blaas-Schenner","VSC Research Center, TU Wien","1","1"
+"Joshua Hursey","IBM","1","1"
+"Howard Pritchard","Los Alamos National Laboratory","0","1"
+"Nat Shineman","Ohio State University","1","1"
+"Shinji Sumimoto","The University of Tokyo","1","1"
