@@ -14,8 +14,12 @@ def main():
     print("Opening file...");
 
     registration_list = list(csv.DictReader(open(registration_file)));
+    if "Are you attending in person or remotely?" in registration_list[0]:
+        any_remote = True
+    else:
+        any_remote = False
 
-    attendanceWriter = csv.DictWriter(open('attendance.csv', 'w', newline=''), ['name','org','attend'], quoting = csv.QUOTE_ALL);
+    attendanceWriter = csv.DictWriter(open('attendance.csv', 'w', newline=''), ['name','org','remote','attend'], quoting = csv.QUOTE_ALL);
     attendanceWriter.writeheader();
     registrationWriter = csv.DictWriter(open('registration.csv', 'w', newline=''), ['name','org','email','uuid'], quoting = csv.QUOTE_ALL);
     registrationWriter.writeheader();
@@ -29,13 +33,18 @@ def main():
         org = registration['What organization will you be representing?'];
         email = registration['Email Address'];
 
+        if any_remote and registration['Are you attending in person or remotely?'] == "Remotely":
+            remote = 1
+        else:
+            remote = 0
+
         if name in names:
             print("Omitting duplicate name: " + name);
             continue;
         else:
             names[name] = 1;
 
-        attendanceWriter.writerow({'name': name, 'org': org, 'attend': '1'});
+        attendanceWriter.writerow({'name': name, 'org': org, 'remote': remote, 'attend': '1'});
         registrationWriter.writerow({'name': name, 'org': org, 'email': email, 'uuid': uuid.uuid1()});
 
     print("\n=====\n");
