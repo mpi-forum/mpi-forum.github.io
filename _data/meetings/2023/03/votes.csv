@@ -7,4 +7,5 @@ number,topic,type,yes,no,abstain,missed
 644,"Update 'Process Topology' chapter title to use MPI process","2nd"
 542,"Correct usage of the terms error and return codes in the tools chapter","2nd"
 414,"Mention behavior with potential overflow","2nd"
-
+672,"MPIR side document not fully compliant with proposed requirements","errata"
+673,"MQD side document not fully compliant with proposed requirements","errata"
