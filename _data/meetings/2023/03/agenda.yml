@@ -116,3 +116,15 @@ plenaries:
       presenter: Jim
       done: 0
 
+    - type: Reading
+      title: Add operation state enabled and local calls into Terms
+      issue_number: 669
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: MPI_Buffer_attach and Sessions
+      issue_number: 586
+      presenter: Martin
+      done: 0
+
