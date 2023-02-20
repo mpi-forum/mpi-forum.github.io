@@ -5,6 +5,6 @@ permalink: meetings/2023/03/agenda
 year: "2023"
 month: "03"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"
-timezone: "US Eastern Daylight Savings (note: Europe will not, yet, be on Daylight Savings"
+timezone: "US Eastern Daylight Savings (note: Europe will not, yet, be on Daylight Savings)"
 ---
 
