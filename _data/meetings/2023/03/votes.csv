@@ -5,3 +5,6 @@ number,topic,type,yes,no,abstain,missed
 471,"Fix Incorrect Usage of Rank/Task/etc. in Terms Chapter","2nd"
 565,"Refer to Fortran 2018 instead of 2008+TS","2nd"
 644,"Update 'Process Topology' chapter title to use MPI process","2nd"
+542,"Correct usage of the terms error and return codes in the tools chapter","2nd"
+414,"Mention behavior with potential overflow","2nd"
+

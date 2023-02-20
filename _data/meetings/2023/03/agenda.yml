@@ -128,3 +128,33 @@ plenaries:
       presenter: Martin
       done: 0
 
+    - type: Reading
+      title: MPI_Type_get_value_index
+      issue_number: 520
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: Non-standard wildcard notation
+      issue_number: 674
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: MPIR side document not fully compliant with proposed requirements
+      issue_number: 672
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: MQD side document not fully compliant with proposed requirements
+      issue_number: 673
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: Clarification for the local/nonlocal nature of MPI_WAIT
+      issue_number: 639
+      presenter: Dan
+      done: 0
+
