@@ -170,3 +170,15 @@ plenaries:
       presenter: Bill W.
       done: 0
 
+    - type: Reading
+      title: Inconsistent description of chapters
+      issue_number: 563
+      presenter: Bill
+      done: 0
+
+    - type: Reading
+      title: Fortran Binding Issues and Capitalization
+      issue_number: 564
+      presenter: Benson
+      done: 0
+

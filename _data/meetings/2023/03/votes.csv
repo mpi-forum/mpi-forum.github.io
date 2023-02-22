@@ -9,3 +9,4 @@ number,topic,type,yes,no,abstain,missed
 414,"Mention behavior with potential overflow","2nd"
 672,"MPIR side document not fully compliant with proposed requirements","errata"
 673,"MQD side document not fully compliant with proposed requirements","errata"
+564,"Fortran Binding Issues and Capitalization","errata"
