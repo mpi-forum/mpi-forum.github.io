@@ -172,7 +172,7 @@ hardware resource info
       done: 0
 
     - type: Reading
-      title: MPI_REQUEST_GET_STATUS_XXX functions
+      title: "Add functions to check multiple request statuses at once"
       issue_number: 519
       presenter: Bill W.
       done: 0
@@ -180,12 +180,11 @@ hardware resource info
     - type: Reading
       title: Inconsistent description of chapters
       issue_number: 563
-      presenter: Bill
+      presenter: Bill G.
       done: 0
 
-    - type: Reading
+    - type: Errata Reading
       title: Fortran Binding Issues and Capitalization
       issue_number: 564
       presenter: Benson
       done: 0
-
