@@ -116,6 +116,13 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: No-No Reading
+      title: New interface to query
+hardware resource info
+      issue_number: 154
+      presenter: Guillaume
+      done: 0
+      
     - type: Reading
       title: Memory Alloc Kind Info
       issue_number: 580

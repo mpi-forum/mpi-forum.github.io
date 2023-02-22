@@ -1,4 +1,5 @@
 number,topic,type,yes,no,abstain,missed
+154,"New interface to query hardware resource info","no-no"
 543,"Pending operation not defined, pending proper definition","1st"
 641,"Including Annex A.2 back into the standard","2nd"
 493,"Issue N - Progress-Section in terms-2.tex","2nd"
@@ -10,3 +11,4 @@ number,topic,type,yes,no,abstain,missed
 672,"MPIR side document not fully compliant with proposed requirements","errata"
 673,"MQD side document not fully compliant with proposed requirements","errata"
 564,"Fortran Binding Issues and Capitalization","errata"
+154,"New interface to query hardware resource info","1st"
