@@ -6,6 +6,12 @@ schedule:
       end: 2023-03-13T16:00
       title: "Plenary (agenda see below)"
 
+
+
+    - start: 2023-03-13T14:00
+      end: 2023-03-13T16:00
+      title: "Plenary (agenda see below)"
+
     - start: 2023-03-13T16:00
       end: 2023-03-13T16:30
       title: "Break"
@@ -156,5 +162,11 @@ plenaries:
       title: Clarification for the local/nonlocal nature of MPI_WAIT
       issue_number: 639
       presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: MPI_REQUEST_GET_STATUS_XXX functions
+      issue_number: 519
+      presenter: Bill W.
       done: 0
 
