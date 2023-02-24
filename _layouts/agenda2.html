@@ -107,7 +107,6 @@ layout: default
              {% else %}
                 {% assign datestring = "%H%M_%-d_%B_%Y_in_CT" %}
              {% endif %}
-                {{ datestring }}
                  <td><a href="https://time.is/{{ item.start | date: datestring }}">
                          {{ item.start | date: "%H:%M" }} - {{ item.end | date: "%H:%M" }}
                  </a> </td>
