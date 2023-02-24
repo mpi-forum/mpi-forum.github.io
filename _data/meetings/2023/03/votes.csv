@@ -12,3 +12,6 @@ number,topic,type,yes,no,abstain,missed
 673,"MQD side document not fully compliant with proposed requirements","errata"
 564,"Fortran Binding Issues and Capitalization","errata"
 154,"New interface to query hardware resource info","1st"
+680,"missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy","errata"
+57,"Deprecate MPI_HOST","no-no"
+57,"Deprecate MPI_HOST","1st"

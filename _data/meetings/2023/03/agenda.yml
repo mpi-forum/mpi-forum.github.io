@@ -123,6 +123,18 @@ hardware resource info
       presenter: Guillaume
       done: 0
       
+    - type: No-No Reading
+      title: Deprecate MPI_HOST
+      issue_number: 57
+      presenter: Julien
+      done: 0
+      
+    - type: Errata Reading
+      title: missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy
+      issue_number: 680
+      presenter: Julien
+      done: 0
+      
     - type: Reading
       title: Memory Alloc Kind Info
       issue_number: 580
