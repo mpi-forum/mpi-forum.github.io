@@ -135,6 +135,12 @@ plenaries:
       done: 0
 
     - type: Reading
+      title: RC issues found in chap-coll
+      issue_number: 341
+      presenter: Julien
+      done: 0
+
+    - type: Reading
       title: Memory Alloc Kind Info
       issue_number: 580
       presenter: Jim
