@@ -146,6 +146,12 @@ plenaries:
       presenter: Julien
       done: 0
 
+    - type: Errata Reading
+      title: Fortran Binding Issues and Capitalization
+      issue_number: 564
+      presenter: Benson
+      done: 0
+
     - type: Reading
       title: RC issues found in chap-coll
       issue_number: 341
@@ -167,7 +173,7 @@ plenaries:
     - type: Reading
       title: MPI_Buffer_attach and Sessions
       issue_number: 586
-      presenter: Martin
+      presenter: Martin S.
       done: 0
 
     - type: Reading
@@ -212,8 +218,51 @@ plenaries:
       presenter: Bill G.
       done: 0
 
-    - type: Errata Reading
-      title: Fortran Binding Issues and Capitalization
-      issue_number: 564
-      presenter: Benson
+    - type: Reading
+      title: Bindings, Shorten Example Index Names
+      issue_number: 235
+      presenter: Rolf
       done: 0
+
+    - type: Reading
+      title: Bindings, Add Example Titles
+      issue_number: 607
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: Bindings, Mark Erroneous Examples
+      issue_number: 244
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: Bindings, Fix Example Environment
+      issue_number: 610
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: Bindings, Update verbatim examples to example environment
+      issue_number: 633
+      presenter: Rolf
+      done: 0
+
+    - type: Reading
+      title: Consistent use, Section 18.1.9, Replace TYPE
+      issue_number: 278
+      presenter: Rolf,Puri
+      done: 0
+
+    - type: Reading
+      title: Fix Incorrect Usage of Rank/Task/etc. in Language Bindings Chapter
+      issue_number: 485
+      presenter: Rolf,Puri
+      done: 0
+
+    - type: Reading
+      title: Improvements around the word rank in the Process Topologies chapter
+      issue_number: 457
+      presenter: Christoph,Rolf
+      done: 0
+
