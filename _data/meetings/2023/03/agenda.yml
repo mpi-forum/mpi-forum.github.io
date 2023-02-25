@@ -128,6 +128,18 @@ plenaries:
       presenter: Julien
       done: 0
 
+    - type: No-No Reading
+      title: Fix comment on Info object in incomplete functions
+      issue_number: 411
+      presenter: Martin S.
+      done: 0
+
+    - type: No-No Reading
+      title: Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter
+      issue_number: 480
+      presenter: Martin S.
+      done: 0
+
     - type: Errata Reading
       title: missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy
       issue_number: 680

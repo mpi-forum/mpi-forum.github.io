@@ -15,3 +15,10 @@ number,topic,type,yes,no,abstain,missed
 680,"missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy","errata"
 57,"Deprecate MPI_HOST","no-no"
 57,"Deprecate MPI_HOST","1st"
+408,"added reference to the fact that hints must be adhered to by the app","1st"
+411,"Fix comment on Info object in incomplete functions","1st"
+411,"Fix comment on Info object in incomplete functions","no-no"
+480,"Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter","1st"
+480,"Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter","no-no"
+541,"Consistency Updates for MPI_Info Chapter for MPI 4.1","1st"
+
