@@ -135,6 +135,30 @@ plenaries:
       done: 0
 
     - type: No-No Reading
+      title: Deprecate mpif.h
+      issue_number: 561
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: Make all RMA communication procedures local
+      issue_number: 653
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: RMA, Examples 12.4 and 12.5 contain advice to implementors
+      issue_number: 652
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: Allow MPI_WIN_SHARED_QUERY on created and allocated windows
+      issue_number: 23
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
       title: Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter
       issue_number: 480
       presenter: Martin S.
@@ -276,5 +300,12 @@ plenaries:
       title: Improvements around the word rank in the Process Topologies chapter
       issue_number: 457
       presenter: Christoph,Rolf
+      done: 0
+
+    - type: Reading
+      title: RMA accumulate operations do not distinguish between throughput and
+latency sensitive applications
+      issue_number: 640
+      presenter: Joseph
       done: 0
 
