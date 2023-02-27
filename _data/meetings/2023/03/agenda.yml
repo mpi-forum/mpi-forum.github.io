@@ -303,8 +303,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: RMA accumulate operations do not distinguish between throughput and
-latency sensitive applications
+      title: RMA accumulate operations do not distinguish between throughput and latency sensitive applications
       issue_number: 640
       presenter: Joseph
       done: 0
