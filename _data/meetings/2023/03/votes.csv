@@ -32,4 +32,4 @@ number,topic,type,yes,no,abstain,missed
 647,"Handle conversions should be symbols","2nd"
 561,"Deprecate mpif.h","no-no"
 561,"Deprecate mpif.h","2nd"
-
+538,"Allow pset names to guide splitting in MPI_Comm_split_type","2nd"
