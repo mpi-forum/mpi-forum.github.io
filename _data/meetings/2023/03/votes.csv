@@ -33,3 +33,7 @@ number,topic,type,yes,no,abstain,missed
 561,"Deprecate mpif.h","no-no"
 561,"Deprecate mpif.h","2nd"
 538,"Allow pset names to guide splitting in MPI_Comm_split_type","2nd"
+117,"Logically concurrent is not","2nd"
+188,"Section 3.5 - p. 45 - Comment Erroneous Example","2nd"
+83,"Info key for strict start ordering of persistent collective communication","2nd"
+472,"Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter","2nd"
