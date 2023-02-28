@@ -37,3 +37,6 @@ number,topic,type,yes,no,abstain,missed
 188,"Section 3.5 - p. 45 - Comment Erroneous Example","2nd"
 83,"Info key for strict start ordering of persistent collective communication","2nd"
 472,"Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter","2nd"
+518,"Deprecate all _x procedures","no-no"
+518,"Deprecate all _x procedures","1st"
+

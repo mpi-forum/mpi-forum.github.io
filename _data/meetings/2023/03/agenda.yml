@@ -164,6 +164,12 @@ plenaries:
       presenter: Martin S.
       done: 0
 
+    - type: No-No Reading
+      title: Deprecate all _x procedures
+      issue_number: 518
+      presenter: Martin R.
+      done: 0
+
     - type: Errata Reading
       title: missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy
       issue_number: 680
@@ -324,6 +330,12 @@ plenaries:
       title: I/O, Add Example Titles
       issue_number: 606
       presenter: Benson
+      done: 0
+
+    - type: Reading
+      title: Introduce the concept of side-documents
+      issue_number: 562
+      presenter: Martin R.
       done: 0
 
 
