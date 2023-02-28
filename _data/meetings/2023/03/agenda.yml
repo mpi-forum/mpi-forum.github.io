@@ -308,3 +308,22 @@ plenaries:
       presenter: Joseph
       done: 0
 
+    - type: Reading
+      title: Question, MPI_Dims_create - is as close to each other as possible a requirement?
+      issue_number: 683
+      presenter: Rolf and Christoph
+      done: 0
+
+    - type: Reading
+      title: MPI_Cart_create_weighted, Topology aware Cartesian communicators
+      issue_number: 120
+      presenter: Rolf and Christoph
+      done: 0
+
+    - type: Reading
+      title: I/O, Add Example Titles
+      issue_number: 606
+      presenter: Benson
+      done: 0
+
+
