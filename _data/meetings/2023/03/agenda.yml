@@ -189,12 +189,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Add operation state enabled and local calls into Terms
-      issue_number: 669
-      presenter: Rolf
-      done: 0
-
-    - type: Reading
       title: MPI_Buffer_attach and Sessions
       issue_number: 586
       presenter: Martin S.
@@ -224,13 +218,13 @@ plenaries:
       presenter: Marc-Andre
       done: 0
 
-    - type: Reading
+    - type: Side Document Reading
       title: MPIR side document not fully compliant with proposed requirements
       issue_number: 672
       presenter: Marc-Andre
       done: 0
 
-    - type: Reading
+    - type: Side Document Reading
       title: MQD side document not fully compliant with proposed requirements
       issue_number: 673
       presenter: Marc-Andre
@@ -255,57 +249,27 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Bindings, Shorten Example Index Names
-      issue_number: 235
-      presenter: Rolf
-      done: 0
-
-    - type: Reading
-      title: Bindings, Add Example Titles
-      issue_number: 607
-      presenter: Rolf
-      done: 0
-
-    - type: Reading
-      title: Bindings, Mark Erroneous Examples
-      issue_number: 244
-      presenter: Rolf
-      done: 0
-
-    - type: Reading
-      title: Bindings, Fix Example Environment
-      issue_number: 610
-      presenter: Rolf
-      done: 0
-
-    - type: Reading
-      title: Bindings, Update verbatim examples to example environment
-      issue_number: 633
+      title: Add operation state enabled and local calls into Terms
+      issue_number: 669
       presenter: Rolf
       done: 0
 
     - type: Reading
       title: Consistent use, Section 18.1.9, Replace TYPE
       issue_number: 278
-      presenter: Rolf,Puri
+      presenter: Rolf and Puri
       done: 0
 
     - type: Reading
       title: Fix Incorrect Usage of Rank/Task/etc. in Language Bindings Chapter
       issue_number: 485
-      presenter: Rolf,Puri
+      presenter: Rolf and Puri
       done: 0
 
     - type: Reading
       title: Improvements around the word rank in the Process Topologies chapter
       issue_number: 457
-      presenter: Christoph,Rolf
-      done: 0
-
-    - type: Reading
-      title: RMA accumulate operations do not distinguish between throughput and latency sensitive applications
-      issue_number: 640
-      presenter: Joseph
+      presenter: Rolf and Christoph
       done: 0
 
     - type: Reading
@@ -321,9 +285,9 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: I/O, Add Example Titles
-      issue_number: 606
-      presenter: Benson
+      title: RMA accumulate operations do not distinguish between throughput and latency sensitive applications
+      issue_number: 640
+      presenter: Joseph
       done: 0
 
     - type: Reading
