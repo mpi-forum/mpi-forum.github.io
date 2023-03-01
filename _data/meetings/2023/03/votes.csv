@@ -41,4 +41,3 @@ number,topic,type,yes,no,abstain,missed
 518,"Deprecate all _x procedures","1st"
 683,"Question: MPI_Dims_create - is 'as close to each other as possible' a requirement?","no-no"
 520,"Add compound datatypes for large integers for MPI_(MIN|MAX)LOC","no-no"
-
