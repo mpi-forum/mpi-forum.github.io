@@ -133,10 +133,10 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/09/attendance.csv"
     prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2022/12/attendance.csv"
-    curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/02/attendance.csv"
-    curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-02-feb/2023-02-01-registration.csv"
+    prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/02/attendance.csv"
+    curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/03/attendance.csv"
+    curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-03-mar/2023-03-13-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
     voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSdkKnagQg3I_ICeZgAaGFMurKH18zukbpoxnvfgO7rLkfBRzw/viewform?usp=pp_url&entry.1443196048={name}&entry.439153811={org}&entry.1251590398={id}"
 
