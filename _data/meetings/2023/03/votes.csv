@@ -39,4 +39,5 @@ number,topic,type,yes,no,abstain,missed
 472,"Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter","2nd"
 518,"Deprecate all _x procedures","no-no"
 518,"Deprecate all _x procedures","1st"
-
+683,"MPI_Dims_create, is as close to each other as possible a
+requirement?","no-no"
