@@ -16,4 +16,3 @@ have not been granted access to that repository in the past, email Wes Bland to 
 Registration is still required to track attendance, meeting quorum, and voting eligibility. Please
 click the following link to register:
 
-[Registration Link](https://forms.gle/7q4pUVGGGDUXgZiD9)
