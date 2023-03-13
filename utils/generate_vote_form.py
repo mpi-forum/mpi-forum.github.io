@@ -16,8 +16,8 @@ from googleapiclient.errors import HttpError
 
 def main():
     year = "2023"
-    month = "02"
-    day = "2"
+    month = "03"
+    day = "1"
     filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     votes_list = list(csv.DictReader(open(filename)));
 
