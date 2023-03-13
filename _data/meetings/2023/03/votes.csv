@@ -43,3 +43,4 @@ number,topic,type,yes,no,abstain,missed
 520,"Add compound datatypes for large integers for MPI_(MIN|MAX)LOC","no-no"
 586,"MPI_Buffer_attach and Sessions","no-no"
 580,"Memory Alloc Kind Info","no-no"
+341,"RC issues found in chap-coll","no-no"

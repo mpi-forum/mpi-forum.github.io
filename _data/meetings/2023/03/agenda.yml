@@ -177,6 +177,12 @@ plenaries:
       presenter: Julien
       done: 1
 
+    - type: No-No Reading
+      title: RC issues found in chap-coll
+      issue_number: 341
+      presenter: Julien
+      done: 0
+
     - type: Reading (and no-no reading)
       title: Memory Alloc Kind Info
       issue_number: 580
