@@ -194,6 +194,12 @@ plenaries:
       presenter: Martin S.
       done: 0
 
+    - type: No-No Reading
+      title: MPI_Buffer_attach and Sessions
+      issue_number: 586
+      presenter: Martin S.
+      done: 0
+
     - type: Reading
       title: Automatic buffering default
       issue_number: 684
