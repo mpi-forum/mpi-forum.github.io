@@ -103,24 +103,19 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
-
-    - type: Update
-      title: WG Status
-      presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: A new function to query hardware resource names
       issue_number: 154
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: Deprecate MPI_HOST
       issue_number: 57
       presenter: Julien
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: Deprecate mpif.h
@@ -150,37 +145,37 @@ plenaries:
       title: Deprecate all _x procedures
       issue_number: 518
       presenter: Martin R.
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter
       issue_number: 480
       presenter: Martin S.
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: Fix comment on Info object in incomplete functions
       issue_number: 411
       presenter: Martin S.
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy
       issue_number: 680
       presenter: Julien
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: Fortran Binding Issues and Capitalization
       issue_number: 564
       presenter: Benson
-      done: 0
+      done: 1
 
     - type: Reading
       title: RC issues found in chap-coll
       issue_number: 341
       presenter: Julien
-      done: 0
+      done: 1
 
     - type: Reading (and no-no reading)
       title: Memory Alloc Kind Info
@@ -213,6 +208,12 @@ plenaries:
       done: 0
 
     - type: Reading
+      title: MPI_Type_get_value_index
+      issue_number: 520
+      presenter: Marc-Andre
+      done: 0
+
+    - type: No-No Reading
       title: MPI_Type_get_value_index
       issue_number: 520
       presenter: Marc-Andre
