@@ -183,7 +183,13 @@ plenaries:
       presenter: Julien
       done: 0
 
-    - type: Reading (and no-no reading)
+    - type: Reading
+      title: Memory Alloc Kind Info
+      issue_number: 580
+      presenter: Jim
+      done: 1
+
+    - type: No-No Reading
       title: Memory Alloc Kind Info
       issue_number: 580
       presenter: Jim
