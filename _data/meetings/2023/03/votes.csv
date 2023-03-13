@@ -42,3 +42,4 @@ number,topic,type,yes,no,abstain,missed
 683,"Question: MPI_Dims_create - is 'as close to each other as possible' a requirement?","no-no"
 520,"Add compound datatypes for large integers for MPI_(MIN|MAX)LOC","no-no"
 586,"MPI_Buffer_attach and Sessions","no-no"
+580,"Memory Alloc Kind Info","no-no"
