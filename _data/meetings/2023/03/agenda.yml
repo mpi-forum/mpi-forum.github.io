@@ -123,12 +123,6 @@ plenaries:
       done: 0
 
     - type: No-No Reading
-      title: Fix comment on Info object in incomplete functions
-      issue_number: 411
-      presenter: Martin S.
-      done: 0
-
-    - type: No-No Reading
       title: Deprecate mpif.h
       issue_number: 561
       presenter: Joseph
@@ -153,15 +147,21 @@ plenaries:
       done: 0
 
     - type: No-No Reading
+      title: Deprecate all _x procedures
+      issue_number: 518
+      presenter: Martin R.
+      done: 0
+
+    - type: No-No Reading
       title: Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter
       issue_number: 480
       presenter: Martin S.
       done: 0
 
     - type: No-No Reading
-      title: Deprecate all _x procedures
-      issue_number: 518
-      presenter: Martin R.
+      title: Fix comment on Info object in incomplete functions
+      issue_number: 411
+      presenter: Martin S.
       done: 0
 
     - type: Errata Reading
