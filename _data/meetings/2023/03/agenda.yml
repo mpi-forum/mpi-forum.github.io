@@ -238,10 +238,16 @@ plenaries:
       done: 1
 
     - type: Reading
+      title: Add operation state enabled and local calls into Terms
+      issue_number: 669
+      presenter: Rolf
+      done: 1
+
+    - type: Reading
       title: Clarification for the local/nonlocal nature of MPI_WAIT
       issue_number: 639
       presenter: Dan
-      done: 1
+      done: 0
 
     - type: Reading
       title: "Add functions to check multiple request statuses at once"
@@ -253,12 +259,6 @@ plenaries:
       title: Inconsistent description of chapters
       issue_number: 563
       presenter: Bill G.
-      done: 0
-
-    - type: Reading
-      title: Add operation state enabled and local calls into Terms
-      issue_number: 669
-      presenter: Rolf
       done: 0
 
     - type: Reading
