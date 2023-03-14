@@ -1,2 +1,3 @@
 "number","topic","type","yes","no","abstain","missed"
 "645","API to access and update MPI_Status public fields","2nd"
+"658","MPI_MAX_STRINGTAG_LEN and MPI_MAX_PSET_NAME_LEN arent listed as compile-time constants","errata"

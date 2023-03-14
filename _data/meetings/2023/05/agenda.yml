@@ -69,6 +69,12 @@ plenaries:
       title: Introductions
       presenter: All
       done: 0
+      
+    - type: Errata Reading
+      title: MPI_MAX_STRINGTAG_LEN and MPI_MAX_PSET_NAME_LEN arent listed as compile-time constants
+      issue_number: 658
+      presenter: Howard
+      done: 0
 
     - type: Discussion
       title: Virtual Meetings
