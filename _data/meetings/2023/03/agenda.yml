@@ -297,11 +297,17 @@ plenaries:
       presenter: Rolf and Christoph
       done: 1
 
+    - type: No-No Reading
+      title: Question, MPI_Dims_create - is as close to each other as possible a requirement?
+      issue_number: 683
+      presenter: Rolf and Christoph
+      done: 1
+
     - type: Reading
       title: MPI_Cart_create_weighted, Topology aware Cartesian communicators
       issue_number: 120
       presenter: Rolf and Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: RMA accumulate operations do not distinguish between throughput and latency sensitive applications
