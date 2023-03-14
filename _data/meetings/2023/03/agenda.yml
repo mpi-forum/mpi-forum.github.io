@@ -271,7 +271,7 @@ plenaries:
       title: Inconsistent description of chapters
       issue_number: 563
       presenter: Bill G.
-      done: 0
+      done: 1
 
     - type: Reading
       title: Consistent use, Section 18.1.9, Replace TYPE
