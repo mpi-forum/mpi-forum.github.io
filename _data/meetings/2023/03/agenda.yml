@@ -277,25 +277,25 @@ plenaries:
       title: Consistent use, Section 18.1.9, Replace TYPE
       issue_number: 278
       presenter: Rolf and Puri
-      done: 0
+      done: 1
 
     - type: Reading
       title: Fix Incorrect Usage of Rank/Task/etc. in Language Bindings Chapter
       issue_number: 485
       presenter: Rolf and Puri
-      done: 0
+      done: 1
 
     - type: Reading
       title: Improvements around the word rank in the Process Topologies chapter
       issue_number: 457
       presenter: Rolf and Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: Question, MPI_Dims_create - is as close to each other as possible a requirement?
       issue_number: 683
       presenter: Rolf and Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: MPI_Cart_create_weighted, Topology aware Cartesian communicators
