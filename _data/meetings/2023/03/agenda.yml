@@ -247,6 +247,18 @@ plenaries:
       title: Clarification for the local/nonlocal nature of MPI_WAIT
       issue_number: 639
       presenter: Dan
+      done: 1
+
+    - type: No-No Reading
+      title: Add operation state enabled and local calls into Terms
+      issue_number: 669
+      presenter: Rolf
+      done: 0
+
+    - type: No-No Reading
+      title: Clarification for the local/nonlocal nature of MPI_WAIT
+      issue_number: 639
+      presenter: Dan
       done: 0
 
     - type: Reading

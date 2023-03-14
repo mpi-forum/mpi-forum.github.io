@@ -44,3 +44,5 @@ number,topic,type,yes,no,abstain,missed
 586,"MPI_Buffer_attach and Sessions","no-no"
 580,"Memory Alloc Kind Info","no-no"
 341,"RC issues found in chap-coll","no-no"
+669,"Add operation state enabled and local calls into Terms","no-no"
+639,"Clarification for the local/nonlocal nature of MPI_WAIT","no-no"
