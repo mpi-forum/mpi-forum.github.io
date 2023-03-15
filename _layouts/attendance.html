@@ -38,6 +38,7 @@ layout: default
           {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
           {% assign prev_orgs = site.data.meetings[page.prev_year][page.prev_month].attendance | sort: "org" | map: "org" | uniq %}
           {% assign prev_prev_orgs = site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance | sort: "org" | map: "org" | uniq %}
+          {% assign registered_orgs = "" | split: ',' %}
           {% assign imove_orgs = "" | split: ',' %}
           {% assign ooe_orgs = "" | split: ',' %}
           {% assign ineligible_orgs = "" | split: ',' %}
@@ -58,6 +59,9 @@ layout: default
                 {% assign ineligible_orgs = ineligible_orgs | push: person.org %}
               {% endunless %}
             {% endif %}
+            {% unless registered_orgs contains person.org %}
+              {% assign registered_orgs = registered_orgs | push: person.org %}
+            {% endunless %}
           {% endfor %}
 
           {% assign ooe = ooe_orgs.size | plus: imove_orgs.size %}
@@ -68,6 +72,13 @@ layout: default
               {% assign prev_ooe = p.ooe %}
             {% endif %}
           {% endfor %}
+
+          <h4> Stats </h4>
+          <ul>
+            <li>Registered Orgs: {{registered_orgs.size}}</li>
+            <li>OOE Orgs: {{ooe}}</li>
+            <li>IMOVE Orgs: {{imove_orgs.size}}</li>
+          </ul>
 
           <h3> IMOVE Orgs ({{imove_orgs.size}} of {{ prev_ooe | times: 0.66 | ceil }} needed) </h3>
           {% assign imove_orgs = imove_orgs | sort %}
