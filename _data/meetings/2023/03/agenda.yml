@@ -319,19 +319,19 @@ plenaries:
       title: Introduce the concept of side-documents
       issue_number: 562
       presenter: Martin R.
-      done: 0
+      done: 1
 
     - type: Side Document Reading
       title: MPIR side document not fully compliant with proposed requirements
       issue_number: 672
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Side Document Reading
       title: MQD side document not fully compliant with proposed requirements
       issue_number: 673
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: MPI_Type_get_value_index
@@ -343,4 +343,4 @@ plenaries:
       title: Memory Alloc Kind Info
       issue_number: 580
       presenter: Jim
-      done: 0
+      done: 1
