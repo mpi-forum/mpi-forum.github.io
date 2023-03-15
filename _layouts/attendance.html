@@ -36,17 +36,34 @@ layout: default
 
         {% if page.prev_year != nil %}
           {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
-          {% assign prev_orgs = site.data.meetings[page.prev_year][page.prev_month].attendance | sort: "org" | map: "org" | uniq %}
-          {% assign prev_prev_orgs = site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance | sort: "org" | map: "org" | uniq %}
+          {% assign prev_orgs = "" | split: ',' %}
+          {% assign prev_prev_orgs = "" | split: ',' %}
+          {% assign registered_orgs = "" | split: ',' %}
           {% assign imove_orgs = "" | split: ',' %}
           {% assign ooe_orgs = "" | split: ',' %}
           {% assign ineligible_orgs = "" | split: ',' %}
+
+          {% for person in site.data.meetings[page.prev_year][page.prev_month].attendance %}
+            {% if person.attend == "1" %}
+              {% unless person.org == "Self (Non-voting participant)" %}
+                {% assign prev_orgs = prev_orgs | push: person.org | uniq %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+
+          {% for person in site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance %}
+            {% if person.attend == "1" %}
+              {% unless person.org == "Self (Non-voting participant)" %}
+                {% assign prev_prev_orgs = prev_prev_orgs | push: person.org | uniq %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
 
           {% for person in cur_attend %}
             {% if prev_orgs contains person.org or prev_prev_orgs contains person.org %}
               {% if person.attend == "1" %}
                 {% unless person.org == "Self (Non-voting participant)" %}
-                  {% assign imove_orgs = imove_orgs | push: person.org | uniq%}
+                  {% assign imove_orgs = imove_orgs | push: person.org | uniq %}
                 {% endunless %}
               {% else %}
                 {% unless imove_orgs contains person.org %}
@@ -58,6 +75,9 @@ layout: default
                 {% assign ineligible_orgs = ineligible_orgs | push: person.org %}
               {% endunless %}
             {% endif %}
+            {% unless registered_orgs contains person.org %}
+              {% assign registered_orgs = registered_orgs | push: person.org %}
+            {% endunless %}
           {% endfor %}
 
           {% assign ooe = ooe_orgs.size | plus: imove_orgs.size %}
@@ -68,6 +88,13 @@ layout: default
               {% assign prev_ooe = p.ooe %}
             {% endif %}
           {% endfor %}
+
+          <h4> Stats </h4>
+          <ul>
+            <li>Registered Orgs: {{registered_orgs.size}}</li>
+            <li>OOE Orgs: {{ooe}}</li>
+            <li>IMOVE Orgs: {{imove_orgs.size}}</li>
+          </ul>
 
           <h3> IMOVE Orgs ({{imove_orgs.size}} of {{ prev_ooe | times: 0.66 | ceil }} needed) </h3>
           {% assign imove_orgs = imove_orgs | sort %}
