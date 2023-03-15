@@ -11,9 +11,9 @@ def confirm_id(id, name, org, attendance_list):
     #print("MATCH ID for " + name + ", " + org);
     for entry in iter(attendance_list):
         #print(entry);
-        if (id == entry['UUID'] and
-                name == entry['What is your full name?'] and
-                org == entry['What organization will you be representing?']):
+        if (id == entry['uuid'] and
+                name == entry['name'] and
+                org == entry['org']):
             return 1;
     return 0;
 
@@ -26,8 +26,8 @@ def main():
     attendance_file=sys.argv[1]; # File with UUIDs for each attendee
     ballot_file=sys.argv[2]; # File with list of ballots on which to be voted
     votes_file=sys.argv[3]; # File with votes captured from Google Forms
-    prev_votes_file="../_data/meetings/2023/02/votes.csv"
-    prev_ballots_file="../_data/meetings/2023/02/ballot.csv"
+    prev_votes_file="../_data/meetings/2023/03/votes.csv"
+    prev_ballots_file="../_data/meetings/2023/03/ballot.csv"
     if not os.path.isfile(prev_votes_file):
         prev_votes_file=""
     if not os.path.isfile(prev_ballots_file):
@@ -50,8 +50,12 @@ def main():
         prev_ballot_list = list(csv.DictReader(open(prev_votes_file)));
         for ballot in prev_ballot_list:
             topic = "#" + ballot['number'] + ": " + ballot['topic'] + " (" + ballot['type'] + ")"
-            if ballot['topic'] == "daybreak" or (int(ballot['yes']) == 0 and int(ballot['no']) == 0
-                    and int(ballot['abstain']) == 0 and int(ballot['missed']) == 0):
+            print(ballot)
+            if (ballot['topic'] == "daybreak" or
+                ((ballot['yes'] == None or int(ballot['yes']) == 0) and
+                 (ballot['no'] == None or int(ballot['no']) == 0) and
+                 (ballot['abstain'] == None or int(ballot['abstain']) == 0) and
+                 (ballot['missed'] == None or int(ballot['missed']) == 0))):
                 continue;
             ballot_dict[topic] = ballot;
             previous_topics.append(topic);
