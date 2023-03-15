@@ -253,19 +253,19 @@ plenaries:
       title: Add operation state enabled and local calls into Terms
       issue_number: 669
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: Clarification for the local/nonlocal nature of MPI_WAIT
       issue_number: 639
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Add functions to check multiple request statuses at once"
       issue_number: 519
       presenter: Bill W.
-      done: 0
+      done: 1
 
     - type: Reading
       title: Inconsistent description of chapters
@@ -309,11 +309,17 @@ plenaries:
       presenter: Rolf and Christoph
       done: 1
 
+    - type: Discussion
+      title: MPI_Cart_create_weighted, Topology aware Cartesian communicators
+      issue_number: 120
+      presenter: Rolf and Christoph
+      done: 1
+
     - type: Reading
       title: RMA accumulate operations do not distinguish between throughput and latency sensitive applications
       issue_number: 640
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: Introduce the concept of side-documents
