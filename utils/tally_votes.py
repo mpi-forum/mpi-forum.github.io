@@ -49,7 +49,7 @@ def main():
     if prev_votes_file != "":
         prev_ballot_list = list(csv.DictReader(open(prev_votes_file)));
         for ballot in prev_ballot_list:
-            topic = "#" + ballot['number'] + ": " + ballot['topic'] + " (" + ballot['type'] + ")"
+            topic = "#" + ballot['issue_number'] + " (PR #" + ballot['pr_number'] + "): " + ballot['topic'] + " (" + ballot['type'] + ")"
             print(ballot)
             if (ballot['topic'] == "daybreak" or
                 ((ballot['yes'] == None or int(ballot['yes']) == 0) and
@@ -69,12 +69,13 @@ def main():
 
     # Create dictionary for CSV key line
     for ballot in iter(ballot_list):
-        topic =  "#" + ballot['number'] + ": " + ballot['topic'] + " (" + ballot['type'] + ")"
+        topic = "#" + ballot['issue_number'] + " (PR #" + ballot['pr_number'] + "): " + ballot['topic'] + " (" + ballot['type'] + ")"
         if ballot['topic'] == "daybreak" or topic in ballots:
             continue;
         ballots.append(topic);
         ballot_dict[topic] = {
-                "number": ballot['number'],
+                "issue_number": ballot['issue_number'],
+                "pr_number": ballot['pr_number'],
                 "topic" : ballot['topic'],
                 "type" : ballot['type'],
                 "yes" : 0,
@@ -154,7 +155,7 @@ def main():
     print("Writing votes.csv...");
 
     with open('votes.csv', 'w', newline='') as csvfile:
-        writer = csv.DictWriter(csvfile, ['number', 'topic', 'type', 'yes', 'no', 'abstain', 'missed'],
+        writer = csv.DictWriter(csvfile, ['issue_number', 'pr_number', 'topic', 'type', 'yes', 'no', 'abstain', 'missed'],
                 quoting = csv.QUOTE_ALL);
 
         writer.writeheader()

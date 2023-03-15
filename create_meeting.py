@@ -124,7 +124,7 @@ print >> file, 'org,"Vote 1"';
 file.close();
 
 file = open('_data/meetings/' + start_year + '/' + start_month + '/votes.csv', 'w');
-print >> file, 'number,topic,type,yes,no,abstain,missed';
+print >> file, 'issue_number,pr_number,topic,type,yes,no,abstain,missed';
 file.close();
 
 print "This doesn't add links to the main meetings page."

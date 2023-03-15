@@ -155,8 +155,9 @@ layout: default
          <ul>
              {% for item in procedure_votes %}
              <li>
-                 {% if item.number.size > 0 %}
-                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
+                 {% if item.issue_number.size > 0 %}
+                       Issue: #<a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>,
+                       PR: #<a href="{{url}}{{item.pr_number}}">{{item.pr_number}}</a>:
                  {% endif %}
                  {{item.topic}}
              </li>
@@ -168,8 +169,9 @@ layout: default
          <ul>
              {% for item in ticket_zero_votes %}
              <li>
-                 {% if item.number.size > 0 %}
-                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
+                 {% if item.issue_number.size > 0 %}
+                       Issue: #<a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>,
+                       PR: #<a href="{{url}}{{item.pr_number}}">{{item.pr_number}}</a>:
                  {% endif %}
                  {{item.topic}}
              </li>
@@ -181,8 +183,9 @@ layout: default
          <ul>
              {% for item in no_no_votes %}
              <li>
-                 {% if item.number.size > 0 %}
-                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
+                 {% if item.issue_number.size > 0 %}
+                       Issue: #<a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>,
+                       PR: #<a href="{{url}}{{item.pr_number}}">{{item.pr_number}}</a>:
                  {% endif %}
                  {{item.topic}}
              </li>
@@ -194,8 +197,9 @@ layout: default
          <ul>
              {% for item in errata_votes %}
              <li>
-                 {% if item.number.size > 0 %}
-                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
+                 {% if item.issue_number.size > 0 %}
+                       Issue: #<a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>,
+                       PR: #<a href="{{url}}{{item.pr_number}}">{{item.pr_number}}</a>:
                  {% endif %}
                  {{item.topic}}
              </li>
@@ -207,8 +211,9 @@ layout: default
          <ul>
              {% for item in first_and_only_votes %}
              <li>
-                 {% if item.number.size > 0 %}
-                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
+                 {% if item.issue_number.size > 0 %}
+                       Issue: #<a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>,
+                       PR: #<a href="{{url}}{{item.pr_number}}">{{item.pr_number}}</a>:
                  {% endif %}
                  {{item.topic}}
              </li>
@@ -220,8 +225,9 @@ layout: default
          <ul>
              {% for item in first_votes %}
              <li>
-                 {% if item.number.size > 0 %}
-                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
+                 {% if item.issue_number.size > 0 %}
+                       Issue: #<a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>,
+                       PR: #<a href="{{url}}{{item.pr_number}}">{{item.pr_number}}</a>:
                  {% endif %}
                  {{item.topic}}
              </li>
@@ -233,8 +239,9 @@ layout: default
          <ul>
              {% for item in second_votes %}
              <li>
-                 {% if item.number.size > 0 %}
-                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
+                 {% if item.issue_number.size > 0 %}
+                       Issue: #<a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>,
+                       PR: #<a href="{{url}}{{item.pr_number}}">{{item.pr_number}}</a>:
                  {% endif %}
                  {{item.topic}}
              </li>
@@ -246,8 +253,9 @@ layout: default
          <ul>
              {% for item in chapter_votes %}
              <li>
-                 {% if item.number.size > 0 %}
-                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
+                 {% if item.issue_number.size > 0 %}
+                       Issue: #<a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>,
+                       PR: #<a href="{{url}}{{item.pr_number}}">{{item.pr_number}}</a>:
                  {% endif %}
                  {{item.topic}}
              </li>
@@ -259,8 +267,9 @@ layout: default
          <ul>
              {% for item in whole_document_vote %}
              <li>
-                 {% if item.number.size > 0 %}
-                       <a href="{{url}}{{item.number}}">#{{item.number}}</a>:
+                 {% if item.issue_number.size > 0 %}
+                       Issue: #<a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>,
+                       PR: #<a href="{{url}}{{item.pr_number}}">{{item.pr_number}}</a>:
                  {% endif %}
                  {{item.topic}}
              </li>
