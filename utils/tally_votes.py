@@ -11,9 +11,9 @@ def confirm_id(id, name, org, attendance_list):
     #print("MATCH ID for " + name + ", " + org);
     for entry in iter(attendance_list):
         #print(entry);
-        if (id == entry['UUID'] and
-                name == entry['What is your full name?'] and
-                org == entry['What organization will you be representing?']):
+        if (id == entry['uuid'] and
+                name == entry['name'] and
+                org == entry['org']):
             return 1;
     return 0;
 
@@ -26,8 +26,8 @@ def main():
     attendance_file=sys.argv[1]; # File with UUIDs for each attendee
     ballot_file=sys.argv[2]; # File with list of ballots on which to be voted
     votes_file=sys.argv[3]; # File with votes captured from Google Forms
-    prev_votes_file="../_data/meetings/2023/02/votes.csv"
-    prev_ballots_file="../_data/meetings/2023/02/ballot.csv"
+    prev_votes_file="../_data/meetings/2023/03/votes.csv"
+    prev_ballots_file="../_data/meetings/2023/03/ballot.csv"
     if not os.path.isfile(prev_votes_file):
         prev_votes_file=""
     if not os.path.isfile(prev_ballots_file):
@@ -49,9 +49,13 @@ def main():
     if prev_votes_file != "":
         prev_ballot_list = list(csv.DictReader(open(prev_votes_file)));
         for ballot in prev_ballot_list:
-            topic = "#" + ballot['number'] + ": " + ballot['topic'] + " (" + ballot['type'] + ")"
-            if ballot['topic'] == "daybreak" or (int(ballot['yes']) == 0 and int(ballot['no']) == 0
-                    and int(ballot['abstain']) == 0 and int(ballot['missed']) == 0):
+            topic = "#" + ballot['issue_number'] + " (PR #" + ballot['pr_number'] + "): " + ballot['topic'] + " (" + ballot['type'] + ")"
+            print(ballot)
+            if (ballot['topic'] == "daybreak" or
+                ((ballot['yes'] == None or int(ballot['yes']) == 0) and
+                 (ballot['no'] == None or int(ballot['no']) == 0) and
+                 (ballot['abstain'] == None or int(ballot['abstain']) == 0) and
+                 (ballot['missed'] == None or int(ballot['missed']) == 0))):
                 continue;
             ballot_dict[topic] = ballot;
             previous_topics.append(topic);
@@ -65,12 +69,13 @@ def main():
 
     # Create dictionary for CSV key line
     for ballot in iter(ballot_list):
-        topic =  "#" + ballot['number'] + ": " + ballot['topic'] + " (" + ballot['type'] + ")"
+        topic = "#" + ballot['issue_number'] + " (PR #" + ballot['pr_number'] + "): " + ballot['topic'] + " (" + ballot['type'] + ")"
         if ballot['topic'] == "daybreak" or topic in ballots:
             continue;
         ballots.append(topic);
         ballot_dict[topic] = {
-                "number": ballot['number'],
+                "issue_number": ballot['issue_number'],
+                "pr_number": ballot['pr_number'],
                 "topic" : ballot['topic'],
                 "type" : ballot['type'],
                 "yes" : 0,
@@ -150,7 +155,7 @@ def main():
     print("Writing votes.csv...");
 
     with open('votes.csv', 'w', newline='') as csvfile:
-        writer = csv.DictWriter(csvfile, ['number', 'topic', 'type', 'yes', 'no', 'abstain', 'missed'],
+        writer = csv.DictWriter(csvfile, ['issue_number', 'pr_number', 'topic', 'type', 'yes', 'no', 'abstain', 'missed'],
                 quoting = csv.QUOTE_ALL);
 
         writer.writeheader()
