@@ -138,7 +138,7 @@ def main():
     curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/03/attendance.csv"
     curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-03-mar/2023-03-13-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
-    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSdkKnagQg3I_ICeZgAaGFMurKH18zukbpoxnvfgO7rLkfBRzw/viewform?usp=pp_url&entry.1443196048={name}&entry.439153811={org}&entry.1251590398={id}"
+    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSeJeZObJhVoRB4k9dLtRYTC8V4RebwUxf9ZmP1m3iZcg_3y4g/viewform?usp=pp_url&entry.1377418936={name}&entry.891392108={org}&entry.897125620={id}"
 
     prev_ooe = 34
 
@@ -240,7 +240,7 @@ def main():
         print("Did not meet meeting quorum. IMOVE required: " + str(prev_ooe * 2.0 / 3.0) + "\n");
 
     for row in iter(curr_registration):
-        org = row['What organization will you be representing?'];
+        org = row["org"]
         if org == "Self (Non-voting participant)":
             continue
         elif orgs[org]['registered'] < 2:
@@ -250,17 +250,17 @@ def main():
         elif orgs[org]['attend_curr'] != 1:
             print("" + org + " not attending current meeting.");
         else:
-            email = row['Email Address']
-            name = row['What is your full name?']
+            email = row['email']
+            name = row['name']
             safe_name = urllib.parse.quote_plus(name)
             safe_org = urllib.parse.quote_plus(org)
-            safe_uuid = urllib.parse.quote_plus(row['UUID'])
+            safe_uuid = urllib.parse.quote_plus(row['uuid'])
             text_link = voting_link.format(name=safe_name, org=safe_org, id=safe_uuid)
 
             message_text = """\
 Hi {name},
 
-Voting is now open for the February 2023 Plenary Day 2 meeting. You may vote at this
+Voting is now open for the March 2023 Plenary Day 3 meeting. You may vote at this
 link:
 <br><br>
 {link}
@@ -274,7 +274,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 12:40pm US Central time on February 8th, 2023.
+Voting will be open until 16:00pm US Central time on March 15th, 2023.
 <br><br>
 Thanks,
 <br>
@@ -282,7 +282,7 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
-                    to_addr=email, msg=message_text, subject='February 2023 MPI Forum Plenary Day 2 Voting Link')
+                    to_addr=email, msg=message_text, subject='March 2023 MPI Forum Plenary Day 3 Voting Link')
             #message_id = service.send_message(message=message)
 
 if __name__ == '__main__':
