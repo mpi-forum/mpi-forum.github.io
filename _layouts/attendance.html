@@ -36,18 +36,34 @@ layout: default
 
         {% if page.prev_year != nil %}
           {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
-          {% assign prev_orgs = site.data.meetings[page.prev_year][page.prev_month].attendance | sort: "org" | map: "org" | uniq %}
-          {% assign prev_prev_orgs = site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance | sort: "org" | map: "org" | uniq %}
+          {% assign prev_orgs = "" | split: ',' %}
+          {% assign prev_prev_orgs = "" | split: ',' %}
           {% assign registered_orgs = "" | split: ',' %}
           {% assign imove_orgs = "" | split: ',' %}
           {% assign ooe_orgs = "" | split: ',' %}
           {% assign ineligible_orgs = "" | split: ',' %}
 
+          {% for person in site.data.meetings[page.prev_year][page.prev_month].attendance %}
+            {% if person.attend == "1" %}
+              {% unless person.org == "Self (Non-voting participant)" %}
+                {% assign prev_orgs = prev_orgs | push: person.org | uniq %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+
+          {% for person in site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance %}
+            {% if person.attend == "1" %}
+              {% unless person.org == "Self (Non-voting participant)" %}
+                {% assign prev_prev_orgs = prev_prev_orgs | push: person.org | uniq %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+
           {% for person in cur_attend %}
             {% if prev_orgs contains person.org or prev_prev_orgs contains person.org %}
               {% if person.attend == "1" %}
                 {% unless person.org == "Self (Non-voting participant)" %}
-                  {% assign imove_orgs = imove_orgs | push: person.org | uniq%}
+                  {% assign imove_orgs = imove_orgs | push: person.org | uniq %}
                 {% endunless %}
               {% else %}
                 {% unless imove_orgs contains person.org %}
