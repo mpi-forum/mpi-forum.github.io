@@ -138,7 +138,7 @@ def main():
     curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/03/attendance.csv"
     curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-03-mar/2023-03-13-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
-    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSeJeZObJhVoRB4k9dLtRYTC8V4RebwUxf9ZmP1m3iZcg_3y4g/viewform?usp=pp_url&entry.1377418936={name}&entry.891392108={org}&entry.897125620={id}"
+    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSeIXAZ-Vf_9ziGje1Yb-LHPM3P9cAlqjvOVQ6Wf6dj9_dqo5g/viewform?usp=pp_url&entry.1413905612={name}&entry.888449839={org}&entry.961429629={id}"
 
     prev_ooe = 34
 
@@ -260,7 +260,7 @@ def main():
             message_text = """\
 Hi {name},
 
-Voting is now open for the March 2023 Plenary Day 3 meeting. You may vote at this
+Voting is now open for the March 2023 Plenary Day 4 meeting. You may vote at this
 link:
 <br><br>
 {link}
@@ -274,7 +274,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 16:00pm US Central time on March 15th, 2023.
+Voting will be open until 11:00pm US Eastern time on March 16th, 2023.
 <br><br>
 Thanks,
 <br>
@@ -282,7 +282,7 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
-                    to_addr=email, msg=message_text, subject='March 2023 MPI Forum Plenary Day 3 Voting Link')
+                    to_addr=email, msg=message_text, subject='March 2023 MPI Forum Plenary Day 4 Voting Link')
             #message_id = service.send_message(message=message)
 
 if __name__ == '__main__':
