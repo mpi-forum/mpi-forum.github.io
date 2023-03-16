@@ -44,3 +44,4 @@
 "341","806","RC issues found in chap-coll","no-no","31","0","1","0"
 "669","788","Add operation state enabled and local calls into Terms","no-no","30","0","2","0"
 "639","750","Clarification for the local/nonlocal nature of MPI_WAIT","no-no","30","0","2","0"
+"120","98","MPI_Cart_create_weighted, Topology aware Cartesian communicators"
