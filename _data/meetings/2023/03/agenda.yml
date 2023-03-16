@@ -349,18 +349,11 @@ plenaries:
       title: ABI
       issue_number:
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Pythonization
       issue_number:
       presenter: Martin R.
       done: 0
-
-    - type: Discussion
-      title: Graphs and Streams
-      issue_number:
-      presenter: Quincey
-      done: 0
-
 
