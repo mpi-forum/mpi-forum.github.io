@@ -4,3 +4,5 @@
 "680","801","missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy for inter-communicators","errata"
 "341","806","fixes for most issues in collective chapter from MPI4.0-RC","1st"
 "57","790","deprecating MPI_HOST","2nd"
+"588","644","Clarification of errhandler fallback with Sessions","2nd"
+"283","166","Remove error handler procedure","1st"
