@@ -6,3 +6,16 @@
 "57","790","deprecating MPI_HOST","2nd"
 "588","644","Clarification of errhandler fallback with Sessions","2nd"
 "283","166","Remove error handler procedure","1st"
+"543","791","Pending operation in MPI_Comm_free is not defined", "2nd"
+"669","788","Add operation state enabled and local calls into Terms", "1st"
+"120","98","MPI_Cart_create_weighted / Topology aware Cartesian communicators","1st"
+"683","810","Question, MPI_Dims_create - is "as close to each other as possible" a requirement?","1st"
+"457","804","Improvements around the word rank in the Process Topologies chapter","1st"
+"485","803","Fix Incorrect Usage of Rank/Task/etc. in Language Bindings Chapter","1st"
+"278","661","Consistent use Section 18.1.9 - p. 661 - Replace TYPE","1st"
+"480","738","Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter","2nd"
+"411","739","Fix comment on Info object in incomplete functions","2nd"
+"586","736","MPI_Buffer_attach and Sessions","1st"
+"685","808","Add Iflush procedures to new buffered mode send buffer handling","1st"
+
+
