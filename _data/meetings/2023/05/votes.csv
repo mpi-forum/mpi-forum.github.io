@@ -1,4 +1,4 @@
-"number","topic","type","yes","no","abstain","missed"
+"issue_number","pr_number","topic","type","yes","no","abstain","missed"
 "645","767","API to access and update MPI_Status public fields","2nd"
 "658","776","MPI_MAX_STRINGTAG_LEN and MPI_MAX_PSET_NAME_LEN arent listed as compile-time constants","errata"
 "680","801","missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy for inter-communicators","errata"
