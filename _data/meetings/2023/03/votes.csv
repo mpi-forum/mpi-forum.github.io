@@ -1,47 +1,47 @@
-"issue_number","pr_number","topic","type","yes","no","abstain","missed"
-"154","762","New interface to query hardware resource info","no-no","31","0","1","0"
-"543","791","Pending operation not defined, pending proper definition","1st","30","0","2","0"
-"641","752","Including Annex A.2 back into the standard","2nd","29","0","3","0"
-"493","753","Issue N - Progress-Section in terms-2.tex","2nd","28","0","4","0"
-"471","751","Fix Incorrect Usage of Rank/Task/etc. in Terms Chapter","2nd","30","0","2","0"
-"565","727","Refer to Fortran 2018 instead of 2008+TS","2nd","29","0","3","0"
-"644","759","Update 'Process Topology' chapter title to use MPI process","2nd","30","0","2","0"
-"542","795","Correct usage of the terms error and return codes in the tools chapter","2nd","30","0","2","0"
-"414","723","Mention behavior with potential overflow","2nd","29","0","3","0"
-"564","800","Fortran Binding Issues and Capitalization","errata","29","0","3","0"
-"680","801","missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy","errata","30","0","2","0"
-"57","221","Deprecate MPI_HOST","no-no","31","0","1","0"
-"408","740","added reference to the fact that hints must be adhered to by the app","1st","30","0","2","0"
-"411","739","Fix comment on Info object in incomplete functions","no-no","31","0","1","0"
-"480","738","Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter","no-no","31","0","1","0"
-"541","647","Consistency Updates for MPI_Info Chapter for MPI 4.1","1st","30","0","2","0"
-"555","671","Example 12.4, RMA communication calls may not block in PSCW","1st","29","0","3","0"
-"653","769","Make all RMA communication procedures local","no-no","30","0","2","0"
-"652","768","RMA, Examples 12.4 and 12.5 contain advice to implementors","no-no","30","0","2","0"
-"23","708","Allow MPI_WIN_SHARED_QUERY on created and allocated windows","no-no","30","0","2","0"
-"646","771","WTIME and WTICK should be symbols","2nd","29","1","2","0"
-"647","770","Handle conversions should be symbols","2nd","29","1","2","0"
-"561","722","Deprecate mpif.h","no-no","30","0","2","0"
-"538","761","Allow pset names to guide splitting in MPI_Comm_split_type","2nd","30","0","2","0"
-"117","748","Logically concurrent is not","2nd","29","1","2","0"
-"188","203","Section 3.5 - p. 45 - Comment Erroneous Example","2nd","30","0","2","0"
-"83","666","Info key for strict start ordering of persistent collective communication","2nd","30","0","2","0"
-"472","606","Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter","2nd","29","0","3","0"
-"518","623","Deprecate all _x procedures","no-no","31","0","1","0"
-"683","810","Question: MPI_Dims_create - is 'as close to each other as possible' a requirement?","no-no","30","1","1","0"
-"341","806","RC issues found in chap-coll","no-no","31","0","1","0"
-"669","788","Add operation state enabled and local calls into Terms","no-no","30","0","2","0"
-"639","750","Clarification for the local/nonlocal nature of MPI_WAIT","no-no","30","0","2","0"
-"154","762","New interface to query hardware resource info","1st","28","1","2","0"
-"57","221","Deprecate MPI_HOST","1st","29","0","2","0"
-"411","739","Fix comment on Info object in incomplete functions","1st","29","0","2","0"
-"480","738","Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter","1st","30","0","1","0"
-"653","769","Make all RMA communication procedures local","1st","28","0","3","0"
-"652","768","RMA, Examples 12.4 and 12.5 contain advice to implementors","1st","29","0","2","0"
-"23","708","Allow MPI_WIN_SHARED_QUERY on created and allocated windows","1st","29","0","2","0"
-"561","722","Deprecate mpif.h","2nd","27","1","3","0"
-"518","623","Deprecate all _x procedures","1st","30","0","1","0"
-"520","798","Add compound datatypes for large integers for MPI_(MIN|MAX)LOC","no-no","30","0","1","0"
-"586","736","MPI_Buffer_attach and Sessions","no-no","29","0","2","0"
-"580","714","Memory Alloc Kind Info","no-no","30","0","1","0"
-"120","98","MPI_Cart_create_weighted, Topology aware Cartesian communicators","no-no","29","0","2","0"
+issue_number,pr_number,topic,type,yes,no,abstain,missed
+154,762,New interface to query hardware resource info,no-no,31,0,0,0
+543,791,"Pending operation not defined, pending proper definition",1st,30,0,1,0
+641,752,Including Annex A.2 back into the standard,2nd,29,0,2,0
+493,753,Issue N - Progress-Section in terms-2.tex,2nd,28,0,3,0
+471,751,Fix Incorrect Usage of Rank/Task/etc. in Terms Chapter,2nd,30,0,1,0
+565,727,Refer to Fortran 2018 instead of 2008+TS,2nd,29,0,2,0
+644,759,Update 'Process Topology' chapter title to use MPI process,2nd,30,0,1,0
+542,795,Correct usage of the terms error and return codes in the tools chapter,2nd,30,0,1,0
+414,723,Mention behavior with potential overflow,2nd,29,0,2,0
+564,800,Fortran Binding Issues and Capitalization,errata,29,0,2,0
+680,801,missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy,errata,30,0,1,0
+57,221,Deprecate MPI_HOST,no-no,31,0,0,0
+408,740,added reference to the fact that hints must be adhered to by the app,1st,30,0,1,0
+411,739,Fix comment on Info object in incomplete functions,no-no,31,0,0,0
+480,738,Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter,no-no,31,0,0,0
+541,647,Consistency Updates for MPI_Info Chapter for MPI 4.1,1st,30,0,1,0
+555,671,"Example 12.4, RMA communication calls may not block in PSCW",1st,29,0,2,0
+653,769,Make all RMA communication procedures local,no-no,30,0,1,0
+652,768,"RMA, Examples 12.4 and 12.5 contain advice to implementors",no-no,30,0,1,0
+23,708,Allow MPI_WIN_SHARED_QUERY on created and allocated windows,no-no,30,0,1,0
+646,771,WTIME and WTICK should be symbols,2nd,29,1,1,0
+647,770,Handle conversions should be symbols,2nd,29,1,1,0
+561,722,Deprecate mpif.h,no-no,30,0,1,0
+538,761,Allow pset names to guide splitting in MPI_Comm_split_type,2nd,30,0,1,0
+117,748,Logically concurrent is not,2nd,29,1,1,0
+188,203,Section 3.5 - p. 45 - Comment Erroneous Example,2nd,30,0,1,0
+83,666,Info key for strict start ordering of persistent collective communication,2nd,30,0,1,0
+472,606,Fix Incorrect Usage of Rank/Task/etc. in Point to Point Chapter,2nd,29,0,2,0
+518,623,Deprecate all _x procedures,no-no,31,0,0,0
+683,810,Question: MPI_Dims_create - is 'as close to each other as possible' a requirement?,no-no,30,1,0,0
+341,806,RC issues found in chap-coll,no-no,31,0,0,0
+669,788,Add operation state enabled and local calls into Terms,no-no,30,0,1,0
+639,750,Clarification for the local/nonlocal nature of MPI_WAIT,no-no,30,0,1,0
+154,762,New interface to query hardware resource info,1st,28,1,2,0
+57,221,Deprecate MPI_HOST,1st,29,0,2,0
+411,739,Fix comment on Info object in incomplete functions,1st,29,0,2,0
+480,738,Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter,1st,30,0,1,0
+653,769,Make all RMA communication procedures local,1st,28,0,3,0
+652,768,"RMA, Examples 12.4 and 12.5 contain advice to implementors",1st,29,0,2,0
+23,708,Allow MPI_WIN_SHARED_QUERY on created and allocated windows,1st,29,0,2,0
+561,722,Deprecate mpif.h,2nd,27,1,3,0
+518,623,Deprecate all _x procedures,1st,30,0,1,0
+520,798,Add compound datatypes for large integers for MPI_(MIN|MAX)LOC,no-no,30,0,1,0
+586,736,MPI_Buffer_attach and Sessions,no-no,29,0,2,0
+580,714,Memory Alloc Kind Info,no-no,30,0,1,0
+120,98,"MPI_Cart_create_weighted, Topology aware Cartesian communicators",no-no,29,0,2,0
