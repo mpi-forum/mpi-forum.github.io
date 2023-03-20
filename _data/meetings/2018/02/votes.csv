@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 6,"Update of MPIR document to include line numbers in specification",First and Only,22,0,0,0
 1,"Clarify MPI_ERRORS_ARE_FATAL scope of abort",no-no,22,0,0,0
 3,"Define new MPI Error handler for subcommunicator abort",no-no,22,0,0,0

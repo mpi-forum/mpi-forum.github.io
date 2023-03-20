@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 187,"Grouping MPI_AINT, MPI_OFFSET, MPI_COUNT as Multi-language types",1st,15,0,1,0
 192,"C++ binding for Dist_graph_neighbors_count is badly broken",1st,14,1,1,0
 195,"Topology awareness in MPI_Dims_create",1st,2,10,4,0

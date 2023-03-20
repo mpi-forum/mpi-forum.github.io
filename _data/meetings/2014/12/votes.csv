@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 CHANGE SINCE 2-WEEK DEADLINE: Add Immediate versions of nonblocking collective I/O routines,1st-and-only,21,0,0,0
 CHANGE SINCE 2-WEEK DEADLINE: Add same_disp_unit info key for RMA window creation,1st-and-only,21,0,0,0
 CHANGE SINCE 2-WEEK DEADLINE: Errata: MPI_Aint addressing arithmetic,1st-and-only,21,0,0,0

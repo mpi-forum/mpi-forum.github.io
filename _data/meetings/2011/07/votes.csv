@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 ,"Ok to vote on #270 even though there is no implementation yet",procedure,15,0,3,1
 270,"Updated RMA chapter",1st,13,0,5,1
 265,"Support for large counts using derived datatypes",1st,14,1,1,3

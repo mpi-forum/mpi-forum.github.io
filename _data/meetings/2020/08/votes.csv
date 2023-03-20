@@ -1,4 +1,4 @@
-"number","topic","type","yes","no","abstain","missed"
+"issue_number","topic","type","yes","no","abstain","missed"
 96,"Update to Semantic Terms Section","no-no","28","0","2","0"
 263,"MPI Exception Clarification","no-no","30","0","0","0"
 120,"MPI_Cart_create_weighted / Topology aware Cartesian communicators","no-no","29","0","1","0"

@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 25,"Adding Persistent Collective Communication",no-no,16,0,0,0
 51,"Deprecate MPI_SIZEOF in MPI-4.0",1st,16,0,0,0
 25,"Adding Persistent Collective Communication",2nd,16,0,0,0

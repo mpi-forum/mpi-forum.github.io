@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 153,"Possible error/gap in the specification of MPI_NEIGHBOR_ALLTOALL",no-no,23,0,1,0
 122,"Intro nonblocking, no serialization and no deadlocks - changelog",no-no,15,1,8,0
 122,"Intro nonblocking, no serialization and no deadlocks - can be used to avoid",no-no,23,0,1,0

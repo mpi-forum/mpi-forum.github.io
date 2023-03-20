@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 0,"Big ticket 0 glob: #162, #182, #185, #207, #215, #219, #254, #255, #262, #263, #312, #322",ticket_zero,17,0,0,4
 125,"Use of [] in output arrays",ticket_zero,18,0,0,3
 126,"Consistent use of [] for input arrays",ticket_zero,18,0,0,3

@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 6,"Function Pointer Arguments to MPI::Grequest::Start",1st,23,0,0,4
 10,"MPI_CANCEL Argument is Wrong Type",1st,22,1,0,4
 11,"Remove C++ Deprecated Section",1st,23,0,0,4

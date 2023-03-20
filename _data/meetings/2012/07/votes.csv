@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain
+issue_number,topic,type,yes,no,abstain
 340,"C/Fortran predefined datatypes for C++ types",1st-and-only,19,0,2
 187,"Grouping MPI_AINT, MPI_OFFSET, MPI_COUNT as Multi-language types",2nd,20,0,1
 192,"C++ binding for Dist_graph_neighbors_count is badly broken",2nd,19,1,1

@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 ,"CHANGE SINCE 2-WEEK WINDOW: #26 Deprecate point-to-point send cancel",no-no,"no-no",13,0,2,0
 ,"#11 Comm info key asserts",1st,"1st",15,0,0,0
 ,"#26 Deprecate point-to-point send cancel",2nd,"2nd",15,0,0,0

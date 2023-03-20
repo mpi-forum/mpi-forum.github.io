@@ -1,2 +1,2 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 354,"MPI-3.0 Errata: MPI_T constants erroneously listed for Fortran",1st,18,0,0,1

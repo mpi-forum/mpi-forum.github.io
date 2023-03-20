@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 9,"Consistency in 'Naming Conventions' Section",1st,21,0,0,5
 16,"Error in Example 4.18",1st,22,0,0,4
 17,"Fix text about freeing error classes and codes",1st,22,0,0,4

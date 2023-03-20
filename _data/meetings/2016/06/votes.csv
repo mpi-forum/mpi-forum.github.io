@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 Procedure Changes: #35 Allow move of voting block as an exception,1st-and-only,17,0,0,2
 CHANGE SINCE 2-WEEK WINDOW: #26 Deprecate point-to-point send cancel,no-no,18,0,0,1
 #26 Deprecate point-to-point send cancel,1st,17,0,1,1

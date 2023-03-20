@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 ,"Combined #11, #52, #53",1st,20,0,0,0
 11,"Comm info keys and assertions (COMBINED ABOVE)",1st,0,0,0,0
 52,"Remove info key propagation (COMBINED ABOVE)",1st,0,0,0,0

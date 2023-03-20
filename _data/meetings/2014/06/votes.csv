@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 ,"Accept changes to #403 since it was read last meeting",1st-and-only,18,0,0,1
 ,"Accept changes to #419 since it was read last meeting",1st-and-only,18,0,0,1
 374,"Comm_free/Type_free/Win_free: clarify attribute destructor semantics",errata,5,5,8,1

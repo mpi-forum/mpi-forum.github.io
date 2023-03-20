@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 ,"Accept changes to #377 since it was read last meeting",1st-and-only,18,0,0,1
 377,"MPI_T get variables and categories by index",1st,18,0,1,0
 378,"MPI_T Optional output parameters",1st,18,0,1,0

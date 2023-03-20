@@ -1,4 +1,4 @@
-"number","topic","type","yes","no","abstain","missed"
+"issue_number","topic","type","yes","no","abstain","missed"
 511,"MPI_Comm_create_from_group and friend - need clarification of errhandler argument","no-no","27","0","2","0"
 545,"MPI_LASTUSEDCODE not covered in the sessions model","errata","28","0","1","0"
 544,"Allow MPI_*_GET_NAME functions to accept MPI_*_NULL handles","1st","27","0","2","0"

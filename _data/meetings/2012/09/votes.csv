@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain
+issue_number,topic,type,yes,no,abstain
 ,"RMA chapter trivial text fix #1 (displacement types)",1st-and-only,15,0,2
 ,"RMA chapter trivial text fix #2 (MPI_ERR_RMA_[WRONG_]FLAVOR)",1st-and-only,16,0,1
 ,"Chapter vote: Frontmatter",,17,0,0

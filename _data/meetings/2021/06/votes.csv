@@ -1,4 +1,4 @@
-"number","topic","type","yes","no","abstain","missed"
+"issue_number","topic","type","yes","no","abstain","missed"
 456,"Fix list of functions that are callable at any time","errata","34","0","1","0"
 500,"Fix LIS for MPI_T events functions","errata","35","0","0","0"
 495,"Remove LIS Changes in I/O Chapter","errata","35","0","0","0"

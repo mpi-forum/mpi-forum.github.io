@@ -1,4 +1,4 @@
-"number","topic","type","yes","no","abstain","missed"
+"issue_number","topic","type","yes","no","abstain","missed"
 "538","Allow pset names to guide splitting in MPI_Comm_split_type","no-no","30","0","1","0"
 "414","Mention behavior with potential overflow","no-no","31","0","0","0"
 "188","Update: Section 3.5 - p. 45 - Comment Erroneous Example","no-no","31","0","0","0"

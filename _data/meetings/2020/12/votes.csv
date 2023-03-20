@@ -1,4 +1,4 @@
-"number","topic","type","yes","no","abstain","missed"
+"issue_number","topic","type","yes","no","abstain","missed"
 168,"Errata, MPI_INIT argc/argv values","errata","29","0","0","0"
 313,"Errata, Catastrophic errors can cause MPI returning wrong outputs","errata","29","0","0","0"
 311,"Errata, Fix wrong term process group with Cartesian structure in section 7.5.5","errata","29","0","0","0"

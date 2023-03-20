@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 265,"Support for large counts using derived datatypes",2nd,10,1,3,1
 140,"Add const Keyword to the C bindings",2nd,13,0,1,1
 274,"Matched probe Language Bindings / Language Bindings Support addition",2nd,13,0,1,1

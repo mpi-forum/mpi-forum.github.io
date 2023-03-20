@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 CHANGE SINCE 2-WEEK WINDOW: Addition of errata item for #29 Pair datatypes example,no-no,21,0,0,0
 #29 Pair datatypes example,1st-and-only,21,0,0,0
 CHANGE SINCE 2-WEEK WINDOW: Addition of errata item for #34 DIMS_CREATE example fix,no-no,21,0,0,0

@@ -1,4 +1,4 @@
-number,topic,type,yes,no,abstain,missed
+issue_number,topic,type,yes,no,abstain,missed
 60,"MPI_T Deprecate Error Code MPI_T_ERR_INVALID_ITEM",no-no,20,0,3,0
 63,"Info Query Update (MPI_Comm/File/Win_get_info) (PR 27)",no-no,20,0,3,0
 68,"MPI_T MPI_Init vs MPI_Init_thread",no-no,22,0,1,0

@@ -1,4 +1,4 @@
-"number","topic","type","yes","no","abstain","missed"
+"issue_number","topic","type","yes","no","abstain","missed"
 137,"The Embiggenment aka BigCount","no-no","29","1","1","0"
 308,"Add MPI_INFO argument to PSEND_INIT and PRECV_INIT calls for Partitioned Communication Chapter","no-no","31","0","0","0"
 306,"MPI_STATUS_SIZE, MPI_SOURCE, MPI_TAG, MPI_ERROR not defined in C","errata","31","0","0","0"

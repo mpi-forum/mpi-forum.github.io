@@ -1,4 +1,4 @@
-"number","topic","type","yes","no","abstain","missed"
+"issue_number","topic","type","yes","no","abstain","missed"
 420,"More credits updates","no-no","32","0","1","0"
 418,"dynamic: switch to using thread_level","no-no","31","0","2","0"
 482,"fixes issue 427","no-no","32","0","1","0"
