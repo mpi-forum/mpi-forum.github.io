@@ -61,6 +61,7 @@ schedule:
     - start: 2023-03-15T9:00
       end: 2023-03-15T10:30
       title: "Plenary (agenda see below)"
+      recording_url: "https://youtu.be/FkYl2X9o7XA"
 
     - start: 2023-03-15T10:30
       end: 2023-03-15T11:00
@@ -69,6 +70,7 @@ schedule:
     - start: 2023-03-15T11:00
       end: 2023-03-15T12:30
       title: "Plenary (agenda see below)"
+      recording_url: "https://youtu.be/KsK5LEZqk1A"
 
     - start: 2023-03-15T12:30
       end: 2023-03-15T13:30
@@ -77,6 +79,7 @@ schedule:
     - start: 2023-03-15T13:30
       end: 2023-03-15T15:30
       title: "Plenary (agenda see below)"
+      recording_url: "https://youtu.be/vP3ZYzdwOV4"
 
     - start: 2023-03-15T15:30
       end: 2023-03-15T16:00
@@ -85,6 +88,7 @@ schedule:
     - start: 2023-03-15T16:00
       end: 2023-03-15T18:30
       title: "Plenary (agenda see below)"
+      recording_url: "https://youtu.be/vP3ZYzdwOV4"
 
     - endday: done
 
@@ -94,6 +98,7 @@ schedule:
     - start: 2023-03-16T9:00
       end: 2023-03-16T10:30
       title: "Plenary (agenda see below)"
+      recording_url: "https://youtu.be/E5grnDe6iUc"
 
     - start: 2023-03-16T10:30
       end: 2023-03-16T11:00
@@ -102,6 +107,7 @@ schedule:
     - start: 2023-03-16T11:00
       end: 2023-03-16T12:30
       title: "Plenary (agenda see below)"
+      recording_url: "https://youtu.be/E5grnDe6iUc"
 
     - endday: done
 
