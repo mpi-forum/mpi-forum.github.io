@@ -18,3 +18,4 @@
 "586","736","MPI_Buffer_attach and Sessions","1st"
 "685","808","Add Iflush procedures to new buffered mode send buffer handling","1st"
 "563","780","Clean up the short descriptions of the chapters in the introduction","1st"
+"154","762","New interface to query hardware resource info","2nd"
