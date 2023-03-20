@@ -12,7 +12,6 @@
 "683","810","Question, MPI_Dims_create - is as close to each other as possible a requirement?","1st"
 "457","804","Improvements around the word rank in the Process Topologies chapter","1st"
 "485","803","Fix Incorrect Usage of Rank/Task/etc. in Language Bindings Chapter","1st"
-"278","661","Consistent use Section 18.1.9 - p. 661 - Replace TYPE","1st"
 "480","738","Fix Incorrect Usage of Rank/Task/etc. in External Interfaces Chapter","2nd"
 "411","739","Fix comment on Info object in incomplete functions","2nd"
 "586","736","MPI_Buffer_attach and Sessions","1st"
