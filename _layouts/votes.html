@@ -140,6 +140,10 @@ layout: default
     </header>
 
     <div class="post-content">
+        {{ content }}
+
+        {% assign url = "https://github.com/mpi-forum/mpi-issues/issues/" %}
+        {% assign pr_url = "https://github.com/mpi-forum/mpi-standard/pull/" %}
 
         {% if page.registered > 0 %}
         <b>Registered:</b> {{ page.registered }}<br>
@@ -178,7 +182,7 @@ layout: default
                     <center><h3>Begin New Voting Day</h3></center>
                     <hr>
                 {% else %}
-                  <li> Vote Topic: <b>#{{ vote.issue_number }} (PR #{{vote.pr_number}}): {{ vote.topic }} ({{ vote.type }})</b><br>
+                <li> Vote Topic: <b>#<a href="{{url}}{{vote.issue_number}}">{{ vote.issue_number }}</a> (PR #<a href="{{pr_url}}{{vote.pr_number}}">{{vote.pr_number}}</a>): {{ vote.topic }} ({{ vote.type }})</b><br>
                         {% assign yes_votes = vote.yes %}
                         {% assign no_votes = vote.no %}
                         {% if vote.abstain.size > 0 %}
