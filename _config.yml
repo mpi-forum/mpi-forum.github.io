@@ -20,6 +20,8 @@ title: MPI Forum
 # Short description of your site
 description: This website contains information about the activities of the MPI Forum, which is the standardization forum for the Message Passing Interface (MPI).
 
+remote_theme: daattali/beautiful-jekyll@5.0.0
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
@@ -63,9 +65,9 @@ navbar-links:
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: true
-  email: true
-  twitter: true
+  facebook: false
+  email: false
+  twitter: false
   github: true
   linkedin: false
   xing: false
@@ -127,6 +129,3 @@ whitelist:
 
 plugins:
   - jekyll-redirect-from
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
