@@ -24,15 +24,15 @@ layout: default
 
         <h4>This list is updated manually and may not contain the most recent registrations.</h4>
 
-        <ol>
-            {% for person in site.data.meetings[page.year][page.month].attendance %}
-            <li> {{ person.name }} ({{ person.org }})
-                {% if person.remote == "1" %} - Remote{% endif %}
-                {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
-                {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
-            </li>
-            {% endfor %}
-        </ol>
+        <ul>
+          {% for person in site.data.meetings[page.year][page.month].attendance %}
+          <li> {{ person.name }} <i>- {{ person.org }}</i>
+            {% if person.remote == "1" %} - Remote{% endif %}
+            {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
+            {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
 
         {% if page.prev_year != nil %}
           {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
@@ -89,13 +89,6 @@ layout: default
             {% endif %}
           {% endfor %}
 
-          <h4> Stats </h4>
-          <ul>
-            <li>Registered Orgs: {{registered_orgs.size}}</li>
-            <li>OOE Orgs: {{ooe}}</li>
-            <li>IMOVE Orgs: {{imove_orgs.size}}</li>
-          </ul>
-
           <h3> IMOVE Orgs ({{imove_orgs.size}} of {{ prev_ooe | times: 0.66 | ceil }} needed) </h3>
           {% assign imove_orgs = imove_orgs | sort %}
           {% for org in imove_orgs %}
@@ -133,6 +126,13 @@ layout: default
               {% endunless %}
             {% endfor %}
         {% endif %}
+
+          <h3> Stats </h3>
+          <ul>
+            <li>Registered Orgs: {{registered_orgs.size}}</li>
+            <li>OOE Orgs: {{ooe}}</li>
+            <li>IMOVE Orgs: {{imove_orgs.size}}</li>
+          </ul>
 
     </div>
 
