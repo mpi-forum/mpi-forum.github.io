@@ -28,6 +28,7 @@ remote_theme: daattali/beautiful-jekyll@5.0.0
 navbar-links:
     Docs: "docs/"
     Current MPI Efforts:
+        - Implementation Status: implementation-status/
         - MPI 4.1: "mpi-41/"
         - MPI 5.0: "mpi-50/"
     Meetings:
@@ -40,56 +41,11 @@ navbar-links:
         - Make Comments: "comments/"
         - Past Efforts: "mpi-past/"
 
-
-
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 # avatar: "/img/avatar-icon.png"
 
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
-#author:
-  #name: Wesley Bland
-  #email: "youremail@domain.com"
-  #facebook: yourname  # eg. daattali
-  #github: yourname    # eg. daattali
-  #twitter: yourname   # eg. daattali
-  #linkedin: yourname  # eg. daattali
-  #xing: yourname      # eg. daattali
-  #stackoverflow: yourlink  # eg. "3943160/daattali"
-  #instagram: yourname # eg. daattali
-  #youtube: yourlink # eg. user/daattali or channel/daattali
-
-# Select which links to show in the footer
-footer-links-active:
-  rss: false
-  facebook: false
-  email: false
-  twitter: false
-  github: true
-  linkedin: false
-  xing: false
-  stackoverflow: false
-  instagram: false
-  youtube: false
-
-# Select which share links to show in posts
-share-links-active:
-  twitter: false
-  facebook: false
-  google: false
-  linkedin: false
-
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-#url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
-
 # --- Misc --- #
-
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-110855000-1"
