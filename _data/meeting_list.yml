@@ -620,27 +620,31 @@ voting:
 
   - start: 2023-10-31
     end: 2023-11-03
-    title: "Virtual Voting Meeting"
+    title: "Virtual Voting Meeting - FRM for MPI 4.1"
     links: "no"
 
   - start: 2023-09-13
     end: 2023-09-15
-    title: "Bristol, UK (in conjunction with EuroMPI 2023) - exact dates may be still adjusted"
+    title: "Bristol, UK (in conjunction with EuroMPI 2023) - exact dates may be still adjusted<br>
+      RCM for MPI 4.1"
     links: "no"
 
   - start: 2023-07-10
     end: 2023-07-13
-    title: "Virtual Voting Meeting"
+    title: "Virtual Voting Meeting<br>
+      Last 2nd Votes and Errata Readings/Votes for MPI 4.1"
     links: "no"
 
   - start: 2023-05-02
     end: 2023-05-05
-    title: "Virtual Voting Meeting"
+    title: "Virtual Voting Meeting<br>
+      Last 1st Votes for MPI 4.1"
     links: "yes"
 
   - start: 2023-03-13
     end: 2023-03-16
-    title: "Boston, MA (Amazon)"
+    title: "Boston, MA (Amazon)<br>
+      Last Readings for MPI 4.1"
     links: "yes"
 
   - start: 2023-02-01
