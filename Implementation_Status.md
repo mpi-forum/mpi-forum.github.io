@@ -49,4 +49,4 @@ This page provides a way to update the community on the current status of variou
 
 #### Instructions for MPI Implementation Maintainers
 
-If you would like to update the information for your implementation. Create a pull request [here]() to make that change.
+If you would like to update the information for your implementation. Create a pull request [here](https://github.com/mpi-forum/mpi-forum.github.io/edit/master/Implementation_Status.md) to make that change. If you're unclear on how that works, contact [@wesbland](https://github.com/wesbland) or [@schulzm](https://github.com/schulzm) for help.
