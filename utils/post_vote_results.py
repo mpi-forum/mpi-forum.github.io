@@ -51,7 +51,7 @@ def main():
             elif vote['type'] == '1st':
                 if not hasLabel(issue.get_labels(), "passed first vote"):
                     issue.add_to_labels("passed first vote")
-            elif vote['type'] == '2nd':
+            elif vote['type'] == '2nd' or vote['type'] == 'errata':
                 if not hasLabel(issue.get_labels(), "passed final vote"):
                     issue.add_to_labels("passed final vote")
         if hasLabel(issue.get_labels(), "scheduled vote"):
