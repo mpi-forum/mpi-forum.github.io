@@ -77,6 +77,34 @@ plenaries:
       presenter: Bill
       done: 0
 
+    - type: No-No Reading
+      title: "RMA accumulate operations don't distinguish between throughput and latency sensitive applications"
+      issue_number: 640
+      link: "https://github.com/mpi-forum/mpi-standard/pull/749/commits/82ab18050ce969750d539eaa6fa2e853c7682a08"
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "Allow MPI_WIN_SHARED_QUERY on created and allocated windows"
+      issue_number: 23
+      link: "https://github.com/mpi-forum/mpi-standard/pull/708/commits/9a62a36f4cb3c9300a33c6ad30acf4e8379387da"
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "Memory Allocation Kind Info"
+      issue_number: 580
+      link: "https://github.com/mpi-forum/mpi-standard/pull/714/files/34fd740def6ef0890cc7c9d1e1b034ee010f4744..89732bf5e67606430c4b8098646bde2377c03dc4"
+      presenter: Jim
+      done: 0
+
+    - type: No-No Reading
+      title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
+      issue_number: 520
+      link: "https://github.com/mpi-forum/mpi-standard/pull/798/commits/b6134e5cec82e298a0355e24a7f60f3af15c7840"
+      presenter: Marc-Andre
+      done: 0
+
     - type: Errata Reading
       title: MPI_MAX_STRINGTAG_LEN and MPI_MAX_PSET_NAME_LEN arent listed as compile-time constants
       issue_number: 658
