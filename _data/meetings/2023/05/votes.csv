@@ -23,6 +23,7 @@
 "640","749","RMA accumulate operations don't distinguish between throughput and latency sensitive applications","1st"
 "580","714","Memory Allocation Kind Info","1st"
 "520","768","Add compound datatypes for large integers for MPI_(MIN|MAX)LOC","1st"
+"519","799","Add functions to check multiple request statuses at once","1st"
 "645","767","API to access and update MPI_Status public fields","2nd"
 "57","790","deprecating MPI_HOST","2nd"
 "588","644","Clarification of errhandler fallback with Sessions","2nd"
