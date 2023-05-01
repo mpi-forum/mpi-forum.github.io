@@ -123,6 +123,12 @@ plenaries:
       presenter: Aurelien
       done: 0
 
+    - type: Informal Errata Reading
+      title: Fortran has only compile-time constants
+      issue_number: 705
+      presenter: Rolf
+      done: 0
+
     - type: Discussion
       title: Virtual Meetings
       presenter: Martin
