@@ -25,15 +25,20 @@ def main():
     for vote in iter(votes_list):
         # Have an easy way to pick the types of votes to include
         if vote['type'] == "no-no":
-            pass
+            continue # Comment out to vote on this
+            #pass # Comment out to skip voting
         elif vote['type'] == "errata":
-            pass
+            continue # Comment out to vote on this
+            #pass # Comment out to skip voting
         elif vote['type'] == "procedure":
-            pass
+            continue # Comment out to vote on this
+            #pass # Comment out to skip voting
         elif vote['type'] == "1st":
-            pass
+            continue # Comment out to vote on this
+            #pass # Comment out to skip voting
         elif vote['type'] == "2nd":
-            pass
+            continue # Comment out to vote on this
+            #pass # Comment out to skip voting
 
         if (vote['yes'] == None or vote['yes'] == "0") and (vote['no'] == None or vote['no'] == "0") and (vote['abstain'] == None or vote['abstain'] == "0"):
             votes[vote['type']].append(vote)
