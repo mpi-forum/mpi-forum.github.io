@@ -129,6 +129,12 @@ plenaries:
       presenter: Rolf
       done: 0
 
+    - type: Informal Errata Reading
+      title: All C const int or unnamed enum as compile-time constants
+      issue_number: 657
+      presenter: Rolf and Jeff
+      done: 0
+
     - type: Discussion
       title: Virtual Meetings
       presenter: Martin
