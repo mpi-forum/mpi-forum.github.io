@@ -76,7 +76,9 @@ layout: default
               {% endunless %}
             {% endif %}
             {% unless registered_orgs contains person.org %}
-              {% assign registered_orgs = registered_orgs | push: person.org %}
+              {% unless person.org == "Self (Non-voting participant)" %}
+                {% assign registered_orgs = registered_orgs | push: person.org %}
+              {% endunless %}
             {% endunless %}
           {% endfor %}
 
