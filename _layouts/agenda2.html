@@ -320,6 +320,7 @@ layout: default
              <tr>
                  <th>Type</th>
                  <th>Issue</th>
+                 <th>Link</th>
                  <th>Title</th>
                  <th>Presenter</th>
              </tr>
@@ -338,13 +339,22 @@ layout: default
                      <center>
                          {% if item.done == 1 %}
                          <del>
-                             {% endif %}
-                             {% if item.link.size > 0 %}
-                                 <a href="{{item.link}}">Link</a>
-                             {% else %}
-                                 <a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>
-                             {% endif %}
-                             {% if item.done == 1 %}
+                         {% endif %}
+                         <a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>
+                         {% if item.done == 1 %}
+                         </del>
+                         {% endif %}
+                     </center>
+                 </td>
+                 <td>
+                     <center>
+                         {% if item.done == 1 %}
+                         <del>
+                         {% endif %}
+                         {% if item.link.size > 0 %}
+                             <a href="{{item.link}}">Link</a>
+                         {% endif %}
+                         {% if item.done == 1 %}
                          </del>
                          {% endif %}
                      </center>
