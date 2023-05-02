@@ -103,19 +103,25 @@ plenaries:
       issue_number: 520
       link: "https://github.com/mpi-forum/mpi-standard/pull/798/commits/b6134e5cec82e298a0355e24a7f60f3af15c7840"
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: MPI_MAX_STRINGTAG_LEN and MPI_MAX_PSET_NAME_LEN arent listed as compile-time constants
       issue_number: 658
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Description of MPI_TESTANY is inconsistent and wrong"
       issue_number: 681
       presenter: Dan
-      done: 0
+      done: 1
+
+    - type: Errata Reading
+      title: "missing MPI_Scan_init and MPI_Exscan_init from a sentence on collective taxonomy for inter-communicators"
+      issue_number: 680
+      presenter: Julien
+      done: 1
 
     - type: Reading
       title: Error code from some Fortran procedures are referred to as return code
