@@ -50,7 +50,6 @@ def main():
         prev_ballot_list = list(csv.DictReader(open(prev_votes_file)));
         for ballot in prev_ballot_list:
             topic = "#" + ballot['issue_number'] + " (PR #" + ballot['pr_number'] + "): " + ballot['topic'] + " (" + ballot['type'] + ")"
-            print(ballot)
             if (ballot['topic'] == "daybreak" or
                 ((ballot['yes'] == None or int(ballot['yes']) == 0) and
                  (ballot['no'] == None or int(ballot['no']) == 0) and
