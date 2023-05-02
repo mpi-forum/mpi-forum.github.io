@@ -127,13 +127,13 @@ plenaries:
       title: Error code from some Fortran procedures are referred to as return code
       issue_number: 671
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Informal Errata Reading
       title: Fortran has only compile-time constants
       issue_number: 705
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Informal Errata Reading
       title: All C const int or unnamed enum as compile-time constants
