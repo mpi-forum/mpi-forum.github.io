@@ -23,15 +23,15 @@ schedule:
 
     - start: 2023-05-03T9:00
       end: 2023-05-03T12:00
-      title: "Plenary, see below"
+      title: "CANCELED - Plenary, see below"
 
     - start: 2023-05-03T12:00
       end: 2023-05-03T12:30
-      title: "Voting Block"
+      title: "CANCELED - Voting Block"
 
     - start: 2023-05-03T12:30
       end: 2023-05-03T13:00
-      title: "Plenary, see below"
+      title: "CANCELED - Plenary, see below"
 
     - endday: done
 
@@ -39,15 +39,15 @@ schedule:
 
     - start: 2023-05-04T9:00
       end: 2023-05-04T12:00
-      title: "Plenary, see below"
+      title: "CANCELED - Plenary, see below"
 
     - start: 2023-05-04T12:00
       end: 2023-05-04T12:30
-      title: "Voting Block"
+      title: "CANCELED - Voting Block"
 
     - start: 2023-05-04T12:30
       end: 2023-05-04T13:00
-      title: "Plenary, see below"
+      title: "CANCELED - Plenary, see below"
 
     - endday: done
 
@@ -55,15 +55,15 @@ schedule:
 
     - start: 2023-05-05T9:00
       end: 2023-05-05T12:00
-      title: "Plenary, see below"
+      title: "CANCELED - Plenary, see below"
 
     - start: 2023-05-05T12:00
       end: 2023-05-05T12:30
-      title: "Voting Block"
+      title: "CANCELED - Voting Block"
 
     - start: 2023-05-05T12:30
       end: 2023-05-05T13:00
-      title: "Plenary, see below"
+      title: "CANCELED - Plenary, see below"
 
     - endday: done
 
@@ -159,4 +159,4 @@ plenaries:
     - type: Discussion
       title: Virtual Meetings
       presenter: Martin
-      done: 0
+      done: 1
