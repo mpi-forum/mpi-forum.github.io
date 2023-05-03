@@ -142,13 +142,19 @@ plenaries:
       title: All C const int or unnamed enum as compile-time constants
       issue_number: 657
       presenter: Rolf and Jeff
-      done: 0
+      done: 1
 
     - type: Informal Errata Reading
       title: "Noncollective (for procedure) and nonpersistent are not defined"
       issue_number: 679
       presenter: Rolf
-      done: 0
+      done: 1
+
+    - type: Informal Errata Reading
+      title: "Pending operation not defined"
+      issue_number: 676
+      presenter: Rolf
+      done: 1
 
     - type: Discussion
       title: Virtual Meetings
