@@ -44,10 +44,10 @@ print >> file, "date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, 
 print >> file, "permalink: meetings/" + start_year + "/" + start_month + "/attendance";
 print >> file, 'year: "' + start_year + '"';
 print >> file, 'month: "' + start_month + '"';
-print >> file, 'prev_year: ";
-print >> file, 'prev_month: ";
-print >> file, 'prev_prev_year: ";
-print >> file, 'prev_prev_month: ";
+print >> file, 'prev_year: ""';
+print >> file, 'prev_month: ""';
+print >> file, 'prev_prev_year: ""';
+print >> file, 'prev_prev_month: ""';
 print "Add prev_year, prev_month, etc. to meetings/" + start_year + '/' + start_month + '/attendance.md';
 print >> file, "---\n";
 file.close();

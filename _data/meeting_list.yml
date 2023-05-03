@@ -633,7 +633,7 @@ voting:
     end: 2023-07-13
     title: "Virtual Voting Meeting<br>
       Last 2nd Votes and Errata Readings/Votes for MPI 4.1"
-    links: "no"
+    links: "yes"
 
   - start: 2023-05-02
     end: 2023-05-05
