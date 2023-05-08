@@ -121,7 +121,7 @@ In addition to the active working groups, several working groups exist that have
 |3| Point to Point Communcation| Dan Holmes | Ken Raffenetti, Ryan Grant, Bill Gropp, Brian Smith |
 |4| Partitioned Communication | Ryan Grant | Tony Skjellum, Puri Bangalore, Dan Holmes, Matthew Dosanjh |
 |5| Datatypes| George Bosilca | Bill Gropp, Martin Ruefenacht, Dan Holmes |
-|6| Collective Communication| Tony Skjellum | Torsten Höfler, Brian Smith, Martin Schulz, Julien Jaeger |
+|6| Collective Communication| Tony Skjellum | Torsten Höfler, Brian Smith, Martin Schulz, Julien Jaeger, Benson Buite |
 |7| Groups, Contexts, Communicators, Caching | Guillaume Mercier | Bill Gropp, Tony Skjellum, Pavan Balaji |
 |8| Process Topologies | Rolf Rabenseifner | Guillaume Mercier, Claudia Blaas-Schenner, Torsten Höfler, Tony Skjellum, Mahdieh Ghazimirsaeed, Christoph Niethammer |
 |9| MPI Environmental Management | George Bosilca | Ken Raffenetti, Wes Bland, Thomas Naughton |
@@ -130,7 +130,7 @@ In addition to the active working groups, several working groups exist that have
 |12| One-Sided Communication | Bill Gropp | Pavan Balaji, Joseph Schuchart, Nathan Hjelm, Artem Polyakov |
 |14| External Interfaces | Martin Schulz | Pavan Balaji, Brian Smith, Tony Skjellum |
 |14| I/O| Tony Skjellum | Quincey Koziol, Shinji Sumimoto |
-|15| Tool Support | Marc-Andre Hermanns | Martin Schulz, Kathryn Mohror |
+|15| Tool Support | Marc-Andre Hermanns | Martin Schulz, Kathryn Mohror, Bill Williams |
 |16| Deprecated Functions | Rolf Rabenseifner | Martin Schulz, Wes Bland |
 |17| Removed Interfaces | Rolf Rabenseifner | Martin Schulz, Wes Bland |
 |18| Backward Incompatibilities | Wes Bland | Martin Schulz |
