@@ -47,9 +47,27 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+    - type: Errata Reading
+      title: "Errata: Noncollective (for procedure) and nonpersistent are not defined"
+      issue_number: 679
+      presenter: Rolf
+      done: 0
+
+    - type: Errata Reading
+      title: "Errata: Fortran has only compile-time constants"
+      issue_number: 705
+      presenter: Rolf
+      done: 0
+
+    - type: Errata Reading
+      title: "'Pending communication' not defined in definition of MPI_Comm_disconnect"
+      issue_number: 710
+      presenter: Rolf
+      done: 0
+
+    - type: Errata Reading
+      title: "'Pending operation' not defined, pending proper definition"
+      issue_number: 676
+      presenter: Rolf
       done: 0
 
