@@ -6,3 +6,9 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 "669","788","Add operation state 'enabled' and 'local calls' into Terms",2nd
 "457","804","Improvements around the word 'rank' in the Process Topologies chapter",2nd
 "458","803","Fix Incorrect Usage of Rank/Task/etc. in Language Bindings Chapter",2nd
+"586","736","MPI_Buffer_attach and Sessions","2nd"
+"685","808","Add Iflush procedures to new buffered mode send buffer handling","2nd"
+"541","647","Minor edits for consistency in chap-misc","2nd"
+"408","740","Merge or Cross-Reference that Hints must be obeyed by Application in RMA and Info Chapters",2nd
+"379","737","Rework Intro of External Interfaces Chapter / Possibly Rename",2nd
+"478","688","Fix Incorrect Usage of Rank/Task/etc. in Process Management Chapter",2nd
