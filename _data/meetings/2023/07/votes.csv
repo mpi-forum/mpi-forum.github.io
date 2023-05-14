@@ -12,3 +12,5 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 "408","740","Merge or Cross-Reference that Hints must be obeyed by Application in RMA and Info Chapters",2nd
 "379","737","Rework Intro of External Interfaces Chapter / Possibly Rename",2nd
 "478","688","Fix Incorrect Usage of Rank/Task/etc. in Process Management Chapter",2nd
+"563","780","Clean up chapter descriptions",2nd
+
