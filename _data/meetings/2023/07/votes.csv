@@ -14,3 +14,5 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 "478","688","Fix Incorrect Usage of Rank/Task/etc. in Process Management Chapter",2nd
 "563","780","Clean up chapter descriptions",2nd
 "341","806","fixes for most issues in the collective chapter from MPI4.0-RC",2nd
+"283","166","Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string",2nd
+"519","799","Add functions to check multiple request statuses at once",2nd
