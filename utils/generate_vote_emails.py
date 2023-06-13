@@ -133,14 +133,14 @@ def main():
     imove = 0;
     registered = 0;
 
-    prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/02/attendance.csv"
-    prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/03/attendance.csv"
-    curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/05/attendance.csv"
-    curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-05-may/2023-05-02-registration.csv"
+    prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/03/attendance.csv"
+    prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/05/attendance.csv"
+    curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/07/attendance.csv"
+    curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-07-jul/2023-07-10-registration.csv"
     # Make sure to use a pre-filled link here so it gets email out correctly
     voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSdQq_lmCEPR_Ly1E-C_Im8RaUgSZasOM_6IiF1qd72qJruSWQ/viewform?usp=pp_url&entry.262526395={name}&entry.575275205={org}&entry.1603741316={id}"
 
-    prev_ooe = 34
+    prev_ooe = 37
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
