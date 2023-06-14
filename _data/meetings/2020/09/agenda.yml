@@ -161,13 +161,13 @@ plenaries:
     - type: Errata Reading
       title: Clarify when to return info objects in MPI_T events chapter
       issue_number: 309
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Errata Reading
       title: Changes to MPI_T Events if info objects were available before MPI initialization
       issue_number: 148
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Errata Reading

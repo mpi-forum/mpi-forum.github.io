@@ -79,7 +79,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 #### [Semantic Terms](https://github.com/mpiwg-semantic-terms/semantic-terms-issues)
 
-*   Lead: Purushotham Bangalore and Rolf Rabenseifner
+*   Lead: Purushotham V. Bangalore and Rolf Rabenseifner
 *   Scope: Review and update semantic terms used throughout the MPI Standard.
 
 #### [Sessions](https://github.com/mpiwg-sessions/sessions-issues/wiki)
@@ -89,7 +89,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 #### [Tools](https://github.com/mpiwg-tools/tools-issues)
 
-*   Lead: Kathryn Mohror and Marc-Andre Hermanns
+*   Lead: Kathryn Mohror and Marc-André Hermanns
 *   Scope: Definition of interfaces for debugging and performance tools
 
 ## Working Groups on Hold
@@ -140,12 +140,12 @@ In addition to the active working groups, several working groups exist that have
 |12|One-Sided Communication | Bill Gropp | Pavan Balaji, Joseph Schuchart, Nathan Hjelm, Artem Polyakov |
 |14|External Interfaces | Martin Schulz | Pavan Balaji, Brian Smith, Tony Skjellum |
 |14|I/O| Tony Skjellum | Quincey Koziol, Shinji Sumimoto |
-|15|Tool Support| Marc-Andre Hermanns | Martin Schulz, Kathryn Mohror |
+|15|Tool Support| Marc-André Hermanns | Martin Schulz, Kathryn Mohror |
 |16|Deprecated Functions | Rolf Rabenseifner | Martin Schulz, Wesley Bland |
 |17|Removed Interfaces | Rolf Rabenseifner | Martin Schulz, Wesley Bland |
 |18|Backward Incompatibilities | Wesley Bland | Martin Schulz |
 |19|Language Bindings | Puri Bangalore | Tony Skjellum, Rolf Rabenseifner |
 |A|Language Bindings Summary | Rolf Rabenseifner | Puri Bangalore, Tony Skjellum, Hubert Ritzdorf | 
-|B|Change-Log | Rolf Rabenseifner | Marc-Andre Hermanns, Hubert Ritzdorf | 
+|B|Change-Log | Rolf Rabenseifner | Marc-André Hermanns, Hubert Ritzdorf | 
 
 

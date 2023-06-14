@@ -194,7 +194,7 @@ plenaries:
 
     - type: Update
       title: "Tools: The MPI_T Event Interface"
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Update

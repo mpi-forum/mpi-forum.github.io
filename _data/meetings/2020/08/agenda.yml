@@ -139,7 +139,7 @@ plenaries:
     - type: Errata Reading
       title: MPI_T Sessions Scope
       issue_number: 268
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Errata (and no-no) Reading

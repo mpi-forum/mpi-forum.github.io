@@ -110,13 +110,13 @@ plenaries:
     - type: Reading
       title: Add compound datatypes for large integers for MPI_(MIN|MAX)LOC
       issue_number: 520
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Discussions
       title: Extensions to Issue 520 (perhaps more elegant alternative)
       issue_number: 520
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Straw-Poll

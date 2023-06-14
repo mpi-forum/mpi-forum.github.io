@@ -445,7 +445,7 @@ plenaries:
 
     - type: Deep Discussion
       title: Remove index entries for PMPI versions of MPI_T events procedures (I 405/PR 423) - replace must with shall - decision - additional PR 523 to fix this one word, will be merged as editor change, ballot remains
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 0
 
     - type: Deep Discussion
@@ -475,7 +475,7 @@ plenaries:
 
     - type: Deep Discussion
       title: Fix clarify category changed (I 392/PR 429) - correct classification as errata or FRM chang - decision - after straw poll, keeping ballot as is
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 0
 
     - type: Discussion
@@ -495,7 +495,7 @@ plenaries:
 
     - type: Readings/Discussion
       title: Changes to  MPI_T - decision - PR 518 on NULL pointer agreed on, PR 515 agreed on, new issue on LIS INOUT 443, discussion on INOUT decided to be deferred to 4.1 (or later), PR 523 is editorial change
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 0
 
     - type: Readings/Discussion

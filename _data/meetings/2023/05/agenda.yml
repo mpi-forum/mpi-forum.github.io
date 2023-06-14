@@ -108,7 +108,7 @@ plenaries:
       title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
       issue_number: 520
       link: "https://github.com/mpi-forum/mpi-standard/pull/798/commits/b6134e5cec82e298a0355e24a7f60f3af15c7840"
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Errata Reading

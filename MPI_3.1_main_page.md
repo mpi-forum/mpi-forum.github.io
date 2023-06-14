@@ -76,16 +76,16 @@ A longer description of these procedures and documentation on how to write/build
 |2|MPI Terms and Conventions|Rolf Rabenseifner|Bill Gropp, Martin Schulz, Dan Holmes, Jim Dinan|
 |3|Point to Point Communcation|Dan Holmes", "Bill Gropp, Sayantan Sur, Rich Graham, Pavan Balaji|
 |4|Datatypes|George Bosilca|Jeff Hammond, Rich Graham, David Solt, Bill Gropp, Jim Dinan|
-|5|Collective Communication|Torsten Hoefler|George Bosilca, Purushotham Bangalore, Jeff Hammond|
+|5|Collective Communication|Torsten Hoefler|George Bosilca, Purushotham V. Bangalore, Jeff Hammond|
 |6|Groups, Contexts, Communicators, Caching|Pavan Balaji|Bill Gropp, Sayantan Sur, Sreeram Potluri|
-|7|Process Topologies|Torsten Hoefler|Rolf Rabenseifner, Purushotham Bangalore, Chulho Kim, Pavan Balaji|
+|7|Process Topologies|Torsten Hoefler|Rolf Rabenseifner, Purushotham V. Bangalore, Chulho Kim, Pavan Balaji|
 |8|MPI Environmental Management|George Bosilca|Martin Schulz, Rolf Rabenseifner, Chulho Kim|
 |9|The Info Object|Jeff Hammond|Torsten Hoefler, David Solt, Pavan Balaji|
 |10|Process Creation and Mangement|David Solt|Jeff Hammond, Wesley Bland, Howard Pritchard|
 |11|One-Sided Communication|Bill Gropp|Pavan Balaji, Torsten Hoefler, Rajeev Thakur, Sayantan Sur|
 |12|External Interfaces|Pavan Balaji|Dries Kimpe, Jeff Hammond, Jim Dinan, Aurélien Bouteiller|
 |13|I/O|Quincey Koziol|Mohamad Chaarawi, Rajeev Thakur, Dries Kimpe|
-|14|Tool Support|Kathryn Mohror|Martin Schulz, Marc-Andre Hermanns, Adam Moody|
+|14|Tool Support|Kathryn Mohror|Martin Schulz, Marc-André Hermanns, Adam Moody|
 |15|Deprecated Functions|Rolf Rabenseifner||
 |16|Removed Interfaces|Rolf Rabenseifner||
 |17|Language Bindings|Jeff Squyres|Jeff Hammond, Rolf Rabenseifner, Craig Rasmussen|

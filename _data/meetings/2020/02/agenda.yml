@@ -221,19 +221,19 @@ plenaries:
     - type: Errata Reading
       title: Clarify behavior for invalid MPI_T binding arguments
       issue_number: 160
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: NoNo Reading - drop extent argument that was already removed
       title: MPI_Events updates
       issue_number: 79
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: NoNo Reading - timestamp as MPI_Count
       title: MPI_Events updates
       issue_number: 79
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Ticket 0 Reading

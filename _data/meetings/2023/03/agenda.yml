@@ -228,13 +228,13 @@ plenaries:
     - type: Reading and no-no Reading
       title: MPI_Type_get_value_index
       issue_number: 520
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Reading
       title: Non-standard wildcard notation
       issue_number: 674
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Reading
@@ -330,19 +330,19 @@ plenaries:
     - type: Side Document Reading
       title: MPIR side document not fully compliant with proposed requirements
       issue_number: 672
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Side Document Reading
       title: MQD side document not fully compliant with proposed requirements
       issue_number: 673
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: No-No Reading
       title: MPI_Type_get_value_index
       issue_number: 520
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: No-No Reading

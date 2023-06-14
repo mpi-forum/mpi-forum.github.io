@@ -257,7 +257,7 @@ plenaries:
 
     - type: Plenary
       title: "Function Pointer Interception (QMPI)"
-      presenter: Marc-Andre / Wes
+      presenter: Marc-André / Wes
       done: 0
 
     - type: Reading
@@ -269,12 +269,12 @@ plenaries:
     - type: Reading
       title: "Add functions to check multiple request statuses at once"
       issue_number: 519
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 0
 
     - type: Reading
       title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
       issue_number: 520
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 0
 

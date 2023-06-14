@@ -63,13 +63,13 @@ plenaries:
     - type: No-No Reading
       title: "Mention behavior with potential overflow"
       issue_number: 414
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: No-No Reading
       title: "Correct usage of the terms error and return codes in the tools chapter"
       issue_number: 542
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: No-No Reading
@@ -140,7 +140,7 @@ plenaries:
     - type: Errata Reading
       title: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
       issue_number: 443
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: ==================
@@ -252,7 +252,7 @@ plenaries:
     - type: Plenary
       title: "Rename Name-Shifted Profiling Interface (PMPI) to Interception Interface"
       issue_number: 584
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 0
 
     - type: Plenary

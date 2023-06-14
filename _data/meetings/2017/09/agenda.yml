@@ -31,7 +31,7 @@ schedule:
     - date: 2017-09-20
       start: 1:30pm
       end: 3:00pm
-      title: Tools WG, MPI_T Events (Marc-Andre)
+      title: Tools WG, MPI_T Events (Marc-André)
       link: https://cisco.webex.com/ciscosales/j.php?MTID=m9950b613396505b4da7d0921c777d4fc
       password: HnDZSnhx
 
@@ -50,7 +50,7 @@ schedule:
     - date: 2017-09-20
       start: 3:30pm
       end: 5:00pm
-      title: Tools WG, MPI_T Events (Marc-Andre)
+      title: Tools WG, MPI_T Events (Marc-André)
       link: https://cisco.webex.com/ciscosales/j.php?MTID=m9950b613396505b4da7d0921c777d4fc
       password: HnDZSnhx
 
@@ -249,27 +249,27 @@ plenaries:
 
     - type: Errata
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/50\">#50:</a> MPI_T Errata Reinitialization"
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Errata
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/67\">#67:</a> MPI_T: Consistent reference to MPI processes"
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Errata
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/68\">#68:</a> MPI_T: MPI_Init vs MPI_Init_thread"
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/6\">#6:</a>  MPIR: Include line numbers in specification"
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Discussion
       title: MPI Timers
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Discussion
@@ -289,10 +289,10 @@ plenaries:
 
     - type: Discussion
       title: The MPI_T Events proposal
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 0
 
     - type: Discussion
       title: Moving towards unique MPI_T event IDs
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 0

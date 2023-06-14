@@ -234,13 +234,13 @@ plenaries:
     - type: Reading
       title: Callback-driven event interface for MPI_T (2pm)
       issue_number: 79
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Reading
       title: Changes to MPI_T Events if info objects were available before MPI initialization
       issue_number: 148
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 1
 
     - type: Reading
@@ -366,7 +366,7 @@ plenaries:
     - type:
       title: UIDs for Tools
       issue_number:
-      presenter: Marc-Andre
+      presenter: Marc-André
       done: 0
 
     - type:
