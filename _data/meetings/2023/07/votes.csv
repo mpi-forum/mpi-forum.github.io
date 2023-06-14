@@ -13,11 +13,9 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 "379","737","Rework Intro of External Interfaces Chapter / Possibly Rename",2nd
 "478","688","Fix Incorrect Usage of Rank/Task/etc. in Process Management Chapter",2nd
 "563","780","Clean up chapter descriptions",2nd
-"478","688","Fix Incorrect Usage of Rank/Task/etc. in Process Management Chapter", 2nd
 "341","806","fixes for most issues in the collective chapter from MPI4.0-RC",2nd
-"283","166","Remove error handler procedure",2nd
+"283","166","Add MPI_Delete_error_class, MPI_Delete_error_code, MPI_Delete_error_string",2nd
+"519","799","Add functions to check multiple request statuses at once",2nd
+"580","714","Memory Allocation Kind Info",2nd
+"520","798","Add compound datatypes for large integers for MPI_(MIN|MAX)LOC",2nd
 "639","750","MPI_WAIT is nonlocal, except when it isn’t",2nd
-"520","798","Add compound datatypes for large integers for MINLOC, MAXLOC",2nd
-"580","714","memory allocation kinds",2nd
-"799","519","MPI_Request_Get_Status Variants",2nd
-
