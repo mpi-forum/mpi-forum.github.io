@@ -112,8 +112,18 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: Release Candidate Meeting Discussion
+      title: Chapter Committee Changes Discussion
       presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: Chapter Committee Membership
+      presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: Release Candidate Meeting and Procedure Discussion
+      presenter: Wes and Martin
       done: 0
 
     - type: Discussion

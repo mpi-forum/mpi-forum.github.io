@@ -5,7 +5,7 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 "676","824","'Pending operation' not defined, pending proper definition",errata
 "669","788","Add operation state 'enabled' and 'local calls' into Terms",2nd
 "457","804","Improvements around the word 'rank' in the Process Topologies chapter",2nd
-"458","803","Fix Incorrect Usage of Rank/Task/etc. in Language Bindings Chapter",2nd
+"485","803","Fix Incorrect Usage of Rank/Task/etc. in Language Bindings Chapter",2nd
 "586","736","MPI_Buffer_attach and Sessions","2nd"
 "685","808","Add Iflush procedures to new buffered mode send buffer handling","2nd"
 "541","647","Minor edits for consistency in chap-misc","2nd"
@@ -19,3 +19,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 "580","714","Memory Allocation Kind Info",2nd
 "520","798","Add compound datatypes for large integers for MPI_(MIN|MAX)LOC",2nd
 "639","750","MPI_WAIT is nonlocal, except when it isn’t",2nd
+"562","694","Anchor side documents in the standard",2nd
+"640","749","RMA accumulate operations don't distinguish between throughput and
+latency sensitive applications",2nd
