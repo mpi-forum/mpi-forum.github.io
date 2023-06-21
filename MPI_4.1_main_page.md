@@ -123,7 +123,7 @@ In addition to the active working groups, several working groups exist that have
 |5| Datatypes| George Bosilca | Bill Gropp, Martin Ruefenacht, Dan Holmes |
 |6| Collective Communication| Tony Skjellum | Torsten Höfler, Brian Smith, Martin Schulz, Julien Jaeger, Benson Buite |
 |7| Groups, Contexts, Communicators, Caching | Guillaume Mercier | Bill Gropp, Tony Skjellum, Pavan Balaji |
-|8| Process Topologies | Rolf Rabenseifner | Guillaume Mercier, Claudia Blaas-Schenner, Torsten Höfler, Tony Skjellum, Mahdieh Ghazimirsaeed, Christoph Niethammer |
+|8| Process Topologies | Rolf Rabenseifner | Guillaume Mercier, Claudia Blaas-Schenner, Torsten Höfler, Tony Skjellum, Christoph Niethammer |
 |9| MPI Environmental Management | George Bosilca | Ken Raffenetti, Wes Bland, Thomas Naughton |
 |10| The Info Object | Martin Schulz | Ryan Grant, Guillaume Mercier, Wes Bland |
 |11| Process Creation and Mangement | Howard Pritchard | Ken Raffenetti, Dan Holmes, Martin Schulz, Thomas Naughton, Aurélien Bouteiller |
@@ -136,5 +136,5 @@ In addition to the active working groups, several working groups exist that have
 |18| Backward Incompatibilities | Wes Bland | Martin Schulz |
 |19| Language Bindings | Puri Bangalore | Tony Skjellum, Rolf Rabenseifner, Victor Eijkhout |
 |A| Language Bindings Summary | Rolf Rabenseifner | Puri Bangalore, Tony Skjellum, Hubert Ritzdorf | 
-|B| Change-Log | Rolf Rabenseifner | Marc-André Hermanns, Hubert Ritzdorf | 
+|B| Change-Log | Rolf Rabenseifner | Marc-André Hermanns, Hubert Ritzdorf, Tobias Haas | 
 
