@@ -296,7 +296,7 @@ plenaries:
 
     - type: Option 1
       title: MPI_T Event Timestamps
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 0
 
     - type: Option 2

@@ -29,7 +29,7 @@ schedule:
 
     - start: 9:00am
       end: 10:30am
-      title: Tools WG (Marc-André and Kathyrn)
+      title: Tools WG (Marc-Andre and Kathyrn)
       link: https://cisco.webex.com/ciscosales/j.php?MTID=m99cf057a36517e31cfcc206399ad794e
       video: 209594002@cisco.webex.com
       password: KMjmfWZC
@@ -47,7 +47,7 @@ schedule:
 
     - start: 11:00am
       end: 12:30pm
-      title: Tools WG (Marc-André and Kathyrn)
+      title: Tools WG (Marc-Andre and Kathyrn)
       link: https://cisco.webex.com/ciscosales/j.php?MTID=m99cf057a36517e31cfcc206399ad794e
       video: 209594002@cisco.webex.com
       password: KMjmfWZC
@@ -220,17 +220,17 @@ plenaries:
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/67\">#67:</a> MPI_T Consistent reference to MPI processes"
-      presenter: "Marc-André"
+      presenter: "Marc-Andre"
       done: 1
 
     - type: Reading
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/77\">#77:</a> Add integer-based access to MPI_Wtime"
-      presenter: "Marc-André"
+      presenter: "Marc-Andre"
       done: 1
 
     - type: Discussion
       title: "<a href=\"https://github.com/mpi-forum/mpi-issues/issues/79\">#79:</a> Callback-driven event inteface for MPI_T"
-      presenter: "Marc-André"
+      presenter: "Marc-Andre"
       done: 1
 
     - type: Reading

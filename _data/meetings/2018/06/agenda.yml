@@ -297,7 +297,7 @@ plenaries:
     - type: Reading
       title: "No-No: MPI_T: Consistent reference to MPI processes"
       issue_number: 67
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Reading

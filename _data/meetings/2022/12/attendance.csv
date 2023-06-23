@@ -2,16 +2,16 @@ name,org,attend
 Wes Bland,Meta,1
 William Gropp,University of Illinois Urbana-Champaign,1
 Guillaume Mercier,INRIA,1
-Joseph Schuchart,"University of Tennessee, Knoxville",1
+Joseph Schuchart ,"University of Tennessee, Knoxville",1
 Rolf Rabenseifner,"HLRS, University of Stuttgart",1
-Jeff Hammond,NVIDIA,1
+Jeff Hammond ,NVIDIA,1
 Nat Shineman,Ohio State University,-1
 Maria Garzaran,Intel Corporation,0
 Joshua Hursey,IBM,1
 Michael Klemm,AMD,1
 Quincey Koziol,Amazon,1
 Edgar Gabriel,AMD,1
-Bill Williams,"ZIH, TU Dresden",1
+William Williams,"ZIH, TU Dresden",1
 Purushotham V. Bangalore,University of Alabama,1
 Martin Schreiber,Université Grenoble Alpes,1
 Vivek Kale,Sandia National Laboratory,-1
@@ -24,8 +24,8 @@ Keita Teranishi,Oak Ridge National Laboratory,1
 Ignacio Laguna,Lawrence Livermore National Laboratory,1
 Shinji Sumimoto,The University of Tokyo,1
 Aurelien Bouteiller,"University of Tennessee, Knoxville",1
-Marc-André Hermanns,RWTH Aachen University,1
-Jean-Baptiste Besnard,ParaTools SAS,1
+Marc-Andre Hermanns,RWTH Aachen University,1
+Jean-Baptiste BESNARD,ParaTools SAS,1
 Christoph Niethammer,"HLRS, University of Stuttgart",1
 Nysal Jan K A,IBM,1
 Julien Jaeger,CEA,1
@@ -47,4 +47,4 @@ Sam White,Intel Corporation,-1
 Matthew Dosanjh,Sandia National Laboratory,1
 Derek Schafer,University of New Mexico,1
 Amit Ruhela,The Texas Advanced Computing Center,1
-Jim Dinan,NVIDIA,1
+James Dinan,NVIDIA,1

@@ -255,7 +255,7 @@ plenaries:
     - type: No-No Reading
       issue_number: 520
       title: "Add compound datatypes for large integers for MPI_(MIN|MAX)LOC"
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: ==================
@@ -278,13 +278,13 @@ plenaries:
     - type: Errata Reading
       title: "LIS entries in MPI_T chapter not reflecting IN vs. INOUT as defined in Term 2.3 chapter"
       issue_number: 443
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Errata Reading
       title: "ERRATA: Clarify behavior for invalid MPI_T binding arguments"
       issue_number: 160
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Errata Reading
@@ -402,25 +402,25 @@ plenaries:
     - type: Reading
       title: "Mention behavior with potential overflow"
       issue_number: 414
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Reading
       title: "Fixes to distinguish MPI error codes and MPI_T return codes"
       issue_number: 542
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Reading
       title: "Rename Name-Shifted Profiling Interface (PMPI) to Interception Interface"
       issue_number: 584
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Reading
       title: "Tools - Index Operation Semantics"
       issue_number: 613
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Reading

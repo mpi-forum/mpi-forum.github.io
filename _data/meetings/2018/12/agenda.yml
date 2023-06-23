@@ -152,7 +152,7 @@ plenaries:
     - type: Discussion
       title:  MPI Info Objects before Init
       issue_number: 115
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Reading

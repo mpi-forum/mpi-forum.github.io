@@ -8,7 +8,7 @@ schedule:
 
     - start: 9am
       end: 10:30am
-      title: Tools WG (Marc-André) - Room 101
+      title: Tools WG (Marc-Andre) - Room 101
 
     - start: 9am
       end: 10:30am
@@ -24,7 +24,7 @@ schedule:
 
     - start: 11am
       end: 1pm
-      title: Tools WG (Marc-André) - Room 101
+      title: Tools WG (Marc-Andre) - Room 101
 
     - start: 11am
       end: 1pm
@@ -133,7 +133,7 @@ schedule:
 
     - start: 2pm
       end: 4pm
-      title: Tools WG (Marc-André) - Room 101
+      title: Tools WG (Marc-Andre) - Room 101
 
     - start: 2pm
       end: 4pm
@@ -149,7 +149,7 @@ schedule:
 
     - start: 4:30pm
       end: 6pm
-      title: Tools WG (Marc-André) - Room 101
+      title: Tools WG (Marc-Andre) - Room 101
 
     - start: 4:30pm
       end: 6pm
@@ -197,7 +197,7 @@ plenaries:
     - type: Reading
       title: MPI_T Events
       issue_number: 79
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Reading
@@ -256,7 +256,7 @@ plenaries:
 
     - type: Discussion
       title: Universal IDs for MPI_T variables and events
-      presenter: Marc-André
+      presenter: Marc-Andre
       done: 1
 
     - type: Discussion
