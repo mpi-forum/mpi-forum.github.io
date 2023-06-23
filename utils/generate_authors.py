@@ -1,6 +1,7 @@
 #!/usr/bin/env python3.8
 
 import csv
+from dedup_names import dedup_names
 
 startYear = 2021
 currYear = 2023
@@ -25,7 +26,7 @@ def main():
             for personData in data:
                 if int(personData['attend']) != 1:
                     continue
-                person = personData['name'].strip()
+                person = dedup_names(personData['name'].strip())
                 if person in attendeeList.keys():
                     attendeeList[person] = attendeeList[person] + 1
                 else:
