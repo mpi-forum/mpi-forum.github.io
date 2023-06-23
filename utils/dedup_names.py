@@ -21,7 +21,7 @@ dedup = {
         'Maria J. Garzaran': 'Maria Garzaran',
         'GERMAIN Florent': 'Florent GERMAIN',
         'Florent Germain': 'Florent GERMAIN',
-        'Matthew G. F. Dosanjh': 'Matthew Dosanjh',
+        'Matthew Dosanjh': 'Matthew G. F. Dosanjh',
         'Nathaniel Shineman': 'Nat Shineman'
         }
 
