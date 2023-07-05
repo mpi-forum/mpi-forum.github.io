@@ -182,7 +182,13 @@ layout: default
                     <center><h3>Begin New Voting Day</h3></center>
                     <hr>
                 {% else %}
-                <li> Vote Topic: <b>#<a href="{{url}}{{vote.issue_number}}">{{ vote.issue_number }}</a> (PR #<a href="{{pr_url}}{{vote.pr_number}}">{{vote.pr_number}}</a>): {{ vote.topic }} ({{ vote.type }})</b><br>
+                        {% if vote.pr_number.size > 0 %}
+                            {% assign vote_topic = "#" | append: vote.issue_number | append: " (PR #" | append: vote.pr_number | append: "): " | append: vote.topic | append: " (" | append: vote.type | append: ")" %}
+                            <li> Vote Topic: <b>#<a href="{{url}}{{vote.issue_number}}">{{ vote.issue_number }}</a> (PR #<a href="{{pr_url}}{{vote.pr_number}}">{{vote.pr_number}}</a>): {{ vote.topic }} ({{ vote.type }})</b><br>
+                        {% else %}
+                            {% assign vote_topic = "#" | append: vote.issue_number | append: ": " | append: vote.topic | append: " (" | append: vote.type | append: ")" %}
+                            <li> Vote Topic: <b>#<a href="{{url}}{{vote.issue_number}}">{{ vote.issue_number }}</a>: {{ vote.topic }} ({{ vote.type }})</b><br>
+                        {% endif %}
                         {% assign yes_votes = vote.yes %}
                         {% assign no_votes = vote.no %}
                         {% if vote.abstain.size > 0 %}
@@ -224,7 +230,6 @@ layout: default
                             <font size="2">
                             <table>
                                 <tr>
-                                    {% assign vote_topic = "#" | append: vote.issue_number | append: " (PR #" | append: vote.pr_number | append: "): " | append: vote.topic | append: " (" | append: vote.type | append: ")" %}
                                     {% assign sorted_orgs = site.data.meetings[page.year][page.month].ballot | sort: "org" | map: "org" %}
                                     {% assign sorted_votes = site.data.meetings[page.year][page.month].ballot | sort: "org" | map: vote_topic %}
                                     {% assign i = 0 %}
