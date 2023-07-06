@@ -18,7 +18,7 @@ This page provides a way to update the community on the current status of variou
 | MPI_T Events              |  ✅   |   ✅    |
 | Error Handling            |  ✅   |   ✅    |
 | Non-blocking SENDRECV     |  ✅   |   ✅    |
-| Persistent ALLGATHER      |  ✅   |   ✅    |
+| Persistent Collectives    |  ✅   |   ✅    |
 | New Split Types           |  ✅   |   ✅    |
 | MPI_COMM_DUP info         |  ✅   |   ✅    |
 | Info Assertions           |  ✅   |   ✅    |
