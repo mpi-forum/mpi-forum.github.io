@@ -43,11 +43,11 @@ Use [this BiBTeX File](docs/mpi-4.0/citation.bib) to cite the MPI 4.0 Standard.
 * Poster Prospectuses: July 11, 2022 (AOE)
 
 
-#### BoF at SC 21, Nov. 17, 2020
+#### BoF at SC 21, Nov. 17, 2021
 
 * [Complete set of slides:](bofs/2021-11-mpi-bof.pdf)
 * Video Available via the [SC21 HUBB](http://sc21.hubb.me)
-* [Link to the SC20 Event:](https://sc20.supercomputing.org/presentation/?id=bof126&sess=sess309)
+* [Link to the SC21 Event:](https://sc21.supercomputing.org/presentation/?id=bof135&sess=sess380)
 
 #### BoF at ISC 21, June, 2021
 
