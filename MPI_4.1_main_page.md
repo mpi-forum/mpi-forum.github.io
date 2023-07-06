@@ -64,7 +64,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 #### [Remote Memory Access](https://github.com/mpiwg-rma/rma-issues/wiki/RMA-Working-Group-Wiki)
 
-*   Lead: Bill Gropp and Rajeev Thakur
+*   Lead: Bill Gropp, Joseph Schuchart, and Rajeev Thakur
 *   Scope: To re-examine the MPI RMA interface and consider additions and or changes needed to better support the one-sided programming model within MPI.
 
 #### [Semantic Terms](https://github.com/mpiwg-semantic-terms/semantic-terms-issues)
