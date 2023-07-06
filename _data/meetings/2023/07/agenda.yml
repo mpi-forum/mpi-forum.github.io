@@ -13,7 +13,8 @@ schedule:
     - start: 2023-07-10T12:30
       end: 2023-07-10T13:00
       title: "Plenary, see below"
- 
+
+
     - endday: done
 
 
@@ -30,7 +31,7 @@ schedule:
     - start: 2023-07-11T12:30
       end: 2023-07-11T13:00
       title: "Plenary, see below"
- 
+
 
     - endday: done
 
@@ -48,7 +49,7 @@ schedule:
     - start: 2023-07-12T12:30
       end: 2023-07-12T13:00
       title: "Plenary, see below"
- 
+
 
     - endday: done
 
@@ -66,7 +67,7 @@ schedule:
     - start: 2023-07-13T12:30
       end: 2023-07-13T13:00
       title: "Plenary, see below"
- 
+
     - endday: done
 
 
@@ -109,6 +110,12 @@ plenaries:
       title: Rename External Interfaces Chapter
       issue_number: 379
       presenter: Martin
+      done: 0
+
+    - type: Informal Reading
+      title: "Inconsistent use of operation vs operator throughout the text"
+      issue_number: 718
+      presenter: Joseph / Wes
       done: 0
 
     - type: Discussion
