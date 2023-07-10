@@ -75,47 +75,47 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Errata: Noncollective (for procedure) and nonpersistent are not defined"
       issue_number: 679
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Errata: Fortran has only compile-time constants"
       issue_number: 705
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "'Pending communication' not defined in definition of MPI_Comm_disconnect"
       issue_number: 710
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "'Pending operation' not defined, pending proper definition"
       issue_number: 676
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Rename External Interfaces Chapter
       issue_number: 379
       presenter: Martin
-      done: 0
+      done: 1
 
-    - type: Informal Reading
-      title: "Inconsistent use of operation vs operator throughout the text"
-      issue_number: 718
-      presenter: Joseph / Wes
+    - type: No-No Reading
+      title: "'Pending communication' not defined in definition of MPI_Comm_disconnect"
+      issue_number: 710
+      presenter: Rolf
       done: 0
 
     - type: Discussion
@@ -131,6 +131,12 @@ plenaries:
     - type: Discussion
       title: Release Candidate Meeting and Procedure Discussion
       presenter: Wes and Martin
+      done: 0
+
+    - type: Informal Reading
+      title: "Inconsistent use of operation vs operator throughout the text"
+      issue_number: 718
+      presenter: Joseph / Wes
       done: 0
 
     - type: Discussion

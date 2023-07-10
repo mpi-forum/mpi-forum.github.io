@@ -1,4 +1,5 @@
 issue_number,pr_number,topic,type,yes,no,abstain,missed
+"710","823","'Pending communication' not defined in definition of MPI_Comm_disconnect",no-no
 "679","820","Errata: Noncollective (for procedure) and nonpersistent are not defined",errata
 "705","822","Errata: Fortran has only compile-time constants",errata
 "710","823","'Pending communication' not defined in definition of MPI_Comm_disconnect",errata
@@ -10,7 +11,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 "685","808","Add Iflush procedures to new buffered mode send buffer handling","2nd"
 "541","647","Minor edits for consistency in chap-misc","2nd"
 "408","740","Merge or Cross-Reference that Hints must be obeyed by Application in RMA and Info Chapters",2nd
-"379","737","Rework Intro of External Interfaces Chapter / Possibly Rename",2nd
 "478","688","Fix Incorrect Usage of Rank/Task/etc. in Process Management Chapter",2nd
 "563","780","Clean up chapter descriptions",2nd
 "341","806","fixes for most issues in the collective chapter from MPI4.0-RC",2nd
