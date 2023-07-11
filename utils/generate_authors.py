@@ -24,7 +24,7 @@ def main():
                 continue
 
             for personData in data:
-                if int(personData['attend']) != 1:
+                if int(personData['attend']) == -1:
                     continue
                 person = dedup_names(personData['name'].strip())
                 if person in attendeeList.keys():
