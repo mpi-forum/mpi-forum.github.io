@@ -112,6 +112,12 @@ plenaries:
       presenter: Rolf
       done: 1
 
+    - type: Informal Reading
+      title: "Inconsistent use of operation vs operator throughout the text"
+      issue_number: 718
+      presenter: Joseph / Dan
+      done: 1
+
     - type: Discussion
       title: Chapter Committee Changes Discussion
       presenter: Martin
@@ -125,12 +131,6 @@ plenaries:
     - type: Discussion
       title: Release Candidate Meeting and Procedure Discussion
       presenter: Wes and Martin
-      done: 0
-
-    - type: Informal Reading
-      title: "Inconsistent use of operation vs operator throughout the text"
-      issue_number: 718
-      presenter: Joseph / Wes
       done: 0
 
     - type: Discussion
