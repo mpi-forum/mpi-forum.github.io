@@ -22,6 +22,9 @@ def main():
             else:
                 attendeeList[person] = 1
 
+    attendeeList['Hugo Taboada'] = 3
+    attendeeList['Rolf Rabenseifner'] = 0
+
     for person in sorted(attendeeList.keys()):
         if attendeeList[person] > 2:
             print(person)
