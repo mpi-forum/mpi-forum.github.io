@@ -3,16 +3,9 @@ schedule:
     - day: Monday, July 10
 
     - start: 2023-07-10T9:00
-      end: 2023-07-10T12:00
-      title: "Plenary, see below"
-
-    - start: 2023-07-10T12:00
-      end: 2023-07-10T12:30
-      title: "Voting Block"
-
-    - start: 2023-07-10T12:30
       end: 2023-07-10T13:00
       title: "Plenary, see below"
+      recording_url: "https://youtu.be/-yIss-okW00"
 
 
     - endday: done
