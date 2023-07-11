@@ -108,8 +108,9 @@ plenaries:
     - type: No-No Reading
       title: "'Pending communication' not defined in definition of MPI_Comm_disconnect"
       issue_number: 710
+      link: "https://github.com/mpi-forum/mpi-standard/pull/823/files/8b957c058b4ce9256106920fc672d215638fbcf0..269f59372b87f2d43f0de39623a797f24959c0fe"
       presenter: Rolf
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Chapter Committee Changes Discussion
