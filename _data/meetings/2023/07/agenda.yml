@@ -16,14 +16,17 @@ schedule:
     - start: 2023-07-11T9:00
       end: 2023-07-11T12:00
       title: "Plenary, see below"
+      recording_url: "https://youtu.be/ohEkjESIP7s"
 
     - start: 2023-07-11T12:00
       end: 2023-07-11T12:30
       title: "Voting Block"
+      recording_url: "https://youtu.be/ohEkjESIP7s"
 
     - start: 2023-07-11T12:30
       end: 2023-07-11T13:00
       title: "Plenary, see below"
+      recording_url: "https://youtu.be/ohEkjESIP7s"
 
 
     - endday: done
