@@ -19,10 +19,12 @@ dedup = {
         'Wesley Bland': 'Wes Bland',
         'Maria J Garzaran': 'Maria J. Garzaran',
         'Maria Garzaran': 'Maria J. Garzaran',
-        'GERMAIN Florent': 'Florent GERMAIN',
-        'Florent Germain': 'Florent GERMAIN',
+        'GERMAIN Florent': 'Florent Germain',
         'Matthew Dosanjh': 'Matthew G. F. Dosanjh',
-        'Nathaniel Shineman': 'Nat Shineman'
+        'Nathaniel Shineman': 'Nat Shineman',
+        'Pedram Alizadeh': 'Pedram Mohammadalizadehbakhtevari',
+        'Florent GERMAIN': 'Florent Germain',
+        'Martin SCHREIBER': 'Martin Schreiber',
         }
 
 def dedup_names(name):
