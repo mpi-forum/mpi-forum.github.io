@@ -10,6 +10,8 @@ currMonth = 7
 
 def main():
     attendeeList = {}
+    orgList = {}
+
     for year in range(startYear, currYear+1):
         for month in range(1, 13):
             if year == startYear and month < startMonth:
@@ -32,8 +34,23 @@ def main():
                 else:
                     attendeeList[person] = 1
 
+                org = dedup_names(personData['org'].strip())
+                if org == 'Self (Non-voting participant)':
+                    continue
+                if org in orgList.keys():
+                    orgList[org] = orgList[org] + 1
+                else:
+                    orgList[org] = 1
+
+    print("=== People ===")
     for person in sorted(attendeeList.keys()):
         print(f'{person}')
+
+    print()
+
+    print("=== Orgs ===")
+    for org in sorted(orgList.keys()):
+        print(f'{org}')
 
 if __name__ == '__main__':
     main()

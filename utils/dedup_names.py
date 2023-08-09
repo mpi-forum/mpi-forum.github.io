@@ -25,6 +25,19 @@ dedup = {
         'Pedram Alizadeh': 'Pedram Mohammadalizadehbakhtevari',
         'Florent GERMAIN': 'Florent Germain',
         'Martin SCHREIBER': 'Martin Schreiber',
+        'AMD': 'Advanced Micro Devices, Inc.',
+        'Amazon': 'Amazon.com, Inc',
+        'Cisco': 'Cisco Systems Inc.',
+        'Forschungszentrum Jülich': 'Jülich Supercomputing Center, Forschungszentrum Jülich',
+        'HPE': 'Hewlett Packard Enterprise',
+        'IBM': 'International Business Machines',
+        'INRIA': 'Institut National de Recherche en Informatique et Automatique (Inria)',
+        'Meta': 'Meta Platforms Inc.',
+        'NVIDIA': 'NVIDIA Corporation',
+        'Ohio State University': 'The Ohio State University',
+        'Tennessee Tech University': 'Tennessee Technological University',
+        'The Texas Advanced Computing Center': 'Texas Advanced Computing Center',
+        'The University of Tokyo': 'University of Tokyo',
         }
 
 def dedup_names(name):
