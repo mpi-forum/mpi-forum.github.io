@@ -9,13 +9,15 @@ month: "09"
 ### Meeting Registration
 
 Advanced registration for this meeting will be required for food and space
-planning. **Registration is required regardless of whether attending in-person
-or remote.** Details will be posted for registration soon.
+planning. **Registration is required regardless of whether attending in-person or remotely.**
+
+Participants need to register both with the conference organizers and the MPI Forum. Please fill out **both** forms:
+
+* Conference: https://www.eventbrite.co.uk/e/iwomp-2023-eurompi-and-mpi-forum-tickets-666951258167?aff=oddtdtcreator
+* MPI Forum: https://forms.gle/EMHZgSq7nSJ7gFwk6
 
 ### Meeting Location
 
 The meeting will occur in conjunction with EuroMPI/USA 2023 in Bristol, UK at
 the University of Bristol. Details on the conference and venue can be found on
 the [conference website](https://eurompi23.github.io/).
-
-More details about remote participation will be posted when known.
