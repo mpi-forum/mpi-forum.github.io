@@ -1,1 +1,11 @@
-name,org,attend
+"name","org","remote","attend"
+"Wes Bland","Meta","1","1"
+"Jeff Hammond","NVIDIA","1","1"
+"Jean-Baptiste Besnard","ParaTools SAS","1","1"
+"Maria Garzaran","Intel Corporation","1","1"
+"Guillaume Mercier","INRIA","1","1"
+"William Gropp","University of Illinois Urbana-Champaign","1","1"
+"Purushotham V. Bangalore","University of Alabama","1","1"
+"Martin Schulz","Technical University of Munich","0","1"
+"Claudia Blaas-Schenner","VSC Research Center, TU Wien","0","1"
+"Dan Holmes","Intel Corporation","1","1"
