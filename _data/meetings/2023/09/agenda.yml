@@ -90,14 +90,159 @@ plenaries:
       presenter: All
       done: 0
 
-    - type: Update
-      title: WG Status
-      presenter: All WG chairs or their proxies
+    - type: Chapter Diff Reading
+      title: "Front Matter"
+      issue_number:
+      presenter: Bill
       done: 0
 
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+    - type: Chapter Diff Reading
+      title: "1: Introduction"
+      issue_number:
+      presenter: Bill
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "2: MPI Terms and Conventions"
+      issue_number:
+      presenter: Claudia
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "3: Point to Point Communication"
+      issue_number:
+      presenter: Dan
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "4: Partitioned Communication"
+      issue_number:
+      presenter: George
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "5: Datatypes"
+      issue_number:
+      presenter: George
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "6: Collective Communication"
+      issue_number:
+      presenter: Tony
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "7: Groups, Context, Communicators, Caching"
+      issue_number:
+      presenter: Guillaume M.
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "8: Process Topologies"
+      issue_number:
+      presenter: Christoph
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "9: MPI Environmental Management"
+      issue_number:
+      presenter: George
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "10: The Info Object"
+      issue_number:
+      presenter: Martin
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "11: Process Creation and Management"
+      issue_number:
+      presenter: Howard
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "12: One-Sided Communication"
+      issue_number:
+      presenter: Bill
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "13: External Interfaces"
+      issue_number:
+      presenter: Martin S.
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "14: I/O"
+      issue_number:
+      presenter: Tony
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "15: Tool Support"
+      issue_number:
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "16: Deprecated Functions"
+      issue_number:
+      presenter: Wes
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "17: Removed Interfaces"
+      issue_number:
+      presenter: Wes
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "18: Backward Incompatibilities"
+      issue_number:
+      presenter: Wes
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "19: Language Bindings"
+      issue_number:
+      presenter: Puri
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "A: Language Bindings Summary"
+      issue_number:
+      presenter: Puri
+      done: 0
+
+    - type: Chapter Diff Reading
+      title: "B: Change-Log"
+      issue_number:
+      presenter: Tobias
+      done: 0
+
+    - type: Discussion
+      title: "Review of Open Items List"
+      issue_number:
+      presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: "Discussion of Next Steps"
+      issue_number:
+      presenter: Martin
+      done: 0
+
+    - type: Discussion
+      title: "Open Officer Nominations"
+      issue_number:
+      presenter: Martin
+      done: 0
+
+    - type: MPI 4.2 Reading
+      title: "Indicate version of C standard that MPI is based on"
+      issue_number: 693
+      presenter: Jeff
       done: 0
 
