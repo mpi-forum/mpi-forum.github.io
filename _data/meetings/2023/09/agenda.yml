@@ -235,6 +235,12 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: "MPI 4.1 Publication Discussion"
+      issue_number:
+      presenter: Michael
+      done: 0
+
+    - type: Discussion
       title: "Open Officer Nominations"
       issue_number:
       presenter: Martin
