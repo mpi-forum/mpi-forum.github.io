@@ -13,8 +13,8 @@ planning. **Registration is required regardless of whether attending in-person o
 
 Participants need to register both with the conference organizers and the MPI Forum. Please fill out **both** forms:
 
-* Conference: https://www.eventbrite.co.uk/e/iwomp-2023-eurompi-and-mpi-forum-tickets-666951258167?aff=oddtdtcreator
-* MPI Forum: https://forms.gle/EMHZgSq7nSJ7gFwk6
+* Conference: [https://www.eventbrite.co.uk/e/iwomp-2023-eurompi-and-mpi-forum-tickets-666951258167?aff=oddtdtcreator](https://www.eventbrite.co.uk/e/iwomp-2023-eurompi-and-mpi-forum-tickets-666951258167?aff=oddtdtcreator)
+* MPI Forum: [https://forms.gle/EMHZgSq7nSJ7gFwk6](https://forms.gle/EMHZgSq7nSJ7gFwk6)
 
 ### Meeting Location
 
