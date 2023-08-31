@@ -165,7 +165,13 @@ plenaries:
     - type: Chapter Diff Reading
       title: "12: One-Sided Communication"
       issue_number:
-      presenter: Bill
+      presenter: Bill / Joseph
+      done: 0
+
+    - type: Chapter Committee Change Reading
+      title: "RMA chapter committee changes"
+      issue_number: 745
+      presenter: Joseph
       done: 0
 
     - type: Chapter Diff Reading
@@ -252,3 +258,14 @@ plenaries:
       presenter: Jeff
       done: 0
 
+    - type: MPI 5.0 Reading
+      title: "ULFM Fault Tolerance (slice 2: agree)"
+      issue_number: 582
+      presenter: Aurelien
+      done: 0
+
+    - type: MPI 5.0 Reading
+      title: "ULFM Fault Tolerance (slice 3: shrink)"
+      issue_number: 583
+      presenter: Aurelien
+      done: 0
