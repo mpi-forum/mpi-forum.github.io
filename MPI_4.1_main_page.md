@@ -54,7 +54,7 @@ The following working groups are currently participating in the MPI 4.0 efforts.
 
 #### [Hybrid & Accelerator](https://github.com/mpiwg-hybrid/hybrid-issues/wiki)
 
-*   Lead: Pavan Balaji and Jim Dinan
+*   Lead: James Dinan
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
 
 #### [Languages](https://github.com/mpiwg-languages/languages-issues/wiki)
