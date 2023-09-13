@@ -88,37 +88,37 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "Front Matter"
       issue_number:
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "1: Introduction"
       issue_number:
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "2: MPI Terms and Conventions"
       issue_number:
       presenter: Claudia
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "3: Point to Point Communication"
       issue_number:
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "4: Partitioned Communication"
       issue_number:
       presenter: Ryan
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "5: Datatypes"
@@ -136,7 +136,7 @@ plenaries:
       title: "7: Groups, Context, Communicators, Caching"
       issue_number:
       presenter: Guillaume M.
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "8: Process Topologies"
