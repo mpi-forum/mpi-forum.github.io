@@ -269,3 +269,9 @@ plenaries:
       issue_number: 583
       presenter: Aurelien
       done: 0
+
+    - type: MPI 4.2 Reading
+      title: "ABI Discussion"
+      issue_number: 751
+      presenter: Jeff
+      done: 0
