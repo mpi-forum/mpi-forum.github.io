@@ -226,7 +226,7 @@ plenaries:
       title: "B: Change-Log"
       issue_number:
       presenter: Tobias
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Review of Open Items List"
