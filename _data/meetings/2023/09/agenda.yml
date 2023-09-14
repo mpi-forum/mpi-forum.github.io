@@ -123,8 +123,8 @@ plenaries:
     - type: Chapter Diff Reading
       title: "5: Datatypes"
       issue_number:
-      presenter: George
-      done: 0
+      presenter: Joseph / George
+      done: 1
 
     - type: Chapter Diff Reading
       title: "6: Collective Communication"
@@ -147,7 +147,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: "9: MPI Environmental Management"
       issue_number:
-      presenter: George
+      presenter: Joseph / George
       done: 0
 
     - type: Chapter Diff Reading
@@ -160,7 +160,7 @@ plenaries:
       title: "11: Process Creation and Management"
       issue_number:
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "12: One-Sided Communication"
