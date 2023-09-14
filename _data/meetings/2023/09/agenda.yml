@@ -148,7 +148,7 @@ plenaries:
       title: "9: MPI Environmental Management"
       issue_number:
       presenter: Joseph / George
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "10: The Info Object"
@@ -166,19 +166,19 @@ plenaries:
       title: "12: One-Sided Communication"
       issue_number:
       presenter: Bill / Joseph
-      done: 0
+      done: 1
 
     - type: Chapter Committee Change Reading
       title: "RMA chapter committee changes"
       issue_number: 745
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "13: External Interfaces"
       issue_number:
       presenter: Martin S.
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "14: I/O"
@@ -190,25 +190,25 @@ plenaries:
       title: "15: Tool Support"
       issue_number:
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "16: Deprecated Functions"
       issue_number:
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "17: Removed Interfaces"
       issue_number:
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "18: Backward Incompatibilities"
       issue_number:
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "19: Language Bindings"
