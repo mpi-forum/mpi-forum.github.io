@@ -130,7 +130,7 @@ plenaries:
       title: "6: Collective Communication"
       issue_number:
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "7: Groups, Context, Communicators, Caching"
@@ -142,7 +142,7 @@ plenaries:
       title: "8: Process Topologies"
       issue_number:
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "9: MPI Environmental Management"
@@ -154,7 +154,7 @@ plenaries:
       title: "10: The Info Object"
       issue_number:
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "11: Process Creation and Management"
