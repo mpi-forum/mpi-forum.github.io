@@ -256,13 +256,13 @@ plenaries:
       title: "Indicate version of C standard that MPI is based on"
       issue_number: 693
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: MPI 5.0 Reading
       title: "ULFM Fault Tolerance (slice 2: agree)"
       issue_number: 582
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: MPI 5.0 Reading
       title: "ULFM Fault Tolerance (slice 3: shrink)"
