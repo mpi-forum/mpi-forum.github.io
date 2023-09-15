@@ -135,5 +135,5 @@ In addition to the active working groups, several working groups exist that have
 |17| Removed Interfaces | Wes Bland | Martin Schulz|
 |18| Backward Incompatibilities | Wes Bland | Martin Schulz |
 |19| Language Bindings | Puri Bangalore | Tony Skjellum, Victor Eijkhout |
-|A| Language Bindings Summary | Puri Bangalore | Tony Skjellum, Hubert Ritzdorf | 
-|B| Change-Log | Tobias Haas | Marc-André Hermanns, Hubert Ritzdorf | 
+|A| Language Bindings Summary | Puri Bangalore | Tony Skjellum | 
+|B| Change-Log | Tobias Haas | Marc-André Hermanns | 
