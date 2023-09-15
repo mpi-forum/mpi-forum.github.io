@@ -16,7 +16,7 @@ from googleapiclient.errors import HttpError
 
 def main():
     year = "2023"
-    month = "07"
+    month = "09"
     day = "1"
     filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     votes_list = list(csv.DictReader(open(filename)));
@@ -25,20 +25,20 @@ def main():
     for vote in iter(votes_list):
         # Have an easy way to pick the types of votes to include
         if vote['type'] == "no-no":
-            continue # Comment out to vote on this
-            #pass # Comment out to skip voting
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
         elif vote['type'] == "errata":
-            continue # Comment out to vote on this
-            #pass # Comment out to skip voting
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
         elif vote['type'] == "procedure":
-            continue # Comment out to vote on this
-            #pass # Comment out to skip voting
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
         elif vote['type'] == "1st":
-            continue # Comment out to vote on this
-            #pass # Comment out to skip voting
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
         elif vote['type'] == "2nd":
-            continue # Comment out to vote on this
-            #pass # Comment out to skip voting
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
 
         if (vote['yes'] == None or vote['yes'] == "0") and (vote['no'] == None or vote['no'] == "0") and (vote['abstain'] == None or vote['abstain'] == "0"):
             votes[vote['type']].append(vote)
@@ -170,11 +170,16 @@ def main():
             print(result)
 
             for vote in votes[vote_type]:
+                if vote['issue_number'] != "":
+                    title = "#" + vote['issue_number'] + " (PR #" + vote['pr_number'] + "): " + vote['topic'] + " (" + vote['type'] + ")"
+                else:
+                    title = vote['topic'] + " (" + vote['type'] + ")"
+
                 update = {
                     "requests": [{
                         "createItem": {
                             "item": {
-                                "title": "#" + vote['issue_number'] + " (PR #" + vote['pr_number'] + "): " + vote['topic'] + " (" + vote['type'] + ")",
+                                "title": title,
                                 "questionItem": { "question": { "required": True,
                                                                "choiceQuestion": {
                                                                    "type": "RADIO",

@@ -26,8 +26,8 @@ def main():
     attendance_file=sys.argv[1]; # File with UUIDs for each attendee
     ballot_file=sys.argv[2]; # File with list of ballots on which to be voted
     votes_file=sys.argv[3]; # File with votes captured from Google Forms
-    prev_votes_file="../_data/meetings/2023/07/votes.csv"
-    prev_ballots_file="../_data/meetings/2023/07/ballot.csv"
+    prev_votes_file="../_data/meetings/2023/09/votes.csv"
+    prev_ballots_file="../_data/meetings/2023/09/ballot.csv"
     if not os.path.isfile(prev_votes_file):
         prev_votes_file=""
     if not os.path.isfile(prev_ballots_file):
@@ -49,7 +49,14 @@ def main():
     if prev_votes_file != "":
         prev_ballot_list = list(csv.DictReader(open(prev_votes_file)));
         for ballot in prev_ballot_list:
-            topic = "#" + ballot['issue_number'] + " (PR #" + ballot['pr_number'] + "): " + ballot['topic'] + " (" + ballot['type'] + ")"
+            if ballot['issue_number'] != "":
+                if ballot['pr_number'] != "":
+                    topic = "#" + ballot['issue_number'] + " (PR #" + ballot['pr_number'] + "): " + ballot['topic'] + " (" + ballot['type'] + ")"
+                else:
+                    topic = "#" + ballot['issue_number'] + ": " + ballot['topic'] + " (" + ballot['type'] + ")"
+            else:
+                topic = ballot['topic'] + " (" + ballot['type'] + ")"
+
             if (ballot['topic'] == "daybreak" or
                 ((ballot['yes'] == None or int(ballot['yes']) == 0) and
                  (ballot['no'] == None or int(ballot['no']) == 0) and
@@ -68,7 +75,14 @@ def main():
 
     # Create dictionary for CSV key line
     for ballot in iter(ballot_list):
-        topic = "#" + ballot['issue_number'] + " (PR #" + ballot['pr_number'] + "): " + ballot['topic'] + " (" + ballot['type'] + ")"
+        if ballot['issue_number'] != "":
+            if ballot['pr_number'] != "":
+                topic = "#" + ballot['issue_number'] + " (PR #" + ballot['pr_number'] + "): " + ballot['topic'] + " (" + ballot['type'] + ")"
+            else:
+                topic = "#" + ballot['issue_number'] + ": " + ballot['topic'] + " (" + ballot['type'] + ")"
+        else:
+            topic = ballot['topic'] + " (" + ballot['type'] + ")"
+
         if ballot['topic'] == "daybreak" or topic in ballots:
             continue;
         ballots.append(topic);
