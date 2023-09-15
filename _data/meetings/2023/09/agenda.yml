@@ -184,7 +184,7 @@ plenaries:
       title: "14: I/O"
       issue_number:
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "15: Tool Support"
@@ -214,13 +214,13 @@ plenaries:
       title: "19: Language Bindings"
       issue_number:
       presenter: Puri
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "A: Language Bindings Summary"
       issue_number:
       presenter: Puri
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "B: Change-Log"
