@@ -17,6 +17,9 @@ def hasLabel(labels, label):
 
 def main():
     token=subprocess.run(['gh','auth','token'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip()
+    if len(sys.argv) < 6:
+        print("Usage: ./add_reading_vote <year> <month> <issue_number> <pr_number> <presenter> [vote_type]")
+        exit(1)
     year = sys.argv[1]
     month = sys.argv[2]
     issue_number = int(sys.argv[3])

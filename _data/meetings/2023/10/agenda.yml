@@ -40,3 +40,17 @@ plenaries:
       presenter: Placeholder Presenter
       done: 0
 
+    - type: Reading
+      title: "Stray subsection 'Host Rank' in Section 16.4"
+      issue_number: 740
+      pr_number: 882
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Fix WG chairs"
+      issue_number: 752
+      pr_number: 880
+      presenter: Wes
+      done: 0
+
