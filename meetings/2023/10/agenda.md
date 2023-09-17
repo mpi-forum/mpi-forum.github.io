@@ -7,3 +7,24 @@ month: "10"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"
 ---
 
+## Officer Nominations
+
+The Final Ratification Meeting (FRM) is the meeting where officers through the next release of the
+MPI Standard are elected. The nominees for each position are posted here. Nominations open during
+the RCM (September, 2023) and close two weeks before the RCM (October 17, 2023).
+
+### MPI Forum Chair
+
+* Martin Schulz, TUM
+
+### MPI Forum Secretary
+
+* Wes Bland, Meta
+
+### MPI Forum Treasurer
+
+* Brian Smith, Cornelis Networks
+
+### MPI Standard Document Editor
+
+* Bill Gropp, University of Illinois, Champaign
