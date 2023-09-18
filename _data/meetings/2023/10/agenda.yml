@@ -61,3 +61,10 @@ plenaries:
       presenter: Howard
       done: 0
 
+    - type: Reading
+      title: "Removed Interfaces RC Issues"
+      issue_number: 792
+      pr_number: 909
+      presenter: Wes
+      done: 0
+
