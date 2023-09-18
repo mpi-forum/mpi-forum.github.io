@@ -55,7 +55,7 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "chap-dynamic: remove use of \const"
+      title: 'chap-dynamic: remove use of \const'
       issue_number: 755
       pr_number: 885
       presenter: Howard
