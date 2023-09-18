@@ -68,3 +68,17 @@ plenaries:
       presenter: Wes
       done: 0
 
+    - type: Reading
+      title: "POST-RC4.1 FIXES -- Point-to-Point Chapter 3"
+      issue_number: 791
+      pr_number: 908
+      presenter: Dan
+      done: 0
+
+    - type: Reading
+      title: "Fixes for typos in the datatype chapter"
+      issue_number: 787
+      pr_number: 883
+      presenter: George
+      done: 0
+

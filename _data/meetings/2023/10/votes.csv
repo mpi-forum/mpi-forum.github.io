@@ -3,3 +3,5 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 752,880,"Fix WG chairs",errata
 755,885,"chap-dynamic: remove use of \const",errata
 792,909,"Removed Interfaces RC Issues",errata
+791,908,"POST-RC4.1 FIXES -- Point-to-Point Chapter 3",errata
+787,883,"Fixes for typos in the datatype chapter",errata
