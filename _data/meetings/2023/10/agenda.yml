@@ -117,3 +117,94 @@ plenaries:
       presenter: Tony
       done: 0
 
+    - type: Reading
+      title: "Code examples in tools chapter have inconsistent coding style"
+      issue_number: 762
+      pr_number: 895
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Text about event types in tools chapter does not reference the correct index"
+      issue_number: 761
+      pr_number: 893
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "RMA-specific operators are not *new*"
+      issue_number: 758
+      pr_number: 903
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "RMA: remove reference to MPI-2 RMA"
+      issue_number: 763
+      pr_number: 905
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "RMA: Contradicting rules about use  of MPI_REQUEST_FREE"
+      issue_number: 760
+      pr_number: 904
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)"
+      issue_number: 794
+      pr_number: 913
+      presenter: Julien
+      done: 0
+
+    - type: Reading
+      title: "RMA chapter committee changes"
+      issue_number: 745
+      pr_number: 857
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "MPI 4.1rc topology chapter review: Update neighbor collective LIS entries to use associated virtual topology"
+      issue_number: 795
+      pr_number: 914
+      presenter: Christoph
+      done: 0
+
+    - type: Reading
+      title: "Corrections and edits to the Virtual Topologies chapter for MPI4.1rc1"
+      issue_number: 749
+      pr_number: 876
+      presenter: Christoph
+      done: 0
+
+    - type: Reading
+      title: "MPI 4.1 RMA chapter review issues"
+      issue_number: 764
+      pr_number: 912
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "41rc1 collective chapter : use rank instead of MPI process for several collectives LIS"
+      issue_number: 797
+      pr_number: 915
+      presenter: Julien
+      done: 0
+
+    - type: Reading
+      title: "change-log entry missing for PR 663"
+      issue_number: 777
+      pr_number: 917
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "change-log entry missing for PR 671"
+      issue_number: 776
+      pr_number: 916
+      presenter: Joseph
+      done: 0
+

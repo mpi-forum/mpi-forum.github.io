@@ -10,3 +10,16 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 784,886,"Reviewers comments and changes to chapter 7 in RC 4.1",errata
 788,890,"41rc1: Environmental management (chap-inquiry): error handler related problems",errata
 765,888,"MPI_Psend_init_c & MPI_Precv_init_c",errata
+762,895,"Code examples in tools chapter have inconsistent coding style",errata
+761,893,"Text about event types in tools chapter does not reference the correct index",errata
+758,903,"RMA-specific operators are not *new*",errata
+763,905,"RMA: remove reference to MPI-2 RMA",errata
+760,904,"RMA: Contradicting rules about use  of MPI_REQUEST_FREE",errata
+794,913,"41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)",errata
+745,857,"RMA chapter committee changes",errata
+795,914,"MPI 4.1rc topology chapter review: Update neighbor collective LIS entries to use associated virtual topology",errata
+749,876,"Corrections and edits to the Virtual Topologies chapter for MPI4.1rc1",errata
+764,912,"MPI 4.1 RMA chapter review issues",errata
+797,915,"41rc1 collective chapter : use rank instead of MPI process for several collectives LIS",errata
+777,917,"change-log entry missing for PR 663",errata
+776,916,"change-log entry missing for PR 671",errata
