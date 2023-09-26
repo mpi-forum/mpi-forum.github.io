@@ -5,3 +5,8 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 792,909,"Removed Interfaces RC Issues",errata
 791,908,"POST-RC4.1 FIXES -- Point-to-Point Chapter 3",errata
 787,883,"Fixes for typos in the datatype chapter",errata
+790,906,"mpi-4.1rc reviewer feedback for chap-11",errata
+779,910,"change-log entry for PR 629 missing",errata
+784,886,"Reviewers comments and changes to chapter 7 in RC 4.1",errata
+788,890,"41rc1: Environmental management (chap-inquiry): error handler related problems",errata
+765,888,"MPI_Psend_init_c & MPI_Precv_init_c",errata
