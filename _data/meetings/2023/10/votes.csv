@@ -23,7 +23,7 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 797,915,"41rc1 collective chapter : use rank instead of MPI process for several collectives LIS",errata
 777,917,"change-log entry missing for PR 663",errata
 776,916,"change-log entry missing for PR 671",errata
-,,"Vote to ratify MPI 4.0",procedure
+,,"Vote to ratify MPI 4.1",procedure
 800,919,"41rc1 io chapter : Example 14.4 is used as a noun, which makes the text flow a bit odd",errata
 799,918,"41rc1 io chapter : fix most of small reviews",errata
 754,874,"Non-negative used in LIS (rest uses nonnegative)",errata
