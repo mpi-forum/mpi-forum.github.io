@@ -256,3 +256,38 @@ plenaries:
       presenter: Julien
       done: 0
 
+    - type: Reading
+      title: "Errata entry of PR #754 in wrong section"
+      issue_number: 747
+      pr_number: 874
+      presenter: Tobias
+      done: 0
+
+    - type: Reading
+      title: "Change-log entry have incorrect/no references."
+      issue_number: 801
+      pr_number: 921
+      presenter: Tobias
+      done: 0
+
+    - type: Reading
+      title: "Errata entry of PR #754 in wrong section"
+      issue_number: 747
+      pr_number: 874
+      presenter: Tobias
+      done: 0
+
+    - type: Reading
+      title: "change-log entry missing for PR 620"
+      issue_number: 780
+      pr_number: 922
+      presenter: Tobias
+      done: 0
+
+    - type: Reading
+      title: "Reviewers comments and changes to chapter 7 in RC 4.1"
+      issue_number: 784
+      pr_number: 886
+      presenter: Guillaume
+      done: 0
+
