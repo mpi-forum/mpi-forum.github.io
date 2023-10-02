@@ -291,3 +291,10 @@ plenaries:
       presenter: Guillaume
       done: 0
 
+    - type: Reading
+      title: "MPI_Psend_init_c & MPI_Precv_init_c"
+      issue_number: 765
+      pr_number: 888
+      presenter: Christoph
+      done: 0
+
