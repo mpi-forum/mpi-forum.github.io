@@ -32,3 +32,5 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 780,922,"change-log entry missing for PR 620",errata
 784,886,"Reviewers comments and changes to chapter 7 in RC 4.1",errata
 765,888,"MPI_Psend_init_c & MPI_Precv_init_c",errata
+752,880,"Fix WG chairs",errata
+740,882,"Stray subsection 'Host Rank' in Section 16.4",errata
