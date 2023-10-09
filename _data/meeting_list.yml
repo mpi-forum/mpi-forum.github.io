@@ -2,6 +2,10 @@ non_voting:
 
   - year: 2023
 
+  - start: 2023-10-11T10:00
+    end: 2023-10-11T12:00
+    title: "Count argument in MPI_Psend_init_c and MPI_Precv_init_c"
+
   - start: 2023-06-21T10:00
     end: 2023-06-21T12:00
     title: "Any Pending Items for MPI 4.1, plus pre-readings (Martin, Rolf)"
