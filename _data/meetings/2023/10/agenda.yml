@@ -354,3 +354,10 @@ plenaries:
       presenter: Benson
       done: 0
 
+    - type: Reading
+      title: "Add semantic changes chapter entry for bindings errata"
+      issue_number: 806
+      pr_number: 927
+      presenter: Wes
+      done: 0
+

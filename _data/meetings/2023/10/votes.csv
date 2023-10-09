@@ -40,3 +40,4 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 781,902,"change-log entry for PR 607 missing",errata
 801,921,"Change-log entry have incorrect/no references.",errata
 712,861,"Update figures in all chapters to use selected consistent format(s)",errata
+806,927,"Add semantic changes chapter entry for bindings errata",errata
