@@ -34,3 +34,9 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 765,888,"MPI_Psend_init_c & MPI_Precv_init_c",errata
 752,880,"Fix WG chairs",errata
 740,882,"Stray subsection 'Host Rank' in Section 16.4",errata
+753,881,"Change-log typos",errata
+774,898,"Add change-log for PR #830",errata
+741,884,"Changelog: multiple mention of clarification of progress rules",errata
+781,902,"change-log entry for PR 607 missing",errata
+801,921,"Change-log entry have incorrect/no references.",errata
+712,861,"Update figures in all chapters to use selected consistent format(s)",errata

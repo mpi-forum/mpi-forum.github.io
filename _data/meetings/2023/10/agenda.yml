@@ -312,3 +312,45 @@ plenaries:
       presenter: Wes
       done: 0
 
+    - type: Reading
+      title: "Change-log typos"
+      issue_number: 753
+      pr_number: 881
+      presenter: Tobias
+      done: 0
+
+    - type: Reading
+      title: "Add change-log for PR #830"
+      issue_number: 774
+      pr_number: 898
+      presenter: Tobias
+      done: 0
+
+    - type: Reading
+      title: "Changelog: multiple mention of clarification of progress rules"
+      issue_number: 741
+      pr_number: 884
+      presenter: Tobias
+      done: 0
+
+    - type: Reading
+      title: "change-log entry for PR 607 missing"
+      issue_number: 781
+      pr_number: 902
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "Change-log entry have incorrect/no references."
+      issue_number: 801
+      pr_number: 921
+      presenter: Tobias
+      done: 0
+
+    - type: MPI 4.2 Reading
+      title: "Update figures in all chapters to use selected consistent format(s)"
+      issue_number: 712
+      pr_number: 861
+      presenter: Benson
+      done: 0
+
