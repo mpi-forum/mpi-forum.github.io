@@ -6,7 +6,7 @@ permalink: meetings/2017/09/notes
 
 ## MPI Forum Business Discussion
 
-[Slides](https://github.com/mpi-forum/mpi-forum.github.io/raw/master/slides/2017/09/2017-09-mpiideas.pptx)
+[Slides](https://github.com/mpi-forum/mpi-forum.github.io/raw/master/_slides/2017/09/2017-09-mpiideas.pptx)
 
 Martin presented slides with many ideas about how to improve the pace of progress in the MPI Standard and avoid allowing the standard to become made irrelevant by other programming models. Primarily:
 
@@ -32,7 +32,7 @@ More details can be found in the slides. Martin, Wesley, and Jeff will come back
 
 ## Error Handlers Reading
 
-[Slides](https://github.com/mpi-forum/mpi-forum.github.io/raw/master/slides/2017/09/2017-09-21-Error-Handlers-Reading.pptx)
+[Slides](https://github.com/mpi-forum/mpi-forum.github.io/raw/master/_slides/2017/09/2017-09-21-Error-Handlers-Reading.pptx)
 
 The Fault Tolerance Working Group read a proposal to improve error handlers. Details about the proposal can be found in the slides. The reading did not succeed due to a need to add a new chapter for non-backward compatible changes. The FTWG will make the necessary changes and re-read the issues at the next meeting.
 

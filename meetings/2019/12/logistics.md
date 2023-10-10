@@ -23,7 +23,7 @@ Student Union Building (SUB) on the 3rd floor, rooms Acoma A&B.
 Albuquerque, NM 87131
 
 Recommendations for parking, hotels, and meals can be found in the [slide
-deck](https://github.com/mpi-forum/mpi-forum.github.io/raw/master/slides/2019/09/mpi_forum.pdf)
+deck](https://github.com/mpi-forum/mpi-forum.github.io/raw/master/_slides/2019/09/mpi_forum.pdf)
 presented at the September 2019 meeting.
 
 ### Hotel
