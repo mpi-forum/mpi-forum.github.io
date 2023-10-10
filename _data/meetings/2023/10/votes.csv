@@ -23,7 +23,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 797,915,"41rc1 collective chapter : use rank instead of MPI process for several collectives LIS",errata
 777,917,"change-log entry missing for PR 663",errata
 776,916,"change-log entry missing for PR 671",errata
-,,"Vote to ratify MPI 4.1",procedure
 800,919,"41rc1 io chapter : Example 14.4 is used as a noun, which makes the text flow a bit odd",errata
 799,918,"41rc1 io chapter : fix most of small reviews",errata
 754,874,"Non-negative used in LIS (rest uses nonnegative)",errata
@@ -32,6 +31,7 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 780,922,"change-log entry missing for PR 620",errata
 784,886,"Reviewers comments and changes to chapter 7 in RC 4.1",errata
 765,888,"MPI_Psend_init_c & MPI_Precv_init_c",errata
+806,927,"Add semantic changes chapter entry for bindings errata",errata
 752,880,"Fix WG chairs",errata
 740,882,"Stray subsection 'Host Rank' in Section 16.4",errata
 753,881,"Change-log typos",errata
@@ -39,5 +39,4 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 741,884,"Changelog: multiple mention of clarification of progress rules",errata
 781,902,"change-log entry for PR 607 missing",errata
 801,921,"Change-log entry have incorrect/no references.",errata
-712,861,"Update figures in all chapters to use selected consistent format(s)",errata
-806,927,"Add semantic changes chapter entry for bindings errata",errata
+,,"Vote to ratify MPI 4.1",procedure

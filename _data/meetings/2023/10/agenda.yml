@@ -347,17 +347,17 @@ plenaries:
       presenter: Tobias
       done: 0
 
-    - type: MPI 4.2 Reading
-      title: "Update figures in all chapters to use selected consistent format(s)"
-      issue_number: 712
-      pr_number: 861
-      presenter: Benson
-      done: 0
-
     - type: Reading
       title: "Add semantic changes chapter entry for bindings errata"
       issue_number: 806
       pr_number: 927
       presenter: Wes
+      done: 0
+
+    - type: MPI 4.2 Reading
+      title: "Update figures in all chapters to use selected consistent format(s)"
+      issue_number: 712
+      pr_number: 861
+      presenter: Benson
       done: 0
 
