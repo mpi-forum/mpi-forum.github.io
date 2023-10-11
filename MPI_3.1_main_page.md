@@ -27,7 +27,7 @@ As of the December 2014 meeting, we completed all additions to the MPI 3.1 stand
 *   Starting Dec. 2014: Start integrating passed tickets into golden copy
     *   Has to be done by chapter committee chairs
     *   Changes to be reviewed by chapter committees
-    *   Text edits must follow [2014-12-instructions.pdf](../_slides/2014/12/2014-12-instructions.pdf)
+    *   Text edits must follow [2014-12-instructions.pdf](https://github.com/mpi-forum/mpi-forum.github.io/raw/master/_slides/2014/12/2014-12-instructions.pdf)
     *   The location of the SVN repo listed in the instructions
     *   WARNING: start with current version of the golden copy (Fortran changes already in)
 *   By February 2nd (4 weeks before MPI Forum)
@@ -65,7 +65,7 @@ At the end of the process, every chapter committee chair is expected to provide:
 
 These documents need to be reviewed by the chapter committee and made available at least two weeks before the forum meeting.
 
-A longer description of these procedures and documentation on how to write/build the MPI document is available [here](../_slides/2014/12/2014-12-instructions.pdf).
+A longer description of these procedures and documentation on how to write/build the MPI document is available [here](https://github.com/mpi-forum/mpi-forum.github.io/raw/master/_slides/2014/12/2014-12-instructions.pdf).
 
 ## Chapter Committees
 
