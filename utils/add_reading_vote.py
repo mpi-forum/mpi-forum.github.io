@@ -55,7 +55,7 @@ def main():
     title = issue.title.replace('"',"\'")
     print("Issue " + str(issue_number) + ' has title ' + title)
 
-    if vote_type == "" or vote_type == "errata" or vote_type == "procedure":
+    if vote_type == "" or vote_type == "errata" or vote_type == "procedure" or vote_type == "no-no":
         print("Writing to agenda")
         if not dry_run:
             agenda_list.write("    - type: Reading\n")

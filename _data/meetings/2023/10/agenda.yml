@@ -347,3 +347,10 @@ plenaries:
       presenter: Benson
       done: 0
 
+    - type: Reading
+      title: "MPI 4.1: MPI_Status_{get,set}_{source,tag,error} and init/finalize"
+      issue_number: 808
+      pr_number: 931
+      presenter: Jeff H.
+      done: 0
+

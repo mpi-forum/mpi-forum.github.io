@@ -36,4 +36,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 741,884,"Changelog: multiple mention of clarification of progress rules",errata
 781,902,"change-log entry for PR 607 missing",errata
 801,921,"Change-log entry have incorrect/no references.",errata
+808,931,"MPI 4.1: MPI_Status_{get,set}_{source,tag,error} and init/finalize",no-no
 ,,"Vote to ratify MPI 4.1",procedure
+,,"Officer Elections",procedure
