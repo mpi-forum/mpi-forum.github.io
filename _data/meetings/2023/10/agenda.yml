@@ -292,13 +292,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "MPI_Psend_init_c & MPI_Precv_init_c"
-      issue_number: 765
-      pr_number: 888
-      presenter: Christoph
-      done: 0
-
-    - type: Reading
       title: "Fix WG chairs"
       issue_number: 752
       pr_number: 880
@@ -345,13 +338,6 @@ plenaries:
       issue_number: 801
       pr_number: 921
       presenter: Tobias
-      done: 0
-
-    - type: Reading
-      title: "Add semantic changes chapter entry for bindings errata"
-      issue_number: 806
-      pr_number: 927
-      presenter: Wes
       done: 0
 
     - type: MPI 4.2 Reading
