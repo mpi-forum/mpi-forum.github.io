@@ -14,6 +14,11 @@ MPI-4.1 is being drafted and the first release candidate was published on August
 
 * [MPI 4.1 Release Candidate 1](mpi-4.1/mpi-41-rc1.pdf)
 
+A new release candidate was published on October 16, 2023 in preperation for
+the final ratification meeting on October 31, 2023.
+
+* [MPI 4.1 Release Candidate 2](mpi-4.1/mpi-41-rc2.pdf)
+
 This document can be used for comments between now and the publication of the final version of MPI 4.1.
 
 ## MPI 4.0
