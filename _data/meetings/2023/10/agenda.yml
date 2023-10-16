@@ -354,3 +354,24 @@ plenaries:
       presenter: Jeff H.
       done: 0
 
+    - type: Reading
+      title: "Minor text updates from 4.1-rc1 review"
+      issue_number: 783
+      pr_number: 901
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Use of 'local MPI process' does not conform to common practice in the document"
+      issue_number: 759
+      pr_number: 892
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Text about PVAR watermark classes is ambiguous"
+      issue_number: 757
+      pr_number: 889
+      presenter: Marc-Andre
+      done: 0
+

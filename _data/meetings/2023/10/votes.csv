@@ -39,3 +39,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 808,931,"MPI 4.1: MPI_Status_{get,set}_{source,tag,error} and init/finalize",no-no
 ,,"Vote to ratify MPI 4.1",procedure
 ,,"Officer Elections",procedure
+783,901,"Minor text updates from 4.1-rc1 review",errata
+759,892,"Use of 'local MPI process' does not conform to common practice in the document",errata
+757,889,"Text about PVAR watermark classes is ambiguous",errata
