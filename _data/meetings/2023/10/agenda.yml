@@ -190,7 +190,7 @@ plenaries:
       title: "41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)"
       issue_number: 794
       pr_number: 913
-      presenter: Julien
+      presenter: Hugo
       done: 0
 
     - type: Reading
@@ -225,7 +225,7 @@ plenaries:
       title: "41rc1 collective chapter : use rank instead of MPI process for several collectives LIS"
       issue_number: 797
       pr_number: 915
-      presenter: Julien
+      presenter: Hugo
       done: 0
 
     - type: Reading
@@ -246,14 +246,14 @@ plenaries:
       title: "41rc1 io chapter : Example 14.4 is used as a noun, which makes the text flow a bit odd"
       issue_number: 800
       pr_number: 919
-      presenter: Julien
+      presenter: Hugo
       done: 0
 
     - type: Reading
       title: "41rc1 io chapter : fix most of small reviews"
       issue_number: 799
       pr_number: 918
-      presenter: Julien
+      presenter: Hugo
       done: 0
 
     - type: Reading
