@@ -380,4 +380,10 @@ plenaries:
       issue_number: 758
       pr_number: 711
       presenter: Ignacio
+
+    - type: Informal Side Document Reading
+      title: "Memory Allocation Kinds side document"
+      issue_number: 809
+      pr_number:
+      presenter: Jim/Rohit
       done: 0
