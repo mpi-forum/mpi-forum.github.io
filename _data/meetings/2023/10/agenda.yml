@@ -75,34 +75,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Stray subsection 'Host Rank' in Section 16.4"
-      issue_number: 740
-      pr_number: 882
-      presenter: Wes
-      done: 0
-
-    - type: Reading
-      title: "Fix WG chairs"
-      issue_number: 752
-      pr_number: 880
-      presenter: Wes
-      done: 0
-
-    - type: Reading
-      title: 'chap-dynamic: remove use of \const'
-      issue_number: 755
-      pr_number: 885
-      presenter: Howard
-      done: 0
-
-    - type: Reading
-      title: "Removed Interfaces RC Issues"
-      issue_number: 792
-      pr_number: 909
-      presenter: Wes
-      done: 0
-
-    - type: Reading
       title: "POST-RC4.1 FIXES -- Point-to-Point Chapter 3"
       issue_number: 791
       pr_number: 908
@@ -114,6 +86,13 @@ plenaries:
       issue_number: 787
       pr_number: 883
       presenter: George
+      done: 0
+
+    - type: Reading
+      title: 'chap-dynamic: remove use of \const'
+      issue_number: 755
+      pr_number: 885
+      presenter: Howard
       done: 0
 
     - type: Reading
@@ -138,6 +117,13 @@ plenaries:
       done: 0
 
     - type: Reading
+      title: "Reviewers comments and changes to chapter 7 in RC 4.1"
+      issue_number: 784
+      pr_number: 886
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
       title: "41rc1: Environmental management (chap-inquiry): error handler related problems"
       issue_number: 788
       pr_number: 890
@@ -149,20 +135,6 @@ plenaries:
       issue_number: 765
       pr_number: 888
       presenter: Tony
-      done: 0
-
-    - type: Reading
-      title: "Code examples in tools chapter have inconsistent coding style"
-      issue_number: 762
-      pr_number: 895
-      presenter: Marc-Andre
-      done: 0
-
-    - type: Reading
-      title: "Text about event types in tools chapter does not reference the correct index"
-      issue_number: 761
-      pr_number: 893
-      presenter: Marc-Andre
       done: 0
 
     - type: Reading
@@ -187,16 +159,30 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)"
-      issue_number: 794
-      pr_number: 913
-      presenter: Hugo
-      done: 0
-
-    - type: Reading
       title: "RMA chapter committee changes"
       issue_number: 745
       pr_number: 857
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "MPI 4.1 RMA chapter review issues"
+      issue_number: 764
+      pr_number: 912
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "change-log entry missing for PR 663"
+      issue_number: 777
+      pr_number: 917
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "change-log entry missing for PR 671"
+      issue_number: 776
+      pr_number: 916
       presenter: Joseph
       done: 0
 
@@ -215,10 +201,10 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "MPI 4.1 RMA chapter review issues"
-      issue_number: 764
-      pr_number: 912
-      presenter: Joseph
+      title: "41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)"
+      issue_number: 794
+      pr_number: 913
+      presenter: Hugo
       done: 0
 
     - type: Reading
@@ -226,20 +212,6 @@ plenaries:
       issue_number: 797
       pr_number: 915
       presenter: Hugo
-      done: 0
-
-    - type: Reading
-      title: "change-log entry missing for PR 663"
-      issue_number: 777
-      pr_number: 917
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "change-log entry missing for PR 671"
-      issue_number: 776
-      pr_number: 916
-      presenter: Joseph
       done: 0
 
     - type: Reading
@@ -285,27 +257,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Reviewers comments and changes to chapter 7 in RC 4.1"
-      issue_number: 784
-      pr_number: 886
-      presenter: Guillaume
-      done: 0
-
-    - type: Reading
-      title: "Fix WG chairs"
-      issue_number: 752
-      pr_number: 880
-      presenter: Wes
-      done: 0
-
-    - type: Reading
-      title: "Stray subsection 'Host Rank' in Section 16.4"
-      issue_number: 740
-      pr_number: 882
-      presenter: Wes
-      done: 0
-
-    - type: Reading
       title: "Change-log typos"
       issue_number: 753
       pr_number: 881
@@ -327,17 +278,24 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "change-log entry for PR 607 missing"
-      issue_number: 781
-      pr_number: 902
-      presenter: Guillaume
-      done: 0
-
-    - type: Reading
       title: "Change-log entry have incorrect/no references."
       issue_number: 801
       pr_number: 921
       presenter: Tobias
+      done: 0
+
+    - type: Reading
+      title: "Removed Interfaces RC Issues"
+      issue_number: 792
+      pr_number: 909
+      presenter: Wes
+      done: 0
+
+    - type: Reading
+      title: "Stray subsection 'Host Rank' in Section 16.4"
+      issue_number: 740
+      pr_number: 882
+      presenter: Wes
       done: 0
 
     - type: Reading
@@ -366,6 +324,34 @@ plenaries:
       issue_number: 757
       pr_number: 889
       presenter: Marc-Andre
+      done: 0
+
+    - type: No-no Reading
+      title: "Fix WG chairs"
+      issue_number: 752
+      pr_number: 880
+      presenter: Wes
+      done: 0
+
+    - type: No-no Reading
+      title: "Code examples in tools chapter have inconsistent coding style"
+      issue_number: 762
+      pr_number: 895
+      presenter: Marc-Andre
+      done: 0
+
+    - type: No-no Reading
+      title: "Text about event types in tools chapter does not reference the correct index"
+      issue_number: 761
+      pr_number: 893
+      presenter: Marc-Andre
+      done: 0
+
+    - type: No-no Reading
+      title: "change-log entry for PR 607 missing"
+      issue_number: 781
+      pr_number: 902
+      presenter: Tobias
       done: 0
 
     - type: MPI 4.2 Reading
