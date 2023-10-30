@@ -15,6 +15,16 @@ import keyring
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
 
+prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/07/attendance.csv"
+prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/09/attendance.csv"
+curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/10/attendance.csv"
+curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-10-oct/2023-10-31-registration.csv"
+# Make sure to use a pre-filled link here so it gets email out correctly
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLScgMXwZcdwgmapc3e4wiep1osrA048-jeCsx-4uQ68y336Uig/viewform?usp=pp_url&entry.1937744810={name}&entry.1667385315={org}&entry.1724938170={id}"
+
+prev_ooe = 30
+dry_run = 1
+
 from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
@@ -132,15 +142,6 @@ def main():
     ooe = 0;
     imove = 0;
     registered = 0;
-
-    prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/07/attendance.csv"
-    prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/09/attendance.csv"
-    curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/10/attendance.csv"
-    curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-10-oct/2023-10-31-registration.csv"
-    # Make sure to use a pre-filled link here so it gets email out correctly
-    voting_link = "https://docs.google.com/forms/d/e/1FAIpQLScgMXwZcdwgmapc3e4wiep1osrA048-jeCsx-4uQ68y336Uig/viewform?usp=pp_url&entry.1937744810={name}&entry.1667385315={org}&entry.1724938170={id}"
-
-    prev_ooe = 30
 
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
@@ -282,7 +283,8 @@ Wes Bland (MPI Forum Secretary)\
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
                     to_addr=email, msg=message_text, subject='September 2023 MPI Forum Plenary Day 1 Voting Link')
-            #message_id = service.send_message(message=message)
+            if not dry_run:
+                message_id = service.send_message(message=message)
 
 if __name__ == '__main__':
     main()
