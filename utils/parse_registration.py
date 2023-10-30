@@ -30,7 +30,7 @@ def main():
 
     for registration in iter(registration_list):
         name = registration['What is your full name?'];
-        org = registration['What organization will you be representing?'];
+        org = registration['What organization will you be representing?'].strip();
         email = registration['Email Address'];
 
         if any_remote and registration['Will you be attending remotely or in person?'] == "Remote":
