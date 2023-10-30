@@ -229,13 +229,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Errata entry of PR #754 in wrong section"
-      issue_number: 747
-      pr_number: 874
-      presenter: Tobias
-      done: 0
-
-    - type: Reading
       title: "Change-log entry have incorrect/no references."
       issue_number: 801
       pr_number: 921
@@ -281,6 +274,13 @@ plenaries:
       title: "Change-log entry have incorrect/no references."
       issue_number: 801
       pr_number: 921
+      presenter: Tobias
+      done: 0
+
+    - type: Reading
+      title: "change-log entry for PR 607 missing"
+      issue_number: 781
+      pr_number: 902
       presenter: Tobias
       done: 0
 
@@ -348,9 +348,9 @@ plenaries:
       done: 0
 
     - type: No-no Reading
-      title: "change-log entry for PR 607 missing"
-      issue_number: 781
-      pr_number: 902
+      title: "Errata entry of PR #754 in wrong section"
+      issue_number: 747
+      pr_number: 874
       presenter: Tobias
       done: 0
 
