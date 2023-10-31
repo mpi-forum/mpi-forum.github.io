@@ -320,6 +320,7 @@ layout: default
              <tr>
                  <th>Type</th>
                  <th>Issue</th>
+                 <th>PR</th>
                  <th>Link</th>
                  <th>Title</th>
                  <th>Presenter</th>
@@ -328,53 +329,64 @@ layout: default
              <tr>
                  <td>
                      {% if item.done == 1 %}
-                     <del>
-                         {% endif %}
-                         {{ item.type }}
-                         {% if item.done == 1 %}
-                     </del>
+                       <del>
+                     {% endif %}
+                     {{ item.type }}
+                     {% if item.done == 1 %}
+                       </del>
                      {% endif %}
                  </td>
                  <td>
                      <center>
                          {% if item.done == 1 %}
-                         <del>
+                           <del>
                          {% endif %}
                          <a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a>
                          {% if item.done == 1 %}
-                         </del>
+                           </del>
                          {% endif %}
                      </center>
                  </td>
                  <td>
                      <center>
                          {% if item.done == 1 %}
-                         <del>
+                           <del>
+                         {% endif %}
+                         <a href="{{pr_url}}{{item.pr_number}}">{{item.pr_number}}</a>
+                         {% if item.done == 1 %}
+                           </del>
+                         {% endif %}
+                     </center>
+                 </td>
+                 <td>
+                     <center>
+                         {% if item.done == 1 %}
+                           <del>
                          {% endif %}
                          {% if item.link.size > 0 %}
                              <a href="{{item.link}}">Link</a>
                          {% endif %}
                          {% if item.done == 1 %}
-                         </del>
+                           </del>
                          {% endif %}
                      </center>
                  </td>
                  <td>
                      {% if item.done == 1 %}
-                     <del>
-                         {% endif %}
-                         {{ item.title }}
-                         {% if item.done == 1 %}
-                     </del>
+                       <del>
+                     {% endif %}
+                     {{ item.title }}
+                     {% if item.done == 1 %}
+                       </del>
                      {% endif %}
                  </td>
                  <td>
                      {% if item.done == 1 %}
-                     <del>
-                         {% endif %}
-                         {{ item.presenter }}
-                         {% if item.done == 1 %}
-                     </del>
+                       <del>
+                     {% endif %}
+                     {{ item.presenter }}
+                     {% if item.done == 1 %}
+                       </del>
                      {% endif %}
                  </td>
              </tr>
