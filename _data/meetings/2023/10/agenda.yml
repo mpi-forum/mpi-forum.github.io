@@ -142,28 +142,28 @@ plenaries:
       issue_number: 758
       pr_number: 903
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA: remove reference to MPI-2 RMA"
       issue_number: 763
       pr_number: 905
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA: Contradicting rules about use  of MPI_REQUEST_FREE"
       issue_number: 760
       pr_number: 904
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA chapter committee changes"
       issue_number: 745
       pr_number: 857
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI 4.1 RMA chapter review issues"
