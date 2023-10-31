@@ -1,40 +1,39 @@
 issue_number,pr_number,topic,type,yes,no,abstain,missed
-740,882,"Stray subsection 'Host Rank' in Section 16.4",errata
-755,885,"chap-dynamic: remove use of \const",errata
-792,909,"Removed Interfaces RC Issues",errata
 791,908,"POST-RC4.1 FIXES -- Point-to-Point Chapter 3",errata
 787,883,"Fixes for typos in the datatype chapter",errata
+755,885,"chap-dynamic: remove use of \const",errata
 790,906,"mpi-4.1rc reviewer feedback for chap-11",errata
 779,910,"change-log entry for PR 629 missing",errata
-753,881,"Change-log typos",errata
 774,898,"Add change-log for PR #830",errata
-741,884,"Changelog: multiple mention of clarification of progress rules",errata
-801,921,"Change-log entry have incorrect/no references.",errata
-777,917,"change-log entry missing for PR 663",errata
-776,916,"change-log entry missing for PR 671",errata
-780,922,"change-log entry missing for PR 620",errata
 781,902,"change-log entry for PR 607 missing",errata
 784,886,"Reviewers comments and changes to chapter 7 in RC 4.1",errata
+788,890,"41rc1: Environmental management (chap-inquiry): error handler related problems",errata
 758,903,"RMA-specific operators are not *new*",errata
 763,905,"RMA: remove reference to MPI-2 RMA",errata
 760,904,"RMA: Contradicting rules about use  of MPI_REQUEST_FREE",errata
-794,913,"41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)",errata
 745,857,"RMA chapter committee changes",errata
+764,912,"MPI 4.1 RMA chapter review issues",errata
+777,917,"change-log entry missing for PR 663",errata
+776,916,"change-log entry missing for PR 671",errata
 795,914,"MPI 4.1rc topology chapter review: Update neighbor collective LIS entries to use associated virtual topology",errata
 749,876,"Corrections and edits to the Virtual Topologies chapter for MPI4.1rc1",errata
-764,912,"MPI 4.1 RMA chapter review issues",errata
+794,913,"41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)",errata
 797,915,"41rc1 collective chapter : use rank instead of MPI process for several collectives LIS",errata
 800,919,"41rc1 io chapter : Example 14.4 is used as a noun, which makes the text flow a bit odd",errata
 799,918,"41rc1 io chapter : fix most of small reviews",errata
-784,886,"Reviewers comments and changes to chapter 7 in RC 4.1",errata
+747,874,"Errata entry of PR #754 in wrong section",no-no
+780,922,"change-log entry missing for PR 620",errata
+753,881,"Change-log typos",errata
+741,884,"Changelog: multiple mention of clarification of progress rules",errata
+801,921,"Change-log entry have incorrect/no references.",errata
+792,909,"Removed Interfaces RC Issues",errata
 740,882,"Stray subsection 'Host Rank' in Section 16.4",errata
+808,931,"MPI 4.1: MPI_Status_{get,set}_{source,tag,error} and init/finalize",no-no
 783,901,"Minor text updates from 4.1-rc1 review",errata
 759,892,"Use of 'local MPI process' does not conform to common practice in the document",errata
 757,889,"Text about PVAR watermark classes is ambiguous",errata
 752,880,"Fix WG chairs",no-no
-747,874,"Errata entry of PR #754 in wrong section",no-no
 762,895,"Code examples in tools chapter have inconsistent coding style",no-no
 761,893,"Text about event types in tools chapter does not reference the correct index",no-no
-808,931,"MPI 4.1: MPI_Status_{get,set}_{source,tag,error} and init/finalize",no-no
 ,,"Vote to ratify MPI 4.1",procedure
 ,,"Officer Elections",procedure

@@ -110,9 +110,16 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Reviewers comments and changes to chapter 7 in RC 4.1"
-      issue_number: 784
-      pr_number: 886
+      title: "Add change-log for PR #830"
+      issue_number: 774
+      pr_number: 898
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "change-log entry for PR 607 missing"
+      issue_number: 781
+      pr_number: 902
       presenter: Guillaume
       done: 0
 
@@ -128,13 +135,6 @@ plenaries:
       issue_number: 788
       pr_number: 890
       presenter: Aurelien
-      done: 0
-
-    - type: Reading
-      title: "MPI_Psend_init_c & MPI_Precv_init_c"
-      issue_number: 765
-      pr_number: 888
-      presenter: Tony
       done: 0
 
     - type: Reading
@@ -229,20 +229,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Change-log entry have incorrect/no references."
-      issue_number: 801
-      pr_number: 921
-      presenter: Tobias
-      done: 0
-
-    - type: Reading
-      title: "Errata entry of PR #754 in wrong section"
-      issue_number: 747
-      pr_number: 874
-      presenter: Tobias
-      done: 0
-
-    - type: Reading
       title: "change-log entry missing for PR 620"
       issue_number: 780
       pr_number: 922
@@ -257,13 +243,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Add change-log for PR #830"
-      issue_number: 774
-      pr_number: 898
-      presenter: Tobias
-      done: 0
-
-    - type: Reading
       title: "Changelog: multiple mention of clarification of progress rules"
       issue_number: 741
       pr_number: 884
@@ -274,13 +253,6 @@ plenaries:
       title: "Change-log entry have incorrect/no references."
       issue_number: 801
       pr_number: 921
-      presenter: Tobias
-      done: 0
-
-    - type: Reading
-      title: "change-log entry for PR 607 missing"
-      issue_number: 781
-      pr_number: 902
       presenter: Tobias
       done: 0
 
@@ -363,7 +335,7 @@ plenaries:
 
     - type: MPI 5.0 Reading
       title: "Coarse-grained fault-tolerance interface (Reinit, slice 1)"
-      issue_number: 758
+      issue_number: 578
       pr_number: 711
       presenter: Ignacio
 
