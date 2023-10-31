@@ -85,8 +85,8 @@ plenaries:
       title: "Fixes for typos in the datatype chapter"
       issue_number: 787
       pr_number: 883
-      presenter: George
-      done: 0
+      presenter: George / Joseph
+      done: 1
 
     - type: Reading
       title: 'chap-dynamic: remove use of \const'
@@ -128,7 +128,7 @@ plenaries:
       issue_number: 784
       pr_number: 886
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "41rc1: Environmental management (chap-inquiry): error handler related problems"
