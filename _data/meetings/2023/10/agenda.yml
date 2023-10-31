@@ -93,21 +93,21 @@ plenaries:
       issue_number: 755
       pr_number: 885
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "mpi-4.1rc reviewer feedback for chap-11"
       issue_number: 790
       pr_number: 906
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "change-log entry for PR 629 missing"
       issue_number: 779
       pr_number: 910
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Add change-log for PR #830"
@@ -191,91 +191,84 @@ plenaries:
       issue_number: 795
       pr_number: 914
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Corrections and edits to the Virtual Topologies chapter for MPI4.1rc1"
       issue_number: 749
       pr_number: 876
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)"
       issue_number: 794
       pr_number: 913
       presenter: Hugo
-      done: 0
+      done: 1
 
     - type: Reading
       title: "41rc1 collective chapter : use rank instead of MPI process for several collectives LIS"
       issue_number: 797
       pr_number: 915
       presenter: Hugo
-      done: 0
+      done: 1
 
     - type: Reading
       title: "41rc1 io chapter : Example 14.4 is used as a noun, which makes the text flow a bit odd"
       issue_number: 800
       pr_number: 919
       presenter: Hugo
-      done: 0
+      done: 1
 
     - type: Reading
       title: "41rc1 io chapter : fix most of small reviews"
       issue_number: 799
       pr_number: 918
       presenter: Hugo
-      done: 0
+      done: 1
 
     - type: Reading
       title: "change-log entry missing for PR 620"
       issue_number: 780
       pr_number: 922
       presenter: Tobias
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Change-log typos"
       issue_number: 753
       pr_number: 881
       presenter: Tobias
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Changelog: multiple mention of clarification of progress rules"
       issue_number: 741
       pr_number: 884
       presenter: Tobias
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Change-log entry have incorrect/no references."
       issue_number: 801
       pr_number: 921
       presenter: Tobias
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Removed Interfaces RC Issues"
       issue_number: 792
       pr_number: 909
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Stray subsection 'Host Rank' in Section 16.4"
       issue_number: 740
       pr_number: 882
       presenter: Wes
-      done: 0
-
-    - type: Reading
-      title: "MPI 4.1: MPI_Status_{get,set}_{source,tag,error} and init/finalize"
-      issue_number: 808
-      pr_number: 931
-      presenter: Jeff H.
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Minor text updates from 4.1-rc1 review"
@@ -297,6 +290,13 @@ plenaries:
       pr_number: 889
       presenter: Marc-Andre
       done: 0
+
+    - type: No-no Reading
+      title: "MPI 4.1: MPI_Status_{get,set}_{source,tag,error} and init/finalize"
+      issue_number: 808
+      pr_number: 931
+      presenter: Jeff H. / Joseph
+      done: 1
 
     - type: No-no Reading
       title: "Fix WG chairs"
