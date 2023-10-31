@@ -7,7 +7,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 774,898,"Add change-log for PR #830",errata
 781,902,"change-log entry for PR 607 missing",errata
 784,886,"Reviewers comments and changes to chapter 7 in RC 4.1",errata
-788,890,"41rc1: Environmental management (chap-inquiry): error handler related problems",errata
 758,903,"RMA-specific operators are not *new*",errata
 763,905,"RMA: remove reference to MPI-2 RMA",errata
 760,904,"RMA: Contradicting rules about use  of MPI_REQUEST_FREE",errata

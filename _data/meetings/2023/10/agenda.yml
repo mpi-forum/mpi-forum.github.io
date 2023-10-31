@@ -130,12 +130,12 @@ plenaries:
       presenter: Guillaume
       done: 1
 
-    - type: Reading
+    - type: Informal Reading
       title: "41rc1: Environmental management (chap-inquiry): error handler related problems"
       issue_number: 788
       pr_number: 890
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA-specific operators are not *new*"
@@ -170,21 +170,21 @@ plenaries:
       issue_number: 764
       pr_number: 912
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "change-log entry missing for PR 663"
       issue_number: 777
       pr_number: 917
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "change-log entry missing for PR 671"
       issue_number: 776
       pr_number: 916
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI 4.1rc topology chapter review: Update neighbor collective LIS entries to use associated virtual topology"
