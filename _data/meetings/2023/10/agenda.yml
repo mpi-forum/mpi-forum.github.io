@@ -7,7 +7,7 @@ schedule:
 
     - start: 2023-10-31T12:00
       end: 2023-10-31T12:30
-      title: "Voting Block"
+      title: "SKIPPED - Voting Block"
 
     - start: 2023-10-31T12:30
       end: 2023-10-31T13:00
@@ -114,14 +114,14 @@ plenaries:
       issue_number: 774
       pr_number: 898
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "change-log entry for PR 607 missing"
       issue_number: 781
       pr_number: 902
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Reviewers comments and changes to chapter 7 in RC 4.1"
