@@ -28,3 +28,7 @@ the RCM (September, 2023) and close two weeks before the RCM (October 17, 2023).
 ### MPI Standard Document Editor
 
 * Bill Gropp, University of Illinois, Champaign
+
+## TODO List
+
+[This](https://docs.google.com/spreadsheets/d/1ZpsyVTnfNHv85K9Mzi_3niNXdmQ67yV2iwSaoYBTGpI/edit#gid=1606317136) is the list of items compiled by the chair during the previous meeting.
