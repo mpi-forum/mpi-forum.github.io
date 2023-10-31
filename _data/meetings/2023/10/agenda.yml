@@ -299,17 +299,17 @@ plenaries:
       done: 1
 
     - type: No-no Reading
-      title: "Fix WG chairs"
-      issue_number: 752
-      pr_number: 880
-      presenter: Wes
-      done: 0
-
-    - type: No-no Reading
       title: "Code examples in tools chapter have inconsistent coding style"
       issue_number: 762
       pr_number: 895
       presenter: Marc-Andre
+      done: 0
+
+    - type: No-no Reading
+      title: "Fix WG chairs"
+      issue_number: 752
+      pr_number: 880
+      presenter: Wes
       done: 0
 
     - type: No-no Reading
