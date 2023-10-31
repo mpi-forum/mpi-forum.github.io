@@ -306,25 +306,25 @@ plenaries:
       done: 1
 
     - type: No-no Reading
-      title: "Text about event types in tools chapter does not reference the correct index"
-      issue_number: 761
-      pr_number: 893
-      presenter: Marc-Andre
-      done: 1
-
-    - type: No-no Reading
       title: "Fix WG chairs"
       issue_number: 752
       pr_number: 880
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: No-no Reading
       title: "Errata entry of PR #754 in wrong section"
       issue_number: 747
       pr_number: 874
       presenter: Tobias
-      done: 0
+      done: 1
+
+    - type: Informal Reading
+      title: "Text about event types in tools chapter does not reference the correct index"
+      issue_number: 761
+      pr_number: 893
+      presenter: Marc-Andre
+      done: 1
 
     - type: MPI 4.2 Reading
       title: "Update figures in all chapters to use selected consistent format(s)"
