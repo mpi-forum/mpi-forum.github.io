@@ -331,7 +331,7 @@ plenaries:
       issue_number: 712
       pr_number: 861
       presenter: Benson
-      done: 0
+      done: 1
 
     - type: MPI 5.0 Reading
       title: "Coarse-grained fault-tolerance interface (Reinit, slice 1)"
