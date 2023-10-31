@@ -79,7 +79,7 @@ plenaries:
       issue_number: 791
       pr_number: 908
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Fixes for typos in the datatype chapter"
