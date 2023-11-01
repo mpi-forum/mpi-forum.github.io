@@ -357,7 +357,7 @@ plenaries:
       issue_number: 810
       pr_number: 937
       presenter: Ken
-      done: 0
+      done: 1
 
     - type: Informal Reading
       title: "mpiexec and PMPI_ falsely appearing in the function index"
