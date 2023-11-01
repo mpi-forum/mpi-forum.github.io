@@ -31,5 +31,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 752,880,"Fix WG chairs",no-no
 747,874,"Errata entry of PR #754 in wrong section",no-no
 794,913,"41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)",no-no
+,,"Vote on whether to repeat the FRM",procedure
 ,,"Vote to ratify MPI 4.1",procedure
 ,,"Officer Elections",procedure

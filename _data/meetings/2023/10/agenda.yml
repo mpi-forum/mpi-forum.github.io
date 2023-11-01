@@ -67,12 +67,12 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: "POST-RC4.1 FIXES -- Point-to-Point Chapter 3"
@@ -326,6 +326,11 @@ plenaries:
       presenter: Marc-Andre
       done: 1
 
+    - type: Discussion
+      title: "Go over remaining MPI 4.1 Items"
+      presenter: Martin S.
+      done: 1
+
     - type: MPI 4.2 Reading
       title: "Update figures in all chapters to use selected consistent format(s)"
       issue_number: 712
@@ -338,6 +343,7 @@ plenaries:
       issue_number: 578
       pr_number: 711
       presenter: Ignacio
+      done: 0
 
     - type: Informal Side Document Reading
       title: "Memory Allocation Kinds side document"
