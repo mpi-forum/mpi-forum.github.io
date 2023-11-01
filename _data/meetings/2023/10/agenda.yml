@@ -350,7 +350,7 @@ plenaries:
       issue_number: 809
       pr_number:
       presenter: Jim/Rohit
-      done: 0
+      done: 1
 
     - type: MPI 4.2 Reading
       title: "Clarification of mpi_memory_alloc_kinds key behavior with MPI_INFO_CREATE_ENV"
