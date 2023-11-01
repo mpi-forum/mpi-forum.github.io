@@ -20,7 +20,7 @@ prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2
 curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/10/attendance.csv"
 curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-10-oct/2023-10-31-registration.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLScgMXwZcdwgmapc3e4wiep1osrA048-jeCsx-4uQ68y336Uig/viewform?usp=pp_url&entry.1937744810={name}&entry.1667385315={org}&entry.1724938170={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSd0hyASGk5IItQm30E2CGQ7sXl1JQu7ysIqXdGqq5gMoFQsEw/viewform?usp=pp_url&entry.1475131656={name}&entry.1088893247={org}&entry.747123479={id}"
 
 prev_ooe = 30
 dry_run = 1
@@ -260,7 +260,7 @@ def main():
             message_text = """\
 Hi {name},
 
-Voting is now open for the September 2023 Plenary Day 1 meeting. You may vote at this
+Voting is now open for the October 2023 Plenary Day 3 meeting. You may vote at this
 link:
 <br><br>
 {link}
@@ -274,7 +274,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 16:40pm British Summer Time on September 15, 2023.
+Voting will be open until 12:30pm US Central Time on November 2, 2023.
 <br><br>
 Thanks,
 <br>
@@ -282,7 +282,7 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
-                    to_addr=email, msg=message_text, subject='September 2023 MPI Forum Plenary Day 1 Voting Link')
+                    to_addr=email, msg=message_text, subject='October 2023 MPI Forum Plenary Day 3 Voting Link')
             if not dry_run:
                 message_id = service.send_message(message=message)
 
