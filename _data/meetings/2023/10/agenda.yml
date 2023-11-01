@@ -22,14 +22,17 @@ schedule:
     - start: 2023-11-01T9:00
       end: 2023-11-01T12:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/DQ_cF2UrvuM"
 
     - start: 2023-11-01T12:00
       end: 2023-11-01T12:30
       title: "Voting Block"
+      recording_url: "https://youtu.be/DQ_cF2UrvuM"
 
     - start: 2023-11-01T12:30
       end: 2023-11-01T13:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/DQ_cF2UrvuM"
 
     - endday: done
 
