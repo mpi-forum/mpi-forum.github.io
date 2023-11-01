@@ -16,7 +16,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 776,916,"change-log entry missing for PR 671",errata
 795,914,"MPI 4.1rc topology chapter review: Update neighbor collective LIS entries to use associated virtual topology",errata
 749,876,"Corrections and edits to the Virtual Topologies chapter for MPI4.1rc1",errata
-794,913,"41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)",errata
 797,915,"41rc1 collective chapter : use rank instead of MPI process for several collectives LIS",errata
 800,919,"41rc1 io chapter : Example 14.4 is used as a noun, which makes the text flow a bit odd",errata
 799,918,"41rc1 io chapter : fix most of small reviews",errata
@@ -31,5 +30,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 757,889,"Text about PVAR watermark classes is ambiguous",errata
 752,880,"Fix WG chairs",no-no
 747,874,"Errata entry of PR #754 in wrong section",no-no
+794,913,"41rc1: chap10 - harmonizing mention to mpif.h and adding a missing (deprecated)",no-no
 ,,"Vote to ratify MPI 4.1",procedure
 ,,"Officer Elections",procedure
