@@ -154,16 +154,9 @@ layout: default
          {% if procedure_votes.size > 0 %}
          <h3>Procedure</h3>
              <table>
-                <tr><th>Issue #</th><th>PR #</th><th>Topic</th></tr>
+                <tr><th>Topic</th></tr>
              {% for item in procedure_votes %}
                 <tr>
-                 {% if item.issue_number.size > 0 %}
-                        <td><a href="{{url}}{{item.issue_number}}">{{item.issue_number}}</a></td>
-                        <td><a href="{{pr_url}}{{item.pr_number}}">{{item.pr_number}}</a></td>
-                 {% else %}
-                    <td></td>
-                    <td></td>
-                 {% endif %}
                  <td>{{item.topic}}</td>
                 </tr>
              {% endfor %}
