@@ -11,10 +11,20 @@ You may find standard documents, information about the activities of the MPI for
 
 ## Current Efforts
 
-The MPI Forum is currently pursuing two future versions of the MPI Standard:
-* [MPI 4.1](mpi-41/): A minor update focusing on document cleanup and minor additions
+The MPI Forum is currently pursuing at least one future version of the MPI Standard:
 * [MPI 5.0](mpi-50/): A standard update following MPI 4.1 with major new features
 More details can be found in the respective sections.
+
+## MPI 4.1 Standard
+
+The MPI Forum has released a new version of MPI on November 2, 2023.
+This version is available here:
+
+[MPI 4.1 Standard](docs/mpi-4.1/mpi41-report.pdf)
+
+Comments on the MPI 4.1 should be sent to the [MPI Comments mailing list](/comments).
+
+Use [this BiBTeX File](docs/mpi-4.1/citation.bib) to cite the MPI 4.1 Standard.
 
 ## MPI 4.0 Standard
 
@@ -25,7 +35,7 @@ This version is available here:
 
 Comments on the MPI 4.0 should be sent to the [MPI Comments mailing list](/comments).
 
-Use [this BiBTeX File](docs/mpi-4.0/citation.bib) to cite the MPI 4.0 Standard. 
+Use [this BiBTeX File](docs/mpi-4.0/citation.bib) to cite the MPI 4.0 Standard.
 
 ## Updates
 
