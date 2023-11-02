@@ -41,30 +41,21 @@ schedule:
     - start: 2023-11-02T9:00
       end: 2023-11-02T12:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/dV8FKU6Zx2s"
 
     - start: 2023-11-02T12:00
       end: 2023-11-02T12:30
       title: "Voting Block"
+      recording_url: "https://youtu.be/dV8FKU6Zx2s"
 
     - start: 2023-11-02T12:30
       end: 2023-11-02T13:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/dV8FKU6Zx2s"
 
     - endday: done
 
-    - day: Friday, November 03
-
-    - start: 2023-11-03T9:00
-      end: 2023-11-03T12:00
-      title: "Plenaries, see below"
-
-    - start: 2023-11-03T12:00
-      end: 2023-11-03T12:30
-      title: "Voting Block"
-
-    - start: 2023-11-03T12:30
-      end: 2023-11-03T13:00
-      title: "Plenaries, see below"
+    - day: Friday, November 03 - CANCELLED
 
     - endday: done
 
