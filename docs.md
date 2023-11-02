@@ -10,16 +10,10 @@ Some [translations of MPI documents](translations.html) are available.
 
 ## MPI 4.1
 
-MPI-4.1 is being drafted and the first release candidate was published on August 23, 2023.
+MPI-4.1 was approved by the MPI Forum on November 2, 2023.
 
-* [MPI 4.1 Release Candidate 1](mpi-4.1/mpi-41-rc1.pdf)
-
-A new release candidate was published on October 16, 2023 in preperation for
-the final ratification meeting on October 31, 2023.
-
-* [MPI 4.1 Release Candidate 2](mpi-4.1/mpi-41-rc2.pdf)
-
-This document can be used for comments between now and the publication of the final version of MPI 4.1.
+*   [MPI 4.1 document as PDF](mpi-4.1/mpi41-report.pdf)
+*   [BibTeX file for citing MPI 4.1](mpi-4.1/citation.bib)
 
 ## MPI 4.0
 
@@ -29,14 +23,13 @@ MPI-4.0 was approved by the MPI Forum on June 9, 2021.
 *   [Errata for MPI 4.0](mpi-4.0/errata-40.pdf)
 *   [BibTeX file for citing MPI 4.0](mpi-4.0/citation.bib)
 
-Because of the size, this version does not have a book version. An HTML version
-is under development. However, the PDF version above is the only official
-version.
+Because of the size, this version does not have a book version. The PDF version
+above is the only official version.
 
 A supplementary document that provides the list of MPI procedures that are
 associated with an MPI operation, or inquiry procedures providing information
 about an operation, was produced and is available (see below for
-"Summary of the Semantics of all Operation-Related MPI Proceduresi")
+"Summary of the Semantics of all Operation-Related MPI Procedures")
 
 ## Previous Versions of the MPI Standard
 
