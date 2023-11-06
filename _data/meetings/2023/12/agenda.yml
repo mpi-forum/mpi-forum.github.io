@@ -47,3 +47,16 @@ plenaries:
       presenter: Howard
       done: 0
 
+    - type: Procedure Reading
+      title: "Merge Side Documents Definition With All Other Types of Documents"
+      issue_number: 696
+      link: "https://github.com/mpi-forum/procedures/pull/9"
+      presenter: Wes
+      done: 0
+
+    - type: Procedure Reading
+      title: "Remove FRM Repeat Vote from Procedures"
+      issue_number: 813
+      link: "https://github.com/mpi-forum/procedures/pull/10"
+      presenter: Wes
+      done: 0
