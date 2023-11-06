@@ -19,14 +19,14 @@ start_year = start.strftime("%Y")
 end_day  = end.strftime("%d")
 
 # Create the directories
-if not os.path.exists('meetings/' + start_year + '/' + start_month):
-    os.makedirs('meetings/' + start_year + '/' + start_month)
+if not os.path.exists('../meetings/' + start_year + '/' + start_month):
+    os.makedirs('../meetings/' + start_year + '/' + start_month)
 
-if not os.path.exists('_data/meetings/' + start_year + '/' + start_month):
-    os.makedirs('_data/meetings/' + start_year + '/' + start_month)
+if not os.path.exists('../_data/meetings/' + start_year + '/' + start_month):
+    os.makedirs('../_data/meetings/' + start_year + '/' + start_month)
 
 # Create the markdown files
-file = open('meetings/' + start_year + '/' + start_month + '/agenda.md', 'w')
+file = open('../meetings/' + start_year + '/' + start_month + '/agenda.md', 'w')
 file.write("---\n")
 file.write("layout: agenda2\n")
 file.write("date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y") + '\n')
@@ -37,7 +37,7 @@ file.write('webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum
 file.write("---\n\n")
 file.close()
 
-file = open('meetings/' + start_year + '/' + start_month + '/attendance.md', 'w')
+file = open('../meetings/' + start_year + '/' + start_month + '/attendance.md', 'w')
 file.write("---\n")
 file.write("layout: attendance\n")
 file.write("date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y") + '\n')
@@ -48,11 +48,11 @@ file.write('prev_year: ""\n')
 file.write('prev_month: ""\n')
 file.write('prev_prev_year: ""\n')
 file.write('prev_prev_month: ""\n')
-print("Add prev_year, prev_month, etc. to meetings/" + start_year + '/' + start_month + '/attendance.md\n')
+print("Add prev_year, prev_month, etc. to ../meetings/" + start_year + '/' + start_month + '/attendance.md\n')
 file.write("---\n\n")
 file.close()
 
-file = open('meetings/' + start_year + '/' + start_month + '/logistics.md', 'w')
+file = open('../meetings/' + start_year + '/' + start_month + '/logistics.md', 'w')
 file.write("---\n")
 file.write("layout: logistics\n")
 file.write("date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y") + '\n')
@@ -62,7 +62,7 @@ file.write('month: "' + start_month + '"\n')
 file.write("---\n\n")
 file.close()
 
-file = open('meetings/' + start_year + '/' + start_month + '/notes.md', 'w')
+file = open('../meetings/' + start_year + '/' + start_month + '/notes.md', 'w')
 file.write("---\n")
 file.write("layout: notes\n")
 file.write("date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y") + '\n')
@@ -71,7 +71,7 @@ file.write("title: " + start.strftime("%B %Y Meeting Notes") + '\n')
 file.write("---\n\n")
 file.close()
 
-file = open('meetings/' + start_year + '/' + start_month + '/votes.md', 'w')
+file = open('../meetings/' + start_year + '/' + start_month + '/votes.md', 'w')
 file.write("---\n")
 file.write("layout: votes\n")
 file.write("date: " + start.strftime("%B %d, %Y - ") + end.strftime("%B %d, %Y") + '\n')
@@ -90,7 +90,7 @@ def daterange(start_date, end_date):
         yield start_date + timedelta(n)
 
 # Create the data files
-file = open('_data/meetings/' + start_year + '/' + start_month + '/agenda.yml', 'w')
+file = open('../_data/meetings/' + start_year + '/' + start_month + '/agenda.yml', 'w')
 file.write('schedule:\n')
 for day in daterange(start, end):
     file.write('    - day: ' + day.strftime("%A, %B %d") + '\n')
@@ -115,19 +115,19 @@ file.write('      presenter: Placeholder Presenter\n')
 file.write('      done: 0\n\n')
 file.close()
 
-file = open('_data/meetings/' + start_year + '/' + start_month + '/attendance.csv', 'w')
+file = open('../_data/meetings/' + start_year + '/' + start_month + '/attendance.csv', 'w')
 file.write('name,org,attend\n')
 file.close()
 
-file = open('_data/meetings/' + start_year + '/' + start_month + '/ballot.csv', 'w')
+file = open('../_data/meetings/' + start_year + '/' + start_month + '/ballot.csv', 'w')
 file.write('org,"Vote 1"\n')
 file.close()
 
-file = open('_data/meetings/' + start_year + '/' + start_month + '/votes.csv', 'w')
+file = open('../_data/meetings/' + start_year + '/' + start_month + '/votes.csv', 'w')
 file.write('issue_number,pr_number,topic,type,yes,no,abstain,missed\n')
 file.close()
 
 print("This doesn't add links to the main meetings page.")
 print('To do that, change the "links" value for the associated')
-print('meeting in _data/meeting_list.yml from "no" to "yes"')
+print('meeting in ../_data/meeting_list.yml from "no" to "yes"')
 print("That needs to be done manually, and then everything needs to be checked in.")
