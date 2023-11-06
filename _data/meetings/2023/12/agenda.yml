@@ -40,3 +40,10 @@ plenaries:
       presenter: Placeholder Presenter
       done: 0
 
+    - type: Reading
+      title: "change-log entry missing for PR 658"
+      issue_number: 778
+      pr_number: 899
+      presenter: Howard
+      done: 0
+
