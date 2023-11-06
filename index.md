@@ -12,7 +12,10 @@ You may find standard documents, information about the activities of the MPI for
 ## Current Efforts
 
 The MPI Forum is currently pursuing at least one future version of the MPI Standard:
+
+* [MPI 4.2](mpi-42/): A standard update following MPI 4.1 with smaller features
 * [MPI 5.0](mpi-50/): A standard update following MPI 4.1 with major new features
+
 More details can be found in the respective sections.
 
 ## MPI 4.1 Standard
@@ -98,6 +101,7 @@ Presentations from the MPI Forum BoF Session at SC 18:
 
 ## Previous Efforts
 
+*   Martin Schulz, MPI 4.1
 *   Martin Schulz, MPI 4.0
 *   Martin Schulz, MPI 3.1
 *   Richard Graham, MPI 3.0

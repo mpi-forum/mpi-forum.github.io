@@ -1,24 +1,18 @@
 ---
 layout: page
-title: MPI 4.1
-permalink: /mpi-41/
+title: MPI 4.2
+permalink: /mpi-42/
 ---
 
 ## Scope
 
-The MPI 4.1 standardization efforts aim at adding minor additions and corrections to the MPI standard and at making the standard easier to read and follow. Some topics include:
-* Minor functionality changes for error handling
-* Minor additions for partitioned communication
-* MPI Standard formatting
-* Textual changes around terms like ranks and processes
-* Errata
-* ...
+The MPI 4.2 standardization effort primarily aims to establish an ABI for MPI libraries. Additional small topics are also being discussed.
 
 Major changes will go into the MPI 5.0 efforts.
 
 Note, though, that all of these efforts or new concepts are currently only being discussed or proposed and there is no guarantee that any particular one will be included in any upcoming MPI version.
 
-## Process for proposing new items for MPI 4.1
+## Process for proposing new items for MPI 4.2
 
 The forum encourages that new items will be brought forward through the respective working group. All working groups are listed below. The working group will the place for discussion, the creation of a preliminary proposal as well as drive the socialization of the idea in the forum once a certain level of maturity has been reached. Once the idea is mature enough, the working group will help to develop a formal proposal, which includes the proposed text as well as entry in the MPI ticket management system linked of the Wiki. Once complete and deemed ready by the working group, the proposal goes through the MPI forum voting process, which is detailed in the next section.
 
@@ -30,7 +24,7 @@ On June 30 2020, the MPI forum voted for version 3.3 of [these voting rules](../
 
 ## Active Working Groups
 
-The following working groups are currently participating in the MPI 4.1 efforts. For more information on each working group, current topics, and meeting schedules, please follow the links to the respective Wiki pages.
+The following working groups are currently participating in the MPI 4.2 efforts. For more information on each working group, current topics, and meeting schedules, please follow the links to the respective Wiki pages.
 
 #### [Application Binary Interface (ABI)](https://github.com/mpiwg-abi/abi-issues)
 
