@@ -60,3 +60,17 @@ plenaries:
       link: "https://github.com/mpi-forum/procedures/pull/10"
       presenter: Wes
       done: 0
+    - type: Reading
+      title: "groups: relax restriction on pset name provenance"
+      issue_number: 811
+      pr_number: 938
+      presenter: Howard
+      done: 0
+
+    - type: Reading
+      title: "Clarification of `mpi_memory_alloc_kinds` key behavior with `MPI_INFO_ENV`"
+      issue_number: 810
+      pr_number: 946
+      presenter: Jim
+      done: 0
+

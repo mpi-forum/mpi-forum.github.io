@@ -2,3 +2,5 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 778,899,"change-log entry missing for PR 658",errata
 696,,"Merge Side Documents Definition With All Other Types of Documents",procedure
 813,,"Remove FRM Repeat Vote from Procedures",procedure
+811,938,"groups: relax restriction on pset name provenance",first
+810,946,"Clarification of `mpi_memory_alloc_kinds` key behavior with `MPI_INFO_ENV`",errata
