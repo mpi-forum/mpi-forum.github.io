@@ -4,3 +4,5 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 813,,"Remove FRM Repeat Vote from Procedures",procedure
 811,938,"groups: relax restriction on pset name provenance",first
 810,946,"Clarification of `mpi_memory_alloc_kinds` key behavior with `MPI_INFO_ENV`",errata
+582,715,"ULFM Fault Tolerance (slice 2: agree)",no-no
+582,715,"ULFM Fault Tolerance (slice 2: agree)",1st

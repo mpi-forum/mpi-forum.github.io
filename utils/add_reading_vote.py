@@ -25,7 +25,10 @@ def main():
     issue_number = int(sys.argv[3])
     pr_number = int(sys.argv[4])
     presenter = sys.argv[5]
-    vote_type = sys.argv[6]
+    if len(sys.argv) > 6:
+        vote_type = sys.argv[6]
+    else:
+        vote_type = ""
 
     votes_filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     agenda_filename = """../_data/meetings/{year}/{month}/agenda.yml""".format(year=year, month=month)
