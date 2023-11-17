@@ -95,3 +95,9 @@ plenaries:
       presenter: Aurelien
       done: 0
 
+    - type: Plenary
+      title: "Continuations"
+      link: "https://github.com/mpiwg-hybrid/hybrid-issues/files/12410023/mpi41-report-continuations-20230822.pdf"
+      presenter: Joseph
+      done: 0
+
