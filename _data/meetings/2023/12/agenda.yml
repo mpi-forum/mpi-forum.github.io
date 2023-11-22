@@ -101,3 +101,9 @@ plenaries:
       presenter: Joseph
       done: 0
 
+    - type: Discussion
+      title: "MPI 4.0 and 4.1 Books"
+      presenter: Michael Klemm
+      done: 0
+
+
