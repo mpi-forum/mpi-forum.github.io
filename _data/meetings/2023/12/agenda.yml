@@ -35,6 +35,13 @@ plenaries:
       done: 0
 
     - type: Reading
+      title: "MPI needs a standard ABI"
+      issue_number: 751
+      pr_number: 875
+      presenter: Jeff
+      done: 0
+
+    - type: Reading
       title: "change-log entry missing for PR 658"
       issue_number: 778
       pr_number: 899
@@ -54,6 +61,7 @@ plenaries:
       link: "https://github.com/mpi-forum/procedures/pull/10"
       presenter: Wes
       done: 0
+
     - type: Reading
       title: "groups: relax restriction on pset name provenance"
       issue_number: 811
@@ -101,10 +109,10 @@ plenaries:
       done: 0
 
 
-    - type: Reading
-      title: "MPI needs a standard ABI"
-      issue_number: 751
-      pr_number: 875
-      presenter: Jeff
+    - type: Informal Side Document Reading
+      title: "Memory Allocation Kinds side document"
+      issue_number: 809
+      pr_number:
+      presenter: Jim/Rohit
       done: 0
 
