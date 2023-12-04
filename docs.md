@@ -148,12 +148,13 @@ A document to help editors of the MPI Standard is kept in the same repository as
 
 The MPI Forum uses these procedures as the way the MPI Forum operates.
 
-* [MPI Forum Procedures, Version 3.4](other/procedures-34.pdf)
-* [MPI Forum Procedures, Version 3.3](other/procedures-33.pdf)
-* [MPI Forum Procedures, Version 3.2](other/procedures-32.pdf)
-* [MPI Forum Procedures, Version 3.1](other/procedures-31.pdf)
-* [MPI Forum Procedures, Version 3.0](other/procedures-30.pdf)
-* [MPI Forum Procedures, Version 2.2](other/procedures-22.pdf)
+* [Version 3.5](other/procedures-35.pdf)
+* [Version 3.4](other/procedures-34.pdf)
+* [Version 3.3](other/procedures-33.pdf)
+* [Version 3.2](other/procedures-32.pdf)
+* [Version 3.1](other/procedures-31.pdf)
+* [Version 3.0](other/procedures-30.pdf)
+* [Version 2.2](other/procedures-22.pdf)
 
 ### Inactive Side Documents
 
