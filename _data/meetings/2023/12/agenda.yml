@@ -113,7 +113,7 @@ plenaries:
       issue_number: 582
       pr_number: 715
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "ULFM Fault Tolerance (slice 3: shrink)"
@@ -148,7 +148,7 @@ plenaries:
       presenter: Jim/Rohit
       done: 0
 
-    - type: Reading
+    - type: No-No Reading
       title: "change-log entry missing for PR 658"
       issue_number: 778
       pr_number: 899
