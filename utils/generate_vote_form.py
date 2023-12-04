@@ -16,8 +16,8 @@ from googleapiclient.errors import HttpError
 
 def main():
     year = "2023"
-    month = "10"
-    day = "3"
+    month = "12"
+    day = "1"
     filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     votes_list = list(csv.DictReader(open(filename)));
 
@@ -170,10 +170,14 @@ def main():
             print(result)
 
             for vote in votes[vote_type]:
+                title = ""
                 if vote['issue_number'] != "":
-                    title = "#" + vote['issue_number'] + " (PR #" + vote['pr_number'] + "): " + vote['topic'] + " (" + vote['type'] + ")"
-                else:
-                    title = vote['topic'] + " (" + vote['type'] + ")"
+                    title = title + "#" + vote['issue_number']
+                if vote['pr_number'] != "":
+                    title = title + " (PR #" + vote['pr_number'] + ")"
+                if vote['pr_number'] != "" or vote['issue_number'] != "":
+                    title = title + ": "
+                title = title + vote['topic'] + " (" + vote['type'] + ")"
 
                 update = {
                     "requests": [{
