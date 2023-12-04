@@ -14,6 +14,8 @@ MPI-4.1 was approved by the MPI Forum on November 2, 2023.
 
 *   [MPI 4.1 document as PDF](mpi-4.1/mpi41-report.pdf)
 *   [BibTeX file for citing MPI 4.1](mpi-4.1/citation.bib)
+*   [Unofficial HTML version of MPI 4.1](mpi-4.1/mpi41-report/mpi41-report.htm)
+
 
 ## MPI 4.0
 
