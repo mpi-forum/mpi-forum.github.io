@@ -71,14 +71,14 @@ plenaries:
       issue_number: 751
       pr_number: 875
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "change-log entry missing for PR 658"
       issue_number: 778
       pr_number: 899
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Procedure Reading
       title: "Merge Side Documents Definition With All Other Types of Documents"
@@ -99,7 +99,7 @@ plenaries:
       issue_number: 811
       pr_number: 938
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Clarification of `mpi_memory_alloc_kinds` key behavior with `MPI_INFO_ENV`"
@@ -138,7 +138,7 @@ plenaries:
     - type: Discussion
       title: "MPI 4.0 and 4.1 Books"
       presenter: Michael Klemm
-      done: 0
+      done: 1
 
 
     - type: Informal Side Document Reading
