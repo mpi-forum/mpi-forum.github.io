@@ -13,11 +13,11 @@ The forum encourages that new items will be brought forward through the respecti
 
 ## Active Working Groups
 
-The working groups that are currently participating in the MPI 5.0 efforts are listed on the page for MPI 4.1.
+The working groups that are currently participating in the MPI 5.0 efforts are listed on the page for MPI 4.2.
 
 
 ## Chapter Committees
 
-The chapter committees that are currently participating in the MPI Forum efforts are listed on the page for MPI 4.1.
+The chapter committees that are currently participating in the MPI Forum efforts are listed on the page for MPI 4.2.
 
 
