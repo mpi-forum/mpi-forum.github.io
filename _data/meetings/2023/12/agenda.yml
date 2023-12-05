@@ -98,7 +98,7 @@ plenaries:
       issue_number: 810
       pr_number: 946
       presenter: Jim
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "ULFM Fault Tolerance (slice 2: agree)"
@@ -119,7 +119,7 @@ plenaries:
       issue_number: 816
       pr_number: 947
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Continuations"
