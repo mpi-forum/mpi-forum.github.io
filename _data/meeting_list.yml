@@ -631,6 +631,21 @@ voting:
 
   - year: 2024
 
+  - start: 2024-12-09
+    end: 2024-12-12
+    title: "Virtual Voting Meeting"
+    links: "no"
+
+  - start: 2024-09-23
+    end: 2024-09-25
+    title: "Perth, Australia"
+    links: "no"
+
+  - start: 2024-06-17
+    end: 2024-06-20
+    title: "Virtual Voting Meeting"
+    links: "no"
+
   - start: 2024-03-18
     end: 2024-03-22
     title: "Chicago, IL (Amazon)"
