@@ -15,14 +15,14 @@ import keyring
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
 
-prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/07/attendance.csv"
-prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/09/attendance.csv"
-curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/10/attendance.csv"
-curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-10-oct/2023-10-31-registration.csv"
+prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/09/attendance.csv"
+prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/10/attendance.csv"
+curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/12/attendance.csv"
+curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-12-dec/2023-12-04-registration.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSd0hyASGk5IItQm30E2CGQ7sXl1JQu7ysIqXdGqq5gMoFQsEw/viewform?usp=pp_url&entry.1475131656={name}&entry.1088893247={org}&entry.747123479={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSe8CGBeXHrOfVU6OHkU-wfwGZSPqR4NhL7lLLcXScqhuqH-jw/viewform?usp=pp_url&entry.53223300={name}&entry.1694609828={org}&entry.237590572={id}"
 
-prev_ooe = 30
+prev_ooe = 36
 dry_run = 1
 
 from email import encoders
@@ -260,7 +260,7 @@ def main():
             message_text = """\
 Hi {name},
 
-Voting is now open for the October 2023 Plenary Day 3 meeting. You may vote at this
+Voting is now open for the December 2023 Plenary Day 2 meeting. You may vote at this
 link:
 <br><br>
 {link}
@@ -274,7 +274,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 12:30pm US Central Time on November 2, 2023.
+Voting will be open until 12:30pm US Central Time on December 5, 2023.
 <br><br>
 Thanks,
 <br>
@@ -282,7 +282,7 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
-                    to_addr=email, msg=message_text, subject='October 2023 MPI Forum Plenary Day 3 Voting Link')
+                    to_addr=email, msg=message_text, subject='December 2023 MPI Forum Plenary Day 3 Voting Link')
             if not dry_run:
                 message_id = service.send_message(message=message)
 
