@@ -132,7 +132,6 @@ plenaries:
       presenter: Michael Klemm
       done: 1
 
-
     - type: Informal Side Document Reading
       title: "Memory Allocation Kinds side document"
       issue_number: 809
@@ -147,3 +146,7 @@ plenaries:
       presenter: Howard
       done: 1
 
+    - type: Discussion
+      title: "2024 Meeting Schedule"
+      presenter: Martin
+      done: 0

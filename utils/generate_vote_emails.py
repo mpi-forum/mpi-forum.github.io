@@ -20,7 +20,7 @@ prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2
 curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/12/attendance.csv"
 curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-12-dec/2023-12-04-registration.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSe8CGBeXHrOfVU6OHkU-wfwGZSPqR4NhL7lLLcXScqhuqH-jw/viewform?usp=pp_url&entry.53223300={name}&entry.1694609828={org}&entry.237590572={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSf6tGwWff8JuXBRaTHmqeSFtEw_Z-nzZj9Ga-2Gzb-Hu3MJ8g/viewform?usp=pp_url&entry.255814527={name}&entry.1556791397={org}&entry.1476286947={id}"
 
 prev_ooe = 36
 dry_run = 1
