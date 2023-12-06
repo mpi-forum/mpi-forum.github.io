@@ -9,43 +9,17 @@ schedule:
     - start: 2023-12-05T9:00
       end: 2023-12-05T13:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/fgt1-n1rgw4"
 
     - start: 2023-12-05T12:00
       end: 2023-12-05T12:30
       title: "Voting Block"
+      recording_url: "https://youtu.be/fgt1-n1rgw4"
 
     - start: 2023-12-05T12:30
       end: 2023-12-05T13:00
       title: "Plenaries, see below"
-    - endday: done
-
-    - day: Wednesday, December 06
-    - start: 2023-12-06T9:00
-      end: 2023-12-06T13:00
-      title: "Plenaries, see below"
-
-    - start: 2023-12-06T12:00
-      end: 2023-12-06T12:30
-      title: "Voting Block"
-
-    - start: 2023-12-06T12:30
-      end: 2023-12-06T13:00
-      title: "Plenaries, see below"
-    - endday: done
-
-    - day: Thursday, December 07
-    - start: 2023-12-07T9:00
-      end: 2023-12-07T13:00
-      title: "Plenaries, see below"
-
-    - start: 2023-12-07T12:00
-      end: 2023-12-07T12:30
-      title: "Voting Block"
-
-    - start: 2023-12-07T12:30
-      end: 2023-12-07T13:00
-      title: "Plenaries, see below"
-    - endday: done
+      recording_url: "https://youtu.be/fgt1-n1rgw4"
 
 plenaries:
     - type: Welcome
@@ -137,7 +111,7 @@ plenaries:
       issue_number: 809
       pr_number:
       presenter: Jim/Rohit
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "change-log entry missing for PR 658"
@@ -149,4 +123,4 @@ plenaries:
     - type: Discussion
       title: "2024 Meeting Schedule"
       presenter: Martin
-      done: 0
+      done: 1
