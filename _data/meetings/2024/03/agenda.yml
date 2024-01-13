@@ -15,7 +15,7 @@ schedule:
     - start: 2024-03-19T9:00
       end: 2024-03-19T10:30
       title: "Reserved for WG time, plenary otherwise"
-    - start: 2024-03-19T910:30
+    - start: 2024-03-19T10:30
       end: 2024-03-19T11:00
       title: "Break"
     - start: 2024-03-19T11:00
@@ -39,7 +39,7 @@ schedule:
     - start: 2024-03-20T9:00
       end: 2024-03-20T10:30
       title: "Plenaries, see below"
-    - start: 2024-03-20T910:30
+    - start: 2024-03-20T10:30
       end: 2024-03-20T11:00
       title: "Break"
     - start: 2024-03-20T11:00
@@ -63,7 +63,7 @@ schedule:
     - start: 2024-03-21T9:00
       end: 2024-03-21T10:30
       title: "Plenaries, see below"
-    - start: 2024-03-21T910:30
+    - start: 2024-03-21T10:30
       end: 2024-03-21T11:00
       title: "Voting Block and Break"
     - start: 2024-03-21T11:00
