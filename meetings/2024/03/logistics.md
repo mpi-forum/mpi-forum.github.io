@@ -27,9 +27,9 @@ As noted above, registration will open when the final cost is determined.
 
 The meeting will be hosted by Meta in Chicago, Illinois, USA.
 
-151 N. Franklin Street, Chicago, IL
+151 N. Franklin Street, Chicago, IL<br />Floor 34
+<br />
 [Google Maps](https://www.google.com/maps/place/151+N+Franklin+St,+Chicago,+IL+60606/@41.8846217,-87.6358324,19z/data=!4m7!3m6!1s0x880e2cb9e9c718a3:0xd930f009e81d96b5!8m2!3d41.8846217!4d-87.6346133!10e3!16s%2Fg%2F11bw43bxsg?entry=ttu)
-Floor 34
 
 ### Hotels
 
