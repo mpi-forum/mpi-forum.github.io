@@ -95,9 +95,9 @@ plenaries:
       done: 0
 
     - type: No-No Reading
-      title: groups, relax restriction on pset name provenance
+      title: "groups: relax restriction on pset name provenance"
       issue_number: 811
+      pr_number: 938
+      link: "https://github.com/mpi-forum/mpi-standard/pull/938/commits/f8413395d63a5afd9b48edd4a758ba531e5caf56"
       presenter: Howard
       done: 0
-
-

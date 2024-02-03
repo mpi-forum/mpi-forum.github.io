@@ -29,6 +29,9 @@ def main():
         vote_type = sys.argv[6]
     else:
         vote_type = ""
+    reading = False
+    if vote_type == "" or vote_type == "errata" or vote_type == "procedure" or vote_type == "no-no":
+        reading = True
 
     votes_filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     agenda_filename = """../_data/meetings/{year}/{month}/agenda.yml""".format(year=year, month=month)
@@ -47,18 +50,18 @@ def main():
             milestone = None
 
     issue = repo.get_issue(number=issue_number)
-    if not hasLabel(issue.get_labels(), "scheduled_reading"):
+    if not hasLabel(issue.get_labels(), "scheduled_reading") and reading:
         issue.add_to_labels("scheduled reading")
-    print("Adding 'scheduled reading' to issue " + str(issue_number))
+        print("Adding 'scheduled reading' to issue " + str(issue_number))
 
     if not dry_run:
         issue.edit(milestone=milestone)
-    print("Adding milestone to issue " + str(issue_number))
+        print("Adding milestone to issue " + str(issue_number))
 
     title = issue.title.replace('"',"\'")
     print("Issue " + str(issue_number) + ' has title ' + title)
 
-    if vote_type == "" or vote_type == "errata" or vote_type == "procedure" or vote_type == "no-no":
+    if reading:
         print("Writing to agenda")
         if not dry_run:
             agenda_list.write("    - type: Reading\n")
