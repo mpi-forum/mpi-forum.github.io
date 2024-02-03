@@ -37,6 +37,7 @@ The MPI Forum does not reserve a room block, but here are some hotels that are n
 
 * [Hilton Garden Inn Chicago Central Loop](https://www.hilton.com/en/hotels/chiwjgi-hilton-garden-inn-chicago-central-loop/)
 * [Residence Inn by Marriott Chicago Downtown/Loop](https://www.marriott.com/en-us/hotels/chirl-residence-inn-chicago-downtown-loop/overview/)
+* [W Chicago - City Center](https://www.marriott.com/en-us/hotels/chiwc-w-chicago-city-center/overview/)
 * [Holiday Inn Chicago Dwtn Wolf Point, an IHG Hotel](https://www.ihg.com/holidayinn/hotels/us/en/chicago/chipl/hoteldetail)
 
 ### Remote Participation
