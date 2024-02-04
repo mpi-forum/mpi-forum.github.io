@@ -133,7 +133,7 @@ plenaries:
       done: 0
 
     - type: Discussion
-      title: "Ensure all symbols have a corresponding \*main macro"
+      title: "Ensure all symbols have a corresponding main macro"
       issue_number: 825
       presenter: Joseph
       done: 0
