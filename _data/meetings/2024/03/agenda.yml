@@ -113,3 +113,52 @@ plenaries:
       link: "https://github.com/mpi-forum/mpi-standard/pull/938/commits/f8413395d63a5afd9b48edd4a758ba531e5caf56"
       presenter: Howard
       done: 0
+
+    - type: Discussion
+      title: "Provide a mechanism for process synchronization in time"
+      issue_number: 829
+      presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: "Immediate completion of requests"
+      issue_number: 828
+      presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: "Add hyperref links for MPI symbols throughout the standard"
+      issue_number: 826
+      presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: "Ensure all symbols have a corresponding \*main macro"
+      issue_number: 825
+      presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: "MPI continuations"
+      issue_number:
+      presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: "Outcome of MPI_TEST_CANCELLED on nonblocking collective requests statuses?"
+      issue_number: 821
+      presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: "Content of MPI_Status not specified for Partitioned P2P"
+      issue_number: 820
+      presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: "Always set the MPI_ERROR field in status objects"
+      issue_number: 814
+      presenter: Joseph
+      done: 0
+
