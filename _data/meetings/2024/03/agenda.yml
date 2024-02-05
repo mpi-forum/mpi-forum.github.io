@@ -162,3 +162,10 @@ plenaries:
       presenter: Joseph
       done: 0
 
+    - type: Reading
+      title: "MPI needs a standard ABI"
+      issue_number: 751
+      pr_number: 875
+      presenter: Jeff
+      done: 0
+
