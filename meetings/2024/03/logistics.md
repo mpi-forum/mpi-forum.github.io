@@ -12,16 +12,16 @@ month: "03"
 
 #### Registration Fee
 
-The registration fee for in-person attendance is still being determined. As
-soon as we know it, we'll open registration. If a registration fee is required,
-it will be to cover any additional security requirements by the meeting hosts.
-Food will be provided, but will not incur an additional cost.
+The registration fee for in-person attendance is $150 + Eventbrite fees. This
+will cover food, meeting space, security, etc.
+
+There is no registration fee for people attending remotely.
 
 #### Meeting Registration and Voting
 
 **All attendees (in-person or remote)** must complete this form to be eligible to attend the meeting and vote.
 
-As noted above, registration will open when the final cost is determined.
+Registration is via [Eventbrite](https://www.eventbrite.com/e/mpi-forum-march-2024-meeting-tickets-823784901817?aff=oddtdtcreator).
 
 ### Meeting Location
 
