@@ -16,7 +16,8 @@ def main():
             "Forschungszentrum Jülich GmbH": "Forschungszentrum Julich",
             "ParTec AG, Germany": "ParTec",
             "University of Illinois at Urbana-Champaign": "University of Illinois Urbana-Champaign",
-                 }
+            "Inria": "INRIA",
+            }
 
     print("Opening file...")
 

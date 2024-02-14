@@ -46,7 +46,13 @@ layout: default
           {% for person in site.data.meetings[page.prev_year][page.prev_month].attendance %}
             {% if person.attend == "1" %}
               {% unless person.org == "Self (Non-voting participant)" %}
-                {% assign prev_orgs = prev_orgs | push: person.org | uniq %}
+                {% assign org = person.org %}
+                {% for org_transition in site.data.orgs %}
+                  {% if org_transition.old_org_name == org %}
+                    {% assign org = org_transition.new_org_name %}
+                  {% endif %}
+                {% endfor %}
+                {% assign prev_orgs = prev_orgs | push: org | uniq %}
               {% endunless %}
             {% endif %}
           {% endfor %}
@@ -54,7 +60,13 @@ layout: default
           {% for person in site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance %}
             {% if person.attend == "1" %}
               {% unless person.org == "Self (Non-voting participant)" %}
-                {% assign prev_prev_orgs = prev_prev_orgs | push: person.org | uniq %}
+                {% assign org = person.org %}
+                {% for org_transition in site.data.orgs %}
+                  {% if org_transition.old_org_name == org %}
+                    {% assign org = org_transition.new_org_name %}
+                  {% endif %}
+                {% endfor %}
+                {% assign prev_prev_orgs = prev_prev_orgs | push: org | uniq %}
               {% endunless %}
             {% endif %}
           {% endfor %}

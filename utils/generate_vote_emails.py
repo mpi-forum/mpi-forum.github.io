@@ -15,10 +15,11 @@ import keyring
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
 
-prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/09/attendance.csv"
-prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/10/attendance.csv"
-curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/12/attendance.csv"
-curr_registration_file = "/Users/wbland/mpi/meeting-details/2023-12-dec/2023-12-04-registration.csv"
+prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/10/attendance.csv"
+prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/12/attendance.csv"
+curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/03/attendance.csv"
+curr_registration_file = "/Users/wbland/mpi/meeting-details/2024-03-mar/2024-03-18-registration.csv"
+transition_orgs_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/orgs.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
 voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSf6tGwWff8JuXBRaTHmqeSFtEw_Z-nzZj9Ga-2Gzb-Hu3MJ8g/viewform?usp=pp_url&entry.255814527={name}&entry.1556791397={org}&entry.1476286947={id}"
 
@@ -147,11 +148,15 @@ def main():
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
     curr_attendees = list(csv.DictReader(open(curr_attendance_file)));
     curr_registration = list(csv.DictReader(open(curr_registration_file)));
+    transition_orgs = list(csv.DictReader(open(transition_orgs_file)))
 
     orgs = {}
 
     for row in iter(prev_attendees_1):
         org = row['org'];
+        for transition_org in iter(transition_orgs):
+            if transition_org['old_org_name'] == org:
+                org = transition_org['new_org_name']
         if org == "Self (Non-voting participant)":
             continue
         elif org not in orgs:
@@ -162,6 +167,9 @@ def main():
             orgs[org]['attended'] = normalize_prev_attendance(int(row['attend']));
     for row in iter(prev_attendees_2):
         org = row['org'];
+        for transition_org in iter(transition_orgs):
+            if transition_org['old_org_name'] == org:
+                org = transition_org['new_org_name']
         if org == "Self (Non-voting participant)":
             continue
         elif org not in orgs:
