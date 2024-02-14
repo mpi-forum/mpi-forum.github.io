@@ -10,3 +10,6 @@ prev_prev_year: "2023"
 prev_prev_month: "10"
 ---
 
+Beginning at this meeting, Eviden will assume the voting rights of Atos based
+on its spinoff from Atos with all participating members of the MPI Forum.
+Eviden will be considered an IMOVE organization.
