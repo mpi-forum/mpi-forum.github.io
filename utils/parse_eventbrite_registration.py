@@ -17,6 +17,8 @@ def main():
             "ParTec AG, Germany": "ParTec",
             "University of Illinois at Urbana-Champaign": "University of Illinois Urbana-Champaign",
             "Inria": "INRIA",
+            "LLNL": "Lawrence Livermore National Laboratory",
+            "Intel": "Intel Corporation",
             }
 
     print("Opening file...")
