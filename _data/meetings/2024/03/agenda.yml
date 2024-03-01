@@ -169,3 +169,10 @@ plenaries:
       presenter: Jeff
       done: 0
 
+    - type: Reading
+      title: "Memory Allocation Kinds side document"
+      issue_number: 809
+      link: "https://github.com/mpi-forum/mem-alloc/tree/main"
+      presenter: Rohit
+      done: 0
+
