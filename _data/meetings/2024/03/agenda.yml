@@ -107,6 +107,27 @@ plenaries:
       link: "https://github.com/mpi-forum/mpi-standard/pull/938/commits/f8413395d63a5afd9b48edd4a758ba531e5caf56"
       presenter: Howard
       done: 0
+      
+    - type: Errata Reading
+      title: "Make examples use URI format as described in MPI_GET_HW_RESOURCE_INFO"
+      issue_number: 823
+      pr_number: 955
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "Add example for MPI_GET_HW_RESOURCE_INFO"
+      issue_number: 824
+      pr_number: 957
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "Text for MPI_GET_HW_RESOURCE_INFO needs clarification"
+      issue_number: 838
+      pr_number: 994
+      presenter: Guillaume
+      done: 0
 
     - type: Reading
       title: "MPI needs a standard ABI"
