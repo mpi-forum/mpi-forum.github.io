@@ -20,6 +20,7 @@ def main():
             "LLNL": "Lawrence Livermore National Laboratory",
             "Intel": "Intel Corporation",
             "TACC Austin": "The Texas Advanced Computing Center",
+            "Paratools SAS": "ParaTools SAS",
             }
 
     print("Opening file...")
