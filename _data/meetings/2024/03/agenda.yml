@@ -200,3 +200,52 @@ plenaries:
       title: "MPI_DBG Update (AM slot)"
       presenter: Joachim
       done: 0
+    - type: Reading
+      title: "Use consistent wording 'ready to be transferred' for partitions"
+      issue_number: 833
+      pr_number: 951
+      presenter: Christoph
+      done: 0
+
+    - type: Reading
+      title: "Make examples in `MPI_COMM_SPLIT_TYPE` consistent with `MPI_GET_HW_RESOURCE_INFO`"
+      issue_number: 823
+      pr_number: 955
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "`MPI_GET_HW_RESOURCE_INFO` needs an example"
+      issue_number: 824
+      pr_number: 957
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "Immediate completion of requests"
+      issue_number: 828
+      pr_number: 964
+      presenter: Guillaume
+      done: 0
+
+    - type: Reading
+      title: "add fixed-size Fortran MPI_LOGICAL types"
+      issue_number: 699
+      pr_number: 963
+      presenter: Jeff
+      done: 0
+
+    - type: Reading
+      title: "Missing primary index and description of MPI_T_source_order"
+      issue_number: 804
+      pr_number: 962
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "mpiexec and PMPI_ falsely appearing in the function index"
+      issue_number: 785
+      pr_number: 907
+      presenter: Marc-Andre
+      done: 0
+
