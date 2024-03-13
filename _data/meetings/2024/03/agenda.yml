@@ -94,7 +94,7 @@ plenaries:
       done: 0
 
     - type: Procedure Reading
-      title: "Specify that procedures apply to all versions of MP"
+      title: "Specify that procedures apply to all versions of MPI"
       issue_number: 822
       link: "https://github.com/mpi-forum/procedures/pull/11"
       presenter: Wes
@@ -106,20 +106,6 @@ plenaries:
       pr_number: 938
       link: "https://github.com/mpi-forum/mpi-standard/pull/938/commits/f8413395d63a5afd9b48edd4a758ba531e5caf56"
       presenter: Howard
-      done: 0
-      
-    - type: Errata Reading
-      title: "Make examples use URI format as described in MPI_GET_HW_RESOURCE_INFO"
-      issue_number: 823
-      pr_number: 955
-      presenter: Guillaume
-      done: 0
-
-    - type: Reading
-      title: "Add example for MPI_GET_HW_RESOURCE_INFO"
-      issue_number: 824
-      pr_number: 957
-      presenter: Guillaume
       done: 0
 
     - type: Reading
@@ -222,13 +208,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "Immediate completion of requests"
-      issue_number: 828
-      pr_number: 964
-      presenter: Guillaume
-      done: 0
-
-    - type: Reading
       title: "add fixed-size Fortran MPI_LOGICAL types"
       issue_number: 699
       pr_number: 963
@@ -247,5 +226,12 @@ plenaries:
       issue_number: 785
       pr_number: 907
       presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "MPI_INTEGER_KIND"
+      issue_number: 742
+      pr_number: 961
+      presenter: Jeff
       done: 0
 
