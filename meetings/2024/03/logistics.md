@@ -42,4 +42,4 @@ The MPI Forum does not reserve a room block, but here are some hotels that are n
 
 ### Remote Participation
 
-The meeting times will be during business hours in the local time zone (Central US). Remote participation will also be available via Zoom. The appropriate links to the meeting will be posted before the meeting.
+The meeting times will be during business hours in the local time zone (Central US). Remote participation will also be available via Zoom. The appropriate links to the meeting will be posted before the meeting to the usual [wiki page](https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information).
