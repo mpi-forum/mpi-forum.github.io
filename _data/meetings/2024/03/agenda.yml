@@ -10,10 +10,10 @@ schedule:
       end: 2024-03-18T16:00
       title: "Break"
     - start: 2024-03-18T16:00
-      end: 2024-03-18T18:00
+      end: 2024-03-18T17:00
       title: "Sessions WG + FT WG"
     - start: 2024-03-18T16:00
-      end: 2024-03-18T18:00
+      end: 2024-03-18T17:00
       title: "Tools WG"
     - endday: done
 
@@ -37,7 +37,7 @@ schedule:
       end: 2024-03-19T16:00
       title: "Voting Block and Break"
     - start: 2024-03-19T16:00
-      end: 2024-03-19T18:00
+      end: 2024-03-19T17:00
       title: "Plenaries, see below"
     - endday: done
 
@@ -61,7 +61,7 @@ schedule:
       end: 2024-03-20T16:00
       title: "Voting Block and Break"
     - start: 2024-03-20T16:00
-      end: 2024-03-20T18:00
+      end: 2024-03-20T17:00
       title: "Plenaries, see below"
     - endday: done
 
