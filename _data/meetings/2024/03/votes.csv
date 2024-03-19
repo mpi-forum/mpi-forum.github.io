@@ -1,4 +1,5 @@
 issue_number,pr_number,topic,type,yes,no,abstain,missed
-822,,"Specify that procedures apply to all versions of MPI",procedure
+822,,"Specify that procedures apply to all versions of MPI",no-no
 811,938,"groups, relax restriction on pset name provenance",no-no
+822,,"Specify that procedures apply to all versions of MPI",procedure
 811,938,"groups, relax restriction on pset name provenance",2nd
