@@ -21,9 +21,9 @@ curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2
 curr_registration_file = "/Users/wbland/mpi/meeting-details/2024-03-mar/2024-03-18-registration.csv"
 transition_orgs_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/orgs.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSf6tGwWff8JuXBRaTHmqeSFtEw_Z-nzZj9Ga-2Gzb-Hu3MJ8g/viewform?usp=pp_url&entry.255814527={name}&entry.1556791397={org}&entry.1476286947={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSdt3ASbQeKD4hzKz2_TbVfSCfiQjbzefoHbD2R3IeevwxU3NA/viewform?usp=pp_url&entry.551305316={name}&entry.69773325={org}&entry.825554461={id}"
 
-prev_ooe = 36
+prev_ooe = 29
 dry_run = 1
 
 from email import encoders

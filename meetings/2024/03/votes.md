@@ -5,9 +5,9 @@ year: "2024"
 month: "03"
 rules: 3152013
 permalink: meetings/2024/03/votes
-registered:
-ooe:
-imove:
+registered: 36
+ooe: 33
+imove: 32
 ---
 
 Beginning at this meeting, Eviden will assume the voting rights of Atos based
