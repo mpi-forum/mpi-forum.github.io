@@ -201,12 +201,13 @@ plenaries:
       title: "MPI_DBG Update (AM slot)"
       presenter: Joachim
       done: 0
+      
     - type: Reading
       title: "Use consistent wording 'ready to be transferred' for partitions"
       issue_number: 833
       pr_number: 951
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Make examples in `MPI_COMM_SPLIT_TYPE` consistent with `MPI_GET_HW_RESOURCE_INFO`"
