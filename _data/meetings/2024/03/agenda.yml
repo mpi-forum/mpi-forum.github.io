@@ -120,7 +120,7 @@ plenaries:
       issue_number: 838
       pr_number: 994
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI needs a standard ABI"
@@ -220,7 +220,7 @@ plenaries:
       issue_number: 824
       pr_number: 957
       presenter: Guillaume
-      done: 0
+      done: 1
 
     - type: Reading
       title: "add fixed-size Fortran MPI_LOGICAL types"
