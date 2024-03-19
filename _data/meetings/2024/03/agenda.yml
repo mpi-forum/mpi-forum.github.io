@@ -235,7 +235,7 @@ plenaries:
       issue_number: 804
       pr_number: 962
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: "mpiexec and PMPI_ falsely appearing in the function index"
