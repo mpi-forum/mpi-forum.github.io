@@ -154,13 +154,13 @@ plenaries:
       title: "Immediate completion of requests"
       issue_number: 828
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Add hyperref links for MPI symbols throughout the standard"
       issue_number: 826
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Ensure all symbols have a corresponding main macro"
