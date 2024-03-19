@@ -33,13 +33,19 @@ The following working groups are currently participating in the MPI 4.2 efforts.
 
 #### [Collective, Communicators, Context, Persistent, Partitioned, Groups](https://github.com/mpiwg-coll/coll-issues)
 
-*   Lead: Torsten Hoefler, Andrew Lumsdaine, Anthony Skjellum
+*   Lead: Anthony Skjellum (prior leads: Torsten Hoefler, Andrew Lumsdaine)
 *   Scope: This working group considers cross-cutting issues of groups, context, communicators, and collective operations as well as features such as persistence, partitioning, topologies, and operational semantics (e.g., blocking, nonblocking, local, synchronizing) thereof.
 
 #### [Fault Tolerance](https://github.com/mpiwg-ft/ft-issues)
 
 *   Leads: Aurélien Bouteiller and Ignacio Laguna
 *   Scope: To define any additional support needed in the MPI standard to enable implementation of portable Fault Tolerant solutions for MPI based applications.
+
+#### [Fortran](https://github.com/mpiwg-fortran/fortran-issues)
+
+*   Lead: Jeff Hammond, Purushotham Bangalore and Tony Skjellum
+*   Scope: To investigate a modernisation of the Fortran language bindings beyond Fortran 2008.
+*   Note, there is a close link to the languages working group.
 
 #### [Hardware & Virtual Topologies](https://github.com/mpiwg-hw-topology/hw-topology-issues)
 
@@ -51,46 +57,43 @@ The following working groups are currently participating in the MPI 4.2 efforts.
 *   Lead: James Dinan
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
 
+#### [I/O](https://github.com/mpiwg-io/io-issues)
+
+*   Lead: Quincey Koziol
+*   Scope: Definition of API extensions for I/O operations
+
 #### [Languages](https://github.com/mpiwg-languages/languages-issues/wiki)
 
-*   Lead: Martin Ruefenacht and Tony Skjellum
+*   Lead: Purushotham Bangalore, Jeff Hammond and Tony Skjellum
 *   Scope: Ensure MPI has robust support for present and future language expressions and to introduce new languages encapsulating the MPI concepts.
+*   Note, there is a close link to the Fortran working group.
 
 #### [Remote Memory Access](https://github.com/mpiwg-rma/rma-issues/wiki/RMA-Working-Group-Wiki)
 
-*   Lead: Bill Gropp, Joseph Schuchart, and Rajeev Thakur
+*   Lead: Joseph Schuchart, Bill Gropp (prior lead: Rajeev Thakur)
 *   Scope: To re-examine the MPI RMA interface and consider additions and or changes needed to better support the one-sided programming model within MPI.
-
-#### [Semantic Terms](https://github.com/mpiwg-semantic-terms/semantic-terms-issues)
-
-*   Lead: Purushotham Bangalore
-*   Scope: Review and update semantic terms used throughout the MPI Standard.
 
 #### [Sessions](https://github.com/mpiwg-sessions/sessions-issues/wiki)
 
-*   Lead: Dan Holmes, Howard Pritchard
+*   Lead: Howard Pritchard, Dan Holmes
 *   Scope: Explore alternate concepts to MPI_Init and MPI_Finalize
 
 #### [Tools](https://github.com/mpiwg-tools/tools-issues)
 
-*   Lead: Kathryn Mohror and Marc-Andre Hermanns
+*   Lead: Marc-Andre Hermanns (prior lead: Kathryn Mohror)
 *   Scope: Definition of interfaces for debugging and performance tools
 
 ## Working Groups on Hold
 
 In addition to the active working groups, several working groups exist that have been on hold.
 
-#### [Fortran](https://github.com/mpiwg-fortran/fortran-issues)
+#### [Semantic Terms](https://github.com/mpiwg-semantic-terms/semantic-terms-issues)
 
-*   Scope: To investigate a modernisation of the Fortran language bindings beyond Fortran 2008.
+*   Scope: Review and update semantic terms used throughout the MPI Standard.
 
 #### Generalized Requests
 
 *   Scope: Redefine the generalized requests interface. A more flexible interface between the user defined requests and the MPI library is required in order to allow the provider of the generalized request to integrate a progress function inside the MPI library. The ultimate goal is to allow the generalized requests progress to be done without a special test or wait function.
-
-#### [I/O](https://github.com/mpiwg-io/io-issues)
-
-*   Scope: Definition of API extensions for I/O operations
 
 #### [Point to Point Communication](https://github.com/mpiwg-p2p/p2p-issues/wiki)
 
