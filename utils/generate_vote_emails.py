@@ -268,7 +268,7 @@ def main():
             message_text = """\
 Hi {name},
 
-Voting is now open for the December 2023 Plenary Day 2 meeting. You may vote at this
+Voting is now open for the March 2024 Plenary Day 2 meeting. You may vote at this
 link:
 <br><br>
 {link}
@@ -282,7 +282,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 12:30pm US Central Time on December 5, 2023.
+Voting will be open until 09:00am US Central Time on March 21, 2024.
 <br><br>
 Thanks,
 <br>
@@ -290,7 +290,7 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
-                    to_addr=email, msg=message_text, subject='December 2023 MPI Forum Plenary Day 3 Voting Link')
+                    to_addr=email, msg=message_text, subject='March 2024 MPI Forum Plenary Day 2 Voting Link')
             if not dry_run:
                 message_id = service.send_message(message=message)
 
