@@ -242,7 +242,7 @@ plenaries:
       issue_number: 785
       pr_number: 907
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI_INTEGER_KIND"
