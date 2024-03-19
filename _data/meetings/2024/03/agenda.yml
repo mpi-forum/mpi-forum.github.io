@@ -122,6 +122,14 @@ plenaries:
       presenter: Jeff
       done: 0
 
+    - type: No-No Reading
+      title: "MPI needs a standard ABI"
+      issue_number: 751
+      pr_number: 958
+      link: "https://github.com/mpi-forum/mpi-standard/pull/958/files/10e12f5cd4e3b085aa4f503d0a69f05f034d4ef4..0bfec9bdc2c370a0dcb4a366e48a01aed14d790a"
+      presenter: Jeff
+      done: 0
+
     - type: Reading
       title: "Memory Allocation Kinds side document"
       issue_number: 809
@@ -234,4 +242,3 @@ plenaries:
       pr_number: 961
       presenter: Jeff
       done: 0
-
