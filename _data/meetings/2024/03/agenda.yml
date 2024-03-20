@@ -166,7 +166,7 @@ plenaries:
       title: "Ensure all symbols have a corresponding main macro"
       issue_number: 825
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "MPI continuations"
@@ -178,19 +178,19 @@ plenaries:
       title: "Outcome of MPI_TEST_CANCELLED on nonblocking collective requests statuses?"
       issue_number: 821
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Content of MPI_Status not specified for Partitioned P2P"
       issue_number: 820
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Always set the MPI_ERROR field in status objects"
       issue_number: 814
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "New language interfaces/bindings"
