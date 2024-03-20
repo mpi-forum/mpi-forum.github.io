@@ -35,8 +35,9 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+      title: "Update Procedures for Side Document Versions"
+      issue_number: 844
+      link: https://github.com/mpi-forum/procedures/pull/12
+      presenter: Wes
       done: 0
 
