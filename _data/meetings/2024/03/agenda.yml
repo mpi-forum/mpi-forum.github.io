@@ -142,7 +142,7 @@ plenaries:
       issue_number: 809
       link: "https://github.com/mpi-forum/mem-alloc/tree/main"
       presenter: Rohit
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Provide a mechanism for process synchronization in time"
@@ -195,12 +195,12 @@ plenaries:
     - type: Discussion
       title: "New language interfaces/bindings"
       presenter: Puri, Martin R.
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "MPI_DBG Update (AM slot)"
       presenter: Joachim
-      done: 0
+      done: 1
       
     - type: Reading
       title: "Use consistent wording 'ready to be transferred' for partitions"
