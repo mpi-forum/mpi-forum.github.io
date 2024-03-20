@@ -1,0 +1,42 @@
+schedule:
+    - day: Monday, June 17
+    - start: 2024-06-17T0:00
+      end: 2024-06-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, June 18
+    - start: 2024-06-18T0:00
+      end: 2024-06-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, June 19
+    - start: 2024-06-19T0:00
+      end: 2024-06-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, June 20
+    - start: 2024-06-20T0:00
+      end: 2024-06-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: Placeholder Reading
+      issue_number: 1234
+      presenter: Placeholder Presenter
+      done: 0
+

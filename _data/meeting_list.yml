@@ -644,7 +644,7 @@ voting:
   - start: 2024-06-17
     end: 2024-06-20
     title: "Virtual Voting Meeting"
-    links: "no"
+    links: "yes"
 
   - start: 2024-03-18
     end: 2024-03-21
