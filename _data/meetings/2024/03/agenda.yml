@@ -228,7 +228,7 @@ plenaries:
       issue_number: 699
       pr_number: 963
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Missing primary index and description of MPI_T_source_order"
@@ -249,4 +249,4 @@ plenaries:
       issue_number: 742
       pr_number: 961
       presenter: Jeff
-      done: 0
+      done: 1
