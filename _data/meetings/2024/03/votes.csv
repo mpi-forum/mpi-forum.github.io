@@ -1,5 +1,5 @@
 "issue_number","pr_number","topic","type","yes","no","abstain","missed"
 "822","","Specify that procedures apply to all versions of MPI","no-no","29","0","3","0"
 "811","938","groups, relax restriction on pset name provenance","no-no","28","0","4","0"
-"822","","Specify that procedures apply to all versions of MPI","procedure","0","0","0","0"
-"811","938","groups, relax restriction on pset name provenance","2nd","0","0","0","0"
+"822","","Specify that procedures apply to all versions of MPI","procedure","31","0","1","0"
+"811","938","groups, relax restriction on pset name provenance","2nd","29","0","3","0"
