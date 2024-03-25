@@ -30,58 +30,69 @@ The following working groups are currently participating in the MPI 4.2 efforts.
 
 *   Lead: Jeff Hammond and Quincey Koziol
 *   Scope: The purpose of the MPI ABI Working Group is to discuss and implement the features required for MPI binaries - applications and libraries - to work with any implementation of MPI on compatible platforms.
+*   Meeting Schedule: On Demand
 
 #### [Collective, Communicators, Context, Persistent, Partitioned, Groups](https://github.com/mpiwg-coll/coll-issues)
 
 *   Lead: Anthony Skjellum (prior leads: Torsten Hoefler, Andrew Lumsdaine)
 *   Scope: This working group considers cross-cutting issues of groups, context, communicators, and collective operations as well as features such as persistence, partitioning, topologies, and operational semantics (e.g., blocking, nonblocking, local, synchronizing) thereof.
+*   Meeting Schedule: Wednesdays at <a href="https://time.is/0900_in_CT">9am</a> US Central Time
 
 #### [Fault Tolerance](https://github.com/mpiwg-ft/ft-issues)
 
 *   Leads: Aurélien Bouteiller and Ignacio Laguna
 *   Scope: To define any additional support needed in the MPI standard to enable implementation of portable Fault Tolerant solutions for MPI based applications.
+*   Meeting Schedule: Fortnightly on Mondays at <a href="https://time.is/900_in_CT">9am</a> US Central Time
 
 #### [Fortran](https://github.com/mpiwg-fortran/fortran-issues)
 
 *   Lead: Jeff Hammond, Purushotham Bangalore and Tony Skjellum
 *   Scope: To investigate a modernisation of the Fortran language bindings beyond Fortran 2008.
 *   Note, there is a close link to the languages working group.
+*   Meeting Schedule: On Demand
 
 #### [Hardware & Virtual Topologies](https://github.com/mpiwg-hw-topology/hw-topology-issues)
 
 *   Lead: Guillaume Mercier
 *   Scope: Address questions like how can hardware resources (I/O, cores, caches, I/O proxies, etc.) be discovered, queried upon and distributed between execution flows? Define portable primitives inside MPI to explore and take advantage of the hardware topology either at the node or the process level.
+*   Meeting Schedule: On Demand
 
 #### [Hybrid & Accelerator](https://github.com/mpiwg-hybrid/hybrid-issues/wiki)
 
 *   Lead: James Dinan
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
+*   Meeting Schedule: Wednesdays at <a href="https://time.is/0900_in_CT">9am</a> US Central Time
 
 #### [I/O](https://github.com/mpiwg-io/io-issues)
 
 *   Lead: Quincey Koziol
 *   Scope: Definition of API extensions for I/O operations
+*   Meeting Schedule: On Demand
 
 #### [Languages](https://github.com/mpiwg-languages/languages-issues/wiki)
 
 *   Lead: Purushotham Bangalore, Jeff Hammond and Tony Skjellum
 *   Scope: Ensure MPI has robust support for present and future language expressions and to introduce new languages encapsulating the MPI concepts.
 *   Note, there is a close link to the Fortran working group.
+*   Meeting Schedule: On Demand
 
 #### [Remote Memory Access](https://github.com/mpiwg-rma/rma-issues/wiki/RMA-Working-Group-Wiki)
 
 *   Lead: Joseph Schuchart, Bill Gropp (prior lead: Rajeev Thakur)
 *   Scope: To re-examine the MPI RMA interface and consider additions and or changes needed to better support the one-sided programming model within MPI.
+*   Meeting Schedule: On Demand
 
 #### [Sessions](https://github.com/mpiwg-sessions/sessions-issues/wiki)
 
 *   Lead: Howard Pritchard, Dan Holmes
 *   Scope: Explore alternate concepts to MPI_Init and MPI_Finalize
+*   Meeting Schedule: Fortnightly on Mondays at <a href="https://time.is/900_in_CT">9am</a> US Central Time
 
 #### [Tools](https://github.com/mpiwg-tools/tools-issues)
 
 *   Lead: Marc-Andre Hermanns (prior lead: Kathryn Mohror)
 *   Scope: Definition of interfaces for debugging and performance tools
+*   Meeting Schedule: Mondays at <a href="https://time.is/1000_in_CT">10am</a> US Central Time
 
 ## Working Groups on Hold
 
