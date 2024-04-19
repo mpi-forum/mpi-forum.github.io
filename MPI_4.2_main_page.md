@@ -63,11 +63,11 @@ The following working groups are currently participating in the MPI 4.2 efforts.
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
 *   Meeting Schedule: Wednesdays at <a href="https://time.is/0900_in_CT">9am</a> US Central Time
 
-#### [I/O](https://github.com/mpiwg-io/io-issues)
+#### [I/O](https://github.com/mpiwg-io/)
 
 *   Lead: Quincey Koziol
 *   Scope: Definition of API extensions for I/O operations
-*   Meeting Schedule: On Demand
+*   Meeting Schedule: Fortnightly on Thursdays at <a href="https://time.is/1500_in_CT">3pm</a> US Central
 
 #### [Languages](https://github.com/mpiwg-languages/languages-issues/wiki)
 
