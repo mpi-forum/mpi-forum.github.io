@@ -1,27 +1,49 @@
 schedule:
     - day: Monday, June 17
-    - start: 2024-06-17T0:00
-      end: 2024-06-17T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2024-06-17T9:00
+      end: 2024-06-17T12:00
+      title: "Plenaries, see below"
+
+    - start: 2024-06-17T12:00
+      end: 2024-06-17T12:30
+      title: "Voting Block"
+      
+    - start: 2024-06-17T12:30
+      end: 2024-06-17T13:00
+      title: "Plenaries, see below"
     - endday: done
 
     - day: Tuesday, June 18
-    - start: 2024-06-18T0:00
-      end: 2024-06-18T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2024-06-18T9:00
+      end: 2024-06-18T12:00
+      title: "Plenaries, see below"
+
+    - start: 2024-06-18T12:00
+      end: 2024-06-18T12:30
+      title: "Voting Block"
+      
+    - start: 2024-06-18T12:30
+      end: 2024-06-18T13:00
+      title: "Plenaries, see below"
     - endday: done
 
-    - day: Wednesday, June 19
-    - start: 2024-06-19T0:00
-      end: 2024-06-19T23:59
-      title: "Placeholder Agenda Item"
+    - day: Wednesday, June 19 - skipped, holiday in the US
     - endday: done
 
     - day: Thursday, June 20
-    - start: 2024-06-20T0:00
-      end: 2024-06-20T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2024-06-20T9:00
+      end: 2024-06-20T12:00
+      title: "Plenaries, see below"
+
+    - start: 2024-06-20T12:00
+      end: 2024-06-20T12:30
+      title: "Voting Block"
+      
+    - start: 2024-06-20T12:30
+      end: 2024-06-20T13:00
+      title: "Plenaries, see below"
     - endday: done
+
 
 plenaries:
     - type: Welcome
@@ -39,5 +61,12 @@ plenaries:
       issue_number: 844
       link: https://github.com/mpi-forum/procedures/pull/12
       presenter: Wes
+      done: 0
+
+    - type: Discussion
+      title: "MPI ABI"
+      issue_number: 751
+      link: https://github.com/mpi-forum/procedures/pull/958
+      presenter: Jeff H.
       done: 0
 
