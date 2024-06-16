@@ -1,6 +1,10 @@
 schedule:
     - day: Monday, June 17
     - start: 2024-06-17T9:00
+      end: 2024-06-17T11:00
+      title: "Collective/Persistent WG: partitioned collective comms (Tony)"
+
+    - start: 2024-06-17T911:00
       end: 2024-06-17T12:00
       title: "Plenaries, see below"
 
@@ -30,10 +34,10 @@ schedule:
     - day: Wednesday, June 19 - skipped, holiday in the US
     - endday: done
 
-    - day: Thursday, June 20
+    - day: Thursday, June 20 - if needed
     - start: 2024-06-20T9:00
       end: 2024-06-20T12:00
-      title: "Plenaries, see below"
+      title: "Plenaries, see below (if needed)"
 
     - start: 2024-06-20T12:00
       end: 2024-06-20T12:30
@@ -41,7 +45,7 @@ schedule:
       
     - start: 2024-06-20T12:30
       end: 2024-06-20T13:00
-      title: "Plenaries, see below"
+      title: "Plenaries, see below (if needed)"
     - endday: done
 
 
@@ -64,9 +68,30 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: "Updated Figures"
+      issue_number:
+      link:
+      presenter: Benson
+      done: 0
+      
+    - type: Discussion
+      title: "Hyperlinks in the Document"
+      issue_number:
+      link: https://github.com/mpi-forum/mpi-standard/pull/954
+      presenter: Joseph
+      done: 0
+      
+    - type: Discussion
       title: "MPI ABI"
       issue_number: 751
       link: https://github.com/mpi-forum/procedures/pull/958
       presenter: Jeff H.
+      done: 0
+
+    - type: Discussion
+      title: "ULF Fault Model"
+      issue_number: 816
+      link: https://github.com/mpi-forum/mpi-standard/pull/947
+      presenter: Aurelien
       done: 0
 
