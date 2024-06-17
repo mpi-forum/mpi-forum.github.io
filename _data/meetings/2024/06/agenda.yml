@@ -10,8 +10,8 @@ schedule:
 
     - start: 2024-06-17T12:00
       end: 2024-06-17T12:30
-      title: "Voting Block"
-      
+      title: "CANCELLED: Voting Block"
+
     - start: 2024-06-17T12:30
       end: 2024-06-17T13:00
       title: "Plenaries, see below"
@@ -24,8 +24,8 @@ schedule:
 
     - start: 2024-06-18T12:00
       end: 2024-06-18T12:30
-      title: "Voting Block"
-      
+      title: "CANCELLED: Voting Block"
+
     - start: 2024-06-18T12:30
       end: 2024-06-18T13:00
       title: "Collective/Persistent WG: partitioned collective comms (Tony)"
@@ -42,8 +42,8 @@ schedule:
 
     - start: 2024-06-20T12:00
       end: 2024-06-20T12:30
-      title: "Voting Block"
-      
+      title: "CANCELLED: Voting Block"
+
     - start: 2024-06-20T12:30
       end: 2024-06-20T13:00
       title: "Plenaries, see below"
@@ -74,14 +74,14 @@ plenaries:
       link:
       presenter: Benson (Mon)
       done: 0
-      
+
     - type: Discussion
       title: "Hyperlinks in the Document"
       issue_number:
       link: https://github.com/mpi-forum/mpi-standard/pull/954
       presenter: Joseph (Mon)
       done: 0
-      
+
     - type: Discussion
       title: "ULF Fault Model"
       issue_number: 816
