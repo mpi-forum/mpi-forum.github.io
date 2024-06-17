@@ -2,7 +2,7 @@ schedule:
     - day: Monday, June 17
     - start: 2024-06-17T9:00
       end: 2024-06-17T11:00
-      title: "Collective/Persistent WG: partitioned collective comms (Tony)"
+      title: "CANCELLED"
 
     - start: 2024-06-17T11:00
       end: 2024-06-17T12:00
@@ -17,10 +17,10 @@ schedule:
       title: "Plenaries, see below"
     - endday: done
 
-    - day: Tuesday, June 18
+    - day: Tuesday, June 18 - Working Groups
     - start: 2024-06-18T9:00
       end: 2024-06-18T12:00
-      title: "Plenaries, see below"
+      title: "Collective/Persistent WG: partitioned collective comms (Tony)"
 
     - start: 2024-06-18T12:00
       end: 2024-06-18T12:30
@@ -28,16 +28,16 @@ schedule:
       
     - start: 2024-06-18T12:30
       end: 2024-06-18T13:00
-      title: "Plenaries, see below"
+      title: "Collective/Persistent WG: partitioned collective comms (Tony)"
     - endday: done
 
     - day: Wednesday, June 19 - skipped, holiday in the US
     - endday: done
 
-    - day: Thursday, June 20 - if needed
+    - day: Thursday, June 20
     - start: 2024-06-20T9:00
       end: 2024-06-20T12:00
-      title: "Plenaries, see below (if needed)"
+      title: "Plenaries, see below (starting with ABI)"
 
     - start: 2024-06-20T12:00
       end: 2024-06-20T12:30
@@ -45,7 +45,7 @@ schedule:
       
     - start: 2024-06-20T12:30
       end: 2024-06-20T13:00
-      title: "Plenaries, see below (if needed)"
+      title: "Plenaries, see below"
     - endday: done
 
 
@@ -64,34 +64,35 @@ plenaries:
       title: "Update Procedures for Side Document Versions"
       issue_number: 844
       link: https://github.com/mpi-forum/procedures/pull/12
-      presenter: Wes
+      presenter: Wes (Mon)
       done: 0
 
     - type: Discussion
       title: "Updated Figures"
       issue_number:
       link:
-      presenter: Benson
+      presenter: Benson (Mon)
       done: 0
       
     - type: Discussion
       title: "Hyperlinks in the Document"
       issue_number:
       link: https://github.com/mpi-forum/mpi-standard/pull/954
-      presenter: Joseph
+      presenter: Joseph (Mon)
       done: 0
       
-    - type: Discussion
-      title: "MPI ABI"
-      issue_number: 751
-      link: https://github.com/mpi-forum/procedures/pull/958
-      presenter: Jeff H.
-      done: 0
-
     - type: Discussion
       title: "ULF Fault Model"
       issue_number: 816
       link: https://github.com/mpi-forum/mpi-standard/pull/947
-      presenter: Aurelien
+      presenter: Aurelien (Mon and/or Thu)
       done: 0
+
+    - type: Discussion
+      title: "MPI ABI"
+      issue_number: 751
+      link: https://github.com/mpi-forum/procedures/pull/958
+      presenter: Jeff H. (Thu)
+      done: 0
+
 
