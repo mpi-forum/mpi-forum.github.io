@@ -21,12 +21,10 @@ schedule:
     - start: 2024-06-18T9:00
       end: 2024-06-18T12:00
       title: "Collective/Persistent WG: partitioned collective comms (Tony)"
-      extra: nolink
 
     - start: 2024-06-18T12:00
       end: 2024-06-18T12:30
       title: "Voting Block"
-      extra: nolink
       
     - start: 2024-06-18T12:30
       end: 2024-06-18T13:00
