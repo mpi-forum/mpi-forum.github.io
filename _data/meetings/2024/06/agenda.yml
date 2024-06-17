@@ -3,18 +3,23 @@ schedule:
     - start: 2024-06-17T9:00
       end: 2024-06-17T11:00
       title: "CANCELLED"
+      recording_url: "https://youtu.be/5kAw60iTHcc"
 
     - start: 2024-06-17T11:00
       end: 2024-06-17T12:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/5kAw60iTHcc"
 
     - start: 2024-06-17T12:00
       end: 2024-06-17T12:30
       title: "CANCELLED: Voting Block"
+      recording_url: "https://youtu.be/5kAw60iTHcc"
 
     - start: 2024-06-17T12:30
       end: 2024-06-17T13:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/5kAw60iTHcc"
+
     - endday: done
 
     - day: Tuesday, June 18 - Working Groups
