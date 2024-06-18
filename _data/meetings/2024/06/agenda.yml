@@ -59,7 +59,7 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
@@ -71,24 +71,24 @@ plenaries:
       issue_number: 844
       link: https://github.com/mpi-forum/procedures/pull/12
       presenter: Wes (Mon)
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Updated Figures"
       issue_number:
       link:
       presenter: Benson (Mon)
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Hyperlinks in the Document"
       issue_number:
       link: https://github.com/mpi-forum/mpi-standard/pull/954
       presenter: Joseph (Mon)
-      done: 0
+      done: 1
 
     - type: Discussion
-      title: "ULF Fault Model"
+      title: "ULFM Fault Model"
       issue_number: 816
       link: https://github.com/mpi-forum/mpi-standard/pull/947
       presenter: Aurelien (Mon and/or Thu)
