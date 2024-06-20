@@ -48,14 +48,18 @@ schedule:
     - start: 2024-06-20T9:00
       end: 2024-06-20T12:00
       title: "Plenaries, see below (starting with ABI)"
+      recording_url: "https://youtu.be/WzIITGvSlKk"
 
     - start: 2024-06-20T12:00
       end: 2024-06-20T12:30
       title: "CANCELLED: Voting Block"
+      recording_url: "https://youtu.be/WzIITGvSlKk"
 
     - start: 2024-06-20T12:30
       end: 2024-06-20T13:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/WzIITGvSlKk"
+
     - endday: done
 
 
