@@ -12,10 +12,10 @@ Advanced registration for this meeting will be required. **Registration is
 required regardless of whether attending in-person or remotely.**
 
 **All Attendees** need to register with the MPI Forum:
-https://forms.gle/RA9EPuLxVzFLdPFX7
+[https://forms.gle/RA9EPuLxVzFLdPFX7](https://forms.gle/RA9EPuLxVzFLdPFX7)
 
 **In-Person reigstrants** need to **also** register with the conference:
-https://events.csiro.au/Events/2024/May/22/IWOMP-EuroMPI-2024
+[https://events.csiro.au/Events/2024/May/22/IWOMP-EuroMPI-2024](https://events.csiro.au/Events/2024/May/22/IWOMP-EuroMPI-2024)
 
 ### Meeting Location
 
