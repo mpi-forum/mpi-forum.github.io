@@ -1,6 +1,6 @@
 ---
 layout: votes
-date: September 23, 2024 - September 25, 2024
+date: September 23, 2024 - September 24, 2024
 year: "2024"
 month: "09"
 rules: 3152013

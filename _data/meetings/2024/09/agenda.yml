@@ -11,12 +11,6 @@ schedule:
       title: "Placeholder Agenda Item"
     - endday: done
 
-    - day: Wednesday, September 25
-    - start: 2024-09-25T0:00
-      end: 2024-09-25T23:59
-      title: "Placeholder Agenda Item"
-    - endday: done
-
 plenaries:
     - type: Welcome
       title: Introductions
