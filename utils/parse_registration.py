@@ -14,7 +14,7 @@ def main():
     print("Opening file...");
 
     registration_list = list(csv.DictReader(open(registration_file)));
-    if "Will you be attending remotely or in person?" in registration_list[0]:
+    if "Will you be participating in-person or remotely?" in registration_list[0]:
         any_remote = True
     else:
         any_remote = False
@@ -33,7 +33,7 @@ def main():
         org = registration['What organization will you be representing?'].strip();
         email = registration['Email Address'];
 
-        if any_remote and registration['Will you be attending remotely or in person?'] == "Remote":
+        if any_remote and registration['Will you be participating in-person or remotely?'] == "Remote":
             remote = 1
         else:
             remote = 0
