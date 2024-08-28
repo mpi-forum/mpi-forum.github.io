@@ -36,3 +36,10 @@ plenaries:
       presenter: Howard
       done: 0
 
+    - type: Reading
+      title: "Use of 'starting' for processes needs disabiguation"
+      issue_number: 852
+      pr_number: 976
+      presenter: Howard
+      done: 0
+
