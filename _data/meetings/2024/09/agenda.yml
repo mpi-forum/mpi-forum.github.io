@@ -5,28 +5,18 @@ schedule:
     - start: 2024-09-23T9:00
       end: 2024-09-23T10:15
       title: "Plenary or WG time"
-    - endday: done
-
     - start: 2024-09-23T10:15
       end: 2024-09-23T10:45
       title: "Break - aligned with IWOMP"
-    - endday: done
-
     - start: 2024-09-23T10:45
       end: 2024-09-23T12:30
       title: "Plenary or WG time"
-    - endday: done
-
     - start: 2024-09-23T12:30
       end: 2024-09-23T14:00
       title: "Lunch - aligned with IWOMP"
-    - endday: done
-
     - start: 2024-09-23T14:00
       end: 2024-09-23T15:00
       title: "Plenary or WG time"
-    - endday: done
-
     - start: 2024-09-23T15:00
       end: 2024-09-23T15:30
       title: "Break - aligned with IWOMP"
@@ -35,39 +25,25 @@ schedule:
     - start: 2024-09-23T15:30
       end: 2024-09-23T17:00
       title: "Plenary or WG time"
-    - endday: done
-
     - day: Tuesday, September 24
     - start: 2024-09-24T9:00
       end: 2024-09-24T10:15
       title: "Plenary or WG time"
-    - endday: done
-
     - start: 2024-09-24T10:15
       end: 2024-09-24T10:45
       title: "Break - aligned with IWOMP"
-    - endday: done
-
     - start: 2024-09-24T10:45
       end: 2024-09-24T12:30
       title: "Plenary or WG time"
-    - endday: done
-
     - start: 2024-09-24T12:30
       end: 2024-09-24T14:00
       title: "Lunch - aligned with IWOMP AND Voting Block"
-    - endday: done
-
     - start: 2024-09-24T14:00
       end: 2024-09-24T15:00
       title: "Plenary or WG time"
-    - endday: done
-
     - start: 2024-09-24T15:00
       end: 2024-09-24T15:30
       title: "Break - aligned with IWOMP"
-    - endday: done
-
     - start: 2024-09-24T15:30
       end: 2024-09-24T17:00
       title: "Plenary or WG time"
