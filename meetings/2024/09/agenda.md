@@ -5,5 +5,7 @@ permalink: meetings/2024/09/agenda
 year: "2024"
 month: "09"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"
+timezone: "Australian Western Standard Time"
+timezone_abbr: "AWST (GMT+8)"
 ---
 
