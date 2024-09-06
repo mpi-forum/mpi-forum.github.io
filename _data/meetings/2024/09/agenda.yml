@@ -73,6 +73,27 @@ plenaries:
       presenter: Wes
       done: 0
 
+    - type: No-No Reading
+      title: "Text for MPI_GET_HW_RESOURCE_INFO needs clarification"
+      issue_number: 838
+      link:  https://github.com/mpi-forum/mpi-standard/pull/964/commits/83c6e1bdb77b76af1904b222a92ed8cac9308310
+      presenter: Guillaume
+      done: 0
+
+    - type: No-No Reading
+      title: "Make examples use URI format as described in MPI_GET_HW_RESOURCE_INFO"
+      issue_number: 823
+      link: https://github.com/mpi-forum/mpi-standard/pull/955/commits/3850c67661d2cd9c2c7e99dd1eaa5361311cefce
+      presenter: Guillaume
+      done: 0
+
+    - type: No-No Reading
+      title: "Add example for MPI_GET_HW_RESOURCE_INFO"
+      issue_number: 824
+      link: https://github.com/mpi-forum/mpi-standard/pull/957/files/a6aaf511e3d4c5f22caa591fef2ec2b0709289b5..d0b84ccfffed8c625e595214f916bdfc699ae87b
+      presenter: Guillaume
+      done: 0
+
     - type: Reading
       title: "Need to add text in description of MPI_Session_init that it is a local operation"
       issue_number: 850
