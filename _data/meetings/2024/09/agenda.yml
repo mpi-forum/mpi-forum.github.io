@@ -24,6 +24,10 @@ schedule:
       title: "Break - aligned with IWOMP"
       extra: nolink
     - start: 2024-09-23T15:30
+      end: 2024-09-23T15:30
+      title: "Start of voting block 1 - No/No and procedural votes"
+      extra: nolink
+    - start: 2024-09-23T15:30
       end: 2024-09-23T17:00
       title: "Plenary or WG time"
     - endday: done
@@ -37,15 +41,23 @@ schedule:
       title: "Break - aligned with IWOMP"
       extra: nolink
     - start: 2024-09-24T10:45
+      end: 2024-09-24T10:45
+      title: "End of Voting block 1"
+      extra: nolink
+    - start: 2024-09-24T10:45
       end: 2024-09-24T12:30
       title: "Plenary or WG time"
     - start: 2024-09-24T12:30
       end: 2024-09-24T14:00
-      title: "Lunch - aligned with IWOMP AND Voting Block"
+      title: "Lunch - aligned with IWOMP"
       extra: nolink
     - start: 2024-09-24T14:00
       end: 2024-09-24T15:00
       title: "Plenary or WG time"
+    - start: 2024-09-24T14:00
+      end: 2024-09-24T14:00
+      title: "Start of voting block 2 - 1st votes"
+      extra: nolink
     - start: 2024-09-24T15:00
       end: 2024-09-24T15:30
       title: "Break - aligned with IWOMP"
@@ -54,6 +66,18 @@ schedule:
       end: 2024-09-24T17:00
       title: "Plenary or WG time"
     - endday: done
+
+    - day: Wednesday, September 25
+    - start: 2024-09-24T10:00
+      end: 2024-09-24T10:00
+      extra: nolink
+      title: "End of voting block 2"
+    - start: 2024-09-24T10:00
+      end: 2024-09-24T10:00
+      link: https://events.vsc.ac.at/event/123/page/341-program
+      title: "Start of EuroMPI 2024 with registration and coffee break"
+    - endday: done
+
 
 plenaries:
     - type: Welcome
