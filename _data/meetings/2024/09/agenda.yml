@@ -139,3 +139,10 @@ plenaries:
       presenter: Jeff H.
       done: 0
 
+    - type: Reading
+      title: "MPI ABI"
+      issue_number: 654
+      pr_number: 978
+      presenter: Jeff H.
+      done: 0
+
