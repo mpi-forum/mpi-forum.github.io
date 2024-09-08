@@ -132,3 +132,10 @@ plenaries:
       presenter: Howard
       done: 0
 
+    - type: Reading
+      title: "MPI ABI"
+      issue_number: 751
+      pr_number: 977
+      presenter: Jeff H.
+      done: 0
+
