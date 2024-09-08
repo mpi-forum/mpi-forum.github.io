@@ -3,20 +3,20 @@ notes: 9am Pert time is 8pm US Central time (the day before) and 3am Central Eur
 schedule:
     - day: Monday, September 23
     - start: 2024-09-23T9:00
-      end: 2024-09-23T10:15
+      end: 2024-09-23T10:00
       title: "Plenary or WG time"
-    - start: 2024-09-23T10:15
-      end: 2024-09-23T10:45
+    - start: 2024-09-23T10:00
+      end: 2024-09-23T10:30
       title: "Break - aligned with IWOMP"
       extra: nolink
-    - start: 2024-09-23T10:45
-      end: 2024-09-23T12:30
+    - start: 2024-09-23T10:30
+      end: 2024-09-23T12:00
       title: "Plenary or WG time"
-    - start: 2024-09-23T12:30
-      end: 2024-09-23T14:00
+    - start: 2024-09-23T12:00
+      end: 2024-09-23T13:30
       title: "Lunch - aligned with IWOMP"
       extra: nolink
-    - start: 2024-09-23T14:00
+    - start: 2024-09-23T13:30
       end: 2024-09-23T15:00
       title: "Plenary or WG time"
     - start: 2024-09-23T15:00
@@ -34,30 +34,30 @@ schedule:
 
     - day: Tuesday, September 24
     - start: 2024-09-24T9:00
-      end: 2024-09-24T10:15
+      end: 2024-09-24T10:00
       title: "Plenary or WG time"
-    - start: 2024-09-24T10:15
-      end: 2024-09-24T10:45
+    - start: 2024-09-24T10:00
+      end: 2024-09-24T10:30
       title: "Break - aligned with IWOMP"
       extra: nolink
-    - start: 2024-09-24T10:45
-      end: 2024-09-24T10:45
+    - start: 2024-09-24T10:30
+      end: 2024-09-24T10:30
       title: "End of Voting block 1"
       extra: nolink
-    - start: 2024-09-24T10:45
-      end: 2024-09-24T12:30
+    - start: 2024-09-24T10:30
+      end: 2024-09-24T12:00
       title: "Plenary or WG time"
-    - start: 2024-09-24T12:30
-      end: 2024-09-24T14:00
+    - start: 2024-09-24T12:00
+      end: 2024-09-24T13:30
       title: "Lunch - aligned with IWOMP"
       extra: nolink
-    - start: 2024-09-24T14:00
-      end: 2024-09-24T15:00
-      title: "Plenary or WG time"
-    - start: 2024-09-24T14:00
-      end: 2024-09-24T14:00
+    - start: 2024-09-24T13:30
+      end: 2024-09-24T13:30
       title: "Start of voting block 2 - 1st votes"
       extra: nolink
+    - start: 2024-09-24T13:30
+      end: 2024-09-24T15:00
+      title: "Plenary or WG time"
     - start: 2024-09-24T15:00
       end: 2024-09-24T15:30
       title: "Break - aligned with IWOMP"
