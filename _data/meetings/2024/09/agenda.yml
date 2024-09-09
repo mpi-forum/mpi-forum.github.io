@@ -133,7 +133,21 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "MPI ABI"
+      title: "ULFM: fault model is not completely defined"
+      issue_number: 816
+      pr_number: 947
+      presenter: Aurelien
+      done: 0
+
+    - type: Reading
+      title: "ULFM: fault model is not completely defined"
+      issue_number: 816
+      pr_number: 947
+      presenter: Aurelien
+      done: 0
+
+    - type: Reading
+      title: "MPI ABI (planned for Tuesday after lunch)"
       issue_number: 751
       pr_number: 977
       presenter: Jeff H.
