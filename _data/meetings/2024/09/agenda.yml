@@ -118,6 +118,13 @@ plenaries:
       presenter: Guillaume
       done: 0
 
+    - type: Errata
+      title: "RMA - Contradicting rules about use of MPI_REQUEST_FREE"
+      issue_number: 760
+      pr_number: 904
+      presenter: Joseph
+      done: 0
+
     - type: Reading
       title: "Need to add text in description of MPI_Session_init that it is a local operation"
       issue_number: 850
