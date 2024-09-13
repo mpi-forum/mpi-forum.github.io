@@ -147,13 +147,6 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: "ULFM: fault model is not completely defined"
-      issue_number: 816
-      pr_number: 947
-      presenter: Aurelien
-      done: 0
-
-    - type: Reading
       title: "MPI ABI (planned for Tuesday after lunch)"
       issue_number: 751
       pr_number: 977
@@ -165,5 +158,19 @@ plenaries:
       issue_number: 654
       pr_number: 978
       presenter: Jeff H.
+      done: 0
+
+    - type: Reading
+      title: "Example for Fortran 2008 Wrapper is not in Example environment"
+      issue_number: 819
+      pr_number: 960
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Always set the MPI_ERROR field in status objects"
+      issue_number: 814
+      pr_number: 968
+      presenter: Joseph
       done: 0
 
