@@ -6,6 +6,6 @@ year: "2024"
 month: "09"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"
 timezone: "Australian Western Standard Time"
-timezone_abbr: "AWST (GMT+8)"
+timezone_abbr: "AWST"
 ---
 
