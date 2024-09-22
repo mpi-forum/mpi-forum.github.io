@@ -1,11 +1,11 @@
 issue_number,pr_number,topic,type,yes,no,abstain,missed
 844,,"Update Procedures for Side Document Versions",no-no
-844,,"Update Procedures for Side Document Versions",procedures
+844,,"Update Procedures for Side Document Versions",procedure
 760,904,"RMA - Contradicting rules about use of MPI_REQUEST_FREE",errata
 838,964,"Text for MPI_GET_HW_RESOURCE_INFO needs clarification",no-no
 823,955,"Make examples use URI format as described in MPI_GET_HW_RESOURCE_INFO",no-no
 824,957,"Add example for MPI_GET_HW_RESOURCE_INFO",no-no
-838,964,"Text for MPI_GET_HW_RESOURCE_INFO needs clarification (if no-no passes)",1st
-823,955,"Make examples use URI format as described in MPI_GET_HW_RESOURCE_INFO (if no-no passes)",1st
-824,957,"Add example for MPI_GET_HW_RESOURCE_INFO (if no-no passes)",1st
+838,964,"Text for MPI_GET_HW_RESOURCE_INFO needs clarification",1st
+823,955,"Make examples use URI format as described in MPI_GET_HW_RESOURCE_INFO",1st
+824,957,"Add example for MPI_GET_HW_RESOURCE_INFO",1st
 809,0,"Memory Allocation Kinds side document",1st

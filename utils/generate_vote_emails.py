@@ -15,13 +15,13 @@ import keyring
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
 
-prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/10/attendance.csv"
-prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2023/12/attendance.csv"
-curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/03/attendance.csv"
-curr_registration_file = "/Users/wbland/mpi/meeting-details/2024-03-mar/2024-03-18-registration.csv"
+prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/03/attendance.csv"
+prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/06/attendance.csv"
+curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/09/attendance.csv"
+curr_registration_file = "/Users/wbland/mpi/meeting-details/2024-09-sep/2024-09-23-registration.csv"
 transition_orgs_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/orgs.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSdt3ASbQeKD4hzKz2_TbVfSCfiQjbzefoHbD2R3IeevwxU3NA/viewform?usp=pp_url&entry.551305316={name}&entry.69773325={org}&entry.825554461={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSf_koCcheoa8Kp9YhbuOy0_pDwPw3z1VJqi92Jz0QGNguJAVQ/viewform?usp=pp_url&entry.1231116215={name}&entry.1052989449={org}&entry.1369831249={id}"
 
 prev_ooe = 29
 dry_run = 1
@@ -73,14 +73,14 @@ class FastMailSMTP(smtplib.SMTP_SSL):
 
 class GmailSMTP():
     def __init__(self):
-        if not os.path.exists('credentials.json'):
-            print("Make sure to run this script with credentials.json in the current directory.")
+        if not os.path.exists('vote_emailer_credentials.json'):
+            print("Make sure to run this script with vote_emailer_credentials.json in the current directory.")
             print("If you don't have that file, you can set one up and download it here:")
             print()
             print("https://console.developers.google.com/apis/credentials")
             print("Make sure to be logged in as mpiforumbot@gmail.com and")
             print("download the GMail API key as a JSON file. Put it in this")
-            print("directory and name it credentials.json")
+            print("directory and name it vote_emailer_credentials.json")
             exit(1)
 
         creds = None
@@ -96,7 +96,7 @@ class GmailSMTP():
                 creds.refresh(Request())
             else:
                 flow = InstalledAppFlow.from_client_secrets_file(
-                        'credentials.json', SCOPES)
+                        'vote_emailer_credentials.json', SCOPES)
                 creds = flow.run_local_server(port=0)
             # Save the credentials for the next run
             with open('token.pickle', 'wb') as token:
