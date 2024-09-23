@@ -83,19 +83,19 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Update Procedures for Side Document Versions"
       issue_number: 844
       link: https://github.com/mpi-forum/procedures/pull/12
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Text for MPI_GET_HW_RESOURCE_INFO needs clarification"
@@ -123,7 +123,7 @@ plenaries:
       issue_number: 760
       pr_number: 904
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Need to add text in description of MPI_Session_init that it is a local operation"
@@ -144,7 +144,7 @@ plenaries:
       issue_number: 816
       pr_number: 947
       presenter: Aurelien
-      done: 0
+      done: 1
 
     - type: Reading
       title: "MPI ABI (planned for Tuesday after lunch)"
@@ -172,5 +172,5 @@ plenaries:
       issue_number: 814
       pr_number: 968
       presenter: Joseph
-      done: 0
+      done: 1
 
