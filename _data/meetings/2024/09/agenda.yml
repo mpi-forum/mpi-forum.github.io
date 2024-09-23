@@ -137,7 +137,7 @@ plenaries:
       issue_number: 852
       pr_number: 976
       presenter: Howard/Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: "ULFM: fault model is not completely defined"
