@@ -8,6 +8,7 @@ _site/
 Gemfile.lock
 utils/credentials.json
 utils/vote_emailer_credentials.json
+utils/vote_form_generator.json
 utils/token.*
 utils/ballot.csv
 utils/votes.csv

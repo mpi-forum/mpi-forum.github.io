@@ -16,8 +16,8 @@ from googleapiclient.errors import HttpError
 
 def main():
     year = "2024"
-    month = "03"
-    day = "1"
+    month = "09"
+    day = "2"
     filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     votes_list = list(csv.DictReader(open(filename)));
 
@@ -55,7 +55,7 @@ def main():
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                'credentials.json', SCOPES)
+                'vote_form_generator.json', SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
         with open('token.json', 'w') as token:
