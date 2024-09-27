@@ -10,20 +10,20 @@ This page provides a way to update the community on the current status of variou
 
 ## MPI 4.0
 
-| ------------------------- | ----- | ------- |
-| Feature                   | [MPICH](https://mpich.org/) | [Open MPI](https://www.open-mpi.org/) |
-| Large Counts              |  ✅   |   ✅    |
-| Partitioned Communication |  ✅   |   ✅    |
-| Sessions                  |  ✅   |   ✅    |
-| MPI_T Events              |  ✅   |   ✅    |
-| Error Handling            |  ✅   |   ✅    |
-| Non-blocking SENDRECV     |  ✅   |   ✅    |
-| Persistent Collectives    |  ✅   |   ✅    |
-| New Split Types           |  ✅   |   ✅    |
-| MPI_COMM_DUP info         |  ✅   |   ✅    |
-| Info Assertions           |  ✅   |   ✅    |
-| Memory Alignment          |  ✅   |   ✅    |
-| MPI_INFO_CREATE_ENV       |  ✅   |   ✅    |
+| ------------------------- | ----- | ------- | ------- |
+| Feature                   | [MPICH](https://mpich.org/) | [Open MPI](https://www.open-mpi.org/) |  [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html) |
+| Large Counts              |  ✅   |   ✅    |    ✅    | 
+| Partitioned Communication |  ✅   |   ✅    |    ✅    |
+| Sessions                  |  ✅   |   ✅    |    ✅    |
+| MPI_T Events              |  ✅   |   ✅    |    ❌    |
+| Error Handling            |  ✅   |   ✅    |    ✅    |
+| Non-blocking SENDRECV     |  ✅   |   ✅    |     #    |
+| Persistent Collectives    |  ✅   |   ✅    |    ✅    |
+| New Split Types           |  ✅   |   ✅    |    ✅    |
+| MPI_COMM_DUP info         |  ✅   |   ✅    |     #    |
+| Info Assertions           |  ✅   |   ✅    |    ❌    |
+| Memory Alignment          |  ✅   |   ✅    |    ❌    |
+| MPI_INFO_CREATE_ENV       |  ✅   |   ✅    |     #    |
 
 |---|---|
 |# - Under development | + - Partly done |
