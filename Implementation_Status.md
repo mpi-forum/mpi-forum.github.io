@@ -8,6 +8,29 @@ permalink: /implementation-status/
 
 This page provides a way to update the community on the current status of various MPI implementation with respect to the various vesions of the MPI Standard.
 
+## MPI 4.1
+
+| ------------------------- | ----- | ------- |
+| Feature                   | [MPICH](https://mpich.org/) | [Open MPI](https://www.open-mpi.org/) |
+| (P)MPI_WTI{ME,CK} and handle conversion macros are symbols             |      |      |
+| `MPI_REQUEST_GET_STATUS` makes progress                                |      |      |
+| Status field get/set functions                                         |      |      | 
+| Send with automatic buffering features                                 |      |      | 
+| Getting multiple statuses from an array of requests                    |      |      | 
+| `MPI_TYPE_GET_VALUE_INDEX`                                             |      |      | 
+| `MPI_COMM_TYPE_RESOURCE_GUIDED` and `mpi_pset_name`                    |      |      | 
+| `mpi_assert_strict_persistent_collective_ordering`                     |      |      | 
+| Memory alloc kinds                                                     |      |      | 
+| Getting names for null handles                                         |      |      | 
+| `MPI_GET_HW_RESOURCE_INFO`                                             |      |      | 
+| `MPI_ERR_ERRHANDLER`                                                   |      |      | 
+| Removing error class, code and string                                  |      |      | 
+| `MPI_WIN_SHARED_QUERY` supports more window types                      |      |      | 
+| `mpi_accumulate_granularity`                                           |      |      | 
+
+|---|---|
+|# - Under development | + - Partly done |
+
 ## MPI 4.0
 
 | ------------------------- | ----- | ------- |
@@ -24,6 +47,7 @@ This page provides a way to update the community on the current status of variou
 | Info Assertions           |  ✅   |   ✅    |
 | Memory Alignment          |  ✅   |   ✅    |
 | MPI_INFO_CREATE_ENV       |  ✅   |   ✅    |
+
 
 |---|---|
 |# - Under development | + - Partly done |
