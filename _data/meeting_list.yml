@@ -1,5 +1,12 @@
 non_voting:
 
+  - year: 2024
+
+  - start: 2024-11-06T10:00
+    end: 2024-11-06T12:00
+    title: "Issue #854 / MPI 4.2 Planning"
+    recording_url:
+
   - year: 2023
 
   - start: 2023-11-08T10:00
