@@ -55,7 +55,7 @@ This page provides a way to update the community on the current status of variou
 ## MPI 3.1
 
 | ------------------------ | ----- | ------- | -------- | ---- | ------ | --------- | ------------------- | ----------------- | -------------- | --- | ------- | --------- | --- | --- | ------ | ----- | ------- |
-| Feature                  | MPICH | MVAPICH | Open MPI | Cray | Tianhe | Intel MPI | IBM (BG/Q - Legacy) | IBM (PE - Legacy) | IBM (Spectrum) | HPE | Fujitsu | Microsoft | MPC | NEC | Sunway | RIKEN | AMPI    |
+| Feature                  | [MPICH](https://mpich.org/) | MVAPICH | [Open MPI](https://www.open-mpi.org/) | Cray | Tianhe | [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html) | IBM (BG/Q - Legacy) | IBM (PE - Legacy) | IBM (Spectrum) | HPE | Fujitsu | Microsoft | MPC | NEC | Sunway | RIKEN | AMPI    |
 | Non-Blocking Collectives | ✅    | ✅      | ✅       | ✅   | ✅     | ✅        | ✅                  | ✅                | ✅             | ✅  | ✅      | ✅        | ✅  | ✅  | ✅     | ✅    | ✅      |
 | Neighborhood Collectives | ✅    | ✅      | ✅       | ✅   | ✅     | ✅        | ✅                  | ✅                | ✅             | ✅  | ✅      | ❌        | ✅  | ✅  | ✅     | ✅    | ✅      |
 | RMA                      | ✅    | ✅      | ✅       | ✅   | ✅     | ✅        | ✅                  | ✅                | ✅             | ✅  | ✅      | ✅        | ✅  | ✅  | ✅     | ✅    | +       |
