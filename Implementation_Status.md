@@ -35,10 +35,10 @@ This page provides a way to update the community on the current status of variou
 
 | ------------------------- | ----- | ------- | ------- |
 | Feature                   | [MPICH](https://mpich.org/) | [Open MPI](https://www.open-mpi.org/) |  [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html) |
-| Large Counts              |  ✅   |   ✅    |    ✅    | 
+| Large Counts              |  ✅   |    #    |    ✅    |
 | Partitioned Communication |  ✅   |   ✅    |    ✅    |
 | Sessions                  |  ✅   |   ✅    |    ✅    |
-| MPI_T Events              |  ✅   |   ✅    |    ❌    |
+| MPI_T Events              |  ✅   |   ❌    |    ❌    |
 | Error Handling            |  ✅   |   ✅    |    ✅    |
 | Non-blocking SENDRECV     |  ✅   |   ✅    |     #    |
 | Persistent Collectives    |  ✅   |   ✅    |    ✅    |
