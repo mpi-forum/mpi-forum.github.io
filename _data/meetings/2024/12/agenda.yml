@@ -1,0 +1,42 @@
+schedule:
+    - day: Monday, December 09
+    - start: 2024-12-09T0:00
+      end: 2024-12-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, December 10
+    - start: 2024-12-10T0:00
+      end: 2024-12-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, December 11
+    - start: 2024-12-11T0:00
+      end: 2024-12-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, December 12
+    - start: 2024-12-12T0:00
+      end: 2024-12-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: Placeholder Reading
+      issue_number: 1234
+      presenter: Placeholder Presenter
+      done: 0
+
