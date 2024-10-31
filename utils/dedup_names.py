@@ -49,6 +49,16 @@ dedup = {
         'Tennessee Tech University': 'Tennessee Technological University',
         'The Texas Advanced Computing Center': 'Texas Advanced Computing Center',
         'The University of Tokyo': 'University of Tokyo',
+        'Julien ADAM': 'Julien Adam',
+        'Aurelien Bouteiller': 'Aurélien Bouteiller',
+        'Evan Drake Suggs': 'Evan Suggs',
+        'Marc-André Hermanns': 'Marc-André Hermanns',
+        'Naveen Ravi': 'Naveen Ravichandrasekaran',
+        'Pepper Marts': 'W. Pepper Marts',
+        'brian smith': 'Brian Smith',
+        'gcorbin': 'Gregor Corbin',
+        'snirmarc': 'Marc Snir',
+        'sonjahapp': 'Sonja Happ',
         }
 
 def dedup_names(name):

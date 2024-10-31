@@ -3,17 +3,17 @@
 import csv
 from dedup_names import dedup_names
 
-prevMeetings = ["../_data/meetings/2022/12/attendance.csv",
-                "../_data/meetings/2023/02/attendance.csv",
-                "../_data/meetings/2023/03/attendance.csv",
-                "../_data/meetings/2023/05/attendance.csv",
-                "../_data/meetings/2023/07/attendance.csv"]
+prevMeetings = ["../_data/meetings/2023/10/attendance.csv",
+                "../_data/meetings/2023/12/attendance.csv",
+                "../_data/meetings/2024/03/attendance.csv",
+                "../_data/meetings/2024/06/attendance.csv",
+                "../_data/meetings/2024/09/attendance.csv"]
 
-prevDetails = ["../../meeting-details/2023-07-jul/2023-07-10-registration.csv",
-               "../../meeting-details/2023-05-may/2023-05-02-registration.csv",
-               "../../meeting-details/2023-03-mar/2023-03-13-registration.csv",
-               "../../meeting-details/2023-02-feb/2023-02-01-registration.csv",
-               "../../meeting-details/2022-12-dec/2022-12-05-registration.csv"]
+prevDetails = ["../../meeting-details/2023-10-oct/2023-10-31-registration.csv",
+               "../../meeting-details/2023-12-dec/2023-12-04-registration.csv",
+               "../../meeting-details/2024-03-mar/2024-03-18-registration.csv",
+               "../../meeting-details/2024-06-jun/2024-06-17-registration.csv",
+               "../../meeting-details/2024-09-sep/2024-09-23-registration.csv"]
 
 def main():
     attendeeList = {}
@@ -30,8 +30,8 @@ def main():
             else:
                 attendeeList[person] = 1
 
-    attendeeList['Hugo Taboada'] = 3
-    attendeeList['Rolf Rabenseifner'] = 0
+    # Special cases (3 = reviewer, 0 = not active)
+    attendeeList['William Gropp'] = 0
 
     for person in sorted(attendeeList.keys()):
         if attendeeList[person] > 2:
@@ -44,12 +44,11 @@ def main():
                 for detailData in data:
                     if dedup_names(detailData['name']) == person:
                         emailList[person] = detailData['email']
-                        print("Found " + person + " in " + fileName)
                         break
 
     for person in sorted(attendeeList.keys()):
         if attendeeList[person] > 2:
-            print("" + person + "\t" + emailList[person])
+            print(f"{person:40s} {emailList[person]:40s}")
 
 if __name__ == '__main__':
     main()

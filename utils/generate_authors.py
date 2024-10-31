@@ -6,9 +6,9 @@ import datetime
 from github import Github
 from dedup_names import dedup_names
 
-startYear = 2021
-currYear = 2023
-startMonth = 6
+startYear = 2023
+currYear = 2024
+startMonth = 10
 currMonth = 9
 
 def main():
@@ -23,7 +23,7 @@ def main():
     gitHubUsers = []
     startDate = datetime.datetime(startYear, startMonth, 1)
     for issue in repo.get_issues_comments(since=startDate):
-        if issuer.user.login == 'mpiforumbot':
+        if issue.user.login == 'mpiforumbot':
             continue
 
         if issue.user.name is None:
