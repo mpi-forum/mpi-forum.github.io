@@ -636,6 +636,23 @@ non_voting:
 
 voting:
 
+  - year: 2025
+
+  - start: 2025-01-08
+    end: 2025-01-08
+    title: "Virtual Voting Meeting - PLACEHOLDER DATE"
+    links: "no"
+
+  - start: 2025-03-03
+    end: 2025-03-07
+    title: "Stuttgart, Germany (HLRS) - VERY TENTATIVE DATES"
+    links: "no"
+
+  - start: 2025-06-02
+    end: 2025-06-05
+    title: "Virtual Voting Meeting - PLACEHOLDER DATES"
+    links: "no"
+
   - year: 2024
 
   - start: 2024-12-09
