@@ -34,9 +34,10 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+    - type: No-No Reading
+      title: "a standalone MPI_F08 is painful without an ABI"
+      issue_number: 654
+      pr_number: 978
+      presenter: Jeff H
       done: 0
 
