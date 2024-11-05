@@ -41,3 +41,10 @@ plenaries:
       presenter: Jeff H
       done: 0
 
+    - type: Reading
+      title: "Need to add text in description of MPI_Session_init that it is a local operation"
+      issue_number: 850
+      pr_number: 973
+      presenter: Howard
+      done: 0
+
