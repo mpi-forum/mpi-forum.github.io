@@ -48,3 +48,10 @@ plenaries:
       presenter: Howard
       done: 0
 
+    - type: No-No Reading
+      title: "Memory Allocation Kinds side document"
+      issue_number: 809
+      link: "https://github.com/mpi-forum/mem-alloc/compare/1c7e53348835c6c17af8ad48acabb96e5e1a684f..6dceb0f79cd033cad3410230636a00aed9b72104"
+      presenter: Rohit
+      done: 0
+

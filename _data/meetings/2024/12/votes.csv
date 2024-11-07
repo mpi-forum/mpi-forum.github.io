@@ -6,3 +6,5 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 838,964,"Text for `MPI_GET_HW_RESOURCE_INFO` needs clarification ",2nd
 823,955,"Make examples in `MPI_COMM_SPLIT_TYPE` consistent with `MPI_GET_HW_RESOURCE_INFO`",2nd
 824,957,"`MPI_GET_HW_RESOURCE_INFO` needs an example",2nd
+809,,"Memory Allocation Kinds side document",no-no
+809,,"Memory Allocation Kinds side document",2nd
