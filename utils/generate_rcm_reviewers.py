@@ -32,6 +32,7 @@ def main():
 
     # Special cases (3 = reviewer, 0 = not active)
     attendeeList['William Gropp'] = 0
+    attendeeList['Julien Jaeger'] = 3
 
     for person in sorted(attendeeList.keys()):
         if attendeeList[person] > 2:
