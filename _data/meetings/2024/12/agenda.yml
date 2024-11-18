@@ -41,7 +41,7 @@ plenaries:
       presenter: Jeff H
       done: 0
 
-    - type: Reading
+    - type: No-No Reading
       title: "Need to add text in description of MPI_Session_init that it is a local operation"
       issue_number: 850
       pr_number: 973
@@ -60,5 +60,16 @@ plenaries:
       issue_number: 814
       pr_number: 968
       presenter: Joseph
+      done: 0
+
+    - type: Discussion
+      title: 'UB for passing uninitialized variables to "significant only at root" arguments'
+      issue_number: 854
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Discussion
+      title: 'MPI 4.2 Planning'
+      presenter: Wes/Martin
       done: 0
 
