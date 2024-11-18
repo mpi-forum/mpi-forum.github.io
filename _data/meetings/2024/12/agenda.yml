@@ -55,3 +55,10 @@ plenaries:
       presenter: Rohit
       done: 0
 
+    - type: No-No Reading
+      title: "Always set the MPI_ERROR field in status objects"
+      issue_number: 814
+      pr_number: 968
+      presenter: Joseph
+      done: 0
+
