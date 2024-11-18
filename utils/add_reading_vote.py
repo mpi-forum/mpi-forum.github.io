@@ -64,7 +64,10 @@ def main():
     if reading:
         print("Writing to agenda")
         if not dry_run:
-            agenda_list.write("    - type: Reading\n")
+            if vote_type == 'no-no':
+                agenda_list.write("    - type: No-No Reading\n")
+            else:
+                agenda_list.write("    - type: Reading\n")
             agenda_list.write("      title: \"" + title + "\"\n")
             agenda_list.write("      issue_number: " + str(issue_number) + "\n")
             agenda_list.write("      pr_number: " + str(pr_number) + "\n")
