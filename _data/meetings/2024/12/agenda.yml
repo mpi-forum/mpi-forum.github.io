@@ -73,3 +73,8 @@ plenaries:
       presenter: Wes/Martin
       done: 0
 
+    - type: Discussion
+      title: 'MPI 4.2 Chapter Committees'
+      presenter: Wes/Martin
+      done: 0
+
