@@ -9,3 +9,4 @@
 "823","955","Make examples use URI format as described in MPI_GET_HW_RESOURCE_INFO","1st","26","0","4","0"
 "824","957","Add example for MPI_GET_HW_RESOURCE_INFO","1st","26","0","4","0"
 "809","","Memory Allocation Kinds side document","1st","26","0","4","0"
+850,973,"Need to add text in description of MPI_Session_init that it is a local operation",1st
