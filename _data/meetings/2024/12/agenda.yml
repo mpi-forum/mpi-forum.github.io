@@ -1,26 +1,66 @@
 schedule:
     - day: Monday, December 09
-    - start: 2024-12-09T0:00
-      end: 2024-12-09T23:59
-      title: "Placeholder Agenda Item"
+
+    - start: 2024-12-09T09:00
+      end: 2024-12-09T13:00
+      title: "Plenaries, see below"
+
+    - start: 2024-12-09T12:00
+      end: 2024-12-09T12:30
+      title: "Voting Block"
+
+    - start: 2024-12-09T09:00
+      end: 2024-12-09T13:00
+      title: "Plenaries, see below"
+
     - endday: done
 
     - day: Tuesday, December 10
-    - start: 2024-12-10T0:00
-      end: 2024-12-10T23:59
-      title: "Placeholder Agenda Item"
+
+    - start: 2024-12-10T09:00
+      end: 2024-12-10T13:00
+      title: "Plenaries, see below"
+
+    - start: 2024-12-10T12:00
+      end: 2024-12-10T12:30
+      title: "Voting Block"
+
+    - start: 2024-12-10T09:00
+      end: 2024-12-10T13:00
+      title: "Plenaries, see below"
+
     - endday: done
 
     - day: Wednesday, December 11
-    - start: 2024-12-11T0:00
-      end: 2024-12-11T23:59
-      title: "Placeholder Agenda Item"
+
+    - start: 2024-12-11T09:00
+      end: 2024-12-11T13:00
+      title: "Plenaries, see below"
+
+    - start: 2024-12-11T12:00
+      end: 2024-12-11T12:30
+      title: "Voting Block"
+
+    - start: 2024-12-11T09:00
+      end: 2024-12-11T13:00
+      title: "Plenaries, see below"
+
     - endday: done
 
     - day: Thursday, December 12
-    - start: 2024-12-12T0:00
-      end: 2024-12-12T23:59
-      title: "Placeholder Agenda Item"
+
+    - start: 2024-12-12T09:00
+      end: 2024-12-12T13:00
+      title: "Plenaries, see below"
+
+    - start: 2024-12-12T12:00
+      end: 2024-12-12T12:30
+      title: "Voting Block"
+
+    - start: 2024-12-12T09:00
+      end: 2024-12-12T13:00
+      title: "Plenaries, see below"
+
     - endday: done
 
 plenaries:
