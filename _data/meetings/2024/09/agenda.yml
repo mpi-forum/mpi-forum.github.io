@@ -186,3 +186,10 @@ plenaries:
       presenter: Joseph
       done: 1
 
+    - type: No-No Reading
+      title: "Update figures in all chapters to use selected consistent format(s)"
+      issue_number: 712
+      pr_number: 930
+      presenter: Benson
+      done: 0
+
