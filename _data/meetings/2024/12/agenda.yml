@@ -109,6 +109,12 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: 'Two ways in which the default for mpi_memory_alloc_kinds can be interpreted'
+      issue_number: 773
+      presenter: Rohit
+      done: 0
+
+    - type: Discussion
       title: 'MPI 4.2 Planning'
       presenter: Wes/Martin
       done: 0
