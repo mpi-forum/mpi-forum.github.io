@@ -86,7 +86,7 @@ The following working groups are currently participating in the MPI 4.2 efforts.
 
 *   Lead: Howard Pritchard, Dan Holmes
 *   Scope: Explore alternate concepts to MPI_Init and MPI_Finalize
-*   Meeting Schedule: Fortnightly on Mondays at <a href="https://time.is/900_in_CT">9am</a> US Central Time
+*   Meeting Schedule: Fortnightly on Mondays at <a href="https://time.is/800_in_CT">8am</a> US Central Time
 
 #### [Tools](https://github.com/mpiwg-tools/tools-issues)
 
