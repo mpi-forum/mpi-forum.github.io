@@ -4,6 +4,7 @@ schedule:
     - start: 2024-12-09T09:00
       end: 2024-12-09T13:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/GxyGFD_fIrE"
 
     - start: 2024-12-09T12:00
       end: 2024-12-09T12:30
@@ -12,6 +13,7 @@ schedule:
     - start: 2024-12-09T09:00
       end: 2024-12-09T13:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/GxyGFD_fIrE"
 
     - endday: done
 
