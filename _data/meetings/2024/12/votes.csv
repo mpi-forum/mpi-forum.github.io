@@ -10,4 +10,5 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 809,,"Memory Allocation Kinds side document",no-no
 809,,"Memory Allocation Kinds side document",2nd
 814,968,"Always set the MPI_ERROR field in status objects",no-no
+814,968,"Always set the MPI_ERROR field in status objects",1st
 819,960,"Example for Fortran 2008 Wrapper is not in Example environment",1st
