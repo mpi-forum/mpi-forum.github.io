@@ -26,8 +26,8 @@ def main():
     attendance_file=sys.argv[1]; # File with UUIDs for each attendee
     ballot_file=sys.argv[2]; # File with list of ballots on which to be voted
     votes_file=sys.argv[3]; # File with votes captured from Google Forms
-    prev_votes_file="../_data/meetings/2024/09/votes.csv"
-    prev_ballots_file="../_data/meetings/2024/09/ballot.csv"
+    prev_votes_file="../_data/meetings/2024/12/votes.csv"
+    prev_ballots_file="../_data/meetings/2024/12/ballot.csv"
     if not os.path.isfile(prev_votes_file):
         prev_votes_file=""
     if not os.path.isfile(prev_ballots_file):
