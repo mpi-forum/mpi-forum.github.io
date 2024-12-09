@@ -7,13 +7,15 @@ prevMeetings = ["../_data/meetings/2023/10/attendance.csv",
                 "../_data/meetings/2023/12/attendance.csv",
                 "../_data/meetings/2024/03/attendance.csv",
                 "../_data/meetings/2024/06/attendance.csv",
-                "../_data/meetings/2024/09/attendance.csv"]
+                "../_data/meetings/2024/09/attendance.csv",
+                "../_data/meetings/2024/12/attendance.csv"]
 
 prevDetails = ["../../meeting-details/2023-10-oct/2023-10-31-registration.csv",
                "../../meeting-details/2023-12-dec/2023-12-04-registration.csv",
                "../../meeting-details/2024-03-mar/2024-03-18-registration.csv",
                "../../meeting-details/2024-06-jun/2024-06-17-registration.csv",
-               "../../meeting-details/2024-09-sep/2024-09-23-registration.csv"]
+               "../../meeting-details/2024-09-sep/2024-09-23-registration.csv",
+               "../../meeting-details/2024-12-dec/2024-12-09-registration.csv"]
 
 def main():
     attendeeList = {}

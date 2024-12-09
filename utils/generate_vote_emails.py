@@ -15,15 +15,15 @@ import keyring
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
 
-prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/03/attendance.csv"
-prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/06/attendance.csv"
-curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/09/attendance.csv"
-curr_registration_file = "/Users/wbland/mpi/meeting-details/2024-09-sep/2024-09-23-registration.csv"
+prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/06/attendance.csv"
+prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/09/attendance.csv"
+curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/12/attendance.csv"
+curr_registration_file = "/Users/wbland/mpi/meeting-details/2024-12-dec/2024-12-09-registration.csv"
 transition_orgs_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/orgs.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSdoohrwsfTNjhMG9QFNTlNIYl2RoDSLcOWiy1KYUxSkhoAuhg/viewform?usp=pp_url&entry.1374525185={name}&entry.632506003={org}&entry.467452776={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSfViPA_t0cySFloL0sLFMqhklEuMLF6yByHt4Xa01vzUHi2Ag/viewform?usp=pp_url&entry.1086213497={name}&entry.1980873030={org}&entry.730538081={id}"
 
-prev_ooe = 29
+prev_ooe = 30
 dry_run = 1
 
 from email import encoders
@@ -268,7 +268,7 @@ def main():
             message_text = """\
 Hi {name},
 <br><br>
-Voting is now open for the September 2024 Plenary Day 1 meeting. You may vote at this
+Voting is now open for the December 2024 Plenary Day 1 meeting. You may vote at this
 link:
 <br><br>
 {link}
@@ -282,8 +282,7 @@ order to vote. If no one from your organization attended any portion of the
 meeting up to the point where first voting block opened, your organization's
 vote will not be counted.
 <br><br>
-Voting will be open until 09:30am on September 23, 2024 Perth Time (UTC +8) /
-8:30pm on September 24, 2024 US Central Time (UTC -5).
+Voting will be open until 01:00pm on December 09, 2024 US Central Time (UTC -6).
 <br><br>
 Thanks,
 <br>
@@ -291,7 +290,7 @@ Wes Bland (MPI Forum Secretary)\
                             """.format(name=name, link=text_link)
 
             message = service.create_message(from_addr='"MPI Forum Mailer Bot" <mpiforumbot@gmail.com>',
-                    to_addr=email, msg=message_text, subject='September 2024 MPI Forum Plenary Day 1 Voting Link')
+                    to_addr=email, msg=message_text, subject='December 2024 MPI Forum Plenary Day 1 Voting Link')
             if not dry_run or email == "work@wesbland.com":
                 message_id = service.send_message(message=message)
 

@@ -9,7 +9,7 @@ from dedup_names import dedup_names
 startYear = 2023
 currYear = 2024
 startMonth = 10
-currMonth = 9
+currMonth = 12
 
 def main():
     token = subprocess.run(['gh','auth','token'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip()
@@ -19,6 +19,7 @@ def main():
     attendeeList = {}
     orgList = {}
 
+    print("=== Getting GitHub participants ===")
     # Get GitHub participants
     gitHubUsers = []
     startDate = datetime.datetime(startYear, startMonth, 1)
@@ -37,6 +38,7 @@ def main():
         else:
             attendeeList[person] = 1
 
+    print("=== Getting meeting participants ===")
     # Get meeting participants
     for year in range(startYear, currYear+1):
         for month in range(1, 13):
