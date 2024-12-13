@@ -1,8 +1,8 @@
 schedule:
     - day: Wednesday, January 08
-    - start: 2025-01-08T0:00
-      end: 2025-01-08T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2025-01-08T10:00
+      end: 2025-01-08T13:00
+      title: "Plenaries, see below"
     - endday: done
 
 plenaries:
@@ -16,9 +16,8 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+    - type: Discussion
+      title: Chapter Committees
+      presenter: Martin / Wes
       done: 0
 
