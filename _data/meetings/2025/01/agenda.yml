@@ -17,6 +17,11 @@ plenaries:
       done: 0
 
     - type: Discussion
+      title: Standard Versioning
+      presenter: Jeff / Martin / Wes
+      done: 0
+
+    - type: Discussion
       title: Chapter Committees
       presenter: Martin / Wes
       done: 0
