@@ -26,3 +26,11 @@ plenaries:
       presenter: Martin / Wes
       done: 0
 
+    - type: No-No Reading
+      title: "a standalone MPI_F08 is painful without an ABI"
+      issue_number: 654
+      pr_number: 978
+      link: "https://github.com/mpi-forum/mpi-standard/pull/978/files/5c7889eb56da14ec44ea81c0cf2340951cff5361..270b8fe6dfbea79a850674de73a055e18c0502ea"
+      presenter: Jeff
+      done: 0
+
