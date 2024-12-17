@@ -34,3 +34,10 @@ plenaries:
       presenter: Jeff
       done: 0
 
+    - type: Reading
+      title: "Two ways in which the default for mpi_memory_alloc_kinds can be interpreted"
+      issue_number: 773
+      pr_number: 986
+      presenter: Rohit
+      done: 0
+
