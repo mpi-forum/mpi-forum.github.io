@@ -2,6 +2,11 @@ non_voting:
 
   - year: 2024
 
+  - start: 2024-12-18T10:00
+    end: 2024-12-18T12:00
+    title: "Issue #854 / UB for passing uninitialized variables to significant only at root arguments"
+    recording_url:
+
   - start: 2024-11-06T10:00
     end: 2024-11-06T12:00
     title: "Issue #854 / MPI 4.2 Planning"
