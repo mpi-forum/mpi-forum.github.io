@@ -4,3 +4,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 654,978,"a standalone MPI_F08 is painful without an ABI",2nd
 850,973,"Need to add text in description of MPI_Session_init that it is a local operation",2nd
 773,986,"Two ways in which the default for mpi_memory_alloc_kinds can be interpreted",errata
+819,960,"Example for Fortran 2008 Wrapper is not in Example environment",2nd
+751,977,"MPI needs a standard ABI",no-no
+854,988,"UB for passing uninitialized variables to 'significant only at root' arguments",errata

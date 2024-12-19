@@ -41,3 +41,26 @@ plenaries:
       presenter: Rohit
       done: 0
 
+    - type: Discussion
+      title: "Tikz Figures"
+      issue_number: 712
+      pr_number: 930
+      presenter: Benson
+      done: 0
+
+
+    - type: No-No Reading
+      title: "MPI needs a standard ABI"
+      issue_number: 751
+      pr_number: 977
+      link: "https://github.com/mpi-forum/mpi-standard/pull/977/files/6ea5e95c189ede09fb741cea7d0be82c96dfb9c9..c1078e00e9afeaaf7b879241cf90652aa0ddcaa1"
+      presenter: Jeff
+      done: 0
+
+    - type: Reading
+      title: "UB for passing uninitialized variables to 'significant only at root' arguments"
+      issue_number: 854
+      pr_number: 988
+      presenter: Marc-Andre
+      done: 0
+
