@@ -643,20 +643,20 @@ voting:
 
   - year: 2025
 
-  - start: 2025-01-08
-    end: 2025-01-08
+  - start: 2025-06-04
+    end: 2025-06-06
     title: "Virtual Voting Meeting"
-    links: "yes"
+    links: "no"
 
   - start: 2025-03-03
     end: 2025-03-06
     title: "Stuttgart, Germany (HLRS)"
     links: "yes"
 
-  - start: 2025-06-04
-    end: 2025-06-06
+  - start: 2025-01-08
+    end: 2025-01-08
     title: "Virtual Voting Meeting"
-    links: "no"
+    links: "yes"
 
   - year: 2024
 
