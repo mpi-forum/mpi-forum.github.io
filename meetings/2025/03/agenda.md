@@ -5,5 +5,7 @@ permalink: meetings/2025/03/agenda
 year: "2025"
 month: "03"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"
+timezone: "Central European Time"
+timezone_abbr: "CET"
 ---
 
