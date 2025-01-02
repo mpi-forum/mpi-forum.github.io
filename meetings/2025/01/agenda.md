@@ -5,5 +5,6 @@ permalink: meetings/2025/01/agenda
 year: "2025"
 month: "01"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"
+wtb_timezone: "5" # Can figure this out here: https://www.worldtimebuddy.com/clock-widget
 ---
 
