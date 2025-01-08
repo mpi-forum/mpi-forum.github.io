@@ -9,12 +9,12 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Standard Versioning
@@ -40,7 +40,7 @@ plenaries:
       pr_number: 986
       link: "https://github.com/mpi-forum/mpi-standard/pull/986/commits/67b9ea749a50e10bec3e34e261f61e9a21b4e236"
       presenter: Rohit
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "MPI needs a standard ABI"
@@ -55,7 +55,7 @@ plenaries:
       issue_number: 854
       pr_number: 988
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Tikz Figures"
