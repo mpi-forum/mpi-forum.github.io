@@ -46,7 +46,7 @@ plenaries:
       title: "MPI needs a standard ABI"
       issue_number: 751
       pr_number: 977
-      link: "https://github.com/mpi-forum/mpi-standard/pull/977/files/6ea5e95c189ede09fb741cea7d0be82c96dfb9c9..c1078e00e9afeaaf7b879241cf90652aa0ddcaa1"
+      link: "https://github.com/mpi-forum/mpi-standard/pull/977/files/6ea5e95c189ede09fb741cea7d0be82c96dfb9c9..30b2fde5a47a58153ea2713ed4b02dadc5db033e"
       presenter: Jeff
       done: 0
 
