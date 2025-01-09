@@ -129,7 +129,7 @@ In addition to the active working groups, several working groups exist that have
 |3| Point to Point Communcation| Dan Holmes | Ken Raffenetti, Ryan Grant, Bill Gropp, Brian Smith |
 |4| Partitioned Communication | Ryan Grant | Tony Skjellum, Puri Bangalore, Dan Holmes, Matthew Dosanjh |
 |5| Datatypes| George Bosilca | Bill Gropp, Martin Ruefenacht, Dan Holmes |
-|6| Collective Communication | Tony Skjellum | Torsten Höfler, Brian Smith, Martin Schulz, Julien Jaeger, Benson Buite |
+|6| Collective Communication | Tony Skjellum | Torsten Höfler, Brian Smith, Martin Schulz, Julien Jaeger, Benson Muite |
 |7| Groups, Contexts, Communicators, Caching | Guillaume Mercier | Bill Gropp, Tony Skjellum, Pavan Balaji |
 |8| Process Topologies | Christoph Niethammer | Guillaume Mercier, Claudia Blaas-Schenner, Torsten Höfler, Tony Skjellum |
 |9| MPI Environmental Management | George Bosilca | Ken Raffenetti, Wes Bland, Thomas Naughton |
