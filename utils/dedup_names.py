@@ -4,7 +4,7 @@ dedup = {
         'Purushotham Bangalore': 'Purushotham V. Bangalore',
         'puribangalore': 'Purushotham V. Bangalore',
         'Marc-Andre Hermanns': 'Marc-André Hermanns',
-        'James Dinan': 'Jim Dinan',
+        'Jim Dinan': 'James Dinan',
         'Daniel Holmes': 'Dan Holmes',
         'Nicholas Radcliffe': 'Nick Radcliffe',
         'Isaias Alberto Compres Urena': 'Isaías Alberto Comprés Ureña',
