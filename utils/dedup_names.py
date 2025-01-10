@@ -29,7 +29,8 @@ dedup = {
         'Florent GERMAIN': 'Florent Germain',
         'Martin SCHREIBER': 'Martin Schreiber',
         'EmmanuelBRELLE': 'Emmanuel BRELLE',
-        'Joachim': 'Joachim Protze',
+        'Joachim': 'Joachim Jenke',
+        'Joachim Protze': 'Joachim Jenke',
         'Yiltan': 'Yiltan Hassan Temucin',
         'bosilca': 'George Bosilca',
         'csubich': 'Christopher Subich',
@@ -59,6 +60,8 @@ dedup = {
         'gcorbin': 'Gregor Corbin',
         'snirmarc': 'Marc Snir',
         'sonjahapp': 'Sonja Happ',
+        'Ryan Grant': 'Ryan E. Grant',
+        'ZIH, TU Dresden': 'CIDS, ZIH, TUD Dresden University of Technology',
         }
 
 def dedup_names(name):
