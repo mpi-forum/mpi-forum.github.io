@@ -62,6 +62,7 @@ dedup = {
         'sonjahapp': 'Sonja Happ',
         'Ryan Grant': 'Ryan E. Grant',
         'ZIH, TU Dresden': 'CIDS, ZIH, TUD Dresden University of Technology',
+        'Forschungszentrum Julich': 'JSC, Forschungszentrum J\"ulich'
         }
 
 def dedup_names(name):
