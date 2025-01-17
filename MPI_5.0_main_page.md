@@ -137,7 +137,7 @@ In addition to the active working groups, several working groups exist that have
 |9| MPI Environmental Management | George Bosilca | Ken Raffenetti, Wes Bland, Thomas Naughton |
 |10| The Info Object | Martin Schulz | Ryan Grant, Guillaume Mercier, Wes Bland |
 |11| Process Creation and Mangement | Howard Pritchard | Ken Raffenetti, Dan Holmes, Martin Schulz, Thomas Naughton, Aurélien Bouteiller |
-|12| One-Sided Communication | Bill Gropp | Pavan Balaji, Joseph Schuchart, Nathan Hjelm, Artem Polyakov |
+|12| One-Sided Communication | Joseph Schuchart | Bill Gropp, James Dinan, Christoph Niethammer |
 |13| External Interfaces | Martin Schulz | Pavan Balaji, Brian Smith, Tony Skjellum |
 |14| I/O | Tony Skjellum | Quincey Koziol, Shinji Sumimoto |
 |15| Tool Support | Marc-Andre Hermanns | Martin Schulz, Bill Williams |
