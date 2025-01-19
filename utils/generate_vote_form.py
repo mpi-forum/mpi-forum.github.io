@@ -15,8 +15,8 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 def main():
-    year = "2024"
-    month = "12"
+    year = "2025"
+    month = "01"
     day = "1"
     filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     votes_list = list(csv.DictReader(open(filename)));
@@ -28,17 +28,17 @@ def main():
             #continue # Comment out to vote on this
             pass # Comment out to skip voting
         elif vote['type'] == "errata":
-            continue # Comment out to vote on this
-            #pass # Comment out to skip voting
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
         elif vote['type'] == "procedure":
-            continue # Comment out to vote on this
-            #pass # Comment out to skip voting
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
         elif vote['type'] == "1st":
-            continue # Comment out to vote on this
-            #pass # Comment out to skip voting
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
         elif vote['type'] == "2nd":
-            continue # Comment out to vote on this
-            #pass # Comment out to skip voting
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
 
         if (vote['yes'] == None or vote['yes'] == "0") and (vote['no'] == None or vote['no'] == "0") and (vote['abstain'] == None or vote['abstain'] == "0"):
             votes[vote['type']].append(vote)

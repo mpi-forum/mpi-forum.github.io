@@ -13,8 +13,8 @@ You may find standard documents, information about the activities of the MPI for
 
 The MPI Forum is currently pursuing at least one future version of the MPI Standard:
 
-* [MPI 4.2](mpi-42/): A standard update following MPI 4.1 with smaller features
 * [MPI 5.0](mpi-50/): A standard update following MPI 4.1 with major new features
+* [MPI Next](mpi-next/): A standard update following MPI 5.0 with currently undefined features
 
 More details can be found in the respective sections.
 

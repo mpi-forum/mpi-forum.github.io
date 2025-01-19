@@ -7,9 +7,9 @@ from github import Github
 from dedup_names import dedup_names
 
 startYear = 2023
-currYear = 2024
+currYear = 2025
 startMonth = 10
-currMonth = 12
+currMonth = 1
 
 def main():
     token = subprocess.run(['gh','auth','token'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip()

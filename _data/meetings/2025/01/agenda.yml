@@ -9,17 +9,17 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Standard Versioning
       presenter: Jeff / Martin / Wes
-      done: 0
+      done: 1
 
     - type: Discussion
       title: Chapter Committees
@@ -32,12 +32,35 @@ plenaries:
       pr_number: 978
       link: "https://github.com/mpi-forum/mpi-standard/pull/978/files/5c7889eb56da14ec44ea81c0cf2340951cff5361..270b8fe6dfbea79a850674de73a055e18c0502ea"
       presenter: Jeff
-      done: 0
+      done: 1
 
-    - type: Reading
+    - type: Reading (with no-no)
       title: "Two ways in which the default for mpi_memory_alloc_kinds can be interpreted"
       issue_number: 773
       pr_number: 986
+      link: "https://github.com/mpi-forum/mpi-standard/pull/986/commits/67b9ea749a50e10bec3e34e261f61e9a21b4e236"
       presenter: Rohit
+      done: 1
+
+    - type: No-No Reading
+      title: "MPI needs a standard ABI"
+      issue_number: 751
+      pr_number: 977
+      link: "https://github.com/mpi-forum/mpi-standard/pull/977/files/6ea5e95c189ede09fb741cea7d0be82c96dfb9c9..30b2fde5a47a58153ea2713ed4b02dadc5db033e"
+      presenter: Jeff
+      done: 1
+
+    - type: Reading
+      title: "UB for passing uninitialized variables to 'significant only at root' arguments"
+      issue_number: 854
+      pr_number: 988
+      presenter: Marc-Andre
+      done: 1
+
+    - type: Discussion
+      title: "Tikz Figures"
+      issue_number: 712
+      pr_number: 930
+      presenter: Benson
       done: 0
 

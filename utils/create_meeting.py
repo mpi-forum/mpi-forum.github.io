@@ -34,6 +34,8 @@ file.write("permalink: meetings/" + start_year + "/" + start_month + "/agenda\n"
 file.write('year: "' + start_year + '"\n')
 file.write('month: "' + start_month + '"\n')
 file.write('webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"\n')
+file.write('timezone: "US Central"\n')
+file.write('wtb_timezone: "6" # Can figure this out here: https://www.worldtimebuddy.com/clock-widget\n')
 file.write("---\n\n")
 file.close()
 
