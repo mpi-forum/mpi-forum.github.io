@@ -12,16 +12,19 @@ month: "03"
 
 #### Registration Fee
 
-The registration fee for in-person attendance is to be determined. This fee
-will cover food, meeting space, etc.
+The registration fee for in-person attendance is $160 + Eventbrite fees ($12.57
+in the US). This fee will cover food, meeting space, etc.
 
-There is no registration fee for people attending remotely.
+There is no registration fee for people attending remotely though remote
+attendees are still required to register using the same system as in-person
+attendees with a zero-cost registration.
 
 #### Meeting Registration and Voting
 
-**All attendees (in-person or remote)** must complete the form to be eligible to attend the meeting and vote.
+**All attendees (in-person or remote)** must complete the form to be eligible
+to attend the meeting and vote.
 
-The registration form will be posted shortly.
+[Eventbrite registration](https://www.eventbrite.com/e/mpi-forum-stuttgart-tickets-1205870173149?aff=oddtdtcreator)
 
 ### Meeting Location
 
