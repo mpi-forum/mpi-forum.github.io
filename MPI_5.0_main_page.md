@@ -30,7 +30,7 @@ The following working groups are currently participating in the MPI 5.0 efforts.
 
 #### [Application Binary Interface (ABI)](https://github.com/mpiwg-abi/abi-issues)
 
-*   Lead: Jeff Hammond and Quincey Koziol
+*   Lead: Jeff Hammond  and Lisandro Dalcin
 *   Scope: The purpose of the MPI ABI Working Group is to discuss and implement the features required for MPI binaries - applications and libraries - to work with any implementation of MPI on compatible platforms.
 *   Meeting Schedule: On Demand
 
@@ -48,7 +48,7 @@ The following working groups are currently participating in the MPI 5.0 efforts.
 
 #### [Fortran](https://github.com/mpiwg-fortran/fortran-issues)
 
-*   Lead: Jeff Hammond, Purushotham Bangalore and Tony Skjellum
+*   Lead: Jeff Hammond, Purushotham Bangalore, and Tony Skjellum
 *   Scope: To investigate a modernisation of the Fortran language bindings beyond Fortran 2008.
 *   Note, there is a close link to the languages working group.
 *   Meeting Schedule: On Demand
@@ -73,20 +73,20 @@ The following working groups are currently participating in the MPI 5.0 efforts.
 
 #### [Languages](https://github.com/mpiwg-languages/languages-issues/wiki)
 
-*   Lead: Purushotham Bangalore, Jeff Hammond and Tony Skjellum
+*   Lead: Purushotham Bangalore, Jeff Hammond, and Tony Skjellum
 *   Scope: Ensure MPI has robust support for present and future language expressions and to introduce new languages encapsulating the MPI concepts.
 *   Note, there is a close link to the Fortran working group.
 *   Meeting Schedule: On Demand
 
 #### [Remote Memory Access](https://github.com/mpiwg-rma/rma-issues/wiki/RMA-Working-Group-Wiki)
 
-*   Lead: Joseph Schuchart, Bill Gropp (prior lead: Rajeev Thakur)
+*   Lead: Joseph Schuchart and Bill Gropp (prior lead: Rajeev Thakur)
 *   Scope: To re-examine the MPI RMA interface and consider additions and or changes needed to better support the one-sided programming model within MPI.
 *   Meeting Schedule: On Demand
 
 #### [Sessions](https://github.com/mpiwg-sessions/sessions-issues/wiki)
 
-*   Lead: Howard Pritchard, Dan Holmes
+*   Lead: Howard Pritchard and Dan Holmes
 *   Scope: Explore alternate concepts to MPI_Init and MPI_Finalize
 *   Meeting Schedule: Fortnightly on Mondays at <a href="https://time.is/800_in_CT">8am</a> US Central Time
 
