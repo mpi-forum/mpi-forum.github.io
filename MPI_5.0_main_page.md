@@ -36,7 +36,7 @@ The following working groups are currently participating in the MPI 5.0 efforts.
 
 #### [Collective, Communicators, Context, Persistent, Partitioned, Groups](https://github.com/mpiwg-coll/coll-issues)
 
-*   Lead: Anthony Skjellum (prior leads: Torsten Hoefler, Andrew Lumsdaine)
+*   Lead: Anthony Skjellum and Julien Jaeger (prior leads: Torsten Hoefler, Andrew Lumsdaine)
 *   Scope: This working group considers cross-cutting issues of groups, context, communicators, and collective operations as well as features such as persistence, partitioning, topologies, and operational semantics (e.g., blocking, nonblocking, local, synchronizing) thereof.
 *   Meeting Schedule: Wednesdays at <a href="https://time.is/0900_in_CT">9am</a> US Central Time
 
