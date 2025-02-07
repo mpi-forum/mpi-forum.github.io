@@ -73,7 +73,7 @@ The following working groups are currently participating in the MPI 5.0 efforts.
 
 #### [Languages](https://github.com/mpiwg-languages/languages-issues/wiki)
 
-*   Lead: Purushotham Bangalore, Jeff Hammond, and Tony Skjellum
+*   Lead: Tony Skjellum
 *   Scope: Ensure MPI has robust support for present and future language expressions and to introduce new languages encapsulating the MPI concepts.
 *   Note, there is a close link to the Fortran working group.
 *   Meeting Schedule: On Demand
