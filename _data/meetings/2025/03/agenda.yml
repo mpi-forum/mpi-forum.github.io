@@ -187,3 +187,9 @@ plenaries:
       presenter: Martin
       done: 0
 
+    - type: Discussion
+      title: "Deprecate split collectives in MPI I/O"
+      issue_number: 467
+      presenter: Edgar
+      done: 0
+
