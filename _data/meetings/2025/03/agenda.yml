@@ -193,3 +193,8 @@ plenaries:
       presenter: Edgar
       done: 0
 
+    - type: Discussion
+      title: "Notified RMA"
+      presenter: Alexander
+      done: 0
+
