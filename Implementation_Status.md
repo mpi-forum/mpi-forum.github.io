@@ -40,13 +40,13 @@ This page provides a way to update the community on the current status of variou
 | Sessions                  |  ✅   |   ✅    |    ✅    |
 | MPI_T Events              |  ✅   |   ❌    |    ❌    |
 | Error Handling            |  ✅   |   ✅    |    ✅    |
-| Non-blocking SENDRECV     |  ✅   |   ✅    |     #    |
+| Non-blocking SENDRECV     |  ✅   |   ✅    |    ✅    |
 | Persistent Collectives    |  ✅   |   ✅    |    ✅    |
 | New Split Types           |  ✅   |   ✅    |    ✅    |
-| MPI_COMM_DUP info         |  ✅   |   ✅    |     #    |
-| Info Assertions           |  ✅   |   ✅    |    ❌    |
-| Memory Alignment          |  ✅   |   ✅    |    ❌    |
-| MPI_INFO_CREATE_ENV       |  ✅   |   ✅    |     #    |
+| MPI_COMM_DUP info         |  ✅   |   ✅    |    ✅    |
+| Info Assertions           |  ✅   |   ✅    |    ✅    |
+| Memory Alignment          |  ✅   |   ✅    |    ✅    |
+| MPI_INFO_CREATE_ENV       |  ✅   |   ✅    |    ✅    |
 
 
 |---|---|
