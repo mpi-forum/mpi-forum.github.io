@@ -31,10 +31,14 @@ to attend the meeting and vote.
 The meeting will be hosted by HLRS in Stuttgart, Germany.
 
 High-Performance Computing Center Stuttgart<br />
+"Rühle Saal"
 Nobelstraße 19<br />
 70569 Stuttgart<br />
 Germany<br />
 [Google Maps](https://www.google.com/maps/place/Nobelstra%C3%9Fe+19,+70569+Stuttgart/@48.7394991,9.0949261,17z/data=!3m1!4b1!4m5!3m4!1s0x4799dc411b15b41d:0x74cec7b23039c475!8m2!3d48.7394956!4d9.0971201?shorturl=1)
+
+![Meeting location details for HLRS] (images/HLRS-meeting-location-march-2025.png)
+
 
 ### Hotels
 
