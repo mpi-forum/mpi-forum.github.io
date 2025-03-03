@@ -50,12 +50,12 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "Front Matter"
@@ -70,22 +70,22 @@ plenaries:
     - type: Chapter Diff Reading
       title: "2: MPI Terms and Conventions"
       presenter: Claudia
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "3: Point to Point Communication"
       presenter: Dan
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "4: Partitioned Communication"
-      presenter: Ryan
-      done: 0
+      presenter: Ryan (Wes)
+      done: 1
 
     - type: Chapter Diff Reading
       title: "5: Datatypes"
-      presenter:  George
-      done: 0
+      presenter: George (Wes)
+      done: 1
 
     - type: Chapter Diff Reading
       title: "6: Collective Communication"
@@ -95,27 +95,27 @@ plenaries:
     - type: Chapter Diff Reading
       title: "7: Groups, Context, Communicators, Caching"
       presenter: Guillaume M.
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "8: Process Topologies"
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "9: MPI Environmental Management"
-      presenter: George
-      done: 0
+      presenter: George (Thomas)
+      done: 1
 
     - type: Chapter Diff Reading
       title: "10: The Info Object"
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "11: Process Creation and Management"
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "12: One-Sided Communication"
@@ -125,7 +125,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: "13: External Interfaces"
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "14: I/O"
@@ -135,27 +135,27 @@ plenaries:
     - type: Chapter Diff Reading
       title: "15: Tool Support"
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "16: Deprecated Functions"
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "17: Removed Interfaces"
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "18: Backward Incompatibilities"
       presenter: Wes
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "19: Language Bindings"
-      presenter: Puri
-      done: 0
+      presenter: Puri (Wes)
+      done: 1
 
     - type: Chapter Diff Reading
       title: "20: ABI"
@@ -164,13 +164,13 @@ plenaries:
 
     - type: Chapter Diff Reading
       title: "A: Language Bindings Summary"
-      presenter: Puri
-      done: 0
+      presenter: Puri (Wes)
+      done: 1
 
     - type: Chapter Diff Reading
       title: "B: Change-Log"
       presenter: Tobias
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Review of Open Items List"
