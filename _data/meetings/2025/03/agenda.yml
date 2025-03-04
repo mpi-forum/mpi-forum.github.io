@@ -60,12 +60,12 @@ plenaries:
     - type: Chapter Diff Reading
       title: "Front Matter"
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "1: Introduction"
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "2: MPI Terms and Conventions"
@@ -119,8 +119,8 @@ plenaries:
 
     - type: Chapter Diff Reading
       title: "12: One-Sided Communication"
-      presenter: Bill
-      done: 0
+      presenter: Bill (Joseph)
+      done: 1
 
     - type: Chapter Diff Reading
       title: "13: External Interfaces"
