@@ -90,8 +90,8 @@ plenaries:
 
     - type: Chapter Diff Reading
       title: "6: Collective Communication"
-      presenter: Tony
-      done: 0
+      presenter: Tony (Wes)
+      done: 1
 
     - type: Chapter Diff Reading
       title: "7: Groups, Context, Communicators, Caching"
@@ -130,8 +130,8 @@ plenaries:
 
     - type: Chapter Diff Reading
       title: "14: I/O"
-      presenter: Tony
-      done: 0
+      presenter: Tony (Wes)
+      done: 1
 
     - type: Chapter Diff Reading
       title: "15: Tool Support"
@@ -161,7 +161,7 @@ plenaries:
     - type: Chapter Diff Reading
       title: "20: ABI"
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: Chapter Diff Reading
       title: "A: Language Bindings Summary"
