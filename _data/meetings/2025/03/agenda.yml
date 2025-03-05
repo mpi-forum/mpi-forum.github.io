@@ -177,17 +177,17 @@ plenaries:
     - type: Discussion
       title: "Review of Open Items List"
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Discussion of Next Steps"
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Open Officer Nominations"
       presenter: Martin
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Deprecate split collectives in MPI I/O"
