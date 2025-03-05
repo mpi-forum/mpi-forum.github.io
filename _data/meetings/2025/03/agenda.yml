@@ -8,7 +8,7 @@ schedule:
 
     - start: 2025-03-03T17:00
       end: 2025-03-03T17:30
-      title: "Voting Block"
+      title: "CANCELLED: Voting Block"
     - endday: done
 
     - day: Tuesday, March 04
@@ -16,10 +16,11 @@ schedule:
     - start: 2025-03-04T9:00
       end: 2025-03-04T18:00
       title: "Plenaries (see list below)"
+      recording_url: "https://youtu.be/BGOPnaCjMoQ"
 
     - start: 2025-03-04T17:00
       end: 2025-03-04T17:30
-      title: "Voting Block"
+      title: "CANCELLED: Voting Block"
 
     - endday: done
 
@@ -31,7 +32,7 @@ schedule:
 
     - start: 2025-03-05T17:00
       end: 2025-03-05T17:30
-      title: "Voting Block"
+      title: "CANCELLED: Voting Block"
 
     - endday: done
 
