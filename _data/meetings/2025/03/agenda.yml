@@ -193,7 +193,12 @@ plenaries:
       title: "Deprecate split collectives in MPI I/O"
       issue_number: 467
       presenter: Edgar
-      done: 0
+      done: 1
+
+    - type: Discussion
+      title: "MPI_WIN_SYNC_WITH_PROGRESS"
+      presenter: Joseph
+      done: 1
 
     - type: Discussion
       title: "Notified RMA"
