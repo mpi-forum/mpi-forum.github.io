@@ -1,0 +1,2226 @@
+schedule:
+    - day: Wednesday, June 04
+    - start: 2025-06-04T0:00
+      end: 2025-06-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, June 05
+    - start: 2025-06-05T0:00
+      end: 2025-06-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, June 06
+    - start: 2025-06-06T0:00
+      end: 2025-06-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, June 07
+    - start: 2025-06-07T0:00
+      end: 2025-06-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, June 08
+    - start: 2025-06-08T0:00
+      end: 2025-06-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, June 09
+    - start: 2025-06-09T0:00
+      end: 2025-06-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, June 10
+    - start: 2025-06-10T0:00
+      end: 2025-06-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, June 11
+    - start: 2025-06-11T0:00
+      end: 2025-06-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, June 12
+    - start: 2025-06-12T0:00
+      end: 2025-06-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, June 13
+    - start: 2025-06-13T0:00
+      end: 2025-06-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, June 14
+    - start: 2025-06-14T0:00
+      end: 2025-06-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, June 15
+    - start: 2025-06-15T0:00
+      end: 2025-06-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, June 16
+    - start: 2025-06-16T0:00
+      end: 2025-06-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, June 17
+    - start: 2025-06-17T0:00
+      end: 2025-06-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, June 18
+    - start: 2025-06-18T0:00
+      end: 2025-06-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, June 19
+    - start: 2025-06-19T0:00
+      end: 2025-06-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, June 20
+    - start: 2025-06-20T0:00
+      end: 2025-06-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, June 21
+    - start: 2025-06-21T0:00
+      end: 2025-06-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, June 22
+    - start: 2025-06-22T0:00
+      end: 2025-06-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, June 23
+    - start: 2025-06-23T0:00
+      end: 2025-06-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, June 24
+    - start: 2025-06-24T0:00
+      end: 2025-06-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, June 25
+    - start: 2025-06-25T0:00
+      end: 2025-06-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, June 26
+    - start: 2025-06-26T0:00
+      end: 2025-06-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, June 27
+    - start: 2025-06-27T0:00
+      end: 2025-06-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, June 28
+    - start: 2025-06-28T0:00
+      end: 2025-06-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, June 29
+    - start: 2025-06-29T0:00
+      end: 2025-06-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, June 30
+    - start: 2025-06-30T0:00
+      end: 2025-06-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, July 01
+    - start: 2025-07-01T0:00
+      end: 2025-07-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, July 02
+    - start: 2025-07-02T0:00
+      end: 2025-07-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, July 03
+    - start: 2025-07-03T0:00
+      end: 2025-07-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, July 04
+    - start: 2025-07-04T0:00
+      end: 2025-07-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, July 05
+    - start: 2025-07-05T0:00
+      end: 2025-07-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, July 06
+    - start: 2025-07-06T0:00
+      end: 2025-07-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, July 07
+    - start: 2025-07-07T0:00
+      end: 2025-07-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, July 08
+    - start: 2025-07-08T0:00
+      end: 2025-07-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, July 09
+    - start: 2025-07-09T0:00
+      end: 2025-07-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, July 10
+    - start: 2025-07-10T0:00
+      end: 2025-07-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, July 11
+    - start: 2025-07-11T0:00
+      end: 2025-07-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, July 12
+    - start: 2025-07-12T0:00
+      end: 2025-07-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, July 13
+    - start: 2025-07-13T0:00
+      end: 2025-07-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, July 14
+    - start: 2025-07-14T0:00
+      end: 2025-07-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, July 15
+    - start: 2025-07-15T0:00
+      end: 2025-07-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, July 16
+    - start: 2025-07-16T0:00
+      end: 2025-07-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, July 17
+    - start: 2025-07-17T0:00
+      end: 2025-07-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, July 18
+    - start: 2025-07-18T0:00
+      end: 2025-07-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, July 19
+    - start: 2025-07-19T0:00
+      end: 2025-07-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, July 20
+    - start: 2025-07-20T0:00
+      end: 2025-07-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, July 21
+    - start: 2025-07-21T0:00
+      end: 2025-07-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, July 22
+    - start: 2025-07-22T0:00
+      end: 2025-07-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, July 23
+    - start: 2025-07-23T0:00
+      end: 2025-07-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, July 24
+    - start: 2025-07-24T0:00
+      end: 2025-07-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, July 25
+    - start: 2025-07-25T0:00
+      end: 2025-07-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, July 26
+    - start: 2025-07-26T0:00
+      end: 2025-07-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, July 27
+    - start: 2025-07-27T0:00
+      end: 2025-07-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, July 28
+    - start: 2025-07-28T0:00
+      end: 2025-07-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, July 29
+    - start: 2025-07-29T0:00
+      end: 2025-07-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, July 30
+    - start: 2025-07-30T0:00
+      end: 2025-07-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, July 31
+    - start: 2025-07-31T0:00
+      end: 2025-07-31T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, August 01
+    - start: 2025-08-01T0:00
+      end: 2025-08-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, August 02
+    - start: 2025-08-02T0:00
+      end: 2025-08-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, August 03
+    - start: 2025-08-03T0:00
+      end: 2025-08-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, August 04
+    - start: 2025-08-04T0:00
+      end: 2025-08-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, August 05
+    - start: 2025-08-05T0:00
+      end: 2025-08-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, August 06
+    - start: 2025-08-06T0:00
+      end: 2025-08-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, August 07
+    - start: 2025-08-07T0:00
+      end: 2025-08-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, August 08
+    - start: 2025-08-08T0:00
+      end: 2025-08-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, August 09
+    - start: 2025-08-09T0:00
+      end: 2025-08-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, August 10
+    - start: 2025-08-10T0:00
+      end: 2025-08-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, August 11
+    - start: 2025-08-11T0:00
+      end: 2025-08-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, August 12
+    - start: 2025-08-12T0:00
+      end: 2025-08-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, August 13
+    - start: 2025-08-13T0:00
+      end: 2025-08-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, August 14
+    - start: 2025-08-14T0:00
+      end: 2025-08-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, August 15
+    - start: 2025-08-15T0:00
+      end: 2025-08-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, August 16
+    - start: 2025-08-16T0:00
+      end: 2025-08-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, August 17
+    - start: 2025-08-17T0:00
+      end: 2025-08-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, August 18
+    - start: 2025-08-18T0:00
+      end: 2025-08-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, August 19
+    - start: 2025-08-19T0:00
+      end: 2025-08-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, August 20
+    - start: 2025-08-20T0:00
+      end: 2025-08-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, August 21
+    - start: 2025-08-21T0:00
+      end: 2025-08-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, August 22
+    - start: 2025-08-22T0:00
+      end: 2025-08-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, August 23
+    - start: 2025-08-23T0:00
+      end: 2025-08-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, August 24
+    - start: 2025-08-24T0:00
+      end: 2025-08-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, August 25
+    - start: 2025-08-25T0:00
+      end: 2025-08-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, August 26
+    - start: 2025-08-26T0:00
+      end: 2025-08-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, August 27
+    - start: 2025-08-27T0:00
+      end: 2025-08-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, August 28
+    - start: 2025-08-28T0:00
+      end: 2025-08-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, August 29
+    - start: 2025-08-29T0:00
+      end: 2025-08-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, August 30
+    - start: 2025-08-30T0:00
+      end: 2025-08-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, August 31
+    - start: 2025-08-31T0:00
+      end: 2025-08-31T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, September 01
+    - start: 2025-09-01T0:00
+      end: 2025-09-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, September 02
+    - start: 2025-09-02T0:00
+      end: 2025-09-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, September 03
+    - start: 2025-09-03T0:00
+      end: 2025-09-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, September 04
+    - start: 2025-09-04T0:00
+      end: 2025-09-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, September 05
+    - start: 2025-09-05T0:00
+      end: 2025-09-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, September 06
+    - start: 2025-09-06T0:00
+      end: 2025-09-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, September 07
+    - start: 2025-09-07T0:00
+      end: 2025-09-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, September 08
+    - start: 2025-09-08T0:00
+      end: 2025-09-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, September 09
+    - start: 2025-09-09T0:00
+      end: 2025-09-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, September 10
+    - start: 2025-09-10T0:00
+      end: 2025-09-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, September 11
+    - start: 2025-09-11T0:00
+      end: 2025-09-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, September 12
+    - start: 2025-09-12T0:00
+      end: 2025-09-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, September 13
+    - start: 2025-09-13T0:00
+      end: 2025-09-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, September 14
+    - start: 2025-09-14T0:00
+      end: 2025-09-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, September 15
+    - start: 2025-09-15T0:00
+      end: 2025-09-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, September 16
+    - start: 2025-09-16T0:00
+      end: 2025-09-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, September 17
+    - start: 2025-09-17T0:00
+      end: 2025-09-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, September 18
+    - start: 2025-09-18T0:00
+      end: 2025-09-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, September 19
+    - start: 2025-09-19T0:00
+      end: 2025-09-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, September 20
+    - start: 2025-09-20T0:00
+      end: 2025-09-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, September 21
+    - start: 2025-09-21T0:00
+      end: 2025-09-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, September 22
+    - start: 2025-09-22T0:00
+      end: 2025-09-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, September 23
+    - start: 2025-09-23T0:00
+      end: 2025-09-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, September 24
+    - start: 2025-09-24T0:00
+      end: 2025-09-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, September 25
+    - start: 2025-09-25T0:00
+      end: 2025-09-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, September 26
+    - start: 2025-09-26T0:00
+      end: 2025-09-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, September 27
+    - start: 2025-09-27T0:00
+      end: 2025-09-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, September 28
+    - start: 2025-09-28T0:00
+      end: 2025-09-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, September 29
+    - start: 2025-09-29T0:00
+      end: 2025-09-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, September 30
+    - start: 2025-09-30T0:00
+      end: 2025-09-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, October 01
+    - start: 2025-10-01T0:00
+      end: 2025-10-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, October 02
+    - start: 2025-10-02T0:00
+      end: 2025-10-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, October 03
+    - start: 2025-10-03T0:00
+      end: 2025-10-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, October 04
+    - start: 2025-10-04T0:00
+      end: 2025-10-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, October 05
+    - start: 2025-10-05T0:00
+      end: 2025-10-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, October 06
+    - start: 2025-10-06T0:00
+      end: 2025-10-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, October 07
+    - start: 2025-10-07T0:00
+      end: 2025-10-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, October 08
+    - start: 2025-10-08T0:00
+      end: 2025-10-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, October 09
+    - start: 2025-10-09T0:00
+      end: 2025-10-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, October 10
+    - start: 2025-10-10T0:00
+      end: 2025-10-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, October 11
+    - start: 2025-10-11T0:00
+      end: 2025-10-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, October 12
+    - start: 2025-10-12T0:00
+      end: 2025-10-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, October 13
+    - start: 2025-10-13T0:00
+      end: 2025-10-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, October 14
+    - start: 2025-10-14T0:00
+      end: 2025-10-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, October 15
+    - start: 2025-10-15T0:00
+      end: 2025-10-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, October 16
+    - start: 2025-10-16T0:00
+      end: 2025-10-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, October 17
+    - start: 2025-10-17T0:00
+      end: 2025-10-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, October 18
+    - start: 2025-10-18T0:00
+      end: 2025-10-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, October 19
+    - start: 2025-10-19T0:00
+      end: 2025-10-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, October 20
+    - start: 2025-10-20T0:00
+      end: 2025-10-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, October 21
+    - start: 2025-10-21T0:00
+      end: 2025-10-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, October 22
+    - start: 2025-10-22T0:00
+      end: 2025-10-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, October 23
+    - start: 2025-10-23T0:00
+      end: 2025-10-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, October 24
+    - start: 2025-10-24T0:00
+      end: 2025-10-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, October 25
+    - start: 2025-10-25T0:00
+      end: 2025-10-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, October 26
+    - start: 2025-10-26T0:00
+      end: 2025-10-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, October 27
+    - start: 2025-10-27T0:00
+      end: 2025-10-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, October 28
+    - start: 2025-10-28T0:00
+      end: 2025-10-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, October 29
+    - start: 2025-10-29T0:00
+      end: 2025-10-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, October 30
+    - start: 2025-10-30T0:00
+      end: 2025-10-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, October 31
+    - start: 2025-10-31T0:00
+      end: 2025-10-31T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, November 01
+    - start: 2025-11-01T0:00
+      end: 2025-11-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, November 02
+    - start: 2025-11-02T0:00
+      end: 2025-11-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, November 03
+    - start: 2025-11-03T0:00
+      end: 2025-11-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, November 04
+    - start: 2025-11-04T0:00
+      end: 2025-11-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, November 05
+    - start: 2025-11-05T0:00
+      end: 2025-11-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, November 06
+    - start: 2025-11-06T0:00
+      end: 2025-11-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, November 07
+    - start: 2025-11-07T0:00
+      end: 2025-11-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, November 08
+    - start: 2025-11-08T0:00
+      end: 2025-11-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, November 09
+    - start: 2025-11-09T0:00
+      end: 2025-11-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, November 10
+    - start: 2025-11-10T0:00
+      end: 2025-11-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, November 11
+    - start: 2025-11-11T0:00
+      end: 2025-11-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, November 12
+    - start: 2025-11-12T0:00
+      end: 2025-11-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, November 13
+    - start: 2025-11-13T0:00
+      end: 2025-11-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, November 14
+    - start: 2025-11-14T0:00
+      end: 2025-11-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, November 15
+    - start: 2025-11-15T0:00
+      end: 2025-11-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, November 16
+    - start: 2025-11-16T0:00
+      end: 2025-11-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, November 17
+    - start: 2025-11-17T0:00
+      end: 2025-11-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, November 18
+    - start: 2025-11-18T0:00
+      end: 2025-11-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, November 19
+    - start: 2025-11-19T0:00
+      end: 2025-11-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, November 20
+    - start: 2025-11-20T0:00
+      end: 2025-11-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, November 21
+    - start: 2025-11-21T0:00
+      end: 2025-11-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, November 22
+    - start: 2025-11-22T0:00
+      end: 2025-11-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, November 23
+    - start: 2025-11-23T0:00
+      end: 2025-11-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, November 24
+    - start: 2025-11-24T0:00
+      end: 2025-11-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, November 25
+    - start: 2025-11-25T0:00
+      end: 2025-11-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, November 26
+    - start: 2025-11-26T0:00
+      end: 2025-11-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, November 27
+    - start: 2025-11-27T0:00
+      end: 2025-11-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, November 28
+    - start: 2025-11-28T0:00
+      end: 2025-11-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, November 29
+    - start: 2025-11-29T0:00
+      end: 2025-11-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, November 30
+    - start: 2025-11-30T0:00
+      end: 2025-11-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, December 01
+    - start: 2025-12-01T0:00
+      end: 2025-12-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, December 02
+    - start: 2025-12-02T0:00
+      end: 2025-12-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, December 03
+    - start: 2025-12-03T0:00
+      end: 2025-12-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, December 04
+    - start: 2025-12-04T0:00
+      end: 2025-12-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, December 05
+    - start: 2025-12-05T0:00
+      end: 2025-12-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, December 06
+    - start: 2025-12-06T0:00
+      end: 2025-12-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, December 07
+    - start: 2025-12-07T0:00
+      end: 2025-12-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, December 08
+    - start: 2025-12-08T0:00
+      end: 2025-12-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, December 09
+    - start: 2025-12-09T0:00
+      end: 2025-12-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, December 10
+    - start: 2025-12-10T0:00
+      end: 2025-12-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, December 11
+    - start: 2025-12-11T0:00
+      end: 2025-12-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, December 12
+    - start: 2025-12-12T0:00
+      end: 2025-12-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, December 13
+    - start: 2025-12-13T0:00
+      end: 2025-12-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, December 14
+    - start: 2025-12-14T0:00
+      end: 2025-12-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, December 15
+    - start: 2025-12-15T0:00
+      end: 2025-12-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, December 16
+    - start: 2025-12-16T0:00
+      end: 2025-12-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, December 17
+    - start: 2025-12-17T0:00
+      end: 2025-12-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, December 18
+    - start: 2025-12-18T0:00
+      end: 2025-12-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, December 19
+    - start: 2025-12-19T0:00
+      end: 2025-12-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, December 20
+    - start: 2025-12-20T0:00
+      end: 2025-12-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, December 21
+    - start: 2025-12-21T0:00
+      end: 2025-12-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, December 22
+    - start: 2025-12-22T0:00
+      end: 2025-12-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, December 23
+    - start: 2025-12-23T0:00
+      end: 2025-12-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, December 24
+    - start: 2025-12-24T0:00
+      end: 2025-12-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, December 25
+    - start: 2025-12-25T0:00
+      end: 2025-12-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, December 26
+    - start: 2025-12-26T0:00
+      end: 2025-12-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, December 27
+    - start: 2025-12-27T0:00
+      end: 2025-12-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, December 28
+    - start: 2025-12-28T0:00
+      end: 2025-12-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, December 29
+    - start: 2025-12-29T0:00
+      end: 2025-12-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, December 30
+    - start: 2025-12-30T0:00
+      end: 2025-12-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, December 31
+    - start: 2025-12-31T0:00
+      end: 2025-12-31T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, January 01
+    - start: 2026-01-01T0:00
+      end: 2026-01-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, January 02
+    - start: 2026-01-02T0:00
+      end: 2026-01-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, January 03
+    - start: 2026-01-03T0:00
+      end: 2026-01-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, January 04
+    - start: 2026-01-04T0:00
+      end: 2026-01-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, January 05
+    - start: 2026-01-05T0:00
+      end: 2026-01-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, January 06
+    - start: 2026-01-06T0:00
+      end: 2026-01-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, January 07
+    - start: 2026-01-07T0:00
+      end: 2026-01-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, January 08
+    - start: 2026-01-08T0:00
+      end: 2026-01-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, January 09
+    - start: 2026-01-09T0:00
+      end: 2026-01-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, January 10
+    - start: 2026-01-10T0:00
+      end: 2026-01-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, January 11
+    - start: 2026-01-11T0:00
+      end: 2026-01-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, January 12
+    - start: 2026-01-12T0:00
+      end: 2026-01-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, January 13
+    - start: 2026-01-13T0:00
+      end: 2026-01-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, January 14
+    - start: 2026-01-14T0:00
+      end: 2026-01-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, January 15
+    - start: 2026-01-15T0:00
+      end: 2026-01-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, January 16
+    - start: 2026-01-16T0:00
+      end: 2026-01-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, January 17
+    - start: 2026-01-17T0:00
+      end: 2026-01-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, January 18
+    - start: 2026-01-18T0:00
+      end: 2026-01-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, January 19
+    - start: 2026-01-19T0:00
+      end: 2026-01-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, January 20
+    - start: 2026-01-20T0:00
+      end: 2026-01-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, January 21
+    - start: 2026-01-21T0:00
+      end: 2026-01-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, January 22
+    - start: 2026-01-22T0:00
+      end: 2026-01-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, January 23
+    - start: 2026-01-23T0:00
+      end: 2026-01-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, January 24
+    - start: 2026-01-24T0:00
+      end: 2026-01-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, January 25
+    - start: 2026-01-25T0:00
+      end: 2026-01-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, January 26
+    - start: 2026-01-26T0:00
+      end: 2026-01-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, January 27
+    - start: 2026-01-27T0:00
+      end: 2026-01-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, January 28
+    - start: 2026-01-28T0:00
+      end: 2026-01-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, January 29
+    - start: 2026-01-29T0:00
+      end: 2026-01-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, January 30
+    - start: 2026-01-30T0:00
+      end: 2026-01-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, January 31
+    - start: 2026-01-31T0:00
+      end: 2026-01-31T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, February 01
+    - start: 2026-02-01T0:00
+      end: 2026-02-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, February 02
+    - start: 2026-02-02T0:00
+      end: 2026-02-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, February 03
+    - start: 2026-02-03T0:00
+      end: 2026-02-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, February 04
+    - start: 2026-02-04T0:00
+      end: 2026-02-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, February 05
+    - start: 2026-02-05T0:00
+      end: 2026-02-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, February 06
+    - start: 2026-02-06T0:00
+      end: 2026-02-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, February 07
+    - start: 2026-02-07T0:00
+      end: 2026-02-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, February 08
+    - start: 2026-02-08T0:00
+      end: 2026-02-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, February 09
+    - start: 2026-02-09T0:00
+      end: 2026-02-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, February 10
+    - start: 2026-02-10T0:00
+      end: 2026-02-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, February 11
+    - start: 2026-02-11T0:00
+      end: 2026-02-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, February 12
+    - start: 2026-02-12T0:00
+      end: 2026-02-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, February 13
+    - start: 2026-02-13T0:00
+      end: 2026-02-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, February 14
+    - start: 2026-02-14T0:00
+      end: 2026-02-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, February 15
+    - start: 2026-02-15T0:00
+      end: 2026-02-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, February 16
+    - start: 2026-02-16T0:00
+      end: 2026-02-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, February 17
+    - start: 2026-02-17T0:00
+      end: 2026-02-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, February 18
+    - start: 2026-02-18T0:00
+      end: 2026-02-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, February 19
+    - start: 2026-02-19T0:00
+      end: 2026-02-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, February 20
+    - start: 2026-02-20T0:00
+      end: 2026-02-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, February 21
+    - start: 2026-02-21T0:00
+      end: 2026-02-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, February 22
+    - start: 2026-02-22T0:00
+      end: 2026-02-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, February 23
+    - start: 2026-02-23T0:00
+      end: 2026-02-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, February 24
+    - start: 2026-02-24T0:00
+      end: 2026-02-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, February 25
+    - start: 2026-02-25T0:00
+      end: 2026-02-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, February 26
+    - start: 2026-02-26T0:00
+      end: 2026-02-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, February 27
+    - start: 2026-02-27T0:00
+      end: 2026-02-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, February 28
+    - start: 2026-02-28T0:00
+      end: 2026-02-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, March 01
+    - start: 2026-03-01T0:00
+      end: 2026-03-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, March 02
+    - start: 2026-03-02T0:00
+      end: 2026-03-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, March 03
+    - start: 2026-03-03T0:00
+      end: 2026-03-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, March 04
+    - start: 2026-03-04T0:00
+      end: 2026-03-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, March 05
+    - start: 2026-03-05T0:00
+      end: 2026-03-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, March 06
+    - start: 2026-03-06T0:00
+      end: 2026-03-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, March 07
+    - start: 2026-03-07T0:00
+      end: 2026-03-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, March 08
+    - start: 2026-03-08T0:00
+      end: 2026-03-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, March 09
+    - start: 2026-03-09T0:00
+      end: 2026-03-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, March 10
+    - start: 2026-03-10T0:00
+      end: 2026-03-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, March 11
+    - start: 2026-03-11T0:00
+      end: 2026-03-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, March 12
+    - start: 2026-03-12T0:00
+      end: 2026-03-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, March 13
+    - start: 2026-03-13T0:00
+      end: 2026-03-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, March 14
+    - start: 2026-03-14T0:00
+      end: 2026-03-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, March 15
+    - start: 2026-03-15T0:00
+      end: 2026-03-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, March 16
+    - start: 2026-03-16T0:00
+      end: 2026-03-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, March 17
+    - start: 2026-03-17T0:00
+      end: 2026-03-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, March 18
+    - start: 2026-03-18T0:00
+      end: 2026-03-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, March 19
+    - start: 2026-03-19T0:00
+      end: 2026-03-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, March 20
+    - start: 2026-03-20T0:00
+      end: 2026-03-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, March 21
+    - start: 2026-03-21T0:00
+      end: 2026-03-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, March 22
+    - start: 2026-03-22T0:00
+      end: 2026-03-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, March 23
+    - start: 2026-03-23T0:00
+      end: 2026-03-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, March 24
+    - start: 2026-03-24T0:00
+      end: 2026-03-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, March 25
+    - start: 2026-03-25T0:00
+      end: 2026-03-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, March 26
+    - start: 2026-03-26T0:00
+      end: 2026-03-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, March 27
+    - start: 2026-03-27T0:00
+      end: 2026-03-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, March 28
+    - start: 2026-03-28T0:00
+      end: 2026-03-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, March 29
+    - start: 2026-03-29T0:00
+      end: 2026-03-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, March 30
+    - start: 2026-03-30T0:00
+      end: 2026-03-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, March 31
+    - start: 2026-03-31T0:00
+      end: 2026-03-31T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, April 01
+    - start: 2026-04-01T0:00
+      end: 2026-04-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, April 02
+    - start: 2026-04-02T0:00
+      end: 2026-04-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, April 03
+    - start: 2026-04-03T0:00
+      end: 2026-04-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, April 04
+    - start: 2026-04-04T0:00
+      end: 2026-04-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, April 05
+    - start: 2026-04-05T0:00
+      end: 2026-04-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, April 06
+    - start: 2026-04-06T0:00
+      end: 2026-04-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, April 07
+    - start: 2026-04-07T0:00
+      end: 2026-04-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, April 08
+    - start: 2026-04-08T0:00
+      end: 2026-04-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, April 09
+    - start: 2026-04-09T0:00
+      end: 2026-04-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, April 10
+    - start: 2026-04-10T0:00
+      end: 2026-04-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, April 11
+    - start: 2026-04-11T0:00
+      end: 2026-04-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, April 12
+    - start: 2026-04-12T0:00
+      end: 2026-04-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, April 13
+    - start: 2026-04-13T0:00
+      end: 2026-04-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, April 14
+    - start: 2026-04-14T0:00
+      end: 2026-04-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, April 15
+    - start: 2026-04-15T0:00
+      end: 2026-04-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, April 16
+    - start: 2026-04-16T0:00
+      end: 2026-04-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, April 17
+    - start: 2026-04-17T0:00
+      end: 2026-04-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, April 18
+    - start: 2026-04-18T0:00
+      end: 2026-04-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, April 19
+    - start: 2026-04-19T0:00
+      end: 2026-04-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, April 20
+    - start: 2026-04-20T0:00
+      end: 2026-04-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, April 21
+    - start: 2026-04-21T0:00
+      end: 2026-04-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, April 22
+    - start: 2026-04-22T0:00
+      end: 2026-04-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, April 23
+    - start: 2026-04-23T0:00
+      end: 2026-04-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, April 24
+    - start: 2026-04-24T0:00
+      end: 2026-04-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, April 25
+    - start: 2026-04-25T0:00
+      end: 2026-04-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, April 26
+    - start: 2026-04-26T0:00
+      end: 2026-04-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, April 27
+    - start: 2026-04-27T0:00
+      end: 2026-04-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, April 28
+    - start: 2026-04-28T0:00
+      end: 2026-04-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, April 29
+    - start: 2026-04-29T0:00
+      end: 2026-04-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, April 30
+    - start: 2026-04-30T0:00
+      end: 2026-04-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, May 01
+    - start: 2026-05-01T0:00
+      end: 2026-05-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, May 02
+    - start: 2026-05-02T0:00
+      end: 2026-05-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, May 03
+    - start: 2026-05-03T0:00
+      end: 2026-05-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, May 04
+    - start: 2026-05-04T0:00
+      end: 2026-05-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, May 05
+    - start: 2026-05-05T0:00
+      end: 2026-05-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, May 06
+    - start: 2026-05-06T0:00
+      end: 2026-05-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, May 07
+    - start: 2026-05-07T0:00
+      end: 2026-05-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, May 08
+    - start: 2026-05-08T0:00
+      end: 2026-05-08T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, May 09
+    - start: 2026-05-09T0:00
+      end: 2026-05-09T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, May 10
+    - start: 2026-05-10T0:00
+      end: 2026-05-10T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, May 11
+    - start: 2026-05-11T0:00
+      end: 2026-05-11T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, May 12
+    - start: 2026-05-12T0:00
+      end: 2026-05-12T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, May 13
+    - start: 2026-05-13T0:00
+      end: 2026-05-13T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, May 14
+    - start: 2026-05-14T0:00
+      end: 2026-05-14T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, May 15
+    - start: 2026-05-15T0:00
+      end: 2026-05-15T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, May 16
+    - start: 2026-05-16T0:00
+      end: 2026-05-16T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, May 17
+    - start: 2026-05-17T0:00
+      end: 2026-05-17T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, May 18
+    - start: 2026-05-18T0:00
+      end: 2026-05-18T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, May 19
+    - start: 2026-05-19T0:00
+      end: 2026-05-19T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, May 20
+    - start: 2026-05-20T0:00
+      end: 2026-05-20T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, May 21
+    - start: 2026-05-21T0:00
+      end: 2026-05-21T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, May 22
+    - start: 2026-05-22T0:00
+      end: 2026-05-22T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, May 23
+    - start: 2026-05-23T0:00
+      end: 2026-05-23T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, May 24
+    - start: 2026-05-24T0:00
+      end: 2026-05-24T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, May 25
+    - start: 2026-05-25T0:00
+      end: 2026-05-25T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, May 26
+    - start: 2026-05-26T0:00
+      end: 2026-05-26T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, May 27
+    - start: 2026-05-27T0:00
+      end: 2026-05-27T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, May 28
+    - start: 2026-05-28T0:00
+      end: 2026-05-28T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, May 29
+    - start: 2026-05-29T0:00
+      end: 2026-05-29T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, May 30
+    - start: 2026-05-30T0:00
+      end: 2026-05-30T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Sunday, May 31
+    - start: 2026-05-31T0:00
+      end: 2026-05-31T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Monday, June 01
+    - start: 2026-06-01T0:00
+      end: 2026-06-01T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, June 02
+    - start: 2026-06-02T0:00
+      end: 2026-06-02T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, June 03
+    - start: 2026-06-03T0:00
+      end: 2026-06-03T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Thursday, June 04
+    - start: 2026-06-04T0:00
+      end: 2026-06-04T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Friday, June 05
+    - start: 2026-06-05T0:00
+      end: 2026-06-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Saturday, June 06
+    - start: 2026-06-06T0:00
+      end: 2026-06-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: Placeholder Reading
+      issue_number: 1234
+      presenter: Placeholder Presenter
+      done: 0
+
