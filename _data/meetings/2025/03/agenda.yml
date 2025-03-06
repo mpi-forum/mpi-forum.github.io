@@ -42,6 +42,7 @@ schedule:
     - start: 2025-03-06T9:00
       end: 2025-03-06T13:00
       title: "Plenaries (see list below)"
+      recording_url: "https://youtu.be/eFJIhU9a75o"
 
     - start: 2025-03-06T12:00
       end: 2025-03-06T12:30
