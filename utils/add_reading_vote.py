@@ -78,31 +78,10 @@ def main():
     if vote_type != "":
         votes_list.write("" + str(issue_number) + "," + str(pr_number) + ",\"" + title + "\"," + vote_type + "\n")
 
-        if vote_type == '1st':
-            if not hasLabel(issue.get_labels(), "scheduled first vote"):
-                if not dry_run:
-                    issue.add_to_labels("scheduled first vote")
-                print("Adding 'scheduled first vote' to issue " + str(issue_number))
-        elif vote_type == '2nd':
-            if not hasLabel(issue.get_labels(), "scheduled second ote"):
-                if not dry_run:
-                    issue.add_to_labels("scheduled second vote")
-                print("Adding 'scheduled final vote' to issue " + str(issue_number))
-        elif vote_type == 'no-no':
-            if not hasLabel(issue.get_labels(), "scheduled no-no vote"):
-                if not dry_run:
-                    issue.add_to_labels("scheduled no-no vote")
-                print("Adding 'scheduled no-no vote' to issue " + str(issue_number))
-        elif vote_type == 'errata':
-            if not hasLabel(issue.get_labels(), "scheduled errata vote"):
-                if not dry_run:
-                    issue.add_to_labels("scheduled errata vote")
-                print("Adding 'scheduled errata vote' to issue " + str(issue_number))
-        elif vote_type == 'procedure':
-            if not hasLabel(issue.get_labels(), "scheduled procedure vote"):
-                if not dry_run:
-                    issue.add_to_labels("scheduled procedure vote")
-                print("Adding 'scheduled procedure vote' to issue " + str(issue_number))
+        if not hasLabel(issue.get_labels(), f"scheduled {vote_type} vote"):
+            if not dry_run:
+                issue.add_to_labels(f"scheduled {vote_type} vote")
+            print(f"Adding 'scheduled {vote_type} vote' to issue " + str(issue_number))
 
     votes_list.close()
     agenda_list.close()

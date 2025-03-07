@@ -71,7 +71,7 @@ def main():
                     if not dry_run:
                         issue.add_to_labels("passed first vote")
                     print("Adding 'passed first vote' to issue " + vote['issue_number'])
-            elif vote['type'] == '2nd' or vote['type'] == 'errata':
+            elif vote['type'] == '2nd' or vote['type'] == 'errata' or vote['type'] == 'first-and-only':
                 if not hasLabel(issue.get_labels(), "passed final vote"):
                     if not dry_run:
                         issue.add_to_labels("passed final vote")
@@ -96,6 +96,10 @@ def main():
         if hasLabel(issue.get_labels(), "scheduled second vote"):
             if not dry_run:
                 issue.remove_from_labels("scheduled second vote")
+            print("Removing 'scheduled second vote' from issue " + vote['issue_number'])
+        if hasLabel(issue.get_labels(), "scheduled first-and-only vote"):
+            if not dry_run:
+                issue.remove_from_labels("scheduled first-and-only vote")
             print("Removing 'scheduled second vote' from issue " + vote['issue_number'])
         if hasLabel(issue.get_labels(), "scheduled reading"):
             if not dry_run:
