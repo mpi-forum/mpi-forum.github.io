@@ -34,3 +34,10 @@ plenaries:
       presenter: Placeholder Presenter
       done: 0
 
+    - type: No-No Reading
+      title: "Tools Chapter Committee needs update"
+      issue_number: 975
+      pr_number: 1111
+      presenter: Marc-Andre
+      done: 0
+
