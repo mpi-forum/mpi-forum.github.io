@@ -129,14 +129,14 @@ Forum.
 
 Though not part of the MPI standard, the MPIR Process Acquisition Interface details a commonly implemented interface primarily used by debuggers to interface to MPI parallel programs.
 
-* [Version 1.1](mpir-specification-03-01-2018.pdf)
-* [Version 1.0](mpir-specification-10-11-2010.pdf)
+* [Version 1.1](sidedocs/mpir-specification-03-01-2018.pdf)
+* [Version 1.0](sidedocs/mpir-specification-10-11-2010.pdf)
 
 #### MPI Message Queue Interface
 
 Though not a part of the MPI standard, the MPI Message Queue Dumping Interface details a commonly implemented interface primarily used by debuggers to inspect the message queues within an MPI program.
 
-* [Version 1.0](msgq.5.pdf)
+* [Version 1.0](sidedocs/msgq.5.pdf)
 
 #### Instructions for Preparing the MPI Standard Document
 
