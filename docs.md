@@ -138,6 +138,16 @@ Though not a part of the MPI standard, the MPI Message Queue Dumping Interface d
 
 * [Version 1.0](sidedocs/msgq.5.pdf)
 
+#### MPI Memory Allocation Kinds
+
+This side document defines the memory allocation kinds and their associated
+restrictors that users can use to query the support for different memory kinds
+provided by the MPI library. These definitions supplement those found in
+section 11.4.3 of the \mpiivdoti/ standard, which also explains their usage
+model.
+
+* [Version 1.0](sidedocs/mem-alloc10.pdf)
+
 #### Instructions for Preparing the MPI Standard Document
 
 A document to help editors of the MPI Standard is kept in the same repository as the MPI Standard itself, but we also publish a copy here to be easy to access.
