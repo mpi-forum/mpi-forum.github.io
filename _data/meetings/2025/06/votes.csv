@@ -73,3 +73,4 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 "","","MPI Forum Secretary","procedure",,,,
 "","","MPI Forum Treasurer","procedure",,,,
 "","","MPI Forum Document Editor","procedure",,,,
+979,1120,"ABI: Missing keys 'mpi_{integer|logical}16_supported'",no-no

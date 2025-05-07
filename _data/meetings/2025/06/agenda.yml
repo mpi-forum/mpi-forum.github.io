@@ -77,3 +77,10 @@ plenaries:
       presenter: Bill
       done: 0
 
+    - type: No-No Reading
+      title: "ABI: Missing keys 'mpi_{integer|logical}16_supported'"
+      issue_number: 979
+      pr_number: 1120
+      presenter: Jeff
+      done: 0
+
