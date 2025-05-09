@@ -14,14 +14,17 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
+def isEmpty(val):
+    return val == None or val == "" or val == "0"
+
 def main():
     year = "2025"
-    month = "01"
+    month = "06"
     day = "1"
     filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     votes_list = list(csv.DictReader(open(filename)));
 
-    votes = {'procedure': [], 'no-no': [], 'errata': [], '1st': [], '2nd': []}
+    votes = {'procedure': [], 'no-no': [], 'errata': [], 'first-and-only': [], '1st': [], '2nd': []}
     for vote in iter(votes_list):
         # Have an easy way to pick the types of votes to include
         if vote['type'] == "no-no":
@@ -33,6 +36,9 @@ def main():
         elif vote['type'] == "procedure":
             #continue # Comment out to vote on this
             pass # Comment out to skip voting
+        elif vote['type'] == "first-and-only":
+            #continue # Comment out to vote on this
+            pass # Comment out to skip voting
         elif vote['type'] == "1st":
             #continue # Comment out to vote on this
             pass # Comment out to skip voting
@@ -40,7 +46,7 @@ def main():
             #continue # Comment out to vote on this
             pass # Comment out to skip voting
 
-        if (vote['yes'] == None or vote['yes'] == "0") and (vote['no'] == None or vote['no'] == "0") and (vote['abstain'] == None or vote['abstain'] == "0"):
+        if isEmpty(vote['yes']) and isEmpty(vote['no']) and isEmpty(vote['abstain']):
             votes[vote['type']].append(vote)
 
     SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
