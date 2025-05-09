@@ -21,7 +21,7 @@ the RCM (March, 2025) and close two weeks before the RCM (May 21, 2025).
 
 ### MPI Forum Secretary
 
-
+* Wes Bland, Meta
 
 ### MPI Forum Treasurer
 
