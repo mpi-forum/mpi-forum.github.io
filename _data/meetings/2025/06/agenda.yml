@@ -84,3 +84,10 @@ plenaries:
       presenter: Jeff
       done: 0
 
+    - type: No-No Reading
+      title: "Last editing fixes for 5.0"
+      issue_number: 994
+      pr_number: 1121
+      presenter: Bill
+      done: 0
+
