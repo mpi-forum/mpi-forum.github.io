@@ -15,20 +15,19 @@ import keyring
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
 
-prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2024/12/attendance.csv"
-prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/01/attendance.csv"
-curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/03/attendance.csv"
-curr_registration_file = "/Users/wbland/mpi/meeting-details/2025-03-mar/2025-03-05-registration.csv"
+prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/01/attendance.csv"
+prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/03/attendance.csv"
+curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/06/attendance.csv"
+curr_registration_file = "/Users/wbland/mpi/meeting-details/2025-06-jun/2025-06-04-registration.csv"
 transition_orgs_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/orgs.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLScM-VNnSFYcxZ1pbnhHSonWiTWYhPok-bPgdsNtZTXBgSdoKw/viewform?usp=pp_url&entry.1133723442={name}&entry.645559303={org}&entry.1376511413={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSeaS0ppyW9BVbFt57nb__0Q2mrrdeRobFJg6Ouk0uW_BztffQ/viewform?usp=pp_url&entry.661715895={name}&entry.795178664={org}&entry.535119709={id}"
 
-vote_name = "March 2025 Day 1"
-closing_time = "2:00pm on March 05, 2025"
-time_zone = "Central European Time (UTC +1)"
+vote_name = "June 2025 Day 1"
+closing_time = "12:30pm on June 04, 2025"
+time_zone = "US Central Time (UTC - 4)"
 subject_string = vote_name + " Voting Link"
 
-prev_ooe = 30
 dry_run = 1
 
 from email import encoders
@@ -145,10 +144,6 @@ def main():
     keyring.get_keyring()
     service = GmailSMTP()
 
-    ooe = 0;
-    imove = 0;
-    registered = 0;
-
     prev_attendees_1 = list(csv.DictReader(open(prev_attendance_file_1)));
     prev_attendees_2 = list(csv.DictReader(open(prev_attendance_file_2)));
     curr_attendees = list(csv.DictReader(open(curr_attendance_file)));
@@ -194,12 +189,10 @@ def main():
         if org == "Self (Non-voting participant)":
             continue
         elif org not in orgs:
-            registered = registered + 1;
             orgs[org] = {'registered': 1, 'attended': normalize_curr_attendance(int(row['attend'])), 'prev_1': 0, 'prev_2': 0,
                     'attend_curr': int(row['attend']), 'register_curr': 1};
         elif (orgs[org]['register_curr'] == 0 or orgs[org]['attend_curr'] == 0):
             if orgs[org]['register_curr'] == 0:
-                registered = registered + 1;
                 orgs[org]['registered'] = int(orgs[org]['registered']) + 1;
             orgs[org]['attended'] = int(orgs[org]['attended']) + normalize_curr_attendance(int(row['attend']));
             orgs[org]['attend_curr'] = normalize_curr_attendance(int(row['attend'])) or orgs[org]['attend_curr'];
@@ -216,22 +209,13 @@ def main():
             no_attend.append(org);
         elif orgs[org]['attend_curr'] != 1:
             no_curr.append(org);
-            ooe = ooe + 1;
         else:
             eligible.append(org);
-            ooe = ooe + 1;
-            imove = imove + 1;
 
     no_register.sort();
     no_attend.sort();
     no_curr.sort();
     eligible.sort();
-
-    print("REGISTERED ORGS: " + str(registered));
-    print("OOE ORGS: " + str(ooe));
-    print("IMOVE ORGS: " + str(imove));
-    print("INDIVIDUAL BALLOT QUORUM: " + str(math.ceil(imove * 0.75)));
-    print("NEEDED FOR MEETING QUORUM: " + str(math.ceil(prev_ooe * 2.0/3.0)));
 
     print("\n=== Eligible to vote ===\n");
     with open('ooe_orgs.csv', 'w', newline='') as csvfile:
@@ -248,9 +232,6 @@ def main():
     print("\n=== Did not attend 2 of last 3 meetings ===\n");
     print(*no_attend, sep = '\n');
     print("\n===\n");
-
-    if (imove < (prev_ooe * 2.0 / 3.0)):
-        print("Did not meet meeting quorum. IMOVE required: " + str(prev_ooe * 2.0 / 3.0) + "\n");
 
     for row in iter(curr_registration):
         org = row["org"]
