@@ -69,7 +69,6 @@ issue_number,pr_number,topic,type,yes,no,abstain,missed
 985,1117,"Wait/test any/some/all leaves out single request case",no-no
 988,1118,"Fixes for code check",no-no
 994,1121,"Last editing fixes for 5.0",no-no
-"","","Vote on whether to repeat the FRM","procedure",,,,
 "","","Vote to ratify MPI 5.0","procedure",,,,
 "","","MPI Forum Chair","procedure",,,,
 "","","MPI Forum Secretary","procedure",,,,
