@@ -15,6 +15,11 @@ def confirm_id(id, name, org, attendance_list):
                 name == entry['name'] and
                 org == entry['org']):
             return 1;
+        else:
+            print("Expected ID for " + name + ", " + org + ": " + entry['uuid'])
+            print("Got ID: " + id)
+            print("Got name: " + entry['name'])
+            print("Got org: " + entry['org'])
     return 0;
 
 def delete_from_list(org, ooe_list):
@@ -22,12 +27,15 @@ def delete_from_list(org, ooe_list):
         if (org == entry['org_name']):
             ooe_list.remove(entry)
 
+def check_empty(val):
+    return val == None or val == "" or val == 0
+
 def main():
     attendance_file=sys.argv[1]; # File with UUIDs for each attendee
     ballot_file=sys.argv[2]; # File with list of ballots on which to be voted
     votes_file=sys.argv[3]; # File with votes captured from Google Forms
-    prev_votes_file="../_data/meetings/2025/03/votes.csv"
-    prev_ballots_file="../_data/meetings/2025/03/ballot.csv"
+    prev_votes_file="../_data/meetings/2025/06/votes.csv"
+    prev_ballots_file="../_data/meetings/2025/06/ballot.csv"
     if not os.path.isfile(prev_votes_file):
         prev_votes_file=""
     if not os.path.isfile(prev_ballots_file):
@@ -58,10 +66,8 @@ def main():
                 topic = ballot['topic'] + " (" + ballot['type'] + ")"
 
             if (ballot['topic'] == "daybreak" or
-                ((ballot['yes'] == None or int(ballot['yes']) == 0) and
-                 (ballot['no'] == None or int(ballot['no']) == 0) and
-                 (ballot['abstain'] == None or int(ballot['abstain']) == 0) and
-                 (ballot['missed'] == None or int(ballot['missed']) == 0))):
+                (check_empty(ballot['yes']) and check_empty(ballot['no']) and
+                 check_empty(ballot['abstain']) and check_empty(ballot['missed']))):
                 continue;
             ballot_dict[topic] = ballot;
             previous_topics.append(topic);
