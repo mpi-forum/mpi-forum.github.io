@@ -4,6 +4,7 @@ schedule:
     - start: 2025-06-04T09:00
       end: 2025-06-04T13:00
       title: "Plenaries, see below"
+      recording_url: "https://youtu.be/62irJ5QL5j0"
 
     - start: 2025-06-04T12:00
       end: 2025-06-04T12:30
@@ -15,7 +16,7 @@ schedule:
 
     - start: 2025-06-05T09:00
       end: 2025-06-05T13:00
-      title: "Plenaries, see below"
+      title: "CANCELLED - Plenaries, see below"
 
     - start: 2025-06-05T12:00
       end: 2025-06-05T12:30
@@ -27,7 +28,7 @@ schedule:
 
     - start: 2025-06-06T09:00
       end: 2025-06-06T13:00
-      title: "Plenaries, see below"
+      title: "CANCELLED - Plenaries, see below"
 
     - start: 2025-06-06T12:00
       end: 2025-06-06T12:30
@@ -39,12 +40,12 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Tools Chapter Committee needs update"
