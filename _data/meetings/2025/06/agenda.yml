@@ -51,61 +51,61 @@ plenaries:
       issue_number: 975
       pr_number: 1111
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Formatting fixes"
       issue_number: 981
       pr_number: 1119
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Fix grammar issues in RC"
       issue_number: 982
       pr_number: 1116
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Bad index macro use fix"
       issue_number: 983
       pr_number: 1114
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Fix misspelled const in example"
       issue_number: 984
       pr_number: 1115
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Wait/test any/some/all leaves out single request case"
       issue_number: 985
       pr_number: 1117
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Fixes for code check"
       issue_number: 988
       pr_number: 1118
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "ABI: Missing keys 'mpi_{integer|logical}16_supported'"
       issue_number: 979
       pr_number: 1120
       presenter: Jeff
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "Last editing fixes for 5.0"
       issue_number: 994
       pr_number: 1121
       presenter: Bill
-      done: 0
+      done: 1
 
