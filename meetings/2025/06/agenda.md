@@ -13,7 +13,7 @@ wtb_timezone: "6" # Can figure this out here: https://www.worldtimebuddy.com/clo
 
 The Final Ratification Meeting (FRM) is the meeting where officers through the next release of the
 MPI Standard are elected. The nominees for each position are posted here. Nominations open during
-the RCM (March, 2025) and close two weeks before the RCM (May 21, 2025).
+the RCM (March, 2025) and close two weeks before the FRM (May 21, 2025).
 
 ### MPI Forum Chair
 
