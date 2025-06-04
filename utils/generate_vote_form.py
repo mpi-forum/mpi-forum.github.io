@@ -20,7 +20,7 @@ def isEmpty(val):
 def main():
     year = "2025"
     month = "06"
-    day = "1"
+    day = "2"
     filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     votes_list = list(csv.DictReader(open(filename)));
 
