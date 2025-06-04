@@ -1,76 +1,76 @@
-issue_number,pr_number,topic,type,yes,no,abstain,missed
-112,1084,Clean up I/O chapter,first-and-only,,,,
-697,1048,Remaining 4.0-RC issues found in chap-coll,first-and-only,,,,
-729,852,Clarify use of named types with MPI_MINLOC and MPI_MAXLOC,first-and-only,,,,
-789,1082,41rc1:io: default and predefined error classes mixed up,first-and-only,,,,
-804,962,Missing primary index and description of MPI_T_source_order,first-and-only,,,,
-880,1087,Alltoallw rationale mentions an MPI_SCATTERW function,first-and-only,,,,
-886,1046,"ABI: MPI_Abi_set_fortran_booleans() is broken, boolean values may not fit in C int",first-and-only,,,,
-888,1033,Bit counting in the ABI chapter sometimes off by one,first-and-only,,,,
-889,1034,Use const in MPI_Status accessor functions,first-and-only,,,,
-891,1035,Add list of examples and clean up index,first-and-only,,,,
-892,1037,some last minute cleanups for process management chapter,first-and-only,,,,
-893,1051,What is the 'rank of a node'?,first-and-only,,,,
-894,1080,Wrong argument to MPI_Wait in IO example,first-and-only,,,,
-895,1039,Comments on review of 5.0rc pages 527-552,first-and-only,,,,
-896,1043,PR#900 added entry in change-log 4.0 -> 4.1 out of order,first-and-only,,,,
-897,1047,Change-log entry of PR#904 in 4.1 section instead of 5.0,first-and-only,,,,
-898,1040,PR#963 should have an change-log entry.,first-and-only,,,,
-899,1023,CC Review changes for RMA,first-and-only,,,,
-900,1041,Appendix A RCM Reading Issues,first-and-only,,,,
-901,1044,Comments on review of 5.0-rc1 for Ch.9 Env Mgmt,first-and-only,,,,
-902,1046,add MPI_Get_fortran_booleans and fix MPI_Set_fortran_booleans C API,first-and-only,,,,
-904,1060,MPI 5.0RC fixes pp. 111 - 136 (pdf pages 157-182),first-and-only,,,,
-905,1054,RCM 5.0 - Fixes - Page 630-656 (and 507),first-and-only,,,,
-906,1063,MPI-5.0 RC fixes - front matter - xxvii - 6,first-and-only,,,,
-907,1072,MPI 5.0 RC Review - Wes Bland,first-and-only,,,,
-908,1061,MPI 5.0 fixes p 319-344,first-and-only,,,,
-910,1055,MPI 5.0rc comments pp. 711 - 714,first-and-only,,,,
-911,1062,MPI 5.0 RC issues pp. 59-84,first-and-only,,,,
-915,1058,MPI 5.0 RC Review pgs 33-58,first-and-only,,,,
-916,1097,MPI 5.0rc review for pages 807-832 (MPI standard pages 761-786),first-and-only,,,,
-917,1073,MPI 5.0 fixes p 475-500,first-and-only,,,,
-919,1059,MPI 5.0 RC review Guillaume Mercier,first-and-only,,,,
-920,1057,MPI-50-rc - ilaguna,first-and-only,,,,
-921,1068,MPI 5.0rc comments pp. 715 - 722,first-and-only,,,,
-922,1052,fix ABI shared library name instructions,first-and-only,,,,
-923,1056,MPI 5.0rc1 review pp.163--188,first-and-only,,,,
-924,1064,MPI 5.0 RC Review standard pages 553-578,first-and-only,,,,
-925,1065,MPI 5.0 RC Review pages 189-214 (Chap. Collectives fixes),first-and-only,,,,
-926,1076,MPI 5.0 RC Review pgs 813-838,first-and-only,,,,
-927,1089,Review comments mpi50rc1 pp. 657--682,first-and-only,,,,
-928,1069,MPI 5.0 RC Review pages 189-214 (Bibliography fixes),first-and-only,,,,
-930,1099,MPI 5.0RC fixes pp. 1093 - 1118 (pdf pages 1047-1072),first-and-only,,,,
-931,1083,MPI-5.0 RC fixes : Page 917-942 Function Definition Issues,first-and-only,,,,
-932,1070,MPI 5.0rc comments pp. 723 - 733,first-and-only,,,,
-933,1067,RCM 5.0 - Fixes - Page 637-656,first-and-only,,,,
-934,1093,MPI 5.0 review standard pages 579-604,first-and-only,,,,
-935,1074,Fixes RCM pages 85-110,first-and-only,,,,
-936,1078,MPI Forum 5.0 p 475,first-and-only,,,,
-937,1077,MPI-5.0 RC chapter committee - terms,first-and-only,,,,
-938,1079,MPI 5.0RC - additional fixes for topology chapter,first-and-only,,,,
-939,1081,RC Review for pages 735-760,first-and-only,,,,
-940,1086,MPI 5.0RC1 Review pp 605-630,first-and-only,,,,
-944,1096,MPI 5.0 RC Review pgs 501-526,first-and-only,,,,
-945,1085,MPI-5 RC1 review Aurelien,first-and-only,,,,
-946,1088,MPI 5.0RC1 Review pp 605-630 part 2,first-and-only,,,,
-947,1095,MPI 5.0RC fixes pp. 1145 - 1170,first-and-only,,,,
-950,1092,MPI 5.0-rc1 review Rohit,first-and-only,,,,
-953,1098,MPI-5.0 RC chapter committee - terms Table 2.1 footnote 6,first-and-only,,,,
-959,1103,Add a restriction to reserve constants below 16K for MPI usage only,first-and-only,,,,
-962,1101,Remove text on anonymous enums in ABI chapter,first-and-only,,,,
-972,1106,kill MPI_Fint from ABI,first-and-only,,,,
-975,1111,"Tools Chapter Committee needs update",no-no
-979,1120,"ABI: Missing keys 'mpi_{integer|logical}16_supported'",no-no
-981,1119,"Formatting fixes",no-no
-982,1116,"Fix grammar issues in RC",no-no
-983,1114,"Bad index macro use fix",no-no
-984,1115,"Fix misspelled const in example",no-no
-985,1117,"Wait/test any/some/all leaves out single request case",no-no
-988,1118,"Fixes for code check",no-no
-994,1121,"Last editing fixes for 5.0",no-no
-"","","Vote to ratify MPI 5.0","procedure",,,,
-"","","MPI Forum Chair","procedure",,,,
-"","","MPI Forum Secretary","procedure",,,,
-"","","MPI Forum Treasurer","procedure",,,,
-"","","MPI Forum Document Editor","procedure",,,,
+"issue_number","pr_number","topic","type","yes","no","abstain","missed"
+"112","1084","Clean up I/O chapter","first-and-only","29","0","1","0"
+"697","1048","Remaining 4.0-RC issues found in chap-coll","first-and-only","28","0","2","0"
+"729","852","Clarify use of named types with MPI_MINLOC and MPI_MAXLOC","first-and-only","29","0","1","0"
+"789","1082","41rc1:io: default and predefined error classes mixed up","first-and-only","29","0","1","0"
+"804","962","Missing primary index and description of MPI_T_source_order","first-and-only","29","0","1","0"
+"880","1087","Alltoallw rationale mentions an MPI_SCATTERW function","first-and-only","29","0","1","0"
+"886","1046","ABI: MPI_Abi_set_fortran_booleans() is broken, boolean values may not fit in C int","first-and-only","29","0","1","0"
+"888","1033","Bit counting in the ABI chapter sometimes off by one","first-and-only","28","0","2","0"
+"889","1034","Use const in MPI_Status accessor functions","first-and-only","28","0","2","0"
+"891","1035","Add list of examples and clean up index","first-and-only","29","0","1","0"
+"892","1037","some last minute cleanups for process management chapter","first-and-only","29","0","1","0"
+"893","1051","What is the 'rank of a node'?","first-and-only","29","0","1","0"
+"894","1080","Wrong argument to MPI_Wait in IO example","first-and-only","29","0","1","0"
+"895","1039","Comments on review of 5.0rc pages 527-552","first-and-only","29","0","1","0"
+"896","1043","PR#900 added entry in change-log 4.0 -> 4.1 out of order","first-and-only","29","0","1","0"
+"897","1047","Change-log entry of PR#904 in 4.1 section instead of 5.0","first-and-only","29","0","1","0"
+"898","1040","PR#963 should have an change-log entry.","first-and-only","29","0","1","0"
+"899","1023","CC Review changes for RMA","first-and-only","29","0","1","0"
+"900","1041","Appendix A RCM Reading Issues","first-and-only","29","0","1","0"
+"901","1044","Comments on review of 5.0-rc1 for Ch.9 Env Mgmt","first-and-only","29","0","1","0"
+"902","1046","add MPI_Get_fortran_booleans and fix MPI_Set_fortran_booleans C API","first-and-only","29","0","1","0"
+"904","1060","MPI 5.0RC fixes pp. 111 - 136 (pdf pages 157-182)","first-and-only","29","0","1","0"
+"905","1054","RCM 5.0 - Fixes - Page 630-656 (and 507)","first-and-only","29","0","1","0"
+"906","1063","MPI-5.0 RC fixes - front matter - xxvii - 6","first-and-only","29","0","1","0"
+"907","1072","MPI 5.0 RC Review - Wes Bland","first-and-only","29","0","1","0"
+"908","1061","MPI 5.0 fixes p 319-344","first-and-only","29","0","1","0"
+"910","1055","MPI 5.0rc comments pp. 711 - 714","first-and-only","29","0","1","0"
+"911","1062","MPI 5.0 RC issues pp. 59-84","first-and-only","29","0","1","0"
+"915","1058","MPI 5.0 RC Review pgs 33-58","first-and-only","29","0","1","0"
+"916","1097","MPI 5.0rc review for pages 807-832 (MPI standard pages 761-786)","first-and-only","29","0","1","0"
+"917","1073","MPI 5.0 fixes p 475-500","first-and-only","29","0","1","0"
+"919","1059","MPI 5.0 RC review Guillaume Mercier","first-and-only","29","0","1","0"
+"920","1057","MPI-50-rc - ilaguna","first-and-only","29","0","1","0"
+"921","1068","MPI 5.0rc comments pp. 715 - 722","first-and-only","29","0","1","0"
+"922","1052","fix ABI shared library name instructions","first-and-only","29","0","1","0"
+"923","1056","MPI 5.0rc1 review pp.163--188","first-and-only","29","0","1","0"
+"924","1064","MPI 5.0 RC Review standard pages 553-578","first-and-only","29","0","1","0"
+"925","1065","MPI 5.0 RC Review pages 189-214 (Chap. Collectives fixes)","first-and-only","29","0","1","0"
+"926","1076","MPI 5.0 RC Review pgs 813-838","first-and-only","29","0","1","0"
+"927","1089","Review comments mpi50rc1 pp. 657--682","first-and-only","29","0","1","0"
+"928","1069","MPI 5.0 RC Review pages 189-214 (Bibliography fixes)","first-and-only","29","0","1","0"
+"930","1099","MPI 5.0RC fixes pp. 1093 - 1118 (pdf pages 1047-1072)","first-and-only","29","0","1","0"
+"931","1083","MPI-5.0 RC fixes : Page 917-942 Function Definition Issues","first-and-only","29","0","1","0"
+"932","1070","MPI 5.0rc comments pp. 723 - 733","first-and-only","29","0","1","0"
+"933","1067","RCM 5.0 - Fixes - Page 637-656","first-and-only","29","0","1","0"
+"934","1093","MPI 5.0 review standard pages 579-604","first-and-only","29","0","1","0"
+"935","1074","Fixes RCM pages 85-110","first-and-only","29","0","1","0"
+"936","1078","MPI Forum 5.0 p 475","first-and-only","29","0","1","0"
+"937","1077","MPI-5.0 RC chapter committee - terms","first-and-only","29","0","1","0"
+"938","1079","MPI 5.0RC - additional fixes for topology chapter","first-and-only","29","0","1","0"
+"939","1081","RC Review for pages 735-760","first-and-only","29","0","1","0"
+"940","1086","MPI 5.0RC1 Review pp 605-630","first-and-only","29","0","1","0"
+"944","1096","MPI 5.0 RC Review pgs 501-526","first-and-only","29","0","1","0"
+"945","1085","MPI-5 RC1 review Aurelien","first-and-only","29","0","1","0"
+"946","1088","MPI 5.0RC1 Review pp 605-630 part 2","first-and-only","29","0","1","0"
+"947","1095","MPI 5.0RC fixes pp. 1145 - 1170","first-and-only","29","0","1","0"
+"950","1092","MPI 5.0-rc1 review Rohit","first-and-only","29","0","1","0"
+"953","1098","MPI-5.0 RC chapter committee - terms Table 2.1 footnote 6","first-and-only","29","0","1","0"
+"959","1103","Add a restriction to reserve constants below 16K for MPI usage only","first-and-only","29","0","1","0"
+"962","1101","Remove text on anonymous enums in ABI chapter","first-and-only","29","0","1","0"
+"972","1106","kill MPI_Fint from ABI","first-and-only","28","0","2","0"
+"975","1111","Tools Chapter Committee needs update","no-no","29","0","1","0"
+"979","1120","ABI: Missing keys 'mpi_{integer|logical}16_supported'","no-no","28","0","2","0"
+"981","1119","Formatting fixes","no-no","29","0","1","0"
+"982","1116","Fix grammar issues in RC","no-no","29","0","1","0"
+"983","1114","Bad index macro use fix","no-no","29","0","1","0"
+"984","1115","Fix misspelled const in example","no-no","29","0","1","0"
+"985","1117","Wait/test any/some/all leaves out single request case","no-no","29","0","1","0"
+"988","1118","Fixes for code check","no-no","29","0","1","0"
+"994","1121","Last editing fixes for 5.0","no-no","29","0","1","0"
+"","","Vote to ratify MPI 5.0","procedure","0","0","0","0"
+"","","MPI Forum Chair","procedure","0","0","0","0"
+"","","MPI Forum Secretary","procedure","0","0","0","0"
+"","","MPI Forum Treasurer","procedure","0","0","0","0"
+"","","MPI Forum Document Editor","procedure","0","0","0","0"
