@@ -28,7 +28,7 @@ def delete_from_list(org, ooe_list):
             ooe_list.remove(entry)
 
 def check_empty(val):
-    return val == None or val == "" or val == 0
+    return val == None or val == "" or int(val) == 0
 
 def main():
     attendance_file=sys.argv[1]; # File with UUIDs for each attendee
