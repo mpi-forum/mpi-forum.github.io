@@ -16,6 +16,7 @@ MPI-5.0 was approved by the MPI Forum on June 5, 2025.
 *   [BibTeX file for citing MPI 5.0](mpi-5.0/citation.bib)
 *   [Unofficial HTML version of MPI 5.0](mpi-5.0/mpi50-report/mpi50-report.htm)
 
+## Previous Versions of the MPI Standard
 
 ## MPI 4.1
 
@@ -41,8 +42,6 @@ A side document that provides the list of MPI procedures that are
 associated with an MPI operation, or inquiry procedures providing information
 about an operation, was produced and is available (see below for
 "Summary of the Semantics of all Operation-Related MPI Procedures")
-
-## Previous Versions of the MPI Standard
 
 ## MPI-3.1
 
