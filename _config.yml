@@ -27,7 +27,6 @@ navbar-links:
     Docs: "docs/"
     Current MPI Efforts:
         - Implementation Status: implementation-status/
-        - MPI 5.0: "mpi-50/"
         - MPI Next: "mpi-next/"
     Meetings:
         - Voting Meetings: "meetings"
