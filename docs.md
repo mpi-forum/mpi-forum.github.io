@@ -8,6 +8,15 @@ The official version of the MPI documents are the English Postscript versions (f
 
 Some [translations of MPI documents](translations.html) are available.
 
+## MPI 5.0
+
+MPI-5.0 was approved by the MPI Forum on June 5, 2025.
+
+*   [MPI 5.0 document as PDF](mpi-5.0/mpi50-report.pdf)
+*   [BibTeX file for citing MPI 5.0](mpi-5.0/citation.bib)
+*   [Unofficial HTML version of MPI 5.0](mpi-5.0/mpi50-report/mpi50-report.htm)
+
+
 ## MPI 4.1
 
 MPI-4.1 was approved by the MPI Forum on November 2, 2023.
