@@ -15,11 +15,11 @@ required regardless of whether attending in-person or remotely.**
 [https://forms.gle/RA9EPuLxVzFLdPFX7](https://forms.gle/RA9EPuLxVzFLdPFX7)
 
 **In-Person registrants** need to **also** register with the conference:
-[https://events.csiro.au/Events/2024/May/22/IWOMP-EuroMPI-2024](https://events.csiro.au/Events/2024/May/22/IWOMP-EuroMPI-2024)
+[https://www.eventbrite.com/e/mpi-forum-eurompi-iwomp-tickets-1500373821489](https://www.eventbrite.com/e/mpi-forum-eurompi-iwomp-tickets-1500373821489)
 
 ### Meeting Location
 
-The meeting will occur in conjunction with EuroMPI/Australia 2023 in Perth,
+The meeting will occur in conjunction with EuroMPI/Australia 2024 in Perth,
 Australia at the Pawsey Supercomputing Research Centre. Details on the
 conference and venue can be found on the [conference
 website](https://events.vsc.ac.at/event/123/).
