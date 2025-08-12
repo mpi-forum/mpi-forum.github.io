@@ -46,13 +46,20 @@ def main():
         first_name = registration['First Name']
         last_name = registration['Last Name']
         name = first_name + " " + last_name
-        org = registration['Organization you are representing'].strip()
+        org = registration['Organization you are representing (Required for MPI Forum Attendees)'].strip()
         email = registration['Email']
+        ticket_type = registration['Ticket Type']
+
+        if org == "":
+            continue
+
+        if ticket_type != "Early Combined (IWOMP, EuroMPI, MPI Forum, Social)" and ticket_type == "Student Registration (all week)" and ticket_type == "MPI Forum - Online Only":
+            continue
 
         if org in org_dict:
             org = org_dict[org]
 
-        if any_remote and registration['Ticket Type'] == "On-line Only":
+        if any_remote and ticket_type == "MPI Forum - Online Only":
             remote = 1
         else:
             remote = 0
