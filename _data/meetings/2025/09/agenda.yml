@@ -34,3 +34,9 @@ plenaries:
       presenter: Tony
       done: 0
 
+    - type: Plenary
+      title: "Too much text removed in 4.1 cleanup?"
+      issue_number: 1003
+      presenter: Tobias
+      done: 0
+
