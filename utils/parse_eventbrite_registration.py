@@ -23,6 +23,8 @@ def main():
             "Paratools SAS": "ParaTools SAS",
             "High Performance Computing Center Stuttgart": "HLRS, University of Stuttgart",
             "Sandia National Laboratories": "Sandia National Laboratory",
+            "LANL": "Los Alamos National Laboratory",
+            "ORNL": "Oak Ridge National Laboratory",
             }
 
     print("Opening file...")
