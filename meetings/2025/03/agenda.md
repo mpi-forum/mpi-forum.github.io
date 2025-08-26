@@ -7,6 +7,5 @@ month: "03"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"
 timezone: "Central European Time"
 timezone_abbr: "CET"
-wtb_timezone: "2825297" # Can figure this out here: https://www.worldtimebuddy.com/clock-widget
 ---
 

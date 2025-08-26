@@ -7,6 +7,5 @@ month: "09"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"
 timezone: "Australian Western Standard Time"
 timezone_abbr: "AWST"
-wtb_timezone: "2063523" # Can figure this out here: https://www.worldtimebuddy.com/clock-widget
 ---
 

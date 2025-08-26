@@ -108,10 +108,9 @@ layout: default
              {% else %}
                 {% assign datestring = "%H%M_%-d_%B_%Y_in_CT" %}
              {% endif %}
-             <td>
-               <a href="https://www.worldtimebuddy.com/?qm=1&lid=6&h={{ page.wtb_timezone }}&date={{ item.start | date: "%y-%m-%d" }}&sln={{ item.start | date: "%H" }}-{{ item.end | date: "%H" }}">
-                 {{ item.start | date: "%H:%M" }} - {{ item.end | date: "%H:%M" }}</a>
-             </td>
+             <td><a href="https://time.is/{{ item.start | date: datestring }}">
+                         {{ item.start | date: "%H:%M" }} - {{ item.end | date: "%H:%M" }}
+             </a></td>
              {% else %}
                  <td>{{ item.start }} - {{ item.end }}</td>
              {% endif %}
