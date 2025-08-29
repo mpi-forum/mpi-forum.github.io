@@ -55,7 +55,10 @@ def main():
         if org == "":
             continue
 
-        if ticket_type != "Early Combined (IWOMP, EuroMPI, MPI Forum, Social)" and ticket_type == "Student Registration (all week)" and ticket_type == "MPI Forum - Online Only":
+        if (ticket_type == "EuroMPI+IWOMP Early Registration + Social Event" or
+            ticket_type == "EuroMPI+IWOMP+Social Event Standard Registration" or
+            ticket_type == "Thursday Social Event - Extra Ticket" or
+            ticket_type == "EuroMPI and IWOMP Remote Attendee (Listener Only)"):
             continue
 
         if org in org_dict:
