@@ -35,7 +35,7 @@ layout: default
 
         <h4>This list is updated manually and may not contain the most recent registrations.</h4>
 
-        <ul>
+        <ol>
           {% if remote_people.size > 1 %}
             <h3>In-Person Attendees</h3>
           {% endif %}
@@ -57,7 +57,7 @@ layout: default
               </li>
             {% endfor %}
           {% endif %}
-        </ul>
+        </ol>
 
         {% if page.prev_year != nil %}
           {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
