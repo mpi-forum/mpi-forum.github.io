@@ -19,19 +19,44 @@ layout: default
         </table>
     </header>
 
+    {% assign remote_people = 0 %}
+    {% assign local_people = "" | split: ',' %}
+    {% assign remote_people = "" | split: ',' %}
+    {% for person in site.data.meetings[page.year][page.month].attendance %}
+      {% if person.remote == "1" %}
+        {% assign remote_people = remote_people | push: person %}
+      {% else %}
+        {% assign local_people = local_people | push: person %}
+      {% endif %}
+    {% endfor %}
+
     <div class="post-content">
         {{ content }}
 
         <h4>This list is updated manually and may not contain the most recent registrations.</h4>
 
         <ul>
-          {% for person in site.data.meetings[page.year][page.month].attendance %}
-          <li> {{ person.name }} <i>- {{ person.org }}</i>
-            {% if person.remote == "1" %} - Remote{% endif %}
-            {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
-            {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
-          </li>
+          {% if remote_people.size > 1 %}
+            <h3>In-Person Attendees</h3>
+          {% endif %}
+
+          {% for person in local_people %}
+            <li> {{ person.name }} <i>- {{ person.org }}</i>
+              {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
+              {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
+            </li>
           {% endfor %}
+
+          {% if remote_people.size > 1 %}
+            <h3>Remote Attendees</h3>
+
+            {% for person in remote_people %}
+              <li> {{ person.name }} <i>- {{ person.org }}</i>
+                {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
+                {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
+              </li>
+            {% endfor %}
+          {% endif %}
         </ul>
 
         {% if page.prev_year != nil %}
