@@ -101,3 +101,18 @@ plenaries:
       presenter: Tony
       done: 0
 
+    - type: Plenary
+      title: "Sessions WG"
+      presenter: Howard
+      done: 0
+
+    - type: Plenary
+      title: "Hybrid WG"
+      presenter: Joseph
+      done: 0
+
+    - type: Plenary
+      title: "RMA WG"
+      presenter: Joseph
+      done: 0
+
