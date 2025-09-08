@@ -1,20 +1,66 @@
 schedule:
     - day: Monday, September 29
-    - start: 2025-09-29T0:00
-      end: 2025-09-29T23:59
-      title: "Placeholder Agenda Item"
+
+    - start: 2025-09-29T09:00
+      end: 2025-09-29T10:00
+      title: "Plenary"
+
+    - start: 2025-09-29T10:00
+      end: 2025-09-29T10:30
+      title: "Coffee Break"
+
+    - start: 2025-09-29T10:30
+      end: 2025-09-29T12:00
+      title: "Plenary"
+
+    - start: 2025-09-29T12:00
+      end: 2025-09-29T13:30
+      title: "Lunch"
+
+    - start: 2025-09-29T13:30
+      end: 2025-09-29T14:30
+      title: "Plenary"
+
+    - start: 2025-09-29T14:30
+      end: 2025-09-29T15:00
+      title: "Coffee Break"
+
+    - start: 2025-09-29T15:00
+      end: 2025-09-29T17:00
+      title: "Plenary"
+
     - endday: done
 
     - day: Tuesday, September 30
-    - start: 2025-09-30T0:00
-      end: 2025-09-30T23:59
-      title: "Placeholder Agenda Item"
-    - endday: done
 
-    - day: Wednesday, October 01
-    - start: 2025-10-01T0:00
-      end: 2025-10-01T23:59
-      title: "Placeholder Agenda Item"
+    - start: 2025-09-30T09:00
+      end: 2025-09-30T10:00
+      title: "Plenary"
+
+    - start: 2025-09-30T10:00
+      end: 2025-09-30T10:30
+      title: "Coffee Break"
+
+    - start: 2025-09-30T10:30
+      end: 2025-09-30T12:00
+      title: "Plenary"
+
+    - start: 2025-09-30T12:00
+      end: 2025-09-30T13:30
+      title: "Lunch"
+
+    - start: 2025-09-30T13:30
+      end: 2025-09-30T14:30
+      title: "Plenary"
+
+    - start: 2025-09-30T14:30
+      end: 2025-09-30T15:00
+      title: "Coffee Break"
+
+    - start: 2025-09-30T15:00
+      end: 2025-09-30T17:00
+      title: "Plenary"
+
     - endday: done
 
 plenaries:
@@ -38,5 +84,20 @@ plenaries:
       title: "Too much text removed in 4.1 cleanup?"
       issue_number: 1003
       presenter: Tobias
+      done: 0
+
+    - type: Plenary
+      title: "MPI_T Semantics"
+      presenter: Bill W.
+      done: 0
+
+    - type: Plenary
+      title: "QMPI"
+      presenter: Bill W.
+      done: 0
+
+    - type: Plenary
+      title: "MPI Advance and MPI4AI"
+      presenter: Tony
       done: 0
 

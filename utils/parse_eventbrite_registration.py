@@ -25,6 +25,8 @@ def main():
             "Sandia National Laboratories": "Sandia National Laboratory",
             "LANL": "Los Alamos National Laboratory",
             "ORNL": "Oak Ridge National Laboratory",
+            "Texas Advanced Computing Center": "The Texas Advanced Computing Center",
+            "RWTH Aachen": "RWTH Aachen University",
             }
 
     print("Opening file...")
