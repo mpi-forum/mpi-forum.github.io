@@ -17,10 +17,15 @@ Participants need to register both with the conference organizers.
 
 ### Meeting Location
 
-The meeting will occur in conjunction with EuroMPI/USA 2025 in Charlotte,
-North Carolina, USA at the University of North Carolina, Charlotte. Details on the
-conference and venue can be found on the [conference
-website](https://eurompi.org/venue/).
+
+The meeting will take place in the Popp-Martin Student Union conference venue
+at the University of North Carolina campus in Charlotte, NC, USA in conjuction
+with EuroMPI/USA 2025.
+
+Address: 8845 Craver Rd, Charlotte, NC 28262, United States
+
+Details on the conference and venue can be found on the [conference
+website](https://eurompi.org/venue).
 
 ### Hybrid Partipation
 
