@@ -79,6 +79,11 @@ plenaries:
       presenter: Howard
       done: 0
 
+    - type: Discussion
+      title: "Future of Fault Tolerance WG"
+      presenter: Martin/Wes/Ignacio
+      done: 0
+
     - type: Plenary
       title: "Concepts for designing modern C++ interfaces for MPI"
       link: https://www.arxiv.org/abs/2506.14610
@@ -129,5 +134,4 @@ plenaries:
       pr_number: 1127
       presenter: Marc-Andre
       done: 0
-
 
