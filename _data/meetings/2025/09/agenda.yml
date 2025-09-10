@@ -88,11 +88,13 @@ plenaries:
 
     - type: Plenary
       title: "MPI_T Semantics"
+      issue_number: 817
       presenter: Bill W.
       done: 0
 
     - type: Plenary
       title: "QMPI"
+      issue_number: 638
       presenter: Bill W.
       done: 0
 
@@ -115,4 +117,12 @@ plenaries:
       title: "RMA WG"
       presenter: Joseph
       done: 0
+
+    - type: Reading
+      title: "ERRATA: MPI_T handles do not have ABI definition"
+      issue_number: 1001
+      pr_number: 1127
+      presenter: Marc-Andre
+      done: 0
+
 
