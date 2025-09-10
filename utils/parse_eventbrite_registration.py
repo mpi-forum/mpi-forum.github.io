@@ -27,6 +27,7 @@ def main():
             "ORNL": "Oak Ridge National Laboratory",
             "Texas Advanced Computing Center": "The Texas Advanced Computing Center",
             "RWTH Aachen": "RWTH Aachen University",
+            "ParTec AG": "ParTec",
             }
 
     print("Opening file...")

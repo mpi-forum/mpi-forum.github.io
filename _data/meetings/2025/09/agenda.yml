@@ -74,6 +74,11 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: Working Group
+      title: "Sessions WG"
+      presenter: Howard
+      done: 0
+
     - type: Plenary
       title: "Concepts for designing modern C++ interfaces for MPI"
       link: https://www.arxiv.org/abs/2506.14610
@@ -104,7 +109,7 @@ plenaries:
       done: 0
 
     - type: Plenary
-      title: "Sessions WG"
+      title: "Sessions Attributes"
       presenter: Howard
       done: 0
 
