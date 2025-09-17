@@ -135,3 +135,17 @@ plenaries:
       presenter: Marc-Andre
       done: 0
 
+    - type: Reading
+      title: "RMA Notification"
+      issue_number: 59
+      pr_number: 1131
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "Clarify synchronization behavior of neighborhood collectives"
+      issue_number: 863
+      pr_number: 1075
+      presenter: Christoph
+      done: 0
+
