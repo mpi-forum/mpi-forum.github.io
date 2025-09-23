@@ -63,6 +63,12 @@ schedule:
 
     - endday: done
 
+    - day: Wednesday, October 1
+
+    - start: 2025-10-01T09:00
+      end: 2025-10-01T10:30
+      title: "Sessions Working Group"
+
 plenaries:
     - type: Welcome
       title: Introductions
