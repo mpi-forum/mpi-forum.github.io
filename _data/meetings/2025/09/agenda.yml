@@ -69,6 +69,8 @@ schedule:
       end: 2025-10-01T10:30
       title: "Sessions Working Group"
 
+    - endday: done
+
 plenaries:
     - type: Welcome
       title: Introductions
