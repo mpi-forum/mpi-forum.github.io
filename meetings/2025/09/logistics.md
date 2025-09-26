@@ -11,7 +11,7 @@ month: "09"
 Advanced registration for this meeting will be required. **Registration is
 required regardless of whether attending in-person or remotely.**
 
-Participants need to register both with the conference organizers.
+Participants need to register with the conference organizers.
 
 * Conference: [https://www.eventbrite.com/e/mpi-forum-eurompi-iwomp-tickets-1500373821489](https://www.eventbrite.com/e/mpi-forum-eurompi-iwomp-tickets-1500373821489)
 
