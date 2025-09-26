@@ -74,7 +74,7 @@ layout: default
                 {% assign org = person.org %}
                 {% for org_transition in site.data.orgs %}
                   {% if org_transition.old_org_name == org %}
-                    {% assign org = org_transition.new_org_name %}
+                    {% assign prev_orgs = prev_orgs | push: org_transition.new_org_name | uniq %}
                   {% endif %}
                 {% endfor %}
                 {% assign prev_orgs = prev_orgs | push: org | uniq %}
@@ -88,7 +88,7 @@ layout: default
                 {% assign org = person.org %}
                 {% for org_transition in site.data.orgs %}
                   {% if org_transition.old_org_name == org %}
-                    {% assign org = org_transition.new_org_name %}
+                    {% assign prev_prev_orgs = prev_orgs | push: org_transition.new_org_name | uniq %}
                   {% endif %}
                 {% endfor %}
                 {% assign prev_prev_orgs = prev_prev_orgs | push: org | uniq %}
@@ -128,42 +128,20 @@ layout: default
             {% endif %}
           {% endfor %}
 
-          <h3> IMOVE Orgs ({{imove_orgs.size}} of {{ prev_ooe | times: 0.66 | ceil }} needed) </h3>
+          <h3> Voting Eligibile Orgs ({{imove_orgs.size}} of {{ prev_ooe | times: 0.66 | ceil }} needed) </h3>
           {% assign imove_orgs = imove_orgs | sort %}
-          {% for org in imove_orgs %}
-            <li> {{ org }}</li>
-          {% endfor %}
+          {% for org in imove_orgs %} <li> {{ org }}</li> {% endfor %}
 
-          <h3> Ineligible Orgs </h3>
-          <h4> Not Present at Current Meeting for First Vote </h4>
+          <!-- This code is a mess because when I split it out across multiple lines, it adds a bunch of blank lines in the output -->
+          <!-- Ineligible Orgs -->
+          <!-- Not Present at Current Meeting for First Vote -->
             {% assign ooe_orgs = ooe_orgs | sort %}
-            {% for org in ooe_orgs %}
-              {% unless imove_orgs contains org %}
-                <li> {{ org }}</li>
-              {% endunless %}
-            {% endfor %}
-          <h4> Did Not Attend 2 of 3 Recent Meetings </h4>
-            {% assign ineligible_orgs = ineligible_orgs | sort %}
-            {% for org in ineligible_orgs %}
-              {% unless org == "Self (Non-voting participant)" %}
-                <li> {{ org }}</li>
-              {% endunless %}
-            {% endfor %}
-          <h4> Did Not Register for Current Meeting </h4>
-            {% for org in prev_orgs %}
-              {% unless imove_orgs contains org or ooe_orgs contains org %}
-                {% unless org == "Self (Non-voting participant)" %}
-                  <li> {{ org }}</li>
-                {% endunless %}
-              {% endunless %}
-            {% endfor %}
-            {% for org in prev_prev_orgs %}
-              {% unless imove_orgs contains org or ooe_orgs contains org or prev_orgs contains org %}
-                {% unless org == "Self (Non-voting participant)" %}
-                  <li> {{ org }}</li>
-                {% endunless %}
-              {% endunless %}
-            {% endfor %}
+            {% for org in ooe_orgs %} {% unless imove_orgs contains org %} <!-- {{ org }} --> {% endunless %} {% endfor %}
+          <!-- Did Not Attend 2 of 3 Recent Meetings -->
+            {% assign ineligible_orgs = ineligible_orgs | sort %} {% for org in ineligible_orgs %} {% unless org == "Self (Non-voting participant)" %} <!-- {{ org }} --> {% endunless %} {% endfor %}
+          <!-- Did Not Register for Current Meeting -->
+          {% for org in prev_orgs %} {% unless imove_orgs contains org or ooe_orgs contains org %}{% unless org == "Self (Non-voting participant)" %}<!-- {{ org }} --> {% endunless %}{% endunless %}{% endfor %}
+          {% for org in prev_prev_orgs %}{% unless imove_orgs contains org or ooe_orgs contains org or prev_orgs contains org %}{% unless org == "Self (Non-voting participant)" %}<!-- {{ org }} --> {% endunless %}{% endunless %}{% endfor %}
         {% endif %}
 
           <h3> Stats </h3>

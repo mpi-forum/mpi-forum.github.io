@@ -10,3 +10,6 @@ prev_prev_year: "2025"
 prev_prev_month: "03"
 ---
 
+**Note:** "VSC Research Center, TU Wien" has been renamed to "ASC Research
+Center, TU Wien". Voting eligibility will continue across names as with
+previous organization renames and mergers.
