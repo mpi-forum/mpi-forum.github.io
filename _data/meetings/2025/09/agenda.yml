@@ -111,7 +111,7 @@ plenaries:
       title: "MPI_T Semantics"
       issue_number: 817
       presenter: Bill W.
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "QMPI"
