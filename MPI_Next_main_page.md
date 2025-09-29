@@ -48,7 +48,7 @@ The following working groups are currently participating in future MPI efforts. 
 
 #### [Hybrid & Accelerator](https://github.com/mpiwg-hybrid/hybrid-issues/wiki)
 
-*   Lead: James Dinan
+*   Lead: Joseph Schuchart
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
 *   Meeting Schedule: Wednesdays at <a href="https://time.is/0900_in_CT">9am</a> US Central Time
 
