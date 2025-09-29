@@ -79,7 +79,7 @@ The following working groups are currently participating in future MPI efforts. 
 
 #### [Tools](https://github.com/mpiwg-tools/tools-issues)
 
-*   Lead: Marc-Andre Hermanns (prior lead: Kathryn Mohror)
+*   Lead: Marc-Andre Hermanns
 *   Scope: Definition of interfaces for debugging and performance tools
 *   Meeting Schedule: Mondays at <a href="https://time.is/1000_in_CT">10am</a> US Central Time
 
