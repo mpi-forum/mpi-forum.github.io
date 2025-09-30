@@ -1,3 +1,4 @@
 issue_number,pr_number,topic,type,yes,no,abstain,missed
+1001,1127,"ERRATA: MPI_T handles do not have ABI definition",no-no
 1001,1127,"ERRATA: MPI_T handles do not have ABI definition",errata
 863,1075,"Clarify synchronization behavior of neighborhood collectives",errata
