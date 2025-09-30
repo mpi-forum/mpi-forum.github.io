@@ -15,17 +15,17 @@ import keyring
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ["https://www.googleapis.com/auth/forms.body", "https://www.googleapis.com/auth/gmail.send"]
 
-prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/01/attendance.csv"
-prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/03/attendance.csv"
-curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/06/attendance.csv"
-curr_registration_file = "/Users/wbland/mpi/meeting-details/2025-06-jun/2025-06-04-registration.csv"
+prev_attendance_file_2 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/03/attendance.csv"
+prev_attendance_file_1 = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/06/attendance.csv"
+curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2025/09/attendance.csv"
+curr_registration_file = "/Users/wbland/mpi/meeting-details/2025-09-sep/2025-09-29-registration.csv"
 transition_orgs_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/orgs.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSeFoCI0c4FIv1Ui7Iq8mkbPba6wEsqn1mF4jG_n66M005ggdA/viewform?usp=pp_url&entry.109270161={name}&entry.432336106={org}&entry.1621315545={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLScqtyF0M24CLo7__5Ptqr2uru0MnGLGc3_91hn9pwqbxJz1Qw/viewform?usp=pp_url&entry.1458754837={name}&entry.230843655={org}&entry.2145750499={id}"
 
-vote_name = "June 2025 Day 2"
-closing_time = "12:30pm on June 05, 2025"
-time_zone = "US Central Time (UTC - 4)"
+vote_name = "September 2025 Day 1"
+closing_time = "05:00pm on September 30, 2025"
+time_zone = "US Eastern Time (UTC - 4)"
 subject_string = vote_name + " Voting Link"
 
 dry_run = 1

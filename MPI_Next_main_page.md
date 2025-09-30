@@ -48,7 +48,7 @@ The following working groups are currently participating in future MPI efforts. 
 
 #### [Hybrid & Accelerator](https://github.com/mpiwg-hybrid/hybrid-issues/wiki)
 
-*   Lead: James Dinan
+*   Lead: Joseph Schuchart
 *   Scope: Ensure that MPI has the features necessary to facilitate efficient hybrid programming and investigate what changes are needed in MPI to better support traditional thread interfaces (e.g., Pthreads, OpenMP), emerging interfaces (like TBB, OpenCL, CUDA, and Ct), and PGAS (UPC, CAF, etc.).
 *   Meeting Schedule: Wednesdays at <a href="https://time.is/0900_in_CT">9am</a> US Central Time
 
@@ -63,7 +63,7 @@ The following working groups are currently participating in future MPI efforts. 
 *   Lead: Tony Skjellum and Tim Uhl
 *   Scope: Ensure MPI has robust support for present and future language expressions and to introduce new language interfaces encapsulating the MPI concepts, currently focusing on modern C++.
 *   Note, this group will collaborate with the Fortran working group whenever helpful to advancing MPI.
-*   Meeting Schedule: Wednesdays at <a href="https://time.is/0900_in_CT">9am</a> US Central Time
+*   Meeting Schedule: Thursdays at <a href="https://time.is/1000_in_CT">10am</a> US Central Time
 
 #### [Remote Memory Access](https://github.com/mpiwg-rma/rma-issues/wiki/RMA-Working-Group-Wiki)
 
@@ -79,7 +79,7 @@ The following working groups are currently participating in future MPI efforts. 
 
 #### [Tools](https://github.com/mpiwg-tools/tools-issues)
 
-*   Lead: Marc-Andre Hermanns (prior lead: Kathryn Mohror)
+*   Lead: Marc-Andre Hermanns
 *   Scope: Definition of interfaces for debugging and performance tools
 *   Meeting Schedule: Mondays at <a href="https://time.is/1000_in_CT">10am</a> US Central Time
 

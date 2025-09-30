@@ -24,6 +24,8 @@ with EuroMPI/USA 2025.
 
 Address: 8845 Craver Rd, Charlotte, NC 28262, United States
 
+The MPI Forum will meet in room 263.
+
 Details on the conference and venue can be found on the [conference
 website](https://eurompi.org/venue).
 

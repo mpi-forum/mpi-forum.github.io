@@ -83,23 +83,50 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Future of Fault Tolerance WG"
       presenter: Martin/Wes/Ignacio
-      done: 0
+      done: 1
 
     - type: Plenary
-      title: "Concepts for designing modern C++ interfaces for MPI"
-      link: https://www.arxiv.org/abs/2506.14610
-      presenter: Tony
-      done: 0
+      title: "MPI_T Semantics"
+      issue_number: 817
+      presenter: Bill W.
+      done: 1
+
+    - type: Plenary
+      title: "QMPI"
+      issue_number: 638
+      presenter: Bill W.
+      done: 1
+
+    - type: Reading
+      title: "ERRATA: MPI_T handles do not have ABI definition"
+      issue_number: 1001
+      pr_number: 1127
+      presenter: Marc-Andre
+      done: 1
+
+    - type: Reading
+      title: "RMA Notification"
+      issue_number: 59
+      pr_number: 1131
+      presenter: Joseph
+      done: 1
+
+    - type: Reading
+      title: "Clarify synchronization behavior of neighborhood collectives"
+      issue_number: 863
+      pr_number: 1075
+      presenter: Christoph
+      done: 1
 
     - type: Plenary
       title: "Too much text removed in 4.1 cleanup?"
@@ -108,15 +135,9 @@ plenaries:
       done: 0
 
     - type: Plenary
-      title: "MPI_T Semantics"
-      issue_number: 817
-      presenter: Bill W.
-      done: 0
-
-    - type: Plenary
-      title: "QMPI"
-      issue_number: 638
-      presenter: Bill W.
+      title: "Concepts for designing modern C++ interfaces for MPI"
+      link: https://www.arxiv.org/abs/2506.14610
+      presenter: Tony
       done: 0
 
     - type: Plenary
@@ -137,26 +158,5 @@ plenaries:
     - type: Plenary
       title: "RMA WG"
       presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "ERRATA: MPI_T handles do not have ABI definition"
-      issue_number: 1001
-      pr_number: 1127
-      presenter: Marc-Andre
-      done: 0
-
-    - type: Reading
-      title: "RMA Notification"
-      issue_number: 59
-      pr_number: 1131
-      presenter: Joseph
-      done: 0
-
-    - type: Reading
-      title: "Clarify synchronization behavior of neighborhood collectives"
-      issue_number: 863
-      pr_number: 1075
-      presenter: Christoph
       done: 0
 
