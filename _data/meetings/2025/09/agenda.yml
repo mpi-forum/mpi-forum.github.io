@@ -137,7 +137,7 @@ plenaries:
     - type: Plenary
       title: "RMA WG"
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Concepts for designing modern C++ interfaces for MPI"
