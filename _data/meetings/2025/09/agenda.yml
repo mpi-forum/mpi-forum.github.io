@@ -93,7 +93,7 @@ plenaries:
     - type: Discussion
       title: "Future of Fault Tolerance WG"
       presenter: Martin/Wes/Ignacio
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Concepts for designing modern C++ interfaces for MPI"
