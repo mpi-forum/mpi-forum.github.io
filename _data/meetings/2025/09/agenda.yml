@@ -132,6 +132,11 @@ plenaries:
       title: "Too much text removed in 4.1 cleanup?"
       issue_number: 1003
       presenter: Tobias
+      done: 1
+
+    - type: Plenary
+      title: "RMA WG"
+      presenter: Joseph
       done: 0
 
     - type: Plenary
@@ -152,11 +157,6 @@ plenaries:
 
     - type: Plenary
       title: "Hybrid WG"
-      presenter: Joseph
-      done: 0
-
-    - type: Plenary
-      title: "RMA WG"
       presenter: Joseph
       done: 0
 
