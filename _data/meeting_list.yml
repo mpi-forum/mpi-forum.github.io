@@ -2,6 +2,31 @@ non_voting:
 
   - year: 2025
 
+  - start: 2025-12-03T10:00
+    end: 2025-12-03T12:00
+    title: "Device RMA (Joseph)"
+    recording_url:
+
+  - start: 2025-11-12T10:00
+    end: 2025-11-12T12:00
+    title: "MPI_T Side Documents (Marc-Andre)"
+    recording_url:
+
+  - start: 2025-11-05T10:00
+    end: 2025-11-05T12:00
+    title: "ULFM Next Steps / Fault Model (Joseph / Aurelien)"
+    recording_url:
+
+  - start: 2025-10-29T10:00
+    end: 2025-10-29T12:00
+    title: "Notified RMA Proposal Update (Joseph / Alex)"
+    recording_url:
+
+  - start: 2025-10-22T10:00
+    end: 2025-10-22T12:00
+    title: "Synchronization Behavior for Collectives (Christoph)"
+    recording_url:
+
   - start: 2025-09-10T10:00
     end: 2025-09-10T12:00
     title: "Dynamic Process Sets"
