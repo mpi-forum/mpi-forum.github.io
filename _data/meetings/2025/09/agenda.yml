@@ -148,15 +148,15 @@ plenaries:
     - type: Plenary
       title: "MPI Advance and MPI4AI"
       presenter: Tony
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Sessions Attributes"
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Hybrid WG"
       presenter: Tony
-      done: 0
+      done: 1
 
