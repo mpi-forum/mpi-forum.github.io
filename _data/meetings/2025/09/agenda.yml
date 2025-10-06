@@ -8,6 +8,7 @@ schedule:
     - start: 2025-09-29T09:00
       end: 2025-09-29T10:00
       title: "Plenary"
+      recording_url: "https://youtu.be/lC_FU6tK1sI"
 
     - start: 2025-09-29T10:00
       end: 2025-09-29T10:30
@@ -16,6 +17,7 @@ schedule:
     - start: 2025-09-29T10:30
       end: 2025-09-29T12:00
       title: "Plenary"
+      recording_url: "https://youtu.be/lC_FU6tK1sI"
 
     - start: 2025-09-29T12:00
       end: 2025-09-29T13:30
@@ -24,6 +26,7 @@ schedule:
     - start: 2025-09-29T13:30
       end: 2025-09-29T14:30
       title: "Plenary"
+      recording_url: "https://youtu.be/lC_FU6tK1sI"
 
     - start: 2025-09-29T14:30
       end: 2025-09-29T15:00
@@ -32,6 +35,7 @@ schedule:
     - start: 2025-09-29T15:00
       end: 2025-09-29T17:00
       title: "Plenary"
+      recording_url: "https://youtu.be/lC_FU6tK1sI"
 
     - endday: done
 
@@ -44,6 +48,7 @@ schedule:
     - start: 2025-09-30T09:00
       end: 2025-09-30T10:00
       title: "Plenary"
+      recording_url: "https://youtu.be/yeLjZCBBcyo"
 
     - start: 2025-09-30T10:00
       end: 2025-09-30T10:30
@@ -52,6 +57,7 @@ schedule:
     - start: 2025-09-30T10:30
       end: 2025-09-30T12:00
       title: "Plenary"
+      recording_url: "https://youtu.be/yeLjZCBBcyo"
 
     - start: 2025-09-30T12:00
       end: 2025-09-30T13:30
@@ -60,6 +66,7 @@ schedule:
     - start: 2025-09-30T13:30
       end: 2025-09-30T14:30
       title: "Plenary"
+      recording_url: "https://youtu.be/yeLjZCBBcyo"
 
     - start: 2025-09-30T14:30
       end: 2025-09-30T15:00
@@ -68,6 +75,7 @@ schedule:
     - start: 2025-09-30T15:00
       end: 2025-09-30T17:00
       title: "Plenary"
+      recording_url: "https://youtu.be/yeLjZCBBcyo"
 
     - endday: done
 
@@ -76,6 +84,7 @@ schedule:
     - start: 2025-10-01T09:00
       end: 2025-10-01T10:30
       title: "Sessions Working Group"
+      recording_url: "https://youtu.be/7r-HpRKDOSQ"
 
     - endday: done
 
