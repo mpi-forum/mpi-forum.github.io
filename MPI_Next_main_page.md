@@ -73,7 +73,7 @@ The following working groups are currently participating in future MPI efforts. 
 
 #### [Sessions](https://github.com/mpiwg-sessions/sessions-issues/wiki)
 
-*   Lead: Howard Pritchard and Dan Holmes
+*   Lead: Howard Pritchard and Dominik Huber
 *   Scope: Explore alternate concepts to MPI_Init and MPI_Finalize
 *   Meeting Schedule: Fortnightly on Mondays at <a href="https://time.is/800_in_CT">8am</a> US Central Time
 
