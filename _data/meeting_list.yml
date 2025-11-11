@@ -7,11 +7,6 @@ non_voting:
     title: "Device RMA (Joseph)"
     recording_url:
 
-  - start: 2025-11-12T10:00
-    end: 2025-11-12T12:00
-    title: "MPI_T Side Documents (Marc-Andre)"
-    recording_url:
-
   - start: 2025-11-05T10:00
     end: 2025-11-05T12:00
     title: "ULFM Next Steps / Fault Model (Joseph / Aurelien)"
