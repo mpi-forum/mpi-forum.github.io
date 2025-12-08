@@ -690,7 +690,7 @@ voting:
   - start: 2025-12-15
     end: 2025-12-17
     title: "Virtual Voting Meeting"
-    links: "no"
+    links: "yes"
 
   - start: 2025-09-29
     end: 2025-10-01
