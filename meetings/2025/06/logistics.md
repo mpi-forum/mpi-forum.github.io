@@ -6,8 +6,6 @@ year: "2025"
 month: "06"
 ---
 
-
-
 This meeting will be held virtually.
 Zoom information can be found on the
 [usual page](https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information). If
