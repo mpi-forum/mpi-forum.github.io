@@ -65,3 +65,13 @@ plenaries:
       presenter: Howard
       done: 0
 
+    - type: Plenary
+      title: "Tools WG"
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Plenary
+      title: "ULFM Discussions"
+      presenter: Joseph
+      done: 0
+
