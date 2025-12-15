@@ -55,7 +55,7 @@ plenaries:
     - type: Plenary
       title: "ABI errata"
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Tools WG"
