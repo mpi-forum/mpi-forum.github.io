@@ -50,7 +50,7 @@ plenaries:
       issue_number: 1004
       pr_number: 1129
       presenter: Howard
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "ABI errata"
