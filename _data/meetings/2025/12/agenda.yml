@@ -36,19 +36,14 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
-
-    - type: Update
-      title: WG Status
-      presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: Reading
       title: "ULFM: fault model is not completely defined"
       issue_number: 816
       pr_number: 947
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Sessions and attribute caching"
