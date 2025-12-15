@@ -134,14 +134,14 @@ layout: default
 
           <!-- This code is a mess because when I split it out across multiple lines, it adds a bunch of blank lines in the output -->
           <!-- Ineligible Orgs -->
-          <!-- Not Present at Current Meeting for First Vote -->
+          <!-- <h4> Not Present at Current Meeting for First Vote </h4> -->
             {% assign ooe_orgs = ooe_orgs | sort %}
             {% for org in ooe_orgs %} {% unless imove_orgs contains org %} <!-- {{ org }} --> {% endunless %} {% endfor %}
-          <!-- Did Not Attend 2 of 3 Recent Meetings -->
+            <!-- <h4> Did Not Attend 2 of 3 Recent Meetings </h4>-->
             {% assign ineligible_orgs = ineligible_orgs | sort %} {% for org in ineligible_orgs %} {% unless org == "Self (Non-voting participant)" %} <!-- {{ org }} --> {% endunless %} {% endfor %}
-          <!-- Did Not Register for Current Meeting -->
-          {% for org in prev_orgs %} {% unless imove_orgs contains org or ooe_orgs contains org %}{% unless org == "Self (Non-voting participant)" %}<!-- {{ org }} --> {% endunless %}{% endunless %}{% endfor %}
-          {% for org in prev_prev_orgs %}{% unless imove_orgs contains org or ooe_orgs contains org or prev_orgs contains org %}{% unless org == "Self (Non-voting participant)" %}<!-- {{ org }} --> {% endunless %}{% endunless %}{% endfor %}
+          <!-- <h4> Did Not Register for Current Meeting </h4> -->
+          {% for org in prev_orgs %} {% unless imove_orgs contains org or ooe_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <!-- {{ org }} --> {% endunless %}{% endunless %}{% endfor %}
+          {% for org in prev_prev_orgs %}{% unless imove_orgs contains org or ooe_orgs contains org or prev_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <!-- {{ org }} --> {% endunless %}{% endunless %}{% endfor %}
         {% endif %}
 
           <h3> Stats </h3>
