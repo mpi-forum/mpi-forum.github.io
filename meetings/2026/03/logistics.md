@@ -51,6 +51,15 @@ near the meeting site.
 * [DoubleTree by Hilton New York Times Square South](https://www.hilton.com/en/hotels/nycsodt-doubletree-new-york-times-square-south/)
 * [EVEN Hotel New York - Times Square South by IHG](https://www.ihg.com/evenhotels/hotels/us/en/new-york/nyctt/hoteldetail)
 
+
+### Travel
+
+Newark, NJ is the simplest airport to get to and from the meeting site. You can
+use the airport train system to get to the New Jersey rail system which will
+drop you off directly across the street from the office (Penn Station New York,
+not New Jersey). Other NYC area airports will also work, but local travel may
+be more complex.
+
 ### Remote Participation
 
 The meeting times will be during business hours in the local time zone (Central
