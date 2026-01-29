@@ -44,6 +44,7 @@ def main():
     attendanceWriter.writeheader()
     registrationWriter = csv.DictWriter(open('registration.csv', 'w', newline=''), ['name','org','email','uuid'], quoting = csv.QUOTE_ALL)
     registrationWriter.writeheader()
+    inPersonWriter = csv.DictWriter(open('inPerson.csv', 'w', newline=''), ['first name','last name','email'], quoting = csv.QUOTE_ALL)
 
     print("Writing attendance.csv and registration.csv...")
 
@@ -53,26 +54,23 @@ def main():
         first_name = registration['First Name']
         last_name = registration['Last Name']
         name = first_name + " " + last_name
-        org = registration['Organization you are representing (Required for MPI Forum Attendees)'].strip()
+        org = registration['Organization you are representing'].strip()
         email = registration['Email']
         ticket_type = registration['Ticket Type']
 
         if org == "":
             continue
 
-        if (ticket_type == "EuroMPI+IWOMP Early Registration + Social Event" or
-            ticket_type == "EuroMPI+IWOMP+Social Event Standard Registration" or
-            ticket_type == "Thursday Social Event - Extra Ticket" or
-            ticket_type == "EuroMPI and IWOMP Remote Attendee (Listener Only)"):
-            continue
-
         if org in org_dict:
             org = org_dict[org]
 
-        if any_remote and ticket_type == "MPI Forum - Online Only":
+        if any_remote and ticket_type == "On-line Attendance":
             remote = 1
-        else:
+        elif any_remote and ticket_type == "In-Person Attendance":
             remote = 0
+        else:
+            print("Unexpected ticket type: " + ticket_type)
+            exit(1)
 
         if name in names:
             print("Omitting duplicate name: " + name)
@@ -82,6 +80,8 @@ def main():
 
         attendanceWriter.writerow({'name': name, 'org': org, 'remote': remote, 'attend': '1'})
         registrationWriter.writerow({'name': name, 'org': org, 'email': email, 'uuid': uuid.uuid1()})
+        if remote == 0 and name != "Wes Bland":
+            inPersonWriter.writerow({'first name': first_name, 'last name': last_name, 'email': email})
 
     print("\n=====\n")
 
