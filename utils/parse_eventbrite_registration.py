@@ -81,8 +81,7 @@ def main():
 
         attendanceWriter.writerow({'name': name, 'org': org, 'remote': remote, 'attend': '1'})
         registrationWriter.writerow({'name': name, 'org': org, 'email': email, 'uuid': uuid.uuid1()})
-        if remote == 0:
-        #if remote == 0 and name != "Wes Bland":
+        if remote == 0 and name != "Wes Bland":
             inPersonWriter.writerow({'First Name': first_name, 'Last Name': last_name, 'Email': email, 'Company (opt)':'', 'Under 18 (opt)':''})
 
     print("\n=====\n")
