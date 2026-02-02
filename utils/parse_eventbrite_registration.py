@@ -30,6 +30,7 @@ def main():
             "RWTH Aachen": "RWTH Aachen University",
             "ParTec AG": "ParTec",
             "Argonne": "Argonne National Laboratory",
+            "Bull (Eviden)": "Eviden",
             }
 
     print("Opening file...")
