@@ -31,6 +31,7 @@ def main():
             "ParTec AG": "ParTec",
             "Argonne": "Argonne National Laboratory",
             "Bull (Eviden)": "Eviden",
+            "CIDS, ZIH, TU Dresden": "CIDS, ZIH, TUD Dresden University of Technology",
             }
 
     print("Opening file...")
