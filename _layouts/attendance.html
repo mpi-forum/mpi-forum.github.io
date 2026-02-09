@@ -19,6 +19,9 @@ layout: default
         </table>
     </header>
 
+    {% capture newline %}
+    {% endcapture %}
+
     {% assign remote_people = 0 %}
     {% assign local_people = "" | split: ',' %}
     {% assign remote_people = "" | split: ',' %}
@@ -32,33 +35,21 @@ layout: default
 
     <div class="post-content">
         {{ content }}
-
         <h4>This list is updated manually and may not contain the most recent registrations.</h4>
-
         <ol>
           {% if remote_people.size > 1 %}
             <h3>In-Person Attendees</h3>
           {% endif %}
-
           {% for person in local_people %}
-            <li> {{ person.name }} <i>- {{ person.org }}</i>
-              {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
-              {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
-            </li>
+            <li> {{ person.name }} <i>- {{ person.org }}</i> {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %} {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %} </li>
           {% endfor %}
-
           {% if remote_people.size > 1 %}
             <h3>Remote Attendees</h3>
-
             {% for person in remote_people %}
-              <li> {{ person.name }} <i>- {{ person.org }}</i>
-                {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %}
-                {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %}
-              </li>
+              <li> {{ person.name }} <i>- {{ person.org }}</i> {% if person.attend == "-1" %}<b>- Not Present</b>{% endif %} {% if person.attend == "0" %}<b>- Not Present for First Vote</b>{% endif %} </li>
             {% endfor %}
           {% endif %}
         </ol>
-
         {% if page.prev_year != nil %}
           {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
           {% assign prev_orgs = "" | split: ',' %}
@@ -67,7 +58,6 @@ layout: default
           {% assign imove_orgs = "" | split: ',' %}
           {% assign ooe_orgs = "" | split: ',' %}
           {% assign ineligible_orgs = "" | split: ',' %}
-
           {% for person in site.data.meetings[page.prev_year][page.prev_month].attendance %}
             {% if person.attend == "1" %}
               {% unless person.org == "Self (Non-voting participant)" %}
@@ -81,7 +71,6 @@ layout: default
               {% endunless %}
             {% endif %}
           {% endfor %}
-
           {% for person in site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance %}
             {% if person.attend == "1" %}
               {% unless person.org == "Self (Non-voting participant)" %}
@@ -95,7 +84,6 @@ layout: default
               {% endunless %}
             {% endif %}
           {% endfor %}
-
           {% for person in cur_attend %}
             {% if prev_orgs contains person.org or prev_prev_orgs contains person.org %}
               {% if person.attend == "1" %}
@@ -118,30 +106,26 @@ layout: default
               {% endunless %}
             {% endunless %}
           {% endfor %}
-
           {% assign ooe = ooe_orgs.size | plus: imove_orgs.size %}
           {% assign prev_ooe = 0 %}
-
           {% for p in site.pages %}
             {% if p.year == page.prev_year and p.month == page.prev_month %}
               {% assign prev_ooe = p.ooe %}
             {% endif %}
           {% endfor %}
-
           <h3> Voting Eligibile Orgs ({{imove_orgs.size}} of {{ prev_ooe | times: 0.66 | ceil }} needed) </h3>
           {% assign imove_orgs = imove_orgs | sort %}
-          {% for org in imove_orgs %} <li> {{ org }}</li> {% endfor %}
-
+          {% for org in imove_orgs %} <li> {{ org }}</li> {{newline}} {% endfor %}
           <!-- This code is a mess because when I split it out across multiple lines, it adds a bunch of blank lines in the output -->
-          <!-- Ineligible Orgs -->
-          <!-- <h4> Not Present at Current Meeting for First Vote </h4> -->
+          <h3> Ineligible Orgs </h3>
+          <h4> Not Present at Current Meeting for First Vote </h4>
             {% assign ooe_orgs = ooe_orgs | sort %}
-            {% for org in ooe_orgs %} {% unless imove_orgs contains org %} <!-- {{ org }} --> {% endunless %} {% endfor %}
-            <!-- <h4> Did Not Attend 2 of 3 Recent Meetings </h4>-->
-            {% assign ineligible_orgs = ineligible_orgs | sort %} {% for org in ineligible_orgs %} {% unless org == "Self (Non-voting participant)" %} <!-- {{ org }} --> {% endunless %} {% endfor %}
-          <!-- <h4> Did Not Register for Current Meeting </h4> -->
-          {% for org in prev_orgs %} {% unless imove_orgs contains org or ooe_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <!-- {{ org }} --> {% endunless %}{% endunless %}{% endfor %}
-          {% for org in prev_prev_orgs %}{% unless imove_orgs contains org or ooe_orgs contains org or prev_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <!-- {{ org }} --> {% endunless %}{% endunless %}{% endfor %}
+            {% for org in ooe_orgs %}{% unless imove_orgs contains org %} <li> {{ org }} </li> {% endunless %} {% endfor %}
+            <h4> Did Not Attend 2 of 3 Recent Meetings </h4>
+            {% assign ineligible_orgs = ineligible_orgs | sort %}{% for org in ineligible_orgs %}{% unless org == "Self (Non-voting participant)" %} <li> {{ org }} </li> {{newline}} {% endunless %} {% endfor %}
+           <h4> Did Not Register for Current Meeting </h4>
+           {% for org in prev_orgs %}{% unless imove_orgs contains org or ooe_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <li> {{ org }} </li> {{newline}} {% endunless %}{% endunless %} {% endfor %}
+           {% for org in prev_prev_orgs %}{% unless imove_orgs contains org or ooe_orgs contains org or prev_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <li> {{ org }} </li> {{newline}} {% endunless %}{% endunless %}{% endfor %}
         {% endif %}
 
           <h3> Stats </h3>
