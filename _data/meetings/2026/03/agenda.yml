@@ -34,3 +34,8 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: Plenary
+      title: "Blocking and Non-blocking Spawn for Sessions"
+      presenter: "Sonja Happ"
+      done: 0
+
