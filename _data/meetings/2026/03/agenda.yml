@@ -34,6 +34,13 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: Reading
+      title: "Be clear about when MPI_ERROR is set from the start"
+      presenter: "Joseph Schuchart"
+      issue_number: 814
+      pr_number: 968
+      done: 0
+
     - type: Plenary
       title: "Blocking and Non-blocking Spawn for Sessions"
       presenter: "Sonja Happ"
