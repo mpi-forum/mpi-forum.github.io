@@ -34,6 +34,13 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: NoNo Reading
+      title: "ULFM Slice 1"
+      presenter: "Joseph Schuchart"
+      issue_number: 816
+      pr_number: 947
+      done: 0
+
     - type: Reading
       title: "Be clear about when MPI_ERROR is set from the start"
       presenter: "Joseph Schuchart"
