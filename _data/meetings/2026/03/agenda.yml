@@ -122,3 +122,58 @@ plenaries:
       presenter: Christoph
       done: 0
 
+    - type: WG Discussion
+      title: "ABI WG Future Work"
+      presenter: "Jeff Hammond and Lisandro Dalcin"
+      done: 0
+
+    - type: WG Discussion
+      title: "Collective, Communicators, Context, Persistent, Partitioned, Groups Future Work"
+      presenter: "Anthony Skjellum and Julien Jaeger"
+      done: 0
+
+    - type: WG Discussion
+      title: "Fault Tolerance Future Work"
+      presenter: "Aurélien Bouteiller, Ignacio Laguna and Joseph Schuchart"
+      done: 0
+
+    - type: WG Discussion
+      title: "Fortran Future Work"
+      presenter: "Jeff Hammond, Purushotham Bangalore, and Tony Skjellum"
+      done: 0
+
+    - type: WG Discussion
+      title: "Hardware & Virtual Topologies Future Work"
+      presenter: "Guillaume Mercier"
+      done: 0
+
+    - type: WG Discussion
+      title: "Hybrid & Accelerator Future Work"
+      presenter: "Joseph Schuchart"
+      done: 0
+
+    - type: WG Discussion
+      title: "I/O Future Work"
+      presenter: "Quincey Koziol"
+      done: 0
+
+    - type: WG Discussion
+      title: "Languages Future Work"
+      presenter: "Tony Skjellum and Tim Uhl"
+      done: 0
+
+    - type: WG Discussion
+      title: "Remote Memory Access Future Work"
+      presenter: "Joseph Schuchart and Bill Gropp"
+      done: 0
+
+    - type: WG Discussion
+      title: "Sessions Future Work"
+      presenter: "Howard Pritchard and Dominik Huber"
+      done: 0
+
+    - type: WG Discussion
+      title: "Tools Future Work"
+      presenter: "Marc-Andre Hermanns"
+      done: 0
+
