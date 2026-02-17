@@ -12,15 +12,15 @@ month: "03"
 
 #### Registration Fee
 
-The registration fee for in-person attendance is $200 + Eventbrite fees. This
-will cover food, meeting space, security, etc.
-
-There is no registration fee for people attending remotely.
+There is no registration fee for people attending or in-person. Meals will take
+place in the on-site cafes and do not have a cost to us.
 
 #### Meeting Registration and Voting
 
-**All attendees (in-person or remote)** must complete this form to be eligible
-to attend the meeting and vote.
+**All attendees (in-person or remote)** must register to be eligible to attend
+the meeting and vote. It's important to choose the correct ticket depending on
+whether you will attend in-person or remote so we can manage security and
+logistics.
 
 Registration is via [Eventbrite](https://www.eventbrite.com/e/1981859425893).
 
@@ -41,6 +41,11 @@ When you register for the meeting on Eventbrite, you will receive an email with
 a link to an NDA that you will need to sign as well as a code that you will
 need when you arrive in order to pick up your visitor's badge. Please make sure
 you have this code (there may even be a different code for each day).
+
+There will also be a [Slack
+channel](https://join.slack.com/t/mpi-forum/shared_invite/enQtOTU5NjgwOTY4NTY0LTY3MDZjZmI3NWEzZTA0MzAyZWQ3ODE2MGYxZGQ0ZDY0MWRmZTBjNTJjOGM1MTk5MTc4M2MzOTEwYWNmMGUzNzY)
+to help coordinate local logistics. Please join that for the week so you can
+let the local hosts know if there are any issues.
 
 ### Hotels
 
