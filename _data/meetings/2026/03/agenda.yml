@@ -1,26 +1,62 @@
 schedule:
     - day: Monday, March 02
+
     - start: 2026-03-02T13:00
       end: 2026-03-02T17:00
-      title: "Placeholder Agenda Item"
+      title: "Plenary"
+
+    - start: 2026-03-02T16:00
+      end: 2026-03-03T09:00
+      title: "Voting Block"
+
     - endday: done
 
     - day: Tuesday, March 03
+
     - start: 2026-03-03T09:00
+      end: 2026-03-03T12:00
+      title: "Plenary"
+
+    - start: 2026-03-03T12:00
+      end: 2026-03-03T13:00
+      title: "Lunch"
+
+    - start: 2026-03-03T13:00
       end: 2026-03-03T17:00
-      title: "Placeholder Agenda Item"
+      title: "Plenary"
+
+    - start: 2026-03-03T16:00
+      end: 2026-03-04T09:00
+      title: "Voting Block"
+
     - endday: done
 
     - day: Wednesday, March 04
+
     - start: 2026-03-04T09:00
+      end: 2026-03-04T12:00
+      title: "Plenary"
+
+    - start: 2026-03-04T12:00
+      end: 2026-03-04T13:00
+      title: "Lunch"
+
+    - start: 2026-03-04T13:00
       end: 2026-03-04T17:00
-      title: "Placeholder Agenda Item"
+      title: "Plenary"
+
+    - start: 2026-03-04T16:00
+      end: 2026-03-05T09:00
+      title: "Voting Block"
+
     - endday: done
 
     - day: Thursday, March 05
+
     - start: 2026-03-05T09:00
       end: 2026-03-05T12:30
-      title: "Placeholder Agenda Item"
+      title: "Plenary"
+
     - endday: done
 
 plenaries:
@@ -34,22 +70,55 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: NoNo Reading
-      title: "ULFM Slice 1"
-      presenter: "Joseph Schuchart"
+    - type: No-No Reading
+      title: "ULFM: fault model is not completely defined"
+      presenter: Joseph
       issue_number: 816
       pr_number: 947
-      done: 0
-
-    - type: Reading
-      title: "Be clear about when MPI_ERROR is set from the start"
-      presenter: "Joseph Schuchart"
-      issue_number: 814
-      pr_number: 968
       done: 0
 
     - type: Plenary
       title: "Blocking and Non-blocking Spawn for Sessions"
       presenter: "Sonja Happ"
+      done: 0
+
+    - type: Reading
+      title: "Be clear about when MPI_ERROR is set, from the start"
+      issue_number: 814
+      pr_number: 968
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "ULFM Fault Tolerance (slice 2: agree)"
+      issue_number: 582
+      pr_number: 715
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "ULFM Fault Tolerance (slice 3: shrink)"
+      issue_number: 583
+      pr_number: 877
+      presenter: Joseph
+      done: 0
+
+    - type: Reading
+      title: "RMA Notification"
+      issue_number: 59
+      pr_number: 1131
+      presenter: Joseph
+      done: 0
+
+    - type: Plenary
+      title: "Device-side RMA"
+      presenter: "RMA and Hybrid WGs"
+      done: 0
+
+    - type: Reading
+      title: "Do All-to-All collectives *must* synchronize?"
+      issue_number: 971
+      pr_number: 1141
+      presenter: Christoph
       done: 0
 
