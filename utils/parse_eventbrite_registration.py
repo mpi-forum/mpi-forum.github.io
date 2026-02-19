@@ -32,6 +32,7 @@ def main():
             "Argonne": "Argonne National Laboratory",
             "Bull (Eviden)": "Eviden",
             "CIDS, ZIH, TU Dresden": "CIDS, ZIH, TUD Dresden University of Technology",
+            "nvidia": "NVIDIA",
             }
 
     print("Opening file...")
