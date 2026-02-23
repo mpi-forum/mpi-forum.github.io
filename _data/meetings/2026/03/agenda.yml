@@ -128,13 +128,13 @@ plenaries:
       done: 0
 
     - type: WG Discussion
-      title: "Collective, Communicators, Context, Persistent, Partitioned, Groups Future Work"
-      presenter: "Anthony Skjellum and Julien Jaeger"
+      title: "Collective, Communicators, Context, Persistent, Partitioned, Groups Future Work (likely Wed/Thu)"
+      presenter: "Anthony Skjellum (lead) and Julien Jaeger"
       done: 0
 
     - type: WG Discussion
       title: "Fault Tolerance Future Work"
-      presenter: "Aurélien Bouteiller, Ignacio Laguna and Joseph Schuchart"
+      presenter: "Joseph Schuchart (lead), Aurélien Bouteiller, Ignacio Laguna"
       done: 0
 
     - type: WG Discussion
@@ -149,7 +149,7 @@ plenaries:
 
     - type: WG Discussion
       title: "Hybrid & Accelerator Future Work"
-      presenter: "Joseph Schuchart"
+      presenter: "Joseph Schuchart (lead)"
       done: 0
 
     - type: WG Discussion
@@ -164,17 +164,22 @@ plenaries:
 
     - type: WG Discussion
       title: "Remote Memory Access Future Work"
-      presenter: "Joseph Schuchart and Bill Gropp"
+      presenter: "Joseph Schuchart (lead) and Bill Gropp"
       done: 0
 
     - type: WG Discussion
       title: "Sessions Future Work"
-      presenter: "Howard Pritchard and Dominik Huber"
+      presenter: "Dominik Huber (lead) and Howard Pritchard"
       done: 0
 
     - type: WG Discussion
       title: "Tools Future Work"
       presenter: "Marc-Andre Hermanns"
+      done: 0
+
+    - type: Discussion
+      title: "Forum Next Steps and Next Meetings"
+      presenter: "Martin Schulz"
       done: 0
 
     - type: Discussion
