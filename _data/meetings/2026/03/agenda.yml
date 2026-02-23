@@ -177,3 +177,8 @@ plenaries:
       presenter: "Marc-Andre Hermanns"
       done: 0
 
+    - type: Discussion
+      title: "Steering Committee Discussion"
+      presenter: "Martin Schulz / Bill Gropp"
+      done: 0
+
