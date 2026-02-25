@@ -33,6 +33,7 @@ def main():
             "Bull (Eviden)": "Eviden",
             "CIDS, ZIH, TU Dresden": "CIDS, ZIH, TUD Dresden University of Technology",
             "nvidia": "NVIDIA",
+            "The Ohio State University": "Ohio State University",
             }
 
     print("Opening file...")
