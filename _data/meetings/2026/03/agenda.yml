@@ -63,24 +63,19 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
-
-    - type: Update
-      title: WG Status
-      presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "ULFM: fault model is not completely defined"
       presenter: Joseph
       issue_number: 816
       pr_number: 947
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Blocking and Non-blocking Spawn for Sessions"
       presenter: "Sonja Happ"
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Be clear about when MPI_ERROR is set, from the start"
