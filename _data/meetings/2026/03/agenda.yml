@@ -91,14 +91,14 @@ plenaries:
       issue_number: 582
       pr_number: 715
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "ULFM Fault Tolerance (slice 3: shrink)"
       issue_number: 583
       pr_number: 877
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "RMA Notification"
@@ -110,7 +110,7 @@ plenaries:
     - type: Plenary
       title: "Device-side RMA"
       presenter: "RMA and Hybrid WGs"
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Do All-to-All collectives *must* synchronize?"
@@ -132,7 +132,7 @@ plenaries:
     - type: WG Discussion
       title: "Fault Tolerance Future Work"
       presenter: "Joseph Schuchart (lead), Aurélien Bouteiller, Ignacio Laguna"
-      done: 0
+      done: 1
 
     - type: WG Discussion
       title: "Fortran Future Work"
@@ -162,7 +162,7 @@ plenaries:
     - type: WG Discussion
       title: "Remote Memory Access Future Work"
       presenter: "Joseph Schuchart (lead) and Bill Gropp"
-      done: 0
+      done: 1
 
     - type: WG Discussion
       title: "Sessions Future Work"
