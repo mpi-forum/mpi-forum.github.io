@@ -84,7 +84,7 @@ plenaries:
       issue_number: 814
       pr_number: 968
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Reading
       title: "ULFM Fault Tolerance (slice 2: agree)"
@@ -105,7 +105,7 @@ plenaries:
       issue_number: 59
       pr_number: 1131
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Device-side RMA"
@@ -117,12 +117,12 @@ plenaries:
       issue_number: 971
       pr_number: 1141
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: WG Discussion
       title: "ABI WG Future Work"
       presenter: "Jeff Hammond and Lisandro Dalcin"
-      done: 0
+      done: 1
 
     - type: WG Discussion
       title: "Collective, Communicators, Context, Persistent, Partitioned, Groups Future Work (likely Wed/Thu)"
@@ -142,7 +142,7 @@ plenaries:
     - type: WG Discussion
       title: "Hardware & Virtual Topologies Future Work"
       presenter: "Guillaume Mercier"
-      done: 0
+      done: 1
 
     - type: WG Discussion
       title: "Hybrid & Accelerator Future Work"
@@ -152,7 +152,7 @@ plenaries:
     - type: WG Discussion
       title: "I/O Future Work"
       presenter: "Quincey Koziol"
-      done: 0
+      done: 1
 
     - type: WG Discussion
       title: "Languages Future Work"
@@ -172,7 +172,7 @@ plenaries:
     - type: WG Discussion
       title: "Tools Future Work"
       presenter: "Marc-Andre Hermanns"
-      done: 0
+      done: 1
 
     - type: Discussion
       title: "Forum Next Steps and Next Meetings"
