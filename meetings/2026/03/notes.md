@@ -134,3 +134,67 @@ The meeting focused on discussing the complexity and potential simplification of
 
 ### MPI Shrink Function Discussion
 The meeting focused on discussing the MPI shrink function and its potential use cases, including fault tolerance and dynamic process management. The group agreed that shrink could be used for both fault tolerance and deliberate process termination, but decided against adding an example of the latter to avoid potential misuse. They also discussed the relationship between shrink and the agree function, considering whether shrink could be implemented without agree. The conversation ended with a brief overview of upcoming topics for the hybrid working group, including notifications and device-initiated RMA.
+
+# Day 3
+## Quick recap
+The meeting focused on updates and discussions regarding the sessions model, process management, and resource allocation in HPC environments, including challenges with dynamic process creation, preset operations, and fault tolerance. Working group updates were shared across multiple areas including languages, MPI-IO, collective operations, and C++ bindings, with various groups making progress on reference implementations and research prototypes. The group also addressed organizational matters including future meeting locations, scheduling challenges, and the establishment of a new steering committee structure to provide strategic guidance for the MPI Forum.
+
+## Next steps
+- Dominik and Sonia: Include discussion on how published lookup API interacts with sessions in the proposal
+- Dominik and Sonia: Come up with a concrete proposal for sessions attributes and accessor methods for the next meeting
+- Sessions Working Group: Discuss and clarify the interaction between dynamic psets and fault tolerance with ULFM working group
+- Sessions Working Group: Work on defining the interface and responsibilities of the resource manager concept
+- Sessions Working Group: Discuss whether to split pset operation functionality (reservation/negotiation vs spawning) into separate functions
+- Tim and Evan: Send an email to the entire forum mailing list about the Languages Working Group meeting times and invitation to participate
+- Tim and Evan (Languages Working Group): Continue work on C++ reference implementation and provide update at next virtual meeting
+- Tony: Talk to Patrick Bridges about formalizing the streaming point-to-point proposal and determine which working group will handle it
+- Tony: Talk to Puri about document enhancements related to collective operations
+- Tony: Find out from Patrick when he wants to formalize the streaming point-to-point proposal
+- Collective Working Group: Continue regular meetings every two weeks to work through the agenda topics
+- Wesley and Martin: Draft a proposal for the MPI Forum Steering Committee structure and rules based on the discussion
+- Wesley and Martin: Present the steering committee proposal at a future Wednesday meeting
+- Wesley and Martin: Create and maintain a list of MPI 6 topics/working groups and post to the website
+- Wesley and Martin: Add slides from the meeting to the repository
+- Wesley: Fix the June meeting dates on the website to June 1-4 (remove brackets indicating potential change)
+- Martin: Check with Knoxville about availability for hosting a meeting in the first half of March 2027
+- Martin: Inform ICPP organizers that the forum will not co-locate with them in Japan next year
+- Forum organizers: Target SC Asia and/or HPC Asia for MPI presence/workshop in 2027
+- Forum organizers: Encourage working groups to meet in-person at ISC and SC conferences and create a calendar exchange on the forum webpage
+- Martin: Post the recording of the fault tolerance discussion from the meeting
+
+## Summary
+### HPC Sessions Model Updates
+Dominik presented updates on the sessions model, focusing on process management and a dynamic process mechanism for HPC resource management. He discussed the challenges of integrating global and local session states, addressing concerns about synchronization and the need for globally unique preset names. The team explored the implications of dynamic preset creation and its interaction with the resource manager, considering the need for cooperative optimization between applications and the runtime system. Dominik also introduced a graph-based abstraction for representing preset operations and outlined a proposed interface for applications to indicate support for reconfiguration operations.
+
+### Resource Management and PSET Integration
+Dominik explained the concept of output presets representing reconfigured states and their interaction with the resource manager, emphasizing that the operation is non-blocking. Michael and others discussed the implications of resource allocation, including the challenges of expanding versus shrinking resources and the potential for applications to relinquish resources when not needed. The group explored the integration of PSET operations with resource management and the need for a domain-specific language to convey complex information. They also considered separating the negotiation of resources from the spawning process, leaving the final scope and implementation details for further discussion in the session working group.
+
+### MPI Shrinking Process Mechanics Discussion
+The group discussed the mechanics of shrinking processes in MPI, focusing on the handling of communicators and psets. Dominik explained that shrinking involves creating a new pset with fewer processes, and the application must disconnect from invalid communicators after termination. Michael expressed concerns about the complexity of implementing this functionality. The group also touched on the relationship between shrinking and fault tolerance, with NYC raising questions about the behavior of psets in the presence of failures. Hui suggested that psets are static objects and any issues would be detected during communicator creation.
+
+### MPI Process Failure Handling Discussion
+The team discussed issues around handling failed processes and communicator creation in MPI. George and Hui debated how to handle failed processes in a PSET, with George arguing that if processes are unknown, there's no way to mark them as failed, while Hui suggested that the local process could mark known failed processes. Aurelien clarified that the PSET itself isn't failed, but can contain failed processes, and Dominik noted the need for both fault-tolerant communicator creation and process replacement mechanisms. NYC proposed creating a new session to reset the state, but the team expressed concerns about the complexity of implementing this in a global database system that would need to track process states and manage PSET updates.
+
+### MPI Dynamic Sessions and Psets
+The team discussed the challenges and assumptions related to dynamic sessions and process sets (Psets) in MPI, focusing on the need for a bootstrapping communication layer and the role of a resource manager. Hui emphasized the importance of clearly defining concepts like resource manager and process manager to enable consistent implementation across different systems. Dominik presented a slide summarizing the overlap between Pset operations and process spawning, highlighting the need for interaction with the resource manager to manage resources effectively. The group agreed to further explore these concepts in the working group, with the next meeting scheduled for March 23rd, and Dominik offered to share the slides and meeting details with the broader forum.
+
+### Working Group Collaboration Discussion
+The meeting began with a discussion about slides, which NYC and Wes agreed to add to the repository. The group then discussed the need for interaction with other working groups, particularly for MPI 6-related content. Tony joined the meeting later, apologizing for missing the previous sessions due to dental surgery. Evan mentioned that Tim from the Coral working group was absent, and he planned to email him to encourage participation. The conversation ended with plans for a break until 11:15, followed by a discussion on next steps and future meetings.
+
+### Working Groups Status Update
+Tony provided an update on the status of various working groups, highlighting that the C++/languages working group led by Tim and Evan is active, while MPI-IO and Quincy's proposals may be reactivated. He discussed the collective working group's comprehensive agenda, which includes topics like partitioning issues, persistent collectives, and streaming collectives. Tony emphasized the need to address partition point-to-point before standardizing partition collective and mentioned ongoing research and prototypes for these areas. He also touched on potential document enhancements and cross-cutting topics that need further discussion. The collective working group meets regularly every two weeks, with Tony inviting questions and full participation from attendees.
+
+### C++ MPI Bindings Progress Update
+The meeting focused on updates from the languages working group, particularly regarding C++ bindings for MPI. Tim presented their progress on developing a reference implementation that uses C++20 concepts to define MPI data structures, with the goal of improving productivity, performance, usability, and safety. The group is exploring ideas from a previous paper and working on mapping between types in C++ and MPI. Tim noted that while they have a clear direction for the reference implementation, they are seeking more contributors to advance the project. NYC suggested reaching out to the forum waiting list to increase awareness and participation. The conversation ended with a brief discussion about device-initiated RMA and the tools working group, which will continue their work in future sessions.
+
+### Future Meeting Planning Discussion
+The group discussed the status of various working groups, including the point-to-point and hybrid working groups, with NYC confirming they are currently on hold and active respectively. They agreed to review and maintain a list of technical items at future meetings, and discussed the need to revive and separate the steering committee for the conference from the forum. The main focus was on the location of future meetings, with a proposal to hold one in Japan in September 2024 with ICPP, though concerns were raised about attendance and travel challenges for some members. The group considered continuing with two hybrid meetings per year, potentially co-located with ISC and SC conferences, while maintaining the connection with Euro MPI.
+
+### Conference Meeting Scheduling Strategy
+The group discussed challenges with scheduling meetings, particularly around conferences like Supercomputing and ISC. They agreed to encourage smaller working group meetings during conferences rather than full forum meetings, and discussed the possibility of having some meetings in-person rather than hybrid. The group also considered targeting SC Asia for future meetings, though they noted the upcoming split between SC and HPC conferences in Asia. They concluded by planning for future locations, with a potential East Coast location for spring 2027 and considering back-to-back meetings with OpenMP.
+
+### Future Conferences and Steering Committee
+The group discussed plans for future conferences, with Knoxville being proposed for an early March event and a European conference targeted for fall 2027. They also explored the structure and role of the MPI Forum steering committee, with Bill Gropp suggesting a long-term commitment model and Tony proposing a 10-year minimum term. The discussion highlighted the need for the steering committee to provide strategic guidance and ownership of big-picture discussions, while allowing for regular officer elections and controlled turnover of members.
+
+### MPI Steering Committee Structure Discussion
+The group discussed the structure and responsibilities of a new steering committee for MPI. They agreed to include current officers as ex-officio members, with the forum chair having a vote, and to add 3-4 elected members. The committee would meet periodically, both virtually and in person at conferences, to guide the forum's direction and engage with external stakeholders. They discussed the need for the committee to focus on strategic topics like GPU acceleration and AI compatibility, as well as to facilitate customer discovery and proposal development. The group also touched on the need to maintain institutional knowledge and encourage participation from a broader range of members.
