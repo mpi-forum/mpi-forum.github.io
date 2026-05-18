@@ -4,6 +4,11 @@ schedule:
       end: 2026-06-01T13:00
       title: "Plenaries, see below"
       recording_url: 
+
+    - start: 2026-06-01T12:00
+      end: 2026-06-01T12:30
+      title: "Voting Block"
+
     - endday: done
 
     - day: Tuesday, June 02
@@ -11,18 +16,33 @@ schedule:
       end: 2026-06-02T13:00
       title: "Plenaries, see below"
       recording_url: 
+
+    - start: 2026-06-02T12:00
+      end: 2026-06-02T12:30
+      title: "Voting Block"
+
     - endday: done
 
     - day: Wednesday, June 03
     - start: 2026-06-03T09:00
       end: 2026-06-03T13:00
       title: "Plenaries, see below"
+
+    - start: 2026-06-03T12:00
+      end: 2026-06-03T12:30
+      title: "Voting Block"
+
     - endday: done
 
     - day: Thursday, June 04
     - start: 2026-06-04T09:00
       end: 2026-06-04T13:00
       title: "Plenaries, see below"
+
+    - start: 2026-06-04T12:00
+      end: 2026-06-04T12:30
+      title: "Voting Block"
+
     - endday: done
 
 plenaries:
