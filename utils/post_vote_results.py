@@ -14,8 +14,8 @@ def hasLabel(labels, label):
 
 def main():
     token=subprocess.run(['gh','auth','token'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip()
-    year = "2025"
-    month = "01"
+    year = "2026"
+    month = "12"
     filename = """../_data/meetings/{year}/{month}/votes.csv""".format(year=year, month=month)
     votes_list = list(csv.DictReader(open(filename)));
     gh = Github(token)
