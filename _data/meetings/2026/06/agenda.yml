@@ -43,3 +43,10 @@ plenaries:
       presenter: Sonja
       done: 0
 
+    - type: Reading
+      title: "Caching wording - desire to tweak"
+      issue_number: 1102
+      pr_number: 1136
+      presenter: Howard
+      done: 0
+

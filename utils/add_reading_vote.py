@@ -66,6 +66,8 @@ def main():
         if not dry_run:
             if vote_type == 'no-no':
                 agenda_list.write("    - type: No-No Reading\n")
+            elif vote_type == 'errata':
+                agenda_list.write("    - type: Errata Reading\n")
             else:
                 agenda_list.write("    - type: Reading\n")
             agenda_list.write("      title: \"" + title + "\"\n")
