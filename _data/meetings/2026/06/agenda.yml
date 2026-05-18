@@ -56,6 +56,11 @@ plenaries:
       presenter: All WG chairs or their proxies
       done: 0
 
+    - type: WG Discsusion
+      title: "Sessions Working Group"
+      presenter: Howard
+      done: 0
+
     - type: Errata Reading
       title: "Multi-app mpiexec specification should refer to MPI_COMM_SPAWN_MULTIPLE"
       issue_number: 1109
@@ -63,10 +68,24 @@ plenaries:
       presenter: Sonja
       done: 0
 
-    - type: Reading
+    - type: Errata Reading
       title: "Caching wording - desire to tweak"
       issue_number: 1102
       pr_number: 1136
+      presenter: Howard
+      done: 0
+
+    - type: Plenary
+      title: "Update figures in all chapters to use selected consistent format(s)"
+      issue_number: 712
+      pr_number: 930
+      presenter: Benson
+      done: 0
+
+    - type: Reading
+      title: "Sessions and attribute caching"
+      issue_number: 1004
+      pr_number: 1129
       presenter: Howard
       done: 0
 
