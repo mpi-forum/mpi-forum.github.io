@@ -89,3 +89,30 @@ plenaries:
       presenter: Howard
       done: 0
 
+    - type: No-No Reading
+      title: "ULFM: fault model is not completely defined"
+      issue_number: 816
+      pr_number: 947
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "ULFM Fault Tolerance (slice 3: shrink)"
+      issue_number: 583
+      pr_number: 877
+      presenter: Joseph
+      done: 0
+
+    - type: Plenary
+      title: "ULFM MPI_Agree"
+      pr_number: 715
+      presenter: Joseph / Matt
+      done: 0
+
+    - type: Reading
+      title: "RMA Notification"
+      issue_number: 59
+      pr_number: 1131
+      presenter: Joseph
+      done: 0
+

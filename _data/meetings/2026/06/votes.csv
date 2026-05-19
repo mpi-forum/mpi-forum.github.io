@@ -1,3 +1,7 @@
 issue_number,pr_number,topic,type,yes,no,abstain,missed
 1109,1143,"Multi-app mpiexec specification should refer to MPI_COMM_SPAWN_MULTIPLE",errata
 1102,1136,"Caching wording - desire to tweak",errata
+816,947,"ULFM: fault model is not completely defined",no-no
+816,947,"ULFM: fault model is not completely defined",1st
+583,877,"ULFM Fault Tolerance (slice 3: shrink)",no-no
+583,877,"ULFM Fault Tolerance (slice 3: shrink)",1st
