@@ -116,3 +116,8 @@ plenaries:
       presenter: Joseph
       done: 0
 
+    - type: Plenary
+      title: "MPI Enqueued Communication"
+      presenter: Patrick Bridges
+      done: 0
+
