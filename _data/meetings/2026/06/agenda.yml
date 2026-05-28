@@ -126,4 +126,9 @@ plenaries:
       presenter: Tony Skjellum
       done: 0
 
+    - type: Plenary
+      title: "Collective Synchronization Semantics"
+      presenter: Christoph Niethammer
+      done: 0
+
 
