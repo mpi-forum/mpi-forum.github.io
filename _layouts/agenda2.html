@@ -322,6 +322,7 @@ layout: default
                  <th>Link</th>
                  <th>Title</th>
                  <th>Presenter</th>
+                 <th>Notes</th>
              </tr>
              {% for item in input.plenaries %}
              <tr>
@@ -383,6 +384,15 @@ layout: default
                        <del>
                      {% endif %}
                      {{ item.presenter }}
+                     {% if item.done == 1 %}
+                       </del>
+                     {% endif %}
+                 </td>
+                 <td>
+                     {% if item.done == 1 %}
+                       <del>
+                     {% endif %}
+                     {{ item.note}}
                      {% if item.done == 1 %}
                        </del>
                      {% endif %}

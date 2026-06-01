@@ -49,7 +49,7 @@ plenaries:
     - type: Welcome
       title: Introductions
       presenter: All
-      done: 0
+      done: 1
 
     - type: Update
       title: WG Status
@@ -58,8 +58,8 @@ plenaries:
 
     - type: WG Discsusion
       title: "Sessions Working Group"
-      presenter: Howard
-      done: 0
+      presenter: "Sonja Happ"
+      done: 1
 
     - type: Errata Reading
       title: "Multi-app mpiexec specification should refer to MPI_COMM_SPAWN_MULTIPLE"
@@ -125,10 +125,10 @@ plenaries:
       title: "MPI_Parrived_any and MPI_Match"
       presenter: Tony Skjellum
       done: 0
+      note: "Tuesday at start time"
 
     - type: Plenary
       title: "Collective Synchronization Semantics"
       presenter: Christoph Niethammer
       done: 0
-
 
