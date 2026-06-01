@@ -66,14 +66,14 @@ plenaries:
       issue_number: 816
       pr_number: 947
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "ULFM Fault Tolerance (slice 3: shrink)"
       issue_number: 583
       pr_number: 877
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Multi-app mpiexec specification should refer to MPI_COMM_SPAWN_MULTIPLE"
