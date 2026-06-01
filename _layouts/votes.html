@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% comment %} Include calc_attendance.html to calculate OOE/IMOVE automatically {% endcomment %}
+{% include calc_attendance.html %}
+
 <script>
     function ballot(rules, yes, no, abstain, missed, type, imove) {
         if (yes == 0 && no == 0 && abstain == 0 && missed == 0) {
@@ -122,10 +125,14 @@ layout: default
     }
 </script>
 
-{% if page.imove.size > 0 %}
-{% assign imove = page.imove %}
+{% comment %} Use calculated IMOVE if available, otherwise fall back to page front matter {% endcomment %}
+{% assign calc_imove_size = calc_imove_orgs.size | default: 0 %}
+{% if calc_imove_size > 0 %}
+  {% assign imove = calc_imove_size %}
+{% elsif page.imove.size > 0 %}
+  {% assign imove = page.imove %}
 {% else %}
-{% assign imove = 0 %}
+  {% assign imove = 0 %}
 {% endif %}
 
 <article class="post">
@@ -151,20 +158,25 @@ layout: default
         {% assign url = "https://github.com/mpi-forum/mpi-issues/issues/" %}
         {% assign pr_url = "https://github.com/mpi-forum/mpi-standard/pull/" %}
 
-        {% if page.registered > 0 %}
-        <b>Registered:</b> {{ page.registered }}<br>
+        {% comment %} Use calculated values if available, otherwise fall back to page front matter {% endcomment %}
+        {% assign use_registered = calc_registered_orgs.size | default: page.registered %}
+        {% assign use_ooe = calc_ooe | default: page.ooe %}
+        {% assign use_imove = imove %}
+        
+        {% if use_registered > 0 %}
+        <b>Registered:</b> {{ use_registered }}<br>
         {% endif %}
         {% if page.attended > 0 %}
         <b>Attended:</b> {{ page.attended }}<br>
         {% endif %}
-        {% if page.ooe > 0 %}
-        <b>OOE:</b> {{ page.ooe }}<br>
+        {% if use_ooe > 0 %}
+        <b>OOE:</b> {{ use_ooe }}<br>
         {% endif %}
-        {% if page.imove > 0 %}
-        <b>IMOVE:</b> {{ imove }}<br>
+        {% if use_imove > 0 %}
+        <b>IMOVE:</b> {{ use_imove }}<br>
         {% endif %}
-        {% if page.imove > 0 %}
-        <b>Votes needed for individual vote quorum:</b> <script> document.write(Math.ceil((3/4) * {{imove}})); </script> <br>
+        {% if use_imove > 0 %}
+        <b>Votes needed for individual vote quorum:</b> <script> document.write(Math.ceil((3/4) * {{use_imove}})); </script> <br>
         {% endif %}
         <br>
 
