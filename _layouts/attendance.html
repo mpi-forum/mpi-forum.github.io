@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% comment %} Include header.html to calculate previous meetings automatically {% endcomment %}
+{% include header.html calc_only=true %}
+
 <article class="post">
 
     <header class="post-header">
@@ -50,7 +53,13 @@ layout: default
             {% endfor %}
           {% endif %}
         </ol>
-        {% if page.prev_year != nil %}
+        {% comment %} Use calculated values if available, otherwise fall back to page front matter {% endcomment %}
+        {% assign use_prev_year = calc_prev_year | default: page.prev_year %}
+        {% assign use_prev_month = calc_prev_month | default: page.prev_month %}
+        {% assign use_prev_prev_year = calc_prev_prev_year | default: page.prev_prev_year %}
+        {% assign use_prev_prev_month = calc_prev_prev_month | default: page.prev_prev_month %}
+        
+        {% if use_prev_year != nil %}
           {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
           {% assign prev_orgs = "" | split: ',' %}
           {% assign prev_prev_orgs = "" | split: ',' %}
@@ -58,7 +67,7 @@ layout: default
           {% assign imove_orgs = "" | split: ',' %}
           {% assign ooe_orgs = "" | split: ',' %}
           {% assign ineligible_orgs = "" | split: ',' %}
-          {% for person in site.data.meetings[page.prev_year][page.prev_month].attendance %}
+          {% for person in site.data.meetings[use_prev_year][use_prev_month].attendance %}
             {% if person.attend == "1" %}
               {% unless person.org == "Self (Non-voting participant)" %}
                 {% assign org = person.org %}
@@ -71,7 +80,7 @@ layout: default
               {% endunless %}
             {% endif %}
           {% endfor %}
-          {% for person in site.data.meetings[page.prev_prev_year][page.prev_prev_month].attendance %}
+          {% for person in site.data.meetings[use_prev_prev_year][use_prev_prev_month].attendance %}
             {% if person.attend == "1" %}
               {% unless person.org == "Self (Non-voting participant)" %}
                 {% assign org = person.org %}
@@ -109,7 +118,7 @@ layout: default
           {% assign ooe = ooe_orgs.size | plus: imove_orgs.size %}
           {% assign prev_ooe = 0 %}
           {% for p in site.pages %}
-            {% if p.year == page.prev_year and p.month == page.prev_month %}
+            {% if p.year == use_prev_year and p.month == use_prev_month %}
               {% assign prev_ooe = p.ooe %}
             {% endif %}
           {% endfor %}
