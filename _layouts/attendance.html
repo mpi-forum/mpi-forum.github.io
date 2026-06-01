@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% comment %} Include header.html to calculate previous meetings automatically {% endcomment %}
-{% include header.html calc_only=true %}
+{% comment %} Include calc_attendance.html to calculate previous meetings and OOE/IMOVE automatically {% endcomment %}
+{% include calc_attendance.html %}
 
 <article class="post">
 
@@ -53,95 +53,37 @@ layout: default
             {% endfor %}
           {% endif %}
         </ol>
-        {% comment %} Use calculated values if available, otherwise fall back to page front matter {% endcomment %}
-        {% assign use_prev_year = calc_prev_year | default: page.prev_year %}
-        {% assign use_prev_month = calc_prev_month | default: page.prev_month %}
-        {% assign use_prev_prev_year = calc_prev_prev_year | default: page.prev_prev_year %}
-        {% assign use_prev_prev_month = calc_prev_prev_month | default: page.prev_prev_month %}
-        
-        {% if use_prev_year != nil %}
-          {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
-          {% assign prev_orgs = "" | split: ',' %}
-          {% assign prev_prev_orgs = "" | split: ',' %}
-          {% assign registered_orgs = "" | split: ',' %}
-          {% assign imove_orgs = "" | split: ',' %}
-          {% assign ooe_orgs = "" | split: ',' %}
-          {% assign ineligible_orgs = "" | split: ',' %}
-          {% for person in site.data.meetings[use_prev_year][use_prev_month].attendance %}
-            {% if person.attend == "1" %}
-              {% unless person.org == "Self (Non-voting participant)" %}
-                {% assign org = person.org %}
-                {% for org_transition in site.data.orgs %}
-                  {% if org_transition.old_org_name == org %}
-                    {% assign prev_orgs = prev_orgs | push: org_transition.new_org_name | uniq %}
-                  {% endif %}
-                {% endfor %}
-                {% assign prev_orgs = prev_orgs | push: org | uniq %}
-              {% endunless %}
-            {% endif %}
-          {% endfor %}
-          {% for person in site.data.meetings[use_prev_prev_year][use_prev_prev_month].attendance %}
-            {% if person.attend == "1" %}
-              {% unless person.org == "Self (Non-voting participant)" %}
-                {% assign org = person.org %}
-                {% for org_transition in site.data.orgs %}
-                  {% if org_transition.old_org_name == org %}
-                    {% assign prev_prev_orgs = prev_orgs | push: org_transition.new_org_name | uniq %}
-                  {% endif %}
-                {% endfor %}
-                {% assign prev_prev_orgs = prev_prev_orgs | push: org | uniq %}
-              {% endunless %}
-            {% endif %}
-          {% endfor %}
-          {% for person in cur_attend %}
-            {% if prev_orgs contains person.org or prev_prev_orgs contains person.org %}
-              {% if person.attend == "1" %}
-                {% unless person.org == "Self (Non-voting participant)" %}
-                  {% assign imove_orgs = imove_orgs | push: person.org | uniq %}
-                {% endunless %}
-              {% else %}
-                {% unless imove_orgs contains person.org %}
-                  {% assign ooe_orgs = ooe_orgs | push: person.org | uniq %}
-                {% endunless %}
-              {% endif %}
-            {% else %}
-              {% unless ineligible_orgs contains person.org %}
-                {% assign ineligible_orgs = ineligible_orgs | push: person.org %}
-              {% endunless %}
-            {% endif %}
-            {% unless registered_orgs contains person.org %}
-              {% unless person.org == "Self (Non-voting participant)" %}
-                {% assign registered_orgs = registered_orgs | push: person.org %}
-              {% endunless %}
-            {% endunless %}
-          {% endfor %}
-          {% assign ooe = ooe_orgs.size | plus: imove_orgs.size %}
-          {% assign prev_ooe = 0 %}
-          {% for p in site.pages %}
-            {% if p.year == use_prev_year and p.month == use_prev_month %}
-              {% assign prev_ooe = p.ooe %}
-            {% endif %}
-          {% endfor %}
-          <h3> Voting Eligibile Orgs ({{imove_orgs.size}} of {{ prev_ooe | times: 0.66 | ceil }} needed) </h3>
-          {% assign imove_orgs = imove_orgs | sort %}
-          {% for org in imove_orgs %} <li> {{ org }}</li> {{newline}} {% endfor %}
+        {% comment %} Use calculated values from header.html if available {% endcomment %}
+        {% if calc_prev_year != nil or page.prev_year != nil %}
+          {% assign use_prev_orgs = calc_prev_orgs %}
+          {% assign use_prev_prev_orgs = calc_prev_prev_orgs %}
+          {% assign use_registered_orgs = calc_registered_orgs %}
+          {% assign use_imove_orgs = calc_imove_orgs %}
+          {% assign use_ooe_orgs = calc_ooe_orgs %}
+          {% assign use_ineligible_orgs = calc_ineligible_orgs %}
+          {% assign use_ooe = calc_ooe %}
+          {% assign use_prev_ooe = calc_prev_ooe %}
+          
+          <h3> Voting Eligibile Orgs ({{use_imove_orgs.size}} of {{ use_prev_ooe | times: 0.66 | ceil }} needed) </h3>
+          {% assign sorted_imove = use_imove_orgs | sort %}
+          {% for org in sorted_imove %} <li> {{ org }}</li> {{newline}} {% endfor %}
           <!-- This code is a mess because when I split it out across multiple lines, it adds a bunch of blank lines in the output -->
           <h3> Ineligible Orgs </h3>
           <h4> Not Present at Current Meeting for First Vote </h4>
-            {% assign ooe_orgs = ooe_orgs | sort %}
-            {% for org in ooe_orgs %}{% unless imove_orgs contains org %} <li> {{ org }} </li> {% endunless %} {% endfor %}
+            {% assign sorted_ooe = use_ooe_orgs | sort %}
+            {% for org in sorted_ooe %}{% unless use_imove_orgs contains org %} <li> {{ org }} </li> {% endunless %} {% endfor %}
             <h4> Did Not Attend 2 of 3 Recent Meetings </h4>
-            {% assign ineligible_orgs = ineligible_orgs | sort %}{% for org in ineligible_orgs %}{% unless org == "Self (Non-voting participant)" %} <li> {{ org }} </li> {{newline}} {% endunless %} {% endfor %}
+            {% assign sorted_ineligible = use_ineligible_orgs | sort %}{% for org in sorted_ineligible %}{% unless org == "Self (Non-voting participant)" %} <li> {{ org }} </li> {{newline}} {% endunless %} {% endfor %}
            <h4> Did Not Register for Current Meeting </h4>
-           {% for org in prev_orgs %}{% unless imove_orgs contains org or ooe_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <li> {{ org }} </li> {{newline}} {% endunless %}{% endunless %} {% endfor %}
-           {% for org in prev_prev_orgs %}{% unless imove_orgs contains org or ooe_orgs contains org or prev_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <li> {{ org }} </li> {{newline}} {% endunless %}{% endunless %}{% endfor %}
+           {% for org in use_prev_orgs %}{% unless use_imove_orgs contains org or use_ooe_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <li> {{ org }} </li> {{newline}} {% endunless %}{% endunless %} {% endfor %}
+           {% for org in use_prev_prev_orgs %}{% unless use_imove_orgs contains org or use_ooe_orgs contains org or use_prev_orgs contains org %}{% unless org == "Self (Non-voting participant)" %} <li> {{ org }} </li> {{newline}} {% endunless %}{% endunless %}{% endfor %}
         {% endif %}
 
           <h3> Stats </h3>
           <ul>
-            <li>Registered Orgs: {{registered_orgs.size}}</li>
-            <li>OOE Orgs: {{ooe}}</li>
-            <li>IMOVE Orgs: {{imove_orgs.size}}</li>
+            <li>Registered Orgs: {{use_registered_orgs.size}}</li>
+            <li>OOE Orgs: {{use_ooe}}</li>
+            <li>IMOVE Orgs: {{use_imove_orgs.size}}</li>
           </ul>
 
     </div>

@@ -5,9 +5,7 @@ year: "2020"
 month: "05"
 rules: 3152013
 permalink: meetings/2020/05/votes
-registered: 31
 ooe: 30
-imove: 27
 ---
 
 As NVIDIA completed its acquisition of Mellanox Inc. on April 27, 2020, this is the first meeting

@@ -12,11 +12,9 @@ rules: 3152013
 
 permalink: meetings/2019/03/votes
 
-registered: 
 
 ooe: 
 
-imove: 
 
 ---
 

@@ -3,59 +3,133 @@
   This replaces the manual prev_year, prev_month, prev_prev_year, prev_prev_month
   front matter in attendance.md files.
 {% endcomment %}
-{% if page.layout == "attendance" and page.year and page.month %}
-  {% comment %} Find all attendance pages and sort them by year and month {% endcomment %}
-  {% assign attendance_pages = "" | split: ',' %}
-  {% for p in site.pages %}
-    {% if p.layout == "attendance" and p.year and p.month %}
-      {% assign attendance_pages = attendance_pages | push: p %}
+{% if page.layout == "attendance" or page.layout == "votes" %}
+  {% if page.year and page.month %}
+    {% comment %} Find all attendance pages and sort them by year and month {% endcomment %}
+    {% assign attendance_pages = "" | split: ',' %}
+    {% for p in site.pages %}
+      {% if p.layout == "attendance" and p.year and p.month %}
+        {% assign attendance_pages = attendance_pages | push: p %}
+      {% endif %}
+    {% endfor %}
+    
+    {% comment %} Build a list of year-month strings, sort them, then find matches {% endcomment %}
+    {% assign year_month_list = "" | split: ',' %}
+    {% for p in attendance_pages %}
+      {% assign ym = p.year | append: "-" | append: p.month %}
+      {% assign year_month_list = year_month_list | push: ym %}
+    {% endfor %}
+    {% assign sorted_ym = year_month_list | sort %}
+    
+    {% comment %} Find current page index {% endcomment %}
+    {% assign current_ym = page.year | append: "-" | append: page.month %}
+    {% assign current_index = -1 %}
+    {% for ym in sorted_ym %}
+      {% if ym == current_ym %}
+        {% assign current_index = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+    
+    {% comment %} Get previous two meetings if they exist {% endcomment %}
+    {% if current_index > 0 %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign prev_ym = sorted_ym[prev_index] %}
+      {% assign prev_parts = prev_ym | split: "-" %}
+      {% assign calc_prev_year = prev_parts[0] %}
+      {% assign calc_prev_month = prev_parts[1] %}
     {% endif %}
-  {% endfor %}
-  
-  {% comment %} Sort by year then month (both are strings, so we need to handle sorting) {% endcomment %}
-  {% assign sorted_pages = attendance_pages | sort: "year" | sort: "month" %}
-  
-  {% comment %} Actually, the above won't work correctly for year/month sorting.
-     Let's create a sortable key and sort manually. {% endcomment %}
-  {% assign pages_with_key = "" | split: ',' %}
-  {% for p in attendance_pages %}
-    {% assign year_month = p.year | append: "-" | append: p.month %}
-    {% assign page_with_key = p | hash: "sort_key", year_month %}
-    {% comment %} Liquid doesn't have a good way to add a key, so we'll use a different approach {% endcomment %}
-  {% endfor %}
-  
-  {% comment %} Simpler approach: build a list of year-month strings, sort them, then find matches {% endcomment %}
-  {% assign year_month_list = "" | split: ',' %}
-  {% for p in attendance_pages %}
-    {% assign ym = p.year | append: "-" | append: p.month %}
-    {% assign year_month_list = year_month_list | push: ym %}
-  {% endfor %}
-  {% assign sorted_ym = year_month_list | sort %}
-  
-  {% comment %} Find current page index {% endcomment %}
-  {% assign current_ym = page.year | append: "-" | append: page.month %}
-  {% assign current_index = -1 %}
-  {% for ym in sorted_ym %}
-    {% if ym == current_ym %}
-      {% assign current_index = forloop.index0 %}
+    
+    {% if current_index > 1 %}
+      {% assign prev_prev_index = current_index | minus: 2 %}
+      {% assign prev_prev_ym = sorted_ym[prev_prev_index] %}
+      {% assign prev_prev_parts = prev_prev_ym | split: "-" %}
+      {% assign calc_prev_prev_year = prev_prev_parts[0] %}
+      {% assign calc_prev_prev_month = prev_prev_parts[1] %}
     {% endif %}
-  {% endfor %}
-  
-  {% comment %} Get previous two meetings if they exist {% endcomment %}
-  {% if current_index > 0 %}
-    {% assign prev_index = current_index | minus: 1 %}
-    {% assign prev_ym = sorted_ym[prev_index] %}
-    {% assign prev_parts = prev_ym | split: "-" %}
-    {% assign calc_prev_year = prev_parts[0] %}
-    {% assign calc_prev_month = prev_parts[1] %}
   {% endif %}
-  
-  {% if current_index > 1 %}
-    {% assign prev_prev_index = current_index | minus: 2 %}
-    {% assign prev_prev_ym = sorted_ym[prev_prev_index] %}
-    {% assign prev_prev_parts = prev_prev_ym | split: "-" %}
-    {% assign calc_prev_prev_year = prev_prev_parts[0] %}
-    {% assign calc_prev_prev_month = prev_prev_parts[1] %}
+{% endif %}
+
+{% comment %}
+  Calculate OOE and IMOVE orgs for attendance and votes pages.
+  OOE = orgs that attended 2 of last 3 meetings
+  IMOVE = OOE orgs that are also present at current meeting
+{% endcomment %}
+{% if page.layout == "attendance" or page.layout == "votes" %}
+  {% if page.year and page.month %}
+    {% comment %} Use calculated prev values if available, otherwise fall back to page front matter {% endcomment %}
+    {% assign use_prev_year = calc_prev_year | default: page.prev_year %}
+    {% assign use_prev_month = calc_prev_month | default: page.prev_month %}
+    {% assign use_prev_prev_year = calc_prev_prev_year | default: page.prev_prev_year %}
+    {% assign use_prev_prev_month = calc_prev_prev_month | default: page.prev_prev_month %}
+    
+    {% if use_prev_year != nil %}
+      {% assign cur_attend = site.data.meetings[page.year][page.month].attendance %}
+      {% assign calc_prev_orgs = "" | split: ',' %}
+      {% assign calc_prev_prev_orgs = "" | split: ',' %}
+      {% assign calc_registered_orgs = "" | split: ',' %}
+      {% assign calc_imove_orgs = "" | split: ',' %}
+      {% assign calc_ooe_orgs = "" | split: ',' %}
+      {% assign calc_ineligible_orgs = "" | split: ',' %}
+      
+      {% for person in site.data.meetings[use_prev_year][use_prev_month].attendance %}
+        {% if person.attend == "1" %}
+          {% unless person.org == "Self (Non-voting participant)" %}
+            {% assign org = person.org %}
+            {% for org_transition in site.data.orgs %}
+              {% if org_transition.old_org_name == org %}
+                {% assign calc_prev_orgs = calc_prev_orgs | push: org_transition.new_org_name | uniq %}
+              {% endif %}
+            {% endfor %}
+            {% assign calc_prev_orgs = calc_prev_orgs | push: org | uniq %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+      
+      {% for person in site.data.meetings[use_prev_prev_year][use_prev_prev_month].attendance %}
+        {% if person.attend == "1" %}
+          {% unless person.org == "Self (Non-voting participant)" %}
+            {% assign org = person.org %}
+            {% for org_transition in site.data.orgs %}
+              {% if org_transition.old_org_name == org %}
+                {% assign calc_prev_prev_orgs = calc_prev_prev_orgs | push: org_transition.new_org_name | uniq %}
+              {% endif %}
+            {% endfor %}
+            {% assign calc_prev_prev_orgs = calc_prev_prev_orgs | push: org | uniq %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+      
+      {% for person in cur_attend %}
+        {% if calc_prev_orgs contains person.org or calc_prev_prev_orgs contains person.org %}
+          {% if person.attend == "1" %}
+            {% unless person.org == "Self (Non-voting participant)" %}
+              {% assign calc_imove_orgs = calc_imove_orgs | push: person.org | uniq %}
+            {% endunless %}
+          {% else %}
+            {% unless calc_imove_orgs contains person.org %}
+              {% assign calc_ooe_orgs = calc_ooe_orgs | push: person.org | uniq %}
+            {% endunless %}
+          {% endif %}
+        {% else %}
+          {% unless calc_ineligible_orgs contains person.org %}
+            {% assign calc_ineligible_orgs = calc_ineligible_orgs | push: person.org %}
+          {% endunless %}
+        {% endif %}
+        {% unless calc_registered_orgs contains person.org %}
+          {% unless person.org == "Self (Non-voting participant)" %}
+            {% assign calc_registered_orgs = calc_registered_orgs | push: person.org %}
+          {% endunless %}
+        {% endunless %}
+      {% endfor %}
+      
+      {% assign calc_ooe = calc_ooe_orgs.size | plus: calc_imove_orgs.size %}
+      {% assign calc_prev_ooe = 0 %}
+      {% for p in site.pages %}
+        {% if p.year == use_prev_year and p.month == use_prev_month %}
+          {% assign calc_prev_ooe = p.ooe %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   {% endif %}
 {% endif %}
 
