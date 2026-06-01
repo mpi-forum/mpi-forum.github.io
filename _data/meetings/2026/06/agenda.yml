@@ -120,6 +120,7 @@ plenaries:
       title: "MPI Enqueued Communication"
       presenter: Patrick
       done: 0
+      note: "Wednesday"
 
     - type: Plenary
       title: "MPI_Parrived_any and MPI_Match"
