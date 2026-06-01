@@ -73,7 +73,7 @@ plenaries:
       issue_number: 583
       pr_number: 877
       presenter: Joseph
-      done: 1
+      done: 0
 
     - type: Errata Reading
       title: "Multi-app mpiexec specification should refer to MPI_COMM_SPAWN_MULTIPLE"
