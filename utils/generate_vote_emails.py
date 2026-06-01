@@ -23,8 +23,8 @@ transition_orgs_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/orgs.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
 voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSfEzrRyxJtIojdCLYE74SxADWXMzS9aDGBtGcJFUjRyRmPQ8A/viewform?usp=pp_url&entry.937694219={name}&entry.1423471857={org}&entry.244539170={id}"
 
-vote_name = "June 2026 Day 1"
-closing_time = "08:00am on June 2, 2026"
+vote_name = "June 2026 Day 2"
+closing_time = "08:00am on June 3, 2026"
 time_zone = "US Central Time (UTC - 5)"
 subject_string = vote_name + " Voting Link"
 
