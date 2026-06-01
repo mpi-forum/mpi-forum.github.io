@@ -51,15 +51,29 @@ plenaries:
       presenter: All
       done: 1
 
+    - type: WG Discsusion
+      title: "Sessions Working Group"
+      presenter: Sonja
+      done: 1
+
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
       done: 0
 
-    - type: WG Discsusion
-      title: "Sessions Working Group"
-      presenter: "Sonja Happ"
-      done: 1
+    - type: No-No Reading
+      title: "ULFM: fault model is not completely defined"
+      issue_number: 816
+      pr_number: 947
+      presenter: Joseph
+      done: 0
+
+    - type: No-No Reading
+      title: "ULFM Fault Tolerance (slice 3: shrink)"
+      issue_number: 583
+      pr_number: 877
+      presenter: Joseph
+      done: 0
 
     - type: Errata Reading
       title: "Multi-app mpiexec specification should refer to MPI_COMM_SPAWN_MULTIPLE"
@@ -89,20 +103,6 @@ plenaries:
       presenter: Howard
       done: 0
 
-    - type: No-No Reading
-      title: "ULFM: fault model is not completely defined"
-      issue_number: 816
-      pr_number: 947
-      presenter: Joseph
-      done: 0
-
-    - type: No-No Reading
-      title: "ULFM Fault Tolerance (slice 3: shrink)"
-      issue_number: 583
-      pr_number: 877
-      presenter: Joseph
-      done: 0
-
     - type: Plenary
       title: "ULFM MPI_Agree"
       pr_number: 715
@@ -118,17 +118,17 @@ plenaries:
 
     - type: Plenary
       title: "MPI Enqueued Communication"
-      presenter: Patrick Bridges
+      presenter: Patrick
       done: 0
 
     - type: Plenary
       title: "MPI_Parrived_any and MPI_Match"
-      presenter: Tony Skjellum
+      presenter: Tony
       done: 0
       note: "Tuesday at start time"
 
     - type: Plenary
       title: "Collective Synchronization Semantics"
-      presenter: Christoph Niethammer
+      presenter: Christoph
       done: 0
 
