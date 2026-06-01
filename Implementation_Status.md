@@ -11,8 +11,10 @@ This page provides a way to update the community on the current status of variou
 ## MPI 5.0
 
 | ------------------------- | ----- | ------- | ------- |
-| Feature                   | [MPICH](https://mpich.org/) | [Open MPI](https://www.open-mpi.org/) |  [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html) |
-| ABI Support                                                            |        |      |          |
+| Feature                   | [MPICH](https://mpich.org/) | [Open MPI](https://www.open-mpi.org/)
+| ABI Support                                                            |   ✅+   |      |
+
+MPICH’s Fortran binding currently only supports MPICH ABI instead of MPI ABI.
 
 |---|---|
 |# - Under development | + - Partly done |
