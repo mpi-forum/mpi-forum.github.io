@@ -14,7 +14,7 @@ This page provides a way to update the community on the current status of variou
 | Feature                   | [MPICH](https://mpich.org/) | [Open MPI](https://www.open-mpi.org/)
 | ABI Support                                                            |   ✅+   |      |
 
-MPICH’s Fortran binding currently only supports MPICH ABI instead of MPI ABI.
+MPICH’s Fortran binding currently only supports MPICH ABI instead of MPI ABI. The Fortran binding support on top of MPI ABI is currently under development
 
 |---|---|
 |# - Under development | + - Partly done |
