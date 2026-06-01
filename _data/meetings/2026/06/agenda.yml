@@ -59,7 +59,7 @@ plenaries:
     - type: Update
       title: WG Status
       presenter: All WG chairs or their proxies
-      done: 0
+      done: 1
 
     - type: No-No Reading
       title: "ULFM: fault model is not completely defined"
