@@ -142,7 +142,7 @@ plenaries:
     - type: Plenary
       title: "Collective Synchronization Semantics"
       presenter: Christoph
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "C++ Working Group Update"
