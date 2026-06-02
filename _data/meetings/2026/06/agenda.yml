@@ -105,7 +105,7 @@ plenaries:
       issue_number: 712
       pr_number: 930
       presenter: Benson
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Sessions and attribute caching"
