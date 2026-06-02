@@ -149,3 +149,8 @@ plenaries:
       presenter: Tim
       done: 0
 
+    - type: Plenary
+      title: "MPI Pcontrol"
+      presenter: Marc-Andre
+      done: 0
+
