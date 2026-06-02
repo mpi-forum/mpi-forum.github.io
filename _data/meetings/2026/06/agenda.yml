@@ -128,7 +128,7 @@ plenaries:
     - type: Plenary
       title: "MPI_Parrived_any and MPI_Match"
       presenter: Tony
-      done: 0
+      done: 1
       note: "Tuesday at start time"
 
     - type: Plenary
