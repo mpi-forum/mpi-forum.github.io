@@ -98,7 +98,7 @@ plenaries:
       pr_number: 1136
       presenter: Howard
       link: "https://github.com/mpi-forum/mpi-standard/pull/1136/changes/79bfe41bd62f4117aaa1f494faf16d903c70b08d"
-      done: 1
+      done: 0
 
     - type: Plenary
       title: "Update figures in all chapters to use selected consistent format(s)"
@@ -125,7 +125,7 @@ plenaries:
       issue_number: 59
       pr_number: 1131
       presenter: Joseph
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "MPI Enqueued Communication"
