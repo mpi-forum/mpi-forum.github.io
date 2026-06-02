@@ -83,7 +83,7 @@ plenaries:
       issue_number: 1109
       pr_number: 1143
       presenter: Sonja
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Caching wording - desire to tweak"
