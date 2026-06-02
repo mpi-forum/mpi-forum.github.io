@@ -92,6 +92,14 @@ plenaries:
       presenter: Howard
       done: 1
 
+    - type: No-No Reading
+      title: "Caching wording - desire to tweak"
+      issue_number: 1102
+      pr_number: 1136
+      presenter: Howard
+      link: "https://github.com/mpi-forum/mpi-standard/pull/1136/changes/79bfe41bd62f4117aaa1f494faf16d903c70b08d"
+      done: 0
+
     - type: Plenary
       title: "Update figures in all chapters to use selected consistent format(s)"
       issue_number: 712
