@@ -31,9 +31,9 @@ def check_empty(val):
     return val == None or val == "" or int(val) == 0
 
 def main():
-    attendance_file=sys.argv[1]; # File with UUIDs for each attendee
-    ballot_file=sys.argv[2]; # File with list of ballots on which to be voted
-    votes_file=sys.argv[3]; # File with votes captured from Google Forms
+    attendance_file="/Users/wbland/mpi/meeting-details/2026-06-jun/2026-06-01-registration.csv"
+    ballot_file="../_data/meetings/2026/06/votes.csv"
+    votes_file="/Users/wbland/Downloads/2026-06 Vote Day 2 (Responses) - Form Responses 1.csv"
     prev_votes_file="../_data/meetings/2026/06/votes.csv"
     prev_ballots_file="../_data/meetings/2026/06/ballot.csv"
     if not os.path.isfile(prev_votes_file):
