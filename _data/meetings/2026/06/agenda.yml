@@ -136,3 +136,8 @@ plenaries:
       presenter: Christoph
       done: 0
 
+    - type: Plenary
+      title: "C++ Working Group Update"
+      presenter: Tim
+      done: 0
+
