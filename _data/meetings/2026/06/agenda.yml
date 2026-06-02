@@ -152,5 +152,5 @@ plenaries:
     - type: Plenary
       title: "MPI Pcontrol"
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
