@@ -75,6 +75,7 @@ plenaries:
       issue_number: 583
       pr_number: 877
       presenter: Joseph
+      link: "https://github.com/mpi-forum/mpi-standard/pull/877/changes/444e273f23cbc73ddbe691823c94ab681231643e..8c86d0beca98b85902118e09feb4c15757a9d676"
       done: 1
 
     - type: Errata Reading
