@@ -130,7 +130,7 @@ plenaries:
     - type: Plenary
       title: "MPI Enqueued Communication"
       presenter: Patrick
-      done: 0
+      done: 1
       note: "Wednesday"
 
     - type: Plenary
