@@ -21,10 +21,10 @@ curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2
 curr_registration_file = "/Users/wbland/mpi/meeting-details/2026-06-jun/2026-06-01-registration.csv"
 transition_orgs_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/orgs.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSfkMUnDn1XfVN-1txNKNcRntHOoX8VkFfG7BeXBf6tBZKOTPw/viewform?usp=pp_url&entry.1984858556={name}&entry.1884492293={org}&entry.1879810035={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLSdAieX_1OGQtLQevMLfqtI7Zc3c90t1yZ5K3BB2Lity4aLPRg/viewform?usp=pp_url&entry.1628977740={name}&entry.908275026={org}&entry.1820227544={id}"
 
-vote_name = "June 2026 Day 2"
-closing_time = "08:00am on June 3, 2026"
+vote_name = "June 2026 Day 3"
+closing_time = "08:00am on June 4, 2026"
 time_zone = "US Central Time (UTC - 5)"
 subject_string = vote_name + " Voting Link"
 

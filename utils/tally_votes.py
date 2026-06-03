@@ -33,7 +33,7 @@ def check_empty(val):
 def main():
     attendance_file="/Users/wbland/mpi/meeting-details/2026-06-jun/2026-06-01-registration.csv"
     ballot_file="../_data/meetings/2026/06/votes.csv"
-    votes_file="/Users/wbland/Downloads/2026-06 Vote Day 2 (Responses) - Form Responses 1.csv"
+    votes_file="/Users/wbland/Downloads/2026-06 Vote Day 3 (Responses) - Form Responses 1.csv"
     prev_votes_file="../_data/meetings/2026/06/votes.csv"
     prev_ballots_file="../_data/meetings/2026/06/ballot.csv"
     if not os.path.isfile(prev_votes_file):
