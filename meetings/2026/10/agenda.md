@@ -5,7 +5,7 @@ permalink: meetings/2026/10/agenda
 year: "2026"
 month: "10"
 webex: "https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information"
-timezone: "US Central"
-timezone_abbr: "CT" # Can figure this out here: https://time.is
+timezone: "Central European"
+timezone_abbr: "CET" # Can figure this out here: https://time.is
 ---
 
