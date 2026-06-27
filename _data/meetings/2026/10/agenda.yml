@@ -1,0 +1,37 @@
+schedule:
+    - day: Monday, October 05
+    - start: 2026-10-05T0:00
+      end: 2026-10-05T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Tuesday, October 06
+    - start: 2026-10-06T0:00
+      end: 2026-10-06T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+    - day: Wednesday, October 07
+    - start: 2026-10-07T0:00
+      end: 2026-10-07T23:59
+      title: "Placeholder Agenda Item"
+    - endday: done
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
+
+    - type: Reading
+      title: Placeholder Reading
+      issue_number: 1234
+      presenter: Placeholder Presenter
+      done: 0
+      notes: ""
+
