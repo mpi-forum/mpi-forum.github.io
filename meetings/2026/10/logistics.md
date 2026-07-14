@@ -26,8 +26,8 @@ immediately following the MPI Forum meeting, registration is here:
 ### Meeting Location
 
 
-The meeting will take place in Vienna, Austria
-at TU Wein, Vienna, Austria in conjuction with EuroMPI 2026.
+The meeting will take place at TU Wein, Vienna, Austria in conjuction with
+EuroMPI 2026.
 
 Address: TU Wien, Karlsplatz 13, 1040 Vienna, Austria
 
@@ -45,5 +45,5 @@ remotely on the MPI Forum's GitHub wiki. Keep in mind that you must be signed
 into GitHub **before** you click this link in order to see the page. If you are
 not signed in, you will see a 404 error.
 
-https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information
+[https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information](https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information)
 
