@@ -1,6 +1,6 @@
 ---
 layout: logistics
-date: October 05, 2026 - October 07, 2026
+date: October 05, 2026 - October 06, 2026
 permalink: meetings/2026/10/logistics
 year: "2026"
 month: "10"
@@ -27,12 +27,11 @@ immediately following the MPI Forum meeting, registration is here:
 
 
 The meeting will take place in Vienna, Austria
-at the Austrian Scientific Computing Center (ASC) at TU Wein in conjuction
-with EuroMPI 2026.
+at TU Wein, Vienna, Austria in conjuction with EuroMPI 2026.
 
-Address: TU Wien
-Operngasse 11 / E057-09
-1040 Wien, Austria
+Address: TU Wien, Karlsplatz 13, 1040 Vienna, Austria
+
+The MPI Forum will be in Room [ADEG19](https://maps.tuwien.ac.at/?q=ADEG19).
 
 
 Details on the conference and venue can be found on the [conference

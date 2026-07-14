@@ -1,6 +1,6 @@
 ---
 layout: votes
-date: October 05, 2026 - October 07, 2026
+date: October 05, 2026 - October 06, 2026
 year: "2026"
 month: "10"
 rules: 3152013
