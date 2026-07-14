@@ -14,6 +14,11 @@ required regardless of whether attending in-person or remotely.**
 Registration is available here:
 [https://forms.gle/hW4tJvfTnGwdzk7q7](https://forms.gle/hW4tJvfTnGwdzk7q7)
 
+There is no registration fee for the MPI Forum meeting itself, though the
+EuroMPI conference does have a separate registration fee. Coffee breaks and
+rooms are sponsored by TU Wien this time and lunches will be self-pay at a
+nearby restaurant.
+
 For the EuroMPI conference that will take place in the same location
 immediately following the MPI Forum meeting, registration is here:
 [https://eurompi.org/register](https://eurompi.org/register)
