@@ -26,7 +26,7 @@ immediately following the MPI Forum meeting, registration is here:
 ### Meeting Location
 
 
-The meeting will take place at TU Wein, Vienna, Austria in conjuction with
+The meeting will take place at TU Wien, Vienna, Austria in conjuction with
 EuroMPI 2026.
 
 Address: TU Wien, Karlsplatz 13, 1040 Vienna, Austria
