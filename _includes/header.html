@@ -30,7 +30,7 @@
       {% endif %}
     {% endfor %}
     
-    {% comment %} Get previous two meetings if they exist {% endcomment %}
+    {% comment %} Get previous three meetings if they exist (third needed for prev OOE calc) {% endcomment %}
     {% if current_index > 0 %}
       {% assign prev_index = current_index | minus: 1 %}
       {% assign prev_ym = sorted_ym[prev_index] %}
@@ -45,6 +45,14 @@
       {% assign prev_prev_parts = prev_prev_ym | split: "-" %}
       {% assign calc_prev_prev_year = prev_prev_parts[0] %}
       {% assign calc_prev_prev_month = prev_prev_parts[1] %}
+    {% endif %}
+
+    {% if current_index > 2 %}
+      {% assign prev_prev_prev_index = current_index | minus: 3 %}
+      {% assign prev_prev_prev_ym = sorted_ym[prev_prev_prev_index] %}
+      {% assign prev_prev_prev_parts = prev_prev_prev_ym | split: "-" %}
+      {% assign calc_prev_prev_prev_year = prev_prev_prev_parts[0] %}
+      {% assign calc_prev_prev_prev_month = prev_prev_prev_parts[1] %}
     {% endif %}
   {% endif %}
 {% endif %}
@@ -98,6 +106,23 @@
           {% endunless %}
         {% endif %}
       {% endfor %}
+
+      {% assign calc_prev_prev_prev_orgs = "" | split: ',' %}
+      {% if calc_prev_prev_prev_year != nil and calc_prev_prev_prev_month != nil %}
+        {% for person in site.data.meetings[calc_prev_prev_prev_year][calc_prev_prev_prev_month].attendance %}
+          {% if person.attend == "1" %}
+            {% unless person.org == "Self (Non-voting participant)" %}
+              {% assign org = person.org %}
+              {% for org_transition in site.data.orgs %}
+                {% if org_transition.old_org_name == org %}
+                  {% assign calc_prev_prev_prev_orgs = calc_prev_prev_prev_orgs | push: org_transition.new_org_name | uniq %}
+                {% endif %}
+              {% endfor %}
+              {% assign calc_prev_prev_prev_orgs = calc_prev_prev_prev_orgs | push: org | uniq %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
       
       {% for person in cur_attend %}
         {% if calc_prev_orgs contains person.org or calc_prev_prev_orgs contains person.org %}
@@ -123,12 +148,40 @@
       {% endfor %}
       
       {% assign calc_ooe = calc_ooe_orgs.size | plus: calc_imove_orgs.size %}
+
+      {% comment %} Calculate OOE for previous meeting automatically {% endcomment %}
       {% assign calc_prev_ooe = 0 %}
-      {% for p in site.pages %}
-        {% if p.year == use_prev_year and p.month == use_prev_month %}
-          {% assign calc_prev_ooe = p.ooe %}
+      {% assign calc_prev_meeting_imove = "" | split: ',' %}
+      {% assign calc_prev_meeting_ooe_orgs = "" | split: ',' %}
+
+      {% assign prev_meeting_attendance = site.data.meetings[use_prev_year][use_prev_month].attendance %}
+      {% for person in prev_meeting_attendance %}
+        {% if calc_prev_prev_orgs contains person.org or calc_prev_prev_prev_orgs contains person.org %}
+          {% if person.attend == "1" %}
+            {% unless person.org == "Self (Non-voting participant)" %}
+              {% assign calc_prev_meeting_imove = calc_prev_meeting_imove | push: person.org | uniq %}
+            {% endunless %}
+          {% else %}
+            {% unless calc_prev_meeting_imove contains person.org %}
+              {% assign calc_prev_meeting_ooe_orgs = calc_prev_meeting_ooe_orgs | push: person.org | uniq %}
+            {% endunless %}
+          {% endif %}
         {% endif %}
       {% endfor %}
+      {% assign auto_prev_ooe = calc_prev_meeting_imove.size | plus: calc_prev_meeting_ooe_orgs.size %}
+
+      {% if auto_prev_ooe > 0 %}
+        {% assign calc_prev_ooe = auto_prev_ooe %}
+      {% else %}
+        {% comment %} Fallback to front matter if auto calc yields 0 {% endcomment %}
+        {% for p in site.pages %}
+          {% if p.year == use_prev_year and p.month == use_prev_month %}
+            {% if p.ooe %}
+              {% assign calc_prev_ooe = p.ooe %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     {% endif %}
   {% endif %}
 {% endif %}

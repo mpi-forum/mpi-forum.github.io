@@ -63,7 +63,7 @@ layout: default
           {% assign use_ineligible_orgs = calc_ineligible_orgs %}
           {% assign use_ooe = calc_ooe %}
           {% assign use_prev_ooe = calc_prev_ooe %}
-          
+
           <h3> Voting Eligibile Orgs ({{use_imove_orgs.size}} of {{ use_prev_ooe | times: 0.66 | ceil }} needed) </h3>
           {% assign sorted_imove = use_imove_orgs | sort %}
           {% for org in sorted_imove %} <li> {{ org }}</li> {{newline}} {% endfor %}
