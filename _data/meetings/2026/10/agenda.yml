@@ -1,20 +1,26 @@
 schedule:
     - day: Monday, October 05
+
     - start: 2026-10-05T09:00
       end: 2026-10-05T18:00
-      title: "Placeholder Agenda Item"
+      title: "Plenaries, see below"
+
+    - start: 2026-10-05T14:30
+      end: 2026-10-05T15:00
+      title: "[time tentative] Voting Block (Open until 9am CEST next day)"
+
     - endday: done
 
     - day: Tuesday, October 06
+
     - start: 2026-10-06T09:00
       end: 2026-10-06T18:00
-      title: "Placeholder Agenda Item"
-    - endday: done
+      title: "Plenaries, see below"
 
-    - day: Wednesday, October 07
-    - start: 2026-10-07T09:00
-      end: 2026-10-07T13:00
-      title: "Placeholder Agenda Item"
+    - start: 2026-10-06T14:30
+      end: 2026-10-06T15:00
+      title: "[time tentative] Voting Block (Open until 9am CEST next day)"
+
     - endday: done
 
 plenaries:
@@ -29,9 +35,17 @@ plenaries:
       done: 0
 
     - type: Reading
-      title: Placeholder Reading
-      issue_number: 1234
-      presenter: Placeholder Presenter
+      title: "Add spawn mechanism compatible to Sessions"
+      issue_number: 1116
+      pr_number: 1150
+      presenter: Sonja
       done: 0
-      notes: ""
+
+    - type: Plenary
+      title: "Adding state to MPI_Op_create and others"
+      issue_number: 839
+      pr_number:
+      presenter: Tim
+      done: 0
+
 
