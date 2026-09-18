@@ -65,3 +65,19 @@ plenaries:
       done: 0
 
 
+    - type: Reading
+      title: "ULFM: fault model is not completely defined"
+      issue_number: 816
+      pr_number: 1149
+      presenter: Joseph/Matt
+      done: 0
+      note: "US-friendly time"
+
+    - type: Reading
+      title: "Fault Tolerance: Failure Agreement"
+      issue_number: 1119
+      pr_number: 1148
+      presenter: Joseph/Matt
+      done: 0
+      note: "US-friendly time"
+
