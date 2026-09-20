@@ -105,3 +105,11 @@ plenaries:
       done: 0
       note: "US-friendly time"
 
+    - type: No-No Reading
+      title: "RMA Notification"
+      issue_number: 59
+      pr_number: 1131
+      presenter: Joseph
+      done: 0
+      link: "https://github.com/mpi-forum/mpi-standard/pull/1131/changes/3930a6b6582212e522293ffeac1122324d9998b1..5341e2b78173fbaac86b02fbc12c55326461f387"
+
