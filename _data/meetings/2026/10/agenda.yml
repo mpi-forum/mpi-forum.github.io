@@ -81,3 +81,27 @@ plenaries:
       done: 0
       note: "US-friendly time"
 
+    - type: Reading
+      title: "Deprecate MPI_PROD"
+      issue_number: 567
+      pr_number: 1152
+      presenter: Joseph
+      done: 0
+      note: "US-friendly time"
+
+    - type: Reading
+      title: "window displacement: large count and attribute questions/issues"
+      issue_number: 1112
+      pr_number: 1153
+      presenter: Joseph
+      done: 0
+      note: "US-friendly time"
+
+    - type: Errata Reading
+      title: "Don't suggest that predefined window attributes can be set"
+      issue_number: 1120
+      pr_number: 1154
+      presenter: Joseph
+      done: 0
+      note: "US-friendly time"
+
