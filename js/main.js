@@ -62,7 +62,12 @@ var main = {
       fakeMenu.remove();
     }        
     
-    // show the big header image	
+    // Wrap content tables in a scrollable container so wide tables
+    // (e.g. on the implementation status page) scroll horizontally
+    // instead of overflowing on narrow screens
+    $('div[role="main"] table').not('.highlight table').wrap('<div class="table-scroll"></div>');
+
+    // show the big header image
     main.initImgs();
   },
   

@@ -549,7 +549,40 @@ footer .theme-by {
   }
 }
 
+/* --- Wide screens --- */
+
+/* Bootstrap 3 caps .container at 1170px, which leaves huge margins on large
+   monitors. Add one more step so content uses more of very wide viewports. */
+@media only screen and (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
+
+/* Keep centered text columns readable on very wide screens: cap the
+   content column instead of letting it stretch across the whole pane. */
+@media only screen and (min-width: 1400px) {
+  .page-narrow {
+    float: none;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* --- Tables --- */
+
+/* Wide tables (e.g. the implementation status tables) get wrapped in
+   .table-scroll by main.js so they scroll horizontally instead of
+   overflowing their column on narrow screens. */
+.table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table-scroll > table {
+  margin-bottom: 0;
+}
 
 table {
   padding: 0;
