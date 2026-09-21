@@ -157,3 +157,12 @@ plenaries:
       presenter: Dominik
       done: 0
 
+    - type: No-No Reading
+      title: "Sessions and attribute caching"
+      issue_number: 1004
+      pr_number: 1129
+      presenter: Howard
+      done: 0
+      link: "https://github.com/mpi-forum/mpi-standard/pull/1129/changes/a5abbe977b974a0345944f5d4cb98f16947181c8..9c353a6eb9cd8ee5c467d5f6cfc6dee2bb2c4dc3"
+      note: "US-friendly time"
+
