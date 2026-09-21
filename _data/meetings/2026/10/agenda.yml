@@ -139,10 +139,21 @@ plenaries:
       presenter: Marc-Andre
       done: 0
 
+    - type: Plenary
+      title: "Tools WG: Interception & recording of MPI I/O internal communicate"
+      presenter: Bill
+      done: 0
+
     - type: Reading
       title: "Be clear about when MPI_ERROR is set, from the start"
       issue_number: 814
       pr_number: 968
       presenter: Joseph
+      done: 0
+      note: "US-friendly time"
+
+    - type: Plenary
+      title: "Sessions WG: MPI_Publish/Lookup dictionary"
+      presenter: Dominik
       done: 0
 
