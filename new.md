@@ -120,4 +120,5 @@ found on the meeting's logistics page. A list of all meetings can be found on
 the [voting meetings](../meetings) page.
 
 To stay up to date with all MPI Forum announcements, join the [MPI Forum mailing
-list](http://lists.mpi-forum.org/).
+list](https://mailman.cels.anl.gov/mailman3/lists/mpi-forum.lists.mpi-forum.org/)
+(see also the [mailing lists page](../mailing_lists/) for instructions).

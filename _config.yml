@@ -34,7 +34,7 @@ navbar-links:
     Resources:
         - New to the MPI Forum: "new/"
         - GitHub: "https://www.github.com/mpi-forum/"
-        - Mailing Lists: "http://lists.mpi-forum.org"
+        - Mailing Lists: "mailing_lists/"
         - Make Comments: "comments/"
         - Past Efforts: "mpi-past/"
 
