@@ -139,3 +139,10 @@ plenaries:
       presenter: Marc-Andre
       done: 0
 
+    - type: Reading
+      title: "Be clear about when MPI_ERROR is set, from the start"
+      issue_number: 814
+      pr_number: 968
+      presenter: Joseph
+      done: 0
+
