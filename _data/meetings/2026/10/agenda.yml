@@ -113,3 +113,29 @@ plenaries:
       done: 0
       link: "https://github.com/mpi-forum/mpi-standard/pull/1131/changes/3930a6b6582212e522293ffeac1122324d9998b1..5341e2b78173fbaac86b02fbc12c55326461f387"
 
+    - type: Reading
+      title: "Add new variant of MPI_Pcontrol that allows Fortran to pass more than just an integer value"
+      issue_number: 1122
+      pr_number: 1147
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Allow MPI_Pcontrol to be called at any time"
+      issue_number: 1118
+      pr_number: 1151
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Errata Reading
+      title: "Clarification for `user_data` in dropped event handler"
+      issue_number: 1121
+      pr_number: 1155
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Plenary
+      title: "Handle Introspection Interface"
+      presenter: Marc-Andre
+      done: 0
+
