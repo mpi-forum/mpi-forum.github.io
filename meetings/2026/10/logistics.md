@@ -37,7 +37,7 @@ The MPI Forum will be in Room [ADEG19](https://maps.tuwien.ac.at/?q=ADEG19).
 Details on the conference and venue can be found on the [conference
 website](https://eurompi.org/venue).
 
-### Hybrid Partipation
+### Hybrid Participation
 
 This meeting will be conducted in a hybrid manner with both in-person and remote
 participants. After registering, you can find the links for participating
@@ -47,3 +47,10 @@ not signed in, you will see a 404 error.
 
 [https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information](https://github.com/mpi-forum/mpi-standard/wiki/Virtual-Forum-Meeting-Information)
 
+### Dinners
+
+Claudia Blaas-Schenner has kindly reserved tables for us at two restaurants for
+dinners. These meals are self-pay and optional.
+
+* Monday - [Weiden Bräu](https://wieden-braeu.at/en/)
+* Tuesday - [Saigon](https://www.saigon.at/)
