@@ -64,6 +64,61 @@ plenaries:
       presenter: Tim
       done: 0
 
+    - type: Reading
+      title: "Add new variant of MPI_Pcontrol that allows Fortran to pass more than just an integer value"
+      issue_number: 1122
+      pr_number: 1147
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Reading
+      title: "Allow MPI_Pcontrol to be called at any time"
+      issue_number: 1118
+      pr_number: 1151
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Errata Reading
+      title: "Clarification for `user_data` in dropped event handler"
+      issue_number: 1121
+      pr_number: 1155
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Plenary
+      title: "Handle Introspection Interface"
+      presenter: Marc-Andre
+      done: 0
+
+    - type: Plenary
+      title: "Tools WG: Interception & recording of MPI I/O internal communicate"
+      presenter: Bill
+      done: 0
+
+    - type: Plenary
+      title: "Sessions WG: Add MPI Dictionary functionality to publish/lookup key-value pairs"
+      issue_number: 1123
+      pr_number: 1156
+      presenter: Dominik
+      done: 0
+
+    - type: No-No Reading
+      title: "Sessions and attribute caching"
+      issue_number: 1004
+      pr_number: 1129
+      presenter: Howard
+      done: 0
+      link: "https://github.com/mpi-forum/mpi-standard/pull/1129/changes/a5abbe977b974a0345944f5d4cb98f16947181c8..9c353a6eb9cd8ee5c467d5f6cfc6dee2bb2c4dc3"
+      note: "US-friendly time"
+
+    - type: No-No Reading
+      title: "RMA Notification"
+      issue_number: 59
+      pr_number: 1131
+      presenter: Joseph
+      done: 0
+      link: "https://github.com/mpi-forum/mpi-standard/pull/1131/changes/3930a6b6582212e522293ffeac1122324d9998b1..5341e2b78173fbaac86b02fbc12c55326461f387"
+      note: "US-friendly time"
 
     - type: Reading
       title: "ULFM: fault model is not completely defined"
@@ -105,66 +160,11 @@ plenaries:
       done: 0
       note: "US-friendly time"
 
-    - type: No-No Reading
-      title: "RMA Notification"
-      issue_number: 59
-      pr_number: 1131
-      presenter: Joseph
-      done: 0
-      link: "https://github.com/mpi-forum/mpi-standard/pull/1131/changes/3930a6b6582212e522293ffeac1122324d9998b1..5341e2b78173fbaac86b02fbc12c55326461f387"
-
-    - type: Reading
-      title: "Add new variant of MPI_Pcontrol that allows Fortran to pass more than just an integer value"
-      issue_number: 1122
-      pr_number: 1147
-      presenter: Marc-Andre
-      done: 0
-
-    - type: Reading
-      title: "Allow MPI_Pcontrol to be called at any time"
-      issue_number: 1118
-      pr_number: 1151
-      presenter: Marc-Andre
-      done: 0
-
-    - type: Errata Reading
-      title: "Clarification for `user_data` in dropped event handler"
-      issue_number: 1121
-      pr_number: 1155
-      presenter: Marc-Andre
-      done: 0
-
-    - type: Plenary
-      title: "Handle Introspection Interface"
-      presenter: Marc-Andre
-      done: 0
-
-    - type: Plenary
-      title: "Tools WG: Interception & recording of MPI I/O internal communicate"
-      presenter: Bill
-      done: 0
-
     - type: Reading
       title: "Be clear about when MPI_ERROR is set, from the start"
       issue_number: 814
       pr_number: 968
       presenter: Joseph
       done: 0
-      note: "US-friendly time"
-
-    - type: Plenary
-      title: "Sessions WG: Add MPI Dictionary functionality to publish/lookup key-value pairs"
-      issue_number: 1123
-      pr_number: 1156
-      presenter: Dominik
-      done: 0
-
-    - type: No-No Reading
-      title: "Sessions and attribute caching"
-      issue_number: 1004
-      pr_number: 1129
-      presenter: Howard
-      done: 0
-      link: "https://github.com/mpi-forum/mpi-standard/pull/1129/changes/a5abbe977b974a0345944f5d4cb98f16947181c8..9c353a6eb9cd8ee5c467d5f6cfc6dee2bb2c4dc3"
       note: "US-friendly time"
 
