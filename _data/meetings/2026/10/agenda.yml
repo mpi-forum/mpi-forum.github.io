@@ -153,7 +153,9 @@ plenaries:
       note: "US-friendly time"
 
     - type: Plenary
-      title: "Sessions WG: MPI_Publish/Lookup dictionary"
+      title: "Sessions WG: Add MPI Dictionary functionality to publish/lookup key-value pairs"
+      issue_number: 1123
+      pr_number: 1156
       presenter: Dominik
       done: 0
 
