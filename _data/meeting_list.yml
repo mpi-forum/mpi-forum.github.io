@@ -679,7 +679,7 @@ voting:
 
   - start: 2026-10-05
     end: 2026-10-06
-    title: 'Vienna, Austria (in conjuction with <a href="https://eurompi.org/">EuroMPI</a> Oct 7-9)'
+    title: 'Vienna, Austria (TU Wien) (in conjuction with <a href="https://eurompi.org/">EuroMPI</a> Oct 7-9)'
     links: "yes"
 
   - start: 2026-06-01
@@ -701,7 +701,7 @@ voting:
 
   - start: 2025-09-29
     end: 2025-10-01
-    title: "Charlotte, NC, USA"
+    title: 'Charlotte, NC, USA (UNC Charlotte) (In conjunction with <a href="https://eurompi.org/eurompi25.github.io/">EuroMPI/USA 2025</a>)'
     links: "yes"
 
   - start: 2025-06-04
