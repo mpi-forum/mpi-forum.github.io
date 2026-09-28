@@ -58,7 +58,7 @@ plenaries:
       done: 0
 
     - type: Plenary
-      title: "Adding state to MPI_Op_create and others"
+      title: "redo callbacks to support third-party languages"
       issue_number: 839
       pr_number:
       presenter: Tim
