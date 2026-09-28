@@ -50,7 +50,7 @@ def main():
             milestone = None
 
     issue = repo.get_issue(number=issue_number)
-    if not hasLabel(issue.get_labels(), "scheduled_reading") and reading:
+    if not hasLabel(issue.get_labels(), "scheduled reading") and reading:
         issue.add_to_labels("scheduled reading")
         print("Adding 'scheduled reading' to issue " + str(issue_number))
 
@@ -76,14 +76,17 @@ def main():
             agenda_list.write("      presenter: " + presenter + "\n")
             agenda_list.write("      done: 0\n\n")
 
+    # votes.csv uses "1st"/"2nd" but the GitHub labels are "scheduled first/second vote"
+    label_vote_type = {"1st": "first", "2nd": "second"}.get(vote_type, vote_type)
+
     print("Writing to votes")
     if vote_type != "":
         votes_list.write("" + str(issue_number) + "," + str(pr_number) + ",\"" + title + "\"," + vote_type + "\n")
 
-        if not hasLabel(issue.get_labels(), f"scheduled {vote_type} vote"):
+        if not hasLabel(issue.get_labels(), f"scheduled {label_vote_type} vote"):
             if not dry_run:
-                issue.add_to_labels(f"scheduled {vote_type} vote")
-            print(f"Adding 'scheduled {vote_type} vote' to issue " + str(issue_number))
+                issue.add_to_labels(f"scheduled {label_vote_type} vote")
+            print(f"Adding 'scheduled {label_vote_type} vote' to issue " + str(issue_number))
 
     votes_list.close()
     agenda_list.close()
