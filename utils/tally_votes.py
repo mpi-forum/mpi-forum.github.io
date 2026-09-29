@@ -8,7 +8,6 @@ import os.path
 # below. Otherwise this function won't be able to confirm that the ballot came from the correct
 # person (or that the person even registered).
 def confirm_id(id, name, org, attendance_list):
-    # Ballot ID confirmation is disabled; every ballot is accepted.
     return 1;
 
 def delete_from_list(org, ooe_list):
