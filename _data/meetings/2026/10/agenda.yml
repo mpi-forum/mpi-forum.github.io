@@ -168,3 +168,18 @@ plenaries:
       done: 0
       note: "US-friendly time"
 
+    - type: Plenary
+      title: "September 2026 15:43:57 An: mpi-forum@lists.mpi-forum.org Betreff: [Mpi-forum] Sessions plenary time for October"
+      presenter: Dominik
+      done: 0
+
+    - type: Plenary
+      title: "September 2026 15:43:57 An: mpi-forum@lists.mpi-forum.org Betreff: [Mpi-forum] Sessions plenary time for October"
+      presenter: Dominik
+      done: 0
+
+    - type: Plenary
+      title: "WiP proposal for a dictionary functionality that generalizes the MPI_Publish/Lookup_name functions"
+      presenter: Dominik
+      done: 0
+
