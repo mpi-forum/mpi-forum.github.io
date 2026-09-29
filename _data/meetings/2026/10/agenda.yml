@@ -168,3 +168,8 @@ plenaries:
       done: 0
       note: "US-friendly time"
 
+    - type: Plenary
+      title: "Handle Introspection Interface"
+      presenter: MarcAndre
+      done: 0
+
