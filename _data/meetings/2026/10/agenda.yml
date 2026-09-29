@@ -168,3 +168,8 @@ plenaries:
       done: 0
       note: "US-friendly time"
 
+    - type: Plenary
+      title: "One other request for plenary time from the tools WG: we have a WIP proposal to create (and eventually standardize) MPI_T control variables"
+      presenter: William
+      done: 0
+
