@@ -8,18 +8,7 @@ import os.path
 # below. Otherwise this function won't be able to confirm that the ballot came from the correct
 # person (or that the person even registered).
 def confirm_id(id, name, org, attendance_list):
-    #print("MATCH ID for " + name + ", " + org);
-    #for entry in iter(attendance_list):
-    #    #print(entry);
-    #    if (id == entry['uuid'] and
-    #            name == entry['name'] and
-    #            org == entry['org']):
-    #        return 1;
-    #    else:
-    #        print("Expected ID for " + name + ", " + org + ": " + entry['uuid'])
-    #        print("Got ID: " + id)
-    #        print("Got name: " + entry['name'])
-    #        print("Got org: " + entry['org'])
+    # Ballot ID confirmation is disabled; every ballot is accepted.
     return 1;
 
 def delete_from_list(org, ooe_list):

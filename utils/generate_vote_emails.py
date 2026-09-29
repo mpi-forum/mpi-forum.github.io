@@ -21,7 +21,7 @@ curr_attendance_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/meetings/2
 curr_registration_file = "/Users/wbland/mpi/meeting-details/2026-10-oct/2026-10-05-registration.csv"
 transition_orgs_file   = "/Users/wbland/mpi/mpi-forum.github.io/_data/orgs.csv"
 # Make sure to use a pre-filled link here so it gets email out correctly
-voting_link = "https://docs.google.com/forms/d/e/1FAIpQLScERPe62yiooGUtwe7AlSEkgXYOxDmfB5djbxNc7fWChq9Mdw/viewform?usp=pp_url&entry.1380810714={name}&entry.1057717553={org}&entry.1498386614={id}"
+voting_link = "https://docs.google.com/forms/d/e/1FAIpQLScERPe62yiooGUtwe7AlSEkgXYOxDmfB5djbxNc7fWChq9Mdw/viewform?usp=pp_url&entry.1380810714={name}&entry.1057717553={org}"
 
 vote_name = "October 2026 Day 1"
 closing_time = "09:00am on October 6, 2026"
@@ -248,8 +248,7 @@ def main():
             name = row['name']
             safe_name = urllib.parse.quote_plus(name)
             safe_org = urllib.parse.quote_plus(org)
-            safe_uuid = urllib.parse.quote_plus(row['uuid'])
-            text_link = voting_link.format(name=safe_name, org=safe_org, id=safe_uuid)
+            text_link = voting_link.format(name=safe_name, org=safe_org)
 
             message_text = """\
 Hi {name},

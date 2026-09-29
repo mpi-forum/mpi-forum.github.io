@@ -2,7 +2,6 @@
 
 import csv
 import sys
-import uuid
 
 orgs = {
         }
@@ -46,7 +45,7 @@ def main():
 
     attendanceWriter = csv.DictWriter(open('attendance.csv', 'w', newline=''), ['name','org','remote','attend'], quoting = csv.QUOTE_ALL)
     attendanceWriter.writeheader()
-    registrationWriter = csv.DictWriter(open('registration.csv', 'w', newline=''), ['name','org','email','uuid'], quoting = csv.QUOTE_ALL)
+    registrationWriter = csv.DictWriter(open('registration.csv', 'w', newline=''), ['name','org','email'], quoting = csv.QUOTE_ALL)
     registrationWriter.writeheader()
     inPersonWriter = csv.DictWriter(open('inPerson.csv', 'w', newline=''), ['First Name','Last Name','Email','Company (opt)','Under 18 (opt)'], quoting = csv.QUOTE_ALL)
     inPersonWriter.writeheader()
@@ -84,7 +83,7 @@ def main():
             names[name] = 1
 
         attendanceWriter.writerow({'name': name, 'org': org, 'remote': remote, 'attend': '1'})
-        registrationWriter.writerow({'name': name, 'org': org, 'email': email, 'uuid': uuid.uuid1()})
+        registrationWriter.writerow({'name': name, 'org': org, 'email': email})
         if remote == 0 and name != "Wes Bland":
             inPersonWriter.writerow({'First Name': first_name, 'Last Name': last_name, 'Email': email, 'Company (opt)':'', 'Under 18 (opt)':''})
 
