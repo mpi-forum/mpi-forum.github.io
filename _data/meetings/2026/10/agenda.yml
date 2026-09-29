@@ -168,3 +168,9 @@ plenaries:
       done: 0
       note: "US-friendly time"
 
+
+    - type: Plenary
+      title: "Upcoming meeting dates"
+      presenter: Martin/Wes
+      done: 0
+      note: "Monday, US-friendly time"
