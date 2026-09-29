@@ -2,7 +2,6 @@
 
 import csv
 import sys
-import uuid
 
 def main():
     registration_file=sys.argv[1]; # File with registrations from Google Form
@@ -21,7 +20,7 @@ def main():
 
     attendanceWriter = csv.DictWriter(open('attendance.csv', 'w', newline=''), ['name','org','remote','attend'], quoting = csv.QUOTE_ALL);
     attendanceWriter.writeheader();
-    registrationWriter = csv.DictWriter(open('registration.csv', 'w', newline=''), ['name','org','email','uuid'], quoting = csv.QUOTE_ALL);
+    registrationWriter = csv.DictWriter(open('registration.csv', 'w', newline=''), ['name','org','email'], quoting = csv.QUOTE_ALL);
     registrationWriter.writeheader();
 
     print("Writing attendance.csv and registration.csv...");
@@ -45,7 +44,7 @@ def main():
             names[name] = 1;
 
         attendanceWriter.writerow({'name': name, 'org': org, 'remote': remote, 'attend': '1'});
-        registrationWriter.writerow({'name': name, 'org': org, 'email': email, 'uuid': uuid.uuid1()});
+        registrationWriter.writerow({'name': name, 'org': org, 'email': email});
 
     print("\n=====\n");
 
