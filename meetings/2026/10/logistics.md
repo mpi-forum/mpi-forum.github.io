@@ -15,9 +15,7 @@ Registration is available here:
 [https://forms.gle/hW4tJvfTnGwdzk7q7](https://forms.gle/hW4tJvfTnGwdzk7q7)
 
 There is no registration fee for the MPI Forum meeting itself, though the
-EuroMPI conference does have a separate registration fee. Coffee breaks and
-rooms are sponsored by TU Wien this time and lunches will be self-pay at a
-nearby restaurant.
+EuroMPI conference does have a separate registration fee.
 
 For the EuroMPI conference that will take place in the same location
 immediately following the MPI Forum meeting, registration is here:
@@ -31,7 +29,7 @@ EuroMPI 2026.
 
 Address: TU Wien, Karlsplatz 13, 1040 Vienna, Austria
 
-The MPI Forum will be in Room [ADEG19](https://maps.tuwien.ac.at/?q=ADEG19).
+The MPI Forum will be in Room [ADEG19](https://maps.tuwien.ac.at/?q=ADEG19) and lunches will be at Café-Restaurant Resselpark.
 
 
 Details on the conference and venue can be found on the [conference
@@ -52,5 +50,5 @@ not signed in, you will see a 404 error.
 Claudia Blaas-Schenner has kindly reserved tables for us at two restaurants for
 dinners. These meals are self-pay and optional.
 
-* Monday - [Weiden Bräu](https://wieden-braeu.at/en/)
+* Monday - [Wieden Bräu](https://wieden-braeu.at/en/)
 * Tuesday - [Saigon](https://www.saigon.at/)
