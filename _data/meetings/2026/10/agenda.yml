@@ -118,6 +118,14 @@ plenaries:
       done: 1
       note: "US-friendly time"
 
+    - type: Reading
+      title: "window displacement: large count and attribute questions/issues"
+      issue_number: 1112
+      pr_number: 1153
+      presenter: Joseph
+      done: 1
+      note: "US-friendly time"
+
     - type: Plenary
       title: "redo callbacks to support third-party languages"
       issue_number: 839
@@ -150,14 +158,6 @@ plenaries:
       issue_number: 1119
       pr_number: 1148
       presenter: Joseph/Matt
-      done: 0
-      note: "US-friendly time"
-
-    - type: Reading
-      title: "window displacement: large count and attribute questions/issues"
-      issue_number: 1112
-      pr_number: 1153
-      presenter: Joseph
       done: 0
       note: "US-friendly time"
 
