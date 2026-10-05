@@ -118,7 +118,7 @@ plenaries:
       pr_number: 1131
       presenter: Joseph
       done: 1
-      link: "https://github.com/mpi-forum/mpi-standard/pull/1131/changes/3930a6b6582212e522293ffeac1122324d9998b1..5341e2b78173fbaac86b02fbc12c55326461f387"
+      link: "https://github.com/mpi-forum/mpi-standard/pull/1131/changes/3930a6b6582212e522293ffeac1122324d9998b1..fbfb3c21aad223e8f9276b0d9af65cf7570cc7aa"
       note: "US-friendly time"
 
     - type: Reading
