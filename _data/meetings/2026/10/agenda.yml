@@ -69,7 +69,7 @@ plenaries:
       issue_number: 1122
       pr_number: 1147
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Reading
       title: "Allow MPI_Pcontrol to be called at any time"
