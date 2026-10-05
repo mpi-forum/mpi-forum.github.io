@@ -83,7 +83,7 @@ plenaries:
       issue_number: 1121
       pr_number: 1155
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Handle Introspection Interface"
