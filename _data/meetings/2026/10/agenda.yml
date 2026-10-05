@@ -136,7 +136,7 @@ plenaries:
       issue_number: 839
       pr_number:
       presenter: Tim
-      done: 0
+      done: 1
 
     - type: Plenary
       title: "Tools WG: Interception & recording of MPI I/O internal communicate"
