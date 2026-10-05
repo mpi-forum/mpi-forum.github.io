@@ -1,0 +1,39 @@
+schedule:
+    - day: Monday, December 14
+    - start: 2026-12-14T09:00
+      end: 2026-12-14T13:00
+      title: "Plenaries, see below"
+
+    - endday: done
+
+    - day: Tuesday, December 15
+    - start: 2026-12-15T09:00
+      end: 2026-12-15T13:00
+      title: "Plenaries, see below"
+
+    - endday: done
+
+    - day: Wednesday, December 16
+    - start: 2026-12-16T09:00
+      end: 2026-12-16T13:00
+      title: "Plenaries, see below"
+
+    - endday: done
+
+    - day: Thursday, December 17
+    - start: 2026-12-17T09:00
+      end: 2026-12-17T13:00
+      title: "Plenaries, see below"
+
+    - endday: done
+
+plenaries:
+    - type: Welcome
+      title: Introductions
+      presenter: All
+      done: 0
+
+    - type: Update
+      title: WG Status
+      presenter: All WG chairs or their proxies
+      done: 0
