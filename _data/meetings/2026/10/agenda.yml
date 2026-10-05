@@ -51,20 +51,6 @@ plenaries:
       done: 1
 
     - type: Reading
-      title: "Add spawn mechanism compatible to Sessions"
-      issue_number: 1116
-      pr_number: 1150
-      presenter: Sonja
-      done: 1
-
-    - type: Plenary
-      title: "redo callbacks to support third-party languages"
-      issue_number: 839
-      pr_number:
-      presenter: Tim
-      done: 0
-
-    - type: Reading
       title: "Add new variant of MPI_Pcontrol that allows Fortran to pass more than just an integer value"
       issue_number: 1122
       pr_number: 1147
@@ -78,6 +64,13 @@ plenaries:
       presenter: Marc-Andre
       done: 1
 
+    - type: Reading
+      title: "Add spawn mechanism compatible to Sessions"
+      issue_number: 1116
+      pr_number: 1150
+      presenter: Sonja
+      done: 1
+
     - type: Errata Reading
       title: "Clarification for `user_data` in dropped event handler"
       issue_number: 1121
@@ -85,11 +78,52 @@ plenaries:
       presenter: Marc-Andre
       done: 1
 
+    - type: No-No Reading
+      title: "Sessions and attribute caching"
+      issue_number: 1004
+      pr_number: 1129
+      presenter: Howard
+      done: 1
+      link: "https://github.com/mpi-forum/mpi-standard/pull/1129/changes/a5abbe977b974a0345944f5d4cb98f16947181c8..15a38e9dd35644140029659929600b58377ed463"
+      note: "US-friendly time"
+
+    - type: Errata Reading
+      title: "Don't suggest that predefined window attributes can be set"
+      issue_number: 1120
+      pr_number: 1154
+      presenter: Joseph
+      done: 1
+      note: "US-friendly time"
+
+    - type: No-No Reading
+      title: "RMA Notification"
+      issue_number: 59
+      pr_number: 1131
+      presenter: Joseph
+      done: 1
+      link: "https://github.com/mpi-forum/mpi-standard/pull/1131/changes/3930a6b6582212e522293ffeac1122324d9998b1..fbfb3c21aad223e8f9276b0d9af65cf7570cc7aa"
+      note: "US-friendly time"
+
     - type: Plenary
       title: "Handle Introspection Interface"
       presenter: Joachim
       done: 1
       note: "Monday afternoon"
+
+    - type: Reading
+      title: "Deprecate MPI_PROD"
+      issue_number: 567
+      pr_number: 1152
+      presenter: Joseph
+      done: 1
+      note: "US-friendly time"
+
+    - type: Plenary
+      title: "redo callbacks to support third-party languages"
+      issue_number: 839
+      pr_number:
+      presenter: Tim
+      done: 0
 
     - type: Plenary
       title: "Tools WG: Interception & recording of MPI I/O internal communicate"
@@ -102,24 +136,6 @@ plenaries:
       pr_number: 1156
       presenter: Dominik
       done: 0
-
-    - type: No-No Reading
-      title: "Sessions and attribute caching"
-      issue_number: 1004
-      pr_number: 1129
-      presenter: Howard
-      done: 1
-      link: "https://github.com/mpi-forum/mpi-standard/pull/1129/changes/a5abbe977b974a0345944f5d4cb98f16947181c8..15a38e9dd35644140029659929600b58377ed463"
-      note: "US-friendly time"
-
-    - type: No-No Reading
-      title: "RMA Notification"
-      issue_number: 59
-      pr_number: 1131
-      presenter: Joseph
-      done: 1
-      link: "https://github.com/mpi-forum/mpi-standard/pull/1131/changes/3930a6b6582212e522293ffeac1122324d9998b1..fbfb3c21aad223e8f9276b0d9af65cf7570cc7aa"
-      note: "US-friendly time"
 
     - type: Reading
       title: "ULFM: fault model is not completely defined"
@@ -138,27 +154,11 @@ plenaries:
       note: "US-friendly time"
 
     - type: Reading
-      title: "Deprecate MPI_PROD"
-      issue_number: 567
-      pr_number: 1152
-      presenter: Joseph
-      done: 1
-      note: "US-friendly time"
-
-    - type: Reading
       title: "window displacement: large count and attribute questions/issues"
       issue_number: 1112
       pr_number: 1153
       presenter: Joseph
       done: 0
-      note: "US-friendly time"
-
-    - type: Errata Reading
-      title: "Don't suggest that predefined window attributes can be set"
-      issue_number: 1120
-      pr_number: 1154
-      presenter: Joseph
-      done: 1
       note: "US-friendly time"
 
     - type: Reading
