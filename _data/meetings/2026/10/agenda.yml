@@ -139,15 +139,15 @@ plenaries:
       done: 1
 
     - type: Plenary
-      title: "Tools WG: Interception & recording of MPI I/O internal communicate"
-      presenter: Bill
-      done: 0
-
-    - type: Plenary
       title: "Sessions WG: Add MPI Dictionary functionality to publish/lookup key-value pairs"
       issue_number: 1123
       pr_number: 1156
       presenter: Dominik
+      done: 1
+
+    - type: Plenary
+      title: "Tools WG: Interception & recording of MPI I/O internal communicate"
+      presenter: Bill
       done: 0
 
     - type: Reading
