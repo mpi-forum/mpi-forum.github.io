@@ -170,6 +170,13 @@ plenaries:
 
 
     - type: Plenary
+      title: "Pre-read: MPI_PARRIVED_ANY / MPI_PARRIVED_SOME for partitioned communication"
+      issue_number: 537
+      pr_number: 1159
+      presenter: Tony
+      done: 0
+
+    - type: Plenary
       title: "Upcoming meeting dates"
       presenter: Martin/Wes
       done: 0
