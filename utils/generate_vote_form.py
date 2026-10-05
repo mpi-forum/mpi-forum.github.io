@@ -135,26 +135,7 @@ def main():
         formId=createResult["formId"], body=update).execute()
     print(result)
 
-    update = {
-        "requests": [{
-            "createItem": {
-                "item": {
-                    "title": "ID (Pre-filled - Do not edit)",
-                    "questionItem": { "question": { "required": True, "textQuestion": {} } }
-                },
-                "location": {
-                    "index": 2
-                }
-            },
-        }]
-    }
-
-    # Add the item to the form
-    result = form_service.forms().batchUpdate(
-        formId=createResult["formId"], body=update).execute()
-    print(result)
-
-    item_counter = 3
+    item_counter = 2
     for vote_type in votes.keys():
         if len(votes[vote_type]) > 0:
             update = {
