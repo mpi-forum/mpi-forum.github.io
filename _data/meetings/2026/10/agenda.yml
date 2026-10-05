@@ -176,6 +176,7 @@ plenaries:
       pr_number: 1159
       presenter: Tony
       done: 0
+      note: "US-friendly time"
 
     - type: Plenary
       title: "Upcoming meeting dates"
