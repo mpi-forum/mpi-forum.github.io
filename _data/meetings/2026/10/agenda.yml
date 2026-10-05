@@ -76,7 +76,7 @@ plenaries:
       issue_number: 1118
       pr_number: 1151
       presenter: Marc-Andre
-      done: 0
+      done: 1
 
     - type: Errata Reading
       title: "Clarification for `user_data` in dropped event handler"
