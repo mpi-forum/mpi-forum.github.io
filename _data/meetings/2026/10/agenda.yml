@@ -158,7 +158,7 @@ plenaries:
       issue_number: 1120
       pr_number: 1154
       presenter: Joseph
-      done: 0
+      done: 1
       note: "US-friendly time"
 
     - type: Reading
