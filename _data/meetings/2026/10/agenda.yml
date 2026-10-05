@@ -119,6 +119,11 @@ plenaries:
       note: "US-friendly time"
 
     - type: Plenary
+      title: "Upcoming meeting dates"
+      presenter: Martin/Wes
+      done: 1
+      note: "Monday, US-friendly time"
+    - type: Plenary
       title: "redo callbacks to support third-party languages"
       issue_number: 839
       pr_number:
@@ -178,8 +183,3 @@ plenaries:
       done: 0
       note: "US-friendly time"
 
-    - type: Plenary
-      title: "Upcoming meeting dates"
-      presenter: Martin/Wes
-      done: 0
-      note: "Monday, US-friendly time"
