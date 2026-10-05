@@ -89,6 +89,7 @@ plenaries:
       title: "Handle Introspection Interface"
       presenter: Marc-Andre
       done: 0
+      note: "Monday afternoon"
 
     - type: Plenary
       title: "Tools WG: Interception & recording of MPI I/O internal communicate"
