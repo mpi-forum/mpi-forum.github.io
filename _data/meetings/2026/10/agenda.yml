@@ -87,8 +87,8 @@ plenaries:
 
     - type: Plenary
       title: "Handle Introspection Interface"
-      presenter: Marc-Andre
-      done: 0
+      presenter: Joachim
+      done: 1
       note: "Monday afternoon"
 
     - type: Plenary
@@ -109,7 +109,7 @@ plenaries:
       pr_number: 1129
       presenter: Howard
       done: 1
-      link: "https://github.com/mpi-forum/mpi-standard/pull/1129/changes/a5abbe977b974a0345944f5d4cb98f16947181c8..9c353a6eb9cd8ee5c467d5f6cfc6dee2bb2c4dc3"
+      link: "https://github.com/mpi-forum/mpi-standard/pull/1129/changes/a5abbe977b974a0345944f5d4cb98f16947181c8..15a38e9dd35644140029659929600b58377ed463"
       note: "US-friendly time"
 
     - type: No-No Reading
