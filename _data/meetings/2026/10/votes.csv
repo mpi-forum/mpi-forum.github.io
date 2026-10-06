@@ -1,7 +1,7 @@
-issue_number,pr_number,topic,type,yes,no,abstain,missed
-1004,1129,"Sessions and attribute caching",no-no
-1004,1129,"Sessions and attribute caching",1st
-1120,1154,"Don't suggest that predefined window attributes can be set",errata
-59,1131,"RMA Notification",no-no
-59,1131,"RMA Notification",1st
-1121,1155,"Clarification for `user_data` in dropped event handler",errata
+"issue_number","pr_number","topic","type","yes","no","abstain","missed"
+"1004","1129","Sessions and attribute caching","no-no","25","0","4","0"
+"1120","1154","Don't suggest that predefined window attributes can be set","errata","25","0","4","0"
+"59","1131","RMA Notification","no-no","25","0","4","0"
+"1121","1155","Clarification for `user_data` in dropped event handler","errata","24","0","5","0"
+"1004","1129","Sessions and attribute caching","1st","","","",""
+"59","1131","RMA Notification","1st","","","",""
