@@ -170,7 +170,7 @@ plenaries:
       title: "ULFM: fault model is not completely defined"
       issue_number: 816
       pr_number: 1149
-      presenter: Joseph/Matt
+      presenter: Matthew
       done: 0
       note: "US-friendly time"
 
@@ -178,7 +178,7 @@ plenaries:
       title: "Fault Tolerance: Failure Agreement"
       issue_number: 1119
       pr_number: 1148
-      presenter: Joseph/Matt
+      presenter: Matthew
       done: 0
       note: "US-friendly time"
 
