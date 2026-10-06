@@ -164,7 +164,7 @@ plenaries:
     - type: Plenary
       title: "Tools WG: Interception & recording of MPI I/O internal communicate"
       presenter: Bill
-      done: 0
+      done: 1
 
     - type: Reading
       title: "ULFM: fault model is not completely defined"
