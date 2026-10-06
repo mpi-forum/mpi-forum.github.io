@@ -179,7 +179,7 @@ plenaries:
       issue_number: 1119
       pr_number: 1148
       presenter: Matthew
-      done: 0
+      done: 1
       note: "US-friendly time"
 
     - type: Reading
