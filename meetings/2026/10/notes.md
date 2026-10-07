@@ -194,3 +194,57 @@ A set of minor but numerous corrections bundled for no-no vote, including:
 | **RMA**                         | Active                          | MPI_PROD, displacement issues, notified communication                                                          |
 | **Point-to-Point / Persistent** | On hold                         | No current activity                                                                                            |
 
+# Day 2
+
+## Quick recap
+
+The morning meeting focused on two main topics: proposals for intercepting and recording internal MPI I/O communication for performance analysis, and updates to the MPI fault tolerance model. Bill presented a proposal from Max Zonder to expose internal MPI I/O communication via an MPIT control variable, sparking a discussion on generalizing this concept to other internal communications like collectives. The group then reviewed Matthew's detailed proposal to clarify and update the MPI fault model, introducing new terms like "failed process group" and "failure precluded" to define process states and error handling. The discussion delved into complex scenarios such as misrecorded failures, disjoint process groups, and the handling of "ghost" processes in MPI AnySource receives. Matthew also presented the new MPICommAgreeFailed function, designed to agree on a consistent group of failed processes, with examples illustrating its use for safe communicator creation. The conversation ended with plans to continue discussions after a lunch break.
+
+The afternoon meeting focused on reviewing and refining MPI standard text and discussing ongoing development work. MPI and Joseph confirmed that the fault tolerance discussion had been completed with only a few comments and general agreement. Joseph then presented a proposal to reorder and clarify the text regarding the status object in the point-to-point chapter, specifically how the error field is updated only by procedures returning MPI_ERR_IN_STATUS. Tony provided a detailed recap of a long-standing proposal for P_arrived_any and P_arrived_some APIs to support out-of-order reception of partitions, explaining their importance for early bird communication and concurrency. Tony also discussed the ongoing research into kernel-initiated communication for GPUs and how it relates to streaming communication work led by Patrick Bridges. MPI provided an update on the spring meeting scheduling, noting that TAC strongly discouraged a March meeting due to logistical issues in Austin, and mentioned that the December meeting remained scheduled. The conversation ended with a brief mention of voting on the proposal and a group photo.
+
+## Summary
+
+### MPIIO Interception Proposal Discussion
+
+MPI presented a proposal from Max Zonder to implement interception and recording of MPIIO internal communication through an MPIT control variable, allowing performance analysis without requiring MPI recompilation. The discussion focused on whether this approach should be generalized to include collectives beyond just I/O operations, with concerns raised about future-proofing and implementation complexity. The group agreed on the need for iterative development and prototyping before formal standardization, with plans to explore existing implementations to identify common ground and missing features for future MPIT events specifications.
+
+### Fault Model Updates Presentation
+
+Matthew presented updates to the fault model section in the fault tolerance chapter, focusing on clarifying and making the definitions more precise. He introduced key concepts including failed and extant processes, failed process groups, and terms like recorded failed and misrecorded failed. The discussion included a controversial aspect about how failure determination applies across all communicators and sessions for a given MPI process. The group also discussed the potential for future extensions to handle transient failures without breaking backwards compatibility.
+
+### MPI Fault Knowledge Discussion
+
+Matthew and MPI discussed the use of the term "comprehensive" in describing MPI fault knowledge, agreeing to change it to avoid misleading users about current implementation capabilities. They reviewed requirements for fault tolerance errors in MPI operations and clarified that at least one failed process must be recorded in the failed process group when an error occurs. The discussion also covered implementation options for handling different fault types, including the ability to terminate or misrecord processes, with a requirement for implementations to document such policies.
+
+### MPI Process Failure Handling Discussion
+
+The discussion focused on handling misreported MPI process failures in implementations. Matthew explained that implementations may detect misrecorded failures through verification methods but cannot bring back misreported processes as this would break application recovery logic. The standard allows implementations to choose whether to terminate misreported processes, though this is implementation-defined behavior that should be documented. The group discussed different fault-tolerant design approaches, including democratic-style process management versus centralized process monitoring, with MPI suggesting a third option of allowing processes to rejoin after being marked as failed. The meeting took a break before continuing the discussion.
+
+### Meeting Restart Discussion Planning
+
+The meeting participants agreed to restart the discussion at 11:00. They planned to continue with a reading and then move on to a second topic after the restart. The immediate focus was on finishing a discussion about the last paragraph before resuming the main meeting.
+
+### MPI Documentation Updates Discussion
+
+Matthew discussed updates to MPI documentation, focusing on changing references from "failed process" to "recorded failed process" throughout the text to clarify the fault tolerance model. MPI raised a concern about handling ghost processes in any-source receives, particularly when hardware matching occurs after a process has been recorded as failed. The discussion explored implementation challenges of preventing ghost messages and the burden this would place on implementations, with MPI arguing that reissuing receives or maintaining additional bookkeeping would be too expensive to implement.
+
+### MPI Message Handling Strategy Discussion
+
+Matthew and MPI discussed handling messages from failed processes in MPI communication. They debated whether to report corrupted data or allow the application to receive messages from ghost processes. MPI argued that implementing a retry mechanism would be expensive and counter to the "fire and forget" design principle. Matthew countered that the performance cost is minimal and the current approach would force the application to handle the issue anyway. They agreed that while point-to-point communication is straightforward, any-source receipts require additional recovery steps after a failure, though this is primarily a performance concern rather than a correctness issue.
+
+### MPI AnySource Error Recovery Discussion
+
+The discussion focused on handling MPI AnySource receives after process failures and ghost processes. MPI explained that implementing error recovery would require saving input parameters to allow message replay, as current optimizations would need to be disabled. The group agreed that applications should be advised about the potential for errors when using AnySource receives with acknowledged failed processes, though the specific error handling approach would remain implementation-dependent. Matthew and MPI aligned on adding user advice to the documentation without requiring significant changes to the existing text or semantics.
+
+### MPICommAgreeFailed Proposal Discussion
+
+The team discussed a proposal for MPICommAgreeFailed, focusing on its functionality and semantics. They reviewed the proposed text and examples, including how the function handles failure groups and misreported failures. Matthew explained that the function returns a consistent group of recorded failed processes across all participants, allowing applications to safely exclude failed ranks when creating new communicators. The group agreed that the proposed semantics were clear and useful, even if they don't address all desired fault tolerance features. They decided to simplify the text by removing certain nuanced descriptions and planned to continue the discussion after lunch, with the possibility of US participants joining later.
+
+### MPI Documentation Clarification Updates
+The team completed their fault tolerance discussion with minimal issues and reached agreements on all points. Joseph presented item 814, which focused on reordering and clarifying text regarding the content and setting of status objects in MPI, particularly around error codes and field definitions. The proposed changes aim to make the language more clear about when the MPI error field should be updated and provide better consistency across different sections of the documentation.
+
+### Pre-Read Voting and Meeting Updates
+The meeting focused on voting for pre-read items, with Joseph requesting votes and Wes agreeing to add a comment to ensure items aren't forgotten. MPI announced that morning recordings would be posted soon. The group reviewed organizations that had not yet voted, including AMD, Cornellis, HPE, and others. MPI updated the group on a straw poll regarding spring meeting scheduling, noting that while February and March options were considered, TAC strongly discouraged a March meeting due to conflicts with South by Southwest and a rodeo event.
+
+### MPI-4 Partition Communication Proposal
+Tony presented a proposal to add partition communication features to MPI-4, specifically the P_arrive API which allows out-of-order reception of partitioned messages. The proposal was originally submitted in 2018 but was left out of the MPI-4 standard, and Tony is now seeking to resubmit it. The new APIs would enable early bird communication and support concurrent processing of message partitions, particularly beneficial for GPU and OpenMP parallelism. Tony indicated that while the CPU version is ready, the GPU implementation remains a work in progress and will require further development and demonstration of real-world use cases before being proposed for standardization.
