@@ -14,4 +14,4 @@ access to the [mpi-forum/mpi-standard](https://github.com/mpi-forum/mpi-standard
 have not been granted access to that repository in the past, email Wes Bland to get access.
 
 Registration is still required to track attendance, meeting quorum, and voting eligibility.
-Registration will open closer to the meeting date.
+Please [register here](https://docs.google.com/forms/d/1wV7X6lFpGmpWg1zmESTf_yKRCtOQpv6cXTN-lPg9kso/viewform).
