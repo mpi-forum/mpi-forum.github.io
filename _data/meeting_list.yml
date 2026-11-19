@@ -675,6 +675,13 @@ non_voting:
 
 voting:
 
+  - year: 2027
+
+  - start: 2027-03-15
+    end: 2027-03-18
+    title: "New York, NY, USA (Meta)"
+    links: "yes"
+
   - year: 2026
 
   - start: 2026-12-14
