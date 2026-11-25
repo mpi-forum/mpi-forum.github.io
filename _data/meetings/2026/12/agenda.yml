@@ -37,3 +37,9 @@ plenaries:
       title: WG Status
       presenter: All WG chairs or their proxies
       done: 0
+    - type: Reading
+      title: "Add spawn mechanism compatible to Sessions"
+      issue_number: 1116
+      pr_number: 1150
+      presenter: Sonja
+      done: 0
